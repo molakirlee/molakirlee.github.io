@@ -1,8 +1,8 @@
 # Site settings
-title: Hux Blog
+title: 神探玺洛克·Blog
 SEOTitle: 神探玺洛克 | XiLock Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: molakirlee@sina.com
 description: "一个学化工的厨子爱上推理 | For with thee is the fountain of life, and in thy light we shall see light.| @吃鱼座的XiLock"
 keyword: "推理，科学，美食，XiLock"
 url: "molakirlee.ga"              # your host, for absolute URL
@@ -13,8 +13,8 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     XiLock
-zhihu_username:     XiLock
+#weibo_username:     XiLock
+zhihu_username:     vimalakirti_lee
 #github_username:    XiLock
 #twitter_username:   XiLock
 #facebook_username:  XiLock
@@ -77,7 +77,7 @@ ga_domain: molakirlee.ga
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/kenantouxiang.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
