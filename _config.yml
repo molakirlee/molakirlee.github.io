@@ -1,11 +1,20 @@
 # Site settings
 title: Hux Blog
+<<<<<<< HEAD
 SEOTitle: 神探玺洛克 | XiLock Blog
 header-img: img/home-bg.jpg
 email: huxpro@gmail.com
 description: "一个学化工的厨子爱上推理 | For with thee is the fountain of life, and in thy light we shall see light.| @吃鱼座的XiLock"
 keyword: "推理，科学，美食，XiLock"
 url: "molakirlee.ga"              # your host, for absolute URL
+=======
+SEOTitle: 黄玄的博客 | Hux Blog
+header-img: img/home-bg.jpg
+email: huxpro@gmail.com
+description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
+keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+url: "https://huangxuan.me"              # your host, for absolute URL
+>>>>>>> 6d4efd695bab41dfa2e9dd6ced8f33e3fb98a25a
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,11 +22,19 @@ future: true
 
 # SNS settings
 RSS: false
+<<<<<<< HEAD
 weibo_username:     XiLock
 zhihu_username:     XiLock
 #github_username:    XiLock
 #twitter_username:   XiLock
 #facebook_username:  XiLock
+=======
+weibo_username:     huxpro
+zhihu_username:     huxpro
+github_username:    huxpro
+twitter_username:   huxpro
+#facebook_username:  huxpro
+>>>>>>> 6d4efd695bab41dfa2e9dd6ced8f33e3fb98a25a
 #linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -53,12 +70,17 @@ kramdown:
 
 
 # Disqus settings
+<<<<<<< HEAD
 disqus_username: molakirlee
 
 
 #多说及多说免分享
 #duoshuo_username: _你的用户名_
 #duoshuo_share: false
+=======
+disqus_username: hux
+
+>>>>>>> 6d4efd695bab41dfa2e9dd6ced8f33e3fb98a25a
 # Netease settings
 netease_comment: false
 
@@ -69,8 +91,13 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
+<<<<<<< HEAD
 ga_track_id: 'UA-126152523-1'            # Format: UA-xxxxxx-xx
 ga_domain: molakirlee.ga
+=======
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+>>>>>>> 6d4efd695bab41dfa2e9dd6ced8f33e3fb98a25a
 
 
 
@@ -99,7 +126,40 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
+<<<<<<< HEAD
     #    title: "乱序",
     #    href: "http://mida.re/"
     #}
+=======
+        title: "乱序",
+        href: "http://mida.re/"
+    },{
+        title: "前端外刊评论",
+        href: "http://qianduan.guru/"
+    },{
+        title: "天镶的博客",
+        href: "http://lingyu.wang/"
+    },{
+        title: "Luke 的自留地",
+        href: "http://hmqk1995.github.io"
+    },{
+        title: "Ebn's Blog",
+        href: "http://ebnbin.com/"
+    },{
+        title: "SmdCn's Blog",
+        href: "http://blog.smdcn.net"
+    },{
+        title: "David's Game",
+        href: "https://www.ruoyaowu.com/"
+    },{
+        title: "DHong Say",
+        href: "http://dhong.co"
+    },{
+        title: "尹峰以为",
+        href: "http://ingf.github.io/"
+    },{
+        title: "解旻的博客",
+        href: "http://xieminis.me/"
+    }
+>>>>>>> 6d4efd695bab41dfa2e9dd6ced8f33e3fb98a25a
 ]
