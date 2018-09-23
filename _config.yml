@@ -54,7 +54,12 @@ kramdown:
 
 # Disqus settings
 disqus_username: molakirlee
-#disqus_shortname: molakirlee
+layout: default
+comments: true
+# other options
+
+
+
 
 #多说及多说免分享
 #duoshuo_username: _你的用户名_
