@@ -40,9 +40,9 @@ anchorjs: true                          # if you want to customize anchor. check
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
 #缺少jekyll-paginate
-gems: [jekyll-paginate]
-paginate: 5
-#gem 'jekyll-paginate', group: :jekyll_plugins
+#gems: [jekyll-paginate]
+#paginate: 5
+gem 'jekyll-paginate', group: :jekyll_plugins
 
 
 # Markdown settings
