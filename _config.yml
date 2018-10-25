@@ -115,4 +115,7 @@ friends: [
         href: "http://mida.re/"
     }
 ]
-
+#缺少jekyll-paginate
+gems: [jekyll-paginate]
+paginate: 5
+gem 'jekyll-paginate', group: :jekyll_plugins
