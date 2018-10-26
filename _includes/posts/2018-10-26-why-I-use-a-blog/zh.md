@@ -1,4 +1,4 @@
- “Yeah It's on. ”
+ “Here We Go. ”
 
 
 # 前言
@@ -53,7 +53,15 @@ XiLock开始开疆拓土!
 
 Jekyll 主题上直接 fork 了 黄导的 Blog
 
-本地调试环境需要 `gem install jekyll`，结果 rubygem 的源居然被墙了……后来从网上查了下改成淘宝的镜像源才成功
+简单说下jekyll安装的过程
+
+- 下载[Ruby+Devkit](https://rubyinstaller.org/downloads/)并安装，**安装过程中记得勾选添加环境变量**。完成后通过`ruby -v`检查是否安装成功。
+- `gem -v`检查gem是否安装成功。
+- `gem install jekyll`安装jekyll。（若提示“don't have jekyll-paginate or one of its dependencies installed”，则可能是因为没有安装jekyll-paginate。用`gem list`查看下“LOCAL GEMS”，若没有jekyll-paginate则通过`gem install jekyll-paginate`安装）
+
+jekyll本地动态监视网站的命令为`jekyll s --watch`
+
+*PS:本地调试环境需要 `gem install jekyll`，结果 rubygem 的源居然被墙了……后来从网上查了下改成淘宝的镜像源才成功。*
 
 theme 的 CSS 是基于 Bootstrap 定制的，看得不爽的地方直接在 Less 里改就好。
 
@@ -70,12 +78,9 @@ Jekyll的文件结构可以参考 [掘金](https://juejin.im/post/5b235a1cf265da
 之后又考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
 
 
-
-
 # 后记
 
 回顾这个博客的诞生，纯粹是出于个人兴趣，也终究只是个人兴趣。
-
 
 既然生命不长，到了这里，希望你喜欢这里的文章。
 
