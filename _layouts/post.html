@@ -97,16 +97,26 @@ layout: default
                     <div id="disqus_thread" class="disqus-thread"></div>
                 </div>
                 <!-- disqus 评论框 end -->
-<!-- disqus 评论框 start -->
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-
                 {% endif %}
+
+                <!--添加文章二维码 start-->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+                <!--<script type="text/javascript" src="/js/jquery.qrcode.min.js"></script>
+                -->
+                <script type="text/javascript" src="/js/jquery.qrcode.js"></script>
+                <script type="text/javascript" src="/js/qrcode.js"></script>
+                <p align="center"><b>手机版“神探玺洛克”请扫码</b></p>
+                <div id="qrcodeCanvas" align="center"></div>
+                
+                <script>
+                //jQuery('#qrcode').qrcode("this plugin is great");
+                jQuery('#qrcodeCanvas').qrcode({
+                text	: "http://chufang.cf"
+                });	
+                </script>
+                <!--添加文章二维码 end-->
+
+
 
                 {% if site.netease_comment %}
                 <!-- 网易云跟帖 评论框 start -->

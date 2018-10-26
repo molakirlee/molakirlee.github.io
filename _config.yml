@@ -1,5 +1,5 @@
 # Site settings
-title: 神探玺洛克·Blog
+title: 神探玺洛克的厨房 Blog
 SEOTitle: 神探玺洛克 | XiLock Blog
 header-img: img/home-bg.jpg
 email: molakirlee@sina.com
@@ -39,8 +39,6 @@ anchorjs: true                          # if you want to customize anchor. check
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
-#gems: [jekyll-paginate]
-
 
 
 # Markdown settings
@@ -60,7 +58,6 @@ disqus_username: molakirlee
 layout: default
 comments: true
 # other options
-
 
 
 
@@ -101,13 +98,14 @@ service-worker: true
 
 
 
+
 # Friends
 friends: [
     {
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
+    #    title: "乱序",
+    #    href: "http://mida.re/"
     }
 ]

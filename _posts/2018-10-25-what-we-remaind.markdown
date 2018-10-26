@@ -4,7 +4,7 @@ title:      "简单抄录些句子在这里"
 subtitle:   "我就是随便摘录一些东西放在这里"
 date:       2018-10-25 14:54:00
 author:     "XiLock"
-header-img: "img/post-bg-nextgen-web-pwa.jpg"
+header-img: "img/post-background/post-bg-rwd.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

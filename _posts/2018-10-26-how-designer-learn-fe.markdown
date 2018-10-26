@@ -1,22 +1,25 @@
 ---
 layout:     post
-title:      "设计师如何学习前端？(From Hux的知乎)"
+title:      "（转）设计师如何学习前端？"
 subtitle:   "How designers learn front-end development?"
 date:       2018-10-26 12:00:00
 author:     "Hux"
-header-img: "img/home-bg-o.jpg"
+header-img: ""
 tags:
-    - 知乎
+    - 转载
 
 ---
 
 
-发生了什么
-第二篇文章就转载一下大神的教程吧。
 
-这篇文章转载自[Hux在知乎上的回答](https://www.zhihu.com/question/21921588/answer/69680480)，也被刊登于[优秀网页设计](http://www.uisdc.com/head-first-front-end)等多个网站上 ;)
+>第二篇文章就转载一下大神的教程吧。
+>
+>这篇文章转载自[Hux在知乎上的回答](https://www.zhihu.com/question/21921588/answer/69680480)，也被刊登于[优秀网页设计](http://www.uisdc.com/head-first-front-end)等多个网站上 ;)
+>
+>以下为原文：
+>
 
-
+---
 笔者的经历在知乎就可以看到，大学专业是数字媒体艺术，大一实习过动效设计师，大二拿到了人生第一个大公司 offer 是阿里的交互设计，后来转岗到淘宝旅行的前端团队，现在在微信电影票做前端研发。
 <br>
 <br>也是走过了不少野路子，不过还好有小右哥 <a data-hash="cfdec6226ece879d2571fbc274372e9f" href="//www.zhihu.com/people/cfdec6226ece879d2571fbc274372e9f" class="member_mention" data-editable="true" data-title="@尤雨溪" data-tip="p$b$cfdec6226ece879d2571fbc274372e9f">@尤雨溪</a> 这样艺术/设计转前端的大神在前面做典范，也证明这条路是玩的通的 ;)

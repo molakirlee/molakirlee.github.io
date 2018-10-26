@@ -61,7 +61,9 @@ Jekyll的文件结构可以参考 [掘金](https://juejin.im/post/5b235a1cf265da
 
 之后就进入了耗时反而最长的**做图、写字**阶段，也算是进入了**写博客**的正轨，因为是类似 Hack Day 的方式去搭这个站的，所以折腾折腾着大半夜就过去了。
 
-第二天考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
+添加文章二维码可参考[这个插件](http://jeromeetienne.github.io/jquery-qrcode/)，左上角链接可直达Github，里面有demo。
+
+之后又考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
 
 
 
