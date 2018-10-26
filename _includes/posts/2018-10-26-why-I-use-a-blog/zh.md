@@ -63,7 +63,7 @@ Jekyll的文件结构可以参考 [掘金](https://juejin.im/post/5b235a1cf265da
 
 添加文章二维码可参考[这个插件](http://jeromeetienne.github.io/jquery-qrcode/)，左上角链接可直达Github，里面有demo。
 
-添加网站统计可以用[“不蒜子]”(http://ibruce.info/2015/04/04/busuanzi/)
+添加网站统计可以用[“不蒜子”](http://ibruce.info/2015/04/04/busuanzi/)
 
 之后又考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
 

@@ -6,7 +6,7 @@
 >
 > 离开世界之前，一切都是过程。
 
-Hey，我是**神探玺洛克**，病毒种，进化程度不明，多出没于 [知乎](https://www.zhihu.com/people/vimalakirti_lee) 等地带，绝招尚在开发中。
+Hey，我是**神探玺洛克**，病毒种，进化程度不明，多出没于 “微信公众号”、 [“知乎”](https://www.zhihu.com/people/vimalakirti_lee) 等地带，绝招尚在开发中。
 
 扫描二维码即可关注微信公众号**“神探玺洛克”**
 ![](/img/qrcode_wechat.jpg)
