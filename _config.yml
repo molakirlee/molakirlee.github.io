@@ -56,11 +56,6 @@ kramdown:
 # Disqus settings
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http:chufang.cf
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-
 disqus_username: molakirlee
 layout: default
 comments: true
@@ -91,7 +86,7 @@ ga_domain: molakirlee.ga
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Quoniam apud te fons vitae in lumine tuo videbimus lumen.<br>借汝之光，得見光明。"
 sidebar-avatar: /img/kenantouxiang.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
+#sidebar-avatar: /img/kenantouxiang.jpg
 
 
 # Featured Tags
