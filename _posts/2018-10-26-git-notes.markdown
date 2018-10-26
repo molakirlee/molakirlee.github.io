@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "常用Git命令总结"
-subtitle:   "发现自己总忘，就贴在这里了"
+subtitle:   "发现自己总忘，就整理了一下贴在这里了"
 date:       2018-10-26 19:52:00
 author:     "XiLock"
 header-img: "img/in-post/2018-10-26-git-notes/post-bg-rwd.jpg"
@@ -32,7 +32,7 @@ $ git clone ftp[s]://example.com/path/to/repo.git/
 $ git clone rsync://example.com/path/to/repo.git/
 ```
 
-### git remote 远程分支管理
+### git remote 远程端管理
 查看远程主机/远程主机网址：
 ```
 $ git remote
@@ -63,6 +63,7 @@ git branch --set-upstream master origin/next
 ```
 $ git fetch <远程主机名> <分支名>
 ```
+### 分支管理
 查看分支（-r查看远程分支，-a查看全部分支）：
 ```
 $ git branch -r/a
@@ -71,7 +72,11 @@ $ git branch -r/a
 ```
 $ git checkout -b <新分支名称> (<旧分支名称>)
 ```
+重命名本地分支
+```
+$ git branch -m <旧分支名> <新分支名>
 
+```
 ### git merge 合并分支：
 ```
 $ git merge <要合并至的分支>
