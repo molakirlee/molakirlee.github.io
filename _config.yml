@@ -76,6 +76,8 @@ netease_comment: false
 # Google Analytics
 ga_track_id: 'UA-128212019-1'            # Format: UA-xxxxxx-xx
 ga_domain: molakirlee.ga
+# Google Analytics
+google_analytics: UA-128212019-1
 
 
 
