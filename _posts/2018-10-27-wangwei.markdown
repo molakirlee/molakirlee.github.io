@@ -4,7 +4,7 @@ title:      "摩诘王维·一个公众小号的自我修炼"
 subtitle:   ""
 date:       2018-10-27 13:57:00
 author:     "XiLock"
-header-img: "img/2018-10-27-friends-blacklist/bg.jpg"
+header-img: "img/in-post/2018-10-27-wangwei/wangwei.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
@@ -13,7 +13,7 @@ tags:
 
 ---
 
-
+**他，只身在李白、杜甫等大咖叱咤风云的盛唐里独树一帜，默默做着一个公众小号的自我修炼。**
 
 ### （一）“新丰美酒斗十千，咸阳游侠多少年。”
 
