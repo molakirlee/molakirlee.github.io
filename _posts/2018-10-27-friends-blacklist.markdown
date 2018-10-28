@@ -9,6 +9,8 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 文章
+    - 生活
+    - 西游
 
 
 ---
