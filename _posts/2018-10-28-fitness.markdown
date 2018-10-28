@@ -4,7 +4,7 @@ title:      "关于所谓健身与养生，就是为了活下去"
 subtitle:   "这次，我就想找一个能坚持下去的方式，一直做下去"
 date:       2018-10-28 14:19:00
 author:     "XiLock"
-header-img: "img/in-post/2018-10-27-wangwei/wangwei.jpg"
+header-img: "img/in-post/2018-10-28-fitness/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
