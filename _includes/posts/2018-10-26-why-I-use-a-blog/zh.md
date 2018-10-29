@@ -77,6 +77,7 @@ Jekyll的文件结构可以参考 [掘金](https://juejin.im/post/5b235a1cf265da
 
 之后又考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
 
+这个[总结](https://www.ezlippi.com/blog/2015/03/github-pages-blog.html)感觉比较全面
 
 # 后记
 
