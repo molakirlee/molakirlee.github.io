@@ -104,10 +104,23 @@ service-worker: true
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-    #    title: "乱序",
-    #    href: "http://mida.re/"
+         title: "《小窗幽记》",
+         href: "http://www.99lib.net/book/2045/index.htm"
+     },{
+         title: "《闲情偶寄》",
+         href: "http://www.my285.com/gdwx/xqoj/"
+     },{
+         title: "《随园食单》",
+         href: "http://www.99lib.net/book/5509/index.htm"
+     },{
+         title: "《浮生六记》",
+         href: "http://www.dushu369.com/qtyd/fslj/"
+     },{
+     #   title: "乱序",
+     #   href: "http://mida.re/"
     }
 ]
+
+
+
+
