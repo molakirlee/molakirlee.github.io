@@ -69,6 +69,8 @@ Jekyll的文件结构可以参考 [掘金](https://juejin.im/post/5b235a1cf265da
 
 之后就进入了耗时反而最长的**做图、写字**阶段，也算是进入了**写博客**的正轨，因为是类似 Hack Day 的方式去搭这个站的，所以折腾折腾着大半夜就过去了。
 
+使用Secure Shell (SSH)协议可以更方便的登录到SSH服务器，而无需输入密码。因为无需发送你的密码到网络中，SSH 密钥对被认为是更加安全的方式。设置SSH参考Github官网关于[SSH的教程](https://help.github.com/articles/connecting-to-github-with-ssh/)或者[ChenLI](https://blog.csdn.net/love_fdu_llp/article/details/38752365)和[Faner](https://www.jianshu.com/p/1246cfdbe460)的博文，[Coder_Pig的博客](https://www.jianshu.com/p/eb76480b478d)写的也挺好。
+
 添加文章二维码可参考[这个插件](http://jeromeetienne.github.io/jquery-qrcode/)，左上角链接可直达Github，里面有demo。
 
 添加网站统计可以用[“不蒜子”](http://ibruce.info/2015/04/04/busuanzi/)
@@ -77,7 +79,7 @@ Jekyll的文件结构可以参考 [掘金](https://juejin.im/post/5b235a1cf265da
 
 之后又考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
 
-这个[总结](https://www.ezlippi.com/blog/2015/03/github-pages-blog.html)感觉比较全面
+这个[总结](https://www.ezlippi.com/blog/2015/03/github-pages-blog.html)感觉比较全面。
 
 # 后记
 
