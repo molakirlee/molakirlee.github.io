@@ -177,6 +177,12 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 #### 字体渲染
 之后又考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
 
+#### SSL证书设置
+
+为了打开HTTPS的安全访问，玺洛克用[CloudFlare](https://dash.cloudflare.com)设定了DNS加速和SSL证书，证书设置可参考[这里](https://blog.csdn.net/yucicheung/article/details/79560027)。
+
+记得在SSL里打开**Always Use HTTPS**。
+
 #### 其他参考
 这个[总结](https://www.ezlippi.com/blog/2015/03/github-pages-blog.html)感觉比较全面。
 
