@@ -179,7 +179,7 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 
 #### SSL证书设置
 
-为了打开HTTPS的安全访问，玺洛克用[CloudFlare](https://dash.cloudflare.com)设定了DNS加速和SSL证书，证书设置可参考[这里](https://blog.csdn.net/yucicheung/article/details/79560027)。
+为了打开HTTPS的安全访问，玺洛克用[CloudFlare](https://dash.cloudflare.com)设定了DNS加速和SSL证书，证书设置可参考[yucicheung](https://blog.csdn.net/yucicheung/article/details/79560027)或者[xietao3](https://www.jianshu.com/p/eb1bcc3da8d6)的博客。
 
 记得在SSL里打开**Always Use HTTPS**。
 
