@@ -155,6 +155,9 @@ tags:
 每年考取一个证书。  
 说一千遍，不如行动一遍。 改变自己的人生，从每天的努力开始，从做好每件小事开始。
 
+### 一些参考
+[45招练就最强大脑](https://mp.weixin.qq.com/s?__biz=MjM5NjM2MjA4NA==&mid=2650916047&idx=2&sn=ae673713baf9b9a040a45139a0653335&chksm=bd1f06c48a688fd21dd61f23faa0fbc3c2c818f5a4cc7afa86c05e20f573a680643dd4185f70&scene=0#rd)
+
 ### 一些资源
 **外语学习**  
 [英语四级考试网](http://www.cet4v.com/)

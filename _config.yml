@@ -104,7 +104,10 @@ service-worker: true
 # Friends
 friends: [
     {
-         title: "《小窗幽记》",
+         title: "阮一峰",
+         href: "http://www.ruanyifeng.com/blog/"
+     },{
+              title: "《小窗幽记》",
          href: "http://www.99lib.net/book/2045/index.htm"
      },{
          title: "《闲情偶寄》",
