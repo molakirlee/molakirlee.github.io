@@ -8,7 +8,7 @@ header-img: "img/in-post/2018-10-27-friends-blacklist/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - 文章
+    - 《斤竹精舍·随笔集》
     - 生活
     - 西游
 

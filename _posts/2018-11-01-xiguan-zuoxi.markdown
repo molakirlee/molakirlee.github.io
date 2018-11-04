@@ -8,7 +8,7 @@ header-img: ""
 header-mask: 0.3
 catalog:    true
 tags:
-    - 笔记
+    - 《斤竹精舍·三思集》
 
 
 ---

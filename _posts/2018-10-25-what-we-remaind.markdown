@@ -8,7 +8,7 @@ header-img: "img/post-background/post-bg-rwd.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - 杂记
+    - 《斤竹精舍·三思集》
 
 
 ---
