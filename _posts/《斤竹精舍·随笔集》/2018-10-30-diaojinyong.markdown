@@ -4,7 +4,7 @@ title:      "九十四年一梦幻，五百年后施耐庵"
 subtitle:   "今天金庸去世了。但多少年后，我们仍会谈起金庸。谈起他的“飞雪连天射白鹿，笑书神侠倚碧鸳”。"
 date:       2018-10-30 23:57:00
 author:     "XiLock"
-header-img: "img/in-post/2018-10-30-diaojinyong/bg.jpg"
+header-img: "img/in-post/jinzhu-suibiji/2018-10-30-diaojinyong/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

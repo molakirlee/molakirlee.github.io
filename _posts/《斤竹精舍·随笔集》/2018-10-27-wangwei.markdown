@@ -4,7 +4,7 @@ title:      "摩诘王维·一个公众小号的自我修炼"
 subtitle:   ""
 date:       2018-10-27 13:57:00
 author:     "XiLock"
-header-img: "img/in-post/2018-10-27-wangwei/wangwei.jpg"
+header-img: "img/in-post/jinzhu-suibiji/2018-10-27-wangwei/wangwei.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
@@ -155,7 +155,7 @@ tags:
 
 在这里，王维修建了华子冈、欹湖、竹里馆、柳浪、茱萸沜、辛夷坞等风景绝佳的去处。
 
-![](/img/in-post/2018-10-27-wangwei/wangchuan.png)
+![](/img/in-post/jinzhu-suibiji/2018-10-27-wangwei/wangchuan.png)
 
 这里，王维与好友裴迪共游、共咏。
 

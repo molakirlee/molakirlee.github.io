@@ -4,7 +4,7 @@ title:      "常用Git命令总结"
 subtitle:   "发现自己总忘，就整理了一下贴在这里了"
 date:       2018-10-26 19:52:00
 author:     "XiLock"
-header-img: "img/in-post/2018-10-26-git-notes/post-bg-rwd.jpg"
+header-img: "img/in-post/collect_summarize/2018-10-26-git-notes/post-bg-rwd.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
@@ -86,9 +86,7 @@ $ git remote rename <原主机名> <新主机名>
 git branch --set-upstream master origin/next
 ```
 ### git fetch 远程分支取回
-`git fetch`命令通常用来查看其他人的进程，因为它取回的代码对你本地的开发代码没有影响。
-
-在本地主机上要用"远程主机名/分支名"的形式读取。比如origin主机的master，就要用`origin/master`读取。
+因为fetch取回的代码对本地的开发代码没有影响，所以`git fetch`命令通常用来查看其他人的进程。在本地主机上读取远程分支的形式为"远程主机名/分支名"，如origin主机的master就要用`origin/master`读取。
 ```
 # 将远程主机更新取回本地（不指定分支的话默认全部取回）：
 $ git fetch <远程主机名> <分支名>
@@ -185,7 +183,7 @@ $ git diff HEAD
 ```
 
 ### git reset （三步）退回
-![](/img/in-post/2018-10-26-git-notes/schem.jpg)
+![](/img/in-post/collect_summarize/2018-10-26-git-notes/schem.jpg)
 ```
 $ git reset --hard/mixed/soft (<HEAD>)
 

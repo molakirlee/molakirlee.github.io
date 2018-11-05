@@ -4,7 +4,7 @@ title:      "禅宗谱系"
 subtitle:   ""
 date:       2018-10-27 19:23:00
 author:     "XiLock"
-header-img: "img/in-post/2018-10-27-wangwei/wangwei.jpg"
+header-img: "img/in-post/collect_summarize/2018-10-27-wangwei/wangwei.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

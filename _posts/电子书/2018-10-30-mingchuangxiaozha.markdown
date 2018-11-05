@@ -4,7 +4,7 @@ title:      "《名窗小札1963》·金庸"
 subtitle:   ""
 date:       2018-10-31 14:22:00
 author:     "XiLock"
-header-img: "img/in-post/2018-10-31-mingchuangxiaozha/bg.jpg"
+header-img: "img/in-post/ebook/2018-10-31-mingchuangxiaozha/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
