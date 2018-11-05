@@ -86,10 +86,16 @@ $ git remote rename <原主机名> <新主机名>
 git branch --set-upstream master origin/next
 ```
 ### git fetch 远程分支取回
+`git fetch`命令通常用来查看其他人的进程，因为它取回的代码对你本地的开发代码没有影响。
 
+在本地主机上要用"远程主机名/分支名"的形式读取。比如origin主机的master，就要用`origin/master`读取。
 ```
 # 将远程主机更新取回本地（不指定分支的话默认全部取回）：
 $ git fetch <远程主机名> <分支名>
+
+注：
+1. 用fetch取回后并不改变本地开发代码，如果想编辑的话用merge命令合并取回的远端分支到本地分支（即便是已关联的分支）。
+2. 因为每次都fetch+merge的话比较繁琐，所以可用pull命令。
 ```
 ### 分支管理
 
@@ -119,7 +125,7 @@ $ git branch -d [branch-name]
 $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
 ```
-### git merge 合并分支：
+### git merge 合并分支
 ```
 # 合并指定分支到当前分支
 $ git merge <指定分支>
