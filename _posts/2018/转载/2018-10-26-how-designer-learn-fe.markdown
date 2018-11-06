@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "（转）设计师如何学习前端？"
+title:      "转·设计师如何学习前端？"
 subtitle:   "How designers learn front-end development?"
 date:       2018-10-26 12:00:00
 author:     "Hux"
