@@ -1,0 +1,27 @@
+---
+layout:       post
+title:        "Hello,2018"
+subtitle:     "终于，还是开始用博客了"
+date:         2018-10-26 12:00:00
+author:       "XiLock"
+header-img:   "img/post-background/ChateauGaillard_EN-AU11027430397_1920x1080.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - Hello, World!
+    - 2018
+
+---
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+    {% capture about_zh %}{% include posts/2018-10-26-why-I-use-a-blog/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include posts/2018-10-26-why-I-use-a-blog/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
