@@ -70,4 +70,12 @@
     {% include analytics.html %}
     {% endif %}
 
+<!--在博文中使用公式 START-->
+<script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<!--添加分隔符"$...$"-->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<!--在博文中使用公式 END-->
 </head>
