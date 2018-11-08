@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:      "好书推荐"
+title:      "书札·好书推荐"
 subtitle:   ""
-date:       2018-10-31 14:22:00
+date:       2018-11-04 14:22:00
 author:     "XiLock"
 header-img: ""
 header-mask: 0.3
 catalog:    true
 tags:
-    - 电子书
+    - 《斤竹精舍·书札集》
     - 2018
 
 

@@ -32,3 +32,7 @@ done
 ```
 
 首先通过一个for循环结合 ls查看文件命令依次读取文件，然后用一个 if命令判定后缀是否后缀正确， ##*.表示删除最后一个点以及左边的字符。
+
+
+### 相关阅读：  
+[Linux常用命令](https://mp.weixin.qq.com/s?__biz=MzU5OTMyODAyNg==&mid=2247484700&idx=1&sn=10cacf3afd4781989ca30a5ff0a4fc50&chksm=feb7d169c9c0587f0778e7f7bd4266661a10da32d1b335328362d37589b79643d6fbef8a7282&mpshare=1&scene=24&srcid=0424EZoT5RnWFtL6ZjGTcHvV#rd)

@@ -153,8 +153,10 @@ tags:
 每年考取一个证书。  
 说一千遍，不如行动一遍。 改变自己的人生，从每天的努力开始，从做好每件小事开始。
 
-### 一些参考
-[45招练就最强大脑](https://mp.weixin.qq.com/s?__biz=MjM5NjM2MjA4NA==&mid=2650916047&idx=2&sn=ae673713baf9b9a040a45139a0653335&chksm=bd1f06c48a688fd21dd61f23faa0fbc3c2c818f5a4cc7afa86c05e20f573a680643dd4185f70&scene=0#rd)
+### 相关阅读  
+[如何建立知识体系](http://mp.weixin.qq.com/s?__biz=MzA5NzQ2MjMxMQ==&mid=2705038520&idx=2&sn=d0dda6177e46fbf1f6f28a75a4734dec&chksm=b46f4df08318c4e660eab6919d2c1f4785fdc3b9c913d1fd1dca80e0813e4d8978661de6bf80&mpshare=1&scene=24&srcid=04116vDavQ2WUbRkzWds89xT#rd)  
+[45招练就最强大脑](https://mp.weixin.qq.com/s?__biz=MjM5NjM2MjA4NA==&mid=2650916047&idx=2&sn=ae673713baf9b9a040a45139a0653335&chksm=bd1f06c48a688fd21dd61f23faa0fbc3c2c818f5a4cc7afa86c05e20f573a680643dd4185f70&scene=0#rd)  
+
 
 ### 一些资源
 **外语学习**  
