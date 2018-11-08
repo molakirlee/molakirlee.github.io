@@ -196,7 +196,7 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 
 **在博文中添加公式**  
 将以下代码添加到<head>里面
-```
+```html
 <!--在博文中使用公式 START-->
 <script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
@@ -206,3 +206,5 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 </script>
 <!--在博文中使用公式 END-->
 ```
+更新于2018.11.08
+
