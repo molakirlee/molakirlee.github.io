@@ -193,3 +193,16 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 既然生命不长，到了这里，希望你喜欢这里的文章。
 
 — XiLock 后记于 2018.10.26
+
+**在博文中添加公式**  
+将以下代码添加到<head>里面
+```
+<!--在博文中使用公式 START-->
+<script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<!--添加分隔符"$...$"-->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<!--在博文中使用公式 END-->
+```
