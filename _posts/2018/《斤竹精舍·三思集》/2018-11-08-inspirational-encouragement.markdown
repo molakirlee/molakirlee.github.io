@@ -29,3 +29,4 @@ tags:
 ![](/img/in-post/2018/2018-11-08-lizhitu/14.JPG)
 ![](/img/in-post/2018/2018-11-08-lizhitu/15.JPG)
 
+![](/img/wc-tail.GIF)
