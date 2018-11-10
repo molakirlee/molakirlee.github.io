@@ -4,7 +4,7 @@ title:      "书札·毛泽东作品6篇"
 subtitle:   ""
 date:       2018-11-08 22:21:00
 author:     "XiLock"
-header-img: ""
+header-img: "img/in-post/2018/2018-11-08-maozhuxizhuzuo/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
