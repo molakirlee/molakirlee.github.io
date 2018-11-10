@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "再谈金庸·我为什么不读金庸的社论"
+title:      "三谈金庸·乔峰必死与郭襄单身"
 subtitle:   ""
-date:       2018-11-03 10:46:00
+date:       2018-11-10 11:46:00
 author:     "XiLock"
 header-img: ""
 header-mask: 0.3
