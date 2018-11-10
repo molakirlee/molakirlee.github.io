@@ -4,7 +4,7 @@ title:      "三谈金庸·乔峰必死与郭襄单身"
 subtitle:   ""
 date:       2018-11-10 11:46:00
 author:     "XiLock"
-header-img: "img/in-post/2018/2018-11-10-diaojinyong3/bg.jpeg"
+header-img: "img/in-post/2018/2018-11-10-diaojinyong3/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
