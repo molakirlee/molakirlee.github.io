@@ -4,7 +4,7 @@ title:      "如何恢复视力"
 subtitle:   ""
 date:       2018-11-09 20:34:00
 author:     "XiLock"
-header-img: ""
+header-img: "img/in-post/2018/2018-11-09-recoveregesight/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
@@ -16,6 +16,7 @@ tags:
 #### 前言
 想恢复视力，首先必须叮咛大脑：「眼睛绝对可以看清楚东西。」
 
+附：[眼部结构图](https://www.aapos.org/zh/terms/conditions/22)
 #### 方法
 其实人脑有各种潜能，「脑内视力恢复法」便是将这些潜能发挥到极致的方法。总而言之，当你在思考眼和脑的关联时，一边用脑，视力就同时在恢复。
 
