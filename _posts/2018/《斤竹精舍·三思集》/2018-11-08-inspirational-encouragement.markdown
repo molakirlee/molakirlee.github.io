@@ -4,7 +4,7 @@ title:      "收藏·励志"
 subtitle:   ""
 date:       2018-11-08 22:34:00
 author:     "XiLock"
-header-img: ""
+header-img: "img/in-post/2018/2018-11-08-inspirational-encouragement/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

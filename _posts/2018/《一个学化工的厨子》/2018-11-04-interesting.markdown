@@ -4,7 +4,7 @@ title:      "有趣的厨房"
 subtitle:   ""
 date:       2018-11-04 20:47:00
 author:     "XiLock"
-header-img: ""
+header-img: "img/in-post/2018/2018-11-04-interesting/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:

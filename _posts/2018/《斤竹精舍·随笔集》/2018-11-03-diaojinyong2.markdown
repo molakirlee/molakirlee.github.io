@@ -4,7 +4,7 @@ title:      "再谈金庸·我为什么不读金庸的社论"
 subtitle:   ""
 date:       2018-11-03 10:46:00
 author:     "XiLock"
-header-img: ""
+header-img: "img/in-post/2018/2018-11-03-diaojinyong2/bg.JPG"
 header-mask: 0.3
 catalog:    true
 tags:
