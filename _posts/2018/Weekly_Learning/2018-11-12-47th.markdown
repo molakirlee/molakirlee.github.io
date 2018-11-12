@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "2018-46th"
+subtitle:   ""
+date:       2018-11-12 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周分享
+    - 2018
+
+
+---
+##### 格言Aphorism
+Sometimes it's the people who no one imagines anything of who do the things that no one can imagine.  
+有时候正是那些人们认为的无用之人成就了无人能成之事。
+
+![](/img/wc-tail.GIF)
