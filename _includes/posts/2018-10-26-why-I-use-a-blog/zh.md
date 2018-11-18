@@ -183,6 +183,9 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 
 记得在SSL里打开**Always Use HTTPS**。
 
+#### 添加搜索框
+使用[这个包](https://github.com/androiddevelop/jekyll-search)可以对文章标题、时间、标签进行搜索。
+
 #### 其他参考
 这个[总结](https://www.ezlippi.com/blog/2015/03/github-pages-blog.html)感觉比较全面。
 
