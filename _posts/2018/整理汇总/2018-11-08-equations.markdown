@@ -61,4 +61,4 @@ $$
 [Wiki-泰勒公式](https://zh.wikipedia.org/wiki/%E6%B3%B0%E5%8B%92%E5%85%AC%E5%BC%8F)
 
 
-
+![](/img/wc-tail.GIF)
