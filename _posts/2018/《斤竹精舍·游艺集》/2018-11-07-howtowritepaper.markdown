@@ -8,7 +8,7 @@ header-img: "img/in-post/2018/2018-11-07-howtowritepaper/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - 《斤竹精舍·三思集》
+    - 《斤竹精舍·游艺集》
     - 2018
 
 ---
