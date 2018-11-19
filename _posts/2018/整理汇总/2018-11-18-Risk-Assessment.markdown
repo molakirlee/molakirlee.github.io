@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "RA范例（Acid/Base Piranha/Aqua Regia）"
+title:      "2018-11-18-Risk-Assessment范例（Acid/Base Piranha/Aqua Regia）"
 subtitle:   ""
 date:       2018-11-18 19:21:00
 author:     "XiLock"
@@ -34,8 +34,8 @@ Existing Risk Control:
 3. To keep the reactivity of the solution (if required), one should apply heating only after the solution become stabilized. During heating, Do control the temperature to below 100 degree Celsius.
 4. Use open container.
 Severity: Very Serious,4  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 12
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 4
 ##### 2
 Hazard:Chemical  
 Sub Hazard: Explosive  
@@ -44,8 +44,8 @@ Existing Risk Control:
 1. Wear lab coat, covered shoes, acid/base protective gloves and safety goggles at all time when handling Piranha solution.
 2. Gently stir the solution using glass rod if it's unrestful.
 Severity: Very Serious,4  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 12
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 4
 ##### 3
 Hazard:Chemical  
 Sub Hazard: Oxidision  
@@ -63,8 +63,8 @@ Existing Risk Control:
 9. Immersing the substrate (such as a wafer) into the solution should be done slowly to prevent thermal shock that may crack the substrate.
 10. When cleaning glassware, it is both prudent and practical to allow the piranha solution to react overnight. This allows the spent solution to degrade prior to disposal.
 Severity: Very Serious,4  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 12
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 4
 
 #### Disposal of piranha solution
 ##### 1
@@ -76,10 +76,10 @@ Existing Risk Control:
 2. Piranha solution should be allowed to cool, and oxygen gas should be allowed to dissipate prior to disposal.
 3. Take a large glass beaker and half fill with water (at least 5 times of the volume of piranha solution), add the piranha solution into water VERY SLOWLY.
 4. The piranha solution must be neutralized before disposed into the waste container.
-5. The neutralization can be done by adding NaHCO3 or Na2CO3 slowly into a diluted Piranha solution until the solution reach pH range between 4-10. Ice cubes shall be added to cool down the solution if it become very hot during the neutralization process.
+5. The neutralization can be done by adding NaOH slowly into a diluted Piranha solution until the solution reach pH range between 4-10. Ice cubes shall be added to cool down the solution if it become very hot during the neutralization process.
 6. Piranha solution should not be disposed with organic solvents (e.g. in waste solvent carboys), as this will cause a violent reaction and a substantial explosion.
 Severity: Very Serious,3  
-Likelyhood: Occasional,3  
+Likelyhood: Occasional,1  
 RPN(Rish Prioritization Number): 9
 ##### 2
 Hazard:Chemical  
@@ -90,8 +90,8 @@ Existing Risk Control:
 2. Piranha solution should be allowed to cool, and oxygen gas should be allowed to dissipate prior to disposal.
 3. Never add organic solvent to the solution.
 Severity: Very Serious,4  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 12
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 4
 ##### 3
 Hazard:Chemical  
 Sub Hazard: Corrosice  
@@ -99,8 +99,8 @@ Possible Accident/Ill health to persons, fire or proper loss: Other,Body injury.
 Existing Risk Control:  
 1. Wear proper PPE, including goggles,protective gloves, covered shoes.
 Severity: Very Serious,3  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 9
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 3
 
 #### Use of aqua regia solution
 ##### 1
@@ -112,8 +112,8 @@ Existing Risk Control:
 2. Wear proper PPE, including goggles, acid protective gloves, covered shoes and acid protective mask if possible.
 3. Always operate in fume hood and make the slash position as low as possible.
 Severity: Serious,3  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 9  
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 3  
 ##### 2
 Hazard:Chemical  
 Sub Hazard: Oxisising  
@@ -127,8 +127,8 @@ Ref MSE/HSE/SWP/01.0
 5. Aqua Regia quickly loses its effectiveness (yet remains a strong acid), so its components are usually only mixed immediately before use. However, it can be used to remove some metal and metal oxides as well after weeks.
 6. Clean items first to remoe as more contaiminates as possible before wash with aqua regia.
 Severity: Serious,3  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 9  
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 1  
 ##### 3
 Hazard:Chemical  
 Sub Hazard: Explosive  
@@ -140,8 +140,8 @@ Existing Risk Control:
 4. Never add organic solvent to the solution.
 5. Wash items thoroughly before washed with aqua regia.
 Severity: Very Serious,4  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 12
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 4
 
 #### Disposal of aqua regia solution
 ##### 1
@@ -154,8 +154,8 @@ Existing Risk Control:
 3. The neutralization can be done by add NaHCO3 or Na2CO3 slowly into a diluted aqua regia solution until the solution reach pH range between 4-10. Ice cubes shall be added to cool down the solution if it become very hot during the neutralization process.
 6. Never add organic solvents to aqua regia or add aqua regia to organic solvent.
 Severity: Very Serious,4  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 12  
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 4  
 ##### 2
 Hazard:Chemical  
 Sub Hazard: Corrosice  
@@ -165,8 +165,8 @@ Existing Risk Control:
 2. Always operate in fumn hood and make the slash as low as possible.
 3. Neutralized to pH value of 4-10.
 Severity: Very Serious,3  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 9  
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 3  
 ##### 3
 Hazard:Chemical  
 Sub Hazard: Oxiding  
@@ -175,8 +175,8 @@ Existing Risk Control:
 1. Wear proper PPE, including goggles,protective gloves, covered shoes and protective gloves.
 2. Dilute with water before neutralization.
 Severity: Very Serious,3  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 9
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 3
 
 #### Use of base piranha soluton
 ##### 1
@@ -189,8 +189,8 @@ Existing Risk Control:
 3. To keep the reactivity of the solution , one should heat the solution to 60 degree Celsius after the it becomes stabilized.During heating, Do control the temperature to below 100 degree Celsius.
 4. Use open container.
 Severity: Very Serious,4  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 12
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 4
 ##### 2
 Hazard:Chemical  
 Sub Hazard: Explosive  
@@ -199,8 +199,8 @@ Existing Risk Control:
 1. Wear lab coat, covered shoes, acid/base protective gloves and safety goggles at all time when handling base piranha solution.
 2. Gently stir the solution using glass rod if it's unrestful.
 Severity: Very Serious,4  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 12
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 4
 ##### 3
 Hazard:Chemical  
 Sub Hazard: Oxidision  
@@ -217,8 +217,8 @@ Ref MSE/ChenRFL/SOP/201702
 8. Immersing the substrate (such as a gold substrate) into the solution should be done slowly to prevent thermal shock that may crack the substrate.
 10. When cleaning glassware, it is both prudent and practical to allow the base piranha solution to react for more than half an hour. This allows the spent solution to degrade prior to disposal.
 Severity: Very Serious,4  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 12
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 4
 
 #### Disposal of base piranha solution
 ##### 1
@@ -233,8 +233,8 @@ Existing Risk Control:
 5. The neutralization can be done by adding CH3COOH slowly into a diluted base piranha solution until the solution reach pH range between 4-10. Ice cubes shall be added to cool down the solution if it become very hot during the neutralization process.
 6. Base piranha solution should not be disposed with organic solvents (e.g. in waste solvent carboys), as this will cause a violent reaction and a substantial explosion.
 Severity: Very Serious,3  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 9
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 3
 ##### 2
 Hazard:Chemical  
 Sub Hazard: Explosive  
@@ -244,8 +244,8 @@ Existing Risk Control:
 2. Base piranha solution should be allowed to cool, and ammonia gas should be allowed to dissipate prior to disposal.
 3. Never add organic solvent to the solution.
 Severity: Very Serious,4  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 12
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 4
 ##### 3
 Hazard:Chemical  
 Sub Hazard: Corrosice  
@@ -253,8 +253,8 @@ Possible Accident/Ill health to persons, fire or proper loss: Other,Body injury.
 Existing Risk Control:  
 1. Wear proper PPE, including goggles,protective gloves, covered shoes.
 Severity: Very Serious,3  
-Likelyhood: Occasional,3  
-RPN(Rish Prioritization Number): 9
+Likelyhood: Occasional,1  
+RPN(Rish Prioritization Number): 3
 
 
 ![](/img/wc-tail.GIF)
