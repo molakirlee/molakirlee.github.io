@@ -197,6 +197,7 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 
 — XiLock 后记于 2018.10.26
 
+### 更新20181108
 **在博文中添加公式**  
 将以下代码添加到<head>里面
 ```html
@@ -210,4 +211,9 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 <!--在博文中使用公式 END-->
 ```
 更新于2018.11.08
+
+### 更新20181121
+今天发现有的博文Disqus加载不出来，但有的能加载出来。以为是post格式有问题，改了内容和文件名均无效。后来把`disqus_url`这个变量注释掉发现可以了，iissnan说“有`disqus_identifier`就可以。至于页面的链接，Disqus 会自动取 window.location.href，对于生成静态页面的情况这个值也是正确的”（[参考](https://github.com/iissnan/hexo-theme-next/issues/876)）。也有人说url里面不应该加“http”，但没测试（[参考](https://github.com/iissnan/theme-next-docs/issues/86)）。
+更新于2018.11.21
+
 
