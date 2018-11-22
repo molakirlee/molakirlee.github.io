@@ -235,4 +235,34 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 
 关于这些操作里面的变量，可参考：[jekyll变量说明](https://jekyllcn.com/docs/variables/)
 
+对于Tags中的标签进行了排序和添加色彩。  
+添加色彩：  
+```
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+```
 
+排序：  
+```
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag | downcase | replace:' ','-' }}
+  {% endfor %}
+{% endcapture %}
+{% assign sorted_post_tags = tags | split:' ' | sort %}
+{% for sorted_tag in sorted_post_tags %}
+  {% for tag in site.tags %}
+    {% assign downcase_tag = tag | downcase | replace:' ','-' %}
+    {% if downcase_tag == sorted_tag %}
+      <a href="{{ page.url }}#{{ tag[0] }}">{{ tag[0] }}</a>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+```
+如果想要又排序又添加色彩，则用
+```
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+```
+替换  
+```
+<a href="{{ page.url }}#{{ tag[0] }}">{{ tag[0] }}</a>
+```

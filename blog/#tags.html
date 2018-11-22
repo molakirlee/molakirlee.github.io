@@ -25,25 +25,10 @@ header-img: "img/post-background/xianju.jpg"
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <!-- 标签云 -->
 			<div id='tag_cloud' class="tags">
-				{% capture tags %}
-                {% for tag in site.tags %}
-                {{ tag | downcase | replace:' ','-' }}
-				{% endfor %}
-				{% endcapture %}
-				{% assign sorted_post_tags = tags | split:' ' | sort %}
-				{% for sorted_tag in sorted_post_tags %}
 				{% for tag in site.tags %}
-				{% assign downcase_tag = tag | downcase | replace:' ','-' %}
-				{% if downcase_tag == sorted_tag %}
 				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
-				{% endif %}
-				{% endfor %}
 				{% endfor %}
 			</div>
-
-
-
-
 
             <!--<blockquote class="tag-comments">
                 标签命名规范：
