@@ -216,4 +216,23 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 今天发现有的博文Disqus加载不出来，但有的能加载出来。以为是post格式有问题，改了内容和文件名均无效。后来把`disqus_url`这个变量注释掉发现可以了，iissnan说“有`disqus_identifier`就可以。至于页面的链接，Disqus 会自动取 window.location.href，对于生成静态页面的情况这个值也是正确的”（[参考](https://github.com/iissnan/hexo-theme-next/issues/876)）。也有人说url里面不应该加“http”，但没测试（[参考](https://github.com/iissnan/theme-next-docs/issues/86)）。
 更新于2018.11.21
 
+### 更新20181122
+本来就是想添加一个欢迎页面，结果试了好几个模板才找到合适的。  
+处理了欢迎页的问题，紧接着便是：更换index之后（将欢迎页改为index，将原来的index改为home），博文竟然显示不出来了。几番检查才发现原来是因为非index页不能实现博文的分页显示（采用分页显示时则直接空白）。本想稍微花点时间处理一下，结果折腾了一个上午和一个晚上，下面总结一下。  
+如果博文太多了怎么办？通过paginate可以实现博文的分页，参考：[官方教程](https://jekyllcn.com/docs/pagination/)  
+但分页功能是有条件的：  
+1. Jekyll 的分页功能不支持 Jekyll site 中的 Markdown 或 Textile 文件。
+1. 分页功能从名为 index.html 的 HTML 文件中被调用时，才能工作。
+
+那么是不是只有index.html文件才能添加分页呢？是的，但别灰心，虽然只有index.html文件可以添加分页，但是我们可以有多个index.html文件，即创建子文件夹。详情参考：[如何给多个页面添加分页](https://stackoverflow.com/questions/21248607/jekyll-pagination-on-every-page)  
+简单概括一下：创建子文件夹blog，在子文件夹blog中创建希望实现博文分页显示的index.html文件。
+
+为了让欢迎页壁纸好看，玺洛克采用了bing的壁纸，图片源如下:  
+```front_img_path: "http://area.sinaapp.com/bingImg/" #自动采用bing的壁纸```
+
+顺便说一下导航栏标签的问题：  
+本站的标签在导航栏里，是采用的液体代码的方式调用的。想更改导航栏顺序可参考：[如何更改导航栏标签顺序](https://codeday.me/bug/20171216/108952.html)
+
+关于这些操作里面的变量，可参考：[jekyll变量说明](https://jekyllcn.com/docs/variables/)
+
 

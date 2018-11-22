@@ -3,7 +3,8 @@ title: 神探玺洛克的厨房 Blog
 SEOTitle: 神探玺洛克 | XiLock Blog
 header-img: img/home-bg.jpg
 email: molakirlee@sina.com
-description: "一个学化工的厨子爱上推理 | For with thee is the fountain of life, and in thy light we shall see light.| @吃鱼座的XiLock"
+name: XiLock Chuanxi LI
+description: "一个学化工的厨子爱上推理"
 keyword: "推理，科学，美食，XiLock"
 url: "molakirlee.ga"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -27,6 +28,7 @@ github_username:    molakirlee
 highlighter: rouge
 permalink: pretty
 paginate: 10
+paginate_path: "/blog/page:num/" #paginate文件的路径
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
@@ -128,5 +130,14 @@ friends: [
 ]
 
 
+#欢迎页内容
+favicon_img: yes
+favicon_img_path: "img/favicon.ico"
 
+avatar: yes
+#avatar_img_path: "img/favicon.ico"
+avatar_img_path: "img/head_portraits/kenan.jpg"
 
+front_img: yes
+#front_img_path: "img/background.jpg"
+front_img_path: "http://area.sinaapp.com/bingImg/" #自动采用bing的壁纸

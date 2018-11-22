@@ -41,7 +41,7 @@ $ git config [--global] user.email "[email address]"
 ```
 $ git clone (-o <自定义远程主机名称>) <版本库的网址> (<本地目录名>)
 # 比如：
-$ git clone https://github.com/molakirlee/molakirlee.io
+$ git clone https://github.com/molakirlee/molakirlee.github.io
 ```
 HTTP(s)以外的其他协议：
 ```
