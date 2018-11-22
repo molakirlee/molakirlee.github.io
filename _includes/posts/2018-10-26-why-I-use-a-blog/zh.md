@@ -225,7 +225,8 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 1. 分页功能从名为 index.html 的 HTML 文件中被调用时，才能工作。
 
 那么是不是只有index.html文件才能添加分页呢？是的，但别灰心，虽然只有index.html文件可以添加分页，但是我们可以有多个index.html文件，即创建子文件夹。详情参考：[如何给多个页面添加分页](https://stackoverflow.com/questions/21248607/jekyll-pagination-on-every-page)  
-简单概括一下：创建子文件夹blog，在子文件夹blog中创建希望实现博文分页显示的index.html文件。
+简单概括一下：创建子文件夹blog，在子文件夹blog中创建希望实现博文分页显示的index.html文件。  
+**注意：**链接到index.html时一定要写index.html而不能只写index，否则访问不到。
 
 为了让欢迎页壁纸好看，玺洛克采用了bing的壁纸，图片源如下:  
 ```front_img_path: "http://area.sinaapp.com/bingImg/" #自动采用bing的壁纸```
