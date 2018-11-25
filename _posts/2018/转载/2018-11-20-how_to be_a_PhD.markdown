@@ -47,6 +47,6 @@ tags:
 [博士这五年](https://zhuanlan.zhihu.com/p/25099638?from=timeline&isappinstalled=0)  
 [人民日报:本科硕士博士有啥区别？可借红烧肉鉴别](http://news.sina.com.cn/s/2018-06-05/doc-ihcqccin8040342.shtml)  
 [施一公：如何成为一名优秀的博士生？](https://mp.weixin.qq.com/s?__biz=MzA5ODk5NTYxOQ==&mid=2696986106&idx=1&sn=90d590fc6b5572f7d7d6b042de00f891&mpshare=1&scene=2&srcid=1014Pv3cbL72qrduRZ7wzBy7#rd)  
-
+[施一公的科学人生：“一个人信仰的东西，远远重要于外界的看法和整个社会的舆论走向”](http://mp.weixin.qq.com/s?__biz=MzA5NDkzNjIwMg==&mid=2651666082&idx=1&sn=b35619853feb6a48a6988a5c6bbb4742&chksm=8bbe9b47bcc912517b544fa11618d4cd6380c7f924c97a85a7ffe1258bad16f9a91dff75df44&mpshare=1&scene=24&srcid=0119hiFcFCEwsINc6XQbhODI#rd  )
 
 ![](/img/wc-tail.GIF)
