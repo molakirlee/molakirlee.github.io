@@ -164,7 +164,7 @@ var quotes = [
 '悲乐者，德之邪；喜怒者，道之过；好恶者，心之失。——《庄子•刻意》',
 '众人重利，廉士重名，贤士尚志，圣人贵精。——《庄子•刻意》',
 '巧者劳而智者忧，无能者无所求。——《庄子·列御寇》',
-'亦余心之所善兮，虽九死其尤未悔。</br>For the ideal that I hold near to my heart,I'd not regret a thousand times to die.',
+'亦余心之所善兮，虽九死其尤未悔。</br>For the ideal that I hold near to my heart,I\'d not regret a thousand times to die.',
 '人或加讪，心无疵兮。</br>My conscience stays untainted in spite of rumors and slanders from the outside.',
 '华山再高，顶有过路。</br>No matter how high the mountain is, one can always ascend to its top.',
 ]
