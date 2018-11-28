@@ -146,7 +146,7 @@ Enter passphrase for key '/c/Users/Administrator/.ssh/id_rsa':
 ```
 Hi username! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-如果用户名是正确的,你已经成功设置SSH密钥。如果你看到 “access denied” ，者表示拒绝访问，那么你就需要使用 https 去访问，而不是 SSH 。
+如果用户名是正确的,你已经成功设置SSH密钥。如果你看到 “access denied” ，这表示拒绝访问，那么你就需要使用 https 去访问，而不是 SSH 。
 
 5.修改.git文件夹下config中的url。
 修改前
