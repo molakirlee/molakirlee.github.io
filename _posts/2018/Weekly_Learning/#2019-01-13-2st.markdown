@@ -15,7 +15,8 @@ tags:
 ---
  
 
-### 马基雅维利
+### 人物
+马基雅维利
 
 ### 认知
 科学的判断标准——大五人格特征。即把每个人的人格分为五个维度：开放性、责任感、外向性、宜人性、神经质。——《 看人的艺术 》
@@ -27,5 +28,8 @@ tags:
 ### 职场
 你有什么才华？我会填坑
 相关阅读：[链接](https://mp.weixin.qq.com/s?__biz=MzA5NzQ2MjMxMQ==&mid=2705039884&idx=1&sn=587f399a439864aad3d72e6680173e7f&chksm=b46f73448318fa52d43686038e4f9e68a915b0fc6170798271fdb19cb35b4073c6d8632b0233&mpshare=1&scene=24&srcid=0602KHqeUIKPc3la4wmyKgDQ#rd)
+
+### 科普
+[结晶技术发展与分类](http://mp.weixin.qq.com/s?__biz=MzA4NDQxMDMwOA==&mid=2653209971&idx=4&sn=58e2ab40467e189c2e159d548f8c10bb&chksm=8437cfd8b34046ce7a1903aac67832b55408fa0bf72ccc86f9927ef06643022ca31025adaa5b&mpshare=1&scene=24&srcid=#rd)
 
 ![](/img/wc-tail.GIF)

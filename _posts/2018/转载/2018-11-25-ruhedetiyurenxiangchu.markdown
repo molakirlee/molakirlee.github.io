@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "转·如何在得体地积累人脉"
+title:      "转·如何得体地积累人脉"
 subtitle:   ""
 date:       2018-11-25 19:19:00
 author:     "Connie Zhang"
