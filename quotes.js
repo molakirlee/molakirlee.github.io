@@ -120,7 +120,7 @@ var quotes = [
 '虚而不屈，动而愈出。多闻数穷，不若守中。——《道德经》',
 '致虚极，守静笃。万物并作，吾以观复。——《道德经》',
 '见素抱朴，少私寡欲。——《道德经》',
-'不自见，故明；不自是，故彰；不自伐，故有功；不自矜，故长；夫唯不争，故天下莫能与之争。。——《道德经》',
+'不自见，故明；不自是，故彰；不自伐，故有功；不自矜，故长；夫唯不争，故天下莫能与之争，古之所谓曲则全者，岂虚言哉，诚全而归之。。——《道德经》',
 '知人者智，自知者明。胜人者有力，自胜者强。——《道德经》',
 '人法地，地法天，天法道，道法自然。——《道德经》',
 '重为轻根，静为躁君……轻则失根，躁则失君。——《道德经》',
@@ -167,6 +167,8 @@ var quotes = [
 '亦余心之所善兮，虽九死其尤未悔。</br>For the ideal that I hold near to my heart,I\'d not regret a thousand times to die.',
 '人或加讪，心无疵兮。</br>My conscience stays untainted in spite of rumors and slanders from the outside.',
 '华山再高，顶有过路。</br>No matter how high the mountain is, one can always ascend to its top.',
+'Good upbringing is to think twice before talking to others.',
+'What you say forms you in the eyes of others.',
 ]
 
 var randomNumber1 = Math.floor(Math.random()*(quotes.length));//用Math.random产生0-1的随机数，乘以quotes的个数以获取quotes的随机序号；用Math.floor来取整后返回给变量randomNumber1
