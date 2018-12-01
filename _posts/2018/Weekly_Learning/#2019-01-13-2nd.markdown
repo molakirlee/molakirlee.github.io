@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "2019-每周补脑2st"
+title:      "2019-每周补脑2nd"
 subtitle:   ""
 date:       2019-01-13 09:06:00
 author:     "XiLock"
