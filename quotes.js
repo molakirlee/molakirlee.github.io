@@ -170,6 +170,13 @@ var quotes = [
 'Good upbringing is to think twice before talking to others.',
 'What you say forms you in the eyes of others.',
 '万事皆虚，万物皆允',
+'势力纷华，不近者为洁，近之而不染者尤洁。——《菜根谭》',
+'处事让一步为高，退步即进步的张本；待人宽一分是福，利人实利己的根基。——《菜根谭》',
+'口能言为秘，心不能言为密。——禅宗法门',
+'笛以无腔为适，琴以无弦为高，会以不期为真率，客以不迎送为坦夷。幽人清事总在自适。但识琴中趣，何劳弦上音？',
+'Good upbringing is to think twice before talking to others.',
+'What you say is like a mirror in which you can see yourself and others also know you.',
+'修道要严于律己，恕以责人。——南怀瑾',
 ]
 
 var randomNumber1 = Math.floor(Math.random()*(quotes.length));//用Math.random产生0-1的随机数，乘以quotes的个数以获取quotes的随机序号；用Math.floor来取整后返回给变量randomNumber1
