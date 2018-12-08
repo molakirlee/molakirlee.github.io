@@ -243,6 +243,7 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 ```
 
 排序：  
+{%raw%}
 ```
 {% capture tags %}
   {% for tag in site.tags %}
@@ -259,6 +260,9 @@ fetch = +refs/heads/*:refs/remotes/origin/*
   {% endfor %}
 {% endfor %}
 ```
+{%endraw%}
+
+
 如果想要又排序又添加色彩，则用
 ```
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
@@ -267,3 +271,22 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 ```
 <a href="{{ page.url }}#{{ tag[0] }}">{{ tag[0] }}</a>
 ```
+
+### 更新20181208
+今天发现20181122更新的代码排序没有正常在本文里显示，主要是因为块标题
+{%raw%}
+```
+{% %}
+```
+{%endraw%}
+把&apos;&apos;&apos;  &apos;&apos;&apos;的先后分别添加
+`
+{\%raw%}
+`
+和
+`
+{\%endraw%}
+`即可。
+
+
+
