@@ -4,7 +4,7 @@ title:      "唐朝诗人的头发状况"
 subtitle:   ""
 date:       2018-12-15 16:02:00
 author:     "XiLock"
-header-img: ""
+header-img: "img/in-post/2018/2018-12-15-shirentuofa"
 header-mask: 0.3
 catalog:    true
 tags:
@@ -180,6 +180,7 @@ tags:
 >——白居易《行香归》
 
 这不就是乔布斯吗……
+![](/img/in-post/2018/2018-12-15-shirentuofa/jobs.jpg)
 
 （四）
 
@@ -379,6 +380,10 @@ tags:
 **“高山无穷，太华削成。人文无穷，夫子挺生。”**
 
 致敬那些脱发的科研大牛们！感谢他们用头发换来了科学技术的进步与发展！
+
+![](/img/in-post/2018/2018-12-15-shirentuofa/whitesides.jpg)
+![](/img/in-post/2018/2018-12-15-shirentuofa/herb.jpg)
+![](/img/in-post/2018/2018-12-15-shirentuofa/Arthur_Ashkin.jpg)
 
 **长按文末二维码，欢迎关注微信在公众号“神探玺洛克”，每周六下午六点更新，吃着核桃来读书。**
 
