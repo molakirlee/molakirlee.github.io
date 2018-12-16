@@ -2,7 +2,7 @@
 layout:     post
 title:      "转·德鲁克60句经典名言"
 subtitle:   ""
-date:       2018-12-09 19:19:00
+date:       2018-12-16 19:19:00
 author:     "Peter F. Drucker"
 header-img: ""
 header-mask: 0.3
