@@ -385,6 +385,6 @@ tags:
 ![](/img/in-post/2018/2018-12-15-shirentuofa/herb.jpg)
 ![](/img/in-post/2018/2018-12-15-shirentuofa/Arthur_Ashkin.jpg)
 
-**长按文末二维码，欢迎关注微信在公众号“神探玺洛克”，每周六下午六点更新，吃着核桃来读书。**
+**扫描文末二维码，欢迎关注微信在公众号“神探玺洛克”，每周六下午六点更新，吃着核桃来读书。**
 
 ![](/img/wc-tail.GIF)
