@@ -565,6 +565,9 @@ var quotes = [
 '奉劝君子，各宜守己。——《增广贤文》',
 '对未来最大的慷慨，是把一切献给现在。——阿尔贝·加缪',
 '即将消灭你的人，今天还没有出现在你的敌人名单上。——凯文·凯利',
+'又此病生，皆由着我。是故于我不应生着。——《维摩诘经》',
+'五蕴山头一段空，同门出入不相逢。',
+'有意瞄准，无意击发。——罗振宇',
 ]
 
 var randomNumber1 = Math.floor(Math.random()*(quotes.length));//用Math.random产生0-1的随机数，乘以quotes的个数以获取quotes的随机序号；用Math.floor来取整后返回给变量randomNumber1
