@@ -563,6 +563,8 @@ var quotes = [
 '池塘积水须防旱，田地勤耕足养家。——《增广贤文》',
 '根深不怕风摇动，树正无愁月影斜。——《增广贤文》',
 '奉劝君子，各宜守己。——《增广贤文》',
+'对未来最大的慷慨，是把一切献给现在。——阿尔贝·加缪',
+'即将消灭你的人，今天还没有出现在你的敌人名单上。——凯文·凯利',
 ]
 
 var randomNumber1 = Math.floor(Math.random()*(quotes.length));//用Math.random产生0-1的随机数，乘以quotes的个数以获取quotes的随机序号；用Math.floor来取整后返回给变量randomNumber1
