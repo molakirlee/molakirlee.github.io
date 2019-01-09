@@ -210,7 +210,7 @@ Ref MSE/ChenRFL/SOP/201702
 1. The process MUST BE conducted in a fume hood with the sash position as low as possible.
 2. Wear lab coat, covered shoes, acid/base protective gloves and safety goggles at all time when handing Piranha solution.
 3. Use clean and open glass container to prepare piranha solution.
-4. A typical mixture in volume ratio is 3:1 of ammonium hydroxide (NH4OH) with hydrogen peroxide.
+4. A typical mixture in volume ratio is 1:1:5 of ammonium hydroxide (NH4OH) with hydrogen peroxide and DI water.
 5. Use a clean and dry glass container to collect desired amount of H2O2 (30% aqueous solution), NOT TO USE high concentrated H2O2.
 6. To keep the reactivity of the solution , one should heat the solution to 60 degree Celsius after the it becomes stabilized.
 7. Restrict the preparation volume to less than 100ml each time. 
