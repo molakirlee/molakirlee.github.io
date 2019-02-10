@@ -146,6 +146,9 @@ prepend-path PATH            $root/bin
 ## 其他
 ###### dssp安装
 可在[这里](https://swift.cmbi.umcn.nl/gv/dssp/HTML/distrib.html)的“DSSP 2.*”处下载处理好的linux/win版dssp放到/usr/local/bin目录下（或设置DSSP环境变量指向“此文件”，注意不是指向该文件的路径），然后用`sudo chmod a+x /usr/local/bin、dssp`添加权限（否则会提示增加“-ver option”）。  
+路径设置：  
+WRONG: export DSSP=/opt/bin  
+RIGHT: export DSSP=/opt/bin/dssp  
 
 也可以在[这里](https://swift.cmbi.umcn.nl/gv/dssp/)下载dssp，但没弄明白怎么安装。  
 
