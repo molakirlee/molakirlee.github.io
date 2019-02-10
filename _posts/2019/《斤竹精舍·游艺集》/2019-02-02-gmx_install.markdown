@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gromacs安装教程（+MPI+GPU加速版）"
+title:      "Gromacs安装教程（+MPI+GPU加速版）及相关"
 subtitle:   ""
 date:       2019-02-02 20:38:00
 author:     "XiLock"
@@ -13,6 +13,7 @@ tags:
 
 ---
 
+## GMX安装
 ### 一、安装fftw-3.2.2，安装路径为/opt/fftw-3.2.2
 
 http://www.fftw.org/fftw-3.3.8.tar.gz下载.
@@ -142,5 +143,10 @@ prepend-path MANPATH         $root/share/man
 prepend-path PATH            $root/bin
 ```
 
+## 其他
+###### dssp安装
+可在[这里](https://swift.cmbi.umcn.nl/gv/dssp/HTML/distrib.html)的“DSSP 2.*”处下载处理好的linux/win版dssp放到/usr/local/bin目录下（或设置DSSP环境变量指向“此文件”，注意不是指向该文件的路径），然后用`sudo chmod a+x /usr/local/bin、dssp`添加权限（否则会提示增加“-ver option”）。  
+
+也可以在[这里](https://swift.cmbi.umcn.nl/gv/dssp/)下载dssp，但没弄明白怎么安装。  
 
 ![](/img/wc-tail.GIF)
