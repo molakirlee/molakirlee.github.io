@@ -126,7 +126,7 @@ cat submit.pbs
 \#PBS –N gromacs_example  
 module load gromacs/5.1.2/gcc493/impi_cuda  
 cd \$PBS_O_WORKDIR  
-mpirun mdrun_mpi -pin on -ntomp $OMP_NUM_THREADS -s inputfile.tpr >mdrun.log  
+mpirun mdrun_mpi -pin on -ntomp $OMP_NUM_THREADS -deffnm md > pbs_md.log 2>&1
 -------------------------------------------------------------------  
 In the above script the resources are requested through the job script. Each line of the job script is  
 explained below.  
@@ -136,7 +136,7 @@ explained below.
 -> Name of the job is gromacs_example  
 -> Load the environment for gromacs cuda version  
 -> Change to current working directory  
--> Execute mpi version of gromacs command
+-> Execute mpi version of gromacs command, because the "-v" export into error so we add 2>&1
 
 
 
