@@ -60,24 +60,24 @@ $c_g=-0.025+7.0205 (R^2=0.997)$
 
 $c_{ws}=-214.454+292.079M+16.248T-8.015 M^2+0.289T^2-4.257MT+0.145TM^2  (R^2=0.98)$
 
-$\lambda$为糯米的导热系数（0•086-0•158 W/m\celsius），参照文献我们取为水含量、温度和密度的函数：
+$\lambda$为糯米的导热系数（0•086-0•158 W/m℃），参照文献我们取为水含量、温度和密度的函数：
 
-$\lambda_g=-0.0943+3.87\times 10^(-3) M+6.19\times 10^(-4) T+3.14\times 10^(-4) \rho_g$
+$\lambda_g=-0.0943+3.87\times 10^{-3} M+6.19\times 10^{-4} T+3.14\times 10^{-4} \rho_g$
 
-对于芝麻馅（0•031-0•149 W/m/\celsius）：
+对于芝麻馅（0•031-0•149 W/m/℃）：
 
-$\lambda_{ws}=-0.008+0.003M+0.001T+5.058\times 10^(-6) MT (R^2=0.95)$
+$\lambda_{ws}=-0.008+0.003M+0.001T+5.058\times 10^{-6} MT (R^2=0.95)$
 
-为了求解这个方程，我们还需要一些条件：初值条件和边界条件。初始状态下，汤圆刚从冰箱里面取出，玺洛克实验室冰箱的冷藏室是-20 \celsius，所以我们就假设初始状态为汤圆内各处温度均为-20 \celsius。
-接下来是边界条件，汤圆中心温度对称，所以中心温度T对位置r的偏导为0；糯米皮与芝麻馅处热通量相等，所以界面两边温度对位置r的偏导相等；汤圆外缘始终处于沸水中，所以我们假定汤圆与水接触的表面温度T恒为100 \celsius。
+为了求解这个方程，我们还需要一些条件：初值条件和边界条件。初始状态下，汤圆刚从冰箱里面取出，玺洛克实验室冰箱的冷藏室是-20 ℃，所以我们就假设初始状态为汤圆内各处温度均为-20 ℃。
+接下来是边界条件，汤圆中心温度对称，所以中心温度T对位置r的偏导为0；糯米皮与芝麻馅处热通量相等，所以界面两边温度对位置r的偏导相等；汤圆外缘始终处于沸水中，所以我们假定汤圆与水接触的表面温度T恒为100 ℃。
 
 有了这些热量传递方程和限制条件之后，玺洛克用Matlab对其进行求解，得到了半径1.8 cm的汤圆的径向温度分布随时间变化图像：
 
 ![](/img/in-post/2019/2019-02-17-boil_tangyuan/T-d-t.jpg)
  
-由图可知，最初汤圆各处都处于-20 \celsius，随着煮制时间的增加，汤圆的温度由外向内逐渐增加。若水温恒为100 \celsius，则汤圆煮10分钟左右就可以吃了。
+由图可知，最初汤圆各处都处于-20 ℃，随着煮制时间的增加，汤圆的温度由外向内逐渐增加。若水温恒为100 ℃，则汤圆煮10分钟左右就可以吃了。
 
-但是水温一直保持在100 \celsius的话就会存在一个问题：
+但是水温一直保持在100 ℃的话就会存在一个问题：
 
 沸水滚大浪，皮馅一锅汤。
 
@@ -134,7 +134,7 @@ $\lambda_{ws}=-0.008+0.003M+0.001T+5.058\times 10^(-6) MT (R^2=0.95)$
 5. 周显青等，《加工条件对汤圆蒸煮特性的影响及水分迁移分析》，粮油食品科技，2015
 6. So What Exactly Is Sticky Rice, Anyway?(https://www.huffpost.com/entry/sticky-rice_n_6084408)
 7. V.V.Sreenarayanan，《Thermal conductivity and diffusivity of rice bran》，Journal of Agricultural Engineering Research，1986
-8. Determination_of_Specific_Heat_and_Gelatinization_Temperature_of_Rice_using_Differential_Scanning_Calorimetry(https://www.researchgate.net/publication/271432160_Determination_of_Specific_Heat_and_Gelatinization_Temperature_of_Rice_using_Differential_Scanning_Calorimetry)
+8. Determination_of_Specific_Heat_and_Gelatinization_Temperature_of_Rice_using_Differential_Scanning_Calorimetry (https://www.researchgate.net/publication/271432160_Determination_of_Specific_Heat_and_Gelatinization_Temperature_of_Rice_using_Differential_Scanning_Calorimetry)
 9. Debabandya Mohapatra，《Determination of Specific Heat and Gelatinization Temperature of Rice using Differential Scanning Calorimetry 》，The Society for Engineering, Agricultural, Food, and Biiological System
 10. 淀粉糊化-百度百科（https://baike.baidu.com/item/%E6%B7%80%E7%B2%89%E7%B3%8A%E5%8C%96）
 11. Mashhad, Iranm,《EFFECT OF MOISTURE CONTENT AND TEMPERATURE ON THERMAL BEHAVIOUR OF SESAME SEED》, The Annals of the University Dunarea de Jos of Galati Fascicle VI – Food Technology, 2014
