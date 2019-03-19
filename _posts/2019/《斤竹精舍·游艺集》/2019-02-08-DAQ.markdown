@@ -18,6 +18,9 @@ tags:
 [流程框图](/img/in-post/2019/2019-02-08-DAQ/process.JPG)
 [Labview - DAQ 助手详解](https://www.litreily.top/2017/04/24/labview-DAQ/)  
 [电压信号采集实例-XiLock](https://molakirlee.github.io/attachment/Voltage_Input_Super.vi)  
+注：  
+1. 一个板卡同类型任务只能一个；  
+1. 所有插在compactDAQ机箱上的模块都共享一个背板上的时钟clock，即使各模块设定了不同的采样频率，所有模块实际上仍是用一个最快的采样频率，所以可以通过“条件输出”的方式控制输出频率，如i为10的倍数时才输出，详见上面的例子。
 
 ### Matlab实现信号采集的方法
 
