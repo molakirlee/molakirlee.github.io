@@ -17,7 +17,7 @@ tags:
 ### Labview实现信号采集的方法
 
 [Labview - DAQ 助手详解](https://www.litreily.top/2017/04/24/labview-DAQ/)  
-[电压信号采集实例](/_posts/2019/《斤竹精舍·游艺集》/Voltage -  Input - Super.vi)    
+[电压信号采集实例](molakirlee.github.io/_posts/2019/《斤竹精舍·游艺集》/Voltage -  Input - Super.vi)  
 
 ### Matlab实现信号采集的方法
 
