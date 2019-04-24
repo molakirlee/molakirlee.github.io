@@ -44,7 +44,11 @@ PBS脚本文件由脚本选项和运行脚本两部分组成。
   
 ###### 运行脚本同LINUX下一般的运行脚本文件。  
 [注]：脚本文件中的mpirun_rsh命令行中的节点列表文件要用环境变量表示  
-'\$PBS_NODEFILE'，这个环境变量表示由pbs自动分配给作业的节点列表；  
+'''
+$PBS_NODEFILE
+'''
+
+这个环境变量表示由pbs自动分配给作业的节点列表；  
 节点数为命令行中指定的进程数。  
 格式如下：  
 'mpirun_rsh –np 进程数 –hostfile $PBS_NODEFILE 可执行程序名'  
@@ -105,8 +109,11 @@ cat submit.pbs
 \#PBS –l walltime=16:00:00  
 \#PBS –N gromacs_example  
 module load gromacs/5.1.2/gcc493/impi  
-'cd \$PBS_O_WORKDIR'  
+'''
+cd $PBS_O_WORKDIR
+
 mpirun mdrun_mpi -pin on -ntomp $OMP_NUM_THREADS -s inputfile.tpr > gromacs.log  
+'''
 -------------------------------------------------------------------  
 In the above script the resources are requested through the job script. Each line of the job script is explained below.  
 -> Choose the queue “normal”  
@@ -125,8 +132,11 @@ cat submit.pbs
 \#PBS –l walltime=16:00:00  
 \#PBS –N gromacs_example  
 module load gromacs/5.1.2/gcc493/impi_cuda  
-cd \$PBS_O_WORKDIR  
+'''
+cd \$PBS_O_WORKDIR
+
 mpirun mdrun_mpi -pin on -ntomp $OMP_NUM_THREADS -deffnm md > pbs_md.log 2>&1
+'''
 -------------------------------------------------------------------  
 In the above script the resources are requested through the job script. Each line of the job script is  
 explained below.  
