@@ -1,0 +1,43 @@
+---
+layout:     post
+title:      "VMD使用笔记"
+subtitle:   ""
+date:       2019-04-25 20:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2019
+
+---
+
+
+### 常见问题
+###### 让指定化学键平行于笛卡尔坐标轴
+首先启动VMD，将分子结构文件载入，然后在控制台里将以下内容拷进去执行  
+```
+proc alignbond {ind1 ind2} {  
+set atm1 [atomselect top "serial $ind1"]  
+set atm2 [atomselect top "serial $ind2"]  
+set vecx [expr [$atm2 get x] - [$atm1 get x]]  
+set vecy [expr [$atm2 get y] - [$atm1 get y]]  
+set vecz [expr [$atm2 get z] - [$atm1 get z]]  
+set sel [atomselect top all]  
+$sel move [transvecinv "$vecx $vecy $vecz"]  
+}  
+```
+
+之后，比如想让4,9号原子对应的键平行于X轴，就在控制台输入alignbond 4 9，效果在图形窗口上可以立刻见到。之后，file-save coordinate保存为坐标文件即可。（这两个原子也可以没有实际成键，它们只用于定义连线的矢量而已）
+
+若想让这个键平行于其它笛卡尔坐标轴，先用上述方法令这个键平行于X轴，然后执行  
+```
+set sel [atomselect top all]
+```
+之后，比如输入 `$sel move [transaxis z 90]` 就可以让体系坐标绕着Z轴转动90度。z可以改成x和y来分别绕着x和y轴旋转。根据实际要求，令体系适当旋转即可达到目的。
+
+参考[让指定化学键平行于笛卡尔坐标轴的方法](http://sobereva.com/177)  
+
+
+![](/img/wc-tail.GIF)

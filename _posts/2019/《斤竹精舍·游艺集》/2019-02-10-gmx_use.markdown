@@ -31,5 +31,10 @@ gmx mdrun -v -deffnm md2 -cpi md1.cpt  -noappend
 gmx convert-tpr -s md1.tpr -extend 10000 -o md1.tpr
 gmx mdrun -v -deffnm md1 -cpi md1.cpt
 ```
+###### 提取轨迹中某一帧  
+```
+gmx trjconv -f md.trr -s md.tpr -o 3000ps.gro -dump 3000
+```
+就可以提取最接近3000ps的那一帧  
 
 ![](/img/wc-tail.GIF)
