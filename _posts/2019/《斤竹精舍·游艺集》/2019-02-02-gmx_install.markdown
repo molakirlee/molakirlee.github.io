@@ -21,7 +21,7 @@ http://www.fftw.org/fftw-3.3.8.tar.gz下载.
 gzip xzvf fftw-3.3.4.tar.gz   
 cd fftw-3.3.4  
 ./configure --prefix=/opt/fftw-3.3.4 --enable-sse2 --enable-avx --enable-float --enable-shared  
-``
+```
 如果你的CPU相对较新，支持AVX2指令集，可再加上 `--enable-avx2` 选项以获得更好性能。
 
 ```
