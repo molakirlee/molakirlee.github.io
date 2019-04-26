@@ -14,7 +14,7 @@ tags:
 ---
 
 ### 安装
-
+###### AmberTool安装
 [官网](http://ambermd.org/AmberTools15-get.html) 下载AmberTools14.tar.bz2后移动至/home/myname/install  
 
 ```
@@ -45,7 +45,13 @@ make test
 
 编译大概需要20min，测试大概需要2h。
 
+###### acpype下载
+
+acpype.py可从[网站上下载](http://svn.code.sf.net/p/ccpn/code/branches/stable/ccpn/python/acpype/)  
+
 将acpype.py放到AmberTool的bin文件夹里。
+
+用`chmod a+x <acpype.py路径>`给acpype.py提高权限，否则可能被denied。
 
 可参考[Amber14安装方法](http://sobereva.com/263)
 
