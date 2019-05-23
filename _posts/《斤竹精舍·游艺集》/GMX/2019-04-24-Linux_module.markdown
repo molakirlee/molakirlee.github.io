@@ -70,6 +70,8 @@ module use -a <路径>将指定路径追加到MODULEPATH中
 |module show MODULE|Show details about the module, including the changes that loading the module will make to your environment.|
 
 ### Module范例——Gromacs 
+
+无后缀文本文件作为modulefile，内容如下：  
 ```
 #%Module -*- tcl -*-
 ##
