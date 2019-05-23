@@ -8,7 +8,7 @@ header-img: "img/in-post/2018-10-26-git-notes/post-bg-rwd.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - 整理汇总
+    - 《斤竹精舍·游艺集》
     - 2018
 
 
