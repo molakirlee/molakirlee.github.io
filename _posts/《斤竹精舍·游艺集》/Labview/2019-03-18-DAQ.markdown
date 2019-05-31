@@ -13,14 +13,45 @@ tags:
 
 ---
   
-  
+Labview有问题可以给售后发邮件：  
+ If you have technical inquiries in the future, feel free to drop us an email at asean.anz.support@ni.com. We will be happy to assist you.
+ 
 ### Labview实现信号采集的方法
-[流程框图](/img/in-post/2019/2019-02-08-DAQ/process.JPG)
+#### 信号采集方法 
+
+[流程框图](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/process.JPG)  
+
 [Labview - DAQ 助手详解](https://www.litreily.top/2017/04/24/labview-DAQ/)  
-[电压信号采集实例-XiLock](https://molakirlee.github.io/attachment/Voltage_Input_Super.vi)  
+
+如果不希望信号采集之初为非零值，则可扣除最初的非零值，但这只是表象，参见后面信号输出时的清零和重置问题。  
+[信号采集时扣除初值](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/clear_initial_data.png)  
+
+[电压信号采集-实例-XiLock](https://molakirlee.github.io/attachment/Voltage_Input_Super.vi)  
+[电压信号采集-扣除非零初值实例-XiLock](https://molakirlee.github.io/attachment/Voltage_Input-Clear_initial_data.vi)  
 注：  
 1. 一个板卡同类型任务只能一个；  
-1. 所有插在compactDAQ机箱上的模块都共享一个背板上的时钟clock，即使各模块设定了不同的采样频率，所有模块实际上仍是用一个最快的采样频率，所以可以通过“条件输出”的方式控制输出频率，如i为10的倍数时才输出，详见上面的例子。
+1. 所有插在compactDAQ机箱上的模块都共享一个背板上的时钟clock，即使各模块设定了不同的采样频率，所有模块实际上仍是用一个最快的采样频率，所以可以通过“条件输出”的方式控制输出频率，如i为10的倍数时才输出，详见上面的例子。  
+
+#### 信号输出方法 
+
+Labview输出信号时，在输出完信号停止之后**不会自动清零或重置信号**，所以下次进行信号输出时，是在上次停止电压的基础上进行的叠加。若想下次从零开始，则需要手动清零或重置。[参考](https://forums.ni.com/t5/Multifunction-DAQ/Help-getting-DAQ-analog-output-to-reset-to-zero-after-the-stop/td-p/272185?profile.language=en)  
+有两种方法可以实现停止后清零/重置信号(In order to reset the value to 0, there are two ways to achieve this)：  
+1. Output a value 0 before the DAQ task is cleared  
+2. Reset the device  
+
+要注意的是，突然终止程序(Abort)不能起到清零/重置的效果，只有点击Stop才有效果。下图同时给出两种解决方案的具体程序：  
+[停止信号输出时清零/重置信号](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/reset_output_signal_after_stop.png)  
+
+详见：[带信号清零的电压信号输出实例-XiLock](https://molakirlee.github.io/attachment/Voltage_Continuous_Output-Clear_data_when_stop.vi)  
+
+若需要多通道同时输出信号则可参考下图：  
+[多通道信号输出](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/muti_channel_output.jpg)  
+
+程序则可参见[多通道电压信号输出实例-XiLock](https://molakirlee.github.io/attachment/Multi_channel_Voltage_Continuous_Output.vi)  
+
+
+
+
 
 ### Matlab实现信号采集的方法
 
