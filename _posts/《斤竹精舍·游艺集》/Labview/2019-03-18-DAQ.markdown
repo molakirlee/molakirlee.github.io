@@ -13,8 +13,22 @@ tags:
 
 ---
   
+### Labview客服
 Labview有问题可以给售后发邮件：  
- If you have technical inquiries in the future, feel free to drop us an email at asean.anz.support@ni.com. We will be happy to assist you.
+ If you have technical inquiries in the future, feel free to drop us an email at asean.anz.support@ni.com. We will be happy to assist you.  
+ 
+Next time you need to call technical support, use our Request Support system at http://www.ni.com/ask. You can  
+- Create your own support requests
+- Call toll-free
+- Route directly to an engineer
+- Get priority status in queue
+
+Visit http://www.ni.com/support, our award-winning Web Support Site, for a range of options designed to lead you to the right answer:  
+- Drivers and Updates
+- KnowledgeBase
+- Example Code
+- Discussion Forums
+ 
  
 ### Labview实现信号采集的方法
 #### 信号采集方法 
