@@ -14,9 +14,9 @@ tags:
 
 ---
 
-常见氨基酸结构、性质：[氨基酸参照表](https://www.sigmaaldrich.com/china-mainland/life-science/metabolomics/learning-center/amino-acid-reference-chart.html#1)
+常见氨基酸结构、性质：[氨基酸参照表](https://www.sigmaaldrich.com/china-mainland/life-science/metabolomics/learning-center/amino-acid-reference-chart.html#1)  
 
-
+Protein Prepare:[PlayMolecule](https://playmolecule.org/)  
 
 
 ![](/img/wc-tail.GIF)
