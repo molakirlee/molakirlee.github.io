@@ -111,4 +111,11 @@ freezegrps      = bas SG
 freezedim       = Y Y Y Y Y Y
 ```
 
+### 其他
+#### Gromacs中pH值设定  
+It is not possible to define pH in an MD system as there are no hydronium ions floating around (you can't plausibly model that) and protons can't be exchanged in classical MD, anyway.  
+ You set a dominant protonation state representative of a given pH using options in pdb2gmx to alter the protonation state of titratable residues based on their individual pKa values.  
+参考：[How to set the pH in Gromacs?](https://www.researchgate.net/post/How_to_set_the_pH_in_Gromacs)
+
+
 ![](/img/wc-tail.GIF)
