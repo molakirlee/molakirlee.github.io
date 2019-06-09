@@ -46,6 +46,10 @@ Visit http://www.ni.com/support, our award-winning Web Support Site, for a range
 1. 一个板卡同类型任务只能一个；  
 1. 所有插在compactDAQ机箱上的模块都共享一个背板上的时钟clock，即使各模块设定了不同的采样频率，所有模块实际上仍是用一个最快的采样频率，所以可以通过“条件输出”的方式控制输出频率，如i为10的倍数时才输出，详见上面的例子。  
 
+其他参考：  
+1. [基于DAQmx的测量应用程序定式](http://labviewnote.weebly.com/63-daqmx.html)  
+1. [LabVIEW Demonstration Guide](http://www.ni.com/pdf/manuals/321215a.pdf)  
+
 #### 信号输出方法 
 
 Labview输出信号时，在输出完信号停止之后**不会自动清零或重置信号**，所以下次进行信号输出时，是在上次停止电压的基础上进行的叠加。若想下次从零开始，则需要手动清零或重置。[参考资料](https://forums.ni.com/t5/Multifunction-DAQ/Help-getting-DAQ-analog-output-to-reset-to-zero-after-the-stop/td-p/272185?profile.language=en)  
