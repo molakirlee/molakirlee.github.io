@@ -288,5 +288,6 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 {\%endraw%}
 `即可。
 
-
+### 更新20190628
+另一篇参考：[Using Hugo, GitLab Pages, and Cloudflare to create and run this Website](https://tkainrad.dev/posts/using-hugo-gitlab-pages-and-cloudflare-to-create-and-run-this-website/)
 
