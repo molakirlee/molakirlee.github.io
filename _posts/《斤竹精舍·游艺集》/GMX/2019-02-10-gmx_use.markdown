@@ -31,13 +31,31 @@ gmx mdrun -v -deffnm md2 -cpi md1.cpt  -noappend
 gmx convert-tpr -s md1.tpr -extend 10000 -o md1.tpr
 gmx mdrun -v -deffnm md1 -cpi md1.cpt
 ```
-#### 提取轨迹中某一帧  
+
+
+#### 
+
+```
+Fatal error:
+There is no domain decomposition for 20 ranks that is compatible with the given box and a minimum cell size of 0.929375 nm
+Change the number of ranks or mdrun option -rcon or -dds or your LINCS settings
+Look in the log file for details on the domain decomposition
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+```
+
+Solution:
+Use following command line: `gmx mdrun -v -deffnm em -nt 8`  
+I used the option "-nt 1" to make it work. Sometimes the simulation is too small to be divided.  
+
+### 提取轨迹中某一帧  
 ```
 gmx trjconv -f md.trr -s md.tpr -o 3000ps.gro -dump 3000
 ```
 就可以提取最接近3000ps的那一帧  
 
-#### 带上、下壁面的xy周期体系
+
+### 带上、下壁面的xy周期体系
 
 在mdp中将周期部分修改为：
 ```
