@@ -15,7 +15,8 @@ tags:
 ---
 
 参考1:[GROMACS非标准残基教程1：修改力场与增加残基](https://jerkwin.github.io/2017/09/14/GROMACS%E9%9D%9E%E6%A0%87%E5%87%86%E6%AE%8B%E5%9F%BA%E6%95%99%E7%A8%8B1-%E4%BF%AE%E6%94%B9%E5%8A%9B%E5%9C%BA%E4%B8%8E%E5%A2%9E%E5%8A%A0%E6%AE%8B%E5%9F%BA/)    
-参考2:[GROMACS非标准残基教程2：芋螺毒素小肽实例](https://jerkwin.github.io/2017/09/20/GROMACS%E9%9D%9E%E6%A0%87%E5%87%86%E6%AE%8B%E5%9F%BA%E6%95%99%E7%A8%8B2-%E8%8A%8B%E8%9E%BA%E6%AF%92%E7%B4%A0%E5%B0%8F%E8%82%BD%E5%AE%9E%E4%BE%8B/)  
+参考2:[GROMACS非标准残基教程2：芋螺毒素小肽实例](https://jerkwin.github.io/2017/09/20/GROMACS%E9%9D%9E%E6%A0%87%E5%87%86%E6%AE%8B%E5%9F%BA%E6%95%99%E7%A8%8B2-%E8%8A%8B%E8%9E%BA%E6%AF%92%E7%B4%A0%E5%B0%8F%E8%82%BD%E5%AE%9E%E4%BE%8B/)    
+参考3[使用AmberTools+ACPYPE+Gaussian创建小分子GAFF力场的拓扑文件](https://jerkwin.github.io/2015/12/08/%E4%BD%BF%E7%94%A8AmberTools+ACPYPE+Gaussian%E5%88%9B%E5%BB%BA%E5%B0%8F%E5%88%86%E5%AD%90GAFF%E5%8A%9B%E5%9C%BA%E7%9A%84%E6%8B%93%E6%89%91%E6%96%87%E4%BB%B6/)  
 
 ### 前言
 
@@ -37,7 +38,7 @@ xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoa
 ###### 生成top文件
 1. 片段结构的获取：若为端基残基，则用另一中性氨基酸配成酰胺键后用H将外加氨基酸的C端加氢（或N端减氢，推荐VAL，因为VAL的N端在amber力场里只有2个H），实现中性化封端。若为中间氨基酸，则两端用其它氨基酸分别配成酰胺键后用H将外加氨基酸C端加氢（或N端减氢），实现中性化封端。
 1. 生成mol2文件，生成的同时确定好带电情况，因为两端均做中性化，所以带电量为自定义残基带电量。
-1. 利用acpype生成含有自定义残基的片段结构的拓扑文件，同时检查生成的gro文件结构合理性。
+1. 利用acpype生成含有自定义残基的片段结构的拓扑文件，同时检查生成的gro文件结构合理性。acpype要用sf版，sf版中二面角默认类型为9或4，可通过-z改变；github版中为3或1。（见参考3）
 ###### xxx.rtp文件的生成
 1. 拓扑文件中只保留下列部分的内容: [ atoms ], [ bonds ], [ angles ], [ dihedrals ] ; propers, [ dihedrals ] ; impropers。  
 1. 调整电荷。如果采用AM1-BCC电荷, 简单的处理方法是将相邻残基的净电荷加到相应的连接原子上。RESP电荷看参考资料。  
