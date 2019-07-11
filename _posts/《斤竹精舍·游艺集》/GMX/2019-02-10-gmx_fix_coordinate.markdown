@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gromacs使用笔记"
+title:      "Gromacs坐标固定"
 subtitle:   ""
 date:       2019-02-10 20:38:00
 author:     "XiLock"
@@ -9,73 +9,10 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
+    - GMX学习记录
     - 2019
 
 ---
-
-
-### 常见问题
-#### 续算
-一、意外中断的任务md1  
-```
-gmx mdrun -v -deffnm md1 -cpi md1.cpt
-```  
-二、md1已跑完，延续之前的模拟参数，再跑额外的10ns  
-法1：在原来的md1.trr/xtc/log/edr/gro之外得道md2.part0002.trr/xtc/log/edr/gro  
-```
-gmx convert-tpr -s md1.tpr -extend 10000 -o md2.tpr  
-gmx mdrun -v -deffnm md2 -cpi md1.cpt  -noappend
-```
-法2：直接在md1上续写内容  
-```
-gmx convert-tpr -s md1.tpr -extend 10000 -o md1.tpr
-gmx mdrun -v -deffnm md1 -cpi md1.cpt
-```
-
-
-#### 
-
-```
-Fatal error:
-There is no domain decomposition for 20 ranks that is compatible with the given box and a minimum cell size of 0.929375 nm
-Change the number of ranks or mdrun option -rcon or -dds or your LINCS settings
-Look in the log file for details on the domain decomposition
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
-```
-
-Solution:
-Use following command line: `gmx mdrun -v -deffnm em -nt 8`  
-I used the option "-nt 1" to make it work. Sometimes the simulation is too small to be divided.  
-
-### 提取轨迹中某一帧  
-```
-gmx trjconv -f md.trr -s md.tpr -o 3000ps.gro -dump 3000
-```
-就可以提取最接近3000ps的那一帧  
-
-
-### 带上、下壁面的xy周期体系
-
-在mdp中将周期部分修改为：
-```
-pbc		= xy 		    ; 2-D PBC
-nwall		= 2
-wall-atomtype	= CG321 CG321
-wall-type	= 9-3
-wall-density    = 4.6 4.6
-wall-ewald-zfac = 3
-wall-r-linpot   = 0.01
-ewald-geometry  = 3dc
-```
-
-在添加一个带壁面参数的itp，内容为：  
-
-```
-[ atomtypes ]
-; name      at.num  mass     charge  ptype  sigma      epsilon
-CG321	     6      12.011    0.000  A      0.358141    0.023430
-```
 
 ### 坐标约束
 #### 坐标的restrain、freeze和constraint
@@ -87,8 +24,9 @@ CG321	     6      12.011    0.000  A      0.358141    0.023430
 
 **restrain可以用于NPT，但freeze和一些constraint则不可以。因为NPT会调整盒子大小，分子坐标同时也会变化，但freeze和一些constraint却要限制住，所以存在矛盾，体系、盒子可能爆炸。所以对于有freeze的体系只能用NVT不能用NPT，若非要用NPT则看看用restrain能否满足要求。**
 
-参考：[解析gromacs的restraint、constraint和freeze](http://sobereva.com/10)
-参考：[Re: Freeze + NPT + constraints - 1](https://www.mail-archive.com/gmx-users@gromacs.org/msg62889.html)；[Re: Freeze + NPT + constraints -2] (https://www.mail-archive.com/gmx-users@gromacs.org/msg32246.html)
+参考：[解析gromacs的restraint、constraint和freeze](http://sobereva.com/10)  
+参考：[Re: Freeze + NPT + constraints - 1](https://www.mail-archive.com/gmx-users@gromacs.org/msg62889.html)；[Re: Freeze + NPT + constraints -2] (https://www.mail-archive.com/gmx-users@gromacs.org/msg32246.html)  
+
 
 #### pull固定坐标
 
@@ -129,21 +67,5 @@ freezegrps      = bas SG
 freezedim       = Y Y Y Y Y Y
 ```
 
-### 其他
-#### Gromacs中pH值设定  
-It is not possible to define pH in an MD system as there are no hydronium ions floating around (you can't plausibly model that) and protons can't be exchanged in classical MD, anyway.  
- You set a dominant protonation state representative of a given pH using options in pdb2gmx to alter the protonation state of titratable residues based on their individual pKa values.  
-参考：[How to set the pH in Gromacs?](https://www.researchgate.net/post/How_to_set_the_pH_in_Gromacs)
-
-#### pdb2gmx中的-chainsep和-merge的区别  
-在处理二硫键时，若两个S原子分别在两条链上，则需要将两条链进行合并，否则二硫键不会成键。（因为gromacs不能处理成/断键，所以若想保证成键必须是一个分子）  
-在pdb2gmx时，若想合并两/多条链则可以用-chainsep或-merge，但两者不同。  
-1. 使用-chainsep合并两条链时两条链之间会形成肽键，所以有时会出现原子类型OTX（C端O）不识别的情况，若参照“aminoacids.arn”将OTX改成OC1则可运行，但合成出来的两条链分别脱O（因为C端已经去质子化，所以不是OH而是O）、H（N端），以肽键相连。  
-1. 使用-merge合并时，只是将两条链合并到一个[moleculartype]中，不会强迫两条链以肽键链接。  
-
-#### 盐桥计算
-用gromacs的盐桥计算基本算不动，所以Xilock用VMD进行盐桥计算，因为载入的gro文件识别不了链，所以会提示不unique（即便之间index文件里面有分类），转换成pdb文件并标注链后则能区分是相同链还是不同链之间形成盐桥（链标识只能是一个字符单位）。  
-生成的文件包括所有存在过盐桥的位置以及距离随时间的关系，为dat文件，也可以额外生成一个汇总的Log文件，但log文件里只有位点没有距离随时间的关系。  
-若想得到每一时刻可能存在的盐桥数量则可以用这个[matlab脚本](https://molakirlee.github.io/attachment/Matlab_cal_salt_bridge.m)，将该脚本与所有的dat文件放在同一文件夹下运行，则脚本会自动筛选出属于同一条链的盐桥并将其距离随时间的关系拼合到同一个xls文件中。  
 
 ![](/img/wc-tail.GIF)
