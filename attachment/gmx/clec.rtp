@@ -4,7 +4,7 @@
 [ CLEC ]
 [ atoms ]
 ;atom    type      charge     nr   ; qtot   bond_type
-    N     N      -0.451901     9 ; qtot -0.452
+    N     N      -0.451899     9 ; qtot -0.452
     H     H       0.305500    10 ; qtot -0.146
    CA     CT      0.075700    11 ; qtot -0.071
    HA     H1      0.083700    18 ; qtot -0.270
