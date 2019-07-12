@@ -25,7 +25,7 @@ tags:
 **restrain可以用于NPT，但freeze和一些constraint则不可以。因为NPT会调整盒子大小，分子坐标同时也会变化，但freeze和一些constraint却要限制住，所以存在矛盾，体系、盒子可能爆炸。所以对于有freeze的体系只能用NVT不能用NPT，若非要用NPT则看看用restrain能否满足要求。**
 
 参考：[解析gromacs的restraint、constraint和freeze](http://sobereva.com/10)  
-参考：[Re: Freeze + NPT + constraints - 1](https://www.mail-archive.com/gmx-users@gromacs.org/msg62889.html)；[Re: Freeze + NPT + constraints -2] (https://www.mail-archive.com/gmx-users@gromacs.org/msg32246.html)  
+参考：[Re: Freeze + NPT + constraints - 1](https://www.mail-archive.com/gmx-users@gromacs.org/msg62889.html)；[Re: Freeze + NPT + constraints -2](https://www.mail-archive.com/gmx-users@gromacs.org/msg32246.html)  
 
 
 #### pull固定坐标

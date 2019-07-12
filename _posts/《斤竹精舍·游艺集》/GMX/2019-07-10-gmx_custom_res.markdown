@@ -23,7 +23,7 @@ tags:
 ***先看上面的参考资料，下面的介绍仅为参考资料的补充。***    
 
 pdb2gmx在生成拓扑结构时按照以下顺序：r2b->hdb->rtp->tdb  
-aminoacids.c.tdb和aminoacids.n.tdb是对端基的处理，在amber力场中均为空。  
+aminoacids.c.tdb和aminoacids.n.tdb是对端基的处理，在amber力场中均为空。（大概因此amber力场无-ter）  
 
 下面以amber99sb-ildn力场为例介绍端基残基的生成：  
 实现自定义氨基酸残基要处理的文件主要有4个：  
@@ -37,11 +37,13 @@ xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoa
 ### 步骤
 ###### 生成top文件
 1. 片段结构的获取：若为端基残基，则用另一中性氨基酸配成酰胺键后用H将外加氨基酸的C端加氢（或N端减氢），实现中性化封端。若为中间氨基酸，则两端用其它氨基酸分别配成酰胺键后用H将外加氨基酸C端加氢（或N端减氢），实现中性化封端。
-1. 生成mol2文件，生成的同时确定好带电情况，因为两端均做中性化，所以带电量为自定义残基带电量。
-1. 利用acpype生成含有自定义残基的片段结构的拓扑文件，同时检查生成的gro文件结构合理性。acpype要用sf版，sf版中二面角默认类型为9或4，可通过-z改变；github版中为3或1。（见参考3）
+1. 生成mol2文件，现发现VMD生成的mol2文件不能用，gaussian view生成的可以。
+1. 利用acpype生成含有自定义残基的片段结构的拓扑文件，生成的同时确定好带电情况，因为两端均做中性化，所以带电量为自定义残基带电量。检查生成的gro文件结构合理性。acpype要用sf版，sf版中二面角默认类型为9或4，可通过-z改变；github版中为3或1。（见参考3）
 ###### xxx.rtp文件的生成
-1. 拓扑文件中只保留下列部分的内容: [ atoms ], [ bonds ], [ angles ], [ dihedrals ] ; propers, [ dihedrals ] ; impropers。  
+1. 拓扑文件中只保留下列部分的内容后另存为rtp格式: [ atoms ], [ bonds ], [ angles ], [ dihedrals ] ; propers, [ dihedrals ] ; impropers。  
 1. 调整电荷。如果采用AM1-BCC电荷, 简单的处理方法是将相邻残基的净电荷加到相应的连接原子上。RESP电荷看参考资料。  
+1. acpype生成的拓扑文件的原子类型均为小写，将其改为大写。
+1. 效仿自带库中的氨基酸修改原子名称，可参考[氨基酸在PDB文件中的原子命名规则](http://blog.sciencenet.cn/blog-3387981-1118283.html)  
 1. rtp文件主要内容如下，其中XXX为自定义残基名，处理方式见参考资料，文件内容样式可参考力场自带的aminoacids.rtp但内容比其要多。
 
 ```
@@ -62,7 +64,7 @@ xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoa
 ```
 
 ###### xxx.hdb文件的生成
-参照参考资料和力场自带的aminoacids.hdb的内容自行编写。**注意：如果一个原子上要加多个H时会按照xxx.hdb里的H原子名+序号的顺序生成，比如要加3个名为“HA”的氢原子，则会在位点生成名为“HA1”“HA2”“HA3”的3个H原子，如果这3个原子名称在xxx.rtp文件中没有定义则会报错，所以一定要在xxx.rtp中做好相应的定义。**
+参照参考资料和力场自带的aminoacids.hdb的内容自行编写，原子名称一定要与前面写的xxx.rtp文件一致。**注意：如果一个原子上要加多个H时会按照xxx.hdb里的H原子名+序号的顺序生成，比如要加3个名为“HA”的氢原子，则会在位点生成名为“HA1”“HA2”“HA3”的3个H原子，如果这3个原子名称在xxx.rtp文件中没有定义则会报错，所以一定要在xxx.rtp中做好相应的定义。**
 
 ###### 生成文件的放置位置
 将生成的xxx.rtp和xxx.hdb添加到自定义力场top/amber99sb-ildn_m.ff/中，在top/residuetypes.dat中添加自定义残基的名称。

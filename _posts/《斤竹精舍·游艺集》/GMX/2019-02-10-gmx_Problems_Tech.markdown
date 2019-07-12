@@ -14,6 +14,8 @@ tags:
 
 ---
 
+Google找不到可以在这个mail box里找一下，里面有很多相关的提问和回答：[mail-archive](https://www.mail-archive.com/)
+
 
 ### 遇到过的问题
 #### ... no domain decomposition for 20 ranks...
