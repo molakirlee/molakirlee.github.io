@@ -78,10 +78,10 @@ xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoa
 
 ### 附录
 自己写过的几个自定义残基：  
-[中性的C端LEU:clec.rtp](https://molakirlee.github.io/attachment/clec.rtp)
-[中性的C端LEU:clec.hdb](https://molakirlee.github.io/attachment/clec.hdb)  
-[中性的N端VAL:nvan.rtp](https://molakirlee.github.io/attachment/nvan.rtp)
-[中性的N端VAL:nvan.hdb](https://molakirlee.github.io/attachment/nvan.hdb)  
+[中性的C端LEU:clec.rtp](https://molakirlee.github.io/attachment/gmx/clec.rtp)
+[中性的C端LEU:clec.hdb](https://molakirlee.github.io/attachment/gmx/clec.hdb)  
+[中性的N端VAL:nvan.rtp](https://molakirlee.github.io/attachment/gmx/nvan.rtp)
+[中性的N端VAL:nvan.hdb](https://molakirlee.github.io/attachment/gmx/nvan.hdb)  
 
 
 
