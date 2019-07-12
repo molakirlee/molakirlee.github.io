@@ -63,6 +63,7 @@ xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoa
 ...
 ```
 
+
 ###### xxx.hdb文件的生成
 参照参考资料和力场自带的aminoacids.hdb的内容自行编写，原子名称一定要与前面写的xxx.rtp文件一致。**注意：如果一个原子上要加多个H时会按照xxx.hdb里的H原子名+序号的顺序生成，比如要加3个名为“HA”的氢原子，则会在位点生成名为“HA1”“HA2”“HA3”的3个H原子，如果这3个原子名称在xxx.rtp文件中没有定义则会报错，所以一定要在xxx.rtp中做好相应的定义。**
 
@@ -74,6 +75,13 @@ xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoa
 用 `gmx pdb2gmx -f xxx.pdb -ignh` 检查能否正常运行。  
 
 注：之前试过用gaussian view画出来的pdb结构跑不通（会包其他残基的错误）但从网上下载的pdb可以跑通，还不清楚原因。
+
+### 附录
+自己写过的几个自定义残基：  
+[中性的C端LEU:clec.rtp](https://molakirlee.github.io/attachment/clec.rtp)
+[中性的C端LEU:clec.hdb](https://molakirlee.github.io/attachment/clec.hdb)  
+[中性的N端VAL:nvan.rtp](https://molakirlee.github.io/attachment/nvan.rtp)
+[中性的N端VAL:nvan.hdb](https://molakirlee.github.io/attachment/nvan.hdb)  
 
 
 

@@ -1,0 +1,124 @@
+[ bondedtypes ]
+; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih
+     1       1          9          4        1         3      1     0
+[ NVAN ]
+[ atoms ]
+; atom    type      charge   nr
+     N    N3          -0.897803    1
+     H1   H            0.363300    2
+     H2   H            0.363300    3
+     CA   CT           0.110500    4
+     HA   HP           0.071700    5
+     CB   CT          -0.098700    6
+     C    C            0.576102    7
+     HB   HC           0.052700    8
+    CG1   CT          -0.101600    9
+    CG2   CT          -0.101600   10
+      O   O           -0.598101   11
+   HG11   HC           0.043367   12
+   HG12   HC           0.043367   13
+   HG13   HC           0.043367   14
+   HG21   HC           0.043367   15
+   HG22   HC           0.043367   16
+   HG23   HC           0.043367   17
+[ bonds ]
+;   ai     aj     r             k
+     N  H1      1.0180e-01    3.2978e+05
+     N  H2      1.0180e-01    3.2978e+05
+     N  CA      1.4700e-01    2.6828e+05
+    CA  HA      1.0930e-01    2.8108e+05
+    CA  CB      1.5350e-01    2.5363e+05
+    CA  C       1.5080e-01    2.7472e+05
+    CB  HB      1.0920e-01    2.8225e+05
+    CB  CG1     1.5350e-01    2.5363e+05
+    CB  CG2     1.5350e-01    2.5363e+05
+     C  O       1.2140e-01    5.4225e+05
+     C  +N      1.3450e-01    4.0016e+05
+   CG1  HG11    1.0920e-01    2.8225e+05
+   CG1  HG12    1.0920e-01    2.8225e+05
+   CG1  HG13    1.0920e-01    2.8225e+05
+   CG2  HG21    1.0920e-01    2.8225e+05
+   CG2  HG22    1.0920e-01    2.8225e+05
+   CG2  HG23    1.0920e-01    2.8225e+05 ;     -    
+[ angles ]
+;   ai     aj     ak     theta         cth
+     N   CA     HA     1.0992e+02    4.1330e+02
+     N   CA     CB     1.1038e+02    5.5379e+02
+     N   CA     C      1.1114e+02    5.5723e+02
+    H1   N      H2     1.0713e+02    3.4560e+02
+    H1   N      CA     1.0992e+02    3.9438e+02
+    H2   N      CA     1.0992e+02    3.9438e+02
+    CA   CB     HB     1.1005e+02    3.8802e+02
+    CA   CB     CG1    1.1063e+02    5.2894e+02
+    CA   CB     CG2    1.1063e+02    5.2894e+02
+    CA   C      O      1.2311e+02    5.6928e+02
+    CA   C      +N     1.1515e+02    5.6785e+02
+    HA   CA     CB     1.1007e+02    3.8794e+02
+    HA   CA     C      1.0766e+02    3.9857e+02
+    CB   CA     C      1.1053e+02    5.3379e+02
+    CB   CG1    HG11   1.1005e+02    3.8802e+02
+    CB   CG1    HG12   1.1005e+02    3.8802e+02
+    CB   CG1    HG13   1.1005e+02    3.8802e+02
+    CB   CG2    HG21   1.1005e+02    3.8802e+02
+    CB   CG2    HG22   1.1005e+02    3.8802e+02
+    CB   CG2    HG23   1.1005e+02    3.8802e+02
+    HB   CB     CG1    1.1005e+02    3.8802e+02
+    HB   CB     CG2    1.1005e+02    3.8802e+02
+   CG1   CB     CG2    1.1063e+02    5.2894e+02
+     O   C      +N     1.2203e+02    6.3455e+02
+  HG11   CG1    HG12   1.0835e+02    3.2995e+02
+  HG11   CG1    HG13   1.0835e+02    3.2995e+02
+  HG12   CG1    HG13   1.0835e+02    3.2995e+02
+  HG21   CG2    HG22   1.0835e+02    3.2995e+02
+  HG21   CG2    HG23   1.0835e+02    3.2995e+02
+  HG22   CG2    HG23   1.0835e+02    3.2995e+02
+
+[ dihedrals ] ; propers
+; for gromacs 4.5 or higher, using funct 9
+;    i      j      k      l     phase     kd      pn
+     N    CA      C      O    180.00   0.00000   2
+     N    CA     CB     HB      0.00   0.65084   3 
+     N    CA     CB    CG1      0.00   0.65084   3 
+     N    CA     CB    CG2      0.00   0.65084   3 
+     N    CA      C      O    180.00   0.00000   2 
+    H1     N     CA     HA      0.00   1.25520   3 
+    H1     N     CA     CB      0.00   1.25520   3 
+    H1     N     CA      C      0.00   1.25520   3 
+    H2     N     CA     HA      0.00   1.25520   3 
+    H2     N     CA     CB      0.00   1.25520   3 
+    H2     N     CA      C      0.00   1.25520   3 
+    CA    CB    CG1   HG11      0.00   0.66944   3 
+    CA    CB    CG1   HG12      0.00   0.66944   3 
+    CA    CB    CG1   HG13      0.00   0.66944   3 
+    CA    CB    CG2   HG21      0.00   0.66944   3 
+    CA    CB    CG2   HG22      0.00   0.66944   3 
+    CA    CB    CG2   HG23      0.00   0.66944   3 
+    HA    CA     CB     HB      0.00   0.65084   3 
+    HA    CA     CB    CG1      0.00   0.65084   3 
+    HA    CA     CB    CG2      0.00   0.65084   3 
+    HA    CA      C      O      0.00   3.34720   1 
+    HA    CA      C      O    180.00   0.33472   3 
+    CB    CA      C      O    180.00   0.00000   2 
+     C    CA     CB     HB      0.00   0.65084   3 
+     C    CA     CB    CG1      0.00   0.65084   3 
+     C    CA     CB    CG2      0.00   0.65084   3 
+    HB    CB    CG1   HG11      0.00   0.62760   3 
+    HB    CB    CG1   HG12      0.00   0.62760   3 
+    HB    CB    CG1   HG13      0.00   0.62760   3 
+    HB    CB    CG2   HG21      0.00   0.62760   3 
+    HB    CB    CG2   HG22      0.00   0.62760   3 
+    HB    CB    CG2   HG23      0.00   0.62760   3 
+   CG1    CB    CG2   HG21      0.00   0.66944   3 
+   CG1    CB    CG2   HG22      0.00   0.66944   3 
+   CG1    CB    CG2   HG23      0.00   0.66944   3 
+   CG2    CB    CG1   HG11      0.00   0.66944   3 
+   CG2    CB    CG1   HG12      0.00   0.66944   3 
+   CG2    CB    CG1   HG13      0.00   0.66944   3 
+     N    CA      C     +N    180.00   0.00000   2 
+    HA    CA      C     +N    180.00   0.00000   2 
+    CB    CA      C     +N      0.00   0.29288   2 
+    CB    CA      C     +N      0.00   0.41840   4 
+[ impropers ] ; 
+; treated as propers in GROMACS to use correct AMBER analytical function
+;    i     j      k      l    phase     kd      pn
+    CA    +N      C      O    180.00  43.93200   2 ;     CA-   N18-    C -   O11
