@@ -17,11 +17,19 @@ tags:
 Jerkwin老师讲的很详细，看后面之前先读这个：
 重要参考:[使用GROMACS计算MM-PBSA结合自由能](https://jerkwin.github.io/GMX/GMXtut-9/)    
 
+### GMXPBSA和g_mmPBSA的比较
+- GMXPBSA只能给出总体的值，g_mmPBSA可给出残基分解值；
+- 据说使用默认参数时, GMXPBSA在精度上优于g_mmpbsa而且使用也更方便；
+- GMXPBSA不需要安装，解压即可使用，g_mmpbsa需编译故稍微复杂，但新版本也有编译好可直接使用的；
+- GMXPBSA有一些问题，比如gmxpbsa给的mdp太老会报错，需要使用时修改代码，如参照em_vac.mdp修改print_files.dat文件的Energy in gas的Mm.mdp部分；
+- g_mmpbsa只需要xtc、tpr和ndx文件，GMXPBSA若处理有自定义拓扑或残基的体系时需要自带top、itp和/或力场文件夹ff;
+- GMXPBSA的debug过程很恶心，记录错误的文件在子文件夹里，而且重新运行时需要删除原来生成文件夹。
+
+
 ### GMXPBSA  
 参考：[GMXPBSAtool安装与使用经验教程](http://kangsgo.com/295.html)  
 
-据说使用默认参数时, GMXPBSA在精度上优于g_mmpbsa而且使用也更方便。    
-但是GMXPBSA有一些问题，比如gmxpbsa给的mdp太老会报错。今更新一下GMXPBSA的安装步骤：  
+鉴于之前遇到的问题，今更新一下GMXPBSA的安装和使用步骤：  
 
 ##### 安装GMX和APBS
 
@@ -108,15 +116,17 @@ Gpath		    /home/users/ntu/n1805727/GMX5.1.4_Mine/gromacs-5.1.4-cpu/bin
 ```
 use_topology            y                               #options: y,n
 	itp_receptor  recept.itp
+	itp_receptor  recept2.itp
 	itp_ligand    ligand.itp
 use_nonstd_ff           n                               #options: y,n
 ffield                 6
 ```
 
-1. 通过 `use_topology` 允许使用自定义拓扑，注意要把top文件和其中包括的itp文件都一起放在根目录里；
-1. 应该也可以通过修改力场文件实现上一步，加原子类型与电荷,但是自己修改不成功；
-1. 把要分析的两个片段的拓扑文件（top或itp）提取成itp后分别命名为itp_receptor和itp_ligand；
-1. ffield我选的amber6力场。
+1. 如果包含有pdb2gmx不能识别的结构，则需要通过 `use_topology` 来使用自定义拓扑，注意要把top文件和其内容中包括的itp文件都一起放在根目录里；
+1. 把要分析的两个片段的拓扑文件（top或itp）提取成itp后分别命名为itp_receptor和itp_ligand，脚本会将这几个itp文件组合，若缺少某个itp文件则会提示top文件中原子个数不够；
+1. itp_receptor可以定义多次，应用于蛋白质多条链的情况；
+1. 应该也可以通过 `use_nonstd_ff` 修改力场文件实现上一步，加原子类型与电荷,但是自己修改不成功；
+1. ffield我选的amber6力场，即选择力场时的第6个选项，默认为“amber99sb-ildn”，若添加过自定义力场则序号数字可能会变动。
 
 ###### Gromacs变量
 
@@ -259,6 +269,8 @@ cas                     n                               #options: y,n
 若使用“To use with external APBS program”的“Pre-compiled executable program”版则可能在计算polar时报错 `Segmentation fault`。  
 
 将“Pre-compiled executable program”版压缩包里的g_mmpbsa和energy2bfac两个文件的所在路径添加到环境变量里即可调用。
+
+使用步骤参照上面的参考资料即可。
 
 否则需要在安装GMX之外安装APBS，然后编译g_mmpbsa.
 
