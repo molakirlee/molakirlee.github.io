@@ -68,13 +68,15 @@ Line122(修改后):
 ##### 修改print_files.dat文件
 原文件写出的Mm.mdp缺少参数，运行时会出错，故在L41-L44添加上相应参数:
 e.g.
-
 ```
 function PRINT_MINfile_n {
- echo -e "title = Energy in gas /ncpp   = /usr/bin/cpp /nconstraints = none /nnsteps = 1000 /nnstlist = 1 /nns_type = grid
-rlist = 1 /nrcoulomb = 1 /nrvdw = 1 /npbc = xyz /n;" >> Mm.mdp
+# echo -e "title = Energy in gas \ncpp   = /usr/bin/cpp \nconstraints = none \nnsteps = 1000 \nnstlist = 1 \nns_type = grid
+#rlist = 1 \nrcoulomb = 1 \nrvdw = 1 \npbc = xyz \n;" >> Mm.mdp
+echo -e "title   =     EM in Vacuum        \ndefine  =     -DFLEXIBLE          \nintegrator       = steep          \ndt               = 1E-3           \nnsteps           = 15000          \nemtol                   = 250     \nnstlist                  = 1      \nrlist                    = 1      \ncutoff-scheme            = Verlet \nns_type                  = grid   \npbc                      = xyz    \nrvdw                = 1.2         \nrcoulomb            = 1.2         \nvdw-type            = Cut-off     \ncoulombtype         = PME         \nconstraints           = none      \n" >> Mm.mdp
 }
 ```
+
+**注意，此处写出的Mm.mdp文件不要有能量组项（energygrps）（如：energygrps=Protein）。**因为脚本会将蛋白和配体分别grompp做计算，计算蛋白时或许可以从蛋白中找到index中定义为Protein的索引所指向的原子而不会报错，但计算配体时必然无法找到该索引所指向的原子，故而报错。  
 
 ##### 准备模拟文件
 1. 将轨迹文件处理后命名为npt.xtc
