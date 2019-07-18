@@ -25,6 +25,10 @@ Jerkwin老师讲的很详细，看后面之前先读这个：
 - g_mmpbsa只需要xtc、tpr和ndx文件，GMXPBSA若处理有自定义拓扑或残基的体系时需要自带top、itp和/或力场文件夹ff;
 - GMXPBSA的debug过程很恶心，记录错误的文件在子文件夹里，而且重新运行时需要删除原来生成文件夹。
 
+虽然GMXPBSA的pdie默认为2，但只在计算PBSA时调用，而在计算COU时并未调用pdie，所以若GMXPBSA算出的COU为g_mmPBSA的两倍，则可能是因为计算COU时GMXPBSA使用的pdie为1而g_mmPBSA使用的pdie为2所导致。
+
+玺洛克用GMXMMPBSA（Jerkwin老师开发的脚本）、GMXPBSA以及g_mmPBSA对g_mmPBSA中的算例1EBZ进行了测试和对比：[链接](https://molakirlee.github.io/attachment/gmx/1EBZ_Case_from_g_mmpbsa.rar)
+
 
 ### GMXPBSA  
 参考：[GMXPBSAtool安装与使用经验教程](http://kangsgo.com/295.html)  
