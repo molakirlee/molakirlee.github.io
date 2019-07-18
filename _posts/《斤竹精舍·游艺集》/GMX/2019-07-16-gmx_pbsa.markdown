@@ -16,6 +16,7 @@ tags:
 ### 前言
 Jerkwin老师讲的很详细，看后面之前先读这个：
 重要参考:[使用GROMACS计算MM-PBSA结合自由能](https://jerkwin.github.io/GMX/GMXtut-9/)    
+重要参考:[【整理】APBS教程](https://jerkwin.github.io/2017/03/12/%E6%95%B4%E7%90%86-APBS%E6%95%99%E7%A8%8B/)    
 
 ### GMXPBSA和g_mmPBSA的比较
 - GMXPBSA只能给出总体的值，g_mmPBSA可给出残基分解值；
