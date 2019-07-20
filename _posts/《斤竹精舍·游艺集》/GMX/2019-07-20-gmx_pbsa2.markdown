@@ -61,7 +61,7 @@ L217的
 ```
 L488的
 ```
-' _$pid.pdb >>_$pid~MMPBSA.dat
+'' _$pid.pdb >>_$pid~MMPBSA.dat
 ```
 修改为
 ```
@@ -115,8 +115,9 @@ gmxpbsa用的半径与gmxmmpbsa和g_mmpbsa不同。gmxmmpbsa与g_mmpbsa的原子
 gmxmmpbsa采用与g_mmpbsa相同的方法计算格点，因为g_mmpbsa的格点方法是apbs给的方法，但g_mmpbsa处理网格的问题在于所采用的格点不一致；相比之下，gmxpbsa严格一些, 因为用的格点是一致的。此外，关于网格的设定，李老师觉得觉得要拿最大的体系测试, 看最小能用多大的网格, 然后所有的都用这个网格。
 
 三种方法计算g_mmpbsa算例1EBZ的结果比较：
+
+||gmxmmpbsa|||g_mmpbsa|gmxpbsa|
 |:----:|:----:|:----:|:----:|:----:|:----:| 
-||gmxmmpbsa|g_mmpbsa|gmxpbsa|
 |df|0.25|0.35|0.5|0.5|0.5|
 |VDW|-321.087|-321.087|-321.087|-326.395|-324.708|
 |COU|-147.217|-147.217|-147.217|-140.694|-154.925|
