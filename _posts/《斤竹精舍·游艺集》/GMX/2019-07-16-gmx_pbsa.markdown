@@ -270,7 +270,9 @@ cas                     n                               #options: y,n
 ### g_MMPBSA
 
 参考1:[入门教程](http://bioms.org/forum.php?mod=viewthread&tid=1240&extra=)    
-参考1:[详细教程](http://www.bioms.org/forum.php?mod=viewthread&tid=1046)  
+参考2:[详细教程](http://www.bioms.org/forum.php?mod=viewthread&tid=1046)  
+参考3:[g_mmpbsa之简单教程]{http://kangsgo.com/18.html}
+参考4:[g_mmpbsa之参数注释]{http://kangsgo.com/17.html}
 
 若不想编译g_mmpbsa，则在安装好GMX的情况下可直接使用“Includes APBS functionality”的“Pre-compiled executable program”版，不用安装apbs。[链接](http://rashmikumari.github.io/g_mmpbsa/Download-and-Installation.html#download-binary)  
 若使用“To use with external APBS program”的“Pre-compiled executable program”版则可能在计算polar时报错 `Segmentation fault`。  
