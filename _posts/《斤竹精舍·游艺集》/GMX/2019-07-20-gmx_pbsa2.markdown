@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "李老师计算MMPBSA的新脚本——gmxmmpbsa使用说明"
+title:      "Jerkwin老师计算MMPBSA的新脚本——gmxmmpbsa使用说明"
 subtitle:   ""
 date:       2019-07-20 20:20:00
 author:     "XiLock"
@@ -14,7 +14,9 @@ tags:
 
 ---
 
-***原文转自Jerkwin老师***
+### 声明
+
+**原文转自Jerkwin老师**，此处**转载**以便自己日常使用，阅读详细信息还请移步Jerkwin老师的网页。
 
 ### 前言
 还是很长时间之前，我曾研究过gmx中的mmPBSA的实现方法。当时我发现有两种解决方式：gmxpbsa脚本与g_mmpbsa程序。粗略看了下，虽然两个程序都还算可用，但也不尽美，所以就没太关注了。
