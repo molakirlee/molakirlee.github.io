@@ -92,8 +92,8 @@ cd gromacs-5.1.4
 mkdir build
 cd build
 
-export CMAKE_PREFIX_PATH=\<fftw的路径\>
-cmake .. -DCMAKE_INSTALL_PREFIX=/opt/gromacs-5.1.4-gpu -DGMX_MPI=ON -DGMX_GPU=ON -DCUDA_TOOLKIT_ROOT_DIR=\<cuda的路径\>
+export CMAKE_PREFIX_PATH=/<fftw的路径/>
+cmake .. -DCMAKE_INSTALL_PREFIX=/opt/gromacs-5.1.4-gpu -DGMX_MPI=ON -DGMX_GPU=ON -DCUDA_TOOLKIT_ROOT_DIR=/<cuda的路径/>
 
 sudo make 
 ```
@@ -171,6 +171,11 @@ prepend-path MANPATH         $root/share/man
 prepend-path PATH            $root/bin
 ```
 
+
+## 入门级使用教程
+[A simple guide to Gromacs 5](https://molakirlee.github.io/attachment/gmx/gromacs_tutorial_v5.pdf)  
+
+
 ## 其他
 ###### dssp安装
 可在[这里](https://swift.cmbi.umcn.nl/gv/dssp/HTML/distrib.html)的“DSSP 2.*”处下载处理好的linux/win版dssp放到/usr/local/bin目录下（或设置DSSP环境变量指向“此文件”，注意不是指向该文件的路径），然后用`sudo chmod a+x /usr/local/bin、dssp`添加权限（否则会提示增加“-ver option”）。  
@@ -179,6 +184,7 @@ WRONG: export DSSP=/opt/bin
 RIGHT: export DSSP=/opt/bin/dssp  
 
 也可以在[这里](https://swift.cmbi.umcn.nl/gv/dssp/)下载dssp，但没弄明白怎么安装。  
+
 
 
 ![](/img/wc-tail.GIF)
