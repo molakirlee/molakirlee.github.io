@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      "SFA"
+subtitle:   ""
+date:       2019-06-22 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2019
+
+
+---
+
+### mica
+参考：[mica介绍](http://www.jyotihitech.com/mica-info.html), 
+
+
+![](/img/wc-tail.GIF)
