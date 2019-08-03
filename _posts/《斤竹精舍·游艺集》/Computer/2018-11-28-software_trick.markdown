@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "软件技巧"
+title:      "软件技巧摘录"
 subtitle:   ""
 date:       2018-11-28 12:13:00
 author:     "XiLock"
@@ -8,7 +8,8 @@ header-img: "img/post-background/bamboo3.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - 整理汇总
+    - 《斤竹精舍·游艺集》
+    - CS
     - 2018
 
 

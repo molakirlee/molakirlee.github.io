@@ -9,7 +9,6 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·随笔集》
-    - 生活
     - 西游
     - 2018
 
