@@ -9,6 +9,7 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
+    - SFA
     - 2019
 
 
@@ -16,6 +17,21 @@ tags:
 
 ### mica
 参考：[mica介绍](http://www.jyotihitech.com/mica-info.html), 
+
+### Data Analysis
+Matlab code modified by XiLock: sg or dg
+[链接](https://molakirlee.github.io/attachment/sfa/matlab_code_Xilock.rar)
+
+Excel Model:  
+[SFA_Data_Analysis_Model_12_sample](https://molakirlee.github.io/attachment/sfa/SFA_Data_Analysis_Model_12_sample.xlsm)  
+[SFA_Data_Analysis_Model_20_sample](https://molakirlee.github.io/attachment/sfa/SFA_Data_Analysis_Model_20_sample.xlsm)  
+[SFA_Data_Analysis_Model_50_sample](https://molakirlee.github.io/attachment/sfa/SFA_Data_Analysis_Model_50_sample.xlsm)  
+
+
+### Server of Jing's Lab
+This is the shared network path: \\155.69.43.195\JingGroupSite   
+This link will only work on NTU machines.  
+
 
 
 ![](/img/wc-tail.GIF)
