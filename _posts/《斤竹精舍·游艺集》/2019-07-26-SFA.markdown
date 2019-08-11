@@ -19,7 +19,7 @@ tags:
 参考：[mica介绍](http://www.jyotihitech.com/mica-info.html), 
 
 ### Data Analysis
-Matlab code modified by XiLock: `sg` or `dg` to analyze. 
+Matlab code modified by XiLock: `sg`, `dg`, `uu` to analyze. 
 [下载链接](https://molakirlee.github.io/attachment/sfa/matlab_code_Xilock.rar)
 
 Excel Model:  
