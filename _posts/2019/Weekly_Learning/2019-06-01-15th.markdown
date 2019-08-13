@@ -1,0 +1,44 @@
+---
+layout:     post
+title:      "2019-每周补脑15th"
+subtitle:   ""
+date:       2019-06-01 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2019
+
+
+---
+ 
+### 它山之石
+#### 言论
+1. 一开始是，我们用比别人更努力，来让自己有更多的选择，之后是，我们用更懂得选择，让自己的努力比别人的努力收益更大。
+1. 不仅要干得好，也要让别人知道你干得好。主动且恰当地展示自己的工作成果，不是作秀，而是一项重要能力。
+1. 公司的管理职位，永远都是稀缺资源，那些能在复杂的办公室政治中胜出的人，也证明了其在压力下的生存能力和协调能力。
+1. 你如果能做，就开心的接受，甚至表现出特别愿意帮对方，因为既然付出了，干嘛不留个好印象；你如果不能做，就不抱怨不撒娇，明明白白的说，抱歉，这回确实不能帮你。
+1. 用脾气性格来区分一个领导是否值得追随是不成熟的职业观。一个领导是否值得追求，要看他能否成就你。脾气好的，让你舒服的，未必能成就你。
+1. 职场迁徙力很重要，应该根据自己的发展阶段及时挑战，该调整时不逃避。但试图用跳槽和转行解决你本身的问题，只会越跳越差。
+1. 想要进入一个领域，从树根入手，反复精读开山祖师2-3个人的书，再看树干，看这个领域最顶尖的人每天都在争论什么问题，这时候差不多已经掌握这个学科最核心的20%，剩下80%都是枝叶，吸收起来不难。
+1. 迈出第一步是你能做到的最重要的事情。哪怕是你最初感觉无足轻重的行动，也有可能引发重大的改变。
+1. 理想的对话比例是“对方7：自己3”。如果你感觉到“我说的比较少”，那就说明刚刚好。
+1. 每个人都希望他人“对自己的心情产生共情”。倾听他人讲话时，让对方感受到你“有同感”。
+1. 不动声色地谈起，“上次谈话的内容”，能让对方察觉到“他关心我”，能大幅提升对方对你的好感。
+1. 听他人讲话时，视线无须与对方接触，建议将目光落在对方的“眉心”“眉毛”“眼睛上下”“额头”“鼻子”等“眼睛以外的面部位置”。
+1. 在对方讲话时不要吃东西，认真倾听，在对方开始吃东西时自己也动筷子，保持动作“同步”。
+1. 即便对方的话无趣，倘若将对方视为“人生中的老师”，会有意外地发现。
+
+
+#### 转载
+[如何通过日常行为让你精力充沛](https://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&mid=2655714717&idx=1&sn=a65cc88dc6e35856ab5e695d2b975f7d&chksm=bd50ee1e8a2767084e16142731c0b15fff008500a8a6dcb140f26e9eca49408e039bf2c6590a&mpshare=1&scene=24&srcid=#rd)  
+[吃透这6个方法，你也能成为高效能人士](https://mp.weixin.qq.com/s?__biz=MzIxNTAzNzU0Ng==&mid=2654626845&idx=1&sn=a0ee724afd3646d46addbb25cda222e8&chksm=8c50a718bb272e0e60722ce9686d8c69a9397a034fc71e7e150fbe753ea2a272d6ee4b56646b&mpshare=1&scene=24&srcid=#rd)  
+[为什么很多优秀的人，会把闹钟定在早晨5：57 ？](https://mp.weixin.qq.com/s?__biz=Mzg2NzIzOTQ4NQ==&mid=2247498005&amp;idx=1&amp;sn=3cfb087172fa2025094c1513f7531dbe&source=41#wechat_redirect)  
+[阿里销冠：顶级销售的唯一秘诀](https://mp.weixin.qq.com/s?__biz=MzIxNTAzNzU0Ng==&mid=2654627450&idx=1&sn=72fbb078054f6fc5d2474ed38cda2d93&chksm=8c50a57fbb272c699001eab03d677fcf7ee1e255aee465e9c6bd12d97eeff56c800bb9ce812f&mpshare=1&scene=24&srcid=0513pSKX4Z3g0uATsNnM5LIw#rd)  
+[给职场人士的四点良心建议:1.注重专业能力的深究;2.学会带薪学习;3.积累影响力;4.培养第二技能](https://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650665877&idx=1&sn=4d2eec22e9bdf4e1b7889efef1ee0ce1&chksm=87d12ecab0a6a7dcfc5163fa30530e37cb81973ee09ae327c35c3d9a332da60cd6dc5691d60f&mpshare=1&scene=24&srcid=#rd)  
+[9个灵感来源，让无印良品做出一个个爆品](https://mp.weixin.qq.com/s?__biz=MzIxNTAzNzU0Ng==&mid=2654627591&idx=1&sn=9c422429d8538568b728106cb2b1a9e0&chksm=8c50a402bb272d149ce2128630c2fe4cf1d2ec37d7b9842cd739e1f603abf9ba91957d0ccd2c&mpshare=1&scene=24&srcid=#rd)  
+[单月业绩暴增120倍，阿里铁军如何做增长？](https://mp.weixin.qq.com/s?__biz=MzIxNTAzNzU0Ng==&mid=2654628092&idx=1&sn=67796dbfced1a38ea362cc5ab07cd04c&chksm=8c50abf9bb2722ef2c004d4c3877c5b2f496f14321124580a44a6d6f70e1035eea19e67eb8bd&mpshare=1&scene=24&srcid=0520NawsNrzlepE9nAa89RIA#rd)  
+
+![](/img/wc-tail.GIF)
