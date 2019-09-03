@@ -13,6 +13,10 @@ tags:
 
 
 ---
+
+### 食人鱼溶液配制
+[Piranha Solution Information & Safety](https://molakirlee.github.io/attachment/PiranhaSafety.doc)
+
 #### Basic Information
 User's School/Department/Student Activity Group:  
 Project Title:  

@@ -148,4 +148,8 @@ explained below.
 -> Execute mpi version of gromacs command, because the "-v" export into error so we add 2>&1
 
 
+##### 其它资料
+[浙江大学集群使用教程](https://molakirlee.github.io/attachment/cluster_ZheJiangUniversity.ppt)
+
+
 ![](/img/wc-tail.GIF)
