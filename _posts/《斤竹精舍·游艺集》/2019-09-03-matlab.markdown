@@ -27,9 +27,10 @@ tags:
 [实战](https://molakirlee.github.io/attachment/matlab/rank/Rank2.m)
 
 ### 动力学拟合
-Duan版及Zong版，可参见attachment。
+Duan Yuhao版及Zong Shuyi版，可参见attachment。
 
-
+### T-Test检验
+[实例](https://molakirlee.github.io/attachment/matlab/TTest.m)
 
 
 ![](/img/wc-tail.GIF)
