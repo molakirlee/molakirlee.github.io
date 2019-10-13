@@ -19,7 +19,7 @@ tags:
 [Virtual Instrumentation](http://www.ni.com/en-sg/innovations/white-papers/06/virtual-instrumentation.html)  
 [LabVIEW 学习札记](ftp://ftp.ni.com/pub/branches/china/LabVIEWLearningII.pdf)
 
-
+推荐书籍：《Labview2018虚拟仪器程序设计第2版》毛琼、王敏等编著
 
 
 ![](/img/wc-tail.GIF)
