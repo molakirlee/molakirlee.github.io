@@ -9,7 +9,7 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
-    - GMX学习记录
+    - VMD
     - 2019
 
 ---
@@ -47,5 +47,9 @@ set sel [atomselect top all]
 tachyon_WIN32.exe vmdscene.dat -aasamples 24 -mediumshade -trans_vmd -res 1024 768 -format BMP -o vmdscene.bmp
 ```
 双击运行此bat文件就重新渲染得到了vmdscene.bmp。Tachyon命令行参数中-res控制分辨率。-aasamples越大锯齿越不明显。若想调节图像内体系的尺寸，修改vmdscene.dat里的zoom，越大则图像里的物体越大。
+
+###### 选择时保证选择相同残基内原子
+用xyz等选择时有时可能不能完整选择一个残基内的原子，比如用z<20选择水分子时可能只选择上了H或O，导致断键。  
+可用"same residue as (water and z<20)"来保证同时选中与所选原子为同一残基内的原子。  
 
 ![](/img/wc-tail.GIF)
