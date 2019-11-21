@@ -15,6 +15,9 @@ tags:
 
 ---
 
+### SFA的误差
+As discussed in Methods, unavoidable changes in the optical path occur when the surfaces are removed from the SFA to deposit peptides after calibrating the mica thickness, which results in up to a 2 nm uncertainty in the peptide-film thicknesses.因为光路，每次把mica拿出来修饰完再放回去的误差大概在2nm左右。（DOI: 10.1038/NCHEM.2720）
+
 ### mica
 参考：[mica介绍](http://www.jyotihitech.com/mica-info.html), 
 
