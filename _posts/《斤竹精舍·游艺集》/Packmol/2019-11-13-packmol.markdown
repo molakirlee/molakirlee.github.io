@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "ansys"
+title:      "packmol"
 subtitle:   ""
 date:       2019-09-03 09:57:00
 author:     "XiLock"
@@ -9,7 +9,7 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
-    - ansys
+    - packmol
     - 2019
 
 

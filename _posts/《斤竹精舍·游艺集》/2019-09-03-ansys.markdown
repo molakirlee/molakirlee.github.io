@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "ansys"
+title:      "ansys fluent"
 subtitle:   ""
 date:       2019-09-03 09:57:00
 author:     "XiLock"
