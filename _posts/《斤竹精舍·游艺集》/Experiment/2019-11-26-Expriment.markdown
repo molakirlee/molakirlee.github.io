@@ -22,5 +22,7 @@ tags:
 |Acid|H2SO4 : H2O2 = 7:3|60-90 C|10-30 mins|  
 |Alkali|H2O: NH3·H2O: H2O2 = 5:1:1|75 C|10-15 mins|  
 
+###### 
+
 
 ![](/img/wc-tail.GIF)
