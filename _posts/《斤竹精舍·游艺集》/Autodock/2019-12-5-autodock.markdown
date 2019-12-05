@@ -22,6 +22,8 @@ tags:
 1. autodocksuite-4.2.6.i86Windows.exe；
 1. pymol-1.5.0.3.win32-py2.7（可视化）；
 1. OpenBabel-3.0.0-x86.exe（pdbqt转pdb）；
+下载链接[av65](https://pan.baidu.com/s/1yJzFCYpzZCgsrMQjDWwD2g)  
+
 
 安装步骤：
 1. 安装python
