@@ -61,6 +61,11 @@ It is not possible to define pH in an MD system as there are no hydronium ions f
 1. 使用-chainsep合并两条链时两条链之间会形成肽键，所以有时会出现原子类型OTX（C端O）不识别的情况，若参照“aminoacids.arn”将OTX改成OC1则可运行，但合成出来的两条链分别脱O（因为C端已经去质子化，所以不是OH而是O）、H（N端），以肽键相连。  
 1. 使用-merge合并时，只是将两条链合并到一个[moleculartype]中，不会强迫两条链以肽键链接。  
 
+如对pH=2时的胰岛素的处理，胰岛素同时具有A、B两条链且链间用二硫键连接：  
+```
+gmx pdb2gmx -f 5miz.pdb -ignh -o insulin.gro -p insulin.top -glu -ss -merge all -ter
+```
+
 #### 盐桥计算
 用gromacs的盐桥计算基本算不动，所以Xilock用VMD进行盐桥计算，因为载入的gro文件识别不了链，所以会提示不unique（即便之间index文件里面有分类），转换成pdb文件并标注链后则能区分是相同链还是不同链之间形成盐桥（链标识只能是一个字符单位）。  
 生成的文件包括所有存在过盐桥的位置以及距离随时间的关系，为dat文件，也可以额外生成一个汇总的Log文件，但log文件里只有位点没有距离随时间的关系。  
