@@ -40,7 +40,7 @@ tags:
 ###### Grid
 1. Grid>Macromolecule>Open打开receptor的pdb文件，在左侧Dashboard窗口的选择方框中把受体蛋白勾选上，此时蛋白会变黄，即选中状态；点击Edit>Hydrogens>Add，ADT会为蛋白质加氢（由于解析技术的原因，氨基酸的氢原子在晶体结构中是不存在的，因此需要手动加氢原子）。如果第一步预处理的时候已经用其他软件加过H了，这里就不需要了。
 1. Grid>Macromolecule>Choose选择receptor分子，件提示结构中包含的非键原子、电荷等信息，点击确定，软件会自动弹出保存对话框，将受体保存成pdbqt文件。；
-1. Grid>Set Map Types>Choose Ligand，选择相应receptor分子；
+1. Grid>Set Map Types>Choose Ligand，选择相应ligand分子；
 1. Grid>Grid Box，设置对接的盒子大小、坐标、格点数、格点距离，这一步需要自己根据不同的结构来进行具体确认。
 1. File>Close saving current保存盒子信息，选择Grid>Output>Save GPF，保存为protein_ligand.gpf文件；
 ###### Docking参数设置
