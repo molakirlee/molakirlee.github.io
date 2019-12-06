@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "2019-每周补脑26th"
+subtitle:   ""
+date:       2019-12-06 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2019
+
+
+---
+ 
+
+
+
+
+### 它山之石
+#### 言论
+1. 不要构建系统，而要构建子系统。
+
+这就像 Unix 哲学：每个工具做好一件事，不同的工具协同工作。-- [Jessitron](https://blog.jessitron.com/2019/10/13/dont-build-systems-build-subsystems/)  
+1. 一个人应该能够换尿布，策划战争，杀猪，开船，设计房子，写十四行诗，结算账户，砌墙，接脱臼的骨头，安慰濒死的人，服从命令，发布命令，携手合作，独立行动，解数学方程，分析新问题，铲粪，电脑编程，做出可口的饭，善打架，勇敢地死去。专业是昆虫学。-- Robert Heinlein （海因莱茵，美国科幻作家）谈什么是通才  
+
+
+![](/img/wc-tail.GIF)
