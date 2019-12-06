@@ -18,11 +18,12 @@ tags:
 ### Win系统下安装
 操作环境： 
 1. python-2.7--window；
-1. mgltools_win32_1.5.6_Setup.exe；
-1. autodocksuite-4.2.6.i86Windows.exe；
+1. mgltools_win32_1.5.6_Setup.exe；[点击下载](http://mgltools.scripps.edu/downloads)
+1. autodocksuite-4.2.6.i86Windows.exe；[点击下载](http://autodock.scripps.edu/downloads/autodock-registration/autodock-4-2-download-page/)
 1. pymol-1.5.0.3.win32-py2.7（可视化）；
 1. OpenBabel-3.0.0-x86.exe（pdbqt转pdb）；
-下载链接[av65](https://pan.baidu.com/s/1yJzFCYpzZCgsrMQjDWwD2g)  
+
+XiLock打包好的下载链接[av65](https://pan.baidu.com/s/1yJzFCYpzZCgsrMQjDWwD2g)  
 
 
 安装步骤：
