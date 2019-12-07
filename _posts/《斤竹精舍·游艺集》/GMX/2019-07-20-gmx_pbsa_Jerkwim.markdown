@@ -16,7 +16,7 @@ tags:
 
 ### 声明
 
-**原文转自Jerkwin老师**，此处**转载**以便自己日常使用，阅读详细信息还请移步Jerkwin老师的网页。
+**原文转自Jerkwin老师**，此处**转载**以便自己日常使用，阅读详细信息还请移步[Jerkwin老师的网页](https://github.com/Jerkwin/gmxtool)。  
 
 ### 前言
 gmxpbsa对gmx版本有要求且脚本写的很乱，出错了不容易调试；
