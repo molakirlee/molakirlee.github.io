@@ -14,6 +14,7 @@ tags:
 
 ---
 
+### Sobereva老师的教程
 汇总了一下Sobereva老师的弱相互作用分析部分的内容，以便查看：  
 [Multiwfn支持的弱相互作用的分析方法概览](http://sobereva.com/252)  
 [使用Multiwfn图形化研究弱相互作用](http://sobereva.com/68)  
@@ -23,6 +24,11 @@ tags:
 [大体系弱相互作用计算的解决之道](http://sobereva.com/214)  
 [绘制有填色效果的用于弱相互作用分析的RDG散点图的方法](http://sobereva.com/399)  
 
-
+### Ligplot+
+网站：[链接](https://www.ebi.ac.uk/thornton-srv/software/LigPlus/download2.html)  
+注意：
+1. Ligplot+基于java，可能需要安装java。
+1. 初始化时设置的“Temporary directory”路径的文件夹必须存在，否则会报错。
+1. edu邮箱注册后获取下载链接及密码。
 
 ![](/img/wc-tail.GIF)
