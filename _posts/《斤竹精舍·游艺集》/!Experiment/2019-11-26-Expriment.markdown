@@ -37,6 +37,7 @@ tags:
 ###### 10mM PBS配方
 
 按下表配方于1L水中溶解定容，用0.22um的水膜抽滤，pH大概7.31左右，接近理论值7.4：  
+
 |Material(MW)|Weight|Mol mass|  
 |----|----|----|  
 |Na2HPO4(141.96)|1.44g|10.1mM|  
@@ -48,6 +49,7 @@ tags:
 ###### 10mM HBS配方（受多价盐影响小）
 
 按下表配方于1L水中溶解定容，用0.22um的水膜抽滤，pH大概5.5，需加NaOH调pH：  
+
 |Material(MW)|Mol mass|Weight|  
 |HEPES(238.30)|0.01M|2.383g|  
 |NaCl(58.44)|0.15M|8.766g|  
