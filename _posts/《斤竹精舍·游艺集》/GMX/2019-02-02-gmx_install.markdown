@@ -173,8 +173,8 @@ prepend-path PATH            $root/bin
 
 
 ## 入门级使用教程
-[A simple guide to Gromacs 5](https://molakirlee.github.io/attachment/gmx/gromacs_tutorial_v5.pdf)  
-
+1. [A simple guide to Gromacs 5](https://molakirlee.github.io/attachment/gmx/gromacs_tutorial_v5.pdf)  
+1. [Molecular Dynamics Simulations in GROMACS Project report](http://folk.ntnu.no/preisig/HAP_Specials/AdvancedSimulation_files/2017/project%20reports/MolecularDynamics/Jan%20Schulze%20-%20MD_Report_final.pdf)  
 
 ## 其他
 ###### dssp安装

@@ -30,7 +30,9 @@ For more information and tips for troubleshooting, please check the GROMACS webs
 Solution:
 Use following command line: `gmx mdrun -v -deffnm em -nt 8`  
 I used the option "-nt 1" to make it work. Sometimes the simulation is too small to be divided.  
+sob老师说是因为原子数较少所致的域分解错误，可以用-ntmpi 1解决。
 
+参见[Gromacs Errors](http://www.gromacs.org/Documentation/Errors#There_is_no_domain_decomposition_for_n_nodes_that_is_compatible_with_the_given_box_and_a_minimum_cell_size_of_x_nm)  
 
 ### 技巧
 #### 续算
