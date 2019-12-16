@@ -65,5 +65,6 @@ XiLock打包好的下载链接[av65](https://pan.baidu.com/s/1yJzFCYpzZCgsrMQjDW
 ### 参考
 1. [Win系统下的操作](http://blog.sciencenet.cn/blog-3196388-1090023.html)
 1. [Linux系统下的操作](https://zhuanlan.zhihu.com/p/87466460)
+1. [分子对接简明教程](https://cloud.tencent.com/developer/article/1035877)
 
 ![](/img/wc-tail.GIF)
