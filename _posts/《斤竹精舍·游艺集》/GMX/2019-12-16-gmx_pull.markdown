@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      "拉伸分子动力学"
+subtitle:   ""
+date:       2019-12-16 20:34:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2019
+
+---
+
+参考资料  
+1. [平均力势----以石墨烯-甘氨酸体系为例](https://liuyujie714.com/41.html)  
+1. [教程翻译----来自窗口采样的甲烷-甲烷之间的PMF](https://liuyujie714.com/42.html#more)
+1. [平均力势----以环糊精-苯酚体系为例](https://liuyujie714.com/23.html#more)  
+
+### 
+
+
+
+
+![](/img/wc-tail.GIF)

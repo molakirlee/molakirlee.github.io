@@ -9,10 +9,14 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
-    - CS
+    - Linux
     - 2019
 
 ---
+  
+参考资料：
+1. [Modules环境模块管理工具](https://liuyujie714.com/48.html#more)  
+
   
 ### 简介
 Environment Modules软件包以模块为单位，为用户动态设置Linux或UNIX的环境变量的软件。
