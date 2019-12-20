@@ -48,7 +48,8 @@ tags:
 
 ###### 第一溶剂化层水分子滞留时间分布
 
-用RDF计算出第一溶剂化层以后，得到峰后谷的位置的横坐标用以计算第一溶剂化层水分子滞留时间。  
+用RDF计算出第一溶剂化层以后，得到峰后谷的位置的横坐标用以计算第一溶剂化层水分子滞留时间分布。  
+如果想把第一水合层内水分子的平均滞留时间与氢键寿命作比较，则将OW原子的原子序号提取到excel里“去重复和排序”，然后做+1和+2处理得到两个氢的原子序号，然后再将其处理成ndx文件用以计算其与Protein等的氢键寿命，因为有些氢键在某些帧内不在第一水合层中，所以所得的氢键平均寿命会大于水分子的平均滞留时间。
 
 ```
 gmx select -s nvt_30ns.tpr -f nvt_30ns.xtc -n index.ndx -os -oc -oi -om -on selFrm.ndx -selrpos whole_res_com  -b 25000  
@@ -102,6 +103,7 @@ BEGIN{ Navg=0; Tavg=0
 END{ print "# Avaraged Residence Time(ps)=", Tavg*dt/Navg}
 ' $ftrs >$ffrq
 ```
+
 
 ###### 水的密度分布
 
