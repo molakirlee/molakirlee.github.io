@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "MD知识"
+title:      "MD笔记"
 subtitle:   ""
 date:       2019-04-25 20:38:00
 author:     "XiLock"
@@ -14,6 +14,11 @@ tags:
 
 ---
 
+### 工具
+
+1. [Acpype server](http://bio2byte.be/acpype/)  
+1. Protein Prepare:[PlayMolecule](https://playmolecule.org/)  
+1. 常见氨基酸结构、性质：[氨基酸参照表](https://www.sigmaaldrich.com/china-mainland/life-science/metabolomics/learning-center/amino-acid-reference-chart.html#1)  
 
 ### 常识
 ###### 离子的水合半径

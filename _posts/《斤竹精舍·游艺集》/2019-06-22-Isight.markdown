@@ -15,8 +15,10 @@ tags:
 ---
 
 ### 多软件交叉Isight gateway
-参考：[simulia-isight](https://www.simuleon.com/simulia-isight/), 
-[Isight Getting Started Guide (release 4.0)](https://www.3ds.com/fileadmin/PRODUCTS-SERVICES/SIMULIA/RESOURCES/DS_SIMULIA_IsightV40_GettingStartedGuide.pdf)  
+参考：
+1. [simulia-isight](https://www.simuleon.com/simulia-isight/), 
+1. [Isight Getting Started Guide (release 4.0)](https://www.3ds.com/fileadmin/PRODUCTS-SERVICES/SIMULIA/RESOURCES/DS_SIMULIA_IsightV40_GettingStartedGuide.pdf)  
+1. [Getting Started Guide](https://www.3ds.com/fileadmin/PRODUCTS-SERVICES/SIMULIA/RESOURCES/DS_SIMULIA_IsightV40_GettingStartedGuide.pdf)
 
 Isight可以利用bat批处理语言将多个软件协同调用，如：读取输入的参数，先调用建模软件建模，然后调用画网格软件绘制网格，完后调用流体力学软件进行计算，完成后进入下一轮循环。
 大概操作如下：
