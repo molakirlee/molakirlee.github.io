@@ -27,6 +27,9 @@ tags:
 1. 将路由器的IP地址该为跟Server一致，如：server的IP为11.11.11.1-11.11.11.9则笔记本的IP地址可设置为11.11.11.0或类似11.11.11.109之类的，子网掩码设置为255.0.0.0；
 1. 用其他电脑连接该路由器，用putty/xshell测试是否连接成功。
 
-######
+### VNC实现win端可视化控制Linux
+
+参考资料：[VNC的安装和配置](https://www.cnblogs.com/jyzhao/p/5615448.html)  
+
 
 ![](/img/wc-tail.GIF)
