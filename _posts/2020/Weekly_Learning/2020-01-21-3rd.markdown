@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "2020-每周补脑3rd"
+subtitle:   ""
+date:       2020-01-21 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2020
+
+
+---
+
+### 他山之石
+###### 语录
+1. Wisdom is knowing what to do next, skill is knowing how to do it, and virtue is doing it. 智慧是知道下一步做什么，技能是知道如何做，而美德就是去做。
+
+###### 杂记
+尽职调查（审慎调查）：在收购过程中收购者对目标公司的资产和负债情况、经营情况和财务情况、法律关系以及目标企业所面临的机会与潜在的风险进行一系列的调查。
+![](/img/wc-tail.GIF)
