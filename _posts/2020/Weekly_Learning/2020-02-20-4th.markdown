@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "2020-每周补脑4th"
+subtitle:   ""
+date:       2020-02-20 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2020
+
+
+---
+
+
+Sisulizer:在中国主要应用在对外国软件的汉化，或者对中文软件出口的翻译本地化。
+
+![](/img/wc-tail.GIF)
