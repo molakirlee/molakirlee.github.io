@@ -20,7 +20,7 @@ tags:
 
 注：
 1. 该破解方法适用于10.0及以前版本。破解虚拟机时，WlmAdmin那部可能耗时1.5小时左右。
-1. 对于8.4版本，破解有效期为30天，故取消同步时间并在vmx文件中加入时间锁定参数（[参考资料](https://vinf.net/2012/02/23/how-to-set-a-virtual-machine-to-a-date-in-the-past-and-make-it-stay-there/)）。但虚尝试过多种方法后均不能实现关闭客户机的条件下锁定虚拟机时间，故以后不在虚拟机里关机（即不关闭客户机），而是选择挂起（即挂起客户机），这样下次打开还是挂起时的时间。
+1. 对于8.4版本，破解有效期为30天，故取消同步时间并在vmx文件中加入时间锁定参数（[参考资料](https://vinf.net/2012/02/23/how-to-set-a-virtual-machine-to-a-date-in-the-past-and-make-it-stay-there/)）。但虚尝试过多种方法后均不能实现关闭客户机的条件下锁定虚拟机时间，故以后不在虚拟机里关机（即不关闭客户机），而是选择挂起（即挂起客户机），这样下次打开还是挂起时的时间。(关机再重新启动，主虚拟机的时间在下次启动时又会回到配置文件中的时间（但xilock设定的配置文件里的时间一直没有起作用），可能会有一些对象（上次启动后生成的对象）生成在未来的时间，这样会出问题。所以在你需要重启或关闭宿主机时，请将虚拟机挂起。)
 1. 破解时遇到“The system cannot retrieve the servers, there is no response to the broadcast.”可参照[这篇文章](https://gateway.sdl.com/apex/communityknowledge?articleName=000005725)来解决问题。
 
 
