@@ -1,0 +1,165 @@
+[ bondedtypes ]
+; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih
+     1       1          9          4        1         3      1     0
+[ NPHN ]
+[ atoms ]
+; atom    type      charge   nr
+     N    N3          -0.907801    1 ; qtot -0.908
+    H1    H            0.359300    2 ; qtot -0.549
+    H2    H            0.359300    3 ; qtot -0.189
+    CA    CT           0.102500    4 ; qtot -0.087
+    HA    H1           0.084700    5 ; qtot -0.002
+    CB    CT          -0.067100    6 ; qtot -0.069
+     C     C           0.669101    7 ; qtot 0.600
+   HB1    HC           0.064200    8 ; qtot 0.664
+   HB2    HC           0.064200    9 ; qtot 0.728
+    CG    CA          -0.091300   10 ; qtot 0.637
+     O     O          -0.611101   11 ; qtot 0.026
+   CD1    CA          -0.122500   12 ; qtot -0.097
+   CD2    CA          -0.122500   13 ; qtot -0.219
+   HD1    HA           0.141000   14 ; qtot -0.078
+   CE1    CA          -0.131000   15 ; qtot -0.209
+   CE2    CA          -0.131000   16 ; qtot -0.340
+   HD2    HA           0.141000   17 ; qtot -0.199
+   HE1    HA           0.131500   18 ; qtot -0.068
+    CZ    CA          -0.127000   19 ; qtot -0.195
+   HE2    HA           0.131500   20 ; qtot -0.063
+    HZ    HA           0.063001   21 ; qtot 0.068
+
+
+[ bonds ]
+;   ai     aj     r             k
+     N  H1      1.0190e-01    3.2836e+05 ;
+     N  H2      1.0190e-01    3.2836e+05 ;
+     N  CA      1.4647e-01    2.7271e+05 ;
+    CA  HA      1.0969e-01    2.7665e+05 ;
+    CA  CB      1.5375e-01    2.5179e+05 ;
+    CA  C       1.5241e-01    2.6192e+05 ;
+    CB  HB1     1.0969e-01    2.7665e+05 ;
+    CB  HB2     1.0969e-01    2.7665e+05 ;
+    CB  CG      1.5156e-01    2.6861e+05 ;
+     C  O       1.2183e-01    5.3363e+05 ;
+     C  +N      1.3789e-01    3.5782e+05 ;     C7 - N22   
+    CG  CD1     1.3984e-01    3.8585e+05 ;
+    CG  CD2     1.3984e-01    3.8585e+05 ;
+   CD1  HD1     1.0860e-01    2.8937e+05 ;
+   CD1  CE1     1.3984e-01    3.8585e+05 ;
+   CD2  CE2     1.3984e-01    3.8585e+05 ;
+   CD2  HD2     1.0860e-01    2.8937e+05 ;
+   CE1  HE1     1.0860e-01    2.8937e+05 ;
+   CE1  CZ      1.3984e-01    3.8585e+05 ;
+   CE2  CZ      1.3984e-01    3.8585e+05 ;
+   CE2  HE2     1.0860e-01    2.8937e+05 ;
+    CZ  HZ      1.0860e-01    2.8937e+05 ;
+
+
+[ angles ]
+;   ai     aj     ak     theta         cth
+     N   CA     HA     1.0988e+02    4.1422e+02 ;
+     N   CA     CB     1.1104e+02    5.5229e+02 ;
+     N   CA     C      1.1114e+02    5.5480e+02 ;
+    H1   N      H2     1.0640e+02    3.4644e+02 ;
+    H1   N      CA     1.0929e+02    3.9664e+02 ;
+    H2   N      CA     1.0929e+02    3.9664e+02 ;
+    CA   CB     HB1    1.0980e+02    3.8744e+02 ;
+    CA   CB     HB2    1.0980e+02    3.8744e+02 ;
+    CA   CB     CG     1.1207e+02    5.2802e+02 ;
+    CA   C      O      1.2320e+02    5.6400e+02 ;
+    CA   C      +N     1.1518e+02    5.5898e+02 ;     C4 - C7     - N22   
+    HA   CA     CB     1.0956e+02    3.8828e+02 ;
+    HA   CA     C      1.0822e+02    3.9330e+02 ;
+    CB   CA     C      1.1104e+02    5.2969e+02 ;
+    CB   CG     CD1    1.2077e+02    5.3137e+02 ;
+    CB   CG     CD2    1.2077e+02    5.3137e+02 ;
+   HB1   CB     HB2    1.0758e+02    3.2970e+02 ;
+   HB1   CB     CG     1.1047e+02    3.9162e+02 ;
+   HB2   CB     CG     1.1047e+02    3.9162e+02 ;
+    CG   CD1    HD1    1.1988e+02    4.0334e+02 ;
+     O   C      +N     1.2305e+02    6.2091e+02 ;    O11 - C7     - N22   
+    CG   CD1    CE1    1.2002e+02    5.5731e+02 ;
+    CG   CD2    CE2    1.2002e+02    5.5731e+02 ;
+    CG   CD2    HD2    1.1988e+02    4.0334e+02 ;
+   CD1   CG     CD2    1.2002e+02    5.5731e+02 ;
+   CD1   CE1    HE1    1.1988e+02    4.0334e+02 ;
+   CD1   CE1    CZ     1.2002e+02    5.5731e+02 ;
+   CD2   CE2    CZ     1.2002e+02    5.5731e+02 ;
+   CD2   CE2    HE2    1.1988e+02    4.0334e+02 ;
+   HD1   CD1    CE1    1.1988e+02    4.0334e+02 ;
+   CE1   CZ     CE2    1.2002e+02    5.5731e+02 ;
+   CE1   CZ     HZ     1.1988e+02    4.0334e+02 ;
+   CE2   CD2    HD2    1.1988e+02    4.0334e+02 ;
+   CE2   CZ     HZ     1.1988e+02    4.0334e+02 ;
+   HE1   CE1    CZ     1.1988e+02    4.0334e+02 ;
+    CZ   CE2    HE2    1.1988e+02    4.0334e+02 ;
+
+
+[ dihedrals ] ; propers
+; for gromacs 4.5 or higher, using funct 9
+;    i      j      k      l     phase     kd      pn
+     N    CA      CB     HB1    0.00   0.65084   3 ;
+     N    CA      CB     HB2    0.00   0.65084   3 ;
+     N    CA      CB     CG     0.00   0.65084   3 ;
+     N    CA      C      O    180.00   0.00000   2 ;
+     N    CA      C      +N   180.00   0.00000   2 ;
+    H1    N       CA     HA     0.00   1.25520   3 ;
+    H1    N       CA     CB     0.00   1.25520   3 ;
+    H1    N       CA     C      0.00   1.25520   3 ;
+    H2    N       CA     HA     0.00   1.25520   3 ;
+    H2    N       CA     CB     0.00   1.25520   3 ;
+    H2    N       CA     C      0.00   1.25520   3 ;
+    CA    CB      CG     CD1    0.00   0.00000   0 ;
+    CA    CB      CG     CD2    0.00   0.00000   0 ;
+    HA    CA      CB     HB1    0.00   0.65084   3 ;
+    HA    CA      CB     HB2    0.00   0.65084   3 ;
+    HA    CA      CB     CG     0.00   0.65084   3 ;
+    HA    CA      C      O      0.00   0.00000   0 ;
+    HA    CA      C      O      0.00   3.34720   1 ;
+    HA    CA      C      O    180.00   0.33472   3 ;
+    HA    CA      C      +N   180.00   0.00000   2 ;
+    CB    CA      C      O    180.00   0.00000   2 ;
+    CB    CA      C      +N     0.00   0.29288   2 ;
+    CB    CA      C      +N     0.00   0.41840   4 ;
+    CB    CG      CD1    HD1  180.00  15.16700   2 ;
+    CB    CG      CD1    CE1  180.00  15.16700   2 ;
+    CB    CG      CD2    CE2  180.00  15.16700   2 ;
+    CB    CG      CD2    HD2  180.00  15.16700   2 ;
+     C    CA      CB     HB1    0.00   0.65084   3 ;
+     C    CA      CB     HB2    0.00   0.65084   3 ;
+     C    CA      CB     CG     0.00   0.65084   3 ;
+   HB1    CB      CG     CD1    0.00   0.00000   0 ;
+   HB1    CB      CG     CD2    0.00   0.00000   0 ;
+   HB2    CB      CG     CD1    0.00   0.00000   0 ;
+   HB2    CB      CG     CD2    0.00   0.00000   0 ;
+    CG    CD1     CE1    HE1  180.00  15.16700   2 ;
+    CG    CD1     CE1    CZ   180.00  15.16700   2 ;
+    CG    CD2     CE2    CZ   180.00  15.16700   2 ;
+    CG    CD2     CE2    HE2  180.00  15.16700   2 ;
+   CD1    CG      CD2    CE2  180.00  15.16700   2 ;
+   CD1    CG      CD2    HD2  180.00  15.16700   2 ;
+   CD1    CE1     CZ     CE2  180.00  15.16700   2 ;
+   CD1    CE1     CZ     HZ   180.00  15.16700   2 ;
+   CD2    CG      CD1    HD1  180.00  15.16700   2 ;
+   CD2    CG      CD1    CE1  180.00  15.16700   2 ;
+   CD2    CE2     CZ     CE1  180.00  15.16700   2 ;
+   CD2    CE2     CZ     HZ   180.00  15.16700   2 ;
+   HD1    CD1     CE1    HE1  180.00  15.16700   2 ;
+   HD1    CD1     CE1    CZ   180.00  15.16700   2 ;
+   CE1    CZ      CE2    HE2  180.00  15.16700   2 ;
+   CE2    CZ      CE1    HE1  180.00  15.16700   2 ;
+   HD2    CD2     CE2    CZ   180.00  15.16700   2 ;
+   HD2    CD2     CE2    HE2  180.00  15.16700   2 ;
+   HE1    CE1     CZ     HZ   180.00  15.16700   2 ;
+   HE2    CE2     CZ     HZ   180.00  15.16700   2 ;
+
+
+[ dihedrals ] ; impropers
+; treated as propers in GROMACS to use correct AMBER analytical function
+;    i     j      k      l    phase     kd      pn
+    CA    +N      C      O    180.00  43.93200   2 ;
+    CG    CE1     CD1    HD1  180.00   4.60240   2 ;
+    CG    CE2     CD2    HD2  180.00   4.60240   2 ;
+   CD1    CD2     CG     CB   180.00   4.60240   2 ;
+   CD1    CZ      CE1    HE1  180.00   4.60240   2 ;
+   CD2    CZ      CE2    HE2  180.00   4.60240   2 ;
+   CE1    CE2     CZ     HZ   180.00   4.60240   2 ;
+
