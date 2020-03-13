@@ -53,7 +53,7 @@ tags:
 
 ```
 gmx select -s nvt_30ns.tpr -f nvt_30ns.xtc -n index.ndx -os -oc -oi -om -on selFrm.ndx -selrpos whole_res_com  -b 25000  
->"1st shell" resname SOL and name OW and within 0.35 of resname group 46
+>"1st shell" resname SOL and name OW and within 0.35 of group 46
 ```
 
 注：  

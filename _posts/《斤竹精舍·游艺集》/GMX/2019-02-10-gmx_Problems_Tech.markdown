@@ -34,6 +34,12 @@ sob老师说是因为原子数较少所致的域分解错误，可以用-ntmpi 1
 
 参见[Gromacs Errors](http://www.gromacs.org/Documentation/Errors#There_is_no_domain_decomposition_for_n_nodes_that_is_compatible_with_the_given_box_and_a_minimum_cell_size_of_x_nm)  
 
+#### 盐离子团聚
+Q:水环境体系中K+和Cl-为什么跑完动力学以后都团聚到一块了？  
+A:amber99力场描述高浓度离子不合理,当年我弄这篇文章doi: 10.3866/PKU.WHXB201506191时遇到了相同问题，后来改用KBFF力场就没问题了。明显是amber力场的缺陷.  
+Q:在研究盐对蛋白的影响，如果浓度不太高的话用amber99合理吗？比如生理环境中的137mM.  
+A:生理环境没问题,只要看见结晶肯定不行  
+
 ### 技巧
 #### 续算
 一、意外中断的任务md1  
@@ -78,6 +84,7 @@ gmx pdb2gmx -f 5miz.pdb -ignh -o insulin.gro -p insulin.top -glu -ss -merge all 
 gmx trjconv -f md.trr -s md.tpr -o 3000ps.gro -dump 3000
 ```
 就可以提取最接近3000ps的那一帧  
+
 
 
 ![](/img/wc-tail.GIF)
