@@ -20,7 +20,7 @@ tags:
 - .xtc
 - .ndx
 
-ndx文件要提前处理，将每个Ca写入单独的分组，如：  
+ndx文件要提前处理，利用make_ndx的'splitat'等将每个Ca写入单独的分组，如：  
 ```
 [CA58]
 95227
