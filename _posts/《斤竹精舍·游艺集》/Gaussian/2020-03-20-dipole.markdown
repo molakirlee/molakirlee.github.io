@@ -38,5 +38,8 @@ Dipole=-17.3479445,22.6165893,-88.4879228\Quadru
 ### 片段偶极矩的计算
  如果是指某个分子片段，用Multiwfn算ADCH电荷，然后用电荷值和原子坐标自行算这个片段的偶极矩。
  
+### 手动计算偶极矩
+参考资料：[2.6B: Molecular Dipole Moments](https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Map%3A_Inorganic_Chemistry_(Housecroft)/02%3A_Basic_concepts%3A_molecules/2.6%3A_Dipole_Moments/2.6B%3A_Molecular_Dipole_Moments)  
+$$\mu= \sum^N_{i=1}{Q_ir_i}$$
  
 ![](/img/wc-tail.GIF)
