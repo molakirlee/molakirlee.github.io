@@ -40,6 +40,11 @@ A:amber99力场描述高浓度离子不合理,当年我弄这篇文章doi: 10.38
 Q:在研究盐对蛋白的影响，如果浓度不太高的话用amber99合理吗？比如生理环境中的137mM.  
 A:生理环境没问题,只要看见结晶肯定不行  
 
+#### Right hand side '1.0  1.0' for parameter 'tau_p' in parameter file is not a real value
+在NPT中使用semiisotropic的时候，若将`tau_p`设置为两个参数则可能会报错。实际上，与温度耦合不同，压力耦合的`tau_p`就是一个参数（虽然`ref_p`和`compressibility`是两个参数）。  
+参见mailing list: [strange behaviout in 5.1.2](https://mailman-1.sys.kth.se/pipermail/gromacs.org_gmx-users/2016-February/103459.html)  
+
+
 ### 技巧
 #### 续算
 一、意外中断的任务md1  
