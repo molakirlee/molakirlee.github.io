@@ -23,5 +23,14 @@ tags:
 
 前面写的太罗嗦了,只要把不想要的系统所在磁盘的(如D盘)"windows"文件夹和Documents and Settings文件夹及相关的文件删掉,再修改启动文件,C盘上的boot.ini文件既可.打开记事本，选择“文件”菜单，单击“打开”，然后在文件名中写入C:\\boot.ini，打开它，可以看到： [boot loader] timeout=10 default=multi(0)disk(0)rdisk(0)partition(1)\\WINDOWS [operating systems] multi(0)disk(0)rdisk(0)partition(1)\\WINDOWS="Microsoft Windows 2000 Professional" /fastdetect multi(0)disk(0)rdisk(0)partition(2)\\WINNT="Microsoft Windows 2000 Professional" /fastdetect C:\\="Previous Operating System on C:"] 其中multi(0)disk(0)rdisk(0)partition(1)就是指的您第一块硬盘第一个分区“partition(1)”就代表第一个分区也就是您的c盘，partition“partition(2)”就代表第二个分区也就是d盘。参照这个文件，找到删除“partition(1)”或“partition(2)”即可使问题得到解决。*就算把D盘格掉,也还是要修改boot.ini文件.
 
+### "无法定位现有分区，也无法创建新的系统分区"
+格式化U盘后用iso安装win7时总是出现提示“安装程序无法定位现有分区，也无法创建新的系统分区”。  
+1. 重装系统前将WIN7.iso里面的内容全部拷贝到电脑上的逻辑分区里（一般来说，逻辑分区是，除了C盘的其他盘符）里面就行。
+1. 通过装机盘进入winPE系统。
+1. 把WIN7安装文件的存放位置找到，将里面的这三个文件（夹）BOOT、BOOTMGR、SOURCES拷贝到电脑里面的C盘根目录下（注意，一定是拷贝到根目录下面）。
+1. 然后进入PE的CMD窗口，输入以下命令：“C:\boot\bootsect.exe /nt60 C:”（注意，exe和/nt60和C:这三个之间都有一个空格分开的）。然后回车，这时会出现successful字样提示（有可能画面很快闪过，来不及看；也有可能直接在CMD窗口里面的最后提示successful字样）。
+1. 我们的第一步安装算是完成了。重启电脑，拔出U盘，**从硬盘启动（不用奇怪，就是从硬盘启动）**，然后出现在WIN7安装导入文件的“白道”，屏幕最下面；然后出现在WIN7的安装欢迎界面，选择地域、语言、键盘，点击”下一步“，‘选择分区（注意了，一定不能再格盘了，要不然又要重复第5步了），选择C分区，点击”下一步“（这时，不会出现提示”安装程序无法定位现有分区，也无法创建新的系统分区……“），安装OK。
+1. 系统自动安装，收集信息，复制文件，安装功能，完成设置。然后机器会重启这时会出现两个启动选择，有一个是Windowns设置启动，那我们如何把这个删除呢。进入系统，以管理员身份进入CMD运行DOS窗口，输入msconfig打开展系统配置对话框，选择[引导]标签，在这里你可设置系统选择等待时间，默认的是30秒，你可自行设置；你也可以看到启动时出现的两上启动选择，你可以把Windowns启动设置删除掉，确定退出，就OK了，删除操作请谨慎选择。
+1. 现在再装上自己的驱动和其他一些应用软件，杀毒软件，WIN7系统安装就完全OK了。
 
 ![](/img/wc-tail.GIF)
