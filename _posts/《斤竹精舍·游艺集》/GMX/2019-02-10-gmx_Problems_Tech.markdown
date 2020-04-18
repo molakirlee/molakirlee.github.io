@@ -36,9 +36,12 @@ sob老师说是因为原子数较少所致的域分解错误，可以用-ntmpi 1
 
 #### 盐离子团聚
 Q:水环境体系中K+和Cl-为什么跑完动力学以后都团聚到一块了？  
-A:amber99力场描述高浓度离子不合理,当年我弄这篇文章doi: 10.3866/PKU.WHXB201506191时遇到了相同问题，后来改用KBFF力场就没问题了。明显是amber力场的缺陷.  
-Q:在研究盐对蛋白的影响，如果浓度不太高的话用amber99合理吗？比如生理环境中的137mM.  
+A:amber99力场描述高浓度离子不合理,当年sob老师也遇到了相同的问题(doi: 10.3866/PKU.WHXB201506191)，后来改用KBFF力场就没问题了。明显是amber力场的缺陷。  
+Q:在研究盐对蛋白的影响，如果浓度不太高的话用amber99合理吗？比如生理环境中的137mM。  
 A:生理环境没问题,只要看见结晶肯定不行  
+更新：  
+这是amber力场的缺陷，通过修改LJ参数可以进行修正，具体参数见文献：
+Auffinger P, Cheatham T E, Vaiana A C. Spontaneous formation of KCl aggregates in biomolecular simulations: a force field issue?[J]. Journal of chemical theory and computation, 2007, 3(5): 1851-1859.
 
 #### Right hand side '1.0  1.0' for parameter 'tau_p' in parameter file is not a real value
 在NPT中使用semiisotropic的时候，若将`tau_p`设置为两个参数则可能会报错。实际上，与温度耦合不同，压力耦合的`tau_p`就是一个参数（虽然`ref_p`和`compressibility`是两个参数）。  
