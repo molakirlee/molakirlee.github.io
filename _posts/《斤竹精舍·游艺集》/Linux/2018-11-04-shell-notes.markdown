@@ -152,6 +152,29 @@ gmx rdf -f md_0_1.xtc -s md_0_1.tpr -o rdf_ion_CL.xvg -ref CL -sel SOL
 
 ```
 
+###### Supernova's jobs submition of gromacs
+
+```
+#!/bin/bash
+
+for pep in *.pdb
+do
+	#prepare structure
+	gmx pdb2gmx -f $pep -p $pep"-topol.top" -o $pep".gro" -water tip3p -ff charmm36m -ignh
+	gmx editconf -f $pep".gro" -d 1 -o $pep"_box.gro"
+	gmx solvate -cp $pep"_box.gro" -p $pep"-topol.top" -o $pep"_sol.gro"
+	gmx grompp -f em.mdp -c $pep"_sol.gro" -p $pep"-topol.top" -o $pep"_em" -maxwarn 1
+	echo 13 | gmx genion -s $pep"_em.tpr" -p $pep"-topol.top" -o $pep"_sol.gro" -neutral -conc 0.15
+	#run simulation
+	gmx grompp -f em.mdp -c $pep"_sol.gro" -p $pep"-topol.top" -o $pep"_em"
+	gmx mdrun -v -deffnm $pep"_em"
+	gmx grompp -f md.mdp -c $pep"_em.gro" -p $pep"-topol.top" -o $pep"_md.tpr" -maxwarn 2
+	gmx mdrun -v -deffnm $pep"_md"
+done
+
+exit
+```
+
 
 ### 相关阅读：  
 [Linux常用命令](https://mp.weixin.qq.com/s?__biz=MzU5OTMyODAyNg==&mid=2247484700&idx=1&sn=10cacf3afd4781989ca30a5ff0a4fc50&chksm=feb7d169c9c0587f0778e7f7bd4266661a10da32d1b335328362d37589b79643d6fbef8a7282&mpshare=1&scene=24&srcid=0424EZoT5RnWFtL6ZjGTcHvV#rd)
