@@ -50,6 +50,11 @@ A:生理环境没问题,只要看见结晶肯定不行
 参见mailing list: [strange behaviout in 5.1.2](https://mailman-1.sys.kth.se/pipermail/gromacs.org_gmx-users/2016-February/103459.html)  
 
 
+### 备注
+###### 关于限制
+一般能量极小化的时候用-DFLEXIBLE使用柔性水，第一次动力学模拟时用-DPOSRES让蛋白质位置限制住，等水已经弛豫了，再去掉蛋白质的限制做动力学。只要动力学用2fs步长，都应当用constraint=hbonds
+
+
 ### 技巧
 #### 续算
 一、意外中断的任务md1  
@@ -89,7 +94,7 @@ gmx pdb2gmx -f 5miz.pdb -ignh -o insulin.gro -p insulin.top -glu -ss -merge all 
 生成的文件包括所有存在过盐桥的位置以及距离随时间的关系，为dat文件，也可以额外生成一个汇总的Log文件，但log文件里只有位点没有距离随时间的关系。  
 若想得到每一时刻可能存在的盐桥数量则可以用这个[matlab脚本](https://molakirlee.github.io/attachment/gmx/Matlab_cal_salt_bridge.m)，将该脚本与所有的dat文件放在同一文件夹下运行，则脚本会自动筛选出属于同一条链的盐桥并将其距离随时间的关系拼合到同一个xls文件中。  
 
-### 提取轨迹中某一帧  
+#### 提取轨迹中某一帧  
 ```
 gmx trjconv -f md.trr -s md.tpr -o 3000ps.gro -dump 3000
 ```
