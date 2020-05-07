@@ -1,0 +1,87 @@
+---
+layout:     post
+title:      "Martini力场粗粒化"
+subtitle:   ""
+date:       2020-05-06 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2020
+
+
+---
+
+参考资料：
+1. [MARTINI粗粒化力场简明教程](https://zhuanlan.zhihu.com/p/93216681)
+1. [吴伟：auto-martini的安装和使用简介](https://jerkwin.github.io/2019/08/05/%E5%90%B4%E4%BC%9F-auto-martini%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/)
+1. [Martini实例教程：蛋白质](https://jerkwin.github.io/2016/10/11/Martini%E5%AE%9E%E4%BE%8B%E6%95%99%E7%A8%8BPro/)
+
+
+###### 对pdb文件使用martinize.py创建粗粒化pdb和topol
+`python martinize.py -f protein.pdb -o topol.top -x protein_CG.pdb -name protein -ff martini22 -nt`
+注意：
+1. 要使用不带电的末端(-nt)
+1. 对于蛋白要指定二级结构，使用dssp或者-ss
+1. 生成的top没有自定义残基，若分子中包括自定义残基，则需使用auto-martini（见后）
+
+###### 修改topol文件
+```
+#include "martini.itp"
+#include "protein.itp"
+
+[ system ]
+; name
+Martini system from protein.pdb
+
+[ molecules ]
+; name        number
+protein 	 1
+```
+
+1. 所得到的topol文件的首行指令没有指定力场的版本，若使用martini2.2则将其改为`#include "martini_v2.2.itp"`
+1. 添加离子拓扑：`#include "martini_v2.0_ions.itp"`
+
+###### 添加水分子
+获得单个肽的粗粒化坐标并创建其拓扑后，将该粗粒化肽加入盒子。之后添加水分子，一般所用到的polarize-water.gro和water.gro为预先在300 K，1 bar下平衡好的抗冻水和普通水。
+
+
+
+###### 使用auto-martini生成小分子/非标准残基拓扑 （暂未实操成功，推荐手动）
+注意auto-martini不兼容python 3.x，要在python 2.7下安装编译。
+1. 从github上下载[auto-martini](https://github.com/tbereau/auto_martini)  
+1. 下载Windows版的anaconda2. 注意, 这里要选择python2.7版本的, 因为auto-martini是用python2.7写的, 不兼容python3之后的语法
+1. 安装完anaconda之后, 以管理员身份运行anaconda, 进入auto-martini包所在位置
+1. 创建自定义的rdkit环境并安装所需的包
+
+```
+conda create -n py27-env python=2.7
+conda install -c conda-forge rdkit
+pip install numpy
+pip install beautifulsoup
+pip install requests
+```
+若缺少其它包则使用 `pip install xxx`来安装
+
+使用前进入rdkit环境： `conda activate py27-env`
+
+用openbabel将pdb文件转换为sdf文件后，调用auto-martini：
+`python auto-martini [-h] (--sdf SDF | --smi SMI) --mol MOLNAME [--xyz XYZ] [--gro GRO] [--verbose] [--fpred]`
+
+其中：
+1. --sdf和--smi: 输入文件, 指定其中一个就可以. 可以使用openbabel将pdb或其他格式的文件转化为sdf或者smi文件.
+1. --mol: 必须选项, 输出文件中残基的名称
+1. --xyz, --gro: 可选的输出文件
+1. --verbose, --fpred: 无法找到符合的参数时, 使用按原子或按片段判别珠子的方法, 准确度较差
+
+如：`python auto_martini --sdf dopa.sdf --mol DAH --gro dopa_CG.gro`  
+有时会显示无--gro选项
+
+###### 手动划分拓扑结构
+
+资料：[Parametrizing a new molecule based on known fragments](http://cgmartini.nl/index.php/tutorials-general-introduction-gmx5/parametrzining-new-molecule-gmx5)  
+
+
+![](/img/wc-tail.GIF)
