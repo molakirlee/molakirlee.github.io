@@ -30,6 +30,24 @@ tags:
 
 #### pull固定坐标
 
+Case of Xilock:
+
+```
+pull            = yes
+pull-ngroups    = 1
+pull-ncoords    = 1
+pull-group1-name = frozen
+pull-coord1-type     = constraint
+pull-coord1-geometry = distance
+pull-coord1-groups = 0 1 ; 0是指远点，故此处是指group1相对于原点
+pull-coord1-dim      = N N Y
+pull-coord1-start    =yes
+pull-nstxout    = 0
+pull-nstfout    = 0
+```
+
+
+Case from paper: Atomistic Study of Zwitterionic Peptoid Antifouling Brushes(DOI: 10.1021/acs.langmuir.8b01939)  
 ```
 pull            = constraint ;Center of mass pulling using a constraint between the reference group and one or more groups. The setup is identical to the option umbrella, except for the fact that a rigid constraint is applied instead of a harmonic potential.
 pull_geometry   = distance ;Pull along the vector connecting the two groups. Components can be selected with pull-dim.
