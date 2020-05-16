@@ -153,6 +153,15 @@ python setupUmbrella.py summary_distances.dat 0.2 run-umbrella.sh > caught-outpu
 1. 若使用python3，则将line61的`keys.sort()`改为:`sorted(keys)`
 1. 若只输出最后一个configarition则可能是排序有问题，将`sorted(keys)`改为`keys = sorted(keys)`即可。（如在python3.6中）
 
+### MD Run
+
+记得指定用-pf和-px分别指定输出的pullf和pullx文件命，如：
+```
+gmx mdrun -deffnm umbrella0 -pf pullf-umbrella0.xvg -px pullx-umbrella0.xvg
+```
+
+**否则因为输出文件同名而会被覆盖.**
+
 ### PMF
 
 建立两个文件，tpr-files.dat和pullf-files.dat，分别包括tpr和pullf.xvg文件名：
