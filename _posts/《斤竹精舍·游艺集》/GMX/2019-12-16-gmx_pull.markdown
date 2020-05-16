@@ -66,14 +66,16 @@ pull-nstfout    = 0
 
 用下述命令处理拉伸轨迹，得到conf0.gro，conf1.gro等文件：
 ```
-ehco 0 | gmx trjconv -s pull.tpr -f traj.xtc -o conf.gro -sep
+echo 0 | gmx trjconv -s pull.tpr -f traj.xtc -o conf.gro -sep
 ```
 
 ###### 计算质心距离
 
 使用jalemkul@vt.edu的脚本[perl distances.pl](https://jerkwin.github.io/GMX/GMXtut-3_distances.pl)
 
-使用前注意修改构象个数和group名称
+1. 在bash环境下运行该脚本，如git的bash，cmd下可能报错。
+1. 使用前注意修改构象个数和group名称。
+
 ```
 perl distances.pl
 ```
@@ -90,9 +92,9 @@ our $Total_Num = 250;
 for (my $i=0; $i<=$Total_Num; $i++) {
     print "Processing configuration $i...\n";
     # Note1: in Win, replace ' by "
-    # Note2: \ is used to transfer
+    # Note2: \ is used to transfer; & should be delect sometimes
     # Note3: group name in "" such as group "RUT" or groug with numbe such as group 25
-    # Note4: group name should be exclusive in ndx file, do not have repeated group name
+    # Note4: group name should be exclusive in ndx file, do not have repeated group name!!
     # Note5: -oxyz will output distance in x, y, and z anxials respectively, we used z in the following.
     system("gmx distance -s pull.tpr -f conf${i}.gro -n index_distance.ndx -oxyz dist${i}.xvg -select \'com of group \"RUT\" plus com of group \"Lysozyme\"\' &>/dev/null");
 }
@@ -149,7 +151,7 @@ python setupUmbrella.py summary_distances.dat 0.2 run-umbrella.sh > caught-outpu
 注意脚本中要**修改**的几个地方：
 1. line150之后有三处print函数后要加括号()，如最后一行改为：print ("".join(out));
 1. 若使用python3，则将line61的`keys.sort()`改为:`sorted(keys)`
-
+1. 若只输出最后一个configarition则可能是排序有问题，将`sorted(keys)`改为`keys = sorted(keys)`即可。（如在python3.6中）
 
 ### PMF
 
