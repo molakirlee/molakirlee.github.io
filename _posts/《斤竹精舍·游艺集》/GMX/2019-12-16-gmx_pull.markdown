@@ -66,7 +66,7 @@ pull-nstfout    = 0
 
 用下述命令处理拉伸轨迹，得到conf0.gro，conf1.gro等文件：
 ```
-echo 0 | gmx trjconv -s pull.tpr -f traj.xtc -o conf.gro -sep
+echo 0 | gmx trjconv -s pull.tpr -f pull.xtc -o conf.gro -sep
 ```
 
 ###### 计算质心距离
@@ -152,6 +152,17 @@ python setupUmbrella.py summary_distances.dat 0.2 run-umbrella.sh > caught-outpu
 1. line150之后有三处print函数后要加括号()，如最后一行改为：print ("".join(out));
 1. 若使用python3，则将line61的`keys.sort()`改为:`sorted(keys)`
 1. 若只输出最后一个configarition则可能是排序有问题，将`sorted(keys)`改为`keys = sorted(keys)`即可。（如在python3.6中）
+
+run-umbrella.sh代码示例：
+```
+#!/bin/bash
+
+# NVT
+gmx grompp -f mdp/nvt_10ns.mdp -c confXXX.gro -p topol.top -n index_ions.ndx -o nvt_10ns_XXX.tpr
+gmx mdrun -v -deffnm nvt_10ns_XXX -pf pullf-XXX.xvg -px pullx-XXX.xvg
+```
+
+得到一堆sh文件后，可以用`cat *.sh > MergeSh.bsh`得到组合的批处理脚本，去掉多余的部分即可。
 
 ### MD Run
 
