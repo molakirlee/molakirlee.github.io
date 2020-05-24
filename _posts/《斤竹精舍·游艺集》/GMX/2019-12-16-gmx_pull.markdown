@@ -19,7 +19,7 @@ tags:
 1. [教程翻译----来自窗口采样的甲烷-甲烷之间的PMF](https://liuyujie714.com/42.html#more)
 1. [平均力势----以环糊精-苯酚体系为例](https://liuyujie714.com/23.html#more)  
 1. [GROMACS教程：伞形采样](https://jerkwin.github.io/GMX/GMXtut-3/)
-1. [经典好文《杂谈自由能计算，PMF，伞形抽样，WHAM》](https://blog.csdn.net/rogerzhanglijie/article/details/8126864)
+1. [杂谈自由能计算，PMF，伞形抽样，WHAM](https://blog.csdn.net/rogerzhanglijie/article/details/8126864)
 
 ### 前期工作
 1. 建模；
