@@ -162,7 +162,18 @@ gmx grompp -f mdp/nvt_10ns.mdp -c confXXX.gro -p topol.top -n index_ions.ndx -o 
 gmx mdrun -v -deffnm nvt_10ns_XXX -pf pullf-XXX.xvg -px pullx-XXX.xvg
 ```
 
-得到一堆sh文件后，可以用`cat *.sh > MergeSh.bsh`得到组合的批处理脚本，去掉多余的部分即可。
+得到一堆sh文件后，可以用`cat *.sh > MergeSh.bsh`得到组合的批处理脚本，去掉多余的部分即可。  
+或者在bsh里使用循环：
+merge.bsh
+```
+#!/bin/bash
+for i in 6 14 20 27 34
+do
+	gmx grompp -f mdp/nvt_10ns.mdp -c conf$i -p topol.top -n index_ions.ndx -o nvt_10ns_$i.tpr
+	gmx mdrun -v -deffnm nvt_10ns_$i -pf pullf$i.xvg -px pullx$i.xvg
+done
+```
+
 
 ### MD Run
 
@@ -175,7 +186,7 @@ gmx mdrun -deffnm umbrella0 -pf pullf-umbrella0.xvg -px pullx-umbrella0.xvg
 
 ### PMF
 
-建立两个文件，tpr-files.dat和pullf-files.dat，分别包括tpr和pullf.xvg文件名：
+建立两个文件（可以用ls *.tpr > tpr-files.dat等），tpr-files.dat和pullf-files.dat，分别包括tpr和pullf.xvg文件名：
 如tpr-files.dat:
 ```
 umbrella0.tpr
