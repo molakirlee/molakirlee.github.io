@@ -45,4 +45,7 @@ nohup command > myout.file 2>&1 &
  tailf myout.file
 ```
 
+### screen
+screen命令更好用一些，但是需要额外安装。
+
 ![](/img/wc-tail.GIF)
