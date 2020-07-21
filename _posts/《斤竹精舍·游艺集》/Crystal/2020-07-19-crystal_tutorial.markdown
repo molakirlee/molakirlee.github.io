@@ -83,7 +83,7 @@ CRYSTAL
 
 ## 参考资料：
 ###### tutorial
-1. [Manual](/molakirlee.github.io/_posts/《斤竹精舍·游艺集》/Crystal/crystal14.pdf)
+1. [Manual](http://molakirlee.github.io/_posts/《斤竹精舍·游艺集》/Crystal/crystal14.pdf)
 ###### geometry input
 1. [CRYSTAL geometry input](http://tutorials.crystalsolutions.eu/tutorial.html?td=geometry&tf=geom_tut)
 1. [结构输入输出算例 List of CRYSTAL geometry input examples](http://tutorials.crystalsolutions.eu/tutorial.html?td=geometry&tf=list) 
