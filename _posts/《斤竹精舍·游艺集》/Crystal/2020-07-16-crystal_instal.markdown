@@ -22,7 +22,7 @@ Crystal主要包括两个模块：crystal和properties
 ###### crystal的运行模式
 1. crystal      sequential execution
 1. Pcrystal     replicated data parallel execution
-1. MPPcrystal   distributed data parallel execution
+1. MPPcrystal   distributed data parallel execution (需要额外的库)
 
 本文以sequential为例介绍安装，Pcrystal和MPPcrystal的安装参见http://www.crystal.unito.it => documentation  
 
@@ -47,7 +47,8 @@ The two programs, crystal and properties,  interact via files stored on disk.
 1. 下载与自己系统适配的代码包至$CRY2K14_ROOT，如crystal14_v1_0_3_Linux-ifort_XE_openmpi-1.6_amd64.exe.tar.gz
 1. decompress the files: `gunzip crystal14_v1_0_3_Linux-ifort_XE_openmpi-1.6_amd64.exe.tar.gz`， 得到crystal14_v1_0_3_Linux-ifort_XE_openmpi-1.6_amd64.exe.tar
 1. untar the files: `tar -xvf crystal14_v1_0_3_Linux_XE_openmpi-1.6_amd64.exe.tar`， 得到解压后的文件夹（The directory bin contains a sub-directory foreach type of executable, identified by a string (ARCH), and for each release (the first one being v1.0.0).）
-###### utils
+###### utils(Scripts to run CRYSTAL)
+为了更方便的运行CRYSTAL
 1. 下载utils（如utils14.zip）至$CRY2K14_ROOT
 1. decompress and untar the file: `gunzip utils14.tar.gz` 和 `tar -xvf utils14.tar`，得到一堆文件：runcry14、runmpi14、runprop14、cry2k14.cshrc、cry2k14.bashrc、runcry14mp2、runcryscor09  
 1. 进入utils14文件夹后提升其中执行文件的权限: `chmod +x run*`
@@ -65,8 +66,82 @@ The two programs, crystal and properties,  interact via files stored on disk.
 1. 解压缩 `gunzip Crgra2006.tar.gz` `tar -xvf Crgra2006.tar`，得到一堆band, doss, maps之类的文件和文件夹；
 1. 将Crgra2006添加到环境变量里（在cry2k14.bashrc里修改默认路径即可）
 
+### Pcrystal式并行版安装
+##### 法1 - 重新编译 (参见:howtoinstall_from_objects.txt)
+###### 准备工作
+准备文件pr14e-compiled objects modules ：如crystal14_v1_0_1_Linux-ifort_emt64_Pdistrib.tar.gz
+```
+mkdir CRYSTAL14
+cp crystal14_v1_0_1_Linux-ifort_emt64_Pdistrib.tar.gz CRYSTAL14/.
+cd CRYSTAL14
+tar -zxvf crystal14_v1_0_1_Linux-ifort_emt64_Pdistrib.tar.gz
+cd build
+cd Xmakes
+```
+###### 编译
+1. 修改Linux-ifort_XE_emt64.inc文件中的变量MPIBIN，将其指向MPI的位置，假如使用mpif90的话就要指向mpif90的位置以实现对其调用.
+1. 返回上级文件夹进行编译，瞬间完成，得到bin文件夹及其下子文件，例如/bin/Linux-ifort_XE_emt64/v1_0_1.
 
-参考资料: 
+```
+cd ..
+make parallel
+```
+###### 配置环境变量
+参见:https://www.crystal.unito.it/Manuals/crystal17_P.pdf
+1. 像非并行版那样解压utils并赋予权限；
+1. 在runmpi14里指定mpirun的bin位置
+1. 在utils文件夹里添加两个文件 `machines.LINUX` 和 `nodes.par`并赋予其权限，两个文件中的内容相同，均为每行一个节点名，如第一行node5，第二行node1，第三行node6等，第一行的被默认设为master host. 
+1. 测试： `runmpi14 nprocs inputfilename`，如 `runmpi14 4 test11`， nproc指要调用的cpu个数，现阶段只能实现将nprocs平均分配到每个node上，之后考虑如何实现指定每个node分别调用几个cpu.
+
+##### 法2 - 利用已编译好的mpi版本（未必可行）
+该法不兼容1.6以下的mpi，低版本mpi请参考法1
+###### 准备工作
+1. 准备文件：crystal14_v1_0_4_Linux-ifort_openmpi-1.6_emt64_exe.tar
+1. 像非并行版那样安装
+###### 配置环境变量
+参见:https://www.crystal.unito.it/Manuals/crystal17_P.pdf
+1. 在runmpi14里指定mpirun的bin位置
+1. 在utils文件夹里添加两个文件 `machines.LINUX` 和 `nodes.par`并赋予其权限，两个文件中的内容相同，均为每行一个节点名，如第一行node5，第二行node1，第三行node6等，第一行的被默认设为master host. 
+1. 测试： `runmpi14 nprocs inputfilename`，如 `runmpi14 4 test11`， nproc指要调用的cpu个数，现阶段只能实现将nprocs平均分配到每个node上，之后考虑如何实现指定每个node分别调用几个cpu.
+
+
+### PBS脚本示例
+```
+#!/bin/sh
+#
+#This is an example script CRYSTAL14 JOB SCRIPT
+#
+#These commands set up the Grid Environment for your job:
+#PBS -N CRYSTAL14-JOB
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=2400:00:00
+#PBS -l mem=7500MB
+#PBS -V
+#PBS -M email
+#PBS -m abe
+##### 
+NPROCS=`wc -l < $PBS_NODEFILE`
+#####changing path
+cd `eval echo $(echo $PBS_O_WORKDIR | sed 's/export/share/g')`
+cat ${PBS_NODEFILE} | sort -u > $PWD/nodes.par
+cat ${PBS_NODEFILE} | sort -u > $PWD/machines.LINUX
+########### Running commands############################
+###########runmpi14
+runmpi14 $NPROCS $INPUT
+###########runprop14
+#runprop14 test11 test11
+###########runmpi_prop14
+#runmpi_prop14 $NPROCS test11 test11
+###########runcryscor09
+#runcryscor09 test11
+###########runcry14mp2
+#runcry14mp2 test11
+###########runcry14
+#runcry14 test11
+```
+
+
+### 参考资料: 
 1. [howtorun](http://tutorials.crystalsolutions.eu/tutorial.html?td=others&tf=howtorun)
 1. [howtoinstall](https://www.crystal.unito.it/Manuals/howtoinstall.txt)
 1. [Tutorials](http://tutorials.crystalsolutions.eu/)

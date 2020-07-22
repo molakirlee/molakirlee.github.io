@@ -79,10 +79,16 @@ CRYSTAL
 ###### Convergence tool
 1. FMIXING: % of Hamiltonian matrix mixing (Default=30%)
 1. LEVSHIFT: 
-###### 
+
+## 结果分析
+1. Jmol is now compatible with the CRYSTAL output format to visualize crystalline structures.
+We kindly acknowledge Pieremanuele Canepa (Functional Material Group, University of Kent (UK)) and Prof. Robert Hanson (St. Olaf College, Northfield, MN - USA) for their work on interfacing CRYSTAL to Jmol.
+1. J-ICE: A Jmol Interface for Crystallographic and Electronic Properties.
+The present version of J-ICE can deal with CRYSTAL17 (as well as previous versions) and many others formats
 
 ## 参考资料：
 ###### tutorial
+1. [Introductory Tutorials](http://tutorials.crystalsolutions.eu/tutorial.html?td=barebone&tf=basic_tutorials)
 1. [Manual](http://molakirlee.github.io/_posts/《斤竹精舍·游艺集》/Crystal/crystal14.pdf)
 ###### geometry input
 1. [CRYSTAL geometry input](http://tutorials.crystalsolutions.eu/tutorial.html?td=geometry&tf=geom_tut)
@@ -95,10 +101,11 @@ CRYSTAL
 1. [A quick tour of CRYSTAL: geometry optimization](http://tutorials.crystalsolutions.eu/tutorial.html?td=others&tf=quick_opt)
 1. [Geometry optimization](http://tutorials.crystalsolutions.eu/tutorial.html?td=optgeom&tf=opt_tut)
 ###### vibrational
-IR/Raman/LO-TO splitting/Isotopic substitution/Thermodynamic analysis/Frequencies of a fragment/Phonon dispersion/Anharmonic correction to X-H stretching modes  
-
+IR/Raman/LO-TO splitting/Isotopic substitution/Thermodynamic analysis/Frequencies of a fragment/Phonon dispersion/Anharmonic correction to X-H stretching modes    
 1. [Vibrational frequencies calculation](http://tutorials.crystalsolutions.eu/tutorial.html?td=vibfreq&tf=vibfreq_tut#ref1)
 1. [A quick tour of CRYSTAL:vibrational frequencies calculation](http://tutorials.crystalsolutions.eu/tutorial.html?td=others&tf=quick_freq)
-
+###### Jmol/J-ICE
+1. [Jmol](http://jmol.sourceforge.net/#Features)
+1. [J-ICE](http://j-ice.sourceforge.net/)
 
 ![](/img/wc-tail.GIF)
