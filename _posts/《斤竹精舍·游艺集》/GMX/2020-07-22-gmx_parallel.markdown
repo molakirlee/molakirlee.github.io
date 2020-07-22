@@ -35,7 +35,9 @@ tags:
 
 ###### gmx_mpi版安装使用说明
 1. 安装基本与普通版相同，区别在于需要提前安装openmpi并在cmake那一步额外加上-DGMX_MPI=ON选项，具体见参考资料。
-1. 跨节点运行时需要在每个节点上都安装上并行版gmx，且都有执行文件，xilock写了段代码来实现这个过程。使用时将其与tpr置于同一文件夹下，输入`./gmxmpi_xilock nprocs npt.tpr`即可，nprocs为调用rank数，经测试对于4 socket - 8 cores/socket - 2 thread/cores的AMD Opteron(tm) Processor 6376而言，1 OpenMP thread/ MPI process有较好性能，即让nprocs(rank)等于逻辑核数。
+1. 跨节点运行时需要在每个节点上都安装上并行版gmx，且都有执行文件，xilock写了段代码来实现这个过程。
+1. 使用时将该脚本与tpr置于同一文件夹下，再准备两个文件:machinefile.LINUX和nodes.par，两个文件里的内容一样，均为每行一个node名，例如第1行为node6，第二行为node7等等。
+1. 输入`./gmxmpi_xilock nprocs npt.tpr`即可，nprocs为调用rank数，经测试对于4 socket - 8 cores/socket - 2 thread/cores的AMD Opteron(tm) Processor 6376而言，1 OpenMP thread/ MPI process有较好性能，即让nprocs(rank)等于逻辑核数。
 gmxmpi_xilock
 ```
 #!/bin/csh -f
