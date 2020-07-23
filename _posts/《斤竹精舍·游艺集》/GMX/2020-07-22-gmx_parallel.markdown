@@ -90,8 +90,6 @@ node6
 1. [GROMACS的安装方法](http://sobereva.com/457)
 1. [Specifying Number of Processes](https://www.open-mpi.org/doc/v4.0/man1/mpirun.1.php#toc7)  
 相关下载：
-1. [gmxmpi_xilock.txt](http://molakirlee.github.io/attachment/gmx/gmxmpi_xilock.txt)
 1. [gmxmpi_xilock.bsh](http://molakirlee.github.io/attachment/gmx/gmxmpi_xilock.bsh)
-1. [gmxmpi_xilock](http://molakirlee.github.io/attachment/gmx/gmxmpi_xilock)
 
 ![](/img/wc-tail.GIF)
