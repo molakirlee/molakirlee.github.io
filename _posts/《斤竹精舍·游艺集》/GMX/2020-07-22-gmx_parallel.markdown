@@ -14,9 +14,9 @@ tags:
 
 ---
 
-**!单机不要用并行版gmx**
-**!单机不要用并行版gmx**
-**!单机不要用并行版gmx**
+**!单机不要用并行版gmx**  
+**!单机不要用并行版gmx**  
+**!单机不要用并行版gmx**  
 
 ###### 硬件术语
 1. socket: 等价于CPU芯片个数，独立的中央处理单元，体现在主板上是有多个CPU的槽位；
@@ -38,6 +38,7 @@ tags:
 1. 跨节点运行时需要在每个节点上都安装上并行版gmx，且都有执行文件，xilock写了段代码来实现这个过程。
 1. 使用时将该脚本与tpr置于同一文件夹下，再准备两个文件:machinefile.LINUX和nodes.par，两个文件里的内容一样，均为每行一个node名，例如第1行为node6，第二行为node7等等。
 1. 输入`./gmxmpi_xilock nprocs npt.tpr`即可，nprocs为调用rank数，经测试对于4 socket - 8 cores/socket - 2 thread/cores的AMD Opteron(tm) Processor 6376而言，1 OpenMP thread/ MPI process有较好性能，即让nprocs(rank)等于逻辑核数。
+
 gmxmpi_xilock
 ```
 #!/bin/csh -f
@@ -69,10 +70,25 @@ gmxmpi_xilock
  exit
 ```
 
-[下载链接](http://molakirlee.github.io/attachment/gmx/gmxmpi_xilock)
+**若要指定每个节点可用的processes，在machinefile.LINUX中的节点名之后用`slots`指定**
+
+machinefile.LINUX (用于mpirun命令，调用node5和node6且分别指定可调用7和3个processes)
+```
+node5 slots=7
+node6 slots=3
+```
+
+nodes.par （用于runmpi14脚本）
+```
+node5
+node6
+```
 
 参考资料：
 1. [GROMACS (2019.3 GPU版) 并行效率测试及调试思路](http://bbs.keinsci.com/thread-13861-1-1.html)
 1. [Getting good performance from mdrun](http://manual.gromacs.org/documentation/current/user-guide/mdrun-performance.html)
 1. [GROMACS的安装方法](http://sobereva.com/457)
+相关下载：
+[gmxmpi_xilock](http://molakirlee.github.io/attachment/gmx/gmxmpi_xilock)
+
 ![](/img/wc-tail.GIF)

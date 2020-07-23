@@ -101,9 +101,20 @@ make parallel
 ###### 配置环境变量
 参见:https://www.crystal.unito.it/Manuals/crystal17_P.pdf
 1. 在runmpi14里指定mpirun的bin位置
-1. 在utils文件夹里添加两个文件 `machines.LINUX` 和 `nodes.par`并赋予其权限，两个文件中的内容相同，均为每行一个节点名，如第一行node5，第二行node1，第三行node6等，第一行的被默认设为master host. 
+1. 在utils文件夹里添加两个文件 `machines.LINUX` 和 `nodes.par`并赋予其权限，两个文件中的内容相同，均为每行一个节点名，如第一行node5，第二行node1，第三行node6等，第一行的被默认设为master host（若要指定每个节点可用的processes，在machinefile.LINUX中的节点名之后用`slots`指定）. 
 1. 测试： `runmpi14 nprocs inputfilename`，如 `runmpi14 4 test11`， nproc指要调用的cpu个数，现阶段只能实现将nprocs平均分配到每个node上，之后考虑如何实现指定每个node分别调用几个cpu.
 
+machinefile.LINUX (用于mpirun命令，调用node5和node6且分别指定可调用7和3个processes)
+```
+node5 slots=7
+node6 slots=3
+```
+
+nodes.par （用于runmpi14脚本）
+```
+node5
+node6
+```
 
 ### PBS脚本示例
 ```
@@ -146,5 +157,5 @@ runmpi14 $NPROCS $INPUT
 1. [howtoinstall](https://www.crystal.unito.it/Manuals/howtoinstall.txt)
 1. [Tutorials](http://tutorials.crystalsolutions.eu/)
 1. [A quick tour of CRYSTAL: Wave function calculation input and output](http://tutorials.crystalsolutions.eu/tutorial.html?td=others&tf=quick)
-
+1. [Specifying Number of Processes](https://www.open-mpi.org/doc/v4.0/man1/mpirun.1.php#toc7)
 ![](/img/wc-tail.GIF)
