@@ -88,7 +88,8 @@ node6
 1. [GROMACS (2019.3 GPU版) 并行效率测试及调试思路](http://bbs.keinsci.com/thread-13861-1-1.html)
 1. [Getting good performance from mdrun](http://manual.gromacs.org/documentation/current/user-guide/mdrun-performance.html)
 1. [GROMACS的安装方法](http://sobereva.com/457)
+1. [Specifying Number of Processes](https://www.open-mpi.org/doc/v4.0/man1/mpirun.1.php#toc7)
 相关下载：
-[gmxmpi_xilock](http://molakirlee.github.io/attachment/gmx/gmxmpi_xilock)
+1. [gmxmpi_xilock](http://molakirlee.github.io/attachment/gmx/gmxmpi_xilock)
 
 ![](/img/wc-tail.GIF)
