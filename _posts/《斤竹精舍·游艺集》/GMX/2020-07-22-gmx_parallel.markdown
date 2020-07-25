@@ -18,28 +18,30 @@ tags:
 **!单机不要用并行版gmx**  
 **!单机不要用并行版gmx**  
 
-###### 硬件术语
+##### 硬件术语
 1. socket: 等价于CPU芯片个数，独立的中央处理单元，体现在主板上是有多个CPU的槽位；
 1. CPU cores: 物理上的概念，每个CPU上的核数，即**物理核**；
 1. processor: 一种逻辑概念，这个主要得益于超线程技术，可以让一个物理核模拟出多个**逻辑核**，`lscpu`时显示的CPU(s)；
 
-###### 并行术语
+##### 并行术语
 1. rank: 进程，等价于processes；
 1. thread: 线程；
 
-###### 说明
+##### 说明
 1. 进程是资源分配的基本单位；线程是程序执行的基本单位，一个进程可以包含若干个线程。。
 1. rank和thread就像车间和工人的关系，一个rank可以包括多个thread。GMX在做muti-level并行时先在rank阶段用Domain Decompostion把体系切成小块，每块交给一个rank去算，而在这个rank中，多个thread共同处理这一个小块。  
 1. 单节点的rank级别用`-ntmpi`控制，多节点的则用`-np`（在mpirun里）。
 1. thread级别的用`-ntomp`控制。
 
-###### gmx_mpi版安装使用说明
+##### gmx_mpi版安装使用说明
+###### 安装使用说明
 1. 安装基本与普通版相同，区别在于需要提前安装openmpi并在cmake那一步额外加上-DGMX_MPI=ON选项，具体见参考资料。
 1. 跨节点运行时需要在每个节点上都安装上并行版gmx，且都有执行文件，xilock写了段代码来实现这个过程。
 1. 使用时将该脚本与tpr置于同一文件夹下，再准备两个文件:machinefile.LINUX和nodes.par，两个文件里的内容一样，均为每行一个node名，例如第1行为node6，第二行为node7等等。
 1. 输入`./gmxmpi_xilock nprocs npt.tpr`即可，nprocs为调用rank数，经测试对于4 socket - 8 cores/socket - 2 thread/cores的AMD Opteron(tm) Processor 6376而言，1 OpenMP thread/ MPI process有较好性能，即让nprocs(rank)等于逻辑核数。
 
-gmxmpi_xilock
+###### 脚本
+gmxmpi_xilock.bsh（使用方法：`./gmxmpi_xilock.bsh 核数 任务名`，如`./gmxmpi_xilock.bsh 128 npt`）
 ```
 #!/bin/csh -f
 ### script to run gmx_mpi
@@ -71,6 +73,38 @@ gmxmpi_xilock
  exit
 ```
 
+希望让多个mdrun串行调用mpirun跑的话用下面的脚本来调用gmxmpi_xilock.bsh
+ParaRun.bsh
+```
+#!/bin/bash
+
+#sleep 2.5h
+OriDir=$(pwd)
+#
+# 1st Process: in the dir you want make nvt_pre.tpr
+gmx_mpi grompp -f mdp/nvt_pre.mdp -c em_ions3.gro -p topol.top -o nvt_pre
+gmx_mpi mdrun -v -deffnm nvt_pre
+./gmxmpi_xilock.bsh 128 nvt_pre
+#
+# 2nd Process: make and run nvt
+cd nvt_pre*
+DirNamNow=$(basename `pwd`)
+#echo "OriDir is $OriDir"
+gmx_mpi grompp -f $OriDir/mdp/nvt_0-60ns.mdp -c nvt_pre.gro -p $OriDir/topol.top -o nvt_60ns.tpr
+# copy related files
+cp $OriDir/gmxmpi_xilock.bsh ./
+cp $OriDir/nodes.par ./
+cp $OriDir/machinefile.LINUX ./
+# run
+./gmxmpi_xilock.bsh 128 nvt_60ns
+#
+# Analysis
+cd nvt_60ns*
+gmx_mpi trjconv -s nvt_60ns.tpr -f nvt_60ns.xtc -pbc nojump -o nvt_60ns_nojump.xtc
+gmx_mpi rms -s nvt_60ns.tpr -f nvt_60ns_nojump.xtc
+
+exit
+```
 **若要指定每个节点可用的processes，在machinefile.LINUX中的节点名之后用`slots`指定**
 
 machinefile.LINUX (用于mpirun命令，调用node5和node6且分别指定可调用7和3个processes)
@@ -84,6 +118,9 @@ nodes.par （用于runmpi14脚本）
 node5
 node6
 ```
+
+
+
 
 参考资料：
 1. [GROMACS (2019.3 GPU版) 并行效率测试及调试思路](http://bbs.keinsci.com/thread-13861-1-1.html)
