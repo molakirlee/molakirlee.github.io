@@ -9,6 +9,7 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
+    - GMX学习记录
     - 2020
 
 
@@ -85,6 +86,10 @@ mdrun
 1. 根据Supernova的经验，随着体系的尺寸增加，范德华cut-off和静电cut-off两个参数也需要适当增加，否则体系容易崩溃，伴随大量LINC warning。
 1. 如果体系本身就是电中性，没有添加抗衡离子，会提示不建议使用PME的警告。不要理会他，如果真的按照他的建议使用了Cut-off的话，体系极易崩溃。
 
+对于大多数系统，肽的团簇通常分布在系统的周期性边界上。可以使用以下命令将最终帧定格在大型cluster上：
+```
+echo 1 1 1 | gmx trjconv -f md.gro -s md.tpr -pbc cluster -center -o md_fix.gro
+```
 
 ### 自定义基团的处理
 ###### 使用auto-martini生成小分子/非标准残基拓扑 （暂未实操成功，推荐手动）

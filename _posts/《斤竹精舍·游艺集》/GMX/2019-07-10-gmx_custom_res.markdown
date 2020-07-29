@@ -82,14 +82,14 @@ xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoa
 
 ### 附录
 自己写过的几个自定义残基：  
-[中性的C端LEU:clec.rtp](https://molakirlee.github.io/attachment/gmx/clec.rtp)
-[中性的C端LEU:clec.hdb](https://molakirlee.github.io/attachment/gmx/clec.hdb)  
-[中性的N端VAL:nvan.rtp](https://molakirlee.github.io/attachment/gmx/nvan.rtp)
-[中性的N端VAL:nvan.hdb](https://molakirlee.github.io/attachment/gmx/nvan.hdb)  
+[中性的C端LEU:clec.rtp](https://molakirlee.github.io/attachment/gmx/custom_residues/clec.rtp)
+[中性的C端LEU:clec.hdb](https://molakirlee.github.io/attachment/gmx/custom_residues/clec.hdb)  
+[中性的N端VAL:nvan.rtp](https://molakirlee.github.io/attachment/gmx/custom_residues/nvan.rtp)
+[中性的N端VAL:nvan.hdb](https://molakirlee.github.io/attachment/gmx/custom_residues/nvan.hdb)  
 
-[中性的C端LYN:clyn.rtp](https://molakirlee.github.io/attachment/gmx/clyn.rtp)
-[中性的C端LYN:clyn.hdb](https://molakirlee.github.io/attachment/gmx/clyn.hdb)  
-[中性的N端PHE:nphn.rtp](https://molakirlee.github.io/attachment/gmx/nphn.rtp)
-[中性的N端PHE:nphn.hdb](https://molakirlee.github.io/attachment/gmx/nphn.hdb)  
+[中性的C端LYN:clyn.rtp](https://molakirlee.github.io/attachment/gmx/custom_residues/clyn.rtp)
+[中性的C端LYN:clyn.hdb](https://molakirlee.github.io/attachment/gmx/custom_residues/clyn.hdb)  
+[中性的N端PHE:nphn.rtp](https://molakirlee.github.io/attachment/gmx/custom_residues/nphn.rtp)
+[中性的N端PHE:nphn.hdb](https://molakirlee.github.io/attachment/gmx/custom_residues/nphn.hdb)  
 
 ![](/img/wc-tail.GIF)
