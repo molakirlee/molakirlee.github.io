@@ -29,8 +29,24 @@ tags:
 1. 用 `route add 0.0.0.0 mask 0.0.0.0 172.23.0.1 -p` 来设置外网静态路由，设置缺省路由的下一跳为172.23.0.1；
 1. 用 `route print` 来检查配置完的路由器表。
 
+使用实验室路由器连接外网配置：  
 ![](/attachment/computer/dinet_lab_route.png)  
+使用tju连接外网配置：  
 ![](/attachment/computer/dinet_tju.png)
+
+### 因路由器表变动而无法联网
+有时路由器表会自动添加上一条将缺省路由链接到内网的记录，导致无法连接外网，使用下面的脚本可以定时查找这条记录并删除。  
+
+delete_route_table.bat
+```
+@echo off
+
+:start
+route print | findstr 0.0.0.0 | findstr 11.11.11.109 >nul && route delete 0.0.0.0 mask 0.0.0.0 11.11.11.109
+
+choice /t 300 /d y /n >nul
+goto start
+```
 
 ### 参考
 1. [如何设置双网卡电脑同时上内外网](https://jingyan.baidu.com/article/cbf0e500ac8b232eaa289339.html)
