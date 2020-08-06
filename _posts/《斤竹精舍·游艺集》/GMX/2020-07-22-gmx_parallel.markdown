@@ -120,14 +120,24 @@ node6
 ```
 
 
+##### 域分解 
+要确定区域分解和节点划分的最佳设置, 可利用如下步骤:  
+1. 根据测试运行结果确定区域分解的最小单元尺寸(Minimum cell size due to bonded interactions): d;
+1. 根据盒子x和y方向的尺寸 a 和 b 确定x和y方向的最大可能划分单元数: Nx=a/d, Ny=b/d，如最小单元尺寸为0.65nm时(Minimum cell size due to bonded interactions: 0.650 nm)，可将一个x×y为5.9×5.9nm的z向板块盒子划分为9×9×1;
+1. 对板块构型, 一般不沿z方向划分盒子, 所以体系的最大可能划分单元数为: Nx×Ny×1，其他的可划分为Nx×Ny×Nz，实际上即便是板块结构z方向也可做划分，xilock发现有时在默认条件下会进行划分;
+1. 使用-dd选项设定区域分解时, 每一方向的划分单元数不可超过前面得到的最大可能划分单元数, 否则出错
+1. 使用-npme选项设定PME节点数时, 其值必须小于总节点数的一般. 具体多少可根据测试结果确定, 一般可取1/3或1/4
+1. GROMACS自动设置区域分解时, 对于某些节点数可能出错. 此时可使用-dd手动设定区域分解.
 
 
-参考资料：
+参考资料：  
 1. [GROMACS (2019.3 GPU版) 并行效率测试及调试思路](http://bbs.keinsci.com/thread-13861-1-1.html)
 1. [Getting good performance from mdrun](http://manual.gromacs.org/documentation/current/user-guide/mdrun-performance.html)
 1. [GROMACS的安装方法](http://sobereva.com/457)
 1. [Specifying Number of Processes](https://www.open-mpi.org/doc/v4.0/man1/mpirun.1.php#toc7)  
-相关下载：
+1. [GROMACS教程：GROMACS模拟空间非均相体系(板块结构)的并行性能：区域分解与PME节点设置](https://jerkwin.github.io/GMX/GMXtut-10/)
+
+相关下载：  
 1. [gmxmpi_xilock.bsh](http://molakirlee.github.io/attachment/gmx/gmxmpi_xilock.bsh)
 
 ![](/img/wc-tail.GIF)
