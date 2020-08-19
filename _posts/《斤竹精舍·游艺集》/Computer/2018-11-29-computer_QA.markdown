@@ -35,4 +35,30 @@ tags:
 1. 系统自动安装，收集信息，复制文件，安装功能，完成设置。然后机器会重启这时会出现两个启动选择，有一个是Windowns设置启动，那我们如何把这个删除呢。进入系统，以管理员身份进入CMD运行DOS窗口，输入msconfig打开展系统配置对话框，选择[引导]标签，在这里你可设置系统选择等待时间，默认的是30秒，你可自行设置；你也可以看到启动时出现的两上启动选择，你可以把Windowns启动设置删除掉，确定退出，就OK了，删除操作请谨慎选择。
 1. 现在再装上自己的驱动和其他一些应用软件，杀毒软件，WIN7系统安装就完全OK了。
 
+
+### win7系统插4g+8g内存条显示12g(8g可用)
+先检查系统版本，对于win7-64bt(upper RAM limits):
+Starter : 2GB  
+Home Basic : 8GB  
+Home Premium : 16GB  
+Professional: 192GB  
+Enterprise : 192GB  
+Ultimate : 192GB  
+然后检查bios里的info看主板是否读出了内存，之后再考虑网上疯传的“msconfig里的最大内存”。
+
+### 缺少xxx
+###### 缺少MSVCP110.DLL
+1. 安装Visual C++库：msvcp110.dll是一个c++的库，所以可以在http://www.microsoft.com/zh-CN/download/details.aspx?id=30679上下载跟系统对应的c++库进行安装； 
+1. DirectX Repair：用“DirectX修复工具OL”进行修复；
+
+参考:  
+1. [Xshell打开报错缺少各种.dll文件(MSVCP110.DLL)以及报错0xc000007b万能解决方法](https://blog.csdn.net/code_love_yilian/article/details/107643504)
+1. [windows下使用Xshell时出现丢失msvcr110.dll等dll](https://blog.csdn.net/Franck_Lou/article/details/78438268)
+
+###### 缺少api-ms-win-crt-runtime-l1-1-0.dll
+下载[系统丢失api-ms-win-crt-runtime-l1-1-0.dll的修复工具](http://www.51rgb.cn/download/page-64.html)并安装运行。  
+参考：  
+1. [PS提示丢失api-ms-win-crt-runtime-l1-1-0.dll 完美解决方法](https://zhuanlan.zhihu.com/p/34167899)
+
+
 ![](/img/wc-tail.GIF)
