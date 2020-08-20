@@ -51,7 +51,24 @@ choice /t 300 /d y /n >nul
 goto start
 ```
 
+
+### 路由器连接
+![](/attachment/computer/dinet_router_link.png)  
+1. Cluster Router所控nodes的ip范围为11.11.11.1-9；
+1. Router B不接WAN口且关闭DHCP，只利用其交换机功能；
+1. 利用Router B的交换机功能对外网端口进行1分多，各端口均等效；
+1. Router A的WAN端与Router B的LAN端连接后其WAN端即获取动态ip(如172.24.163.195)；
+1. Router A的LAN端ip设置为11.11.11.109；
+1. Router A和B连接后，Router A会将Router B的ip(如172.24.163.195)与Router A的ip(如11.11.11.109)进行强映射(绑定)；
+1. 将Router A的LAN端分配ip与所连PC的mac地址绑定以防止PC的ip变化；
+1. 绑定Router A与PC连接的端口的ip和port(如11.11.11.104和22或5900，22为ssh默认端口，5900为VNC默认端口)
+1. 当某一PC处于外网同一局域网时，即可通过Router A的WAN端ip(如172.24.163.195)VNC控制Router A所接PC。
+
+
 ### WAN端接校园网-LAN端接局域网
+1. LAN对LAN称为桥接网络。“网桥将两个原本相互独立的计算机网络连接起来，以实现它们之间的通信，并使它们可以作为一个网络工作。网桥与局域网一起使用，以将其范围扩展到覆盖局域网所不能达到的更大的物理区域。”
+1. LAN到WAN称为网关网络。“网关是充当两个网络之间的“网关”的硬件设备。它可能是路由器，防火墙，服务器或其他使流量能够流入和流出网络的设备。而网关则保护其中的节点。网络，它本身也是一个节点。”
+
 将路由器WAN端与墙上网线连接，然后将路由器LAN端与服务器及PC连接后，配置路由器LAN口ip（WAN口ip在接强之后会自动获取ip），之后路由器会自动将WAN口ip与LAN口ip匹配；    
 ![](/attachment/computer/dinet_router1.png)
 
