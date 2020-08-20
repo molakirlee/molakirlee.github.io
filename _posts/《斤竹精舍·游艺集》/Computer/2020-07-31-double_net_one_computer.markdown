@@ -62,7 +62,7 @@ goto start
 1. Router A和B连接后，Router A会将Router B的ip(如172.24.163.195)与Router A的ip(如11.11.11.109)进行强映射(绑定)；
 1. 将Router A的LAN端分配ip与所连PC的mac地址绑定以防止PC的ip变化；
 1. 绑定Router A与PC连接的端口的ip和port(如11.11.11.104和22或5900，22为ssh默认端口，5900为VNC默认端口)
-1. 当某一PC处于外网同一局域网时，即可通过Router A的WAN端ip(如172.24.163.195)VNC控制Router A所接PC。
+1. 当某一PC处于外网同一局域网时，即可用VNC，通过Router A的WAN端ip(如172.24.163.195)控制Router A所接PC。
 
 
 ### WAN端接校园网-LAN端接局域网
