@@ -40,6 +40,10 @@ XiLock打包好的下载链接[av65](https://pan.baidu.com/s/1yJzFCYpzZCgsrMQjDW
 1. Ligand>Input>Open打开ligand的pdb，软件会提示结构中的非极性氢原子、芳香碳原子个数、可旋转建等信息，点击确定即可；
 1. Ligand>Input>Choose，选择相应的ligand分子；
 1. Ligand>Output>Save as PDBQT，保存成为pdbqt文件，该文件中包含了配体结构中的原子信息和可旋转建的信息等；
+
+注意：  
+DNA和RNA做ligand时要重新处理原子名称，在载入前将原子名中的单引号去掉，等对接完导出后再加上，否则可能识别不出来。  
+
 ###### Grid
 1. Grid>Macromolecule>Open打开receptor的pdb文件，在左侧Dashboard窗口的选择方框中把受体蛋白勾选上，此时蛋白会变黄，即选中状态；点击Edit>Hydrogens>Add，ADT会为蛋白质加氢（由于解析技术的原因，氨基酸的氢原子在晶体结构中是不存在的，因此需要手动加氢原子）。如果第一步预处理的时候已经用其他软件加过H了，这里就不需要了。
 1. Grid>Macromolecule>Choose选择receptor分子，件提示结构中包含的非键原子、电荷等信息，点击确定，软件会自动弹出保存对话框，将受体保存成pdbqt文件。；
