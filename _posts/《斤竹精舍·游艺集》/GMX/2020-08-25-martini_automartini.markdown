@@ -82,6 +82,17 @@ pip install Pillow
 ### 注意
 1. 用`conda install -c conda-forge rdkit`装的包可能在`factory = ChemicalFeatures.BuildFeatureFactory(fdefName)`这步报错，这是因为BaseFeatures.fdef的安装路径和默认的路径不一致，但`conda install -c conda-forge rdkit`法安装的BaseFeatures.fdef路径太长，win下直接引用可能无法识别，所以可以将`BaseFeatures.fdef`拷贝到当前目录下，然后改下引用路径。
 
+### 其他
+###### rdkit是否安装成功可以用下面脚本测试
+test  
+```
+from rdkit import Chem
+from rdkit.Chem import Draw
+smi = 'CCCc1nn(C)c2C(=O)NC(=Nc12)c3cc(ccc3OCC)S(=O)(=O)N4CCN(C)CC4'
+m = Chem.MolFromSmiles(smi)
+Draw.MolToImageFile(m,"mol.png")
+```
+用`python test`执行之后得到png图说明能rdkit正常使用。  
 
 ### 参考资料：
 1. [MARTINI粗粒化力场简明教程](https://zhuanlan.zhihu.com/p/93216681)
