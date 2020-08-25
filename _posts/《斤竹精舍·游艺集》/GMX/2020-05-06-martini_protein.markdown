@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Martini力场粗粒化"
+title:      "Martini力场粗粒化-蛋白模拟"
 subtitle:   ""
 date:       2020-05-06 09:57:00
 author:     "XiLock"
@@ -31,9 +31,12 @@ tags:
 ###### 对pdb文件使用martinize.py创建粗粒化pdb和topol
 `python martinize.py -f protein.pdb -o topol.top -x protein_CG.pdb -name protein -ff martini22 -nt`
 注意：
-1. 要使用不带电的末端(-nt)
-1. 对于蛋白要指定二级结构，使用-dssp或者-ss
-1. 生成的top没有自定义残基，若分子中包括自定义残基，则需使用auto-martini（见后，但xilock并未成功应用auto-martini，实际过程采用手动解决）
+1. 要使用不带电的末端(-nt)；
+1. 对于蛋白要指定二级结构，使用-dssp或者-ss(dssp下载:http://swift.cmbi.ru.nl/gv/dssp/ );
+1. 使用dssp的话指令为：`python martinize.py  -f  1UBQ.pdb  o  system-vaccum.top  -x  1UBQ-CG.pdb  -dssp  /pwd/to/dssp  -p  backbone  -ff  martini22`
+1. 使用已准备的蛋白二级结构(ssd.dat)的话指定则变为:`python martinize.py  -f  1UBQ.pdb  -o  system-vaccum.top  -x  1UBQ-CG.pdb  -ss  ssp.dat  -p  backbone  -ff  martini22`；
+1. 生成的top没有自定义残基，若分子中包括自定义残基，则需手动解决或使用auto-martini（见《Martini力场粗粒化-实操auto_martini》）；
+1. 在蛋白质的模拟中，蛋白质的二级结构不仅影响粗粒化以后的珠子类型，还影响键、键角、二面角等参数。如果改变蛋白质的二级结构，可以通过两种途径：一种是基于标准的martini拓扑产生一个简单的弹性网络拓扑(在运行martimize.py时后面添加 -elastic  -ef  500  -el  0.5  -eu  0.9  -ea  0  -ep  0)；另一种是通过ElNeDyn网络方法(在运行martimize.py时后面添加 -ff  elnedyn22)(xilock尚未测试)；
 
 ###### 修改topol文件
 用martinize.py得到的top文件如下：  
@@ -93,7 +96,7 @@ echo 1 1 1 | gmx trjconv -f md.gro -s md.tpr -pbc cluster -center -o md_fix.gro
 
 ### 自定义基团的处理
 ###### 使用auto-martini生成小分子/非标准残基拓扑 （暂未实操成功，推荐手动）
-参见博文：《Martini力场粗粒化-automatini》
+参见博文：《Martini力场粗粒化-实操auto_martini》
 
 ###### 手动划分拓扑结构
 
