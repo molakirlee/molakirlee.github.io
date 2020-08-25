@@ -38,7 +38,9 @@ pip install lxml
 pip install Pillow
 
 ```
-一般创建完环境后就有numpy，若缺少其它包则使用 `pip install xxx`来安装，安装完用`pip list`和`conda list`瞅瞅都有啥包了
+1. 一般创建完环境后就有numpy；
+1. 若缺少其它包则使用 `pip install xxx`来安装，安装完用`pip list`和`conda list`瞅瞅都有啥包了;
+1. 脚本中用到的sanifix4.py包不是pip下载的而是脚本压缩包里的，跟脚本放到同一目录下即可。
 
 使用前进入相应的环境下： `conda activate py27-env`
 
