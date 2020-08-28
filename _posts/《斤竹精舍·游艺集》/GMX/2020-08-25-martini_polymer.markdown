@@ -26,7 +26,63 @@ tags:
 
 
 ### 工具
-1. [PyCGTOOL](https://pycgtool.readthedocs.io/en/master/tutorial.html#atomistic-simulation)
+##### pyCGtool
+ [官网：PyCGTOOL](https://pycgtool.readthedocs.io/en/master/tutorial.html#atomistic-simulation)
+###### 安装（注意：只能在linux下安装，win下simpletraj包的c++编译通不过）
+需要的包：
+1. Python 3；
+1. [Numpy](http://www.numpy.org/)
+1. [simpletraj](https://github.com/arose/simpletraj): `pip install simpletraj`
+
+###### 使用
+调用指令：  
+```
+pycgtool.py -g <GRO file> -x <XTC file> -m <MAP file> -b <BND file>
+```
+输入文件：gro文件、xtc文件、map文件、bnd文件。  
+map文件为原子映射，如：
+dppc.map
+```
+; comments begin with a semicolon
+[ALLA]
+C1 P3 C1 O1
+C2 P3 C2 O2
+C3 P3 C3 O3
+C4 P3 C4 O4
+C5 P2 C5 C6 O6
+O5 P4 O5
+
+[SOL]
+W P4 OW HW1 HW2
+```
+bnd文件为拓扑：
+```
+; comments begin with a semicolon
+[ALLA]
+C1 C2
+C2 C3
+C3 C4
+C4 C5
+C5 O5
+O5 C1
+
+C1 C2 C3
+C2 C3 C4
+C3 C4 C5
+C4 C5 O5
+C5 O5 C1
+O5 C1 C2
+
+C1 C2 C3 C4
+C2 C3 C4 C5
+C3 C4 C5 O5
+C4 C5 O5 C1
+C5 O5 C1 C2
+O5 C1 C2 C3
+```
+
+
+##### charmm-gui
 1. [charmm-gui](http://www.charmm-gui.org/?doc=input/polymer)
 
 
