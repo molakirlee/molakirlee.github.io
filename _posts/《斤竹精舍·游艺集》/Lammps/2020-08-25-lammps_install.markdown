@@ -64,10 +64,13 @@ MPI_PATH = -L/usr/local/lib
 MPI_LIB = -lmpi -lmpl -lpthread
 ```
 ###### 修改fftw和mpich的路径 
-除非安装时将fftw和mpich安装在lammps的默认路径`/usr/local/`，否则就需要在Makefile.fftw和Makefile.g++_mpich_link中对路径进行修改（见上）。
+除非安装时将fftw和mpich安装在lammps的默认路径`/usr/local/`，否则就需要修改fftw和mpich的路径，有两种方式，择一即可：  
+1. 在/lammps/lammps-22Aug18/src/Make/路径下的Makefile.mpi里修改fftw和mpich的路径，内容见上。
+1. 在/lammps/lammps-22Aug18/src/Make/OPTIONS路径下的Makefile.fftw和Makefile.g++_mpich_link中对路径进行修改。
 
 ###### 并行版安装
 打开Makefile.mpi文件，将下面这行注释掉。（由于lammps运行过程中不需要图片支持，因而将关于图片这几行斜线部分删除）
+
 ```
 LMP_INC =	-DLAMMPS_GZIP -DLAMMPS_MEMALIGN=64
 ```
@@ -91,7 +94,7 @@ sudo make mpi -j4
 ```
 `make ps`是显示安装包的状态；`make yes-all`是安装所有包；`make-no-lib`是不安装有外链的包；
 
-如果显示如下则证明安装成功，如果报错了，请仔细检查上面的步骤，如果有必要，请在/lammps/lammps-22Aug18/src中执行`make clean-all`，`make clean-openmpi`，清理一下，然后再来一次。
+如果显示如下则证明安装成功，如果报错了，请仔细检查上面的步骤，如果有必要，请在/lammps/lammps-22Aug18/src中执行`make clean-all`（或`make clean-openmpi`？），清理一下，然后再来一次。
 ```
 text data bss dec hex filename
 30886917 55160 1612612576 1643554653 61f6a75d ../lmp_omp
@@ -129,13 +132,14 @@ MPID_nem_tcp_init(377).............: gethostbyname failed, localhost (errno 3)
 
 解决见参考资料：问题MPICH2 gethostbyname failed
 
-###### `make mpi`过程
+###### `make mpi`过程中遇到问题
+
 出现一大堆错误如：
 ```
 angle_charmm_omp.cpp(90): error: "restrict" has already been declared in the current scope
 ```
 
-可能是因为没有将mpich添加到路径里，添加完重试。
+可能是因为没有将mpich添加到路径里，添加完后`make clean-all`清理一下，然后重新`make mpi -j4`试试。
 
 ###### `mpirun -np 10 LAMMPS < in.shear`报错
 如果在用mpirun调用过程中使用了alias的指令就会报下面的错误，故在使用mpirun的过程中一定要使用原来的名字`mpirun -np 10 lmp_mpi < in.shear`而非alias之后的名字（如将lmp_mpi用alias定为LAMMPS）。
