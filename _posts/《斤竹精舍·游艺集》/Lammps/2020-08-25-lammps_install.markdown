@@ -50,7 +50,7 @@ sudo make install
 ```
 （-j4 意为调用4核编译，具体核数看电脑情况）  
 
-编译完将mpich的路径添加到.bashrc里，如：
+编译完将mpich的路径添加到.bashrc里，如下：
 ```
 # mpicxx
 export PATH=/root/Desktop/lammps_install/mpich-3.4a2_installed/bin:$PATH
@@ -91,20 +91,19 @@ sudo make mpi -j4
 ```
 `make ps`是显示安装包的状态；`make yes-all`是安装所有包；`make-no-lib`是不安装有外链的包；
 
-如果显示如下则证明安装成功，如果报错了，请仔细检查上面的步骤，如果有必要，请在/lammps/lammps-22Aug18/src中执行make clean-all，清理一下，然后再来一次。
+如果显示如下则证明安装成功，如果报错了，请仔细检查上面的步骤，如果有必要，请在/lammps/lammps-22Aug18/src中执行`make clean-all`，`make clean-openmpi`，清理一下，然后再来一次。
 ```
 text data bss dec hex filename
 30886917 55160 1612612576 1643554653 61f6a75d ../lmp_omp
 make[1]: Leaving directory ‘/home/chenhuaqiang/lammps-16Mar18/src/Obj_mpi’
 ```
 
-添加lammps的路径：
+添加lammps的路径（建议新建一个环境文件lammps，每次使用前source，不用就不souce，以免mpirun混乱；当然，使用module来管理的话会更好）：
 
 ```
 # LAMMPS
 export PATH=/root/Desktop/lammps_install/lammps-3Mar20/src/:$PATH
 export LD_LIBRARY_PATH=/root/Desktop/lammps_install/lammps-3Mar20/src:$LD_LIBRARY_PATH
-alias LAMMPS='lmp_mpi'
 ```
 
 ###### 测试
@@ -125,7 +124,28 @@ MPID_nem_tcp_get_business_card(418):
 MPID_nem_tcp_init(377).............: gethostbyname failed, localhost (errno 3)
 ```
 
-解决见参考资料：
+解决见参考资料：问题MPICH2 gethostbyname failed
+
+###### `make mpi`过程
+出现一大堆错误如：
+```
+angle_charmm_omp.cpp(90): error: "restrict" has already been declared in the current scope
+```
+
+可能是因为没有将mpich添加到路径里，添加完重试。
+
+###### `mpirun -np 10 LAMMPS < in.shear`报错
+如果在用mpirun调用过程中使用了alias的指令就会报下面的错误，故在使用mpirun的过程中一定要使用原来的名字`mpirun -np 10 lmp_mpi < in.shear`而非alias之后的名字（如将lmp_mpi用alias定为LAMMPS）。
+```
+[proxy:0:0@node5] HYDU_sock_write (utils/sock/sock.c:256): write error (Broken pipe)
+[proxy:0:0@node5] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:937): unable to write to downstream stdin
+[proxy:0:0@node5] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:77): callback returned error status
+[proxy:0:0@node5] main (pm/pmiserv/pmip.c:178): demux engine error waiting for event
+[mpiexec@node5] control_cb (pm/pmiserv/pmiserv_cb.c:207): assert (!closed) failed
+[mpiexec@node5] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:77): callback returned error status
+[mpiexec@node5] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:195): error waiting for event
+[mpiexec@node5] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
+```
 
 ### 参考资料
 1. [lammps安装全记录](http://bbs.keinsci.com/thread-14585-1-1.html)
