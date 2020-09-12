@@ -109,7 +109,7 @@ export PATH=/root/Desktop/lammps_install/lammps-3Mar20/src/:$PATH
 export LD_LIBRARY_PATH=/root/Desktop/lammps_install/lammps-3Mar20/src:$LD_LIBRARY_PATH
 ```
 
-***建议新建一个环境文件lammps，将mpich和lammps的环境和路径都放进去，每次使用前source，不用就不souce，以免mpirun混乱；当然，使用module来管理的话会更好**  
+***建议新建一个环境文件lammps，将mpich和lammps的环境和路径都放进去，每次使用前source，不用就不souce，以免mpirun混乱；当然，使用module来管理的话会更好**。  
 
 
 ###### 测试
@@ -155,15 +155,13 @@ angle_charmm_omp.cpp(90): error: "restrict" has already been declared in the cur
 ```
 
 ### 参考资料
+###### 安装(综合理解所有教程后，再进行安装！)
 1. [lammps安装全记录](http://bbs.keinsci.com/thread-14585-1-1.html)
 1. [2018版lammps安装教程（小白专用）](https://zhuanlan.zhihu.com/p/36457551)
 1. [ubuntu下lammps的安装](https://blog.csdn.net/xukang95/article/details/89377180)
 1. [LAMMPS从研一到延毕：安装](https://zhuanlan.zhihu.com/p/70085195)
 
-
-综合理解以上所有教程后，再进行安装！
-
-
+###### 问题部分
 1. [问题MPICH2 gethostbyname failed](https://stackoverflow.com/questions/23112515/mpich2-gethostbyname-failed)
 
 ![](/img/wc-tail.GIF)
