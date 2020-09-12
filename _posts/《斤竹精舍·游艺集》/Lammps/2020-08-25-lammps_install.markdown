@@ -68,6 +68,7 @@ LMP_INC =	-DLAMMPS_GZIP -DLAMMPS_MEMALIGN=64
 在lammps目录下：
 ```
 mkdir build
+cd build
 cmake ../cmake/
 make
 cd ..
