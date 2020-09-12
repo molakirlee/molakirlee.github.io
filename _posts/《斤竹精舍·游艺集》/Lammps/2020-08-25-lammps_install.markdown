@@ -26,7 +26,7 @@ tags:
 ###### fftw安装
 lammps对fftw的默认调用路径为`/usr/local`(参见/lammps/lammps-22Aug18/src/MAKE/OPTIONS路径下的Makefile.fftw文件)，此处我们将其安装在`~/Desktop/lammps/fftw`：
 ```
-cd ~/lammps/fftw-3.3.8 
+cd ~/lammps_install/fftw-3.3.8 
 sudo ./configure --prefix=~/Desktop/lammps/fftw --enbale-shared=yes 
 sudo make
 make install
@@ -43,7 +43,7 @@ lammps对fftw的默认调用路径为`/usr/local`(参见/lammps/lammps-22Aug18/s
 
 
 ```
-cd /home/xukang/lammps/mpich-3.2.1
+cd ~/lammps_install/mpich-3.2.1
 sudo ./configure --prefix=~/Desktop/lammps/mpich
 sudo make -j4  
 sudo make install
