@@ -32,7 +32,7 @@ sudo make
 make install
 ```
 
-Makefile.fftw的部分字段：  
+**附：**Makefile.fftw的部分字段：  
 ```
 FFT_INC =            -DFFT_FFTW3 -I/usr/local/include
 FFT_PATH =      -L/usr/local/lib
@@ -50,7 +50,14 @@ sudo make install
 ```
 （-j4 意为调用4核编译，具体核数看电脑情况）  
 
-Makefile.g++_mpich_link的部分字段：  
+编译完将mpich的路径添加到.bashrc里，如：
+```
+# mpicxx
+export PATH=/root/Desktop/lammps_install/mpich-3.4a2_installed/bin:$PATH
+```
+
+
+**附：**Makefile.g++_mpich_link的部分字段：  
 ```
 MPI_INC = -DMPICH_SKIP_MPICXX -DOMPI_SKIP_MPICXX=1 -I/usr/local/include
 MPI_PATH = -L/usr/local/lib
@@ -84,6 +91,22 @@ sudo make mpi -j4
 ```
 `make ps`是显示安装包的状态；`make yes-all`是安装所有包；`make-no-lib`是不安装有外链的包；
 
+如果显示如下则证明安装成功，如果报错了，请仔细检查上面的步骤，如果有必要，请在/lammps/lammps-22Aug18/src中执行make clean-all，清理一下，然后再来一次。
+```
+text data bss dec hex filename
+30886917 55160 1612612576 1643554653 61f6a75d ../lmp_omp
+make[1]: Leaving directory ‘/home/chenhuaqiang/lammps-16Mar18/src/Obj_mpi’
+```
+
+添加lammps的路径：
+
+```
+# LAMMPS
+export PATH=/root/Desktop/lammps_install/lammps-3Mar20/src/:$PATH
+export LD_LIBRARY_PATH=/root/Desktop/lammps_install/lammps-3Mar20/src:$LD_LIBRARY_PATH
+alias LAMMPS='lmp_mpi'
+```
+
 ###### 测试
 在lammps/example/文件夹里随便进入一个算例文件夹，`mpirun -np 4 lmp_mpi -in in.filename`
 
@@ -102,12 +125,18 @@ MPID_nem_tcp_get_business_card(418):
 MPID_nem_tcp_init(377).............: gethostbyname failed, localhost (errno 3)
 ```
 
+解决见参考资料：
+
 ### 参考资料
 1. [lammps安装全记录](http://bbs.keinsci.com/thread-14585-1-1.html)
 1. [2018版lammps安装教程（小白专用）](https://zhuanlan.zhihu.com/p/36457551)
 1. [ubuntu下lammps的安装](https://blog.csdn.net/xukang95/article/details/89377180)
 1. [LAMMPS从研一到延毕：安装](https://zhuanlan.zhihu.com/p/70085195)
+
+
 综合理解以上所有教程后，再进行安装！
+
+
 1. [问题MPICH2 gethostbyname failed](https://stackoverflow.com/questions/23112515/mpich2-gethostbyname-failed)
 
 ![](/img/wc-tail.GIF)
