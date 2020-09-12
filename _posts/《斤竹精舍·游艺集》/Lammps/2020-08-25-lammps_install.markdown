@@ -98,13 +98,16 @@ text data bss dec hex filename
 make[1]: Leaving directory ‘/home/chenhuaqiang/lammps-16Mar18/src/Obj_mpi’
 ```
 
-添加lammps的路径（建议新建一个环境文件lammps，每次使用前source，不用就不souce，以免mpirun混乱；当然，使用module来管理的话会更好）：
+添加lammps的路径：  
 
 ```
 # LAMMPS
 export PATH=/root/Desktop/lammps_install/lammps-3Mar20/src/:$PATH
 export LD_LIBRARY_PATH=/root/Desktop/lammps_install/lammps-3Mar20/src:$LD_LIBRARY_PATH
 ```
+
+***建议新建一个环境文件lammps，将mpich和lammps的环境和路径都放进去，每次使用前source，不用就不souce，以免mpirun混乱；当然，使用module来管理的话会更好**  
+
 
 ###### 测试
 在lammps/example/文件夹里随便进入一个算例文件夹，`mpirun -np 4 lmp_mpi -in in.filename`
