@@ -284,4 +284,17 @@ git clean -nf
 git clean -nfd
 ```
 
+### 常见问题
+###### linux系统安装完新版本的git后用--version查看仍为旧版本
+这是因为没有添加环境变量路径或新添加的路径在原来的`$PATH`后面，环境变量应为：`export PATH=/usr/local/git/bin:$PATH`
+
+此外，还需添加pull等命令的路径，故完整环境变量为：
+```
+export PATH=/THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/git/installed/bin:$PATH
+export GIT_EXEC_PATH=/THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/git/installed/lib/git-core
+```
+
+参考资料：[Updated Git but still showing old version](https://stackoverflow.com/questions/20508136/updated-git-but-still-showing-old-version)  
+
+
 ![](/img/wc-tail.GIF)

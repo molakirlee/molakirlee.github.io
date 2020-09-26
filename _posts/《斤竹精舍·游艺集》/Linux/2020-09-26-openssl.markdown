@@ -46,5 +46,7 @@ export PATH=/THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/openssl/installed/bin:$P
 
 ### 参考资料
 1. [CentOS7升级OpenSSL版本](https://www.cnblogs.com/itbsl/p/11275728.html)
+1. [OpenSSL LTS版本升级方法](https://blog.csdn.net/liumiaocn/article/details/103444258)
+1. [openssl/curl/git更新](https://www.freebuf.com/column/165868.html)
 
 ![](/img/wc-tail.GIF)
