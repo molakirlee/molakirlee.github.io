@@ -42,6 +42,8 @@ cd $AMBERHOME
 # 如果安装过程中不想使用miniconda安装python，则可以自己指定python路径，python的版本有要求，注意查看
 $ ./configure --with-python ~/Programs/Python-2.7.15/bin/python gnu
 
+source amber.sh    # 添加环境变量信息，也可以自己手动在~/.bashrc中添加
+
 make install
 
 make test
@@ -70,6 +72,7 @@ acpype.py -i xxx.mol2 <-n -1> <-d>
  `-n` 用于调整电荷量， `-d` 则可以显示处理细节。
 
 ### 参考资料
-[Centos7 安装amber16](https://www.cnblogs.com/wq242424/p/8857296.html)
+1. [Centos7 安装amber16](https://www.cnblogs.com/wq242424/p/8857296.html)
+1. [Amber18安装（非root用户）](https://blog.csdn.net/wzl1997/article/details/102708269)
 
 ![](/img/wc-tail.GIF)
