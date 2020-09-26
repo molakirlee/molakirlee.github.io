@@ -39,6 +39,9 @@ cd $AMBERHOME
 
 ./configure gnu   # 使用gcc编译器编译
 
+# 如果安装过程中不想使用miniconda安装python，则可以自己指定python路径，python的版本有要求，注意查看
+$ ./configure --with-python ~/Programs/Python-2.7.15/bin/python gnu
+
 make install
 
 make test
