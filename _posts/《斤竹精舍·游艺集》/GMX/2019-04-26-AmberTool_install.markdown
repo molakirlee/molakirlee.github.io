@@ -37,7 +37,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$AMBERHOME/lib
 ```
 cd $AMBERHOME
 
-./configure -gnu
+./configure gnu   # 使用gcc编译器编译
 
 make install
 
