@@ -69,5 +69,7 @@ acpype.py -i xxx.mol2 <-n -1> <-d>
 
  `-n` 用于调整电荷量， `-d` 则可以显示处理细节。
 
+### 参考资料
+[Centos7 安装amber16](https://www.cnblogs.com/wq242424/p/8857296.html)
 
 ![](/img/wc-tail.GIF)
