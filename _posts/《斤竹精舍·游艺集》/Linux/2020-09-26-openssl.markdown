@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "openssl安装"
+title:      "Linux下安装/更新openssl"
 subtitle:   ""
 date:       2020-09-26 20:27:00
 author:     "XiLock"

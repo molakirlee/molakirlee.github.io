@@ -49,7 +49,9 @@ make install
 make test
 ```
 
-编译大概需要20min，测试大概需要2h。
+注意：  
+1. 如果同意使用miniconda安装python，则某些配置下会出现ssl报错`error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version`，原因可能是openssl太旧或curl太旧等，对其升级或许可解决（参见：https://www.freebuf.com/column/165868.html，未测试）。在天河2号使用过程中遇到了该问题，为回避该问题，xilock没同意使用miniconda安装python而是指定了系统自带的python。
+2. 编译大概需要20min，测试大概需要2h（天河测试了6h？WTF!）。
 
 ###### acpype下载
 
