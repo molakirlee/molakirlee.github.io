@@ -14,6 +14,30 @@ tags:
 
 ---
 
+### 周期性
+###### boundary
+对于有wall的体系，不能使用全周期性的盒子，必须定义对应的boundary。如固定z方向壁面，则需设定：
+
+```
+boundary     p p f
+```
+
+其中`p`为周期性，`f`为固定壁面，意味着x/y方向为周期性而z方向上有一固定壁面。如果希望壁面移动，则将相应壁面设为`s`，如：
+
+```
+boundary     p p s
+```
+
+###### kspace
+对于非周期性体系，长程COU的计算也需要modify，不能仅仅指定`kspace_style`。对于`p p f`的体系而言，kspace部分应做如下修改：  
+```
+boundary        p p f
+pair_style      lj/charmmfsw/coul/long 11 12
+kspace_style    pppm 0.001
+kspace_modify   slab 3.0
+```
+
+
 ### [fix wall/reflect](https://lammps.sandia.gov/doc/fix_wall_reflect.html)
 Bound the simulation with one or more walls which reflect particles in the specified group when they attempt to move through them.  
 Reflection means that if an atom moves outside the wall on a timestep by a distance delta (e.g. due to fix nve), then it is put back inside the face by the same delta, and the sign of the corresponding component of its velocity is flipped.   

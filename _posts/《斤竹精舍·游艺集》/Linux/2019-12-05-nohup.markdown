@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "nohup &后台运行"
+title:      "后台运行:nohup &或screen等"
 subtitle:   ""
 date:       2019-12-05 20:38:00
 author:     "XiLock"
@@ -46,6 +46,13 @@ nohup command > myout.file 2>&1 &
 ```
 
 ### screen
-screen命令更好用一些，但是需要额外安装。
+screen命令更好用一些，但是需要额外安装。  
+常用的screen命令：  
+1. 创建session: `screen -S xilock_1`
+1. 列出当前所有的session： `screen -ls`
+1. 回到yourname这个session： `screen -r yourname`
+1. detach当前session：ctrl + a + d
+1. 强行关闭当前的 window： ctrl + a + k。之后该会话会变为dead状态，使用screen -wipe命令清除dead的命令。
+
 
 ![](/img/wc-tail.GIF)
