@@ -43,5 +43,7 @@ tags:
 1. 设置系统启动后进入图形界面：`systemctl set-default graphical.target`
 1. 设置系统启动后进入文本界面：`systemctl set-default multi-user.target`
 
+### 装机
+下载的iso文件直接放isos文件夹里安装会出现很多问题，建议用Rufus（绿色软件，在网盘里）直接把CentOS的系统直接做到U盘里然后来装，参见：[1分钟学会U盘启动安装Linux系统](https://www.linuxidc.com/Linux/2019-11/161337.htm)
 
 ![](/img/wc-tail.GIF)
