@@ -21,7 +21,7 @@ tags:
 1. [https://dynv6.com/](https://dynv6.com/)
 域名用于方便记录，否则关机重启后若公网ipv6地址变化则需手动修改，用ipv6域名的好处在于通过脚本可更新机子24打头的的ipv6地址到网站上并与域名挂钩，通过域名就能实现通讯。  
 
-注册登陆后，Create new Zone后得到Domainname和Benutzername(token)，后面写到更新用的脚本里
+注册登陆后，Create new Zone后得到Domainname和Benutzername(token)，后面写到更新用的脚本里。
 
 ### 更新ipv6地址用脚本
 
