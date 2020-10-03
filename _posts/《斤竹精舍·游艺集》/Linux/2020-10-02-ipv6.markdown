@@ -41,6 +41,10 @@ ipv6=$(ifconfig eno2 | grep 'inet6 24' | awk '{print $2}' | cut -d'/' -f1)
 wget --no-check-certificate -q -O dynv6.log 'http://dynv6.com/api/update?hostname=<你的域名>&token=<你的令牌>&ipv6='$ipv6
 ```
 
+用`crontab -e`添加`*/10 * * * * /usr/bin/ddns.dynv6.sh`后用`crontab -e`确认是否添加成功，使得每10min更新一次。
+
+在/etc/rc.local加入一行：`/usr/bin/ddns.dynv6.sh`，这样每次电脑开机，都能把新的IPv6更新到dynv6。
+
 ### 使用
 两个都是24开头的公网ipv6地址，可以ssh通讯了。
 
