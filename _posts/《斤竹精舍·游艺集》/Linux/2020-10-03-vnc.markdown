@@ -1,0 +1,31 @@
+---
+layout:     post
+title:      "centos7 安装vnc远程服务"
+subtitle:   ""
+date:       2020-10-03 20:07:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Linux
+    - 2020
+
+---
+
+### 安装
+见参考资料。
+
+### vnc的启动/关闭/重启
+```
+systemctl start vncserver@:1.service #启动
+systemctl stop vncserver@:1.service #关闭
+systemctl restart vncserver@:1.service #重启
+```
+
+### 参考资料：
+
+1. [centos7 安装vnc远程服务](https://www.cnblogs.com/yunweiweb/p/10846943.html)
+
+![](/img/wc-tail.GIF)
