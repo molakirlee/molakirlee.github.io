@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "CentOS 7 安装PPPoE有线连接"
+subtitle:   ""
+date:       2020-09-29 17:11:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Linux
+    - 2020
+
+---
+  
+
+### 参考资料
+1. [CentOS 7拨号上网（ADSL & PPPoE）](https://www.cnblogs.com/gotodsp/p/5513945.html)
+1. [CentOS 7 通过PPPoE拨号上网](https://zhuanlan.zhihu.com/p/88742032)
+
+![](/img/wc-tail.GIF)
