@@ -291,3 +291,25 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 ### 更新20190628
 另一篇参考：[Using Hugo, GitLab Pages, and Cloudflare to create and run this Website](https://tkainrad.dev/posts/using-hugo-gitlab-pages-and-cloudflare-to-create-and-run-this-website/)
 
+### 更新20201005
+发现home界面的tags连接不上，但菜单栏里的tags里面的可以连接上。检查了下发现是之前把所有的博文md放进post这个文件夹后，`_layouts`里面的格式没有及时修改，将如下部分做对应修改即可（原来是：`/tags/`；现在是：`/blog//tags/`）：
+```
+<!-- Featured Tags -->
+                {% if site.featured-tags %}
+                <section>
+                    <!-- no hr -->
+                    <h5><a href="{{'/blog/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				{% for tag in site.tags %}
+                            {% if tag[1].size > site.featured-condition-size %}
+                				<a href="{{ site.baseurl }}/blog/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                                    {{ tag[0] }}
+                                </a>
+                            {% endif %}
+        				{% endfor %}
+        			</div>
+                </section>
+                {% endif %}
+```
+
+
