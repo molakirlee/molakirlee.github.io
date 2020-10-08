@@ -24,6 +24,30 @@ tags:
 1. introduction提出的问题必须是你工作能解决的问题；
 
 
+### 个人总结
+1. 要突出副词等放前边；
+1. adv.放v.前边
+1. 重要的放前边
+1. 合并句子
+1. and左右能合并的尽量合并
+1. 说清楚是什么，比如将risk的话要讲清是什么的risk
+1. mainly --> primarily
+1. related to --> associated with
+1. on the contrary --> in contrast
+1. received increased attention
+1. has yet to be investigate, numerous studies have inestigate, little is known regarding how ...
+1. explate --> ehucidate
+1. with respect to 
+1. indicating 表结论是用ing不用which
+1. obvious --> notable
+1. with or without --> in the presence or absence of
+1. 10 times than --> 10-fold greater than
+1. while --> whereas
+1. It indicate ... --> These results indicate ...
+1. expound --> elucidate
+1. proven --> indicate, show, demonstrate
+1. 
+
 ### 《从0开始写Paper的10条“奥义》
 ##### 前言
 对于科研人员来说，论文的写作与阅读一项核心技能。实际上，能否发表论文已经成为评判科研人员能力的标准，并预测着他们未来的成功之路。在论文的产生与消费中，有多方人士参与其中，然而，每一方都有他们自己的目的和偏好：编辑希望你的论文意义重大；审稿人需要判断文章的结论是否证据确凿；读者则希望能快速理解主旨，以决定是否深入研读文章细节。对于作者自身而言，则是一方面尽可能地向广泛的受众传递文章的重要贡献，另一方面说服专家认同研究成果。为了实现所有的目标，你需要将文章在多个方面都组织得尽善尽美——从句子、段落、章节到相关材料。
