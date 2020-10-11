@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "lammps安装"
+title:      "LAMMPS安装"
 subtitle:   ""
 date:       2020-08-25 07:39:00
 author:     "XiLock"

@@ -185,6 +185,25 @@ RIGHT: export DSSP=/opt/bin/dssp
 
 也可以在[这里](https://swift.cmbi.umcn.nl/gv/dssp/)下载dssp，但没弄明白怎么安装。  
 
+### Q&A
+###### cmake阶段The C compiler identification is GNU 4.4.7/unknown
+gromacs 2019要求gcc至少为4.8.1(gromacs2019不支持gcc5.2，还是得用4.8；gromacs2020要求gcc>=5.0)，但有时即便安装了新版本仍然会在cmake时报版本过久，故此时需要指定路径，即：`[user1@node1 build]$ cmake .. -DCMAKE_CXX_COMPILER=/usr/local/gcc-5.2.0/bin/g++ -DCMAKE_C_COMPILER=/usr/local/gcc-5.2.0/bin/gcc`。**注意这两个路径要紧跟着`cmake ..`，放在后面没效果好像。** 玺洛克用mpi版编译时指令如下：
+```
+cmake .. -DCMAKE_CXX_COMPILER=/THFS/opt/gcc/4.8.5/bin/g++ -DCMAKE_C_COMPILER=/THFS/opt/gcc/4.8.5/bin/gcc -DCMAKE_INSTALL_PREFIX=/THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/gromacs_install/gromacs20196_installed -DGMX_MPI=ON
+```
 
+若MPI的路径也有问题，则检查bashrc里添加的是否正确，或者在编译阶段添加MPI的路径（，一般通过前者可以解决），相关命令为（具体见参考资料）：
+```
+-DMPI_C_COMPILER=/public/software/mpi/openmpi-16-intel/bin/mpicc 
+-DMPI_CXX_COMPILER=/public/software/mpi/openmpi-16-intel/bin/mpicxx 
+```
+
+###### WARNING: Using the slow plain C kernels. This should not happen during routine usage on supported platforms.
+
+有些超算上面的gromacs编译的不好，使用时会提示`WARNING: Using the slow plain C kernels. This should not happen during routine usage on supported platforms.`，严重影响效率（效率相差几倍！如6h的任务变为24h），建议重新编译!
+
+参考资料：
+1. [Dealing with The compiler /usr/bin/c++ has no C++11 support for CentOS 6](https://thelinuxcluster.com/2018/02/26/dealing-with-the-compiler-usr-bin-c-has-no-c11-support-for-centos-6/)
+1. [Lammps分子动力学软件MPI并行+Intel高效编译版 Linux完整安装教程](https://my.oschina.net/u/2996334/blog/3095634)
 
 ![](/img/wc-tail.GIF)

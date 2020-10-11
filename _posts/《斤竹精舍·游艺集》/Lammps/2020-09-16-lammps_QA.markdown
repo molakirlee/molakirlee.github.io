@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "LAMMPS QA"
+title:      "LAMMPS Q&A"
 subtitle:   ""
 date:       2020-09-16 18:27:00
 author:     "XiLock"

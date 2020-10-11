@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "2020-每周补脑5th"
+subtitle:   ""
+date:       2020-10-10 12:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2020
+
+
+---
+
+
+
+###### 语录
+1. Excellence is not a skill. It is an attidue.
+
+
+
+![](/img/wc-tail.GIF)
