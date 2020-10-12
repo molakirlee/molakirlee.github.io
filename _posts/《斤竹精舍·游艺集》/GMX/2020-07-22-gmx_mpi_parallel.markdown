@@ -158,6 +158,9 @@ mpirun -np 32 gmx_mpi mdrun -ntomp 2 -npme 8
 mpirun -np 16 gmx_mpi mdrun -ntomp 4 -npme 4
 ```
 
+**优先选用`-ntomp 1`的？**  
+
+
 ### 参考资料：  
 1. [GROMACS (2019.3 GPU版) 并行效率测试及调试思路](http://bbs.keinsci.com/thread-13861-1-1.html)
 1. [Getting good performance from mdrun](http://manual.gromacs.org/documentation/current/user-guide/mdrun-performance.html)
