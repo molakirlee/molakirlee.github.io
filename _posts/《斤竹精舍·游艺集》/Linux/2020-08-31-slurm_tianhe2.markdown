@@ -22,6 +22,8 @@ tags:
 1. 查看正在运行的序列：`yhq`；
 1. 取消作业： `yhcancel job_ID`
 1. 作业用量查询：`yhreport  Cluster AccountUtilizationByUser start=1/1/15 end=now -t hour user=用户账号`；
+1. 查看已用机时：`yhreport Cluster UserUtilizationByAccount -t hour start=1/5/20 end=now
+
 
 ### slurm文件说明
 
