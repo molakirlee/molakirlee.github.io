@@ -1,0 +1,42 @@
+---
+layout:     post
+title:      "表面"
+subtitle:   ""
+date:       2020-10-13 15:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·博塞集》
+    - 2020
+
+
+---
+
+### Surface
+###### surface tension
+1. Surface tension: the cohesive force of molecules at the surface of an element attracting toward one another to take up the least possible surface area.
+1. Surface energy: the amount of intermolecular force created at the surface of a material, and it determines the amount of attractive or repulisve force a surface can exert on another material. 
+
+Types of Surface Tension
+
+Contact angle analysis is used to measure the quality of a solid surface. Surface tension analysis is used to measure the quality of a liquid. 
+
+there are two types of surface tension at play: 
+1. the surface tension of the liquid；
+1. the interfacial tension between the liquid and the solid：the measure of adhesive force between the liquid phase of one substance and the liquid, solid, or gas state of another substance. 
+
+###### Wettability
+For wetting, the surface energy is stronger than the surface tension of the liquid's molecules that would normally keep it in droplet form.
+
+ The surface tension of the liquid doesn't change, but rather the surface energy of the solid is stronger than the liquid's surface tension and overpowers it, causing the liquid to spread out over the solid surface. Low contact angle = high surface energy and high interfacial tension.
+ 
+ For a low wetting surface, the surface energy is weaker than the surface tension of the liquid, meaning that the liquid can better keep its droplet shape. The interfacial tension between the solid and liquid is low because the interaction between the two is not as strong.
+
+
+### 参考资料：
+1. [CSC Scientific Blog - Contact Angle and Surface Tension - A Fascinating Liaison](https://www.cscscientific.com/csc-scientific-blog/how-does-contact-angle-relate-to-surface-tension)
+
+
+![](/img/wc-tail.GIF)

@@ -43,7 +43,7 @@ tags:
 1. 等效心肌电导+缓释：An injectable conductive hydrogel encapsulating plasmid DNA-eNOs and ADSCs for treating myocardial infarction (Biomaterial)
 1. Dopa+Ppy导电凝胶网：Paintable and Rapidly Bondable Conductive Hydrogels as Therapeutic Cardiac Patches (AM)
 
-###### 
+###### Mingjie Liu
 1. 正交超分子异质网络的双重编程控制永久形状： Dual-Programmable Shape-Morphing and Self-Healing Organohydrogels Through Orthogonal Supramolecular Heteronetworks (AM)
 1. 
 1. 
