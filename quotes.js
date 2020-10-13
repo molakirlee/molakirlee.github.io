@@ -593,7 +593,7 @@ var quotes = [
 '“你去感觉现在社会流行一种潮流，或者人群流行一种潮流，像潮水一样往某一个方向走。这种暗涌，就是最前沿最具革命性的东西。——张小龙”',
 '刀招同一路，悟性有高低。',
 'I could be bounded in anutshell and count myself a king of infinite space.（身居一隅间，心主无限大）',
-'让虚浮的头脑崇拜那浅薄的东西，太阳神领我们到缪斯女神的泉边。',
+'让虚浮的头脑崇拜那浅薄的东西，太阳神领我们到缪斯女神的泉边。'
 ]
 
 var randomNumber1 = Math.floor(Math.random()*(quotes.length));//用Math.random产生0-1的随机数，乘以quotes的个数以获取quotes的随机序号；用Math.floor来取整后返回给变量randomNumber1
