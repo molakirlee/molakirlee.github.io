@@ -28,6 +28,6 @@ tags:
 
 ### 参考资料
 1. [CPU"战力"排行榜,2018年最新CPU天梯图](https://zhuanlan.zhihu.com/p/44324442)
-
+1. [CPU天梯图](https://www.cpu7.com/multi/thread.html)
 
 ![](/img/wc-tail.GIF)
