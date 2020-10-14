@@ -41,7 +41,7 @@ velocity fixedboundaries set 0.0 0.0 0.0
 1. 建议像上述那样同时对force和speed来impose zero；
 1. 使用setforce只是对某group的此刻清零，后续有fix作用于该group时还是会对其进行累加，使得被setforce zero的group移动，故后面fix nvt的时候不应包括此setforce 0的group，见下一条；
 1. 如果既不想更新原子的位置，也不想更新其速度，最简单的做法是不对相应的编组进行动力学积分，其结果是该组原子在整个模拟中相对于盒子保持零温绝对静止，但由于力场是存在的，所以这组原子仍会对其它原子产生力的作用。
-1. `fix 1 all momentum 1000 linear 1 1 1`与`velocity all zero linear`等效，都是为了eliminate drift due to non-zero total momentum，具体参见[fix momentum command](https://lammps.sandia.gov/doc/fix_momentum.html)
+1. 关于非冻结部分的速度初始化，速度初始化时，`fix 1 all momentum 1000 linear 1 1 1`与`velocity all zero linear`等效，都是为了eliminate drift due to non-zero total momentum，具体参见[fix momentum command](https://lammps.sandia.gov/doc/fix_momentum.html)
 
 
 ##### 位置/速度约束
