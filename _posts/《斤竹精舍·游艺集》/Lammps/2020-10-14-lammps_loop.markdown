@@ -14,20 +14,22 @@ tags:
 
 ---
 
-### 代码
-有时候需要在input里做循环，以升温为例，其循环部分代码如下：
+**注意，用jump时，提交任务一定要用`lmp -in input`而非`lmp < input`，否则jump时找不到label！**
+
+### 代码示例
+有时候需要在input里做循环，以升温为例，其循环部分代码如下：  
 ```
 variable mytemp index 500.0 700.0 900.0 1100.0 1300.0 1500.0 1700.0 1900.0 2100.0 2300.0
 variable mytemp2 index 700.0 900.0 1100.0 1300.0  1500.0 1700.0 1900.0 2100.0 2300.0 2500.0
 
 variable i loop 10
 label loopa
-       fix 2 all nvt temp ${mytemp} ${mytemp2} 100.0
-        run 200
-        unfix 2
+fix 2 all nvt temp ${mytemp} ${mytemp2} 100.0
+run 200
+unfix 2
 
-       next mytemp
-       next mytemp2
+next mytemp
+next mytemp2
 next i
 jump SELF loopa
 ```
@@ -37,10 +39,24 @@ jump SELF loopa
 1. [jumo命令](http://www.52souji.net/lammps-command-jump.html)
 1. [next命令](http://www.52souji.net/lammps-command-next.html)
 
+### xilock的代码
+```
+variable i loop 10
+label loopa
+print "system_after_nvt_$i.data"
+velocity Octane set 0 0 0.005
+velocity Mont set 0 0 -0.005
+run             50000
+write_restart nvt.restart
+write_data      system_after_nvt_$i.data
+next i
+jump SELF loopa
+```
+
 
 ### 参考：
 1. [尝试lammps中, 分享中](http://muchong.com/html/201707/2660917.html)
-1. 
+1. [ERROR: Label wasn't found in input script](https://lammps.sandia.gov/threads/msg50240.html)
 
 
 ![](/img/wc-tail.GIF)
