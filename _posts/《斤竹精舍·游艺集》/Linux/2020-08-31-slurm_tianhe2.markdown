@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "天河二号使用"
+title:      "slurm&天河二号使用"
 subtitle:   ""
 date:       2020-08-31 15:27:00
 author:     "XiLock"
@@ -64,7 +64,7 @@ export I_MPI_FABRICS=shm:tcp
 echo 'For you, a thousand times over!  --for HAN'
 
 
-# gromacs 2019.3
+# gromacs 2019.6
 BASENAME=$1
 #------ No-MPI version ------
 gmx mdrun -v -deffnm $1 -ntmpi 4 -pin on
@@ -82,8 +82,8 @@ job_gmx2019_mpi.slurm
 
 #SBATCH -p qnyh         # Queue
 #SBATCh -N 1            # Node count required for the job
-#SBATCH -n 1            # Number of tasks to be launched
-#SBATCH -c 24           # Number of cpu per task
+#SBATCH -n 2            # Number of tasks to be launched
+#SBATCH -c 12           # Number of cpu per task
 #SBATCH -J Oxygen       # Job name
 #SBATCH -o %J.out       # Standard output
 #SBATCH -e %J.err       # File in which to store job error messages
@@ -95,7 +95,7 @@ export I_MPI_FABRICS=shm:tcp
 echo 'For you, a thousand times over!  --for HAN'
 
 
-# gromacs 2019.3
+# gromacs 2019.6
 BASENAME=$1
 #------ MPI version ------
 yhrun gmx_mpi mdrun -v -deffnm $1 
