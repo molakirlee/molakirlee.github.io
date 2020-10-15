@@ -82,8 +82,8 @@ job_gmx2019_mpi.slurm
 
 #SBATCH -p qnyh         # Queue
 #SBATCh -N 1            # Node count required for the job
-#SBATCH -n 1            # Number of tasks to be launched
-#SBATCH -c 24           # Number of cpu per task
+#SBATCH -n 2            # Number of tasks to be launched
+#SBATCH -c 12           # Number of cpu per task
 #SBATCH -J Oxygen       # Job name
 #SBATCH -o %J.out       # Standard output
 #SBATCH -e %J.err       # File in which to store job error messages
@@ -98,8 +98,12 @@ echo 'For you, a thousand times over!  --for HAN'
 # gromacs 2019.6
 BASENAME=$1
 #------ MPI version ------
-yhrun gmx_mpi mdrun -v -deffnm $1 
+mpirun -np 2 gmx_mpi mdrun -v -deffnm $1 -ntomp 12
 ```
+
+**注意：**
+1. `#SBATCH`里的`-n`和`-c`实际上是分别跟后面`mpirun gmx_mpi`里的`-np`和`-ntomp`对应的，申请多少个任务数`-n`后面`-np`才能调用多少个，如果申请的少了则会报slot不足（There are not enough slots available in the system to satisfy the 4 slots
+that were requested by the application），如果申请多了则会变成一个任务跑多次。如上例，申请2个任务，每个任务分配24个核，后面mpirun时则是调用2个任务，每个分配12个openmpi。
 
 ###### Attachments
 1. [job_gmx2019.slurm](https://molakirlee.github.io/attachment/linux/job_gmx2019.slurm)
