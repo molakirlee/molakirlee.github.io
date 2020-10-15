@@ -29,7 +29,7 @@ cd fftw-3.3.4
 sudo make 
 sudo make install
 ```
-make时可调用-j，代表调用所有核并行编译。  
+make时可调用-j，代表调用所有核并行编译，建议用于编译的核不要超过4个？即`make -j 4`。  
 编译完后可以把FFTW的解压目录和压缩包删掉。  
 
 
@@ -81,8 +81,16 @@ make all install -j
 export PATH=$PATH:/opt/openmpi/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/openmpi/lib
 ```
+
+如xilock的为：
+```
+# openmpi
+export PATH=/THFS/opt/openmpi/2.0.2/bin/:$PATH
+export LD_LIBRARY_PATH=/THFS/opt/openmpi/2.0.2/lib:$LD_LIBRARY_PATH
+```
 然后重新进入终端使以上语句生效。
 
+**注意，若装了mpi版本的还想再装一个非mpi版本的来供单节点使用，则需要重新编译一个gromacs且需要在编译gromacs时把mpi给OFF掉。**
 
 ### 五、安装Gromacs-5.1.4
 
@@ -103,6 +111,8 @@ sudo make
 ```
 sudo make install
 ```
+
+**注意，也可不做`sudo make`直接`sudo make install`**
 
 打开~/.bashrc
 复制：  
@@ -187,7 +197,17 @@ RIGHT: export DSSP=/opt/bin/dssp
 
 ### Q&A
 ###### cmake阶段The C compiler identification is GNU 4.4.7/unknown
-gromacs 2019要求gcc至少为4.8.1(gromacs2019不支持gcc5.2，还是得用4.8；gromacs2020要求gcc>=5.0)，但有时即便安装了新版本仍然会在cmake时报版本过久，故此时需要指定路径，即：`[user1@node1 build]$ cmake .. -DCMAKE_CXX_COMPILER=/usr/local/gcc-5.2.0/bin/g++ -DCMAKE_C_COMPILER=/usr/local/gcc-5.2.0/bin/gcc`。**注意这两个路径要紧跟着`cmake ..`，放在后面没效果好像。** 玺洛克用mpi版编译时指令如下：
+gromacs 2019要求gcc至少为4.8.1(gromacs2019不支持gcc5.2，还是得用4.8；gromacs2020要求gcc>=5.0)，但有时即便安装了新版本仍然会在cmake时报版本过久，故此时需要指定路径，即：`[user1@node1 build]$ cmake .. -DCMAKE_CXX_COMPILER=/usr/local/gcc-5.2.0/bin/g++ -DCMAKE_C_COMPILER=/usr/local/gcc-5.2.0/bin/gcc`。**注意这两个路径要紧跟着`cmake ..`，放在后面没效果好像。** 
+
+比如，若玺洛克添加的gcc环境变量为：
+```
+# gcc 4.8.5
+export LD_LIBRARY_PATH=/THFS/opt/intel/18_1/compilers_and_libraries_2018.0.128/linux/mkl/lib/intel64_lin:/THFS/opt/intel/18_1/compilers_and_libraries_2018.0.128/linux/mpi/intel64/lib:/THFS/opt/intel/18_1/compilers_and_libraries_2018.0.128/linux/compiler/lib/intel64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/THFS/opt/gcc/4.8.5/lib64/:$LD_LIBRARY_PATH
+export PATH=/THFS/opt/gcc/4.8.5/bin/:$PATH
+```
+
+玺洛克用mpi版编译时指令如下：
 ```
 cmake .. -DCMAKE_CXX_COMPILER=/THFS/opt/gcc/4.8.5/bin/g++ -DCMAKE_C_COMPILER=/THFS/opt/gcc/4.8.5/bin/gcc -DCMAKE_INSTALL_PREFIX=/THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/gromacs_install/gromacs20196_installed -DGMX_MPI=ON
 ```
@@ -198,11 +218,13 @@ cmake .. -DCMAKE_CXX_COMPILER=/THFS/opt/gcc/4.8.5/bin/g++ -DCMAKE_C_COMPILER=/TH
 -DMPI_CXX_COMPILER=/public/software/mpi/openmpi-16-intel/bin/mpicxx 
 ```
 
+
+
 ###### WARNING: Using the slow plain C kernels. This should not happen during routine usage on supported platforms.
 
 有些超算上面的gromacs编译的不好，使用时会提示`WARNING: Using the slow plain C kernels. This should not happen during routine usage on supported platforms.`，严重影响效率（效率相差几倍！如6h的任务变为24h），建议重新编译!
 
-参考资料：
+### 参考资料：
 1. [Sob:GROMACS的安装方法](http://sobereva.com/457)
 1. [Dealing with The compiler /usr/bin/c++ has no C++11 support for CentOS 6](https://thelinuxcluster.com/2018/02/26/dealing-with-the-compiler-usr-bin-c-has-no-c11-support-for-centos-6/)
 1. [Lammps分子动力学软件MPI并行+Intel高效编译版 Linux完整安装教程](https://my.oschina.net/u/2996334/blog/3095634)
