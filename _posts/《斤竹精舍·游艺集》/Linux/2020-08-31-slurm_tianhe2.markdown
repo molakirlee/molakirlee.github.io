@@ -82,8 +82,8 @@ job_gmx2019_mpi.slurm
 
 #SBATCH -p qnyh         # Queue
 #SBATCh -N 1            # Node count required for the job
-#SBATCH -n 2            # Number of tasks to be launched
-#SBATCH -c 12           # Number of cpu per task
+#SBATCH -n 1            # Number of tasks to be launched
+#SBATCH -c 24           # Number of cpu per task
 #SBATCH -J Oxygen       # Job name
 #SBATCH -o %J.out       # Standard output
 #SBATCH -e %J.err       # File in which to store job error messages
