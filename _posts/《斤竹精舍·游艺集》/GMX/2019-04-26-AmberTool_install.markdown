@@ -42,7 +42,9 @@ cd $AMBERHOME
 # 如果安装过程中不想使用miniconda安装python，则可以自己指定python路径，python的版本有要求，注意查看
 $ ./configure --with-python ~/Programs/Python-2.7.15/bin/python gnu
 
-source amber.sh    # 添加环境变量信息，也可以自己手动在~/.bashrc中添加
+source amber.sh    # 添加环境变量信息，也可以自己手动在~/.bashrc中添加后source一下:
+test -f /THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/amber16/amber.sh  && source /THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/amber16/amber.sh
+
 
 make install
 
@@ -51,7 +53,9 @@ make test
 
 注意：  
 1. 如果同意使用miniconda安装python，则某些配置下会出现ssl报错`error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version`，原因可能是openssl太旧或curl太旧等，对其升级或许可解决（参见：https://www.freebuf.com/column/165868.html，未测试）。在天河2号使用过程中遇到了该问题，为回避该问题，xilock没同意使用miniconda安装python而是指定了系统自带的python。
-2. 编译大概需要20min，测试大概需要2h（天河测试了6h？WTF!）。
+1. 编译大概需要20min，测试大概需要2h（天河测试了6h？WTF!）。
+1. 有时候`make install`到最后有几个error，然后若强行`make install`则会有部分failed和errors，但不影响AmberTool的使用？
+
 
 ###### acpype下载
 
