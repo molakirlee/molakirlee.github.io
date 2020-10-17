@@ -28,7 +28,7 @@ Example可参见：http://www.moltemplate.org/visual_examples.html
 1. moltemplate文件：lipid.lt、water.lt、system.lt
 
 具体步骤如下：
-1. 用packmol生成体系的xyz文件；
+1. 用packmol等生成体系的xyz文件；
 1. 编写lipid.lt和water.lt文件。二者分别包括了1个lipid和1个water的分子的原子参数及成键/非键相互作用参数，可以先用topotools来生成1个lipid和1个water的data文件然后在其基础上进行修改来得到。
 1. 编写system.lt文件。其中包括了导入lipid.lt与water.lt的信息以及对全系统的处理，如：分别导入多少个lipid分子、多少个water分子，lipid分子中原子与water分子中原子的非键相互作用参数等。
 1. 用moltemplate来基于system.xyz和system.lt生成`moltemplate.sh -xyz system.xyz system.lt`。
@@ -37,7 +37,7 @@ Example可参见：http://www.moltemplate.org/visual_examples.html
 ### 参考：
 1. [个人总结导出data的方法](http://www.isimuly.cn/forum.php?mod=viewthread&tid=438&extra=page%3D6)
 1. [msi2lmp的使用方法和晶体结构转化详解](http://dxli75.blog.163.com/blog/static/1067682892010419795847/)
-1. 
+1. [LAMMPS data文件创建工具--moltemplate](https://zhuanlan.zhihu.com/p/99872512)
 1. 
 
 

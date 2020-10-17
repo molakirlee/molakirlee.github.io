@@ -27,7 +27,7 @@ fix 1 all deform 1000 x final -50.0 50.0 y final -50.0 50.0 z final -50.0 50.0 u
 
 ### 参考：
 1. [LAMMPS命令解读系列--fix deform command的另一个用处](https://zhuanlan.zhihu.com/p/24273784)
-1. 
+1. [fix deform command](https://lammps.sandia.gov/doc/fix_deform.html)
 
 
 ![](/img/wc-tail.GIF)
