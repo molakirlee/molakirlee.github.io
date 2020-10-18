@@ -17,6 +17,16 @@ tags:
 ### Method: MD simulations
 Simulations applied a commonly used model for polyelectrolytes. 64 polyelectrolyte chains of 100 spherical charged LJ beads of diameter $\sigma$ were grafted to a surface of cubic lattice points. To set the length scale of the simulations, we assumed $\sigma$ = 0.23 nm, which was obtained by matching the simulated $l_B$ (3$\sigma$) to the experimental $l_B$ for water at 300 K (0.7 nm). Using this value for $\sigma$, the estimated grafting density for 5$\sigma$ and 10$\sigma$ spacing is ~0.2 and ~0.8 chains/nm2, respectively. Provided that our chain MW is a factor of ~10 smaller than that in the experiments, this increased grafting density relative to the experiments is a reasonable approximation for the experimental system. Each bead in the polymer chain was bonded to its nearest neighbor using the finite extensible nonlinear elastic potential having an average bond length of 1.1$\sigma$. A polyelectrolyte persistence length of 1$\sigma$ was enforced using a three-body cosine-$\delta$ bending potential between neighboring monomers. This system of 6400 polyelectrolyte beads was in equilibrium with 6400 monovalent counterion beads (representative of salt particles in solution), embedded in a dielectric environment corresponding to the $l_B$ (we assumed $l_B$ = 3$\sigma$ for standard water and $l_B$ = 12$\sigma$ for IPA). Extra salt particles were added to the simulation cell corresponding to the monovalent/trivalent salt concentrations of the solution. Electrostatic interactions were treated using a P3M Ewald sum in the slab geometry, with solvent fluctuations incorporated via a Langevin thermostat. Dynamics were evolved using the velocity-Verlet algorithm. Two million time steps of 0.005$\tau$ were run for polyelectrolyte brush equilibration, with 5 million steps for the production run. Periodic boundary conditions were applied in the dimensions parallel to the substrate, and impenetrable walls were placed at z=0 and z=200$\sigma$.
 
+**注释：**  
+1. Discussions concerning solvent quality will refer to experimental solubility, which depends on a combination of the van der Waals solvent quality of the polymer backbone (Flory parameter) and the strength of the charge on the polyelectrolyte. The latter contribution is quantified by the solvent dielectric constant or, more concretely, the Bjerrum length, $l_B$.
+1. $l_B = e^2/ (4 \pi \epsilon kBT )$ (见参考资料)。
+1. The Bjerrum length, $l_B$, the separation at which two charges have an electrostatic interaction of magnitude kBT (for water at room temperature, $l_B$ is on the order of 0.5 nm). Water was used as a good solvent for PSS, despite it being a poor solvent for the polystyrene backbone, because it has a high dielectric constant (low $l_B$). Isopropyl alcohol (IPA) was used as a poor solvent for PSS because it is a similarly poor solvent for the polystyrene backbone but has a much lower dielectric constant (high $l_B$). These solvent variations are fundamental in elucidating the collapse mechanism and provide a strong basis for detailed MD simulations that explore the relative contributions of solvophobic and electrostatic effects.
+1.  For this case, we used a $l_B = 3 \sigma$ and a Lennard-Jones (LJ) parameter of 0.4 kBT, which corresponds to a good solvent.
+1. IPA can be mixed with water in any ratio and is not as good a solvent as water is for PSS, in that the larger lB causes more significant chain neutralization, leading to a stronger emergence of the solvophobic backbone character.
+1. a low $l_B$ will cause the polyelectrolyte to behave as if it is more soluble and a high $l_B$ will cause it to behave as if it is less soluble.
+1. `dielectric value`:Set the dielectric constant for Coulombic interactions (pairwise and long-range) to this value. The constant is unitless, since it is used to reduce the strength of the interactions. The value is used in the denominator of the formulas for Coulombic interactions - e.g. a value of 4.0 reduces the Coulombic interactions to 25% of their default strength. See the pair_style command for more details.
+
+
 ### Code
 ```
 ################################################################################################
@@ -124,10 +134,9 @@ undump 4
 
 
 
-### 原文链接：
-1. [Multivalent ions induce lateral structural inhomogeneities in polyelectrolyte brushes](https://advances.sciencemag.org/content/3/12/eaao1497?intcmp=trendmd-adv)
-
-1. 
-
+### 参考资料
+1. 原文链接：[Multivalent ions induce lateral structural inhomogeneities in polyelectrolyte brushes](https://advances.sciencemag.org/content/3/12/eaao1497?intcmp=trendmd-adv)
+1. [dielectric command](https://lammps.sandia.gov/doc/dielectric.html)
+1. [Bjerrum Pairs in Ionic Solutions: a Poisson-Boltzmann Approach](https://arxiv.org/pdf/1702.04853.pdf)
 
 ![](/img/wc-tail.GIF)
