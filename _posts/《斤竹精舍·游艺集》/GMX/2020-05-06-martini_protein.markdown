@@ -69,6 +69,14 @@ gmx solvate -cp p_w1.gro -cs water.gro -p topol.top -o p_w2.gro -radius 0.21
 注：
 1. -radius标志使肽最初保持一定程度的分离，抗冻水使用-radius 0.4 nm，以保证加得很稀疏；Martini水指定以保证密度大致正确；
 
+一般添加5-10%的抗冻水，抗冻水BP4和普通水P4的VDW参数及电荷都一样，区别在于：  
+1. 为了破坏水冻结的晶格结构，BP4和P4之间的$\sigma$为0.57nm而非0.47nm（BP4之间或P4之间为0.47nm）；
+1. 为了避免抗冻水和溶剂水的相分离，BP4和P4之间的$\epsilon$要比两者各自单独的大一个级别（BP4之间或P4之间为1.195030 kcal/mol，BP4和P4之间为1.338434 kcal/mol）；
+
+具体参见：
+1. [Martini Bsics - Hands on: how to prepare a Martini](http://cgmartini.nl/images/stories/WORKSHOP2015/lecture-02.pdf)
+1. [lammps - martini.lt](https://github.com/jewettaij/moltemplate/blob/master/moltemplate/force_fields/martini.lt)
+
 ###### 平衡电荷
 
 ```
