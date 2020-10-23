@@ -72,11 +72,16 @@ MPI_PATH = -L/usr/local/lib
 MPI_LIB = -lmpi -lmpl -lpthread
 ```
 ###### 修改fftw和mpich的路径 
-除非安装时将fftw和mpich安装在lammps的默认路径`/usr/local/`，否则就需要修改fftw和mpich的路径，有两种方式，择一即可：  
+除非安装时将fftw和mpich安装在lammps的默认路径`/usr/local/`，否则就需要修改fftw和mpich的路径，有两种方式，择一即可（**别全改了，如果同一项在多处修改，则可能报错；**如在几个文件里都修改fftw路径，则`make mpi`那步可能报错`cannot find -lfftw3`）：  
 1. 在/lammps/lammps-22Aug18/src/Make/路径下的Makefile.mpi里修改fftw和mpich的路径，内容见上。
 1. 在/lammps/lammps-22Aug18/src/Make/OPTIONS路径下的Makefile.fftw和Makefile.g++_mpich_link中对路径进行修改。
 
 ###### 并行版安装
+
+```
+tar xvf lammps-stable.tar.gz
+```
+
 打开Makefile.mpi文件，将下面这行注释掉。（由于lammps运行过程中不需要图片支持，因而将关于图片这几行斜线部分删除）
 
 ```

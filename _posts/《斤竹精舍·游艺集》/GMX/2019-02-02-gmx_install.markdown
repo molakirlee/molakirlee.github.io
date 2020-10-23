@@ -19,7 +19,7 @@ tags:
 
 http://www.fftw.org/fftw-3.3.8.tar.gz下载.
 ```
-gzip xzvf fftw-3.3.4.tar.gz   
+tar xzvf fftw-3.3.4.tar.gz   
 cd fftw-3.3.4  
 ./configure --prefix=/opt/fftw-3.3.4 --enable-sse2 --enable-avx --enable-float --enable-shared  
 ```
@@ -95,7 +95,7 @@ export LD_LIBRARY_PATH=/THFS/opt/openmpi/2.0.2/lib:$LD_LIBRARY_PATH
 ### 五、安装Gromacs-5.1.4
 
 ```
-gzip xzvf gromacs-5.1.4.tar.gz 
+tar xzvf gromacs-5.1.4.tar.gz 
 cd gromacs-5.1.4
 mkdir build
 cd build
