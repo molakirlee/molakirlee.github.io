@@ -14,7 +14,15 @@ tags:
 
 ---
 
-### 
+###
+
+###### gcc
+如果没有gcc和gfortran的话安装一下 
+```
+yum install gcc-c++ 
+yum install gcc-gfortran 
+```
+
 ###### 准备包  
 1. fftw-3.3.8.tar.gz：http://www.fftw.org/download.html
 1. lammps-stable.tar.gz(解压后为lammps-22Aug18)：https://lammps.sandia.gov/download.html
