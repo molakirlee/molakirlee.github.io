@@ -8,7 +8,7 @@ header-img: ""
 header-mask: 0.3
 catalog:    true
 tags:
-    - 《斤竹精舍·闲趣集》
+    - 《斤竹精舍·人烟集》
     - 2019
 
 
