@@ -40,7 +40,7 @@ XiLock开始开疆拓土!
 
 优点非常明显：
 
-* Markdown** 带来的优雅写作体验
+* **Markdown** 带来的优雅写作体验
 * 非常熟悉的 Git workflow ，**Git Commit 即 Blog Post**
 * 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
 * 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了 

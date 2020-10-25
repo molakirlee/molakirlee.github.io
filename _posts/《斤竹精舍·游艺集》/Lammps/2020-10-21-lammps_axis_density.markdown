@@ -14,7 +14,7 @@ tags:
 
 ---
 
-### 
+### `fix ave/spatial`
 
 fix ave/spatial 命令将模拟盒子在某一方向分层,求出每层的 density/number,然后作出曲线就行了:
 
