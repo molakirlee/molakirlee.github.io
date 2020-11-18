@@ -19,6 +19,7 @@ tags:
 1. [教程翻译----使用GROMACS计算乙醇分子溶剂化自由能](https://liuyujie714.com/44.html)
 1. [Gromacs结合自由能计算教程-筱朗](https://zhuanlan.zhihu.com/p/60963446)
 1. [Introduction to free energy and cases- gmx 3.1](http://compbio.biosci.uq.edu.au/education/Free-Energy_Course/0.introduction.html)
+1. [[文献推荐] 结合自由能计算：MD vs. QM](http://bbs.keinsci.com/thread-13377-1-1.html)
  
 ### 原理
 [Free Energy Calculations - TEXAS](http://biomachina.org/courses/modeling/091.pdf)
@@ -47,5 +48,8 @@ ABF is quite different than either of the other two methods. It is a free energy
 ###### PMF比隐式溶剂模型准确
 1. [PNAS - Calculation of absolute protein–ligand binding free energy from computer simulations](https://www.pnas.org/content/pnas/102/19/6825.full.pdf)
 2. [Calculation of Absolute Protein-Ligand Binding Affinity Using Path and Endpoint Approaches](https://core.ac.uk/download/pdf/82377825.pdf)
+
+###### 
+1. [Nature Protocols 计算配体结合自由能的新工具FMAP](https://www.wecomput.com/nature-protocols-a-new-tool-for-calculating-ligand-binding-free-energy-fmap/)
 
 ![](/img/wc-tail.GIF)

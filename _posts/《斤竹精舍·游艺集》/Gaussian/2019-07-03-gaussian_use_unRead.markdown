@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gaussian使用笔记"
+title:      "Gaussian使用笔记 待阅读"
 subtitle:   ""
 date:       2019-07-03 20:38:00
 author:     "XiLock"

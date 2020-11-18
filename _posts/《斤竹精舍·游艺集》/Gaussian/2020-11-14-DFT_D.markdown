@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      "DFT-D"
+subtitle:   ""
+date:       2020-11-14 15:13:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Gaussian
+    - 2020
+
+---
+
+1. [盘点Grimme迄今对理论化学的贡献](http://sobereva.com/388)
+1. [乱谈DFT-D](http://sobereva.com/83)
+1. [DFT-D色散校正的使用](http://sobereva.com/210)
+
+![](/img/wc-tail.GIF)
