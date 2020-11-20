@@ -76,6 +76,9 @@ acpype.py -i xxx.mol2 <-n -1> <-d>
 ```
 
  `-n` 用于调整电荷量， `-d` 则可以显示处理细节。
+ 
+ 注意：  
+1. VMD导出的mol2可能不行，因为mol2文件里有成键信息，有时候小分子成键信息不正确则调用acpype会出错，故而使用前务必用gview检查结构。
 
 ### 参考资料
 1. [Centos7 安装amber16](https://www.cnblogs.com/wq242424/p/8857296.html)

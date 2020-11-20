@@ -74,9 +74,10 @@ xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoa
 找一个包含自定义残基的pdb文件并将其中的自定义残基名与xxx.rtp调成一致。  
 用 `gmx pdb2gmx -f xxx.pdb -ignh` 检查能否正常运行。  
 
-注：
+### Q&A
 1. 之前试过用gaussian view画出来的pdb结构跑不通（会包其他残基的错误）但从网上下载的pdb可以跑通，还不清楚原因。
 1. Warning:"Residue 1 named MET of a molecule in the input file was mapped to an entry in the topology database, but the atom H used in an interaction of type angle in that entry is not found in the input file. Perhaps your atom and/or residue naming needs to be fixed."是个废话警告，参见：[链接1](https://mailman-1.sys.kth.se/pipermail/gromacs.org_gmx-users/2017-June/113727.html)或[链接2](https://www.mail-archive.com/gromacs.org_gmx-users@maillist.sys.kth.se/msg34572.html)。此情况出现，可能因为有多个同种H虽在[atom]里做了区分但在后面的[bond][angle]等里未区分，将其区别表示后即可解决，不解决也可能得到正确结果，因为参数一样。
+1. WARNING: "Duplicate line found in or between hackblock and rtp entries." 说明rtp有问题，比如没有设定键长和力常数。参考[链接](https://www.mail-archive.com/gromacs.org_gmx-users@maillist.sys.kth.se/msg20274.html)
 
 
 
