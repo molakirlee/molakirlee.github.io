@@ -53,9 +53,21 @@ A:生理环境没问题,只要看见结晶肯定不行
 在NPT中使用semiisotropic的时候，若将`tau_p`设置为两个参数则可能会报错。实际上，与温度耦合不同，压力耦合的`tau_p`就是一个参数（虽然`ref_p`和`compressibility`是两个参数）。  
 参见mailing list: [strange behaviout in 5.1.2](https://mailman-1.sys.kth.se/pipermail/gromacs.org_gmx-users/2016-February/103459.html)  
 
+###### LINCS WARNING
+因为约束而报错：   
+```
+Step 500, time 0.5 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 178.962402, max 279.656189 (between atoms 2 and 3)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+      3      4   85.1    4.1929  58.3083      0.2700
+      3      5   89.2    2.6759  61.9056      0.2700
+      4      5  157.9    2.7246  41.7282      0.2700
+```
 
-
-
+1. 这种错误往往是因为topol不合理而导致的，比如约束过多的话为了满足一些约束而超出另一些约束的阈值。
+1. 别都用键长约束，可以换用键角的时候用键角约束替换掉一些键长约束。（如嘉兴之前做Fmoc的时候中间五元环简化成3个珠子，如果用三个键长来约束的话就会爆炸，如果用两个键长加一个键角的话就正常了。）
 
 
 ![](/img/wc-tail.GIF)
