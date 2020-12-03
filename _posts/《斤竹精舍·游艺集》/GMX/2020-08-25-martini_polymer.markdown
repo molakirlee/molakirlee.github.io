@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Martini力场粗粒化-聚合物的模拟"
+title:      "gmx Martini力场粗粒化-聚合物的模拟"
 subtitle:   ""
 date:       2020-08-25 09:57:00
 author:     "XiLock"

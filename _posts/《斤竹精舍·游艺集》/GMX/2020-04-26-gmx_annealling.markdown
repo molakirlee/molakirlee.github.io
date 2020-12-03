@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "虚拟退火simulated annealling"
+title:      "gmx 虚拟退火simulated annealling"
 subtitle:   ""
 date:       2020-04-26 10:22:00
 author:     "XiLock"

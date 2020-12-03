@@ -19,7 +19,9 @@ tags:
 有的电脑可能安装完某些模块不能运行，经测试有些win7不行，有的win8可以（再次测试后发现可能是因为处理器太旧或者太low不支持）。  
 
 ### 教程
+###### 建模
 1. [MS建模教程三步法](http://www.cailiaoniu.com/153921.html)
+1. [基于Materials Studio的异质结构建模技巧](https://www.pianshen.com/article/18581442015/)
 
 ### 各模块细节介绍：
 

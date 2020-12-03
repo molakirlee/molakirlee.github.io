@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Martini力场粗粒化-蛋白模拟"
+title:      "gmx Martini力场粗粒化-蛋白模拟"
 subtitle:   ""
 date:       2020-05-06 09:57:00
 author:     "XiLock"

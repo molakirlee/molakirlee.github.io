@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gromacs安装教程（+MPI+GPU加速版）及相关"
+title:      "gmx Gromacs安装教程（+MPI+GPU加速版）及相关"
 subtitle:   ""
 date:       2019-02-02 20:38:00
 author:     "XiLock"

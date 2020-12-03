@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "自由能计算"
+title:      "gmx 自由能计算"
 subtitle:   ""
 date:       2019-12-16 21:25:00
 author:     "XiLock"

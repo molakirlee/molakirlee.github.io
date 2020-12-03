@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Anaconda及MDAnalysis安装"
+title:      "gmx Anaconda及MDAnalysis安装"
 subtitle:   ""
 date:       2020-05-14 17:25:00
 author:     "XiLock"

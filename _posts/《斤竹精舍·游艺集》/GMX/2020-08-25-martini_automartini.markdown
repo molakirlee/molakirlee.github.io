@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Martini力场粗粒化-实操auto_martini"
+title:      "gmx Martini力场粗粒化-实操auto_martini"
 subtitle:   ""
 date:       2020-08-25 11:08:00
 author:     "XiLock"

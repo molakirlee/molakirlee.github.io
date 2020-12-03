@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "AmberTool安装及使用教程"
+title:      "gmx AmberTool安装及使用教程"
 subtitle:   ""
 date:       2019-04-26 20:38:00
 author:     "XiLock"

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "冷冻电镜耦合分子动力学模拟分析蛋白结构"
+title:      "gmx 冷冻电镜耦合分子动力学模拟分析蛋白结构"
 subtitle:   ""
 date:       2019-12-28 09:29:00
 author:     "XiLock"

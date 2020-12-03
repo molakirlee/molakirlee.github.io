@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "分子间非键相互作用力分析"
+title:      "gmx 分子间非键相互作用力分析"
 subtitle:   ""
 date:       2020-05-03 19:15:00
 author:     "XiLock"

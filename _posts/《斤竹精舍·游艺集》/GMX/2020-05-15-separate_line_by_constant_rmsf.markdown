@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "以指定行数分割数据"
+title:      "gmx 以指定行数分割数据"
 subtitle:   ""
 date:       2020-05-15 13:17:00
 author:     "XiLock"

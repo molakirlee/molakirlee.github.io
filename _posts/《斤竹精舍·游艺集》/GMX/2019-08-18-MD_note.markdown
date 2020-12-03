@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "MD笔记"
+title:      "gmx MD笔记"
 subtitle:   ""
 date:       2019-04-25 20:38:00
 author:     "XiLock"

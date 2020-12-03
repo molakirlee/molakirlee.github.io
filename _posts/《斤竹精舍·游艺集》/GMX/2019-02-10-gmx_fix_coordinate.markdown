@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gromacs坐标固定"
+title:      "gmx Gromacs坐标固定"
 subtitle:   ""
 date:       2019-02-10 20:38:00
 author:     "XiLock"

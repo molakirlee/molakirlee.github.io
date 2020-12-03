@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gromacs小技巧"
+title:      "gmx Gromacs小技巧"
 subtitle:   ""
 date:       2019-02-10 20:38:00
 author:     "XiLock"

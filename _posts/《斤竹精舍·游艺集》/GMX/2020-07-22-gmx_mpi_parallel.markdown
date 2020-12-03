@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "gromacs 并行计算 MPI&OpenMP"
+title:      "gmx gromacs并行计算 MPI&OpenMP"
 subtitle:   ""
 date:       2020-07-22 16:15:00
 author:     "XiLock"

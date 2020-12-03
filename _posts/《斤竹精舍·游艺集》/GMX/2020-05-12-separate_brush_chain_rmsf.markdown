@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "多链brush的rmsf计算"
+title:      "gmx 多链brush的rmsf计算"
 subtitle:   ""
 date:       2020-05-11 23:34:00
 author:     "XiLock"

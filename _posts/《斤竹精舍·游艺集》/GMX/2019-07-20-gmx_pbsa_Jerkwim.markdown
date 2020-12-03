@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Jerkwin老师计算MMPBSA的新脚本——gmxmmpbsa使用说明"
+title:      "gmx Jerkwin老师计算MMPBSA的新脚本——gmxmmpbsa使用说明"
 subtitle:   ""
 date:       2019-07-20 20:20:00
 author:     "XiLock"

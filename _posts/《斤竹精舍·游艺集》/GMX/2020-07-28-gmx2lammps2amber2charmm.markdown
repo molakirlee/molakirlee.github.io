@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "gromacs文件转换lammps文件"
+title:      "gmx gromacs文件转换lammps文件"
 subtitle:   ""
 date:       2020-07-28 08:36:00
 author:     "XiLock"

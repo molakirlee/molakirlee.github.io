@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gromacs如何自定义残基"
+title:      "gmx Gromacs如何自定义残基"
 subtitle:   ""
 date:       2019-07-10 20:20:00
 author:     "XiLock"

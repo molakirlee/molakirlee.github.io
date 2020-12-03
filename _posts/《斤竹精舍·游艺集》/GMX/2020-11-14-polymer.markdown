@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "聚合物的模拟"
+title:      "gmx 聚合物的模拟polymatic"
 subtitle:   ""
 date:       2020-11-14 09:57:00
 author:     "XiLock"

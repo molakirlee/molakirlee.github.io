@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "石墨烯建模"
+title:      "gmx 石墨烯建模"
 subtitle:   ""
 date:       2019-12-11 20:38:00
 author:     "XiLock"

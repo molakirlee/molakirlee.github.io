@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gromacs问题"
+title:      "Gromacs问题 Q&A"
 subtitle:   ""
 date:       2019-02-10 20:39:00
 author:     "XiLock"
@@ -68,6 +68,6 @@ bonds that rotated more than 30 degrees:
 
 1. 这种错误往往是因为topol不合理而导致的，比如约束过多的话为了满足一些约束而超出另一些约束的阈值。
 1. 别都用键长约束，可以换用键角的时候用键角约束替换掉一些键长约束。（如嘉兴之前做Fmoc的时候中间五元环简化成3个珠子，如果用三个键长来约束的话就会爆炸，如果用两个键长加一个键角的话就正常了。）
-
+1. 注意二面角的0°和180°是不一样的，跟表面序号有关系。（from Supernova）
 
 ![](/img/wc-tail.GIF)

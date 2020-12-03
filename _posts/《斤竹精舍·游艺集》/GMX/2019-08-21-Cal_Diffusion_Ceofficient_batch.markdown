@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "批出提交计算扩散系数的脚本"
+title:      "gmx 批处理提交计算扩散系数的脚本"
 subtitle:   ""
 date:       2019-08-21 20:38:00
 author:     "XiLock"

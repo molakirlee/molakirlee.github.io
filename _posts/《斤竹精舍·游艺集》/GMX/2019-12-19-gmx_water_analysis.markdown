@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "水分析"
+title:      "gmx 水分析"
 subtitle:   ""
 date:       2019-12-19 19:15:00
 author:     "XiLock"

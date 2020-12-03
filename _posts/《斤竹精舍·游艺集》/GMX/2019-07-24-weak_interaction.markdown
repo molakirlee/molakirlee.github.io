@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "分子模拟-弱相互作用分析"
+title:      "gmx 分子模拟-弱相互作用分析"
 subtitle:   ""
 date:       2019-07-24 20:38:00
 author:     "XiLock"

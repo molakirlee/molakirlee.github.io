@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "拉伸分子动力学及PMF计算"
+title:      "gmx 拉伸分子动力学及PMF计算"
 subtitle:   ""
 date:       2019-12-16 20:34:00
 author:     "XiLock"
