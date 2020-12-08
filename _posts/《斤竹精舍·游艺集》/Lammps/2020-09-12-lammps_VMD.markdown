@@ -58,6 +58,7 @@ pbc box
 1. [TopoTool-Tutorial - Part 1](https://sites.google.com/site/akohlmey/software/topotools/topotools-tutorial---part-1)
 1. [water molecules out of box boundary](https://lammps.sandia.gov/threads/msg42779.html)
 1. [lammps建模方法，即生成data文件](http://bbs.keinsci.com/thread-18520-1-1.html)
-
+1. [TopoTools Command](http://www.ks.uiuc.edu/Research/vmd/plugins/topotools/#TOC-bondtypenames)
+1. [[lammps-users] bond-angle-Dihedral Coeffs](https://lammps.sandia.gov/threads/msg74622.html)
 
 ![](/img/wc-tail.GIF)

@@ -28,10 +28,14 @@ use lib '/THFS/home/huse_fx/Desktop/polymatic_v1.1';
 
 ### 使用
 参见Manual
+###### type文件
+1. type文件的格式和内容在manual和example里都有，但是要如何获取是一个问题。注意用msi2lmp生成data文件时不要加`-o`，否则不会输出原子类型、成键类型等type。之前xilock尝试过msi2lmp时加`-o`然后用topotool重命名原子名称和类型的方式，但发现retype之后成键类型的编号变了，跟原来不一致，没法直接调用原来的coeffs，很是蛋疼！当时最后还是手撕type文件。所以记住不要乱加`-o`
+1. 因为生成新的成键需要在原有成键基础上定义新的成键、角度、二面角等，如果二面角参数太多但不重要，在pl文件里将二面角相关部分注释掉来临时通过以便测试。
 
 ### 问题
 ###### Can't located XML/Simple.pm in @INC...
 把XML目录拷贝到家目录下的perl5/lib/perl5下就行了？（实测是拷到提示的路径，比如将XML拷贝到上面`use lib`指向的路径里）。
+
 
 1. [perl5.rar](https://molakirlee.github.io/attachment/lammps/perl5.rar)
 
