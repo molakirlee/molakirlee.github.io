@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Vasp DOS"
+title:      "Vasp DOS实战"
 subtitle:   ""
 date:       2020-11-01 23:12:00
 author:     "XiLock"
@@ -77,5 +77,6 @@ LCHARG  =   .FALSE.
 
 ### 参考资料
 1. [DOS 计算(一)](https://www.bigbrosci.com/2018/02/06/ex37/)
+
 
 ![](/img/wc-tail.GIF)
