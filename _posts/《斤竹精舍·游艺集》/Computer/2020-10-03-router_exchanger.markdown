@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "常用Git命令总结"
-subtitle:   "发现自己总忘，就整理了一下贴在这里了"
-date:       2018-10-26 19:52:00
+title:      "路由器配置成交换机"
+subtitle:   ""
+date:       2020-10-03 19:52:00
 author:     "XiLock"
 header-img: "img/in-post/2018/2018-10-26-git-notes/bg.jpg"
 header-mask: 0.3

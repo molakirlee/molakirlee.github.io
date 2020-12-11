@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "电脑技巧"
+title:      "电脑技巧Q&A"
 subtitle:   ""
 date:       2018-11-29 08:38:00
 author:     "XiLock"
@@ -59,6 +59,12 @@ Ultimate : 192GB
 下载[系统丢失api-ms-win-crt-runtime-l1-1-0.dll的修复工具](http://www.51rgb.cn/download/page-64.html)并安装运行。  
 参考：  
 1. [PS提示丢失api-ms-win-crt-runtime-l1-1-0.dll 完美解决方法](https://zhuanlan.zhihu.com/p/34167899)
+
+### C盘爆满
+昨天C盘还有20G+，今天发现就剩10M了？？？检查了一下也没发现什么文件，偶然遇到了“软媒魔方”（感觉很是良心！见参考资料。），竟然给我找出问题来了！是虚拟内存！C盘下的pagefile.sys文件直接给干掉了20G。后来xilock就将虚拟内存配置到D盘了，具体操作见参考资料。  
+参考：  
+1. [C盘满了不用怕—简单几步，释放海量C盘空间！](https://post.smzdm.com/p/a6l89k20/)
+1. [pagefile.sys是什么文件？pagefile.sys文件太大如何移动到D盘中？](http://www.lotpc.com/dnzs/7059_2.html)
 
 
 ![](/img/wc-tail.GIF)
