@@ -2,7 +2,7 @@
 layout:     post
 title:      "gmx 脂质模拟 Martini"
 subtitle:   ""
-date:       2020-12-09 10:11:00
+date:       2020-12-10 10:11:00
 author:     "XiLock"
 header-img: "img/post-background/bamboo3.jpg"
 header-mask: 0.3
