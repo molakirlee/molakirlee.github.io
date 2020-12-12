@@ -15,8 +15,8 @@ tags:
 ---
 
 参考资料：  
-[使用Gromacs模拟碳纳米管的一个简单例子](http://sobereva.com/268)
-[Gromacs Carbon Nanotube](http://www.gromacs.org/Documentation/How-tos/Carbon_Nanotube)
+1. [使用Gromacs模拟碳纳米管的一个简单例子](http://sobereva.com/268)
+1. [Gromacs Carbon Nanotube](http://www.gromacs.org/Documentation/How-tos/Carbon_Nanotube)
 
 ### 无限延展的石墨烯
 
