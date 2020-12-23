@@ -15,7 +15,7 @@ tags:
 ---
 
 sob老师说做QM/MM效率最高的是：amber+Gaussian、NAMD+ORCA
-
+1. [MM and QM/MM setup for a metalloprotein using GROMACS,  Chemshell and ORCA](https://sites.google.com/site/ragnarbjornsson/mm-and-qm-mm-setup)
 
 
 ![](/img/wc-tail.GIF)

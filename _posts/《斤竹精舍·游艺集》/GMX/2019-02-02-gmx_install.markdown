@@ -195,6 +195,8 @@ RIGHT: export DSSP=/opt/bin/dssp
 
 也可以在[这里](https://swift.cmbi.umcn.nl/gv/dssp/)下载dssp，但没弄明白怎么安装。  
 
+对于win版的gromacs，调用dssp时需要新建一个名为DSSP的系统环境变量，值设置为E:\[dssp-2.0.4.exe](https://molakirlee.github.io/attachment/gmx/dssp-2.0.4-win32.exe)，指向dssp文件。
+
 ### Q&A
 ###### cmake阶段The C compiler identification is GNU 4.4.7/unknown
 gromacs 2019要求gcc至少为4.8.1(gromacs2019不支持gcc5.2，还是得用4.8；gromacs2020要求gcc>=5.0)，但有时即便安装了新版本仍然会在cmake时报版本过久，故此时需要指定路径，即：`[user1@node1 build]$ cmake .. -DCMAKE_CXX_COMPILER=/usr/local/gcc-5.2.0/bin/g++ -DCMAKE_C_COMPILER=/usr/local/gcc-5.2.0/bin/gcc`。**注意这两个路径要紧跟着`cmake ..`，放在后面没效果好像。** 
