@@ -14,6 +14,8 @@ tags:
 
 ---
 
+
+
 gromacs的氢键计算很方便但是因为一些原因xilock需要做更细节的分析，所以用MDanalysis做了一些分析，感谢[**supernova**](https://zhuanlan.zhihu.com/c_1168461046896881664)的技术支持。
 
 ### 氢键计算脚本
@@ -365,5 +367,6 @@ df_hbdZ.to_csv(sys.argv[4])
 1. [氢键histogram: get_hbond_cnt.py](http://molakirlee.github.io/attachment/gmx/hbond/get_hbond_cnt.py)
 1. [多链分离: sep.py](http://molakirlee.github.io/attachment/gmx/hbond/sep.py)
 1. [氢键沿z轴分布: get_hbonds_density_in_z.py](http://molakirlee.github.io/attachment/gmx/hbond/get_hbonds_density_in_z.py)
+1. [Sob:计算不同z位置水能形成氢键数的VMD Tcl脚本](http://sobereva.com/54)
 
 ![](/img/wc-tail.GIF)
