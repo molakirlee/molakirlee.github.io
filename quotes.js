@@ -643,7 +643,9 @@ var quotes = [
 '11点前就要入睡，不要认为年轻就可以挥霍身体，熬夜、酗酒都会给以后的生活带来麻烦。',
 '一直在慢慢变好，坚持寻找心中最让自己舒适的一种活法，才是给自己最好的礼物。',
 '没有人能够定义我们该怎么活，你想怎么活自己说了算。',
-'让虚浮的头脑崇拜那浅薄的东西，太阳神领我们到缪斯女神的泉边。'
+'让虚浮的头脑崇拜那浅薄的东西，太阳神领我们到缪斯女神的泉边。',
+'Get a move on, or all the good ones will have gone.',
+'才情高超，清越脱俗。'
 ]
 
 var randomNumber1 = Math.floor(Math.random()*(quotes.length));//用Math.random产生0-1的随机数，乘以quotes的个数以获取quotes的随机序号；用Math.floor来取整后返回给变量randomNumber1
