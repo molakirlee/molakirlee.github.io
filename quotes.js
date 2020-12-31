@@ -645,6 +645,7 @@ var quotes = [
 '没有人能够定义我们该怎么活，你想怎么活自己说了算。',
 '让虚浮的头脑崇拜那浅薄的东西，太阳神领我们到缪斯女神的泉边。',
 'Get a move on, or all the good ones will have gone.',
+'It’s not the load that breaks you down, it’s the way you carry it.',
 '才情高超，清越脱俗。'
 ]
 
