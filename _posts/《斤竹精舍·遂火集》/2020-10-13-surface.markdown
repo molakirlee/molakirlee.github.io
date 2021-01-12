@@ -38,6 +38,9 @@ For wetting, the surface energy is stronger than the surface tension of the liqu
 ###### 表面活性剂
 表面张力（Surface tension）：液体表面分子的向心收缩力，表面张力可使液滴的表面积收缩到最小程度，即表面张力越大，喷雾时形成的雾滴越大；表面张力越小，形成的雾滴越小。表面活性剂分子具有两亲性，其极性基一端虽受到水分子的拉力，但因有非极性基一端和气相亲和，因而它本身的表面张力很小，所以液体表面张力得以降低，即E=δ×S中的δ得以降低。降低液体表面张力是因为液体分子与表面活性剂的亲和力强，相互直接的亲合力就弱下来，所以表面活性剂可以降低液体表面的张力。
 
+###### 65°为亲疏水临界
+As a matter of practical convenience, this Leading Opinion defines hydrophilic as all solid surfaces that support advancing water (or buffer) contact angles θ < 65° and hydrophobic as solid surfaces supporting θ > 65°. The basis of this definition is the observation that biological responses such as bioadhesion, protein adsorption, and blood plasma coagulation seem to “pivot” from high-to-low or vice-versa within an approximately ±15° range around θ = 65° (note that these citations include reviews of a broad literature).[引自doi: 10.1016/j.biomaterials.2011.10.059]
+
 
 ### 参考资料：
 1. [CSC Scientific Blog - Contact Angle and Surface Tension - A Fascinating Liaison](https://www.cscscientific.com/csc-scientific-blog/how-does-contact-angle-relate-to-surface-tension)

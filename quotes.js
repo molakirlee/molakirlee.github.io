@@ -646,6 +646,8 @@ var quotes = [
 '让虚浮的头脑崇拜那浅薄的东西，太阳神领我们到缪斯女神的泉边。',
 'Get a move on, or all the good ones will have gone.',
 'It’s not the load that breaks you down, it’s the way you carry it.',
+'大悲不言，大怒不辩，大喜不诺',
+'There are many things that seem impossible only so long as one does not attempt them.',
 '才情高超，清越脱俗。'
 ]
 

@@ -177,4 +177,7 @@ angle_charmm_omp.cpp(90): error: "restrict" has already been declared in the cur
 ###### 问题部分
 1. [问题MPICH2 gethostbyname failed](https://stackoverflow.com/questions/23112515/mpich2-gethostbyname-failed)
 
+### 教程
+1. [lammps实例](https://www.docin.com/p-1073593520.html)
+
 ![](/img/wc-tail.GIF)

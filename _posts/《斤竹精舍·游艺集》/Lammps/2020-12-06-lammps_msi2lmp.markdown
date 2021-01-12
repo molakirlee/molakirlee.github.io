@@ -37,7 +37,8 @@ tags:
 1. 命令中“I”是罗马字母1，不是字符“|”或1。 
 1. 具体命令的含义参见/lammps-30Jul16/tools/msi2lmp/中的README。 
 1. 因为msi2lmp很久没更新了，有些力场参数之类的可能没有，调用时会报错：`unable to find …… data`（原因见参考资料）。如`msi2lmp Unable to find bond data for cp n`就是说找不到这两种原子的成键信息，但xilock检查生成的data文件后发现成键信息是有的，但成键参数都是0，所以添加上成键参数就行了（其他情况具体分析）。
-
+1. 如果是直接对晶胞进行处理，则需要先`make P1`来吧结构对称性去掉，否则会报错：“Msi2LMP is not equipped to handle symmetry operations”
+1. frc文件未必完成，调用前可根据情况进行补充，例如：https://lammps.sandia.gov/threads/msg46719.html。
 
 ### 附录
 msi2lmp的部分README内容
@@ -75,9 +76,9 @@ msi2lmp的部分README内容
                           by a vector (default: 0.0 0.0 0.0)
 
    -- -class  (or -c)
-        # is the class of forcefield to use (I  or 1 = Class I e.g., CVFF)
+        # is the class of forcefield to use (I  or 1 = Class I e.g., CVFF, clayff)
                                             (O  or 0 = OPLS-AA)
-                                            (II or 2 = Class II e.g., CFFx)
+                                            (II or 2 = Class II e.g., CFFx, COMPASS)
         default is -class I
 
    -- -frc    (or -f) specifies name of the forcefield file (e.g., cff91)
@@ -109,6 +110,9 @@ msi2lmp的部分README内容
 1. [关于msi2lmp出错unable to find…..data的解析——Pcff力场分配参数流程](https://www.shehunotes.cn/?p=226#opennewwindow)
 1. [msi2lmp使用方法-msi2lmp程序的README文件翻译](https://www.shehunotes.cn/?p=190)
 1. [利用msi2lmp工具转换Materials Studio模型到lammps模型时出现多余原子错误](https://www.shehunotes.cn/?p=166)
+1. [一份分子动力学模拟资源 lammps+MS 适合初学者](https://wenku.baidu.com/view/6739580602020740be1e9b27?pcf=2&bfetype=new)
+1. [Msi2LMP is not equipped to handle symmetry operations](http://muchong.com/html/201707/4566649.html)
+1. [Building LAMMPS data files with car/mdf files and the msi2lmp utility](https://lammps.sandia.gov/workshops/Feb10/Jeff_Greathouse/msi2lmp.pdf)
 
 
 ![](/img/wc-tail.GIF)
