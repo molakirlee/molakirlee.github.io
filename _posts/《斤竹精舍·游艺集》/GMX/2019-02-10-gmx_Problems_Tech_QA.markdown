@@ -70,4 +70,15 @@ bonds that rotated more than 30 degrees:
 1. 别都用键长约束，可以换用键角的时候用键角约束替换掉一些键长约束。（如嘉兴之前做Fmoc的时候中间五元环简化成3个珠子，如果用三个键长来约束的话就会爆炸，如果用两个键长加一个键角的话就正常了。）
 1. 注意二面角的0°和180°是不一样的，跟表面序号有关系。（from Supernova）
 
+###### MoS2-水体系跑MD只在原位置振动
+如果成键参数定义的太强，则在grompp时会有如下提示：
+```
+Note 2 [file topol.top, line 45]:
+  The bond in molecule-type MoS between atoms 1 S1 and 6 Mo1 has an
+  estimated oscillational period of 6.9e-03 ps, which is less than 10 times
+  the time step of 1.0e-03 ps.
+  Maybe you forgot to change the constraints mdp option.
+```
+这是因为约束强的时候化学键的振动频率高，如果低于步长的5倍之类的，那么在跑MD的过程中就会出现重原子只在原位置振动的现象，跟冻住了一样。解决方法就是增大步长或者减小成键约束。
+
 ![](/img/wc-tail.GIF)
