@@ -208,6 +208,14 @@ LORBIT = 11
 # ----------------------------
 ```
 
+### 其他说明
+###### K point奇偶的选择
+For grids centred on the Gamma-point, even grids sometimes have better convergence than odd grids. This is precisely because they avoid the gamma-point itself, which is a very high symmetry point and not a good representative sampling point.
+
+For systems with hexagonal symmetry, however, you should basically *never* use an even-grid (gamma-centred) because the hexagonal symmetry operations applied to an even grid generate points outside the Brillouin zone (see the papers of Chadi and Cohen for details; link below). You may find this discussion useful:
+
+https://www.researchgate.net/post/Is_there_an_optimum_number_of_k_points_in_the_irreducible_Brilloiun_zone_that_is_necessary_for_good_calculations_of_bulk_total_energy
+
 ### 参考资料：
 
 
