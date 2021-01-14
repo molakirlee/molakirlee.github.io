@@ -52,4 +52,9 @@ tachyon_WIN32.exe vmdscene.dat -aasamples 24 -mediumshade -trans_vmd -res 1024 7
 用xyz等选择时有时可能不能完整选择一个残基内的原子，比如用z<20选择水分子时可能只选择上了H或O，导致断键。  
 可用"same residue as (water and z<20)"来保证同时选中与所选原子为同一残基内的原子。  
 
+### 教程
+1. [vmd教程](http://course.sdu.edu.cn/Download2/20151113131122124.pdf)  
+
+除了基本操作，还有分子坐标的对齐、tcl语言等，整体比较简单。
+
 ![](/img/wc-tail.GIF)
