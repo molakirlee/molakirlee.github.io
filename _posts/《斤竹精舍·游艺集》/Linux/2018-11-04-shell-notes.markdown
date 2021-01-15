@@ -23,6 +23,8 @@ gmx genion -s ions.tpr -o water-ion_box.gro -p topol.top -nn 200 -nname CL -np 2
 EOF
 ```
 
+### 交互
+传参等见参考资料：《Shell脚本之处理用户输入》
 
 ### 批处理
 ###### shell脚本文件夹内文件依次执行
@@ -70,84 +72,51 @@ done
 echo "Let us begin simulation!"
 
 #build box
-
 gmx solvate -cs spc216.gro -o water_box.gro -box 6.0 7.5 6.8 -p topol.top
 
-
 #add ion
-
 gmx grompp -f ions.mdp -c water_box.gro -p topol.top -o ions.tpr
-
-
 
 gmx genion -s ions.tpr -o water-ion_box.gro -p topol.top -nn 200 -nname CL -np 200 -pname NA<<EOF
 2
 EOF
 
-
 #Energy minimization
-
 gmx grompp -f minim.mdp -c water-ion_box.gro -p topol.top -o em.tpr
-
 gmx mdrun -v -deffnm em
-
-
 
 
 gmx energy -f em.edr -o potential.xvg<<EOF
 4 0
 EOF
 
-
-
 #nvt
-
 gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
-
 gmx mdrun -deffnm nvt
-
 
 gmx energy -f nvt.edr -o temperature.xvg<<EOF
 9 0
 EOF
 
-
 #npt
-
 gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr
-
 gmx mdrun -deffnm npt
-
-
-
 
 gmx energy -f npt.edr -o density.xvg<<EOF
 16 0
 EOF
 
-
 #run MD
-
-
 gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
-
 gmx mdrun -deffnm md_0_1
 
 #analysis Hbond
-
-
-
 gmx hbond -f md_0_1.xtc -s md_0_1.tpr -num md_0_1_Hbond.xvg<<EOF
 1 1
 EOF
 
-
-
 #analysis Radial distribution function
-
-
 gmx rdf -f md_0_1.xtc -s md_0_1.tpr -o rdf_ion_NA.xvg -ref NA -sel SOL
-
 gmx rdf -f md_0_1.xtc -s md_0_1.tpr -o rdf_ion_CL.xvg -ref CL -sel SOL
 
 ```
@@ -178,6 +147,6 @@ exit
 
 ### 相关阅读：  
 [Linux常用命令](https://mp.weixin.qq.com/s?__biz=MzU5OTMyODAyNg==&mid=2247484700&idx=1&sn=10cacf3afd4781989ca30a5ff0a4fc50&chksm=feb7d169c9c0587f0778e7f7bd4266661a10da32d1b335328362d37589b79643d6fbef8a7282&mpshare=1&scene=24&srcid=0424EZoT5RnWFtL6ZjGTcHvV#rd)
-
+1. [Shell脚本之处理用户输入](https://shixiangwang.github.io/home/cn/post/2017-08-19-working-with-user-input/)
 
 ![](/img/wc-tail.GIF)

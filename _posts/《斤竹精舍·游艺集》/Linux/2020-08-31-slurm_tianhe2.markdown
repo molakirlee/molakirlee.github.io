@@ -22,8 +22,9 @@ tags:
 1. 查看正在运行的序列：`yhq`；
 1. 取消作业： `yhcancel job_ID`
 1. 作业用量查询：`yhreport  Cluster AccountUtilizationByUser start=1/1/15 end=now -t hour user=用户账号`；
-1. 查看已用机时：`yhreport Cluster UserUtilizationByAccount -t hour start=1/5/20 end=now
-
+1. 查看已用机时：`yhreport Cluster UserUtilizationByAccount -t hour start=1/5/20 end=now`；
+1. 占用节点：`salloc -N 1 -p v3_ib`，这抢占一个节点，然后执行squeue 查看节点名称，再ssh到指定的计算节点，然后再去您需要执行命令的目录下直接执行就可以了；
+1. 控制节点切换：`ssh ln3`，切换到控制节点ln3；
 
 ### slurm文件说明
 
