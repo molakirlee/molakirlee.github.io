@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "Abaqus"
+subtitle:   ""
+date:       2020-12-30 09:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2020
+
+---
+
+
+
+### 参考资料
+1. [来，拿去！你们想要的橡胶垫圈的超弹性及应力松弛行为的仿真教程](https://mp.weixin.qq.com/s?__biz=MzIzMTY3NDEwMA==&mid=2247500539&idx=1&sn=8eb3ac27f2cc962f1f422b927de334c8&chksm=e8a21b60dfd59276e48ae06fe5a1da6f068ef29fae56a4efbcf93d329690c2640b3c140fc978&scene=21#wechat_redirect)
+
+
+![](/img/wc-tail.GIF)

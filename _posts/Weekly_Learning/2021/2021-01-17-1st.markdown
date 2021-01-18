@@ -1,0 +1,50 @@
+---
+layout:     post
+title:      "2021-每周补脑1st"
+subtitle:   ""
+date:       2021-01-17 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科技
+###### nat. comm.中机器学习耦合计算化学
+1. 通过利用**深度迁移学习**的计算和实验数据增强材料性能预测（形成能等）：Jha, D., Choudhary, K., Tavazza, F. et al. Enhancing materials property prediction by leveraging computational and experimental data using deep transfer learning. Nat Commun 10, 5316 (2019). https://doi.org/10.1038/s41467-019-13297-w
+1. **无监督**发现固态锂离子导体（电导率等）：Zhang, Y., He, X., Chen, Z. et al. Unsupervised discovery of solid-state lithium ion conductors. Nat Commun 10, 5260 (2019). https://doi.org/10.1038/s41467-019-13214-1
+1. **可合成材料**发现的网络分析（凸自由能面+无标度网络）：Aykol, M., Hegde, V.I., Hung, L. et al. Network analysis of synthesizable materials discovery. Nat Commun 10, 2018 (2019). https://doi.org/10.1038/s41467-019-10030-5
+1. 用于二氧化碳还原的强大的合成**光催化剂**：一项数据驱动材料的发现（第一性原理筛选）：Singh, A.K., Montoya, J.H., Gregoire, J.M. et al. Robust and synthesizable photocatalysts for CO2 reduction: a data-driven materials discovery. Nat Commun 10, 443 (2019). https://doi.org/10.1038/s41467-019-08356-1
+1. 机器学习在固体分子中的化学位移：Paruzzo, F.M., Hofstetter, A., Musil, F. et al. Chemical shifts in molecular solids by machine learning. Nat Commun 9, 4501 (2018). https://doi.org/10.1038/s41467-018-06972-x
+1. 材料原子尺度动力学**无监督学习的动态网络图**：Xie, T., France-Lanord, A., Wang, Y. et al. Graph dynamical networks for unsupervised learning of atomic scale dynamics in materials. Nat Commun 10, 2667 (2019). https://doi.org/10.1038/s41467-019-10663-6
+1. **物理通知**的材料原子建模人工神经网络：Pun, G.P.P., Batra, R., Ramprasad, R. et al. Physically informed artificial neural networks for atomistic modeling of materials. Nat Commun 10, 2339 (2019). https://doi.org/10.1038/s41467-019-10343-5
+1. 机器学习粗粒度模型的水：Chan, H., Cherukara, M.J., Narayanan, B. et al. Machine learning coarse grained models for water. Nat Commun 10, 379 (2019). https://doi.org/10.1038/s41467-018-08222-6
+1. 用机器学习力场进行精确分子动力学模拟：Chmiela, S., Sauceda, H.E., Müller, KR. et al. Towards exact molecular dynamics simulations with machine-learned force fields. Nat Commun 9, 3887 (2018). https://doi.org/10.1038/s41467-018-06169-2
+1. 用机器学习绕过科恩-沙姆方程：Brockherde, F., Vogt, L., Li, L. et al. Bypassing the Kohn-Sham equations with machine learning. Nat Commun 8, 872 (2017). https://doi.org/10.1038/s41467-017-00839-3
+
+参考资料：  
+1. [Nat. Comm中使用“机器学习”结合计算化学的研究案例]((https://mp.weixin.qq.com/s/uPAPIMDkp98lT6cbH6zsWA))
+1. [《自然通讯》：无孔不入的机器学习，如何让计算化学渐入佳境](https://mp.weixin.qq.com/s?__biz=MzIzMTY3NDEwMA==&mid=2247498574&idx=1&sn=5186736e0b013d07cc09efd98bf843b7&chksm=e8a222d5dfd5abc354c3fbee020f8aebfcadeaf3aa8a939f535c09359992ea4775c3cccca518&scene=21#wechat_redirect)
+
+###### [龚剑萍2020年工作回顾](https://mp.weixin.qq.com/s/kQGwZ9ALLErlq3VohRHsug)
+
+###### 部分水凝胶进展
+1. [锁志刚、江雷、王中林、陈学思、赵选贺、龚剑萍、余桂华、刘明杰、赵远锦等水凝胶科研进展](http://www.cailiaoniu.com/207359.html)
+
+### 语录
+1. 
+
+### 言论
+1. 好奇不设限+事半功倍+持续精进：[Kaito：如何在压力中成长？我的学习方法论分享](http://kaito-kidd.com/2020/09/25/how-to-grow-under-pressure/)
+
+### 有趣
+1. [面试常见的四种算法思想，全在这里了](https://my.oschina.net/u/4598014/blog/4905585)
+1. [你想知道沸腾现象的奥秘吗？](http://lxyd.imech.ac.cn/info/detail.asp?infono=18517)
+
+
+![](/img/wc-tail.GIF)
