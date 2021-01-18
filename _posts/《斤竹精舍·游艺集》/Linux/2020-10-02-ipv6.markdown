@@ -17,7 +17,7 @@ tags:
 ### 前言
 1. 本文不是真正的内网穿透，做内网穿透建议用FRP（不建议ngrok，不稳定）或者氪金蒲公英；
 1. ngrok参见:[如何远程登录家里的Ubuntu电脑(命令行模式)？](https://www.zhihu.com/question/27771692);
-1. 本文提到的方法不需要公网ipv4地址，但是需要有公网的ipv6地址（公网ipv6地址24开头，内网ipv6地址f开头）。
+1. 本文提到的方法不需要公网ipv4地址，但是需要有公网的ipv6地址（公网ipv6地址24开头，内网ipv6地址f开头，庆幸xilock家的墙虽然没有ipv4地址但有ipv6地址）。
   
 ### 注册ipv6域名
 1. [https://dynv6.com/](https://dynv6.com/)
@@ -48,7 +48,8 @@ wget --no-check-certificate -q -O dynv6.log 'http://dynv6.com/api/update?hostnam
 在/etc/rc.local加入一行：`/usr/bin/ddns.dynv6.sh`，这样每次电脑开机，都能把新的IPv6更新到dynv6。
 
 ### 使用
-两个都是24开头的公网ipv6地址，可以ssh通讯了。
+1. 两个都是24开头的公网ipv6地址，可以ssh通讯了。
+1. win/linux系统的ipv6地址如何ping参见《IPv6地址使用ping、telnet命令汇总》。
 
 ### 问题
 1. 连接光猫走ipv6时，需关闭光猫的拦截，否则能Ping到但ssh不上。
@@ -56,5 +57,6 @@ wget --no-check-certificate -q -O dynv6.log 'http://dynv6.com/api/update?hostnam
 ### 参考资料：
 
 1. [dynv6 IPv6更新](https://blog.csdn.net/weixin_45357522/article/details/108556550)
+1. [IPv6地址使用ping、telnet命令汇总](https://zhuanlan.zhihu.com/p/144171272)
 
 ![](/img/wc-tail.GIF)

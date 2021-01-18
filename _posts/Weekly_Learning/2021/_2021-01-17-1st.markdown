@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "2020-每周补脑7th"
+subtitle:   ""
+date:       2020-10-25 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2020
+
+
+---
+
+
+
+### 语录
+1. 
+
+### 言论
+1. 好奇不设限+事半功倍+持续精进：[Kaito：如何在压力中成长？我的学习方法论分享](http://kaito-kidd.com/2020/09/25/how-to-grow-under-pressure/)
+
+### 有趣
+1. [面试常见的四种算法思想，全在这里了](https://my.oschina.net/u/4598014/blog/4905585)
+1. [你想知道沸腾现象的奥秘吗？](http://lxyd.imech.ac.cn/info/detail.asp?infono=18517)
+
+![](/img/wc-tail.GIF)

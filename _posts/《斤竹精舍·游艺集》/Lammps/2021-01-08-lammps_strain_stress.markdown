@@ -140,4 +140,10 @@ run  10000
 1. [Mechanical properties at nano-level: copper nanowire](https://core.ac.uk/download/pdf/41795277.pdf)
 1. [LAMMPS及Al杨氏模量示例](https://andrewferguson.uchicago.edu/resources/ICME_Workshop_140723.pdf)
 1. [LAMMPS中使用fix deform命令拉伸单层石墨烯的算例子+附in文件](http://blog.sciencenet.cn/blog-3388193-1125565.html)
+1. [LAMMPS做拉伸与剪切](https://lammps.org.cn/zh/column/nemd/deform.html#%E6%8B%89%E4%BC%B8%E4%B8%8E%E5%8E%8B%E7%BC%A9)
+
+
+1. []()
+
+
 ![](/img/wc-tail.GIF)
