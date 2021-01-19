@@ -23,6 +23,25 @@ tags:
 1. 大背景-->已有工作-->问题(多肽应用不多、受人体环境中因素影响需研究)-->别人怎么研究的（肯定别人）-->仍有什么没被研究（可研究的）-->因此本文……；
 1. introduction提出的问题必须是你工作能解决的问题；
 
+###### JPCC编辑Zhang Jinlu
+1. clear
+1. factual
+1. concise
+
+1. First impression mean everything(Edition)
+1. scope
+1. valid methodology and data
+1. reference complete document (早期重要的+近期的)
+1. new + significant + contribution
+
+introduction:
+1. field +别人做了什么
+1. 未解决的问题
+1. 我们做了什么
+
+results:
+1. 5-8张图
+1. 先好好描述再分析
 
 ### 个人总结
 1. 要突出副词等放前边；

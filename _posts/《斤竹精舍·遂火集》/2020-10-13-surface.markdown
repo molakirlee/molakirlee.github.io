@@ -41,6 +41,8 @@ For wetting, the surface energy is stronger than the surface tension of the liqu
 ###### 65°为亲疏水临界
 As a matter of practical convenience, this Leading Opinion defines hydrophilic as all solid surfaces that support advancing water (or buffer) contact angles θ < 65° and hydrophobic as solid surfaces supporting θ > 65°. The basis of this definition is the observation that biological responses such as bioadhesion, protein adsorption, and blood plasma coagulation seem to “pivot” from high-to-low or vice-versa within an approximately ±15° range around θ = 65° (note that these citations include reviews of a broad literature).[引自doi: 10.1016/j.biomaterials.2011.10.059]
 
+###### 纯液体表面张力
+参见课程:[第二节 纯液体的表面张力](http://courseware.eduwest.com/courseware/0129/content/0007/020001.htm)
 
 ### 参考资料：
 1. [CSC Scientific Blog - Contact Angle and Surface Tension - A Fascinating Liaison](https://www.cscscientific.com/csc-scientific-blog/how-does-contact-angle-relate-to-surface-tension)
