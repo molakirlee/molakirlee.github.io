@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "LAMMPS 待看"
+title:      "LAMMPS 待看内容"
 subtitle:   ""
 date:       2021-01-19 12:12:00
 author:     "XiLock"

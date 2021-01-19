@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "OpenFoam 安装"
+title:      "OpenFoam 安装 CentOS"
 subtitle:   ""
 date:       2021-01-18 19:38:00
 author:     "XiLock"

@@ -648,6 +648,7 @@ var quotes = [
 'It’s not the load that breaks you down, it’s the way you carry it.',
 '大悲不言，大怒不辩，大喜不诺',
 'There are many things that seem impossible only so long as one does not attempt them.',
+'总是有人要赢，为什么不是我呢？——科比',
 '才情高超，清越脱俗。'
 ]
 
