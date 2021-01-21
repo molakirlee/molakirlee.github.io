@@ -106,6 +106,9 @@ service-worker: true
 # Friends
 friends: [
     {
+         title: "ChinaDaily",
+         href: "http://www.chinadaily.com.cn/"
+     },{
          title: "阮一峰",
          href: "http://www.ruanyifeng.com/blog/"
      },{

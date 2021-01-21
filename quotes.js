@@ -649,6 +649,7 @@ var quotes = [
 '大悲不言，大怒不辩，大喜不诺',
 'There are many things that seem impossible only so long as one does not attempt them.',
 '总是有人要赢，为什么不是我呢？——科比',
+'The secret of getting ahead is getting started.',
 '才情高超，清越脱俗。'
 ]
 
