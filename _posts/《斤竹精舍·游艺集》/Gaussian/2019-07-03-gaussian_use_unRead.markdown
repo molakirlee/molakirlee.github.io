@@ -26,6 +26,8 @@ tags:
 1. [大体系弱相互作用计算的解决之道](http://sobereva.com/214)  
 1. [谈谈BSSE校正与Gaussian对它的处理](http://sobereva.com/46)  
 1. [Multiwfn支持的弱相互作用的分析方法概览-考察类型、特征、本质](http://sobereva.com/252)  
+1. [使用Multiwfn研究分子动力学中的弱相互作用](http://sobereva.com/186)
+1. [探究18碳环独特的分子间相互作用与pi-pi堆积特征](http://sobereva.com/572)
 
 #### 热力学基本知识  
 1. [两篇热力学数据计算的入门介绍文章](http://bbs.keinsci.com/thread-123-1-1.html)  

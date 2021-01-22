@@ -142,6 +142,6 @@ run  10000
 1. [LAMMPS中使用fix deform命令拉伸单层石墨烯的算例子+附in文件](http://blog.sciencenet.cn/blog-3388193-1125565.html)
 1. [LAMMPS做拉伸与剪切](https://lammps.org.cn/zh/column/nemd/deform.html#%E6%8B%89%E4%BC%B8%E4%B8%8E%E5%8E%8B%E7%BC%A9)
 1. [lammps案例分享：聚乙烯拉伸过程分子动力学模拟](https://zhuanlan.zhihu.com/p/339879645)
-
+1. [lammps案例：SiC拉伸下的裂纹扩展](https://zhuanlan.zhihu.com/p/338870131)
 
 ![](/img/wc-tail.GIF)

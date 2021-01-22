@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "MultiWFN 待阅读"
+subtitle:   ""
+date:       2020-10-08 08:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Multiwfn
+    - 2020
+
+---
+
+### 待阅读
+1. [水-苯的C-H---pi例子：J. Chem. Theory Comput., 2013, 9 (5), pp 2226–2234](https://pubs.acs.org/doi/abs/10.1021/ct4001087)
+1. [pi-pi堆积：J. Chem. Soc., Dalton Trans., 2000, 3885–3896](https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.200705157)
+1. []()
+
+
+pi-pi堆积主要驱动力是靠pi电子云之间的电子相关作用维持的，而C-H---pi是以静电作用为主维持的。
+
+![](/img/wc-tail.GIF)
