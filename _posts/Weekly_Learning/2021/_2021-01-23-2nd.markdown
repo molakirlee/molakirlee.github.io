@@ -1,0 +1,43 @@
+---
+layout:     post
+title:      "2021-每周补脑2nd"
+subtitle:   ""
+date:       2021-01-23 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+
+### 语录
+
+
+### 言论
+1. 发送简历时，请说明你解决的一些最困难的问题，以及你如何解决这些问题。-- 马斯克（Elon Musk）谈他希望看到的简历。
+1. 程序员追求开源软件，但是开源软件压低了软件价格，软件价格过低又降低了程序员的价值，并因此使得许多程序员失去工作，也减少了投资者对软件行业的投资，因为投资者追逐利润丰厚的地方来投资。-- 《开源软件对软件商品化的挑战》
+1. Lucky equation: 你的幸运 = X 乘以 Y, X 是你所做的准备，Y 是你遇到的机会。
+1. 太多的人把辩论看作是战斗，要分出胜负。其实，辩论应该是一种合作，两个人合作发现真理。-- 《建设性辩论的初学者指南》
+1. 科技进步具有累积效应，你可以利用别人的结果继续做出改进，而挫折和厄运没有累积效应。——约翰·利特伍德
+1. 不管你多么聪明或多么有经验，你的大多数想法根本行不通。成功的想法需要花费时间和辛勤的工作，才能成为被市场广泛采用的真实产品。-- [《The Founder’s Guide to Actually Understanding Users》](https://mgadams.com/the-founders-guide-to-actually-understanding-users-c68feaecac44)
+1. 游泳横渡英吉利海峡的人说，最困难的部分之一是最后阶段，你已经可以看到前方的海岸，但实际上还有很长一段距离。-- [《New features aren't Solved Problems》](https://blog.thinkst.com/2020/11/new-features-arent-solved-problems.html)
+1.  不要再关注能不能找一个好工作/好公司（让你定居），人生的主轴应该是关注能不能实现下面三个目标。1.目的：你的人生想做到什么。2.成长：怎么保证自己的技能不断在成长。3.人脉关系：你能联系和动员的社会网络有多大。
+1. 人工智能 AI 迄今所有令人印象深刻的成就，都不过是曲线拟合，并不是真正的智能。-- [Judea Pearl（图灵奖获得者）](https://mindmatters.ai/2020/12/ai-still-just-curve-fitting-not-finding-a-theory-of-everything/)
+1. 如果我只有一个小时来拯救世界，那么我将花费55分钟来定义问题，而仅花5分钟来找到解决方案。-- [据说出自爱因斯坦](https://quoteinvestigator.com/2014/05/22/solve/)
+1. 不要被贪婪的公司动机所吸引，不要投入全部的时间和精力，这绝对会导致您毫无正当理由地失去自己的一生。-- [Jonathan Carter，Debian 项目负责人](https://jonathancarter.org/2020/12/10/centos-stream-or-debian/)
+1. 一个知道怎么做的人可能总能找到一份工作，但是知道为什么做的人将成为他的老板。-- [John Maxwell，畅销书《影响力》的作者](https://motiveex.com/quotes/john-maxwell-leadership-quotes-sayings/)
+1. 锚定偏差（anchoring bias）指的是决策时严重依赖第一个可用的信息。比如，你走进一家体育用品商店，发现的第一件商品，是一条价值500美元的运动裤。接着，你看到另一条价格为300美元的运动裤时，就会觉得它很便宜，实际上如果首先看到这条300美元的裤子，你会觉得它根本不便宜。
+
+### 有趣
+1. [MY ENGINEERING AXIOMS](https://martinrue.com/my-engineering-axioms/)
+1. [How an obscure British PC maker invented ARM and changed the world](https://arstechnica.com/features/2020/12/how-an-obscure-british-pc-maker-invented-arm-and-changed-the-world/)
+1. [如何不靠运气变得富有(更新中)](https://github.com/fat-garage/how-to-get-rich-without-getting-lucky)
+1. [Arikan: Huawei, 5G, and the Man Who Conquered Noise](https://www.wired.com/story/huawei-5g-polar-codes-data-breakthrough/)
+1. [An Interactive Introduction to Fourier Transforms](http://www.jezzamon.com/fourier/index.html)
+
+![](/img/wc-tail.GIF)
