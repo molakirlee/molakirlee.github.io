@@ -294,4 +294,7 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 ### 更新20201005
 发现home界面的tags连接不上，但菜单栏里的tags里面的可以连接上。检查了下发现是之前把所有的博文md放进post这个文件夹后，`_layouts`里面的格式没有及时修改，将如下部分做对应修改即可：原来是：`{{ site.baseurl }}/tags/#{{ tag[0] }}`；现在是：`{{ site.baseurl }}/blog/tags/#{{ tag[0] }}`）。
 
+### 更新20210124
+加了个导航条“Research”，然后调整了导航条的顺序。解决导航条顺序的方法为：在文件名称前添加“01_”控制文件的排序，从而控制导航条在pages中的排序。（参考资料：[jekyll进阶](https://blog.csdn.net/yy228313/article/details/51071934)）
+
 
