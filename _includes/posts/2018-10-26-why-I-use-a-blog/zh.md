@@ -295,6 +295,59 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 发现home界面的tags连接不上，但菜单栏里的tags里面的可以连接上。检查了下发现是之前把所有的博文md放进post这个文件夹后，`_layouts`里面的格式没有及时修改，将如下部分做对应修改即可：原来是：`{{ site.baseurl }}/tags/#{{ tag[0] }}`；现在是：`{{ site.baseurl }}/blog/tags/#{{ tag[0] }}`）。
 
 ### 更新20210124
+###### 添加导航条Research，调整导航条顺序
 加了个导航条“Research”，然后调整了导航条的顺序。解决导航条顺序的方法为：在文件名称前添加“01_”控制文件的排序，从而控制导航条在pages中的排序。（参考资料：[jekyll进阶](https://blog.csdn.net/yy228313/article/details/51071934)）
+###### 修正Research和About中disqus不显示的问题
+将02_about.html中的下列代码保留（用于显示评论框）：
+```
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread"></div>
+</div>
+<!-- disqus 评论框 end -->
+{% endif %}
+```
+
+将02_about.html中的下列代码移动到page.html末尾（disqus的配置，因为research.html和about.html均是以page.html为模板，所以在page.html统一配置即可）：
+```
+{% if site.disqus_username %}
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+```
+但发现仍然加载不出disqus来，所以将配置部分代码修改如下：
+```
+{% if site.disqus_username %}
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{page.id}}";
+    <!--var disqus_url = "{{site.url}}{{page.url}}";-->
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+```
+这次就可以了！
+
 
 
