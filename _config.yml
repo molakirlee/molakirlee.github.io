@@ -140,8 +140,8 @@ friends: [
          title: "《浮生六记》",
          href: "http://www.dushu369.com/qtyd/fslj/"
      },{
-        title: "乱序",
-        href: "http://mida.re/"
+#        title: "乱序",
+#        href: "http://mida.re/"
     }
 ]
 
