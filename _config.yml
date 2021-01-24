@@ -127,9 +127,23 @@ friends: [
          title: "《浮生六记》",
          href: "http://www.dushu369.com/qtyd/fslj/"
      },{
-     #   title: "乱序",
-     #   href: "http://mida.re/"
+        title: "乱序",
+        href: "http://mida.re/"
     }
+]
+
+# Xilock_test
+Xilock_test: [
+    {
+         title: "ChinaDaily",
+         href: "http://www.chinadaily.com.cn/"
+     },{
+         title: "阮一峰",
+         href: "http://www.ruanyifeng.com/blog/"
+     },{
+         title: "周读",
+         href: "http://www.ireadweek.com/index.php/Index/index.html"
+     }
 ]
 
 
