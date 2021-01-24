@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "gmx Martini粗粒化反映射全原子1"
+title:      "gmx Martini粗粒化反映射全原子"
 subtitle:   ""
 date:       2021-01-22 22:28:00
 author:     "XiLock"
