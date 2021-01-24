@@ -183,6 +183,17 @@ layout: default
                         </ul>
                     </div>
                 </section>
+                <!-- News Link-->
+                {% if site.news %}
+                <hr>
+                <h5>NEWS</h5>
+                <ul class="list-inline">
+                    {% for news in site.news %}
+                        <li><a href="{{news.href}}">{{news.title}}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                <!-- News Link End-->
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
@@ -193,17 +204,6 @@ layout: default
                     {% endfor %}
                 </ul>
                 {% endif %}
-                <!-- Xilock_test-->
-                {% if site.Xilock_test %}
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
-                    {% for Xilock_test in site.Xilock_test %}
-                        <li><a href="{{Xilock_test.href}}">{{Xilock_test.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-                <!-- Xilock_test-->
                 <!--添加二维码-->
                 <hr>
                 <h5>WECHAT</h5>

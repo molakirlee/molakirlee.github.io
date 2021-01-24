@@ -101,14 +101,27 @@ chrome-tab-theme-color: "#000000"
 service-worker: true
 
 
+# News Link
+news: [
+    {
+         title: "ChinaDaily",
+         href: "http://www.chinadaily.com.cn/"
+     },{
+         title: "Nature",
+         href: "https://www.nature.com/"
+     },{
+         title: "Science",
+         href: "https://www.sciencemag.org/"
+     },{
+         title: "Scientific American",
+         href: "https://www.scientificamerican.com/"
+     }
+]
 
 
 # Friends
 friends: [
     {
-         title: "ChinaDaily",
-         href: "http://www.chinadaily.com.cn/"
-     },{
          title: "阮一峰",
          href: "http://www.ruanyifeng.com/blog/"
      },{
@@ -130,20 +143,6 @@ friends: [
         title: "乱序",
         href: "http://mida.re/"
     }
-]
-
-# Xilock_test
-Xilock_test: [
-    {
-         title: "ChinaDaily",
-         href: "http://www.chinadaily.com.cn/"
-     },{
-         title: "阮一峰",
-         href: "http://www.ruanyifeng.com/blog/"
-     },{
-         title: "周读",
-         href: "http://www.ireadweek.com/index.php/Index/index.html"
-     }
 ]
 
 
