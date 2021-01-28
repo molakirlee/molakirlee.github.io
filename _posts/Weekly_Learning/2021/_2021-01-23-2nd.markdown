@@ -42,6 +42,18 @@ tags:
 1. 不要被贪婪的公司动机所吸引，不要投入全部的时间和精力，这绝对会导致您毫无正当理由地失去自己的一生。-- [Jonathan Carter，Debian 项目负责人](https://jonathancarter.org/2020/12/10/centos-stream-or-debian/)
 1. 一个知道怎么做的人可能总能找到一份工作，但是知道为什么做的人将成为他的老板。-- [John Maxwell，畅销书《影响力》的作者](https://motiveex.com/quotes/john-maxwell-leadership-quotes-sayings/)
 1. 锚定偏差（anchoring bias）指的是决策时严重依赖第一个可用的信息。比如，你走进一家体育用品商店，发现的第一件商品，是一条价值500美元的运动裤。接着，你看到另一条价格为300美元的运动裤时，就会觉得它很便宜，实际上如果首先看到这条300美元的裤子，你会觉得它根本不便宜。
+1. 我之前在一家独角兽工作，后来辞职去了创业公司，上班第一天就感到比以前下降了一个等级。以前的办公室非常漂亮，现在的办公室是一个堆放着硬件零件的漆黑小房间，研究着一种不知前途的产品，由于各种令人烦恼的小问题，要花很多年才能进入大众市场。[-- 《Quitting a new job》](https://yolken.net/blog/quitting-a-new-job)
+1. 我主管工程团队已经两年了，在这期间我停止写代码。主要原因是，团队主管写代码会妨碍团队管理，你会没有足够的时间来召开所有团队会议，以及一对一的谈话。另一方面，退出编码也表明我信任团队。但是，随着时间的流逝，我逐渐感到与团队脱节。开始忘记构建系统和产品的实际感觉。我发现很难跟上的某些技术决策。从长远来看，最坏的情况下，由于缺乏代码信誉，这可能导致你在团队失去尊重。这种矛盾，从本质上讲，是管理者与开发者的角色冲突。管理者的日程安排是一个接一个的会议，而开发者要求要大量连续时间，保证投入到关键任务上。管理者和开发者的时间表是不一样的。我真的很想念编码，想念从构建事物、定位和修复 Bug 中获得的成就感。我还意识到，我参与编码，就会与团队产生更多的联系。但我也明白，一旦参与编码，我就很难切换注意力，我的关注点无法在编码和会议之间及时切换。我的结论是，管理者与程序员的角色无法合一，解决方法可能是你在业余时间坚持编码，工作时间专心管理。（xilock觉得高校教师也在面临这个问题。）——[Managers should code, but not at work](https://nngorok.com/managers-should-code-but-not-at-work)
+1. 大公司想尽办法引诱人们多消费，真正的解决方案通常恰恰相反：你应该少消费。大多数情况下，我们的问题主要是由过度消费引起的。如果你超重，不是要购买健身鞋和蛋白质粉，而是要少吃东西。如果你头痛和感到巨大压力，不是要购买头痛药和抗抑郁药，而要更多地睡觉和走路，并且不在深夜浏览社交媒体。--[《Consume Less. Create More. It’s More Fun.》](https://telegra.ph/Consume-Less-Create-More-Its-More-Fun-12-04)
+1. 投资于研发可以促进经济增长。但是，研究发现，促进经济增长的主要是公司投资的研发，而不是政府投资的研发。-- [《Does academic research cause economic growth?》](https://lemire.me/blog/2013/02/26/does-academic-research-cause-economic-growth/)
+1. 贫富差距越来越大，新技术革命正在创造一个个神话般的技术奇迹，但这对大多数人来说是一个冷酷的仙境，改变不了自己的命运。——Frank Ruan
+1. 我离职后，整整有一年，一毛钱的收入都没有。那又怎么样？翻译《魔戒》就是我想做的事。很多人讲，你怎么敢签那样的合约，要是卖不到1万本，你怎么办！但其实，联经和我想的是不一样的东西，联经想的是这本书如果卖不动，也不会有损失。我想的是，我翻译了这本书，就算一毛钱也拿不到，将来可以跟孙子说，你爷爷当年翻译了《魔戒》，这就够了。你要知道，人生有的事情，我们做的时候是因为觉得值得，不是因为能够赚钱。只是有的时候，你做了值得的事情，就自然赚到了钱。——朱学恒：我翻译《魔戒》的故事
+1. 代码应该尽可能简单，因为下一个维护你的代码的人不会像你那么聪明。--[《What I’ve Learned in 45 Years in the Software Industry》](https://www.bti360.com/what-ive-learned-in-45-years-in-the-software-industry/)
+1. 为什么我需要钱？原因跟你想的不一样，我几乎没有时间休闲，也没有度假屋或游艇之类的东西。我一半的钱用于解决地球上的问题，另一半钱用来在火星上建立一个自给自足的居民点，确保一旦地球被流星击中（恐龙灭绝就是这种情况）、或者第三次世界大战爆发、人类自己消灭自己时，（所有生物种群的）生命能够延续下去。(You should ask why I would want money. The reason is not what you think. Very little time for recreation. Don’t have vacation homes or yachts or anything like that.About half my money is intended to help problems on Earth & half to help establish a self-sustaining city on Mars to ensure continuation of life (of all species) in case Earth gets hit by a meteor like the dinosaurs or WW3 happens & we destroy ourselves)-- Elon Musk
+1. 英语中，"大学"（university）这个词是"单一性"（uni-）和"多样性"（versity）两个词的结合。它的意思是，大学就是将各种各样的知识统一起来，寻求规律。-- David Perell
+1. I work with Java in my day job; it's by no means my favorite language, but I can be quite productive in it.-- [Hacker News](https://news.ycombinator.com/item?id=25799400)
+1. 
+
 
 ### 有趣
 1. [MY ENGINEERING AXIOMS](https://martinrue.com/my-engineering-axioms/)
@@ -50,5 +62,6 @@ tags:
 1. [Arikan: Huawei, 5G, and the Man Who Conquered Noise](https://www.wired.com/story/huawei-5g-polar-codes-data-breakthrough/)
 1. [An Interactive Introduction to Fourier Transforms](http://www.jezzamon.com/fourier/index.html)
 1. [煮牛肉登上一区顶刊！科学家教你如何正确煮牛肉](https://mp.weixin.qq.com/s/arti2ZE1Iqw7qq29vIFh0Q)
+1. []()
 
 ![](/img/wc-tail.GIF)

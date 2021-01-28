@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "几个黑科技？"
+subtitle:   ""
+date:       2021-01-26 22:18:00
+author:     "XiLock"
+header-img: "img/in-post/2018/2018-11-08-equqtions/bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 整理汇总
+    - 2021
+
+
+---
+
+**感谢Supernova的支持**
+
+1. [雨梦OCR文字提取](https://blog.csdn.net/bowenqiu/article/details/82149392)
+1. [天若ORC(胡萝卜周)](https://carrot.ctfile.com/fs/11269771-331359271)
+1. [ToDesk](https://www.todesk.com/download.html)
+1. [Youtube视频下载：findyoutube](findyoutube.net)，[greasyfork脚本](https://greasyfork.org/zh-CN/scripts/8426)
+
+![](/img/wc-tail.GIF)
