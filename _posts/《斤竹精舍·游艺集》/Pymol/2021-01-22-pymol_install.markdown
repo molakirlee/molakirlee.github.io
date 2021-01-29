@@ -61,6 +61,10 @@ conda install -c openbabel openbabel
 ### pymol使用教程
 见参考资料。
 
+### 选择语句
+1. [Pymol 选择速查手册](http://kangsgo.com/706.html)
+1. [PyMOL 选择器的语法参考](https://zhuanlan.zhihu.com/p/121215784)
+
 ### 参考资料
 1. [Win10安装免费开源PyMOL的过程](https://zhuanlan.zhihu.com/p/112479336)
 1. [开源版和试用版pymol的安装](https://jerkwin.github.io/2020/04/20/%E5%BC%80%E6%BA%90%E7%89%88%E5%92%8C%E8%AF%95%E7%94%A8%E7%89%88pymol%E7%9A%84%E5%AE%89%E8%A3%85/)

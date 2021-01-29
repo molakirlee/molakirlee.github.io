@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "DNA"
+title:      "DNS"
 subtitle:   ""
 date:       2021-01-26 09:12:00
 author:     "XiLock"
@@ -28,6 +28,6 @@ DNS 解析过程涉及将主机名（例如 www.example.com）转换为计算机
 用于域名解析的DNS服务器的话有很多，比如Google DNS。一般让电脑自动获取，或者有时候让360自动择优选取一个最佳的DNS。
 
 ### 参考资料：
-1. [什么是 DNS？ | DNS 的工作方式](https://www.cloudflare.com/zh-cn/learning/dns/what-is-dns/)
+1. [什么是 DNS？DNS 的工作方式](https://www.cloudflare.com/zh-cn/learning/dns/what-is-dns/)
 
 ![](/img/wc-tail.GIF)
