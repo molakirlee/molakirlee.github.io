@@ -1,0 +1,31 @@
+---
+layout:     post
+title:      "2021-每周补脑2nd"
+subtitle:   ""
+date:       2021-01-23 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+
+
+### 语录
+
+
+### 言论
+1. 要么是用户控制程序，要么是程序控制用户。-- [《Keep control of your computing, so it doesn't control you!》理查德·斯托曼](https://www.gnu.org/philosophy/keep-control-of-your-computing.en.html)
+1. C 语言很保守，变化和增长非常缓慢。这其实是一项吸引人的功能，开发人员常常低估了它。--[《Why Aren't There C Conferences?》](https://nullprogram.com/blog/2018/11/21/)
+
+
+### 有趣
+1. 自从1996年以来，软件领域几乎所有东西都是巧妙地重新包装和重新设计了先前的发明。为什么1996年以后，软件技术突然停止了进展？1996年到底发生了什么？Frank Ruan 认为原因就是互联网开始繁荣。突然之间，程序员有史以来第一次可以迅速致富，大量聪明的有抱负的人涌入了硅谷。但是，你不能在创业公司做研究，基础技术需要很长时间酝酿，并且风险很大。合理的商业计划是利用 VC 的资金，将其投入到最优秀的程序员，让他们改进当前糟糕的技术，然后兑现获利。创业公司没有发明基础技术的时间。如今，只有像 Google / Facebook / Amazon / Microsoft 这样的大型公司才有金钱和时间来创造新技术，但是他们似乎只对以最小的破坏性方式解决自己的问题感兴趣。——Frank Ruan
+
+![](/img/wc-tail.GIF)

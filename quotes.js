@@ -701,6 +701,7 @@ var quotes = [
 '一直在慢慢变好，坚持寻找心中最让自己舒适的一种活法，才是给自己最好的礼物。',
 '没有人能够定义我们该怎么活，你想怎么活自己说了算。',
 'Expect the best, plan for the worst, and prepare to be surprised. ',
+'Just don’t be disappointed if there’s not a pot of gold at the end of the rainbow.',
 '才情高超，清越脱俗。'
 ]
 
