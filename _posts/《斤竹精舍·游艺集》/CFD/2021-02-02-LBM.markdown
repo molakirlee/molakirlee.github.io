@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "LBM Lattice Boltzmann"
+subtitle:   ""
+date:       2021-02-02 07:58:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - CFD
+    - 2021
+
+
+---
+
+### 参考资料
+1. [Lattice Boltzmann Theory](https://iainhaslam.com/monplace/lbm-theory/)
+1. [exolete: Lattice Boltzmann Matlab Scripts](https://exolete.com/lbm/)
+1. [Discrete lattice effects on the forcing term in the lattice Boltzmann method (about gravity)]()
+1. [Book: Lattice Boltzmann Method Fundamantals and Engineering Applications with Computer Codes second Edition A.A.Mohamad (2019)]()
+
+
+
+![](/img/wc-tail.GIF)
