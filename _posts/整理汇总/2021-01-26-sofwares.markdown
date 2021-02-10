@@ -20,5 +20,6 @@ tags:
 1. [天若ORC(胡萝卜周)](https://carrot.ctfile.com/fs/11269771-331359271)
 1. [ToDesk](https://www.todesk.com/download.html)
 1. [Youtube视频下载：findyoutube](findyoutube.net)，[greasyfork脚本](https://greasyfork.org/zh-CN/scripts/8426)
+1. 图片数据读取：getdata graph digitizer 破解版。教程参见:[Getdata Dragh Digitizer完整详解版教程](https://wenku.baidu.com/view/616d1fbc02d276a200292e9e.html)
 
 ![](/img/wc-tail.GIF)
