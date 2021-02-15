@@ -16,6 +16,10 @@ tags:
 
 参考阅读：
 1. [sob - 隐式溶剂模型下溶解自由能和体系自由能的计算](http://bbs.keinsci.com/thread-3345-1-1.html)
+1. [sob - 通过SMD溶剂模型描述离子液体溶剂环境的方法](http://sobereva.com/431)
+1. [keinsci - 计算溶剂下吉布斯自由能](http://bbs.keinsci.com/thread-2289-1-1.html)
+1. [keinsci - 读完博文“谈谈隐式溶剂模型下溶解自由能和体系自由能的计算”后几个问题的请教](http://bbs.keinsci.com/thread-10535-1-1.html|)
+
 
  
 ![](/img/wc-tail.GIF)

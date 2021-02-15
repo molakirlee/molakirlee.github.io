@@ -88,4 +88,7 @@ tags:
 1. summary
 1. significants(展望)
 
+### 参考资料
+1. [S. Keshav: 如何阅读科研论文](https://blog.csdn.net/qianlong4526888/article/details/11269129)
+
 ![](/img/wc-tail.GIF)

@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "2021-每周补脑4th"
+subtitle:   ""
+date:       2021-02-13 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+
+### 言论
+1. These posts bring me to the realization that you should never go above and beyond for a company that you don’t own. Just show up, do the bare minimum to meet expectations, finish your 8 hour shift and go home and enjoy quality time with your family. This way when you get laid-off there is nothing to cry for. You can always find an occupation, but you cannot get back the time that you dedicated to fulfill someone else’s dreams.
+1. In war, resolution; in defeat, defiance; in victory, magnanimity; in peace, goodwill.——Winston S. Churchill
+
+
+### 有趣
+1. [我在硅谷的9年](https://eduardosasso.co/blog/working-in-silicon-valley/)
+1. [A letter to myself as a fresh software engineer](https://www.florio.dev/20200328-letter-to-myself/)
+1. [Inside Netflix’s Project Griffin: The Forgotten History Of Roku Under Reed Hastings](https://www.fastcompany.com/3004709/inside-netflixs-project-griffin-forgotten-history-roku-under-reed-hastings)
+
+![](/img/wc-tail.GIF)
