@@ -27,5 +27,11 @@ tags:
 1. [Inside Netflix’s Project Griffin: The Forgotten History Of Roku Under Reed Hastings](https://www.fastcompany.com/3004709/inside-netflixs-project-griffin-forgotten-history-roku-under-reed-hastings)
 1. [What does a Director of Engineering do?](https://www.hashtagcoder.dev/blog/director-of-engineering)
 1. [開箱 猴齊天 之 秋水閣--自力自地自建2年圖文長 請耐心看完](https://www.mobile01.com/topicdetail.php?f=360&t=5855017)
+1. [No Meetings, No Deadlines, No Full-Time Employees](https://sahillavingia.com/work)
+1. [Building a PC:自己攒台机](https://blog.codinghorror.com/building-a-pc-part-i/)
+
+### 奇技淫巧
+1. [Avatarify:一张头像照片就可以生成人物开口讲话的视频](https://github.com/alievk/avatarify)
+1. [Learning-to-See-in-the-Dark:将一片漆黑的照片还原成有光时的样子](https://github.com/cchen156)
 
 ![](/img/wc-tail.GIF)

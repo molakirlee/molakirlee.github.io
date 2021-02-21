@@ -14,12 +14,30 @@ tags:
 
 ---
 
-**感谢Supernova的支持**
+**特别鸣谢Supernova**
+
+### 办公
+###### 文字识别
 
 1. [雨梦OCR文字提取](https://blog.csdn.net/bowenqiu/article/details/82149392)
 1. [天若ORC(胡萝卜周)](https://carrot.ctfile.com/fs/11269771-331359271)
+
+###### 远程控制
 1. [ToDesk](https://www.todesk.com/download.html)
+
+### 视频下载
 1. [Youtube视频下载：findyoutube](findyoutube.net)，[greasyfork脚本](https://greasyfork.org/zh-CN/scripts/8426)
+
 1. 图片数据读取：getdata graph digitizer 破解版。教程参见:[Getdata Dragh Digitizer完整详解版教程](https://wenku.baidu.com/view/616d1fbc02d276a200292e9e.html)
+###### 文本内容检
+1. [DocFetcher](https://www.zhihu.com/question/20237918)。
+1. FileLocator Pro 最大的问题是索引文件太占空间，比windows自带的索引大几倍；
+1. AnyText最大的问题，是后台更新索引（索引文件位置不能自定义，只在C盘）太频繁，是全部文件全文比对，而不是只检测有变化的文件，带来的问题：
+1）拖慢整机性能，2）过度消耗SSD寿命3）经常占用文件句柄，编辑或清理时时有撞车;
+
+### 音频视频
+1. 飞熊影视
+1. [jsoso音乐](http://music.jsososo.com/#/)
+
 
 ![](/img/wc-tail.GIF)

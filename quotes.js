@@ -702,6 +702,7 @@ var quotes = [
 '没有人能够定义我们该怎么活，你想怎么活自己说了算。',
 'Expect the best, plan for the worst, and prepare to be surprised. ',
 'Just don’t be disappointed if there’s not a pot of gold at the end of the rainbow.',
+'The best love is the kind that awakens the soul, and makes us reach for more.',
 '才情高超，清越脱俗。'
 ]
 
