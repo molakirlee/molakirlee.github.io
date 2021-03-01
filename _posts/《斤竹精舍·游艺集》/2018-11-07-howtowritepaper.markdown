@@ -65,7 +65,15 @@ results:
 1. It indicate ... --> These results indicate ...
 1. expound --> elucidate
 1. proven --> indicate, show, demonstrate
-1. 
+1. 减少代词使用频率，能直接说的就直接说
+1. 如果and前后的n都有adj的话，adj最好是递进关系
+1. 说话一定要讲全，该有adj的地方要有adj
+1. 分开说更清楚的东西不要合着说
+1. 没必要说的不要说，废话了不好，简洁明了
+1. because等原因的从句能合并的就合并
+1. 酌情考虑是要概括说还是详细说
+1. 靠后面的时候描述现象而非过多细节
+
 
 ### 《从0开始写Paper的10条“奥义》
 ##### 前言
