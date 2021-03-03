@@ -73,6 +73,14 @@ results:
 1. because等原因的从句能合并的就合并
 1. 酌情考虑是要概括说还是详细说
 1. 靠后面的时候描述现象而非过多细节
+1. The effect of ... is not obvious --> ...does not significantly affect
+1. and语句能合并则合并，如the modification of ... make ... and ... vary with --> the hydrophobicity of ... change with ...
+1. very similar trend during ... --> almost identical ...
+1. We ... A by B --> To A, we B
+1. effect of --> effect to
+1. 逐步推进的句子变为一句后说清楚
+1. 
+1. 
 
 
 ### 《从0开始写Paper的10条“奥义》
