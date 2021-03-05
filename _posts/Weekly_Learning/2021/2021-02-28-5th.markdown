@@ -30,7 +30,9 @@ tags:
 1. 看到抽象的东西，应该尽量使它变得具体；看到具体的东西，应该尽量使它变得抽象。——李敖
 1. 创业公司不要专注于创造产品，而要专注于解决问题。——[《Why Your Startup Needs to Build the Product Your Customers Aren’t Expecting》](https://jproco.medium.com/why-your-startup-needs-to-build-the-product-your-customers-arent-expecting-8d769054db53)
 1. 创新型的创业公司，一开始的目标用户应该是对新产品最有兴趣的那2％的人群，并设法与剩下的那 98％的人建立一座桥梁，把那些人推向未来。。——[《Why Your Startup Needs to Build the Product Your Customers Aren’t Expecting》](https://jproco.medium.com/why-your-startup-needs-to-build-the-product-your-customers-arent-expecting-8d769054db53)
-
+1. 不要轻易说出自己痛苦，能体会的人很少，看热闹的人很多。也不要轻易炫耀，会替你感到高兴的人很少，等着看你最后下场的人很多。
+1. Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.——Antoine de Saint-Exupery
+1. 公司刚成立时，需要瑞士军刀型人才。公司一旦发展壮大，需要菜刀型人才。——David Perell
 
 ### 有趣
 1. [设计模式](https://refactoringguru.cn/design-patterns)
@@ -40,6 +42,9 @@ tags:
 1. [如何根据照片判断是哪里拍摄的](https://www.secjuice.com/geolocation-osint-amateur-hour/)
 1. [美国海军电气与电子培训教材](https://archive.org/search.php?query=subject%3A%22The+Navy+Electricity+and+Electronics+Training+Series%22&sort=publicdate)
 1. Linus Torvalds每天的工作就是读Email和写Email（包括在Email里写伪代码）。
+1. [网页设计风格的变化](https://www.webdesignmuseum.org/)
+1. [财政部用来调节国有金融企业工资总额的arctan函数好在哪里](https://mp.weixin.qq.com/s/ig_FTMp6XbbSE7q-XR70fA)
+
 ### 观点
 ###### [领导力的阶段The Culture of Leadership](https://medium.com/@benmappen/the-culture-of-leadership-eb424b0726ef)
 1. 第一阶段：熟悉自己的业务，知道问题在哪里，怎样可以解决。
@@ -49,11 +54,17 @@ tags:
 1. 不要试图提及你掌握的所有技能，这会给人一种"万事通"的感觉。
 1. 将你的技能分成三个等级："精通"（proficient in）、"有实战经验"（experienced with）、"熟悉"（familiar with）。
 1. "精通"和"有实战经验"的技能，必须提供细节，要给出项目内容和你的个人成果。
+###### Embrace, extend, and extinguish
+1. 拥抱阶段 ：开发与竞争产品基本兼容的软件，或实施公共标准。
+1. 扩展阶段：添加和推广竞争对手或标准不支持的功能。
+1. 扑灭阶段：由于市场份额的扩展，添加的功能成为事实上的标准时，再将竞争对手边缘化
+
 
 ### 奇技淫巧
 1. [自动生成人脸：Deep Fake Videos](https://myvoiceyourface.com/)
 1. [设计工具收集](https://nodesign.dev/)
-
+1. [SQL Teaching](https://www.sqlteaching.com/)
+1. [数据可视化工具目录](https://datavizcatalogue.com/ZH/)
 
 ### 荐书
 

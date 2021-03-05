@@ -20,6 +20,7 @@ tags:
 ###### 文字识别
 1. [雨梦OCR文字提取](https://blog.csdn.net/bowenqiu/article/details/82149392)
 1. [天若ORC(胡萝卜周)](https://carrot.ctfile.com/fs/11269771-331359271)
+1. [基于python:EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
 ###### 屏幕截图
 1. [屏幕截图软件](https://github.com/flameshot-org/flameshot)
@@ -41,6 +42,7 @@ tags:
 1. AnyText最大的问题，是后台更新索引（索引文件位置不能自定义，只在C盘）太频繁，是全部文件全文比对，而不是只检测有变化的文件，带来的问题：
 1）拖慢整机性能，2）过度消耗SSD寿命3）经常占用文件句柄，编辑或清理时时有撞车;
 
+
 ###### 其他
 1. [分析工具：决策树等](http://www.ruanyifeng.com/blog/2020/06/weekly-issue-110.html)
 ### 音频视频
@@ -49,5 +51,7 @@ tags:
 1. [音频在线处理](https://audiomass.co/)
 1. [视频去背景](https://www.unscreen.com/)
 
+### kindle
+1. [RSS推送：WhereMyLife](https://wheremylife.cn/)
 
 ![](/img/wc-tail.GIF)
