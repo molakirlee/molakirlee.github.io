@@ -44,6 +44,8 @@ tags:
 1. Linus Torvalds每天的工作就是读Email和写Email（包括在Email里写伪代码）。
 1. [网页设计风格的变化](https://www.webdesignmuseum.org/)
 1. [财政部用来调节国有金融企业工资总额的arctan函数好在哪里](https://mp.weixin.qq.com/s/ig_FTMp6XbbSE7q-XR70fA)
+1. [故宫博物馆馆藏总目](https://zm-digicol.dpm.org.cn/)
+
 
 ### 观点
 ###### [领导力的阶段The Culture of Leadership](https://medium.com/@benmappen/the-culture-of-leadership-eb424b0726ef)

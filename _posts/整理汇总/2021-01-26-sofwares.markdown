@@ -50,6 +50,8 @@ tags:
 1. [jsoso音乐](http://music.jsososo.com/#/)
 1. [音频在线处理](https://audiomass.co/)
 1. [视频去背景](https://www.unscreen.com/)
+1. [UTM: iso虚拟机运行win](https://github.com/utmapp/UTM)
+1. [让老照片动起来](https://www.myheritage.com/deep-nostalgia)
 
 ### kindle
 1. [RSS推送：WhereMyLife](https://wheremylife.cn/)
