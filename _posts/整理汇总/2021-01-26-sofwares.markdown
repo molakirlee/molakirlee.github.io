@@ -52,6 +52,7 @@ tags:
 1. [视频去背景](https://www.unscreen.com/)
 1. [UTM: iso虚拟机运行win](https://github.com/utmapp/UTM)
 1. [让老照片动起来](https://www.myheritage.com/deep-nostalgia)
+1. [启动盘制作: Ventoy](https://www.ventoy.net/cn/index.html)
 
 ### kindle
 1. [RSS推送：WhereMyLife](https://wheremylife.cn/)
