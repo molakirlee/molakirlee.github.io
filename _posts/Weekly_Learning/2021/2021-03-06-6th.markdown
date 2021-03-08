@@ -21,16 +21,23 @@ tags:
 1. [Cool tube技术](https://newatlas.com/energy/cold-tube-cooling-air-conditioner/)
 1. [木质玻璃](https://phys.org/news/2020-08-glass-like-wood-insulates-tough-blocks.html)
 1. [Enabling E-Textile Microinteractions: Gestures and Light through Helical Structures](https://ai.googleblog.com/2020/05/enabling-e-textile-microinteractions.html)
-
+1. [With a Simple Piece of Paper, Engineers Create Self-Powered, Wireless Keyboard](https://www.smithsonianmag.com/smart-news/your-next-digital-tablet-could-be-made-paper-180975727/)
 
 ### 言论
 1. It takes 50 gallons of sap to make one gallon of syrup. So whenever I feel like I don’t have enough ideas to create something meaningful, I go collect more experiences and spend time processing them by writing and talking to friends. ——[Expression is Compression](https://perell.com/essay/expression-is-compression/)
+1. 你的个人护城河是一组独特的且不断累积的竞争优势，别人很难学习，或者很难做到。如果你有了它，你会让自己变得无法取代。你必须找到属于你的特殊东西，而且这些东西会随着时间的流逝而增加价值。漫画家斯科特·亚当斯（Scott Adams）曾经提过一种建立个人护城河的方法，就是找到自己最擅长的2个～3个事物的交集。比如，他既不是最好的漫画家，也不是最好的作家，也不是最好的企业家，但他可以是最好的商业类漫画短文作者，这就是他的护城河。总之，你要发现对你来说容易而对他人却很难的事物，并在这些事物上变得出色，然后利用它来积累社会和金融资本。——Frank Ruan
+1. 理性的人使自己适应世界，不理性的人不愿意妥协，坚持要求世界适应他的方式。因此，一切进步都取决于不理性的人。——萧伯纳
 
 ### 有趣
 1. [Entropy Explained, With Sheep](https://aatishb.com/entropy/)
 1. [熵增理论为什么让好多人一下子就领悟了？](https://www.zhihu.com/question/27343287/answer/1184500866?utm_source=wechat_session&utm_medium=social&utm_oi=880020435947884544&utm_content=group1_Answer&utm_campaign=shareopn)
 1. [The life-changing love of one of the 20th century’s greatest physicists](https://theconversation.com/the-life-changing-love-of-one-of-the-20th-centurys-greatest-physicists-51229)
 1. [Georgia Tech physicists unlock the secret to perfect wok-tossed fried rice](https://arstechnica.com/science/2020/02/georgia-tech-physicists-unlock-the-secret-to-perfect-wok-tossed-fried-rice/)
+1. [Leaving Google: Five Years On](https://theartofmachinery.com/2020/08/04/leaving_google.html)
+1. [任正非华为战略预备队学员和新员工座谈会讲话，你们今天桃李芬芳，明天是社会的栋梁](https://zhuanlan.zhihu.com/p/341463553)
+1. [Production testing with dark canaries](https://engineering.linkedin.com/blog/2020/production-testing-with-dark-canaries)
+1. [Startup strategy is like Kung Fu](https://blog.asmartbear.com/kung-fu.html)
+1. [Mark Seemann:We need young programmers; we need old programmers](https://blog.ploeh.dk/2020/09/14/we-need-young-programmers-we-need-old-programmers/)
 
 ### 观点
 ###### [马斯克助力谈加薪](https://buzzorange.com/techorange/2019/07/12/does-your-boss-really-need-you/)
@@ -45,6 +52,7 @@ tags:
 
 
 ### 奇技淫巧
+
 
 ### 荐书
 
