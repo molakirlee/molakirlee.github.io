@@ -7,7 +7,9 @@
 1. [Scientific American](https://www.scientificamerican.com)
 
 ###### 科技网志
+1. [科普中国](https://www.kepuchina.cn/)
 1. [Phys Org](https://phys.org/page2.html)
 1. [Gizmodo](https://gizmodo.com/)
+
 
 ![](/img/qrcode_wechat.jpg)
