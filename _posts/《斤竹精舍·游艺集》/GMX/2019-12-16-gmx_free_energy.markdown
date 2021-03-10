@@ -49,7 +49,11 @@ ABF is quite different than either of the other two methods. It is a free energy
 1. [PNAS - Calculation of absolute protein–ligand binding free energy from computer simulations](https://www.pnas.org/content/pnas/102/19/6825.full.pdf)
 2. [Calculation of Absolute Protein-Ligand Binding Affinity Using Path and Endpoint Approaches](https://core.ac.uk/download/pdf/82377825.pdf)
 
-###### 
+###### FMAP
 1. [Nature Protocols 计算配体结合自由能的新工具FMAP](https://www.wecomput.com/nature-protocols-a-new-tool-for-calculating-ligand-binding-free-energy-fmap/)
+1. [FMAP新闻](https://www.sohu.com/a/422998736_120335697)
+
+### 其他相关阅读
+1. [杂谈自由能计算，PMF，伞形抽样，WHAM](http://bbs.keinsci.com/thread-13225-1-1.html)
 
 ![](/img/wc-tail.GIF)

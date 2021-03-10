@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gaussian 键能计算"
+title:      "Gaussian 键能·弱相互作用计算"
 subtitle:   ""
 date:       2021-02-01 20:38:00
 author:     "XiLock"
@@ -49,6 +49,22 @@ tags:
 1. 强度的衡量参考:[通过柔性力常数考察键的强度](http://sobereva.com/364)
 
 
+### 弱相互作用计算
+
+#### 相互作用力分析
+计算配合物主体对客体分子之间是否存在相互作用力（氢键等）以及类型、大小：  
+1. [谈谈“计算时是否需要加DFT-D3色散校正？”](http://sobereva.com/413)  
+1. [DFT-D色散校正的使用](http://sobereva.com/210)  
+1. [乱谈DFT-D](http://sobereva.com/83)  
+1. [大体系弱相互作用计算的解决之道](http://sobereva.com/214)  
+1. [谈谈BSSE校正与Gaussian对它的处理](http://sobereva.com/46)  
+1. [Multiwfn支持的弱相互作用的分析方法概览-考察类型、特征、本质](http://sobereva.com/252)  
+1. [使用Multiwfn研究分子动力学中的弱相互作用](http://sobereva.com/186)
+1. [探究18碳环独特的分子间相互作用与pi-pi堆积特征](http://sobereva.com/572)
+
+###### 溶剂环境
+1. 在气相下做counterpoise，把BSSE校正能加到溶液下算的相互作用能上.或在液相优化的结构上，直接#p  m062x/6-31+g(d,p) counterpoise =2 得到BSSE校正能.
+1. 在溶液下算两者间相互作用能，直接复合物的能量减单体能量.
 ### 参考资料
 
 

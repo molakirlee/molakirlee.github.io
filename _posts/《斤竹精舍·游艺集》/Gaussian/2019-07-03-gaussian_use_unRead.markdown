@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gaussian使用笔记 待阅读"
+title:      "Gaussian使用笔记 整理&待阅读"
 subtitle:   ""
 date:       2019-07-03 20:38:00
 author:     "XiLock"
@@ -14,23 +14,20 @@ tags:
 
 ---
 
+### 杂整理
+1. [坚持使用B3LYP算有机体系的人的下场](http://bbs.keinsci.com/thread-12773-1-1.html)：用M06-2X算有机体系极为推荐，3LYP算有机体系早该淘汰了；鼓励使用def或def2基组代替尺寸相近的Pople基组。
+1. 室温几个小时反应完的反应，能垒应该是90kJ/mol左右。
+
 ### 基础资料
 1. [绎模科技](http://www.emoltech.com/?p=43&mdtp=2)
 
 ### 笔记
-#### 相互作用力分析
-计算配合物主体对客体分子之间是否存在相互作用力（氢键等）以及类型、大小：  
-1. [谈谈“计算时是否需要加DFT-D3色散校正？”](http://sobereva.com/413)  
-1. [DFT-D色散校正的使用](http://sobereva.com/210)  
-1. [乱谈DFT-D](http://sobereva.com/83)  
-1. [大体系弱相互作用计算的解决之道](http://sobereva.com/214)  
-1. [谈谈BSSE校正与Gaussian对它的处理](http://sobereva.com/46)  
-1. [Multiwfn支持的弱相互作用的分析方法概览-考察类型、特征、本质](http://sobereva.com/252)  
-1. [使用Multiwfn研究分子动力学中的弱相互作用](http://sobereva.com/186)
-1. [探究18碳环独特的分子间相互作用与pi-pi堆积特征](http://sobereva.com/572)
-
 #### 热力学基本知识  
 1. [两篇热力学数据计算的入门介绍文章](http://bbs.keinsci.com/thread-123-1-1.html)  
 1. [Shermo：计算气相分子配分函数和热力学数据的简单程序](http://sobereva.com/315)  
+
+#### 酸碱pK
+1. [怎样计算一个有机分子中质子供体的酸性和质子受体的碱性?](http://bbs.keinsci.com/thread-19043-1-1.html)
+1. [使用Multiwfn的定量分子表面分析功能预测反应位点、分析分子间相互作用](http://sobereva.com/159)
 
 ![](/img/wc-tail.GIF)
