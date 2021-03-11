@@ -34,7 +34,7 @@ tags:
 1. 需要在src文件夹下执行make命令后才会生成msi2lmp.exe，否则无法找到。 
 1. 不能把*.car和*.mdf文件和第二步得到的msi2lmp.exe拷贝到自己建的单独文件夹中，虽然有人说可以这么做，但实测发现会报错“/frc_files/cvff.frc cannot”。 
 1. 第三步只生成*.data文件，并不像‘有些文档’所说的会生成两个文件。具体原因可能是版本不同？
-1. 命令中“I”是罗马字母1，不是字符“|”或1。 
+1. 命令中“I”是罗马字母1，不是字符“$|$”或1。 
 1. 具体命令的含义参见/lammps-30Jul16/tools/msi2lmp/中的README。 
 1. 因为msi2lmp很久没更新了，有些力场参数之类的可能没有，调用时会报错：`unable to find …… data`（原因见参考资料）。如`msi2lmp Unable to find bond data for cp n`就是说找不到这两种原子的成键信息，但xilock检查生成的data文件后发现成键信息是有的，但成键参数都是0，所以添加上成键参数就行了（其他情况具体分析）。
 1. 如果是直接对晶胞进行处理，则需要先`make P1`来吧结构对称性去掉，否则会报错：“Msi2LMP is not equipped to handle symmetry operations”
