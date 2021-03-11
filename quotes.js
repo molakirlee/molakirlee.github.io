@@ -704,6 +704,7 @@ var quotes = [
 'Just don’t be disappointed if there’s not a pot of gold at the end of the rainbow.',
 'The best love is the kind that awakens the soul, and makes us reach for more.',
 '爱所有人，信少数人，不辜负任何人。',
+'真人之息以踵，众人之息以喉。屈服者，其嗌言若哇。其耆欲深者，其天机浅。——《庄子·大宗师》',
 '才情高超，清越脱俗。'
 ]
 
