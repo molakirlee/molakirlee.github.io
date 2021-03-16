@@ -66,6 +66,6 @@ tags:
 1. [RSS推送：WhereMyLife](https://wheremylife.cn/)
 
 ### 其他
-1. 
+1. [TabFloater](https://www.tabfloater.io/)
 
 ![](/img/wc-tail.GIF)

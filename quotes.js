@@ -705,6 +705,7 @@ var quotes = [
 'The best love is the kind that awakens the soul, and makes us reach for more.',
 '爱所有人，信少数人，不辜负任何人。',
 '真人之息以踵，众人之息以喉。屈服者，其嗌言若哇。其耆欲深者，其天机浅。——《庄子·大宗师》',
+'Storms make trees take deeper roots.',
 '才情高超，清越脱俗。'
 ]
 

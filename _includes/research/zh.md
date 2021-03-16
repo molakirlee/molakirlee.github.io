@@ -10,6 +10,9 @@
 1. [科普中国](https://www.kepuchina.cn/)
 1. [Phys Org](https://phys.org/page2.html)
 1. [Gizmodo](https://gizmodo.com/)
+1. [Medium: Explore new perspectives](https://medium.com/)
 
+###### 其他社交媒体
+1. [Buzzing](https://www.buzzing.cc/)
 
 ![](/img/qrcode_wechat.jpg)
