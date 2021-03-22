@@ -38,6 +38,7 @@ tags:
 1. [Production testing with dark canaries](https://engineering.linkedin.com/blog/2020/production-testing-with-dark-canaries)
 1. [Startup strategy is like Kung Fu](https://blog.asmartbear.com/kung-fu.html)
 1. [Mark Seemann:We need young programmers; we need old programmers](https://blog.ploeh.dk/2020/09/14/we-need-young-programmers-we-need-old-programmers/)
+1. [哥大CV博士总结五年读博生涯，即将入职新加坡国立大学任助理教授](https://www.jiqizhixin.com/articles/2021-02-09-8)
 
 ### 观点
 ###### [马斯克助力谈加薪](https://buzzorange.com/techorange/2019/07/12/does-your-boss-really-need-you/)

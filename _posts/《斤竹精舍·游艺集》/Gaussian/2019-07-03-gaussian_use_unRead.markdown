@@ -15,7 +15,7 @@ tags:
 ---
 
 ### 杂整理
-1. [坚持使用B3LYP算有机体系的人的下场](http://bbs.keinsci.com/thread-12773-1-1.html)：用M06-2X算有机体系极为推荐，3LYP算有机体系早该淘汰了；鼓励使用def或def2基组代替尺寸相近的Pople基组。
+1. [坚持使用B3LYP算有机体系的人的下场](http://bbs.keinsci.com/thread-12773-1-1.html)：用M06-2X算有机体系极为推荐，B3LYP算有机体系早该淘汰了；鼓励使用def或def2基组代替尺寸相近的Pople基组。
 1. 室温几个小时反应完的反应，能垒应该是90kJ/mol左右。
 
 ### 基础资料

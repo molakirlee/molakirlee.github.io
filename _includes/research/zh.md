@@ -11,6 +11,7 @@
 1. [Phys Org](https://phys.org/page2.html)
 1. [Gizmodo](https://gizmodo.com/)
 1. [Medium: Explore new perspectives](https://medium.com/)
+1. [机器之心](https://www.jiqizhixin.com/industry)
 
 ###### 其他社交媒体
 1. [Buzzing](https://www.buzzing.cc/)
