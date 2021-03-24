@@ -16,6 +16,8 @@ tags:
 
 ###重要
 1. [学习量子化学计算必看的博文 - from 谈谈学量子化学如何正确地入门](http://sobereva.com/355)
+1. [Gaussian 常见报错及解决方法；新手求助报错时的注意事项](http://bbs.keinsci.com/thread-4829-1-1.html)
+1. [Gaussian error messages](https://docs.computecanada.ca/wiki/Gaussian_error_messages)
 
 ### 杂整理
 1. [坚持使用B3LYP算有机体系的人的下场](http://bbs.keinsci.com/thread-12773-1-1.html)：用M06-2X算有机体系极为推荐，B3LYP算有机体系早该淘汰了；鼓励使用def或def2基组代替尺寸相近的Pople基组。

@@ -52,7 +52,7 @@ screen命令更好用一些，但是需要额外安装。
 1. 列出当前所有的session： `screen -ls`
 1. 回到yourname这个session： `screen -r yourname`
 1. detach当前session：ctrl + a + d
-1. 强行关闭当前的 window： ctrl + a + k。之后该会话会变为dead状态，使用screen -wipe命令清除dead的命令。
+1. 强行关闭当前的 window: `screen -X -S yourname quit`
 
 
 ![](/img/wc-tail.GIF)
