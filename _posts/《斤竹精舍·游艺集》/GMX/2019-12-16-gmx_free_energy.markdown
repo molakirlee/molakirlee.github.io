@@ -55,5 +55,6 @@ ABF is quite different than either of the other two methods. It is a free energy
 
 ### 其他相关阅读
 1. [杂谈自由能计算，PMF，伞形抽样，WHAM](http://bbs.keinsci.com/thread-13225-1-1.html)
+1. [接上：从文献中总结的三种PMF计算方法](http://bbs.keinsci.com/thread-13969-1-1.html)
 
 ![](/img/wc-tail.GIF)

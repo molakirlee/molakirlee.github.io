@@ -1,0 +1,38 @@
+---
+layout:     post
+title:      "2021-每周补脑7th"
+subtitle:   ""
+date:       2021-03-20 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+
+### 言论
+1. 小的、渐进式的创新可以使行业主导企业保持领先地位，但是激进的创新可以使新公司超越行业主导企业，这就叫"跨越式发展"。-- Wikipedia
+
+### 有趣
+1. [A gentle introduction to multithreading](https://www.internalpointers.com/post/gentle-introduction-multithreading)
+1. [这段涉及百度的AI秘史，说明AI注定是一场中美的“新军备竞赛”](https://posts.careerengine.us/p/605412f82e61cf72e86dc02c)
+1, [Youtube:History of the Earth](https://www.youtube.com/channel/UC_aOteuWIY8ITg7DQQspG1g/videos)
+1. [一道物理题：A Solution to the RWP for Exam 1 - Stealing Power](https://users.physics.unc.edu/~deardorf/phys25/rwp/exam1rwpsolution.html)
+
+### 观点
+
+
+
+### 奇技淫巧
+
+
+### 荐书
+
+
+![](/img/wc-tail.GIF)

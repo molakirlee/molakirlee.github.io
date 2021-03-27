@@ -27,7 +27,7 @@ $$D = E_{lost}  / 2π E_{stored}$$
 通过记录在共振频率振动的芯片来测量其能量消耗。仪器也提供芯片在基频和倍频（例如15、25和35MHz）之间切换时的额外信息。 通过在多个频率下测量得到的数据，并应用QSense软件Dfind中的粘弹性模型（例如Voigt模型）来详细表征。可以通过特定的拟合得到软性吸附膜的粘度、弹性和准确的厚度。
 
 ### 参考资料：
-1.[耗散型石英晶体微天平（QCM-D）](https://www.biolinchina.com/measurements/qcm-d)
+1. [耗散型石英晶体微天平（QCM-D）](https://www.biolinchina.com/measurements/qcm-d)
 1. [Technology Note:Quartz Crystal Microbalance with Dissipation (QCM-D)](https://cdn2.hubspot.net/hubfs/516902/Pdf/QSense/Technology%20Notes/QS-TN-1-Quartz-Crystal-Microbalance-with-Dissipation.pdf?t=1540199398590)
 1. [如何用QCM-D来表征粘弹性](https://www.biolinchina.com/676.html)
 
