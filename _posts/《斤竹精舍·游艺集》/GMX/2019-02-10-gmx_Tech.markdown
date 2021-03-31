@@ -66,6 +66,8 @@ gmx trjconv -f md.trr -s md.tpr -o 3000ps.gro -dump 3000
 ```
 就可以提取最接近3000ps的那一帧  
 
-
+#### 质心间距计算
+1. `gmx distance -s md.tpr -f md.xtc -selrpos mol_cog -seltype mol_cog -n -oxyz d1 -select "cog of group "PEEK" plus com of group "Lipids""`
+1. 如果用VMD，可参考[gromacs如何提取数据做距离随时间变化的函数图？](http://bbs.keinsci.com/thread-6343-1-1.html)
 
 ![](/img/wc-tail.GIF)
