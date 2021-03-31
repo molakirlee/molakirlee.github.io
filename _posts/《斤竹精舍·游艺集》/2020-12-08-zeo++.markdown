@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "多孔材料分析 zeo++"
+title:      "多孔材料分析 zeo++ & porE"
 subtitle:   ""
 date:       2020-12-08 19:38:00
 author:     "XiLock"
@@ -13,7 +13,8 @@ tags:
 
 ---
 
-### 指令
+### zero++
+#### 指令
 
 ###### 查看帮助
 ```
@@ -83,12 +84,14 @@ PONAV_A^3: 0 PONAV_Volume_fraction: 0 PONAV_cm^3/g: 0
 ./network -v1 EDI.cssr
 ```
 
-### 参考资料
+#### 参考资料
 1. [Zeo++教程](https://hp-d.top/2020/11/22/zeo/)
 1. [Using Zeo++](http://www.zeoplusplus.org/examples.html)
 1. [Cases](http://www.zeoplusplus.org/examples.html)
 1. [Molecular Dynamics Simulations of Gas Selectivity in Amorphous Porous Molecular Solids](https://livrepository.liverpool.ac.uk/2006882/1/Jiang,%20Shan_Molecular%20Dynamics_Simulation%20paper_17_10_2013.pdf)
 
+### porE
 
+1. [Project description](https://pypi.org/project/porE/)
 
 ![](/img/wc-tail.GIF)
