@@ -35,4 +35,9 @@ tags:
 1. [怎样计算一个有机分子中质子供体的酸性和质子受体的碱性?](http://bbs.keinsci.com/thread-19043-1-1.html)
 1. [使用Multiwfn的定量分子表面分析功能预测反应位点、分析分子间相互作用](http://sobereva.com/159)
 
+#### 自旋多重度确定
+1. [What are the alpha orbitals and beta orbitals and their importance in DFT calculations?](https://www.researchgate.net/post/What_are_the_alpha_orbitals_and_beta_orbitals_and_their_importance_in_DFT_calculations)
+1. [关于双自由基算法求助](http://bbs.keinsci.com/thread-4520-1-1.html)
+1. [如何计算gaussian的自旋多重度](http://blog.sciencenet.cn/home.php?mod=space&uid=485752&do=blog&id=1115385)
+
 ![](/img/wc-tail.GIF)
