@@ -20,6 +20,13 @@ tags:
 1. [Gaussian error messages](https://docs.computecanada.ca/wiki/Gaussian_error_messages)
 1. [计算化学中的一些常见不良写法和用词](http://sobereva.com/298)
 
+
+###### gaussian任务批量执行
+1. [使用Gaussian时的几个实用脚本和命令](http://sobereva.com/258)
+
+在每个后续任务的开头加上`--Link1--`可以实现直接在输入文件里定义多步任务.
+
+
 ### 杂整理
 1. [坚持使用B3LYP算有机体系的人的下场](http://bbs.keinsci.com/thread-12773-1-1.html)：用M06-2X算有机体系极为推荐，B3LYP算有机体系早该淘汰了；鼓励使用def或def2基组代替尺寸相近的Pople基组。
 1. 室温几个小时反应完的反应，能垒应该是90kJ/mol左右。

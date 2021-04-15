@@ -62,9 +62,41 @@ tags:
 1. [使用Multiwfn研究分子动力学中的弱相互作用](http://sobereva.com/186)
 1. [探究18碳环独特的分子间相互作用与pi-pi堆积特征](http://sobereva.com/572)
 
+###### 计算级别选择
+1. 特困：PM6-D3 
+1. 穷人：b3lyp-d3/6-31g*
+1. 低保：m06-2x-d3 > b3lyp-d3/6-31+g**
+1. 小康：m06-2x-d3 > b3lyp-d3/6-311+g**（可用counterpoise改进结果）
+
+根据计算能力和体系大小确定计算级别；
+优化和振动分析时完全可采用比计算能量时低1-2个档次的级别来节省时间；
+静电主导的体系在优化时不用带弥散；
+优化和振动分析不要用counterpoise；
+对于DFT-D3，def2-qzvp最理想（因为是在其基础上拟合的），没必要考虑弥散和BSSE；
+
+###### 基组选择
+几何优化：
+色散主导：may-cc-pvtz足够理想，6-311+g**一般够用，6-311g**或tzvp也能接受；
+静电主导：tzvp足矣，6-31g**或def2-svp也可以接受。
+
+单电能：
+1. 底线：DFT + 6-31+g**或ma-def2-svp；后HF + jun-cc-pvdz
+1. 还成：DFT + 6-311+g**；后HF + may-cc-pvtz
+1. 不错：DFT + ma-def2-tzvp；后HF + jun-cc-pvtz
+1. 较理想：aug-cc-pvtz
+1. 极理想：aug-cc-pvqz
+
+1. **如何使用ma-def2**：[给def2以ma-方式加弥散函数的Gaussian格式的基组定义文件（含所有def2支持的元素）](http://sobereva.com/509)
+
+###### BSSE
+1. [谈谈BSSE校正与Gaussian对它的处理](http://sobereva.com/46)
+为抵消基组误差，在原有相互作用能公式基础上加上E_BSSE（正值）进行修正。
+
 ###### 溶剂环境
 1. 在气相下做counterpoise，把BSSE校正能加到溶液下算的相互作用能上.或在液相优化的结构上，直接#p  m062x/6-31+g(d,p) counterpoise =2 得到BSSE校正能.
 1. 在溶液下算两者间相互作用能，直接复合物的能量减单体能量.
+
+
 ### 参考资料
 
 
