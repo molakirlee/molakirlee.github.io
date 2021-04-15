@@ -88,6 +88,10 @@ tags:
 
 1. **如何使用ma-def2**：[给def2以ma-方式加弥散函数的Gaussian格式的基组定义文件（含所有def2支持的元素）](http://sobereva.com/509)
 
+###### 色散校正
+1. DFT-D3常用的有零阻尼（EmpiricalDispersion=GD3）和BJ阻尼（EmpericalDispersion=GD3BJ）两种，BJ阻尼较好，但mx06-2x等明尼苏达泛函只能用零阻尼（因为其已经很很好处理中程）.
+1. DFT-D3没法体现电子结构哦的不同对色散作用的影响。例如不能体现激发态和基态的区别、金属处于不同氧化态的区别。准确区分这样的差别适合用XDM、VV10等方法表现色散作用，或用m06-2x等自身能描述色散作用的泛函.
+
 ###### BSSE
 1. [谈谈BSSE校正与Gaussian对它的处理](http://sobereva.com/46)
 为抵消基组误差，在原有相互作用能公式基础上加上E_BSSE（正值）进行修正。

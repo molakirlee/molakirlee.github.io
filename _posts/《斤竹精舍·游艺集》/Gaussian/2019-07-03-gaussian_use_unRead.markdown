@@ -14,6 +14,10 @@ tags:
 
 ---
 
+### 待阅读
+1. [静电效应主导了氢气、氮气二聚体的构型](http://sobereva.com/209)
+
+
 ###重要
 1. [学习量子化学计算必看的博文 - from 谈谈学量子化学如何正确地入门](http://sobereva.com/355)
 1. [Gaussian 常见报错及解决方法；新手求助报错时的注意事项](http://bbs.keinsci.com/thread-4829-1-1.html)
