@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "MS 使用札记"
+subtitle:   ""
+date:       2021-04-18 10:25:00
+author:     "XiLock"
+header-img: "img/in-post/2018/2018-11-07-howtowritepaper/bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - MS
+    - 2021
+
+---
+
+###### 轨迹处理：xtd-->xyz
+参见[将Material Studio的xtd轨迹文件导出为xyz轨迹文件的方法](http://sobereva.com/143)，注意，使用时轨迹文件名不能有空格。
+
+![](/img/wc-tail.GIF)
