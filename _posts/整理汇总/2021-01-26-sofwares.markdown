@@ -17,6 +17,8 @@ tags:
 **特别鸣谢Supernova**
 
 ### 办公
+1. [PDF处理](https://pdfreal.com/)
+
 ###### 文字识别
 1. [雨梦OCR文字提取](https://blog.csdn.net/bowenqiu/article/details/82149392)
 1. [天若ORC(胡萝卜周)](https://carrot.ctfile.com/fs/11269771-331359271)
