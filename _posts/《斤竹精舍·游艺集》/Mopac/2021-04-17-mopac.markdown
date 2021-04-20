@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "mopac"
+title:      "Mopac"
 subtitle:   ""
 date:       2021-04-17 09:18:00
 author:     "XiLock"

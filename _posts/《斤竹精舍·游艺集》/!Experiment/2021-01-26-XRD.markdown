@@ -16,6 +16,8 @@ tags:
 ---
 
 ### XRD
+1. []()
+
 ###### DNA XRD patten
 《Rosalind Franklin's X-ray photo of DNA as an undergraduate optical diffraction experiment》  
 这篇文章非常好，深入浅出，解决了我中学以来的困惑，等有时间翻译一下。

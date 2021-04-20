@@ -13,7 +13,7 @@ tags:
     - 2020
 
 ---
-###电场
+### 电场
 ###### 恒定电场
 对于最基础的长方体模拟盒子，在某一个方向上（x或y或z）施加一个恒定强度的电场，只需要在mdp文件中添加下面一行：
 
@@ -34,5 +34,6 @@ E-z  =  1  1.8  0
 1. [GROMACS电场的使用](https://jerkwin.github.io/2016/06/29/GROMACS%E7%94%B5%E5%9C%BA%E7%9A%84%E4%BD%BF%E7%94%A8/)
 1. [加电场模拟](http://gainstrong.net/works/menhu/2018-06-25/109.html)
 1. [gromacs加正弦交流电场或者方波电场问题](http://bbs.keinsci.com/thread-18476-1-1.html)
+1. [gmx manual 5.1 : Electric fields](https://manual.gromacs.org/documentation/5.1/user-guide/mdp-options.html#electric-fields)
 
 ![](/img/wc-tail.GIF)
