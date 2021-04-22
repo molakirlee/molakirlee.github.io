@@ -70,4 +70,8 @@ gmx trjconv -f md.trr -s md.tpr -o 3000ps.gro -dump 3000
 1. `gmx distance -s md.tpr -f md.xtc -selrpos mol_cog -seltype mol_cog -n -oxyz d1 -select "cog of group "PEEK" plus com of group "Lipids""`
 1. 如果用VMD，可参考[gromacs如何提取数据做距离随时间变化的函数图？](http://bbs.keinsci.com/thread-6343-1-1.html)
 
+#### 统计某种离子一定范围内的分子个数
+1. [[VMD] 统计某种离子一定范围内的水分子个数](http://bbs.keinsci.com/thread-1136-1-1.html)
+
+
 ![](/img/wc-tail.GIF)
