@@ -714,6 +714,7 @@ var quotes = [
 '越努力越进步越开心越自信。',
 '做颗星星，有棱有角，还会发光。',
 '努力让自己发光，对的人才会迎光而来。',
+'Failure sneaks up on you slowly, then all at once.',
 '才情高超，清越脱俗。'
 ]
 
