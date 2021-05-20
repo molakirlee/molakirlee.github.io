@@ -14,9 +14,6 @@ tags:
 
 ---
 
-test
-test
-
 ### 科技
 ###### nat. comm.中机器学习耦合计算化学
 1. 通过利用**深度迁移学习**的计算和实验数据增强材料性能预测（形成能等）：Jha, D., Choudhary, K., Tavazza, F. et al. Enhancing materials property prediction by leveraging computational and experimental data using deep transfer learning. Nat Commun 10, 5316 (2019). https://doi.org/10.1038/s41467-019-13297-w
