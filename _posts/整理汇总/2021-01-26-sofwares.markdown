@@ -16,6 +16,10 @@ tags:
 
 **特别鸣谢Supernova**
 
+### 系统
+###### 系统清理
+1. [Geek Uninstaller 绿色版](https://zhuanlan.zhihu.com/p/56932081)：堪比360的强力卸载.
+
 ### 办公
 1. [PDF处理](https://pdfreal.com/)
 
