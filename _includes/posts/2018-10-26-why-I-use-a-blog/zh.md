@@ -354,3 +354,5 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 ### 更新20210301
 使用[Link Lock](https://github.com/jstrieb/link-lock)可以为登录设置密码。会生成一个新的地址，登录后需要密码才能进入。但是该方法不能修改密码，而且一单密码忘了也就只能破解。
 
+### 更新20210522
+1. [osmos::feed 利用GitHub搭建个人RSS阅读器](https://github.com/osmoscraft/osmosfeed/blob/master/README_zh.md)
