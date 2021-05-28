@@ -38,6 +38,7 @@ tags:
 ### 观点
 1. [《99 Additional Bits of Unsolicited Advice》](https://kk.org/thetechnium/99-additional-bits-of-unsolicited-advice/)
 1. [THE PMARCA GUIDE TO STARTUPS Part 4: The only thing that matters](https://pmarchive.com/guide_to_startups_part4.html)
+1. 中国程序员的年薪已经不低了，虽然不如美国，但是一点不输给欧洲，高级程序员的收入其实要比欧洲高得多。 但只从数字看问题是不全面的，要多视角来看这个问题，比如西欧的薪水是以每天工作8小时计算的。
 
 ### 奇技淫巧
 
