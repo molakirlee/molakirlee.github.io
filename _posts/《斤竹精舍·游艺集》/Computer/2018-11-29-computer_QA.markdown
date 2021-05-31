@@ -65,6 +65,8 @@ Ultimate : 192GB
 参考：  
 1. [C盘满了不用怕—简单几步，释放海量C盘空间！](https://post.smzdm.com/p/a6l89k20/)
 1. [pagefile.sys是什么文件？pagefile.sys文件太大如何移动到D盘中？](http://www.lotpc.com/dnzs/7059_2.html)
+1. [电脑已满的c盘该怎么清理无用的文件?](https://www.jb51.net/diannaojichu/691109.html)
+1. [秘技：C盘满了怎么办？](https://zhuanlan.zhihu.com/p/62030272)
 
 
 ![](/img/wc-tail.GIF)
