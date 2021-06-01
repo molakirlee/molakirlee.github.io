@@ -16,7 +16,7 @@ tags:
 
 ### 安装-linux
 1. 从[https://github.com/grimme-lab/xtb/releases](https://github.com/grimme-lab/xtb/releases)上下载".tar.xz"格式文件并解压到xtb文件夹中得到bin、lib64等文件夹.
-1. 'tar -xvf xxx.tar.xz'解压文件
+1. `tar -xvf xxx.tar.xz`解压文件
 1. 添加环境变量（见下，其中N是并行计算时使用的CPU核心数，不要超过CPU的物理核心数，sob老师测试过说12核时最优），
 
 ```
