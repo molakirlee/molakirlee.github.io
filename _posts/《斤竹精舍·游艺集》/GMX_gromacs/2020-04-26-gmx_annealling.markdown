@@ -25,7 +25,7 @@ tau_t            = 0.1     0.1 ;
 ;annealing
 annealing = single single ; single or periodic
 annealing-npoints = 5 5
-annealing-time = 0 5000 5000 5000 5000 0 5000 5000 5000 5000 ; ps
+annealing-time = 0 5000 10000 15000 20000 0 5000 10000 15000 20000 ; ps
 annealing-temp = 273.15 288.15 277.15 298.15 310.15 273.15 288.15 277.15 298.15 310.15 ; K
 ```
 
