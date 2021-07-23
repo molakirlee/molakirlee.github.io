@@ -194,6 +194,17 @@ layout: default
                 </ul>
                 {% endif %}
                 <!-- News Link End-->
+                <!-- Friends Blog -->
+                {% if site.friends %}
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    {% for friend in site.friends %}
+                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                <!-- Friends Blog End-->
                 <!-- Reads Link-->
                 {% if site.reads %}
                 <hr>
@@ -205,16 +216,7 @@ layout: default
                 </ul>
                 {% endif %}
                 <!-- Reads Link End-->
-                <!-- Friends Blog -->
-                {% if site.friends %}
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
+                
                 <!--添加二维码-->
                 <hr>
                 <h5>WECHAT</h5>
