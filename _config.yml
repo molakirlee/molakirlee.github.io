@@ -120,10 +120,14 @@ news: [
 
 
 # Friends
-friends: [
+# Links
+links: [
     {
          title: "阮一峰",
          href: "http://www.ruanyifeng.com/blog/"
+     },{
+         title: "编程随想的博客",
+         href: "https://program-think.blogspot.com/"
      },{
          title: "周读",
          href: "http://www.ireadweek.com/index.php/Index/index.html"
