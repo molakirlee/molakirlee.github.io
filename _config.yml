@@ -104,7 +104,7 @@ service-worker: true
 # News Link
 news: [
     {
-         title: "ChinaDaily1",
+         title: "ChinaDaily",
          href: "http://www.chinadaily.com.cn/"
      },{
          title: "Nature",
@@ -119,7 +119,6 @@ news: [
 ]
 
 # Friends
-# Links
 surfing: [
     {
          title: "阮一峰",
