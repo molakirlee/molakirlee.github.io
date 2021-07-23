@@ -104,7 +104,7 @@ service-worker: true
 # News Link
 news: [
     {
-         title: "ChinaDaily",
+         title: "ChinaDaily1",
          href: "http://www.chinadaily.com.cn/"
      },{
          title: "Nature",
@@ -123,10 +123,10 @@ surfing: [
     {
          title: "阮一峰",
          href: "http://www.ruanyifeng.com/blog/"
-#     },{
+     },{
 #         title: "编程随想",
 #         href: "https://program-think.blogspot.com/"
-     },{
+#     },{
          title: "周读",
          href: "http://www.ireadweek.com/index.php/Index/index.html"
      },{
