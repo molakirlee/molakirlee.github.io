@@ -126,7 +126,11 @@ friends: [
      },{
          title: "编程随想",
          href: "https://program-think.blogspot.com/"
-     },{
+     }
+]
+# Reads
+reads: [
+    {
          title: "周读",
          href: "http://www.ireadweek.com/index.php/Index/index.html"
      },{
@@ -146,6 +150,7 @@ friends: [
 #        href: "http://mida.re/"
     }
 ]
+
 
 
 #欢迎页内容

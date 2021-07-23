@@ -194,6 +194,17 @@ layout: default
                 </ul>
                 {% endif %}
                 <!-- News Link End-->
+                <!-- Reads Link-->
+                {% if site.reads %}
+                <hr>
+                <h5>READS</h5>
+                <ul class="list-inline">
+                    {% for reads in site.reads %}
+                        <li><a href="{{reads.href}}">{{reads.title}}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                <!-- Reads Link End-->
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>

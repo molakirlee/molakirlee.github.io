@@ -355,5 +355,14 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 使用[Link Lock](https://github.com/jstrieb/link-lock)可以为登录设置密码。会生成一个新的地址，登录后需要密码才能进入。但是该方法不能修改密码，而且一单密码忘了也就只能破解。
 
 ### 更新20210522
-使用osmos::feed可以实现RSS订阅，具体参见github。注意：订阅地址务必有效，否则整个脚本都不能运行。
-1. [osmos::feed 利用GitHub搭建个人RSS阅读器](https://github.com/osmoscraft/osmosfeed/blob/master/README_zh.md)
+使用osmos::feed可以实现RSS订阅，具体参见github。
+1. [osmos::feed 利用GitHub搭建个人RSS阅读器](https://github.com/osmoscraft/osmosfeed/blob/master/README_zh.md)  
+
+注意：
+1. 订阅地址务必有效，否则整个脚本都不能运行。
+1. 出问题时去action里自行查看问题出在哪。
+
+
+### 更新20210723
+添加侧边栏时，需同时修改“_config.yml”文件和“_layouts\page.html”文件里的相关内容。
+
