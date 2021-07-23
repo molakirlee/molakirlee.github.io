@@ -118,8 +118,20 @@ news: [
      }
 ]
 
+links: [
+    {
+         title: "ChinaDaily",
+         href: "http://www.chinadaily.com.cn/"
+     },{
+         title: "Nature",
+         href: "https://www.nature.com/"
+     },{
+         title: "Scientific American",
+         href: "https://www.scientificamerican.com/"
+     }
+]
 # Friends
-reads: [
+friends: [
     {
          title: "阮一峰",
          href: "http://www.ruanyifeng.com/blog/"
