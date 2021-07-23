@@ -118,10 +118,9 @@ news: [
      }
 ]
 
-
 # Friends
 # Links
-links: [
+surfing: [
     {
          title: "阮一峰",
          href: "http://www.ruanyifeng.com/blog/"
@@ -132,7 +131,7 @@ links: [
          title: "周读",
          href: "http://www.ireadweek.com/index.php/Index/index.html"
      },{
-              title: "《小窗幽记》",
+         title: "《小窗幽记》",
          href: "http://www.99lib.net/book/2045/index.htm"
      },{
          title: "《闲情偶寄》",
