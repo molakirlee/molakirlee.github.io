@@ -35,11 +35,6 @@ Matlab code modified by XiLock: `sg`, `dg`, `uu` to analyze.
 
 Excel Model:  
 [SFA_Data_Analysis_Model_12_20_50_sample](https://molakirlee.github.io/attachment/sfa/SFA_Data_Analysis_Model_sample_12_20_50.zip)  
-<!-
-#[SFA_Data_Analysis_Model_12_sample](https://molakirlee.github.io/attachment/sfa/SFA_Data_Analysis_Model_12_sample.xlsm)  
-#[SFA_Data_Analysis_Model_20_sample](https://molakirlee.github.io/attachment/sfa/SFA_Data_Analysis_Model_20_sample.xlsm)  
-#[SFA_Data_Analysis_Model_50_sample](https://molakirlee.github.io/attachment/sfa/SFA_Data_Analysis_Model_50_sample.xlsm)  
-->
 
 ### Server of Jing's Lab
 This is the shared network path: \\155.69.43.195\JingGroupSite   
