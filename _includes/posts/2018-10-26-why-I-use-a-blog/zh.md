@@ -366,3 +366,5 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 ### 更新20210723
 添加侧边栏时，需同时修改“_config.yml”文件和“_layouts\page.html”文件里的相关内容。
 
+### 更新20210804
+收到github通知说repositories最大储存容量500M，看了下已经300M+了，非长久之计，打算清理下.git文件夹，结果按照[这篇文章](https://blog.csdn.net/cysear/article/details/102823671)的指示操作，最后把所有的rar文件都抹掉了，连checkout退回的版本里也没有rar记录了，后来发现500M流量是针对private的，public还是free……做处理之前一定要先备份好啊！
