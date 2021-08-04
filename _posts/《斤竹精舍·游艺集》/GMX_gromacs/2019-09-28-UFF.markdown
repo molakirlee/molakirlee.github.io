@@ -1,0 +1,31 @@
+---
+layout:     post
+title:      "gmx UFF力场"
+subtitle:   ""
+date:       2019-09-28 22:55:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2020
+
+---
+
+###### 力场选用
+有机体系用MMFF94，含有无机的体系用UFF（支持的元素覆盖周期表绝大部分）。
+
+
+###### 电荷选用
+QEQ电荷不是专门给UFF用的，而是UFF力场开发者当时对原子电荷这方面不上心，就凑合搭配了QEQ。原理上，即便对于UFF，用QEQ也不是最好的选择。QEQ电荷对静电势重现性很垃圾，注定用QEQ电荷没法很好表现原子间的静电作用。用QEQ固然省事，一个关键词就完了，但用QEQ只能说比完全不考虑原子电荷要强，但别指望能得到多好的结果。  
+**用RESP电荷更好**
+
+关于Qeq电荷，可以用MS的forcite来算，其他的信息可参阅：[Does anyone know how to calculate the partial charges on the MOF atoms using (EQeq) & (DFT) methods?](https://www.researchgate.net/post/Does_anyone_know_how_to_calculate_the_partial_charges_on_the_MOF_atoms_using_EQeq_DFT_methods)
+
+
+### 参考资料
+1. [Gaussian的oniom计算时UFF力场的原子电荷设置求助](http://bbs.keinsci.com/thread-14492-1-1.html)
+
+![](/img/wc-tail.GIF)

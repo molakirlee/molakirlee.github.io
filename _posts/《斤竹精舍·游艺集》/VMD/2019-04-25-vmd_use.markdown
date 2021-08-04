@@ -1,0 +1,65 @@
+---
+layout:     post
+title:      "VMD使用笔记"
+subtitle:   ""
+date:       2019-04-25 20:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - VMD
+    - 2019
+
+---
+
+
+### 常见问题
+###### 让指定化学键平行于笛卡尔坐标轴
+首先启动VMD，将分子结构文件载入，然后在控制台里将以下内容拷进去执行  
+```
+proc alignbond {ind1 ind2} {  
+set atm1 [atomselect top "serial $ind1"]  
+set atm2 [atomselect top "serial $ind2"]  
+set vecx [expr [$atm2 get x] - [$atm1 get x]]  
+set vecy [expr [$atm2 get y] - [$atm1 get y]]  
+set vecz [expr [$atm2 get z] - [$atm1 get z]]  
+set sel [atomselect top all]  
+$sel move [transvecinv "$vecx $vecy $vecz"]  
+}  
+```
+
+之后，比如想让4,9号原子对应的键平行于X轴，就在控制台输入alignbond 4 9，效果在图形窗口上可以立刻见到。之后，file-save coordinate保存为坐标文件即可。（这两个原子也可以没有实际成键，它们只用于定义连线的矢量而已）
+
+若想让这个键平行于其它笛卡尔坐标轴，先用上述方法令这个键平行于X轴，然后执行  
+```
+set sel [atomselect top all]
+```
+之后，比如输入 `$sel move [transaxis z 90]` 就可以让体系坐标绕着Z轴转动90度。z可以改成x和y来分别绕着x和y轴旋转。根据实际要求，令体系适当旋转即可达到目的。
+
+参考[让指定化学键平行于笛卡尔坐标轴的方法](http://sobereva.com/177)  
+
+###### 导出高分辨率图像
+参考[用Multiwfn+VMD做RDG分析时的一些要点和常见问题](http://sobereva.com/291)  
+进入File-render，选择Tachyon，点Start Rendering，在VMD目录下就得到了Tachyon渲染器的输入文件vmdscene.dat。然后在VMD目录下建立一个文本文件，后缀为.bat，内容为
+```
+tachyon_WIN32.exe vmdscene.dat -aasamples 24 -mediumshade -trans_vmd -res 1024 768 -format BMP -o vmdscene.bmp
+```
+双击运行此bat文件就重新渲染得到了vmdscene.bmp。Tachyon命令行参数中-res控制分辨率。-aasamples越大锯齿越不明显。若想调节图像内体系的尺寸，修改vmdscene.dat里的zoom，越大则图像里的物体越大。
+
+###### 选择时保证选择相同残基内原子
+用xyz等选择时有时可能不能完整选择一个残基内的原子，比如用z<20选择水分子时可能只选择上了H或O，导致断键。  
+可用"same residue as (water and z<20)"来保证同时选中与所选原子为同一残基内的原子。  
+
+###### LAMMPS结构文件中原子跳出盒子
+`pbc wrap -compound res -all`
+
+### 教程
+1. [vmd教程](http://course.sdu.edu.cn/Download2/20151113131122124.pdf)  
+1. [使用vmd批量渲染cube文件的tcl脚本vcube 更新2.0版](http://bbs.keinsci.com/thread-18150-1-1.html)
+
+
+除了基本操作，还有分子坐标的对齐、tcl语言等，整体比较简单。
+
+![](/img/wc-tail.GIF)

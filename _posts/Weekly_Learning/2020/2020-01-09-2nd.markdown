@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "2020-每周补脑2nd"
+subtitle:   ""
+date:       2020-01-09 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2020
+
+
+---
+
+### 他山之石
+###### 语录
+1. 要变成野兽；
+1. 注意自己的背后；
+1. 不要太自私；
+1. 没用永远的敌人，也没有永远的朋友；
+1. 所谓的境界，在世俗中变得一文不值。
+
+
+![](/img/wc-tail.GIF)

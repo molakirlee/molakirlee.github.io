@@ -1,0 +1,76 @@
+---
+layout:     post
+title:      "2018-每周补脑50th"
+subtitle:   ""
+date:       2018-12-08 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2018
+
+
+---
+### 他山之石
+###### 企业家的创新
+[许小年：创新和企业家精神](http://note.youdao.com/share/mobile.html?id=7242941681f74272ed446a19be583281&type=note&from=singlemessage&isappinstalled=0#/)
+
+###### 腾讯管培生
+[成为2016腾讯产培生背后的思考](http://mp.weixin.qq.com/s?__biz=MzIyNTQ0OTUyNQ==&mid=2247484398&idx=1&sn=328dfcce28269f12d41afe2096b4e901&chksm=e87ec0b4df0949a2eb004421db132e57880c3db0007265ffde722e5e0d3ccba642a909d760a4&mpshare=1&scene=1&srcid=1010t9kRd9mtRpgAQ1iid9W8#rd)
+
+###### 不控制
+普拉提是控制学没错，但是指的不是机械的控制，而是控制的艺术。艺术是互动不是发泄，是要有情感交流存在的。所以控制身体的艺术是一种和身体交流的艺术，不是把大脑的意识强加在身体上，强迫身体像提线木偶一样随意被操纵，而是要在身体许可的正确的范围内作出适应当下环境的动作。也有人可能会这样想：“一派胡言！很多人就是因为无意识的动作有问题才导致损伤的，你这么说不是会让他们愈加严重吗？！”我想说：没错，说的对。但是我上面的说法并不代表我们什么都不做，直接去运动就好。这在以前也许行得通，但是现在肯定不行，因为现代人的身体基本不能正常运作，代偿问题成了家常便饭，如果不让每个部分修复好就直接运动也是一场灾难。**就算张无忌想要忘掉招式，他总得需要先看一遍招式才行。**  
+参考阅读：[一个关于控制的故事](https://mp.weixin.qq.com/s?__biz=MjM5MjYxNzY2NA==&mid=2650442801&idx=2&sn=6964d9295024a4be4c3aeadfc57ac507&chksm=beada99e89da208864c48dba96b0e5ce9f06637c552f75c25aea8718190afa4991c8c7d1d503&scene=0#rd)
+
+### 思考
+###### 集中精力办大事
+财富符合幂律分布的特点，整个是一个分形结构：百万富翁看千万富翁，就如同千万富翁看亿万富翁。要怎么分配，才能得到这样的效果？答案是看谁钱多就给谁多分一点。等到他的钱更多了，你就再给他分更多。这当然就是马太效应 —— “凡有的，还要加给他，叫他有余！”  
+人的精力有限，什么都想要是不可能的。如果真想培养人才，“全面”发展其实是一个错误的思想，天赋树不能乱点。极简主义要求我们培养核心的竞争力，在他喜欢的东西上加大力度。用 20% 的时间就可能实现这个小孩 80% 的功能，剩下 80% 的时间几乎都是浪费，还不如让他去玩。玩很重要。极简主义的核心思想就是把最关键的事情做好，省出来时间去玩。
+
+### 有趣的知识
+[一张图弄明白从零维到十维空间](http://mp.weixin.qq.com/s?__biz=MzA4NDI1MTAwMQ==&mid=2653766237&idx=2&sn=e3804e85f6b073d5ff97bff3503ee6aa&chksm=8433fa4bb344735d5077bfebb175f330cc4bf11f8a91f1f7e602c308f4b842b33396e7cf02c8&mpshare=1&scene=1&srcid=1006yAIq0Z2wyb9b1jmm7o97#rd)
+
+### 设计
+[宜家“折叠款”](https://mp.weixin.qq.com/s?__biz=MzA4OTA5NzMzMg==&mid=2649945715&idx=1&sn=a590db553461f0007973b7af0e95f7c2&chksm=88264368bf51ca7e8b2404a93b3107d1d70af6d2b856bb2af15ec2dbc771c79d56272686cda7&scene=0#rd)
+
+### 职场
+###### 《权利的游戏》小恶魔
+只有知道自己能带给别人什么，才能换取别人的东西。在现实世界里，我们当然不能说金钱是万能的。但有一点你需要理解：人脉不是靠积累，而是靠利益交换。所以你在请求别人做一件事情的时候，最好能拿出相应的利益跟他交换，这样成交的可能性比较大。  
+构造利益共同体。当你跟别人合作或者请求别人帮忙时，在交流的过程中，尽可能将他人的需求和自己的目标拴在一起。  
+
+###### 扎克伯格
+促成小扎与Winklevoss兄弟日后的巨大差距的，也正是二者的执行力差距。除此之外，他还有敏捷的，对项目的跟进能力。扎克伯格身上有一种平静的粗暴。“idea是世界上最不值钱的东西，执行永远是最重要的。”  
+“大哥，做任何事，先开始再说。只要开始了，其他问题，就都不是问题。”二话不说把事先做了的人，成功的几率要远高于那些明日复明日的人。  
+相关阅读：[链接](https://mp.weixin.qq.com/s?__biz=MzA3OTI2NTEwOQ==&mid=2651687316&idx=1&sn=694356620f55fd77e32bb7633067bc51&chksm=844f05aeb3388cb82259390378767beed195bb19efe7aa031df5eb58d939e2199bb7968ec7e3&scene=0#rd)
+
+###### 自我反省
+[老板用人：7用5不用](https://mp.weixin.qq.com/s?__biz=MzI2NTM5MDU2Mw==&mid=2247484416&idx=1&sn=03dac491aac18bb9f1e550524baa6b81&chksm=ea9f548cdde8dd9a08aa6a98f6d69db472fc454e5ce08b64bd05c49df3fefba3e3b3828d6fc9&mpshare=1&scene=1&srcid=1216pjBdZNVOXyOJIKPq91Ci#rd)  
+
+
+### 健康
+###### 舌诊
+相关阅读：[链接](http://mp.weixin.qq.com/s?__biz=MzIyODYxMTg2MA==&mid=2247483842&idx=1&sn=21f96b56d7707b2d3b25e6d28a4ec662&chksm=e84e03b9df398aaf2f3d076fd4b9ec29fb2d7434d5ca9014791cc34a49ca05c40a4d169f981e&mpshare=1&scene=1&srcid=1028RBh1pTnvmlvjLd4gblXh#rd)  
+
+### 荐书
+《少的力量》：自我设限，才能够选择最重要的。持续不断调整到适合你的程度，然后把遵守它培养成你的一种习惯。  
+《眠》：慢的乐趣跑哪里去了。我们尽管是再合适不过的旅伴，但归根结蒂仍不过是描绘各自轨迹的两个孤独的金属块儿。远看如流星一般美丽，而实际上我们不外乎是被幽禁在里面的，哪里也去不了的囚徒。  
+《听听那冷雨》：余光中的散文。  
+《一座城池》：韩寒的代表作。辛辣，现实，调侃，黑色幽默，一本小书能做到这些，已然足够。
+
+### 有趣
+[1000万人围观他“黑老婆”，然而吐槽加丑化的画风却甜化了我，老婆都成他粉丝](https://mp.weixin.qq.com/s?__biz=MzA3OTI2NTEwOQ==&mid=2651691530&idx=1&sn=7b0747c8c47ad8d683b012790241c9a2&chksm=844f1630b3389f26a8fa918c7bf2265fddb9a72b46973b4dede2910e7d72881661e9756ddebb&mpshare=1&scene=24&srcid=0708h2NEWp3deFQYRdR7J6nv#rd)  
+
+生活的乐趣来源于一颗有趣的心，在苦逼的日子里活出花来。[有趣的生活应该是什么样的？](https://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&mid=2655713735&idx=1&sn=28152a65965fbf32b7add74419d4181c&chksm=bd50ea448a276352f7ca9982ee814c50cbfb39cf5d5f46eff9ae8b2c59dac359fd33283a2c2c&mpshare=1&scene=24&srcid=#rd)
+
+### 格言
+[习近平金句](http://mp.weixin.qq.com/s?__biz=MzA4Mzk5ODA0MA==&mid=2650658072&idx=1&sn=882b0bd33d55f829e399a5a6ac3158e7&chksm=87e4912fb09318397e938fcff6297f5ec403c511860edb062048647a03b05eae4d759caebb86&mpshare=1&scene=1&srcid=0719Q0Z5h9QirOCGZ80uVpRv#rd)  
+
+幽默就是一个人想哭的时候，还有笑的兴致。  
+人之所以活得累，是因为放不下架子，撕不开面子，解不开情节。  
+说真话最大的好处就在于你不必记得你都说些什么。  
+有时候不是对方不在乎你，而是你把对方看的太重。  
+
+
+![](/img/wc-tail.GIF)

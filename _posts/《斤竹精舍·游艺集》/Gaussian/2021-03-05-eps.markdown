@@ -1,0 +1,56 @@
+---
+layout:     post
+title:      "Gaussian 结合MultiWFN来ESP绘制"
+subtitle:   ""
+date:       2021-03-05 12:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Gaussian
+    - 2021
+
+---
+
+参考阅读：
+1. [使用Multiwfn+VMD快速地绘制静电势着色的分子范德华表面图和分子间穿透图](http://sobereva.com/443)
+1. [使用Multiwfn结合VMD分析和绘制分子表面静电势分布](http://sobereva.com/196)
+
+### 画图脚本
+本脚本修改自sob老师的multiwfn附件，此处为方便使用拎出：
+
+使用MultiWFN做完定量分子表面分析（Quantitative analysis of molecuar surface-->start analysis now）后，导出表面极值点文件surfanalysis.pdb、分子表面顶点文件vtx.pdb、结构文件mol。然后source下面的vmd文件即可。（注意：分子表面顶点与电子密度等值面均可用来展现分子范德华面的静电势，但后者要计算电子密度cub和静电势格点cub，计算量翻倍甚至翻一个数量级）
+
+eps_test.vmd
+```
+#This script is used to draw ESP colored surface vertices
+#mol1.pdb, vtx1.pdb, mol2.pdb, vtx2.pdb, ... should be presented in current folder
+
+color scale method BWR
+color Display Background white
+axes location Off
+display depthcue off
+display rendermode Normal
+
+#The maximum number of systems to be loaded
+set nsystem 1
+#Lower and upper limit of color scale of ESP (kcal/mol in most case)
+set colorlow -50
+set colorhigh 50
+#Point size
+set ptsize 25.0
+
+for {set i 1} {$i<=$nsystem} {incr i} {
+mol new mol$i.pdb
+mol new vtx$i.pdb
+mol modstyle 0 [expr 2*($i-1)] CPK 1.000000 0.300000 22.000000 22.000000
+mol modcolor 0 [expr 2*($i-1)+1] Beta
+mol modstyle 0 [expr 2*($i-1)+1] Points $ptsize
+mol scaleminmax [expr 2*($i-1)+1] 0 $colorlow $colorhigh
+}
+```
+
+ 
+![](/img/wc-tail.GIF)

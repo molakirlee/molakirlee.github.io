@@ -1,0 +1,31 @@
+---
+layout:     post
+title:      "2019-每周补脑20th"
+subtitle:   ""
+date:       2019-08-17 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2019
+
+
+---
+ 
+### 科研
+1. 南京大学 陶农建 王伟课题组
+2. 简正模式分析MMGBSA可以得到熵S，但比较麻烦
+
+### 它山之石
+#### 言论
+1. 
+
+
+
+#### 转载
+
+
+
+![](/img/wc-tail.GIF)

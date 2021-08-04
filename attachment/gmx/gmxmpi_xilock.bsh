@@ -1,0 +1,28 @@
+#!/bin/csh -f
+### script to run gmx_mpi
+ set TNAME = $$_`whoami`
+ set TMPDIR = ~/tmp_mpi$$_`whoami`
+# set TMPDIR = ~/tmp_mpi
+ set here = $PWD
+ set MPIBIN = /public/software/mpi/openmpi/1.6.5/intel/bin/mpirun
+ set NPROCS = $1
+ set FILENAME = $2
+#
+ foreach n (`cat $here/nodes.par`)
+  ssh -n $n "mkdir -p $TMPDIR"
+ end
+#
+ foreach n (`cat $here/nodes.par`)
+  scp -q $here/"$2.tpr" ${n}:$TMPDIR/.
+ end
+#
+# mpirun + gmx_mpi
+ $MPIBIN -machinefile machinefile.LINUX -np $NPROCS gmx_mpi mdrun -v -deffnm $TMPDIR/$2 
+#
+# copy and clear
+ mkdir $here/${FILENAME}_{$$_`whoami`}/
+ cp $TMPDIR/* $here/${FILENAME}_{$$_`whoami`}/
+ foreach n (`cat $here/nodes.par`)
+  ssh -n $n "rm -R -f $TMPDIR"
+ end
+ exit

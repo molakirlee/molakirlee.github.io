@@ -1,0 +1,51 @@
+---
+layout:     post
+title:      "Knowledge 水凝胶"
+subtitle:   ""
+date:       2020-10-13 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·遂火集》
+    - 2020
+
+
+---
+
+### 种类
+1. 双网络水凝胶
+1. 滑环水凝胶
+1. 纳米复合水凝胶
+1. 纳米颗粒增强水凝胶
+1. 胶束交联水凝胶等类型。
+
+### 相互作用
+水凝胶的合成关键在于利用断裂“牺牲键”来有效耗散能量，进而增强水凝胶的机械性能。同时也赋予其可恢复性自修复性。
+
+1. 氢键
+1. 超分子识别
+1. 络合作用
+1. 静电作用
+1. 疏水缔合等
+
+### 文献资料
+###### Jianping Gong
+1. 模仿肌肉生长：Mechanoresponsive self-growing hydrogels inspired by muscle training (Science)
+1. 六边形+动态键：Tough Hydrogels with Fast, Strong, and Reversible Underwater Adhesion Based on a Multiscale Design (AM)
+1. 表面自由基处理+预凝胶溶液UV固化：Tough Particle-Based Double Network Hydrogels for Functional Solid Surface Coatings (AMI)
+
+###### Wenguang Liu
+1. 切稀水凝胶：Direct 3D Printing of High Strength Biohybrid Gradient Hydrogel Scaffolds for Efficient Repair of Osteochondral Defect (AFM)
+1. 光热治疗：An Injectable Supramolecular Polymer Nanocomposite Hydrogel for Prevention of Breast Cancer Recurrence with Theranostic and Mammoplastic Functions (AFM) 
+1. SM水凝胶做栓塞环：Radiopaque Highly Stiff and Tough Shape Memory Hydrogel Microcoils for Permanent Embolization of Arteries (AFM)
+1. 等效心肌电导+缓释：An injectable conductive hydrogel encapsulating plasmid DNA-eNOs and ADSCs for treating myocardial infarction (Biomaterial)
+1. Dopa+Ppy导电凝胶网：Paintable and Rapidly Bondable Conductive Hydrogels as Therapeutic Cardiac Patches (AM)
+
+###### Mingjie Liu
+1. 正交超分子异质网络的双重编程控制永久形状： Dual-Programmable Shape-Morphing and Self-Healing Organohydrogels Through Orthogonal Supramolecular Heteronetworks (AM)
+1. 
+1. 
+
+![](/img/wc-tail.GIF)

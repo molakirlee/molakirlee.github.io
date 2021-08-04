@@ -1,0 +1,45 @@
+---
+layout:     post
+title:      "2018-每周补脑46th"
+subtitle:   ""
+date:       2018-11-10 09:43:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2018
+
+
+---
+### Latex
+If such a space should be kept even if it falls at the end or the start of a line, use `\hspace*` instead.
+
+If the space should be preserved at the top or at the bottom of a page, use the starred version of the command, `\vspace*`, instead of `\vspace`. If you want to add space at the beginning of the document, without anything else written before, then you may use.
+```
+{ \vspace*{length} }
+```
+
+It's important you use the `\vspace*` command instead of `\vspace`, otherwise LaTeX can silently ignore the extra space.
+
+在一个段落的中间产生一个20毫米的水平空白空间\hspace{20 mm}
+如果LaTeX决定在指定文档的某一点的行之间使用\hspace中断，则不会产生空格，应更换\hspace由\hspace*
+
+[Hypertext Help with LaTeX:Spaces and Boxes](http://www.ctex.org/documents/latex/latex2e-html/ltx-143.html)
+
+### Network
+API（Application Programming Interface,应用程序编程接口）是一种不需要理解基层代码就能调用程序的接口（Interface），[参考](https://ddc.dianrong.com/?p=1145)  
+
+区块链就是去中心化分布式储存，参见[阮神blog](http://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html)
+
+## Interesting
+
+[想折纸飞机？](https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2)
+
+[《Calculus Made Easy》·微积分经典教材](http://calculusmadeeasy.org/)
+
+### 常识
+大部分普通的痦子是因为黑色素堆积形成的，而黑色素堆积是因为肝气不足，排毒不够。所以要晚上早睡觉保证内脏及时排毒；早上要及时排便。
+
+![](/img/wc-tail.GIF)

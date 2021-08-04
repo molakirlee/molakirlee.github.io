@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "gmx RDF及配位数的计算"
+subtitle:   ""
+date:       2020-11-27 23:30:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2020
+
+---
+
+1. [为什么MD中用gromacs的gmx rdf命令和vmd算的两个组分之间的配位数不一样](http://bbs.keinsci.com/thread-17155-1-1.html)
+1. [使用GROMACS计算径向分布函数](http://blog.sciencenet.cn/home.php?mod=space&uid=548663&do=blog&id=1062483)
+
+![](/img/wc-tail.GIF)

@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "多软件交叉"
+subtitle:   ""
+date:       2019-06-22 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2019
+
+
+---
+
+### 多软件交叉Isight gateway
+参考：
+1. [simulia-isight](https://www.simuleon.com/simulia-isight/), 
+1. [Isight Getting Started Guide (release 4.0)](https://www.3ds.com/fileadmin/PRODUCTS-SERVICES/SIMULIA/RESOURCES/DS_SIMULIA_IsightV40_GettingStartedGuide.pdf)  
+1. [Getting Started Guide](https://www.3ds.com/fileadmin/PRODUCTS-SERVICES/SIMULIA/RESOURCES/DS_SIMULIA_IsightV40_GettingStartedGuide.pdf)
+
+Isight可以利用bat批处理语言将多个软件协同调用，如：读取输入的参数，先调用建模软件建模，然后调用画网格软件绘制网格，完后调用流体力学软件进行计算，完成后进入下一轮循环。
+大概操作如下：
+1. 建立任务task1，在task1中设置优化(DOE)等模式，输入要分批读取的参数；
+1. 使用计算器模块，将输入参数转换成脚本运行需要的参数变量；
+1. 使用数据交换模块（data exchange），利用从相应软件中导出的bat脚本模板，引入参数变量（如：CFtubor的bat脚本模板可以在建模完成后直接导出，运行该脚本可自动画出模型。Gambit导出的bat脚本则包括导入模型和绘制网格等内容。）；
+1. 使用执行模块，运行前面数据交换模块修改完参数变量所输出的脚本；
+1. 使用数据交换模块，将输出结果导出；
+1. 使用计算器模块，将输出结果转换成自己需要的量。
+
+### 3D建模软件
+除了solidworks之外，还有Pro-E(PTC Creo)，Siemens NX, Catia。
+Pro-E和NX与solidworks差别不大，但Catia在绘制曲线方面则更为擅长。
+
+
+![](/img/wc-tail.GIF)

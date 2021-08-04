@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      "SPR"
+subtitle:   ""
+date:       2019-11-26 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Experiment
+    - 2019
+
+
+---
+
+
+###### SPR-BioNavis
+1. 箱体背后电源打开，打开软件（SPR Navi）,Control window里看温度是否稳定，close。
+1. 打开推样器（柱塞泵），每隔一段时间转一会SPR旋钮，稳定30min。
+1. Config里选路径path --> Measurement里Angle选Full range --> Init Scan里Start，看是否只有一个峰（向下的峰，横坐标为角度），若是则用右下角"+"选中峰值区域（不多不少，几乎正好包括整个峰，大概65°-80°）；若不是，则可能是在35°左右也出峰，这表明有气泡，此时可加速冲洗一下。
+1. Go to angle scan里start即可（检查SPR curve）（不需要再调角度，此时角度为custom，即之前选定的范围）。
+1. 基线以50 ul/min，蛋白进样10 ul/ml，后冲洗50 ul/min，三阶段均为10 mins。
+1. 注意：线下修饰时表面要有饱满的液体鼓包；BSA进样前必须过膜；PBS用前需脱气（水浴加热到60 C后真空干燥箱内不关泵抽5 min真空）。
+1. 用完后用100-200 ul/min的流速冲洗芯片，换芯片前停泵停软件。
+1. SDS十二烷基硫酸钠(MW:288.38),0.5 g/100 ml用于清洗。
+
+###### SPR-Biocore
+1. 开启仪器后面的按钮启动仪器，power亮绿灯表示接通电源；temperature亮表示稳定在设定温度（25 C），黄灯闪烁表示温度不稳定；sensor chip在装载传感芯片且传感芯片准备就绪时亮起，*色表示插入芯片但未装载，绿色表示运行；run绿色表示运行。
+1. 开机时power灯亮，temperature灯亮或闪烁，sensor chip熄灭或闪烁，run熄灭。
+1. 开软件Biocore X100，输入用户名、密码。
+1. 确保左边托盘上的玻璃瓶内装有新鲜缓冲液或水，并且两根缓冲液管已插入液面以下。
+1. 确保右侧托盘上的废液瓶内为空，且废液管已插入废液瓶中。
+1. 单击Load Samples图标，等待Rack locked指示灯熄灭后取出样品架，在4 ml小瓶中加满去离子水，将样品架插入样品室，在Load Samples对话框中单击OK。
+1. 此时芯片处于未加载状态，单击undock chip图标，打开芯片舱门，取出维护芯片，清洗表面灰尘后装入芯片仓，单击ok装载芯片。
+1. Tools --> prime使缓冲液注满系统，缓慢冲洗至少1-2 h。
+1. 仪器清洗 --> prime --> 换好缓冲液和样品 --> 测样 --> prime
+1. 用完后用100-200 ul/min的流速冲洗芯片，换芯片前停泵停软件。
+
+**仪器维护：**  
+相关试剂： BIAdsorb soution1、BIAdsorb soution2、BIAdisinfectant solution。  
+
+Tools --> more Tools -->  
+Desorb（用时~0.5 h）：S1提示用量1000 ul，实际用量~700 ul；S2提示用量1000 ul，实际用量~800 ul。  
+Desorb and sanitize（用时~1 h，之后还需待机平衡3-4h才可测样）：S1提示用量10 ml，实际用量~4 ml；S2提示用量10 ml，实际用量~3.5 ml；消毒液（次氯酸钠）提示15 ml，试剂~7.5 ml。
+
+
+![](/img/wc-tail.GIF)

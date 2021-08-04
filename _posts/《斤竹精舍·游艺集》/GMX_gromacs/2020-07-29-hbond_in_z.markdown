@@ -1,0 +1,372 @@
+---
+layout:     post
+title:      "gmx MDanalysis氢键分析"
+subtitle:   ""
+date:       2020-07-29 11:36:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2020
+
+---
+
+
+
+gromacs的氢键计算很方便但是因为一些原因xilock需要做更细节的分析，所以用MDanalysis做了一些分析，感谢[**supernova**](https://zhuanlan.zhihu.com/c_1168461046896881664)的技术支持。
+
+### 氢键计算脚本
+get_hbonds.py
+```
+#!/opt/local/bin/python
+# python 3.6
+# python + py_file + tpr_file + trj_file + outfile + start_frame + end_frame
+# python get_hbonds.py xxx.tpr xxx.xtc xxx.csv 290 301
+# from configure(traj) frame 290 to frame 300, csv is out of pandas frame
+
+import sys, numpy, pandas
+import MDAnalysis, MDAnalysis.analysis.hbonds
+
+## get input file names and read in data
+groFile=sys.argv[1]
+xtcFile=sys.argv[2]
+
+u=MDAnalysis.Universe(groFile,xtcFile)
+
+istart=int(sys.argv[4]) # Initial frame
+istop=int(sys.argv[5]) # Ending frame
+if istop<istart:
+    istop=None
+
+## create peptoid and water selections
+peptoid=u.select_atoms('resname DAH GLU LYS PHE')
+peptoid_O=u.select_atoms('resname  DAH GLU LYS PHE and name O')
+water=u.select_atoms('resname SOL')
+peptoid_sel='resname  DAH GLU LYS PHE and name OZ OE2 OE1 O NZ N HZ3 HZ2 HZ1 HZ HNT HN'
+peptoid_O_sel='resname  DAH GLU LYS PHE and name O'
+
+h=MDAnalysis.analysis.hbonds.HydrogenBondAnalysis(u,peptoid_sel,'resname SOL',detect_hydrogens='heuristic',angle=150)
+
+h.run(start=istart,stop=istop)
+h.generate_table()
+data_frame=pandas.DataFrame.from_records(h.table)
+data_frame.to_csv(sys.argv[3])
+```
+
+### 氢键分布Histogram
+get_hbond_cnt.py
+```
+#!/opt/local/bin/python
+# python 3.6
+# 1. Calculate the hbond between waters and every residues.
+# 2. Two outfile is the histogram of hbond(water - every residues) and hbond(water-type of residues)
+# 3. For multipule chains, use sep.py to separate residues into groups.
+# python + py_file + tpr_file + csv_file + outfile1 + outfile2 + residue number + chain number + elements
+# python xxx.py xxx.tpr xxx.csv 1.dat 2.dat 20 30 OZ OE2 OE1 O NZ N HZ3 HZ2 HZ1 HZ HNT HN
+
+import numpy, pandas, MDAnalysis, collections, sys, os
+
+#nhbond_max=20
+nhbond_max=100 # The maxmun of hydrogen bonds, to generate histograms (maxmun of the histogram x axial).
+
+## set number of residues, chains, etc
+## do this first because I always forgot and
+## this will make it fail sooner
+nResChain=int(sys.argv[5])
+nChain=int(sys.argv[6])
+nRes=nChain*nResChain
+
+## read in configuration (needed pnly for getting indices of acceptor atoms)
+## and pandas data frame
+u=MDAnalysis.Universe(sys.argv[1])
+data_frame=pandas.read_csv(sys.argv[2])
+
+## extract ids for acceptors and create look up dictionary
+print ("extracting acceptor/donor ids")
+acc_sel='name'
+acc_names=sys.argv[7:]
+for acc in acc_names:
+    acc_sel=acc_sel+' '+acc
+acceptors=u.select_atoms(acc_sel)
+nacc=len(acceptors)
+
+resnames=acceptors.residues.resnames
+
+histogram_dict={}
+for resname in set(acceptors.residues.resnames):
+    print (resname)
+    histogram_dict[resname]=numpy.zeros((nhbond_max+1))
+
+acc_id=[]
+id_to_res={}
+for acc in acceptors:
+    acc_id.append(acc.index)
+    id_to_res[acc]=acc.resid
+
+
+## get unique timesteps
+timesteps=data_frame.time.unique()
+
+## initialise arrays
+nhbond_ave=numpy.zeros((nRes))
+nhbond_sqr=numpy.zeros((nRes))
+nsets=0
+
+## extract columns from data frame
+## and organise into dictionary
+print ("extracting data")
+t=data_frame['time']
+acc=data_frame['acceptor_index']
+dcc=data_frame['donor_index']
+aname=data_frame['acceptor_atom']
+dname=data_frame['donor_atom']
+acc_dict={}
+
+for tt,aa,dd,an,dn in zip(t,acc,dcc,aname,dname):
+
+#    if acc_dict.has_key(tt):
+    if tt in acc_dict:
+        if an in acc_names:
+            acc_dict[tt].append(aa)
+        if dn in acc_names:
+            acc_dict[tt].append(dd)
+    else:
+        if an in acc_names:
+            acc_dict[tt]=[aa]
+#            acc_dict[tt]=aa
+        if dn in acc_names:
+            acc_dict[tt]=[dd]
+#            acc_dict[tt]=dd
+
+## loop over timesteps
+print ("looping over timesteps")
+for ts in timesteps:
+
+    print (ts)
+    ## tally up number of times each acceptor
+    ## appears
+    d=collections.Counter(acc_dict[ts])
+    nhbond_step=numpy.zeros((nRes))
+    
+#    print (d)
+#    os.system("pause")
+#    nhbond_step=numpy.zeros(d)
+
+
+    ## assign H-bonds to residues
+    for acc in acceptors:
+
+#        if d.has_key(acc.index):
+        if acc.index in d:
+            ires=id_to_res[acc]
+            nhbond_step[ires-1] += d[acc.index]
+
+    ## update averages
+    nhbond_ave+=nhbond_step
+    nhbond_sqr+=nhbond_step**2
+    nsets+=1.0
+
+    for ires in range(nRes):
+        ibin=int(nhbond_step[ires])
+        histogram_dict[resnames[ires]][ibin]+=1.0
+
+## get final averages
+nhbond_ave/=nsets
+nhbond_sqr/=nsets
+nhbond_std=numpy.sqrt(nhbond_sqr-nhbond_ave**2)
+
+ouf=open(sys.argv[3],'w')
+for ires in range(nRes):
+    print (ires+1,nhbond_ave[ires],nhbond_std[ires],file=ouf)
+
+
+ouf=open(sys.argv[4],'w')
+print ('##',end=' ',file=ouf)
+k=list(histogram_dict.keys())
+k.sort()
+for kk in k:
+    print (kk,end=' ',file=ouf)
+print ('',file=ouf)
+#print >> ouf
+for ihbond in range(nhbond_max+1):
+    print (ihbond,end=' ',file=ouf)
+    for kk in k:
+        print (histogram_dict[kk][ihbond],end=' ',file=ouf)
+    print (" ",file=ouf)
+```
+
+### 多条相同链情况下的氢键的多链分离
+sep.py
+```
+# coding: UTF-8
+# multi-chain brushes, every chain have same residues number and the residues numbers of xvg file are repeated. We separate them and calculate.
+# Use: python sep.py xxx.dat xxx.dat 20
+# python + python_file+infile + outfile+elements number in a group
+# python 2.7
+import numpy as np
+import sys
+
+# Main Part
+#filename = "rmsf_linear.xvg"
+filename = sys.argv[1]
+f = open (filename) 
+lines = f.readlines()
+a = []
+for line in lines:
+	if line[0] == '#' or line[0] == '@':
+		continue
+	line=line.strip('\n') # remove the line break
+	sep = filter(None, line.split(' ')) # filter is better than split, it deal with the multiple blank space problem.
+	fline = map(float,sep) # convert into float 
+	fline = list (fline)
+	a.append(fline)
+#	os.system("pause")
+f.close()
+
+#resTotal = input ("How many elements in a group: ") 
+resTotal = int(sys.argv[3])
+group_num = len(a)/resTotal 
+res_var = np.zeros((resTotal,group_num+1))
+count = np.zeros(resTotal)
+for i in range(resTotal):
+	res_var[i][0] = i+1
+for i in range(len(a)):
+	resNum = i%resTotal
+	res_var[resNum][count[resNum]+1] += a[i][1]
+	count[resNum] += 1
+
+
+ouf=open(sys.argv[2],'w')
+
+for i in range(resTotal):
+	for j in range(group_num):
+		print >> ouf, "%7.4f" % res_var[i][j],  #py2
+	print >> ouf
+```
+
+### 氢键沿z轴的分布
+get_hbonds_density_in_z.py
+```
+#!/opt/local/bin/python
+# python 3.6
+# python + py_file + tpr_file + trj_file + outfile + start_frame + end_frame
+# python get_hbonds.py xxx.tpr xxx.xtc xxx.csv xxx.csv 5 290 301
+# csv is out of pandas frame, 1st is the detail and 2nd is the hydrogen bond number in every bins
+# bin size is 5 angstrom
+# from configure(traj) frame 290 to frame 300;
+
+
+import sys
+import pandas as pd
+import numpy as np
+import MDAnalysis, MDAnalysis.analysis.hbonds
+
+## get input file names and read in data
+groFile=sys.argv[1]
+xtcFile=sys.argv[2]
+
+u=MDAnalysis.Universe(groFile,xtcFile)
+
+istart=int(sys.argv[6]) # Initial frame
+istop=int(sys.argv[7]) # Ending frame
+if istop<istart:
+	istop=None
+
+## create peptoid and water selections
+peptoid=u.select_atoms('resname DAH GLU LYS PHE')
+peptoid_O=u.select_atoms('resname  DAH GLU LYS PHE and name O')
+water=u.select_atoms('resname SOL')
+peptoid_sel='resname  DAH GLU LYS PHE and name OZ OE2 OE1 O NZ N HZ3 HZ2 HZ1 HZ HNT HN'
+peptoid_O_sel='resname  DAH GLU LYS PHE and name O'
+
+h=MDAnalysis.analysis.hbonds.HydrogenBondAnalysis(u,peptoid_sel,'resname SOL',detect_hydrogens='heuristic',angle=150)
+
+h.run(start=istart,stop=istop)
+h.generate_table()
+data_frame=pd.DataFrame.from_records(h.table)
+
+################################
+# Separeate box in z direction #
+################################
+box_dim=u.dimensions
+# bin size, A
+bin=float(sys.argv[5])
+#
+CellNum=int(box_dim[2]/bin)
+timesteps=data_frame.time.unique()
+CellSize=(len(timesteps),CellNum+1)
+CellHbd=np.zeros(CellSize)
+###########   END   ############
+#
+########################################
+# Add coordinate of donor and acceptor #
+########################################
+HbdPosMar=[]
+for row in data_frame.itertuples():
+	DonAtoNum=getattr(row,'donor_index')
+	AceAtoNum=getattr(row,'acceptor_index')
+	DonAtoPos=u.select_atoms("index " + str(DonAtoNum))
+	AceAtoPos=u.select_atoms("index " + str(AceAtoNum))
+	HbdPos=(DonAtoPos.positions+AceAtoPos.positions)/2
+	HbdPosMar.append(HbdPos[0])
+HbdPosMar2=np.array(HbdPosMar)
+df2=pd.DataFrame(HbdPosMar2)
+df2.columns=['x','y','z']
+dfcat=pd.concat([data_frame,df2],axis=1)
+# Output
+dfcat.to_csv(sys.argv[3])
+#############    END    ################
+#
+###############################
+# Distribute Hbond into Cells #
+###############################
+t=dfcat['time']
+AccInd=dfcat['acceptor_index']
+DonInd=dfcat['donor_index']
+AccName=dfcat['acceptor_atom']
+DonName=dfcat['donor_atom']
+x=dfcat['x']
+y=dfcat['y']
+z=dfcat['z']
+
+i=0
+for tt,aa,dd,an,dn,xx,yy,zz in zip(t,AccInd,DonInd,AccName,DonName,x,y,z):
+	if tt in CellHbd[i-1]:
+#		print (CellHbd)
+		HbdCellNo=int(zz/bin)
+#		print (HbdCellNo)
+		CellHbd[i-1][HbdCellNo]+=1
+#		print (zz)
+	else:
+		if i==0:
+			CellHbd[i][0]=tt
+			i+=1
+			HbdCellNo=int(zz/bin)
+			CellHbd[i-1][HbdCellNo]+=1
+		else:
+			i+=1
+			CellHbd[i-1][0]=tt
+			HbdCellNo=int(zz/bin)
+			CellHbd[i-1][HbdCellNo]+=1
+df_hbdZ=pd.DataFrame(CellHbd)
+Cell2dis=list(range(0,CellNum))
+for i in Cell2dis:
+	Cell2dis[i]=i*bin+bin/2
+Cell2dis.insert(0,"time")
+df_hbdZ.columns=Cell2dis
+# Output
+df_hbdZ.to_csv(sys.argv[4])
+```
+
+
+### 相关下载：
+1. [氢键计算: get_hbonds.py](http://molakirlee.github.io/attachment/gmx/hbond/get_hbonds.py)
+1. [氢键histogram: get_hbond_cnt.py](http://molakirlee.github.io/attachment/gmx/hbond/get_hbond_cnt.py)
+1. [多链分离: sep.py](http://molakirlee.github.io/attachment/gmx/hbond/sep.py)
+1. [氢键沿z轴分布: get_hbonds_density_in_z.py](http://molakirlee.github.io/attachment/gmx/hbond/get_hbonds_density_in_z.py)
+1. [Sob:计算不同z位置水能形成氢键数的VMD Tcl脚本](http://sobereva.com/54)
+
+![](/img/wc-tail.GIF)

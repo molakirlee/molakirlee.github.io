@@ -1,0 +1,48 @@
+---
+layout:     post
+title:      "LAMMPS Q&A"
+subtitle:   ""
+date:       2020-09-16 18:27:00
+author:     "XiLock"
+header-img: "img/in-post/2018/2018-11-07-howtowritepaper/bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - LAMMPS
+    - 2020
+
+---
+
+### 问题
+###### Out of range atoms - cannot compute PPPM 
+Out of range atoms 的根本问题在于分子出现了重叠，所以要检查盒子尺寸是否合理，步长是否合理，是不是预平衡没跑好；或者，是不是没加`neigh_modify delay 0 every 1 check yes`来及时check。  
+参考:  
+1. [经验之谈，如何解决：Out of range atoms - cannot compute PPPM](http://bbs.keinsci.com/thread-13244-1-1.html)
+1. [[lammps-users] out of range atoms - cannot compute PPPM](https://lammps.sandia.gov/threads/msg70370.html)
+
+
+###### Did not assign all atoms correctly
+
+这个问题往往在使用wall的时候出现，是因为原子的坐标超出了box。“If the non-periodic dimension is of style "fixed" (see the "boundary"_boundary.html command), then the atom coords must be strictly "less than" the hi value, due to the way LAMMPS assign atoms to processors.  Note that you should not make the lo/hi values radically smaller/larger than the extent of the atoms.”所以增大盒子或者清除超box的分子即可。  
+参考[Re: [lammps-users] ERROR: Did not assign all atoms correctly
+](https://lammps.sandia.gov/threads/msg13105.html)
+
+###### [Communication cutoff is shorter than a bond length based estimate. This may lead to errors.](https://lammps.sandia.gov/doc/Errors_warnings.html)
+
+相关阅读：[Re: [lammps-users] feature request: should lammps warn users if bond length exceeds comm cutoff?](https://lammps.sandia.gov/threads/msg76046.html)
+
+###### "No bonds allowed with this atom style"
+默认的原子形式为`atomic`，未考虑成键，所以会报错，改成full后即可。  
+相关阅读：[Re: [lammps-users] help: Lammps "No bonds allowed with this atom style"](https://lammps.sandia.gov/threads/msg14982.html)
+
+###### triclinic box skew too large
+Fix npt with triclinic boxes does not flip when the tilt factor exceeds +/- 0.5, like fix deform does.  Rather it allows an extra delta in the tilt to avoid the box sitting right at 0.5 and flipping back and forth.  So it lets the tilt be as big as 0.6 before flipping to -0.4 and vice versa.  If you saved a restart when the tilt exceeded 0.5, you can use the "box tilt large" command to allow it to be read back in.  Assuming you are not going to deform it more dramatically in the subsequent run, that should be fine.
+
+参考资料：[Re: [lammps-users] triclinic box skew too large in restart file](https://lammps.sandia.gov/threads/msg38662.html)
+
+### 其他资料
+1. [VASP常见错误和解决方法集锦](https://mp.weixin.qq.com/s?__biz=MzI2OTQ4OTExOA==&mid=2247485230&idx=1&sn=5efd5ef21df7b72fbc1641632f3f7d4c&chksm=eadec19fdda9488932f33b76f8101a81b37e783ea562f29f8eedb67f2a1271acc103ffcedb31&token=158036499&lang=zh_CN#rd)
+1. [lammps官方错误合集：Errors](https://www.afs.enea.it/software/lammps/doc17/html/Section_errors.html)
+
+![](/img/wc-tail.GIF)

@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      "群晖 Synology"
+subtitle:   ""
+date:       2021-06-29 11:12:00
+author:     "XiLock"
+header-img: "img/in-post/2018/2018-10-26-git-notes/bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - CS
+    - 2021
+
+
+---
+
+
+
+### 参考资料：
+1. [一文教你玩转最强私人云盘—群晖NAS，宅家娱乐、办公两不误！](https://zhuanlan.zhihu.com/p/110556436)
+1. [群晖NAS软件Drive介绍及使用方法教程](https://zhuanlan.zhihu.com/p/68623426)
+1. [通過WebDAV服務在Windows10資源管理器遠程訪問文件](https://kknews.cc/zh-hk/code/rygb9kv.html)
+1. [Synology NAS 设置外网访问（DNNS）](https://hkc.nasclub.vip/wordpress/?p=168)
+
+
+![](/img/wc-tail.GIF)

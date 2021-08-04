@@ -1,0 +1,97 @@
+---
+layout:     post
+title:      "多孔材料分析 zeo++ & porE"
+subtitle:   ""
+date:       2020-12-08 19:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2020
+
+---
+
+### zero++
+#### 指令
+
+###### 查看帮助
+```
+./network
+```
+
+###### 关键孔径
+```
+./network -ha -res EDI.cssr
+```
+得到:  
+```
+EDI.res    4.89082 3.03868  4.81969
+```
+###### 孔道维度分析
+```
+./network -chan probe_radius input_structure.cssr
+./network -ha -chan 1.5 EDI.cssr
+```
+得到:  
+```
+EDI.chan   1 channels identified of dimensionality 1
+Channel  0  4.89082  3.03868  4.89082
+```
+
+###### 可及表面积/体积分析
+```
+./network -sa chan_radius probe_radius num_samples outputfile.sa input_structure.cssr
+./network -ha -sa 1.2 1.2 2000 EDI.cssr
+或
+./network -vol chan_radius probe_radius num_samples outputfile.vol input_structure.cssr
+./network -ha -vol 1.2 1.2 50000 EDI.cssr
+```
+得到:  
+```
+@ EDI.sa Unitcell_volume: 307.484   Density: 1.62239   
+ASA_A^2: 60.7713 ASA_m^2/cm^3: 1976.4 ASA_m^2/g: 1218.21 
+NASA_A^2: 0 NASA_m^2/cm^3: 0 NASA_m^2/g: 0
+或
+@ EDI.vol Unitcell_volume: 307.484   Density: 1.62239   
+AV_A^3: 22.6493 AV_Volume_fraction: 0.07366 AV_cm^3/g: 0.0454022 
+NAV_A^3: 0 NAV_Volume_fraction: 0 NAV_cm^3/g: 0
+```
+
+###### 孔道占据体积分析
+```
+./network -volpo chan_radius probe_radius num_samples outputfile.vol input_structure.cssr
+./network -ha -volpo 1.2 1.2 50000 EDI.cssr
+```
+得到：
+```
+@ EDI.volpo Unitcell_volume: 307.484   Density: 1.62239 
+POAV_A^3: 131.284 POAV_Volume_fraction: 0.42696 POAV_cm^3/g: 0.263168 
+PONAV_A^3: 0 PONAV_Volume_fraction: 0 PONAV_cm^3/g: 0
+```
+
+###### 孔径分布
+```
+./network -psd chan_radius probe_radius num_samples outputfile.psd input_structure.cssr
+./network -ha -psd 1.2 1.2 50000 EDI.cssr
+```
+用-vpsd的话得到的vpsdpts文件可用来可视化。
+
+###### 格式转换
+```
+./network -xyz EDI.cssr
+./network -v1 EDI.cssr
+```
+
+#### 参考资料
+1. [Zeo++教程](https://hp-d.top/2020/11/22/zeo/)
+1. [Using Zeo++](http://www.zeoplusplus.org/examples.html)
+1. [Cases](http://www.zeoplusplus.org/examples.html)
+1. [Molecular Dynamics Simulations of Gas Selectivity in Amorphous Porous Molecular Solids](https://livrepository.liverpool.ac.uk/2006882/1/Jiang,%20Shan_Molecular%20Dynamics_Simulation%20paper_17_10_2013.pdf)
+
+### porE
+
+1. [Project description](https://pypi.org/project/porE/)
+
+![](/img/wc-tail.GIF)

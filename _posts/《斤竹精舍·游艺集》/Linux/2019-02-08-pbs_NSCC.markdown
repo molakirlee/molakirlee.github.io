@@ -1,0 +1,155 @@
+---
+layout:     post
+title:      "PBS排队系统&NSCC"
+subtitle:   ""
+date:       2019-02-08 20:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Linux
+    - 2019
+
+---
+  
+##### PBS脚本文件   
+PBS脚本文件由脚本选项和运行脚本两部分组成。  
+###### PBS作业脚本选项   
+（若无-C选项，则每项前面加‘#PBS’）   
+-a  date_time  ： date_time格式为：[[[[CC]YY]MM]DD]hhmm[.SS] 表示经过date_time时间后作业才可以运行。  
+-c  interval   ： 定义作业的检查点间隔，如果机器不支持检查点，则忽略此选项。  
+-C  directive_prefix ：在脚本文件中以directive_prefix开头的行解释为qsub的命令选项。（若无此选项，则默认为’#PBS’ ）  
+-e  path       ：将标准错误信息重定向到path  
+-I             ：以交互方式运行  
+-j  join       ：将标准输出信息与标准错误信息合并到一个文件join中去。  
+-k  keep       ：定义在执行结点上保留标准输出和标准错误信息中的哪个文件。 keep为o 表示保留前者，e表示后者，oe或eo表示二者都保留，n表示皆不保留。若忽略此选项，二者都不保留。  
+-l  resource_list     ： 定义资源列表。以下为几个常用的资源种类。  
+    cput=N            ： 请求N秒的CPU时间; N也可以是hh:mm:ss的形式。  
+    mem=N[K|M|G][B|W] ：请求N {kilo|mega|giga}{bytes|words} 大小的内存。  
+    nodes=N:ppn=M     ：请求N个结点，每个结点M个处理器。  
+-m  mail_options  ：mail_option为a：作业abort时给用户发信；为b：作业开始运行发信；为e：作业结束运行时发信。若无此选项，默认为a。  
+-M  user_list     ： 定义有关此作业的mail发给哪些用户。  
+-N  name          ： 作业名，限15个字符，首字符为字母，无空格。  
+-o  path          ： 重定向标准输出到path。  
+-p  priority      ： 任务优先级，整数，[-1024，1023]，若无定义则为0.  
+-q  destination   ： destination有三种形式： queue , @server,queue@server。  
+-r  y|n           ： 指明作业是否可运行，y为可运行，n为不可运行。  
+-S  shell         ： 指明执行运行脚本所用的shell，须包含全路径。  
+-u  user_list     ： 定义作业将在运行结点上以哪个用户名来运行。  
+-v  variable_list ： 定义export到本作业的环境变量的扩展列表。  
+-V                ： 表明qsub命令的所有环境变量都export到此作业。  
+-W  additional_attributes  ： 作业的其它属性。  
+-z                ： 指明qsub命令提交作业后，不在终端显示作业号。  
+  
+###### 运行脚本同LINUX下一般的运行脚本文件。  
+[注]：脚本文件中的mpirun_rsh命令行中的节点列表文件要用环境变量表示 `$PBS_NODEFILE` 这个环境变量表示由pbs自动分配给作业的节点列表；  
+节点数为命令行中指定的进程数。  
+格式如下：  
+
+`mpirun_rsh –np 进程数 –hostfile $PBS_NODEFILE 可执行程序名`  
+  
+##### qsub   
+命令—用于提交作业脚本  
+例：# qsub  aaa.pbs         提交某作业，系统将产生一个作业号  
+    
+##### qstat   
+用于查询作业状态信息 命令格式：qatat [-f][-a][-i] [-n][-s] [-R] [-Q][-q][-B][-u]  
+参数说明：  
+-f  jobid  列出指定作业的信息   
+-a         列出系统所有作业  
+-i         列出不在运行的作业  
+-n         列出分配给此作业的结点  
+-s         列出队列管理员与scheduler所提供的建议  
+-R         列出磁盘预留信息  
+-Q         操作符是destination id，指明请求的是队列状态     
+-q         列出队列状态，并以alternative形式显示  
+-au userid 列出指定用户的所有作业  
+-B         列出PBS Server信息  
+-r         列出所有正在运行的作业  
+-Qf queue  列出指定队列的信息  
+-u         若操作符为作业号，则列出其状态。若操作符为destination id，则列出运行在其上的属于user_list中用户的作业状态。  
+  
+##### qdel   
+用于删除已提交的作业 命令格式：qdel  [-W 间隔时间] 作业号  
+命令行参数：  
+例：\$ qdel -W 15 211 15秒后删除作业号为211的作业  
+  
+###### qsig  
+用于停止正在运行的作业，要停止一个正在运行的作业，可用向其发送 KILL 信号：  
+例：\$ qsig -s KILL <job ID>  
+  
+  
+##### 常用的 PBS 环境变量：  
+  
+|环境变量|说明|  
+|------|------|  
+|PBS_ENVIRONMENT|批处理作业为 PBS_BATCH，交互式作业为 PBS_INTERACTIVE|  
+|PBS_JOBID|PBS 系统给作业分配的标识号|  
+|PBS_JOBNAME|用户指定的作业名称|  
+|PBS_NODEFILE|包含作业所用计算节点的文件名|  
+|PBS_QUEUE|作业所执行的队列名称|  
+|PBS_O_HOME|执行 qsub 命令的 HOME 环境变量值|  
+|PBS_O_PATH|执行 qsub 命令的 PATH 环境变量值|  
+|PBS_O_SHELL|执行 qsub 命令的 SHELL 环境变量值|  
+|PBS_O_HOST|执行 qsub 命令节点名称|  
+|PBS_O_QUEUE|提交的作业的最初队列名称|  
+|PBS_O_WORKDIR|执行 qsub 命令所在的绝对路径|  
+  
+##### 例子  
+cat submit.pbs  
+-------------------------------------------------------------------  
+
+```
+\#!/bin/bash  
+\#PBS –q normal  
+\#PBS –l select=2:ncpus=24:mem=96G:mpiprocs=24:ompthreads=1  
+\#PBS –l walltime=16:00:00  
+\#PBS –N gromacs_example  
+module load gromacs/5.1.2/gcc493/impi  
+cd $PBS_O_WORKDIR  
+mpirun mdrun_mpi -pin on -ntomp $OMP_NUM_THREADS -s inputfile.tpr > gromacs.log  
+```
+
+-------------------------------------------------------------------  
+In the above script the resources are requested through the job script. Each line of the job script is explained below.  
+-> Choose the queue “normal”  
+-> reserves 2 units of 24 cpu, 96Gb memory, 24 MPI, processes and one OpenMP thread for this job  
+-> Request a wall time of 16 Hour  
+-> Name of the job defined as gromacs_example  
+-> Loads the environment for gromacs/5.1.2/gcc493/impi  
+-> Execute commands in current working directory  
+-> gromacs execution command with mpirun  
+  
+cat submit.pbs  
+-------------------------------------------------------------------  
+
+```
+\#!/bin/bash  
+\#PBS –q gpu  
+\#PBS –l select=2:ncpus=24:mem=96G:ngpus=1:mpiprocs=2:ompthreads=12  
+\#PBS –l walltime=16:00:00  
+\#PBS –N gromacs_example  
+module load gromacs/5.1.2/gcc493/impi_cuda  
+cd \$PBS_O_WORKDIR  
+mpirun mdrun_mpi -pin on -ntomp $OMP_NUM_THREADS -deffnm md > pbs_md.log 2>&1  
+```
+
+-------------------------------------------------------------------  
+In the above script the resources are requested through the job script. Each line of the job script is  
+explained below.  
+-> requesting for gpu queue  
+-> Request 2 units of 24 CPUs, 96GB of memory, 1 gpu, and 12 threads with 2 MPI Processes  
+-> Request for a wall time of 16 Hours  
+-> Name of the job is gromacs_example  
+-> Load the environment for gromacs cuda version  
+-> Change to current working directory  
+-> Execute mpi version of gromacs command, because the "-v" export into error so we add 2>&1
+
+
+##### 其它资料
+[浙江大学集群使用教程](https://molakirlee.github.io/attachment/cluster_ZheJiangUniversity.ppt)
+
+
+![](/img/wc-tail.GIF)

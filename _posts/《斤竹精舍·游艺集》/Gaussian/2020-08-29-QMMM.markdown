@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      "QMMM"
+subtitle:   ""
+date:       2020-08-29 15:13:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Gaussian
+    - 2020
+
+---
+
+sob老师说做QM/MM效率最高的是：amber+Gaussian、NAMD+ORCA
+1. [MM and QM/MM setup for a metalloprotein using GROMACS,  Chemshell and ORCA](https://sites.google.com/site/ragnarbjornsson/mm-and-qm-mm-setup)
+
+
+![](/img/wc-tail.GIF)

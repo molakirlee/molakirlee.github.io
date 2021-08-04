@@ -1,0 +1,210 @@
+---
+layout:     post
+title:      "gmx 拉伸分子动力学及PMF计算"
+subtitle:   ""
+date:       2019-12-16 20:34:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2019
+
+---
+
+参考资料  
+1. [平均力势----以石墨烯-甘氨酸体系为例](https://liuyujie714.com/41.html)  
+1. [教程翻译----来自窗口采样的甲烷-甲烷之间的PMF](https://liuyujie714.com/42.html#more)
+1. [平均力势----以环糊精-苯酚体系为例](https://liuyujie714.com/23.html#more)  
+1. [GROMACS教程：伞形采样](https://jerkwin.github.io/GMX/GMXtut-3/)
+1. [杂谈自由能计算，PMF，伞形抽样，WHAM](https://blog.csdn.net/rogerzhanglijie/article/details/8126864)
+
+### 前期工作
+1. 建模；
+1. 添加溶剂和平衡离子；
+1. 能量最小化和平衡；
+
+
+### SMD
+###### mdp: pull code
+
+pull的代码基于md而非steep等，以下为Xilock的pull部分code：
+
+```
+;其他代码如run parameters, output parameters, bond parameters, cut off, couple等
+;.....
+;Pull code
+;根据需要确定是否需要freeze住无关部分
+;freezegrps      = RUT
+;freezedim       = Y Y Y
+;或者用-DPOSRES固定住
+;define      = -DPOSRES_B
+;拉伸，通过速率和模拟时间来控制拉伸距离
+pull            = yes
+pull-ngroups    = 2
+pull-ncoords    = 1
+pull-group1-name = Chain_A
+pull-group2-name = Chain_B
+pull-coord1-type     = umbrella      ; harmonic biasing force
+pull-coord1-geometry = distance
+pull-coord1-groups = 1 2   ;group2相对于group1做SMD
+pull-coord1-dim      = N N Y
+pull-coord1-start    =yes
+pull_coord1_rate        = 0.01          ; 0.01 nm per ps = 10 nm per ns
+pull_coord1_k           = 1000          ; kJ mol^-1 nm^-2
+;pull-nstxout    = 0 ;不输出pullx文件
+;pull-nstfout    = 0 ;不输出pullf文件
+```
+
+1. **后面做production MD时只需将速度改为0即可，留意freeze和define的修改与使用；**
+1. 若pull后的构象没有速度，记得打开`gen_vel     = yes`和`gen_temp    = 310`来生成初始速度；
+
+
+###### 从轨迹中抽取构型
+
+用下述命令处理拉伸轨迹，得到conf0.gro，conf1.gro等文件：
+```
+echo 0 | gmx trjconv -s pull.tpr -f pull.xtc -o conf.gro -sep
+```
+
+###### 计算质心距离
+
+使用jalemkul@vt.edu的脚本[perl distances.pl](https://jerkwin.github.io/GMX/GMXtut-3_distances.pl)
+
+1. 在bash环境下运行该脚本，如git的bash，cmd下可能报错。
+1. 使用前注意修改构象个数和group名称。
+
+```
+perl distances.pl
+```
+
+附Xilock修订后的distances.pl:
+```
+#!/usr/bin/perl -w
+
+use strict;
+
+# loop g_dist command - measure distance in each frame, write to a file
+# Total_Num is the total number of confXXX.gro
+our $Total_Num = 250;
+for (my $i=0; $i<=$Total_Num; $i++) {
+    print "Processing configuration $i...\n";
+    # Note1: in Win, replace ' by "
+    # Note2: \ is used to transfer; & should be delect sometimes
+    # Note3: group name in "" such as group "RUT" or groug with numbe such as group 25
+    # Note4: group name should be exclusive in ndx file, do not have repeated group name!!
+    # Note5: -oxyz will output distance in x, y, and z anxials respectively, we used z in the following.
+    system("gmx distance -s pull.tpr -f conf${i}.gro -n index_distance.ndx -oxyz dist${i}.xvg -select \'com of group \"RUT\" plus com of group \"Lysozyme\"\' &>/dev/null");
+}
+
+# write output to single file
+open(OUT, ">>summary_distances.dat");
+
+ for (my $j=0; $j<=$Total_Num; $j++) {
+    open(IN, "<dist${j}.xvg");
+    my @array = <IN>;
+
+    my $distance;
+
+    foreach $_ (@array) {
+        if ($_ =~ /[#@]/) {
+#             do nothing, it's a comment or formatting line
+        } else {
+            my @line = split(" ", $_);
+#            third one is in z anxial
+            $distance = $line[3];
+        }
+    }
+
+    close(IN);
+    print OUT "$j\t$distance\n";
+}
+
+close(OUT);
+
+# clean up	
+print "Cleaning up...\n";
+
+ for (my $k=0; $k<=$Total_Num; $k++) {
+    unlink "dist${k}.xvg";
+}
+
+exit;
+```
+
+注：主要有三处要修改的内容
+1. 总构象数Total_Num；
+1. gmx distance代码；
+1. 要输出的距离方向，如$line[1]为x轴，$line[3]为z轴；
+
+
+###### 提取固定间距构象并生成gmx命令的sh文件
+
+使用Mike Harms的脚本[setupUmbrella.py](https://jerkwin.github.io/GMX/GMXtut-3_setup-umbrella-script.zip)
+
+```
+python setupUmbrella.py summary_distances.dat 0.2 run-umbrella.sh > caught-output.txt
+```
+
+注意脚本中要**修改**的几个地方：
+1. line150之后有三处print函数后要加括号()，如最后一行改为：print ("".join(out));
+1. 若使用python3，则将line61的`keys.sort()`改为:`sorted(keys)`
+1. 若只输出最后一个configarition则可能是排序有问题，将`sorted(keys)`改为`keys = sorted(keys)`即可。（如在python3.6中）
+
+run-umbrella.sh代码示例：
+```
+#!/bin/bash
+
+# NVT
+gmx grompp -f mdp/nvt_10ns.mdp -c confXXX.gro -p topol.top -n index_ions.ndx -o nvt_10ns_XXX.tpr
+gmx mdrun -v -deffnm nvt_10ns_XXX -pf pullf-XXX.xvg -px pullx-XXX.xvg
+```
+
+得到一堆sh文件后，可以用`cat *.sh > MergeSh.bsh`得到组合的批处理脚本，去掉多余的部分即可。  
+或者在bsh里使用循环：
+merge.bsh
+```
+#!/bin/bash
+for i in 6 14 20 27 34
+do
+	gmx grompp -f mdp/nvt_10ns.mdp -c conf$i -p topol.top -n index_ions.ndx -o nvt_10ns_$i.tpr
+	gmx mdrun -v -deffnm nvt_10ns_$i -pf pullf$i.xvg -px pullx$i.xvg
+done
+```
+
+
+### MD Run
+
+记得指定用-pf和-px分别指定输出的pullf和pullx文件命，如：
+```
+gmx mdrun -deffnm umbrella0 -pf pullf-umbrella0.xvg -px pullx-umbrella0.xvg
+```
+
+**否则因为输出文件同名而会被覆盖.**
+
+### PMF
+
+建立两个文件（可以用ls *.tpr > tpr-files.dat等），tpr-files.dat和pullf-files.dat，分别包括tpr和pullf.xvg文件名：
+如tpr-files.dat:
+```
+umbrella0.tpr
+umbrella1.tpr
+...
+umbrella22.tpr
+```
+或如pullf-files.dat:
+```
+pullf0.tpr
+pullf1.tpr
+...
+pullf22.tpr
+```
+
+然后用下述指令计算PMF，注意选择从平衡后开始：
+```
+gmx wham -it tpr-files.dat -if pullf-files.dat -b xxx -o -hist -unit kCal
+```
+
+![](/img/wc-tail.GIF)

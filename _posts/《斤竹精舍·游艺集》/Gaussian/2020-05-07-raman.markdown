@@ -1,0 +1,45 @@
+---
+layout:     post
+title:      "Gaussian 拉曼光谱计算"
+subtitle:   ""
+date:       2020-05-07 15:13:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Gaussian
+    - 2020
+
+---
+
+声明：本文内容整理自参考阅读资料，仅为方便日后翻阅
+
+参考阅读：
+1. [使用Multiwfn绘制红外、拉曼、UV-Vis、ECD、VCD和ROA光谱图](http://sobereva.com/224)
+1. [浅谈为什么优化和振动分析不需要用大基组](http://sobereva.com/387)
+1. [谈谈量子化学中基组的选择](http://sobereva.com/336)
+1. [谈谈弥散函数和“月份”基组](http://sobereva.com/119)
+1. [Gaussian中用TDDFT计算激发态和吸收、荧光、磷光光谱的方法](http://bbs.keinsci.com/thread-2413-1-1.html)
+1. [由能量导数获得的属性一览 ](http://bbs.keinsci.com/thread-93-1-1.html)
+1. [谈谈谐振频率校正因子](http://sobereva.com/221)
+1. [常用频率校正因子1：各来源谐振校正因子汇总表格](http://bbs.keinsci.com/thread-3805-1-1.html)
+1. [常用频率校正因子2：Precomputed vibrational scaling factors(from CCCBDB)](https://cccbdb.nist.gov/vibscale.asp)
+
+
+1. 对于计算分子振动频率、红外光谱、VCD谱，对大体系，这类任务基组用6-31G*其实就够了，最多用到def-TZVP也足矣，不能再提高了，再提高纯属白浪费时间。通常来说都这类任务都是基于谐振近似算的，一般都要用频率校正因子来修正谐振近似和理论方法的系统性误差，见《谈谈谐振频率校正因子》（http://sobereva.com/221）。经过频率校正因子修正后，用小基组、中等基组、大基组其实结果根本没什么差别。
+1. 但是！！！虽然Raman、ROA谱也是振动谱，但是计算它们需要有弥散函数才能得到较好结果。因为它们在计算时都要涉及极化率对振动坐标的导数，而极化率要算准是需要有弥散函数的。J. Chem. Theory Comput., 7, 3323 (2011)提出计算Raman、ROA的两步方法，在优化和振动分析时不用弥散函数（低至6-31G*高至def-TZVP就够），但是计算极化率导数的时候再考虑弥散函数（建议>= aug-cc-pVDZ），这样比整个过程都用弥散函数更便宜而且精度没什么损失。Gaussian支持这种两步方法。（由于ROA、Raman是振动谱，所以也应考虑频率校正因子）
+1. 对于拉曼光谱，写freq=raman关键词就可以了（由于长期以来以讹传讹，无数人居然误以为Gaussian的freq任务默认就计算raman，还每次都特意写上noraman以为这样会节省时间，这是弥天大误，Gaussian只对HF的freq任务才默认计算raman！！！）。若要绘制非谐振的Raman光谱，用freq(raman,anharm)的输出文件。
+如果要绘制预共振拉曼，应当还同时写上CPHF=rdfreq关键词，并在输入文件末尾空一行写上所有要算的入射光频率，比如300nm 400nm 500nm。如果不写单位，则默认是原子单位。
+1. 在作IR、Raman、VCD这些振动光谱的谱图时，要先把频率乘上校正因子后再做图。手动一一去改Gaussian输出文件里的频率值显然太费事了。Multiwfn 的绘制光谱图的功能可以方便地设定校正因子。启动Multiwfn后，载入Gaussian的freq任务的输出文件，选11进入光谱绘制功能，选IR或Raman，之后选0就可以显示光谱图。如果选14 Multiply the vibrational frequencies by a factor，就可以令不同编号范围的频率乘以指定的校正因子，重新作图后就能看到效果了。
+
+
+
+其他：  
+1. 优化和振动分析必须在相同级别下进行
+1. 数据充分说明优化+振动分析结果对基组的敏感性远低于能量，所以在高耗时的优化+振动分析时用中小基组，而只在随后的单点能计算时才用大基组，这样做比起所有过程都用大基组耗时大为降低而精度降低不多
+1. 几何优化用6-31G**这样偏小基组就没太大问题，用到6-311G**或def-TZVP这样中等基组一般来说就足够准了（等优化完算单点的时候再把基组提升一、两个档是明智的做法）。
+
+
+![](/img/wc-tail.GIF)

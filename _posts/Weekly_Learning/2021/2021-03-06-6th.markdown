@@ -1,0 +1,61 @@
+---
+layout:     post
+title:      "2021-每周补脑6th"
+subtitle:   ""
+date:       2021-03-06 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+1. [The US can reach 90 percent clean electricity by 2035,  dependably and without increasing consumer bills](https://gspp.berkeley.edu/faculty-and-impact/news/recent-news/the-us-can-reach-90-percent-clean-electricity-by-2035-dependably-and-without-increasing-consumer-bills)
+1. [Microbiologists Discover Bacteria That Feed on Metal, Ending a Century-Long Search](https://scitechdaily.com/microbiologists-discover-bacteria-that-feed-on-metal-ending-a-century-long-search/)
+1. [科工力量：凭借一国之力能搞出光刻机吗？](https://news.sina.cn/gn/2020-08-21/detail-iivhvpwy2190590.d.html)
+1. [Cool tube技术](https://newatlas.com/energy/cold-tube-cooling-air-conditioner/)
+1. [木质玻璃](https://phys.org/news/2020-08-glass-like-wood-insulates-tough-blocks.html)
+1. [Enabling E-Textile Microinteractions: Gestures and Light through Helical Structures](https://ai.googleblog.com/2020/05/enabling-e-textile-microinteractions.html)
+1. [With a Simple Piece of Paper, Engineers Create Self-Powered, Wireless Keyboard](https://www.smithsonianmag.com/smart-news/your-next-digital-tablet-could-be-made-paper-180975727/)
+
+### 言论
+1. It takes 50 gallons of sap to make one gallon of syrup. So whenever I feel like I don’t have enough ideas to create something meaningful, I go collect more experiences and spend time processing them by writing and talking to friends. ——[Expression is Compression](https://perell.com/essay/expression-is-compression/)
+1. 你的个人护城河是一组独特的且不断累积的竞争优势，别人很难学习，或者很难做到。如果你有了它，你会让自己变得无法取代。你必须找到属于你的特殊东西，而且这些东西会随着时间的流逝而增加价值。漫画家斯科特·亚当斯（Scott Adams）曾经提过一种建立个人护城河的方法，就是找到自己最擅长的2个～3个事物的交集。比如，他既不是最好的漫画家，也不是最好的作家，也不是最好的企业家，但他可以是最好的商业类漫画短文作者，这就是他的护城河。总之，你要发现对你来说容易而对他人却很难的事物，并在这些事物上变得出色，然后利用它来积累社会和金融资本。——Frank Ruan
+1. 理性的人使自己适应世界，不理性的人不愿意妥协，坚持要求世界适应他的方式。因此，一切进步都取决于不理性的人。——萧伯纳
+
+### 有趣
+1. [Entropy Explained, With Sheep](https://aatishb.com/entropy/)
+1. [熵增理论为什么让好多人一下子就领悟了？](https://www.zhihu.com/question/27343287/answer/1184500866?utm_source=wechat_session&utm_medium=social&utm_oi=880020435947884544&utm_content=group1_Answer&utm_campaign=shareopn)
+1. [The life-changing love of one of the 20th century’s greatest physicists](https://theconversation.com/the-life-changing-love-of-one-of-the-20th-centurys-greatest-physicists-51229)
+1. [Georgia Tech physicists unlock the secret to perfect wok-tossed fried rice](https://arstechnica.com/science/2020/02/georgia-tech-physicists-unlock-the-secret-to-perfect-wok-tossed-fried-rice/)
+1. [Leaving Google: Five Years On](https://theartofmachinery.com/2020/08/04/leaving_google.html)
+1. [任正非华为战略预备队学员和新员工座谈会讲话，你们今天桃李芬芳，明天是社会的栋梁](https://zhuanlan.zhihu.com/p/341463553)
+1. [Production testing with dark canaries](https://engineering.linkedin.com/blog/2020/production-testing-with-dark-canaries)
+1. [Startup strategy is like Kung Fu](https://blog.asmartbear.com/kung-fu.html)
+1. [Mark Seemann:We need young programmers; we need old programmers](https://blog.ploeh.dk/2020/09/14/we-need-young-programmers-we-need-old-programmers/)
+1. [哥大CV博士总结五年读博生涯，即将入职新加坡国立大学任助理教授](https://www.jiqizhixin.com/articles/2021-02-09-8)
+
+### 观点
+###### [马斯克助力谈加薪](https://buzzorange.com/techorange/2019/07/12/does-your-boss-really-need-you/)
+馬斯克告訴瑪莉，我再也不需要你了！在瑪莉提出重大的調薪要求後，馬斯克對她說：「不如你先放兩個禮拜的假吧！讓我想想。」馬斯克決定藉由放助理兩個禮拜的假，出個小測驗給自己，看看身為特斯拉汽車執行長的他，在沒有助理協助的兩個禮拜會發生什麼事情。  
+
+但事情意外地順利，馬斯克發現其實沒有助理他一個人也能穩妥的完成工作。基於 12 年的情誼，雖然馬斯克還是向瑪莉提供了另一個職位，但此後她就再也沒有再回來辦公室過了。  
+
+這是因為瑪莉沒有培養出讓馬斯克覺得非她不可的能力。雖然當了馬斯克 12 年的助理，幫特斯拉的執行長處理過大大小小的事務，但瑪莉這 12 年也只停留在幫忙處理雜事而已。回頭看看自己，你是否也是待在一個職位上久了，每天固定的工作內容讓你漸漸安逸下來，忘了其實在職場上是該時時督促自己、提升自己呢？  
+
+你的存在是不是有一定的重要性，能夠讓老闆覺得少了你會很不方便。一開始可以先每天花 15 分鐘思考一下，究竟我一天都做了些什麼？是一整天只完成了份內被交代的事情呢？還是你有積極的在工作上展現出你不可或缺的一面？  
+
+
+
+### 奇技淫巧
+
+
+### 荐书
+
+
+![](/img/wc-tail.GIF)

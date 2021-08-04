@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "DFT-D"
+subtitle:   ""
+date:       2020-11-14 15:13:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Gaussian
+    - 2020
+
+---
+
+### 色散校正
+为什么Grimme要提出DFT-D？**出发点就是解决老一代泛函计算弱相互作用糟糕的情况。更确切来说，解决的是对色散作用描述糟糕的问题。因此，DFT-D叫做色散校正。**但要注意，色散校正，或者解决传统泛函描述色散作用烂的方法绝对不止DFT-D这一种，还有很多其它做法，比如vdW-DF、XDM、TS、LRD、DFT-ulg、dDSC、OBS等等，由于这些方法要么实现复杂、要么会导致计算耗时增加许多、要么效果不好、要么还没有被主流程序普遍支持等原因，时下流行程度和DFT-D相比微不足道，以至于DFT-D简直成了色散校正的代名词。
+
+### 参考资料
+1. [谈谈“计算时是否需要加DFT-D3色散校正？”](http://sobereva.com/413)
+1. [盘点Grimme迄今对理论化学的贡献](http://sobereva.com/388)
+1. [乱谈DFT-D](http://sobereva.com/83)
+1. [DFT-D色散校正的使用](http://sobereva.com/210)
+
+![](/img/wc-tail.GIF)

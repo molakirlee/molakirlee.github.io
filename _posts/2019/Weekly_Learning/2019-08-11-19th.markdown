@@ -1,0 +1,42 @@
+---
+layout:     post
+title:      "2019-每周补脑19th"
+subtitle:   ""
+date:       2019-08-11 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2019
+
+
+---
+ 
+### 它山之石
+#### 言论
+1. 用金字塔结构从塔尖（结论、论点）到塔基（支撑结论的论据）来进行分享。也就是使用结论先行，自上而下的一个模型。先让听众迅速接收到表达的重点，然后调动对方的好奇心，来推动他的耐心去听完得出这个结论的理由。
+1. 表是过程，达才是目的。学会所有表达模型不难，但要让自己表达精准，直抵人心才是最难的。
+1. 成为话术高手的关键在于：1、利益的承诺，因为客户只关心自己好处；2、数据化的话术，因为可以量化客户的利益；3、带有温度，真情实意的话术，客户听起来开心。
+1. 一切都不会改变，除非你做些什么。
+1. 只有确定自身的现状，我们才能继续向前。
+1. 一份好工作，有两个共性：有积累性和有门槛。积累性，说的是干的时间越长，在业内越有优势。并且优势可以积累。门槛，说的是这个行业有一定的门槛，不容易进入；或者新来的从业者不容易对老从业者产生冲击。
+1. 一个好的工作建议比如：做一名医生，然后去买巴菲特的股票。意思就是找一份收入稳定、无论什么时候都有稳定现金流的工作。但考虑到这样的工作本身的收入有上下限的约束，所以在此基础上，还需要做好投资，给自己找一个没有上限的投资项目。
+1. 战术型思维：方法总比问题多！在着手解决问题之前，必须弄清楚自己要解决的问题是什么。
+1. 选择型思维：什么才是更重要的？
+1. 不要做错事，正确的事情就会发生。
+1. 五秒说不。
+1. 注意你的意图。问问自己为什么上脸书或品趣志。只是因为无聊？愤怒？这是你想分享的思想状态吗？记住屏幕另一边的人。我们很容易把注意力集中在点击和评论上，但记住你最终还是在和人打交道，而不是媒体。质量，而不是数量。你有什么真的想分享、值得别人注意的事吗？那就去分享吧。但记住苏格兰议会大厦侧面刻着的格言：说得少但是说得好。
+
+
+
+#### 转载
+[人和人的差距，是怎么拉开的？ 附21条成长建议](https://mp.weixin.qq.com/s?__biz=MzIxNTAzNzU0Ng==&mid=2654632276&idx=6&sn=444624489e20912fa1f986247f3ea86e&chksm=8c50ba51bb273347ad3e9c725ef33ff745b03b976f0c6d8e9406f5bc0d2193b114c17399d0d2&mpshare=1&scene=24&srcid=#rd)  
+[稻盛和夫：如何对员工讲述经营哲学](https://mp.weixin.qq.com/s?__biz=MzIxNTAzNzU0Ng==&mid=2654633438&idx=2&sn=348ce608077ad50a75afd5984dc7318c&chksm=8c50bedbbb2737cd6b4e1748ff847530fccf7bc22165d8bd1656f0080e98212ebe7766486af2&mpshare=1&scene=24&srcid=#rd)  
+[唤醒创作力的两种奇妙建议](https://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&mid=2655715308&idx=1&sn=6dcfe91ce91eaf3cacd38a8aa58333be&chksm=bd50ec6f8a276579371063934368ef84822b1f2f2f04ec8c001deaae1ac37b6968f28366939b&mpshare=1&scene=24&srcid=&sharer_sharetime=1564203155221&sharer_shareid=94ee81ed11f34f7d7a5a020bfe1b12ac#rd)  
+[低效能人士的七个习惯](https://mp.weixin.qq.com/s?__biz=MzI4NzM1MjA0OQ==&mid=2247488817&idx=3&sn=82c11d8561b8d1379fcc10b39bf074aa&chksm=ebcfa0afdcb829b954ca44a473f7e75a05317b309b9697a1f3fe608cab7289e4fee8a4a1e90c&mpshare=1&scene=24&srcid=&sharer_sharetime=1564552808541&sharer_shareid=94ee81ed11f34f7d7a5a020bfe1b12ac#rd)  
+[如何有效的打杂](https://mp.weixin.qq.com/s?__biz=MzI0MjA1Mjg2Ng==&mid=2649868684&idx=1&sn=1cff825ea6e5f0a55864df5fb527e948&chksm=f10753e1c670daf7f42d45780a6930d4077a02bc4b791361c5226d1c578723b87cfa7873d4a9&mpshare=1&scene=24&srcid=&sharer_sharetime=1565345268308&sharer_shareid=94ee81ed11f34f7d7a5a020bfe1b12ac#rd)  
+
+
+![](/img/wc-tail.GIF)

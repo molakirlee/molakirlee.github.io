@@ -1,0 +1,82 @@
+---
+layout:     post
+title:      "Vasp DOS实战"
+subtitle:   ""
+date:       2020-11-01 23:12:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Vasp
+    - 2020
+
+
+---
+
+### 结构优化
+1. 先做结构优化，然后计算DOS
+1. 建议结构优化的时候保存WAVECAR，这样计算DOS的时候可以读取WAVECAR，直接一步计算搞定。
+
+### 一步法计算DOS
+###### INCAR
+```
+IBRION = -1
+NSW = 0
+ISMEAR = -5
+LORBIT = 11
+```
+
+必须的参数：
+1. ISMEAR = -5
+2. LORBIT = 11
+3. 高密度的K点
+
+###### 示例
+```
+System = Ru-Bulk 
+ISTART = 0 
+GGA = PE 
+
+Electronic Relaxation
+ENCUT = 500
+EDIFF = 1E-06
+LREAL = Auto
+NELM = 100
+
+Ionic relaxation
+EDIFFG =  -0.01
+IBRION = -1 
+NSW = 0 
+POTIM = 0.10
+
+Electronic relaxation 2 (details)
+ALGO = Fast
+ISMEAR = -5
+SIGMA = 0.01
+LORBIT = 11
+
+Files to write
+NWRITE = 0  
+LWAVE   =   .FALSE.
+LCHARG  =   .FALSE.
+```
+
+### 两步法计算DOS
+第一步：  
+1. ISMEAR = -5
+1. LCHARG = .TRUE.
+1. 稍微低密度的K点
+
+第二步：  
+1. ISMEAR = -5
+1. ICHARGE = 11
+1. LORBIT = 11
+1. 高密度的K点
+
+### 参考资料
+1. [DOS 计算(一)](https://www.bigbrosci.com/2018/02/06/ex37/)
+
+
+![](/img/wc-tail.GIF)

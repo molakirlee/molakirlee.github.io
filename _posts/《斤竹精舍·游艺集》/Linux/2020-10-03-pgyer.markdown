@@ -1,0 +1,42 @@
+---
+layout:     post
+title:      "蒲公英组网"
+subtitle:   ""
+date:       2020-10-03 09:11:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Linux
+    - 2020
+
+---
+
+
+###### 组网
+参考资料：[蒲公英访问端（Windows）使用教程](https://service.oray.com/question/4970.html)
+1. 登录p.oray.com，点击【智能组网】——【创建网络】；
+1. 输入网络名称，点击“添加成员”的按钮，选择“软件成员”，输入客户端的数量和密码；
+1. 添加成功之后在已选中网络成员，或者相应的组网里查看到UID；
+1. 子网成员可通过生成的UID和密码进行登录，也可对UID绑定手机号后用手机号登录；
+1. linux系统下只能用账号密码登录，故用linux登录前至少留出一个网络成员的空位（免费版目前最多3个位置）,登陆后会自动分配出一个账号。
+
+
+###### 登录
+参考资料：[蒲公英访问端（Windows）使用教程](https://service.oray.com/question/4970.html)
+登录方式：
+1. Oray帐号登录（登录后会生成一个UID）
+2. UID登录：若原先已经通过Oray帐号登录生成UID，则可通过该UID以及设置的密码，在蒲公英客户端上进行登录。
+3. UID所绑定的手机号登陆:一个UID只能绑定一个手机号码。
+
+###### LINUX访问端安装
+参考资料：[蒲公英智能组网VPN客户端 for Linux使用帮助](https://service.oray.com/question/5063.html)
+1. 官网下载对应安装包，如64位：pgyvpn-2.1.0-amd64.rpm；
+1. 安装：`rpm -ivh pgyvpn-2.1.0-amd64.rpm`
+1. 安装成功后，任意路径下执行`pgyvpn`调出交互界面，按照界面指示输入Oray官网帐号或VPN ID进行登陆；
+1. 键入对应序号可查询使用对应信息和功能。
+
+
+![](/img/wc-tail.GIF)

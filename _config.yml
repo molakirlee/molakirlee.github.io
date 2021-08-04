@@ -1,0 +1,166 @@
+# Site settings
+title: 神探玺洛克的厨房 Blog
+SEOTitle: 落Science的苹果树 | XiLock Blog
+header-img: img/home-bg.jpg
+email: molakirlee@sina.com
+name: XiLock
+description: "一个学化工的厨子爱上推理"
+keyword: "推理，科学，美食，XiLock"
+url: "molakirlee.ga"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: false
+#weibo_username:     XiLock
+zhihu_username:     vimalakirti_lee
+github_username:    molakirlee
+#twitter_username:   XiLock
+#facebook_username:  XiLock
+#linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+paginate_path: "/blog/page:num/" #paginate文件的路径
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+disqus_username: molakirlee
+layout: default
+comments: true
+# other options
+
+
+
+#多说及多说免分享
+#duoshuo_username: _你的用户名_
+#duoshuo_share: false
+# Netease settings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-128212019-1'            # Format: UA-xxxxxx-xx
+ga_domain: molakirlee.ga
+# Google Analytics
+google_analytics: UA-128212019-1
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Quoniam apud te fons vitae in lumine tuo videbimus lumen.<br>借汝之光，得見光明。"
+sidebar-avatar: /img/kenantouxiang.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+#sidebar-avatar: /img/kenantouxiang.jpg
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+# News Link
+news: [
+    {
+         title: "ChinaDaily",
+         href: "http://www.chinadaily.com.cn/"
+     },{
+         title: "Nature",
+         href: "https://www.nature.com/"
+     },{
+         title: "Science",
+         href: "https://www.sciencemag.org/"
+     },{
+         title: "Scientific American",
+         href: "https://www.scientificamerican.com/"
+     }
+]
+
+# Friends
+friends: [
+    {
+         title: "阮一峰",
+         href: "http://www.ruanyifeng.com/blog/"
+     },{
+         title: "编程随想",
+         href: "https://program-think.blogspot.com/"
+     }
+]
+# Reads
+reads: [
+    {
+         title: "周读",
+         href: "http://www.ireadweek.com/index.php/Index/index.html"
+     },{
+         title: "《小窗幽记》",
+         href: "http://www.99lib.net/book/2045/index.htm"
+     },{
+         title: "《闲情偶寄》",
+         href: "http://www.my285.com/gdwx/xqoj/"
+     },{
+         title: "《随园食单》",
+         href: "http://www.99lib.net/book/5509/index.htm"
+     },{
+         title: "《浮生六记》",
+         href: "http://www.dushu369.com/qtyd/fslj/"
+     },{
+#        title: "乱序",
+#        href: "http://mida.re/"
+    }
+]
+
+
+
+#欢迎页内容
+favicon_img: yes
+favicon_img_path: "img/favicon.ico"
+
+avatar: yes
+#avatar_img_path: "img/favicon.ico"
+avatar_img_path: "img/head_portraits/kenan.jpg"
+
+front_img: yes
+#front_img_path: "img/background.jpg"
+front_img_path: "http://area.sinaapp.com/bingImg/" #自动采用bing的壁纸

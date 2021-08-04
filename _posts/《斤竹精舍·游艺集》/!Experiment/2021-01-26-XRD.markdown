@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      "XRD XPS"
+subtitle:   ""
+date:       2021-01-26 12:58:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Experiment
+    - 2021
+
+
+---
+
+### XRD
+1. []()
+
+###### DNA XRD patten
+《Rosalind Franklin's X-ray photo of DNA as an undergraduate optical diffraction experiment》  
+这篇文章非常好，深入浅出，解决了我中学以来的困惑，等有时间翻译一下。
+
+### XPS
+
+### 参考资料
+1. [XRD图怎么看？](https://www.zhihu.com/question/21048724)
+1. [从基本原理到结果分析，关于XPS你想了解的都在这了~](http://www.sztspi.com/archives/29551.html)
+1. [2018年你一定不能错过的史上最全XRD干货总结（附资料）](http://www.sztspi.com/archives/22920.html)
+1. [Introduction to X-Ray Powder Diffraction Data Analysis](http://prism.mit.edu/xray/introduction%20to%20xrpd%20data%20analysis.pdf)
+1. [Rosalind Franklin's X-ray photo of DNA as an undergraduate optical diffraction experiment](https://aapt.scitation.org/doi/10.1119/1.5020051)
+
+
+![](/img/wc-tail.GIF)
+

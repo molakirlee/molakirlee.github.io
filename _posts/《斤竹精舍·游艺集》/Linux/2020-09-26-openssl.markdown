@@ -1,0 +1,52 @@
+---
+layout:     post
+title:      "Linux下安装/更新openssl"
+subtitle:   ""
+date:       2020-09-26 20:27:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Linux
+    - 2020
+
+---
+
+### 安装过程
+###### 查看openssl版本
+
+```
+openssl version
+```
+
+###### 下载最新的openssl
+```
+wget https://www.openssl.org/source/openssl-1.1.1c.tar.gz
+```
+
+
+###### 解压并编译安装
+
+```
+tar -zxvf openssl-1.1.1c.tar.gz
+cd openssl-1.1.1c
+./config --prefix=/usr/local/openssl   #如果此步骤报错,需要安装perl以及gcc包
+make && make install
+```
+
+###### 添加环境变量
+``` 
+# openssl
+export LD_LIBRARY_PATH=/THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/openssl/installed/lib:/usr/local/lib64
+export PATH=/THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/openssl/installed/bin:$PATH
+```
+
+
+### 参考资料
+1. [CentOS7升级OpenSSL版本](https://www.cnblogs.com/itbsl/p/11275728.html)
+1. [OpenSSL LTS版本升级方法](https://blog.csdn.net/liumiaocn/article/details/103444258)
+1. [openssl/curl/git更新](https://www.freebuf.com/column/165868.html)
+
+![](/img/wc-tail.GIF)

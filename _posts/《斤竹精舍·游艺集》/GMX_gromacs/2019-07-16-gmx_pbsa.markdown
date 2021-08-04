@@ -1,0 +1,308 @@
+---
+layout:     post
+title:      "gmx MMPBSA"
+subtitle:   ""
+date:       2019-07-16 20:20:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2019
+
+---
+### 前言
+Jerkwin老师讲的很详细，看后面之前先读这个：
+1. 重要参考:[使用GROMACS计算MM-PBSA结合自由能](https://jerkwin.github.io/GMX/GMXtut-9/)   
+1. 重要参考:[【整理】APBS教程](https://jerkwin.github.io/2017/03/12/%E6%95%B4%E7%90%86-APBS%E6%95%99%E7%A8%8B/)    
+1. [Gromacs结合自由能计算教程-筱朗](https://zhuanlan.zhihu.com/p/60963446)
+1. [Combined molecular mechanical and continuum solvent approach (MM-PBSA/GBSA) to predict ligand binding](https://link.springer.com/content/pdf/10.1023/A:1008763014207.pdf)
+
+
+### GMXPBSA和g_mmPBSA的比较
+- GMXPBSA只能给出总体的值，g_mmPBSA可给出残基分解值；
+- 据说使用默认参数时, GMXPBSA在精度上优于g_mmpbsa而且使用也更方便；
+- GMXPBSA不需要安装，解压即可使用，g_mmpbsa需编译故稍微复杂，但新版本也有编译好可直接使用的；
+- GMXPBSA有一些问题，比如gmxpbsa给的mdp太老会报错，需要使用时修改代码，如参照em_vac.mdp修改print_files.dat文件的Energy in gas的Mm.mdp部分；
+- g_mmpbsa只需要xtc、tpr和ndx文件，GMXPBSA若处理有自定义拓扑或残基的体系时需要自带top、itp和/或力场文件夹ff;
+- GMXPBSA的debug过程很恶心，记录错误的文件在子文件夹里，而且重新运行时需要删除原来生成文件夹。
+
+虽然GMXPBSA的pdie默认为2，但只在计算PBSA时调用，而在计算COU时并未调用pdie，所以若GMXPBSA算出的COU为g_mmPBSA的两倍，则可能是因为计算COU时GMXPBSA使用的pdie为1而g_mmPBSA使用的pdie为2所导致。
+
+玺洛克用GMXMMPBSA（Jerkwin老师开发的脚本）、GMXPBSA以及g_mmPBSA对g_mmPBSA中的算例1EBZ进行了测试和对比：[链接](https://molakirlee.github.io/attachment/gmx/1EBZ_Case_from_g_mmpbsa.rar)
+
+
+### GMXPBSA  
+参考：[GMXPBSAtool安装与使用经验教程](http://kangsgo.com/295.html)  
+
+鉴于之前遇到的问题，今更新一下GMXPBSA的安装和使用步骤：  
+
+##### 安装GMX和APBS
+
+1. GMX安装不赘述；
+1. APBS的安装依据参考资料，完成后在 `.bashrc` 里添加APBS的环境变量：  
+e.g.
+
+```
+#Path of APBS
+export PATH=$PATH:/home/users/ntu/n1805727/APBS/bin
+#add the APBS lib directory to my LD_LIBRARY_PATH variable
+export LD_LIBRARY_PATH=/home/users/ntu/n1805727/APBS/lib:$LD_LIBRARY_PATH
+```
+
+##### 解压缩GMXPBSA并设置环境变量  
+1. 将GMXPBSA解压到目标文件夹；  
+1. 在 `.bashrc` 里添加GMXPBAS的环境变量：  
+e.g
+
+```
+#Home of GMXPBSA, Position of gmxpbsa0.sh etc.
+export GMXPBSAHOME=/home/users/ntu/n1805727/GMXPBSAtool
+```
+
+##### 修订gmxpbsa0.sh文件  
+原文件调用gmx指令时缺少前缀gmx，现在添加上：  
+Line122(修改前):  
+```
+	 pdb2gmx=pdb2gmx; trjconv=trjconv; mdrun=mdrun; grompp=grompp; editconf=editconf; tpbconv=tpbconv;
+```
+Line122(修改后):
+```
+	 pdb2gmx='gmx pdb2gmx'; trjconv='gmx trjconv'; mdrun='gmx mdrun'; grompp='gmx grompp'; editconf='gmx editconf'; tpbconv='gmx tpbconv';
+```
+
+##### 修改print_files.dat文件
+原文件写出的Mm.mdp缺少参数，运行时会出错，故在L41-L44添加上相应参数:
+e.g.
+```
+function PRINT_MINfile_n {
+# echo -e "title = Energy in gas \ncpp   = /usr/bin/cpp \nconstraints = none \nnsteps = 1000 \nnstlist = 1 \nns_type = grid
+#rlist = 1 \nrcoulomb = 1 \nrvdw = 1 \npbc = xyz \n;" >> Mm.mdp
+echo -e "title   =     EM in Vacuum        \ndefine  =     -DFLEXIBLE          \nintegrator       = steep          \ndt               = 1E-3           \nnsteps           = 15000          \nemtol                   = 250     \nnstlist                  = 1      \nrlist                    = 1      \ncutoff-scheme            = Verlet \nns_type                  = grid   \npbc                      = xyz    \nrvdw                = 1.2         \nrcoulomb            = 1.2         \nvdw-type            = Cut-off     \ncoulombtype         = PME         \nconstraints           = none      \n" >> Mm.mdp
+}
+```
+
+**注意，此处写出的Mm.mdp文件不要有能量组项（energygrps）（如：energygrps=Protein）。**因为脚本会将蛋白和配体分别grompp做计算，计算蛋白时或许可以从蛋白中找到index中定义为Protein的索引所指向的原子而不会报错，但计算配体时必然无法找到该索引所指向的原子，故而报错。  
+
+##### 准备模拟文件
+1. 将轨迹文件处理后命名为npt.xtc
+1. 将tpr文件命名为npt.tpr
+1. 将ndx文件命名为index.ndx，内容后面会说。
+1. 将上述三个文件放入文件夹1EBZ2中。
+
+##### 修改Input.dat文件  
+
+在1EZB2文件夹外面创建（或复制）Inpur.dat文件并修改:  
+
+###### 基本设置：  
+```
+root      1EBZ2
+multitrj      n
+root_multitrj
+run                     1                               #options: integer
+RecoverJobs            y                                #options: y,n
+```
+
+修改部分：  
+1. 将 `root` 内容修改为包括tpr,xtc,ndx的指定文件夹
+
+###### 路径部分
+The INPUT.dat file in each of the EXAMPLE directories should be edited to reflect the location of your Coulomb, APBS and Gromacs binaries.  
+Cpath    path to Coulomb binary	;apbs的coulumb工具  
+Apath    path to APBS binary	;apbs目录  
+Gpath    path to Gromacs binary	;gromacs目录  
+If coulomb, in the INPUT.dat file, is set to gmx, the coulomb library is not required.  
+
+e.g.  
+```
+Cpath                  /home/users/ntu/n1805727/APBS/share/tools/manip
+Apath                  /home/users/ntu/n1805727/APBS/bin
+Gpath		    /home/users/ntu/n1805727/GMX5.1.4_Mine/gromacs-5.1.4-cpu/bin
+```
+
+###### 力场部分
+```
+use_topology            y                               #options: y,n
+	itp_receptor  recept.itp
+	itp_receptor  recept2.itp
+	itp_ligand    ligand.itp
+use_nonstd_ff           n                               #options: y,n
+ffield                 6
+```
+
+1. 如果包含有pdb2gmx不能识别的结构，则需要通过 `use_topology` 来使用自定义拓扑，注意要把top文件和其内容中包括的itp文件都一起放在根目录里；
+1. 把要分析的两个片段的拓扑文件（top或itp）提取成itp后分别命名为itp_receptor和itp_ligand，脚本会将这几个itp文件组合，若缺少某个itp文件则会提示top文件中原子个数不够；
+1. itp_receptor可以定义多次，应用于蛋白质多条链的情况；
+1. 应该也可以通过 `use_nonstd_ff` 修改力场文件实现上一步，加原子类型与电荷,但是自己修改不成功；
+1. ffield我选的amber6力场，即选择力场时的第6个选项，默认为“amber99sb-ildn”，若添加过自定义力场则序号数字可能会变动。
+
+###### Gromacs变量
+
+```
+complex	                Complex
+receptor                C1
+ligand                  C2
+skip                    1                               #options: integer
+min                     n                               #options: y,n
+double_p                n                               #options: y,n
+```
+
+在index.ndx文件里将两个要分析的片段分别命名为C1和C2，并将二者组成的复合物命名为Complex。
+
+###### APBS变量
+
+```
+coulomb                  coul                     #options: coul,gmx
+linearized              n                               #options: y,n
+precF                   1                               #options: integer 1,2,3(..)
+temp                    300
+bcfl                    sdh                             #options: sdh,mdh,focus
+pdie                    2                               #options: integer, usually between 1 and 20
+```
+
+未作修改
+
+###### 其他设置
+```
+      #QUEQUE VARIABLE
+	
+cluster                 n                             #options: y,n
+Q                       ...                                     #necessary only if cluster="y"!!
+mnp                     1                             #options: integer 
+       #OUTPUT VARIABLE
+pdf                     n                               #options: y,n
+       # ALANINE SCANNING
+cas                     n                               #options: y,n
+	
+#MUTATION        P53          112             PHE lig PHE112ALA
+#MUTATION        P53          115             LEU lig LEU115ALA
+#MUTATION        P53          116             TRP lig TRP116ALA
+#MUTATION        P53          119             LEU lig LEU119ALA
+```
+
+未作修改。
+
+###### 完整input.dat文件
+完整input.dat如下：
+```
+        #GENERAL
+
+root      1EBZ2
+
+multitrj      n
+root_multitrj
+
+run                     1                               #options: integer
+
+RecoverJobs            y                                #options: y,n
+
+Cpath                  /home/users/ntu/n1805727/APBS/share/tools/manip	
+Apath                  /home/users/ntu/n1805727/APBS/bin
+Gpath		    /home/users/ntu/n1805727/GMX5.1.4_Mine/gromacs-5.1.4-cpu/bin
+
+
+	#FFIELD
+
+use_topology            y                               #options: y,n
+	itp_receptor  recept.itp
+	itp_ligand    ligand.itp
+use_nonstd_ff           n                               #options: y,n
+ffield                 6
+
+
+        #GROMACS VARIABLE
+
+complex	                System
+receptor                C1
+ligand                  C2
+
+skip                    1                               #options: integer
+min                     n                               #options: y,n
+
+double_p                n                               #options: y,n
+
+
+        #APBS VARIABLE
+
+coulomb                  coul                     #options: coul,gmx
+
+linearized              n                               #options: y,n
+precF                   1                               #options: integer 1,2,3(..)
+temp                    300
+bcfl                    sdh                             #options: sdh,mdh,focus
+pdie                    2                               #options: integer, usually between 1 and 20
+
+
+       #QUEQUE VARIABLE
+	
+cluster                 n                             #options: y,n
+Q                       ...                                     #necessary only if cluster="y"!!
+
+mnp                     1                             #options: integer 
+
+
+       #OUTPUT VARIABLE
+pdf                     n                               #options: y,n
+
+
+       # ALANINE SCANNING
+
+cas                     n                               #options: y,n
+	
+#MUTATION        P53          112             PHE lig PHE112ALA
+#MUTATION        P53          115             LEU lig LEU115ALA
+#MUTATION        P53          116             TRP lig TRP116ALA
+#MUTATION        P53          119             LEU lig LEU119ALA
+```
+
+##### 使用
+使用步骤依据
+1. cd EXAMPLE1 which include Input.dat and the folder including xtc, tpr and ndx
+2. $GMXPBSAHOME/gmxpbsa0.sh and wait few seconds to finish the calculations
+3. when the step 2. is done, type $GMXPBSAHOME/gmxpbsa1.sh and have a cup of coffe :)
+4. when the step 3. is done, type $GMXPBSAHOME/gmxpbsa2.sh and wait few seconds to finish the calculations
+
+["Input.dat"文件参数表Table](http://cpc.cs.qub.ac.uk/cpc/cgi-bin/list_supplementary.pl/?CatNumber=AETQ_v1_1)  
+
+
+玺洛克修订版的GMXPBSA参见：[链接](https://molakirlee.github.io/attachment/gmx/GMXPBSA_XiLock.rar)  
+
+
+
+### g_MMPBSA
+##### 参考资料
+1. [入门教程](http://bioms.org/forum.php?mod=viewthread&tid=1240&extra=)    
+1. [详细教程](http://www.bioms.org/forum.php?mod=viewthread&tid=1046)  
+1. [g_mmpbsa之简单教程]{http://kangsgo.com/18.html}
+1. [g_mmpbsa之参数注释]{http://kangsgo.com/17.html}
+1. [g_mmpbsa之参数注释-生信杂谈](https://mp.weixin.qq.com/s?__biz=MzAwMDY0MzQ0Ng==&mid=2247484153&idx=3&sn=d02b7652bcb609dedb66505e62e03c20&chksm=9ae49ae0ad9313f60a8a0f5a156628ade611774c57c9b2679efc06ebcfbabbac257b9c8a8195&mpshare=1&scene=24&srcid=0629ZHjuyFpXdGgdTaBJjnz6#rd)  
+
+若不想编译g_mmpbsa，则在安装好GMX的情况下可直接使用“Includes APBS functionality”的“Pre-compiled executable program”版，不用安装apbs。[链接](http://rashmikumari.github.io/g_mmpbsa/Download-and-Installation.html#download-binary)  
+若使用“To use with external APBS program”的“Pre-compiled executable program”版则可能在计算polar时报错 `Segmentation fault`。  
+
+将“Pre-compiled executable program”版压缩包里的g_mmpbsa和energy2bfac两个文件的所在路径添加到环境变量里即可调用。
+
+使用步骤参照上面的参考资料即可。
+
+否则需要在安装GMX之外安装APBS，然后编译g_mmpbsa.
+
+##### 使用方法
+[mdp文件及算例包](https://molakirlee.github.io/attachment/gmx/g_mmpbsa_case_and_mdp.rar)
+1. 计算MM：`g_mmpbsa -f traj.xtc -s topol.tpr -n index.ndx -mme -mm energy_MM.xvg -decomp -mmcon contrib_MM.dat` 依次选择两个group；
+1. 计算PB: `g_mmpbsa -f traj.xtc -s topol.tpr -n index.ndx -i mmpbsa.mdp -nomme -pbsa -pol polar.xvg -decomp -pcon contrib_pol.dat`；
+1. 计算SA: `g_mmpbsa -f traj.xtc -s topol.tpr -n index.ndx -i mmpbsa.mdp -nomme -pbsa -apol apolar.xvg -decomp -apcon contrib_apol.dat`；
+
+
+##### g_mmpbsa参数选择：  
+In addition to Hiqmet's answer, you must also read the following papers which have exhaustively tested various parameters for MMPBSA (note these have been tested using AMBER but the results should be valid for Gromacs as well,)
+1) http://pubs.acs.org/doi/abs/10.1021/ci100275a
+2) http://pubs.acs.org/doi/abs/10.1021/ci300385h
+
+### 相关
+1. MMPBSA给的就是绝对的结合自由能，虽然也可以考虑振动熵对结合自由能的影响，但是这需要对每一帧做昂贵的振动分析，而结果比不考虑时大多时候并没什么改进，所以一般不考虑振动熵的贡献。并不是g_mmpbsa给的是相对结合自由能，而是说，g_mmpbsa给出的结合自由能由于没有考虑熵效应，所以绝对值不准（比如和实验解离常数换算的自由能来对比不适合），只适合对于一系列体系横向对比。  
+1. 默认计算能量时, 每帧都会计算, 这样可能会特别费时。 在这种情况下你可以使用trjconv抽取一步分轨迹进行计算, 以减少运算量 `trjconv -f md.xtc -o trj_8-10ns -b 8000 -e 10000 -dt 100`。  
+1. 在具体的应用中, 尤其是在多条蛋白质MD中, 会需要选择不同的链作为单体, 这时候可使用make_ndx命令将两条蛋白链分别设为不同的组。  
+
+![](/img/wc-tail.GIF)

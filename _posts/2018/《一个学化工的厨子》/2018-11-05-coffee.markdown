@@ -1,0 +1,66 @@
+---
+layout:     post
+title:      "经验·咖啡的区别"
+subtitle:   ""
+date:       2018-11-05 14:37:00
+author:     "XiLock"
+header-img: "img/in-post/2018/2018-11-05-coffee/bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《一个学化工的厨子》
+    - 2018
+
+
+---
+
+
+##### 几款主要的咖啡
+![](/img/in-post/2018/2018-11-05-coffee/3x3.jpg)
+
+##### 不同咖啡区别
+###### 浓缩咖啡 Espresso  
+这可以说是每个咖啡馆的经典款，也是其它花式咖啡的基础。一般来说espresso就是很小很小的一杯，在30毫升左右，味苦，表面漂浮着一层厚厚的咖啡油脂。在意大利语中，espresso是“为你现煮”的意思，其工艺也就是通过短时间急速萃取的方式。
+![](/img/in-post/2018/2018-11-05-coffee/espresso.png)
+
+###### 美式咖啡 Americano  
+美式咖啡其实就是兑了大半杯白开水的Espresso，一般水与咖啡的比例是2:1，当然现在很多咖啡馆采用的是滴滤式咖啡壶冲泡。
+![](/img/in-post/2018/2018-11-05-coffee/americano.png)
+
+###### 拿铁 Latte  
+拿铁是Espresso和牛奶的经典结合，牛奶与咖啡的比例一般控制在1.5:1。在咖啡的顶端还会加上一些奶泡，优秀的咖啡师还能为你呈现出漂亮的拉花。
+![](/img/in-post/2018/2018-11-05-coffee/latte.png)
+
+###### 卡布奇诺 Cappuccino  
+很容易跟拿铁混在一起，二者的区别是在牛奶和奶泡的比例上。卡布奇诺的奶泡多于牛奶。
+![](/img/in-post/2018/2018-11-05-coffee/cappuccino.png)
+
+###### 摩卡 Cafe Mocha  
+摩卡算是配方比较复杂的咖啡了，除了Espresso和牛奶，还加上了巧克力酱和打发的鲜奶油。进阶版的还会挤上巧克力酱或者撒上可可粉、肉桂粉等等，也是不错的体验。
+![](/img/in-post/2018/2018-11-05-coffee/mocha.png)
+
+###### 玛奇朵 Macchiato  
+是在Espresso里加上了几勺奶泡，把浓烈的咖啡和细腻的奶泡搭配起来。不过星巴克还一种焦糖玛奇朵，味道也算不错。
+![](/img/in-post/2018/2018-11-05-coffee/macchiato.png)
+
+###### 康保蓝 Espresso con Panna
+Espresso 与鲜奶油的搭配，做法也是比较简单。
+![](/img/in-post/2018/2018-11-05-coffee/espresso_con_panna.png)
+
+###### 白咖啡 Flat White  
+1份的Espresso加上1.5份的热牛奶。但是此白咖啡并非马来西亚的白咖啡，后者是才用低温烘焙的方式进行的。
+![](/img/in-post/2018/2018-11-05-coffee/flat_white.png)
+
+###### Milo  
+Milo is chocolate and malt powder that is mixed with hot water and milk to produce a beverage popular mainly in Oceania, South America, South-east Asia and certain parts of Africa.
+![](/img/in-post/2018/2018-11-05-coffee/milo.jpg)
+
+###### 拉茶
+拉茶主要成分是茶叶（红茶）和炼乳，在任何茶餐室可喝到。拉茶的特别之处，是泡茶者会把奶茶重覆交互从高处倒到另一容器中，看来好像是把奶茶拉得长长。泡出来的拉茶，顶端有层泡沫，因混合了空气和充分溶解了奶和茶，喝时感觉特别香特别滑顺。
+![](/img/in-post/2018/2018-11-05-coffee/lacha.jpg)
+
+
+##### 参考：  
+[几种咖啡的区别](https://www.zhihu.com/question/28289825)
+
+![](/img/wc-tail.GIF)

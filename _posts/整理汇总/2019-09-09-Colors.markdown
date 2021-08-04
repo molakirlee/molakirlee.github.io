@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "颜色RGB"
+subtitle:   ""
+date:       2019-09-09 09:28:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 整理汇总
+    - 2019
+
+
+---
+
+<p style="color:rgb(132,102,132);">#846684</p>
+<p style="color:rgb(211,165,111);">#D3A56F</p>
+<p style="color:rgb(22,121,100);">#167964</p>
+<p style="color:rgb(255,102,102);">#FF6666</p>
+
+
+![](/img/wc-tail.GIF)

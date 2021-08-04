@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "gmx 聚合物的模拟polymatic"
+subtitle:   ""
+date:       2020-11-14 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2020
+
+
+---
+
+本文主要想补充记录下关于polymer的构建和模拟部分的内容，日后再做详细整理：
+
+###### polymatic
+1. [[GROMACS] 请教无定形交联聚合物如何建模](http://bbs.keinsci.com/thread-14023-1-1.html): 这篇帖子主要讨论了如何用polymatic构建聚合物模型，并初步探讨了拓扑构建的问题，尤其是支链聚合物！
+1. [[GROMACS] 请教交联聚合物拓扑文件中原子电荷的问题 ](http://bbs.keinsci.com/thread-14751-1-1.html): 这篇帖子讨论了如何构建topol？好像也还没有很好的解决问题。
+
+
+![](/img/wc-tail.GIF)

@@ -1,0 +1,35 @@
+---
+layout:     post
+title:      "python Pycharm读取Anaconda环境"
+subtitle:   ""
+date:       2021-01-24 09:18:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - python
+    - 2021
+
+
+---
+
+### 前言
+有些环境直接在anaconda里配置比较方便，比如MDanalysis。但事后又想用pycharm进行处理，所以就得用pycharm来加载anaconda配置好的环境。
+
+### 实现方法
+###### System Interpreter
+1. 配置anaconda环境变量，在系统环境变量Path添加anacond的安装路径和其子文件夹script和library/bin。我是装在G盘，我的配置是”G:\Anaconda3;G:\Anaconda3\Scripts;G:\Anaconda3\Library\bin”。
+1. Pycharm --> File --> Default Setting --> Project Interpreter --> System Interpreter -->将路径选为anaconda环境下的python.exe。
+1. 之后，在该环境下创建的工程就可以使用anaconda中已有的库了。
+
+###### Conda Enviroment
+1. File --> Setting --> Project Interpreter --> Add Python Interpreter --> Conda Enviroment --> Existing environment --> 具体的路径为Anaconda3文件夹中envs中你所新建的环境文件中的python.exe;
+1. 选择该project要加载包文件的路径：单击菜单栏Run选择Edit Configuration。在Environment variables中添加一个新的Path。新的路径为你用Anaconda新建的环境的文件夹中的…/Library/bin文件夹。
+
+### 参考资料
+1. [pycharm部署、配置anaconda环境的教程](https://cloud.tencent.com/developer/article/1742518)
+1. [设置PyCharm使用Anaconda的环境](https://blog.csdn.net/zfcjhdq/article/details/104919067)
+
+![](/img/wc-tail.GIF)

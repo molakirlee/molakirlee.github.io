@@ -1,0 +1,48 @@
+---
+layout:     post
+title:      "2021-每周补脑7th"
+subtitle:   ""
+date:       2021-03-20 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+
+### 言论
+1. 小的、渐进式的创新可以使行业主导企业保持领先地位，但是激进的创新可以使新公司超越行业主导企业，这就叫"跨越式发展"。-- Wikipedia
+1. 相互轻蔑却又彼此来往，并一起自我作贱——这就是世上所谓“朋友”的真面目。--太宰治
+1. 胆小鬼连幸福都会害怕，碰到棉花都会受伤，有时还被幸福所伤。--太宰治
+1. 日日重复同样的事，遵循着与昨日相同的惯例，若能避开猛烈的狂喜 ，自然也不会有悲痛的来袭。--太宰治
+1. 人啊，明明一点儿也不了解对方，错看对方，却视彼此为独一无二的挚友，一生不解对方的真性情，待一方撒手西去，还要为其哭泣，念诵悼词。--太宰治
+1. 我伪装成骗子，人们就说我是个骗子。我充阔，人人以为我是阔佬。我故作冷淡，人人说我是个无情的家伙。然而，当我真的痛苦万分，不由得呻吟时，人人却认为我在无病呻吟。我想和那些不愿受人尊敬的人同行。不过，那么好的人可不愿与我为伍。--太宰治
+1. 我的不幸，恰恰在于我缺乏拒绝的能力。我害怕一旦拒绝别人，便会在彼此心里留下永远无法愈合的裂痕。--太宰治
+1. I think a lot of people think they need OO but they really just need modularity.--[Hacker News](https://news.ycombinator.com/item?id=26588045)
+1. All models are wrong, but some are useful.--[George Box](https://en.wikipedia.org/wiki/All_models_are_wrong)
+
+### 有趣
+1. [A gentle introduction to multithreading](https://www.internalpointers.com/post/gentle-introduction-multithreading)
+1. [这段涉及百度的AI秘史，说明AI注定是一场中美的“新军备竞赛”](https://posts.careerengine.us/p/605412f82e61cf72e86dc02c)
+1, [Youtube:History of the Earth](https://www.youtube.com/channel/UC_aOteuWIY8ITg7DQQspG1g/videos)
+1. [一道物理题：A Solution to the RWP for Exam 1 - Stealing Power](https://users.physics.unc.edu/~deardorf/phys25/rwp/exam1rwpsolution.html)
+1. [面向对象编程的4个问题](http://harmful.cat-v.org/software/OO_programming/why_oo_sucks)
+1. [一次创业失败的经历：This is a story about how I lost $10,000,000 by doing something stupid.](https://threadreaderapp.com/thread/1376985869542887425.html)
+
+### 观点
+1. 眼镜蛇效应（Cobra effect）指的是解决某个问题的方案，反而使得该问题恶化。它来自于殖民时期的印度，政府颁布法令说每打死一条眼镜蛇都可以领取赏金。结果，民众为了赏金开始养殖眼镜蛇，政府不得不取消赏金，养殖蛇的人就把蛇都放了，放出去的蛇继而繁殖，反而使得眼镜蛇数量大增。
+1. [How To Be Successful - Sam Altman](https://blog.samaltman.com/how-to-be-successful)
+
+### 奇技淫巧
+1. [The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html)
+
+### 荐书
+1. [奈斯比特《大趋势》笔记（I）](http://www.ruanyifeng.com/blog/2007/03/megatrends_by_john_naisbitt_part_i.html)
+
+![](/img/wc-tail.GIF)

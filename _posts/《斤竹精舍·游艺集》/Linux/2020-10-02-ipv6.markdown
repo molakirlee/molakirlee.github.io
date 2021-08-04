@@ -1,0 +1,62 @@
+---
+layout:     post
+title:      "ipv6实现半内网穿透"
+subtitle:   ""
+date:       2020-10-02 01:13:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Linux
+    - 2020
+
+---
+
+### 前言
+1. 本文不是真正的内网穿透，做内网穿透建议用FRP（不建议ngrok，不稳定）或者氪金蒲公英；
+1. ngrok参见:[如何远程登录家里的Ubuntu电脑(命令行模式)？](https://www.zhihu.com/question/27771692);
+1. 本文提到的方法不需要公网ipv4地址，但是需要有公网的ipv6地址（公网ipv6地址24开头，内网ipv6地址f开头，庆幸xilock家的墙虽然没有ipv4地址但有ipv6地址）。
+  
+### 注册ipv6域名
+1. [https://dynv6.com/](https://dynv6.com/)
+域名用于方便记录，否则关机重启后若公网ipv6地址变化则需手动修改，用ipv6域名的好处在于通过脚本可更新机子24打头的的ipv6地址到网站上并与域名挂钩，通过域名就能实现通讯。  
+
+注册登陆后，Create new Zone后得到Domainname和Benutzername(token)，后面写到更新用的脚本里。
+
+### 更新ipv6地址用脚本
+
+ /usr/bin/ddns.dynv6.sh
+```
+#!/bin/sh
+export PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+ipv6=$(ifconfig wlp3s0 | grep inet6 | awk '{print $2}' | cut -d'/' -f1)
+wget --no-check-certificate -q -O dynv6.log 'http://dynv6.com/api/update?hostname=<你的域名>&token=<你的令牌>&ipv6='$ipv6
+```
+
+xilock版ddns.dynv6.sh（增加了对公网ipv6地址的筛选，避免有的网口接上后同时有f开头的内网ipv6地址和24开头的外网ipv6地址而出问题）
+```
+#!/bin/sh
+export PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+ipv6=$(ifconfig eno2 | grep 'inet6 24' | awk '{print $2}' | cut -d'/' -f1)
+wget --no-check-certificate -q -O dynv6.log 'http://dynv6.com/api/update?hostname=<你的域名>&token=<你的令牌>&ipv6='$ipv6
+```
+
+用`crontab -e`添加`*/10 * * * * /usr/bin/ddns.dynv6.sh`后用`crontab -e`确认是否添加成功，使得每10min更新一次。
+
+在/etc/rc.local加入一行：`/usr/bin/ddns.dynv6.sh`，这样每次电脑开机，都能把新的IPv6更新到dynv6。
+
+### 使用
+1. 两个都是24开头的公网ipv6地址，可以ssh通讯了。
+1. win/linux系统的ipv6地址如何ping参见《IPv6地址使用ping、telnet命令汇总》。
+
+### 问题
+1. 连接光猫走ipv6时，需关闭光猫的拦截，否则能Ping到但ssh不上。
+
+### 参考资料：
+
+1. [dynv6 IPv6更新](https://blog.csdn.net/weixin_45357522/article/details/108556550)
+1. [IPv6地址使用ping、telnet命令汇总](https://zhuanlan.zhihu.com/p/144171272)
+
+![](/img/wc-tail.GIF)

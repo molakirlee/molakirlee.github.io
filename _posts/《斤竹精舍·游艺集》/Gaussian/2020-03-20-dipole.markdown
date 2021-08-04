@@ -1,0 +1,45 @@
+---
+layout:     post
+title:      "Gaussian 计算偶极矩"
+subtitle:   ""
+date:       2020-03-20 20:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Gaussian
+    - 2020
+
+---
+
+参考阅读：
+1. [激发态偶极矩计算](https://www.researchgate.net/post/How_to_calculate_the_excited_state_dipole_moment_in_Gaussian)
+
+### gauissian 计算得到的两个dipole
+
+gaussian做完单点能计算后会得到偶极矩，会有两个：  
+靠前输出的为标准朝向下的偶极矩，单位为Deybe。（field-independent是指外场为0时的偶极矩，即永久偶极矩）  
+```
+ Dipole moment (field-independent basis, Debye):
+    X=            195.7339    Y=            131.9435    Z=            -10.6896  Tot=            236.2946
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=           -855.6526   YY=           -448.3693   ZZ=           -521.4942
+   XY=          -1139.6995   XZ=             70.3892   YZ=            -13.7005
+```  
+靠后输出的为初始朝向下的偶极矩（a.u.）  
+```
+Dipole=-17.3479445,22.6165893,-88.4879228\Quadru
+ pole=680.8372406,132.4185523,-813.2557929,320.1581365,-53.3632641,265.
+ 1572096\PG=C01
+```
+
+### 片段偶极矩的计算
+ 如果是指某个分子片段，用Multiwfn算ADCH电荷，然后用电荷值和原子坐标自行算这个片段的偶极矩。
+ 
+### 手动计算偶极矩
+参考资料：[2.6B: Molecular Dipole Moments](https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Map%3A_Inorganic_Chemistry_(Housecroft)/02%3A_Basic_concepts%3A_molecules/2.6%3A_Dipole_Moments/2.6B%3A_Molecular_Dipole_Moments)  
+$$\mu= \sum^N_{i=1}{Q_ir_i}$$
+ 
+![](/img/wc-tail.GIF)

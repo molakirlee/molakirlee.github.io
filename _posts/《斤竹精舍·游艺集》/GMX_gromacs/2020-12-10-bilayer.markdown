@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      "gmx 脂质模拟 Martini"
+subtitle:   ""
+date:       2020-12-10 10:11:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2020
+
+
+---
+
+
+
+
+### 参考资料：
+1. [Martini实例教程：脂质](https://jerkwin.github.io/2016/11/03/Martini%E5%AE%9E%E4%BE%8B%E6%95%99%E7%A8%8BLip/)
+1. [Martini脂质拓扑](http://md.chem.rug.nl/index.php/force-field-parameters/lipids)
+1. [[综合交流] 一个新的基于GROMOS力场的磷脂力场G54A8_v1](http://bbs.keinsci.com/thread-14889-1-1.html)
+1. [生成混合组分的磷脂双层膜结构文件的工具genmixmem](http://sobereva.com/245)
+
+![](/img/wc-tail.GIF)

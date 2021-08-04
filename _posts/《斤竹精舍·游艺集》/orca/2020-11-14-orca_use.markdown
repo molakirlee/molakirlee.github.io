@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "ORCA 使用"
+subtitle:   ""
+date:       2020-11-14 16:28:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - orca
+    - 2020
+
+---
+
+1. [详谈Multiwfn产生ORCA量子化学程序的输入文件的功能](http://sobereva.com/490)
+1. [orca AIMD](https://brehm-research.de/orcamd.php)
+
+![](/img/wc-tail.GIF)

@@ -1,0 +1,300 @@
+---
+layout:     post
+title:      "常用Git命令总结"
+subtitle:   "发现自己总忘，就整理了一下贴在这里了"
+date:       2018-10-26 19:52:00
+author:     "XiLock"
+header-img: "img/in-post/2018/2018-10-26-git-notes/bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - CS
+    - 2018
+
+
+---
+
+### 初始化Git库
+```
+# 在当前目录新建一个Git代码库
+$ git init
+
+# 新建一个目录，将其初始化为Git代码库
+$ git init [project-name]
+```
+### Git配置
+
+Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置），也可以在项目目录下（项目配置）。
+```
+# 显示当前的Git配置
+$ git config --list
+
+# 编辑Git配置文件
+$ git config -e [--global]
+
+# 设置提交代码时的用户信息
+$ git config [--global] user.name "[name]"
+$ git config [--global] user.email "[email address]"
+```
+
+### git clone 远程分支克隆
+```
+$ git clone (-o <自定义远程主机名称>) <版本库的网址> (<本地目录名>)
+# 比如：
+$ git clone https://github.com/molakirlee/molakirlee.github.io
+```
+HTTP(s)以外的其他协议：
+```
+$ git clone http[s]://example.com/path/to/repo.git/
+$ git clone ssh://example.com/path/to/repo.git/ 
+$ git clone [user@]example.com:path/to/repo.git/（SSH协议的另一种写法, e.g. git@github.com:molakirlee/molakirlee.github.io）
+$ git clone git://example.com/path/to/repo.git/
+$ git clone /opt/git/project.git 
+$ git clone file:///opt/git/project.git
+$ git clone ftp[s]://example.com/path/to/repo.git/
+$ git clone rsync://example.com/path/to/repo.git/
+```
+
+### git remote 远程端管理
+```
+# 查看远程主机/远程主机网址：
+$ git remote
+$ git remote -v
+```
+
+```
+# 查看远程主机详细信息：
+$ git remote show <主机名>
+```
+
+```
+# 添加远程主机：
+$ git remote add <主机名> <网址>
+```
+
+```
+# 删除远程主机：
+$ git remote rm <主机名>
+```
+
+```
+# 重命名远程主机：
+$ git remote rename <原主机名> <新主机名>
+```
+
+```
+# git手动建立<当前分支>与<远程分支>的追踪关系：
+git branch --set-upstream-to origin/next
+```
+### git fetch 远程分支取回
+因为fetch取回的代码对本地的开发代码没有影响，所以`git fetch`命令通常用来查看其他人的进程。在本地主机上读取远程分支的形式为"远程主机名/分支名"，如origin主机的master就要用`origin/master`读取。
+```
+# 将远程主机更新取回本地（不指定分支的话默认全部取回）：
+$ git fetch <远程主机名> <分支名>
+
+注：
+1. 用fetch取回后并不改变本地开发代码，如果想编辑的话用merge命令合并取回的远端分支到本地分支（即便是已关联的分支），如：“$ git merge origin/master”。
+2. 因为每次都fetch+merge的话比较繁琐，所以可用pull命令。
+```
+### 分支管理
+
+```
+# 查看分支（-r查看远程分支，-a查看全部分支）：
+$ git branch -r/a
+
+# 在某分支基础上新建分支，并切换到该分支：
+$ git checkout -b <新分支名称> <旧分支名称>
+
+# 新建一个分支，指向指定commit
+$ git branch [branch] [commit]
+
+# 新建一个分支，指向某个tag
+$ git checkout -b [branch] [tag]
+
+# 新建一个分支，与指定的远程分支建立追踪关系
+$ git branch --track [branch] [remote-branch]
+
+# 重命名本地分支：
+$ git branch -m <旧分支名> <新分支名>
+
+# 删除分支
+$ git branch -d [branch-name]
+
+# 删除远程分支
+$ git push origin --delete [branch-name]
+$ git branch -dr [remote/branch]
+```
+### git merge 合并分支
+```
+# 合并指定分支到当前分支
+$ git merge <指定分支（即源分支）>
+# 比如想合并远端的`origin/master`到当前分支：
+$ git merge origin/master
+```
+### git pull 取回远程分支
+```
+$ git pull <远程主机名> <远程分支名>:<本地分支名>
+
+# 注：
+# 1.若是将<远程分支>和“当前分支”合并，则可省略冒号后面的<本地分支名>。
+# 2.若“当前分支”与<远程分支>存在追踪关系，则可省略<远程分支名>。
+# 3.如果“当前分支”只有一个追踪分支，<连远程主机名>都可以省略。
+```
+### git push 本地分支推送到远端
+```
+$ git push <远程主机名> <本地分支名>:<远程分支名>
+
+# 注：
+# 1.如果<远程分支>不存在，则会被新建。
+# 2.如果省略<远程分支名>，则表示将本地分支推送与之存在”追踪关系”的远程分支(通常两者同名)。
+# 3.如果省略<本地分支名>，则表示删除指定的远程分支，因为这等同于推送一个空的本地分支到远程分支。
+# 4.如果“当前分支”与<远程分支>之间存在追踪关系，则<本地分支>和<远程分支>都可以省略。
+# 5.如果当前分支只有一个追踪分支，那么<远程主机名>都可以省略。
+```
+
+
+### commit id（版本号）查询
+```
+$ git log
+
+# 注：
+# 如果嫌输出信息太多，看得眼花缭乱的，可以试试加上`--pretty=oneline`参数。
+```
+
+```
+$ git log --pretty=oneline
+
+# 注：
+# 如果想查询很久之前的版本号（此前关闭的命令行窗口里提交过的版本）
+```
+
+```
+$ git reflog
+```
+
+**版本号没必要写全，前几位就可以了，Git会自动去找。当然也不能只写前一两位，因为Git可能会找到多个版本号，就无法确定是哪一个了。**
+
+### 内容比较
+```
+# 显示暂存区和工作区的差异
+$ git diff
+
+# 显示暂存区和上一个commit的差异
+$ git diff --cached [file]
+
+# 显示工作区与当前分支最新commit之间的差异
+$ git diff HEAD
+```
+
+### git reset （三步）退回
+![](/img/in-post/2018/2018-10-26-git-notes/schem.jpg)
+```
+$ git reset --hard/mixed/soft <HEAD>
+
+# 注：
+# --soft:  改变HEAD指向；
+# --mixed(默认参数): 将“暂存区”更新为“HEAD所指向内容”；
+# --hard:  将“工作区”更新为“HEAD所指向内容”。
+```
+
+**注意：**的是带文件参数的git reset没有- -hard, - -soft这两个参数。只有- -mixed参数。HEAD不会动，将那个commit的snapshot里的那个文件放到Index区域中。
+### git checkout （两步）退回
+```
+# 用“暂存区”全部/部分文件替换“工作区”全部/部分文件：
+$ git checkout --<file>
+```
+
+```
+# 用 “HEAD指向的master分支”中的全部/部分文件替换“暂存区和工作区”中的文件。
+$ git checkout HEAD <file>
+```
+
+### git tag 标签
+查看标签
+```
+# 打印所有标签:
+$ git tag
+
+# 打印符合检索条件的标签:
+$ git tag -l 1.*.*
+
+# 查看对应标签状态
+$ git checkout 1.0.0
+```
+
+创建标签(本地)
+```
+# 新建一个tag在当前commit
+$ git tag [tag]
+
+# 创建轻量标签：
+$ git tag 1.0.0-light
+
+# 创建带备注标签(推荐)：
+$ git tag -a 1.0.0 -m "这是备注信息"
+
+# 针对特定commit版本SHA创建标签：
+$ git tag -a 1.0.0 0c3b62d -m "这是备注信息"
+```
+
+删除标签(本地)
+```
+$ git tag -d 1.0.0
+```
+将本地标签发布到远程仓库
+```
+# 发送所有标签：
+$ git push origin --tags
+
+# 发送指定版本标签：
+$ git push origin 1.0.0
+```
+删除远程仓库对应标签
+```
+# Git版本 > V1.7.0：
+$ git push origin --delete 1.0.0
+```
+
+### 删除
+```
+# 删除工作区文件，并且将这次删除放入暂存区
+$ git rm [file1] [file2] ...
+
+# 停止追踪指定文件，但该文件会保留在工作区
+$ git rm --cached [file]
+
+# 改名文件，并且将这个改名放入暂存区
+$ git mv [file-original] [file-renamed]
+```
+
+```
+# 删除 untracked files
+git clean -f
+ 
+# 连 untracked 的目录也一起删掉
+git clean -fd
+ 
+# 连 gitignore 的untrack 文件/目录也一起删掉 （慎用，一般这个是用来删掉编译出来的 .o之类的文件用的）
+git clean -xfd
+ 
+# 在用上述 git clean 前，墙裂建议加上 -n 参数来先看看会删掉哪些文件，防止重要文件被误删
+git clean -nxfd
+git clean -nf
+git clean -nfd
+```
+
+### 常见问题
+###### linux系统安装完新版本的git后用--version查看仍为旧版本
+这是因为没有添加环境变量路径或新添加的路径在原来的`$PATH`后面，环境变量应为：`export PATH=/usr/local/git/bin:$PATH`
+
+此外，还需添加pull等命令的路径，故完整环境变量为：
+```
+export PATH=/THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/git/installed/bin:$PATH
+export GIT_EXEC_PATH=/THFS/home/q-nwu-jmm/Desktop/INSTALL_Xilock/git/installed/lib/git-core
+```
+
+参考资料：[Updated Git but still showing old version](https://stackoverflow.com/questions/20508136/updated-git-but-still-showing-old-version)  
+
+
+![](/img/wc-tail.GIF)

@@ -1,0 +1,40 @@
+---
+layout:     post
+title:      "ansys fluent"
+subtitle:   ""
+date:       2019-09-03 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - ansys
+    - 2019
+
+
+---
+
+### Linux提交用命令
+```
+#PBS -l nodes=2:ppn=4
+#PBS -N fluent
+#PBS -j oe
+#PBS -q low
+source /public/software/profile.d/ansys150-env.sh
+cd $PBS_O_WORKDIR
+NP=`wc -l < $PBS_NODEFILE
+fluent 3d -ssh -g -pinfiniband -t$NP -cnf=$PBS_NODEFILE -i cylinder_tutorial.jou
+fluent 3d -ssh -g -pdefault -t$NP -cnf=$PBS_NODEFILE -i fluent.jou > fluent.log
+单节点
+fluent 2d -g -i cavity.jou >&1 | tee -a fluent_output.txt
+单节点并行
+fluent 2d -g -t4 -ssh -mpi=hp -i cavity.jou 2>&1 | tee -a fluent_output.txt
+跨节点并行
+fluent 2d -g -t4 -cnf=hosts -ssh -mpi=pcmpi -i cavity.jou 2>&1 | tee -a fluent_output.txt
+```
+
+
+
+
+![](/img/wc-tail.GIF)

@@ -1,0 +1,85 @@
+---
+layout:     post
+title:      "DAQ信号采集-Labview/Matlab"
+subtitle:   ""
+date:       2019-03-18 16:28:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Labview
+    - 2019
+
+---
+  
+### Labview客服
+Labview有问题可以给售后发邮件：  
+ If you have technical inquiries in the future, feel free to drop us an email at " asean.anz.support@ni.com ". We will be happy to assist you.  
+ 
+Next time you need to call technical support, use our Request Support system at http://www.ni.com/ask. You can  
+- Create your own support requests
+- Call toll-free
+- Route directly to an engineer
+- Get priority status in queue
+
+Visit http://www.ni.com/support, our award-winning Web Support Site, for a range of options designed to lead you to the right answer:  
+- Drivers and Updates
+- KnowledgeBase
+- Example Code
+- Discussion Forums
+ 
+ 
+### Labview实现信号采集的方法
+#### 信号采集方法 
+
+![流程框图](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/process.JPG)  
+
+参考资料：[Labview - DAQ 助手详解](https://www.litreily.top/2017/04/24/labview-DAQ/)  
+
+如果不希望信号采集之初为非零值，则可扣除最初的非零值，但这只是表象，参见后面信号输出时的清零和重置问题。  
+![信号采集时扣除初值](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/clear_initial_data.png)  
+
+[电压信号采集-实例-XiLock](https://molakirlee.github.io/attachment/Labview/Voltage_Input_Super.vi)  
+[电压信号采集-扣除非零初值实例-XiLock](https://molakirlee.github.io/attachment/Labview/Voltage_Input-Clear_initial_data.vi)  
+注：  
+1. 一个板卡同类型任务只能一个；  
+1. 所有插在compactDAQ机箱上的模块都共享一个背板上的时钟clock，即使各模块设定了不同的采样频率，所有模块实际上仍是用一个最快的采样频率，所以可以通过“条件输出”的方式控制输出频率，如i为10的倍数时才输出，详见上面的例子。  
+
+其他参考：  
+1. [基于DAQmx的测量应用程序定式](http://labviewnote.weebly.com/63-daqmx.html)  
+1. [LabVIEW Demonstration Guide](http://www.ni.com/pdf/manuals/321215a.pdf)  
+
+#### 信号输出方法 
+
+Labview输出信号时，在输出完信号停止之后**不会自动清零或重置信号**，所以下次进行信号输出时，是在上次停止电压的基础上进行的叠加。若想下次从零开始，则需要手动清零或重置。[参考资料](https://forums.ni.com/t5/Multifunction-DAQ/Help-getting-DAQ-analog-output-to-reset-to-zero-after-the-stop/td-p/272185?profile.language=en)  
+有两种方法可以实现停止后清零/重置信号(In order to reset the value to 0, there are two ways to achieve this)：  
+1. Output a value 0 before the DAQ task is cleared  
+2. Reset the device  
+
+要注意的是，突然终止程序(Abort)不能起到清零/重置的效果，只有点击Stop才有效果。下图同时给出两种解决方案的具体程序：  
+![停止信号输出时清零/重置信号](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/reset_output_signal_after_stop.png)  
+
+详见：[带信号清零的电压信号输出-实例-XiLock](https://molakirlee.github.io/attachment/Labview/Voltage_Continuous_Output-Clear_data_when_stop.vi)  
+
+若需要多通道同时输出信号则可参考下图：  
+![多通道信号输出](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/muti_channel_output.jpg)  
+
+程序则可参见[多通道电压信号输出-实例-XiLock](https://molakirlee.github.io/attachment/Labview/Multi_channel_Voltage_Continuous_Output.vi)  
+
+注：  
+1. Sample at least 10 times signal frequency.  
+1. Labview里信号输出的频率问题：若想让频率<1，如0.1（每10s产生一个信号），不能只将频率设为0.1。若频率为0.1（10s产生一个信号）而采样周期为1s，则1s只能采集到1/10的信号，下一秒重复采集同样的1/10的信号，因为每个采样周期（此时为1s）都在更新。若想每10s采集1个信号，则采样周期应为10s，即单通道样本量为采样速率的10倍。如：每个通道采样量为10000，采样速率sample rate为1000/s（每秒产生1000个点），此时一个采样周期为10s（每10s刷新一次），所以若频率为1则意味着10s输出10个信号，信号输出屏上的波长图中显示的是横坐标10s的范围内有10个信号。此时若想每10s输出一个信号，则频率设为0.1，输出屏上的波长图中显示的是10s中1个信号。  
+
+
+
+### Matlab实现信号采集的方法
+
+参考资料：  
+[基于MATLAB的数据采集系统的设计](https://wenku.baidu.com/view/89e62150192e45361166f531.html)  
+[基于MATLAB的实时数据采集与分析系统的实现](http://read.pudn.com/downloads115/ebook/489031/%E5%9F%BA%E4%BA%8EMATLAB%E7%9A%84%E5%AE%9E%E6%97%B6%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E4%B8%8E%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%AE%9E%E7%8E%B0.pdf)  
+
+
+
+![](/img/wc-tail.GIF)

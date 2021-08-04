@@ -1,0 +1,58 @@
+---
+layout:     post
+title:      "Mopac"
+subtitle:   ""
+date:       2021-04-17 09:18:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2021
+
+---
+
+### 安装
+
+##### 安装-Win
+把下载到的程序压缩包解压到C:\Program Files里，并且把目录名改为MOPAC。进入此目录，选中license文件。然后右键点它选“打开”，并指定用MOPAC2012.exe来打开，并且把MOPAC2012.exe设定为默认的打开.mop文件的程序。然后在MOPAC2012的程序窗口里选中Graphic1窗口，敲几下回车，然后把白色窗口的滚动条拉到最下面，如果显示让你输入Yes，就在Graphic1窗口输入yes并回车，然后选“是”，激活即完成。之后直接双击各种.mop后缀名的输入文件即可运算。
+
+
+##### 安装-linux
+###### 下载安装包
+下载安装包并解压到目标文件夹，如MOPAC2016_for_CentOS-7
+
+###### 添加环境变量
+```
+# Mopac
+export MOPAC_LICENSE=/public4/home/pgv3848/Desktop/MOPAC2016_for_CentOS-7
+export PATH=$PATH:/public4/home/pgv3848/Desktop/MOPAC2016_for_CentOS-7
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/public4/home/pgv3848/Desktop/MOPAC2016_for_CentOS-7
+alias  mopac='/public4/home/pgv3848/Desktop/MOPAC2016_for_CentOS-7/MOPAC2016.exe'
+```
+
+###### lisence
+将license文件置于目录下，
+运行 MOPAC2016.exe [license文件名] ，然后按回车，输入Yes，再回车，同目录下就生成了认证文件password_for_mopac2012，之后就可以正常使用了。
+
+### 使用
+MOPAC在Linux下的使用方法：比如运行a.mop，就输入MOPAC2016 a.mop。会在同目录下得到.out、.arc等文件。Windows版也可以先进入DOS然后用这样的命令行来运行。
+
+### 可视化
+参考资料：[MOPAC2XYZ：将MOPAC的几何优化过程转换为xyz轨迹文件的工具](http://sobereva.com/212)
+
+### 注意
+1. GPU加速效果有限，可暂时无视。
+1. 在MOPAC2012 13.331W版里，对于MOZYME计算，用单线程和4线程实际上速度基本没有差异。由于并行化目前还没带来什么效果，为了最大程度利用计算资源，如果有n个核，可以同时算n个任务。
+1. MOPAC原本是不支持并行的，MOPAC2012才刚刚支持并行，估计是程序现阶段还没把MOZYME的并行化搞好。 
+1. mopac默认做结构优化而非单点。
+
+### 参考资料：  
+1. [sob:MOPAC的安装方法](http://sobereva.com/262)
+1. [应用：大体系弱相互作用计算的解决之道](http://sobereva.com/214)
+1. [MOPAC2016安装教程](https://mp.weixin.qq.com/s?__biz=MzU5NjMxNjkzMw==&mid=2247484881&idx=1&sn=ec997ea03e48169c882545ec8a27071e&chksm=fe65c3bbc9124aad627da3f71dc5a89713f635a77e5b2608c2eaf5fa1489f973ad6f46b27519&scene=21#wechat_redirect)
+1. [用MOPAC做结构优化](https://mp.weixin.qq.com/s?__biz=MzU5NjMxNjkzMw==&mid=2247485026&idx=1&sn=e9f96e8a779a10ca0540f0fca0a0a2e4&chksm=fe65c008c912491e5cbd882256ed9ab0a45fd44eeec731304382f476dd4250a355f3c5d5014c&scene=21#wechat_redirect)
+
+
+![](/img/wc-tail.GIF)

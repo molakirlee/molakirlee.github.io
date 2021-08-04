@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "gmx Replica-Exchange Molecular Dynamics (REMD)GROMACS副本交换分子动力学"
+subtitle:   ""
+date:       2020-04-30 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2020
+    - GMX学习记录
+
+
+---
+
+
+
+具体步骤见参考：Tutorial  
+
+注意：With all versions of GROMACS prior to 4.0, only one processor per replica is allowed. REMD with any version of GROMACS requires mdrun compiled with MPI (i.e. not threading), and that the number of processors be a multiple of the number of replicas
+
+参考:
+1. [Tutorial](http://www.gromacs.org/Documentation_of_outdated_version/Tutorials/GROMACS_USA_Workshop_and_Conference_2013/An_introduction_to_replica_exchange_simulations%3A_Mark_Abraham%2C_Session_1B)
+1. [英文教程_旧](http://www.gromacs.org/Documentation/How-tos/REMD)
+1. [中文教程_旧](http://jerkwin.github.io/2019/11/27/GROMACS%E5%89%AF%E6%9C%AC%E4%BA%A4%E6%8D%A2%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6/)
+
+![](/img/wc-tail.GIF)

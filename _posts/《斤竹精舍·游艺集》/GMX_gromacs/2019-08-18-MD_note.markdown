@@ -1,0 +1,71 @@
+---
+layout:     post
+title:      "gmx MD笔记"
+subtitle:   ""
+date:       2019-04-25 20:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2019
+
+---
+
+### 工具
+
+1. [Acpype server](http://bio2byte.be/acpype/)  
+1. Protein Prepare:[PlayMolecule](https://playmolecule.org/)  
+1. 常见氨基酸结构、性质：[氨基酸参照表](https://www.sigmaaldrich.com/china-mainland/life-science/metabolomics/learning-center/amino-acid-reference-chart.html#1)  
+
+### 常识
+###### 离子的水合半径
+离子的水合半径与离子的电荷密度、离子势有关，从2倍到14倍不等。参考[常见离子的水合半径](http://railsback.org/Fundamentals/815HydratedCationRadii04LS.pdf)  
+
+
+### 杂记
+1. 纤维素可用glycam力场做（参见李老师博客）；
+1. gaff描述有机小分子可以，高分子的话用opls更好；
+1. ambertool可以做分子拓扑的拼接，比如分别做PET中间和两端的三种非标准残基，然后将其拼接起来（参见amber的官网教程）；
+
+### GMX基础
+基础知识：  
+1. 最快的运动模式为振动。
+1. EM-->NVT（盒子大小不变，可填补初始存在的孔洞）-->NPT（一般情况这些步骤，其实收集数据之前的都叫做预处理）。
+1. PBS是大型服务器的排队系统。
+1. ctrl+q在notepad2里面是快速注释/取消注释。
+1. 处理分子在盒子里跳来跳去的问题：在VMD的命令行中输入 `pbc unwrap` ，即解决断键问题。
+1. 库伦只用PME，真空中无盒子时采用cut-off。
+1. VDW用cut-off。
+1. `rdf -f -u` 测试某中心分子周围分布。
+1. 几个截断误差设置成一致，要求：不超过盒子最小长度的一半；越大越好；范围[0.9,1.3]；一般设置成1或1.2。
+1. tau_t设置成10以内，一般2或5（多少秒交换一次热浴）。
+1. tau_p设置成10以内，大于tau_t，一般5或10。
+1. 压缩系数用水的即可，即4.5e-5。
+1. 输出频率的确定：依据结果对时间的尺度和内存大小。
+1. 随机数种子：-1为随机，其他数值为定值，固定产生的速度。
+1. PME order：一般为4即可，精度要求高时可用6。
+1. cpt为检查点文件，含最后一步的全部信息，可用于重启计算。
+1. nstlist需要测试后确认，太大了来不及更新，太小了更新太快。
+1. 如果只在z方向有压力，则： `Pcoupletype=semiisotropic`; `ref_p=1,0,0`; 其他做相应调整。
+1. 周期性加periodic_molecules。
+1. 力的最大容差等用默认值即可。
+1. 计算结果不一样可能是没收敛，两种解决方法：延长最后的MD时间；不同初始速度多跑，结果一致则收敛。
+1. 如果初始构型很差，两种解决方案：降低步长以逐渐优化结构；约束住含氢的键或许也行，但步长太大的话也约束不住。
+1. 是否平衡好了：看下温度、压力、总能量。温度容易平衡；压力不容易平衡，波动很大，所以只要均值稳定即可；蛋白可用RMSD判断是否稳定。
+1. 判断结果的可靠性，两个：经验；基本性质是否在范围内，如表面张力、rdf。
+1. MS做晶体更方便。
+1. packmol做出来的可能不能直接用，因为无周期性边界条件，所以加一个 `-d 0.2` ，即加一个0.2 A的盒子，然后去预平衡。
+
+
+力场|近邻列表|静电截断|PME格点|VDW类型|VDW截断|是否必须用DisCorr
+-|-|-|-|-|-|-
+Gromacs-UA|1.0|1.0|0.135|shift/cut-off|0.9/1.4|是/否|
+OPLS-AA|0.9|0.9|0.125|shift/cut-off|0.9/1.4|是/否|
+
+注：单位为nm；DispCorr只能和周期性边界条件一起使用。
+
+
+![](/img/wc-tail.GIF)

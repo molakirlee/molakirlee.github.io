@@ -1,0 +1,96 @@
+---
+layout:     post
+title:      "化学品的编号"
+subtitle:   ""
+date:       2021-02-06 09:22:00
+author:     "XiLock"
+header-img: "img/in-post/2018/2018-11-08-equqtions/bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 整理汇总
+    - 2021
+
+
+---
+
+###### CAS号
+
+CAS是美国化学文摘社（Chemical Abstract Service）的英文缩写。登记号由3部分数字组成，各部分之间由短线联接。该号是用来判定检索有多个名称的化学物质信息的重要工具。
+
+CAS号（CAS RegistryNumber或称CAS Number,CAS Rn, CAS #），又称CAS登录号，是某种物质（化合物、高分子材料、生物序列（Biologicalsequences）、混合物或合金）的唯一的数字识别号码。
+
+化学文摘服务社（ChemicalAbstractsService, CAS）负责为每一种出现在文献中的物质分配一个CAS号，其目的是为了避免化学物质有多种名称的麻烦，使数据库的检索更为方便。如今几乎所有的化学数据库都允许用CAS号检索。
+
+
+###### UN号
+
+联合国编号（联合国危险货物运输专家委员会编号），也称作危险品运输编号，是联合国危险货物运输专家委员会对危险物质制定的编号。
+
+UN是联合国（United Nations）的英文缩写。
+
+UN编号登录在联合国《关于危险货物运输的建议书》（Recommendations on the Transport of Dangerous Goods）中。
+
+###### EINECS登录号（又称EC编号）
+
+欧洲经济共同体的《欧洲现有商业化学品目录》中对该化学品的登录编号。
+
+EINECS、EC是EuropeanINventory of Existing commercial Chemical Substances的缩写。
+
+EC也可看作是欧洲经济共同体European Community的缩写。
+
+###### ELINCS登录号
+
+《欧洲已申报化学品目录》的登录编号。
+
+ELINCS是European List of Notified Chemical Substances的缩写，由欧盟化学品管理署（ECHA）及欧盟各成员国发布并管理，共收录物质5292种。
+
+EINCS收录了1981年9月18日至2008年5月31日依据危险物质指令（67/548/EEC）新物质通报（NONS）要求通报的新物质。2008年6月1日起新物质通报要求被REACH法规下新物质注册要求取代。ELNCS物质也称为非分阶段物质，EC号分配为：4xx-xxx-x。此名录最近一次更新为2009年。
+
+
+###### ICSC编号
+
+国际化学品安全卡的顺序号，ICSC是International Chemical Safety Card的英文缩写。
+
+国际化学品安全卡是由世界卫生组织(WHO)、国际劳工组织(ILO)和联合国环境规划署(UNEP)三个组织的合作机构--国际化学品安全规划署(IPCS)与欧洲联盟委员会(CEU)合作编辑的一套化学品安全信息卡片。
+
+国际化学品安全卡ICSC(International Chemical Safety Cards) 共设有化学品标识、危害/接触类型、急性危害/症状、预防、急救/消防、溢漏处置、包装与标志、应急响应、储存、重要数据、物理性质、环境数据、注解和附加资料14个项目。
+
+化学品的标识数据提供了一种化学物质的UN编号、CAS登记号、化学物质毒性作用登记号（RTECS）、欧盟编号（EC）和中英文化学品名称，卡片数据库（中文版）还提供了中国危险货物编号等信息，供使用者检索查询ICSC数据。
+
+###### RTECS号
+
+化学物质毒性作用登记号，是美国职业安全与卫生研究所规定的登记号，可用来查找一种化学物质的毒理学数据。
+
+RTECS是化学物质毒性数据库（Registry of Toxic Effects of Chemical Substances）的缩写。RTECS中主要包括以下六大类化学物质的毒性数据：直接刺激性（Primary irritation）、致突变性（Mutagenic effects）、对生殖的影响（Reproductive effects，即致畸性）、致肿瘤性（Tumorigenic effects）、急性毒性（Acute toxicity）、其他多剂量毒性。其中记录有该化学物质的数值毒性值，如半数致死量（LD50或LC50），最低中毒剂量（TDLo），最低中毒浓度（TCLo）等，以及实验所使用的物种和给药途径。除此之外，所有的数据也都列出了其文献来源，然而并没有对其有任何的评估。
+
+历史：RTECS根据美国于1970年颁布的职业安全和健康法（PL 91-596）第20条(a)(6)款建立，是一项美国国会授权的活动。它原先的版本，有毒物质列表（Toxic Substances List），于1971年6月28日发布，包括了约5,000种化学物质的毒理学资料。不久，其名称就变为了现在的化学物质毒性数据库（Registry of Toxic Effects of Chemical Substances）。截至2001年1月，该数据库已包含有152,970种化学物质。2001年12月，RTECS被NIOSH转让给了爱思唯尔MDL（ElsevierMDL），一家私营公司。随后，硅谷高科技公司于2007年收购了爱思唯尔公司的MDL，RTECS也在收购内容中。如今这个数据库只能通过每年的收费订阅来获得。
+
+途径：RTECS由加拿大职业健康安全中心（Canadian Centre for Occupational Health and Safety）提供，有英语，法语和西班牙语三个语言版本。用户可通过互联网、企业内部局域网或光盘的方式订阅获得，也可以在美国国家信息服务公司（NISC，NationalInformation Services Corporation）及专家出版公司（Expert Publishing, LLC）上找到。
+
+###### IMDG规则页码（IMDG Page，又称作IMDG CODE）
+
+IMDG是International Maritime Dangerous Goods（国际海运危险货物）的缩写。IMDG规则页码是国际海事组织编制颁发的《国际海上危险货物运输规则》的危险货物信息页码。
+
+由：专业术语，包装，标签，揭示牌，标记，积载，隔离，处理和应急反应组成。国际海事组织每两年做一次修订。法规要求所有海上人命安全公约（SOLAS）以及国际防止船舶造成污染公约（MARPOL 73/78）的成员国，必须强制执行IMDG法规。
+
+###### 危险货物编号
+
+危险货物编号又称危规号、CN号（China DG Number，DG即DangerousGoods），是《GB12268-90危险货物品名表》的危险货物编号。《危险化学品名录2002》的危险货物编号与此类同。
+
+该编号由5为阿拉伯数字组成。第1位数表示该危险货物按此国际分类所属类别，第2位数表示该危险货物按此国际分项项别，第3-5位数表示该危险货物品名的顺序号。按此国际分类，将危险货物共分为9类23项。
+
+###### HS编码
+
+HS编码即海关编码，是编码协调制度的简称，其全称为《商品名称及编码协调制度的国际公约》（International Convention for Harmonized Commodity Deionand Coding System）简称协调制度（Harmonized System，缩写为HS）。
+
+HS编码“协调”涵盖了《海关合作理事会税则商品分类目录》（CCCN）和联合国的《国际贸易标准分类》（SITC）两大分类编码体系，是系统的、多用途的国际贸易商品分类体系。它除了用于海关税则和贸易统计外，对运输商品的计费、统计、计算机数据传递、国际贸易单证简化以及普遍优惠制税号的利用等方面，都提供了一套可使用的国际贸易商品分类体系。
+
+从1992年1月1日起，我国进出口税则采用世界海关组织《商品名称及编码协调制度》（简称HS），该制度是一部科学的、系统的国际贸易商品分类体系，采用六位编码，适用于税则、统计、生产、运输、贸易管制、检验检疫等多方面，目前全球贸易量98%以上使用这一目录，已成为国际贸易的一种标准语言。我国进出口税则采用十位编码，前八位等效采用HS编码，后两位是我国子目，它是在HS分类原则和方法基础上，根据我国进出口商品的实际情况延伸的两位编码
+
+###### MDL号
+
+MDL号是每一种化学反应和变化的唯一识别号。它的格式是：RXXXnnnnnnnn，其中R代表一种化学反应，XXX代表拥有该化学反应记录的数据库，nnnnnnnn是8个数字。
+
+
+![](/img/wc-tail.GIF)

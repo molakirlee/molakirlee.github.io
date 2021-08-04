@@ -1,0 +1,30 @@
+---
+layout:     post
+title:      "VNC server-viewer双屏控制电脑"
+subtitle:   " "
+date:       2020-08-05 10:29:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - CS
+    - 2020
+
+
+---
+
+**技术源于嘉桢指导，本文仅作记录以免遗忘**
+
+使用方法：
+1. 用路由器绑定台式机的mac地址和IP地址；
+1. 在台式机上安装vnc server并破解；
+1. 在笔记本上直接打开vnc viewer，在地址栏输入台式机的IP地址和端口号即可连接上(如：172.24.163.195:2005，172.24.163.195是与路由器LAN端强制绑定的WAN端ip，两ip等价；2005是LAN端端口号，故172.24.163.195:2005为外网可与内网沟通的接口，即ip和端口)；
+1. 若要将得到的台式机桌面投射到显示屏上，则可将显示屏连接线接口接在笔记本上然后分屏，再右键vnc viewer中对应的远程桌面，在properties里Expert项中搜索Monitor，将其value改为`\\.\DISPLAY2`。
+1. 文件传输的话可以用内网通的共享文件夹。
+
+相关链接: 
+[vnc server_viewer: gg4j](https://pan.baidu.com/s/1XLdayZ9po6PNS0Y_oy5ggA)  
+
+![](/img/wc-tail.GIF)

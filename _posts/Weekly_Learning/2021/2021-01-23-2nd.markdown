@@ -1,0 +1,67 @@
+---
+layout:     post
+title:      "2021-每周补脑2nd"
+subtitle:   ""
+date:       2021-01-23 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+######  [施一公：如何提高自己的专业英文文献阅读能力！](http://mp.weixin.qq.com/s?__biz=MzUzMjI4MDEyOA==&mid=2247503659&idx=1&sn=b1ce74184f8a9fb6a3ce345c4e505904&chksm=fab72904cdc0a0126e8f0c261fcd293b489af8435761e9a66cf69ecc107e1e477f14d3bc0e67&mpshare=1&scene=24&srcid=0124uZ2cUWXk8kmirYEpJ9Fj&sharer_sharetime=1611450081690&sharer_shareid=94ee81ed11f34f7d7a5a020bfe1b12ac#rd)
+1. 每周关注《科学》和《自然》。如果时间有限，每周花一个小时读读这两种周刊里的文章标题以及与自己研究领域相关的科研论文的abstract,即可！这样做可以保证一个学生基本上能够跟踪本领域最重要的发现和进展，同时开阔视野，大概知道其它领域的动态。
+2. 在时间充足的情况下，可以细读《科学》和《自然》里的新闻及科研论文。如果该科研论文有“News & Views”或“Perspectives”来介绍，请先读这些文章，这类导读的文章会提炼问题，就好比是老师事先给学生讲解一番论文的来龙去脉，对学生阅读原始论文有很大帮助。(“News & Comment”“Research News”“News & Views”“Perspectives”等栏目)
+3. 在读具体的科研论文时，最重要的是了解文章的主线逻辑。文章中的所有Figures都是按照这个主线逻辑展开描述的。所以，我一般先读“introduction”部分，然后很快地看一遍Figures。大概知道这条主线之后，才一字一句地去读“results”和“discussion”。
+4. 当遇到一些实验或结果分析很晦涩难懂时，不必花太多时间深究，而力求一气把文章读完。也许你的问题在后面的内容中自然就有解答。这与听学术讲座非常相似！你如果想每个细节都听懂，留心每一个技术细节，那你听学术讲座不仅会很累，而且也许会为了深究一个小技术环节而影响了对整个讲座逻辑推理及核心结论的理解。
+5. 对个别重要的文章和自己领域内的科研论文，应该精读。对与自己课题相关的每一篇论文则必须字斟句酌地读。这些论文，不仅要完全读懂，理解每一个实验的细节、分析、结论，还必须联想到这些实验和结论对自己的课题的影响和启发，提出自己的观点。
+6. 科学论文的阅读水平是循序渐进的。每个人开始都会很吃力，所以你有这种感觉不要气馁。坚持很重要，你一定会渐入佳境。当你有问题时或有绝妙分析时，应该与师兄师姐或找导师讨论。
+7. 科研训练的一个重要组成部分就是科研论文的阅读。每一个博士生必须经过严格的科研论文阅读的训练。除了你自己的习惯性阅读外，你应该在研究生阶段选修以阅读分析专业文献为主的一至两门课，在实验室内也要有定期的科研论文讨论（Journal Club）。如果你的实验室还没有这种讨论，你们学生可以自发地组织起来。
+8. critical reading:不要迷信已发表的论文，哪怕是发表在非常好的期刊上。要时刻提醒自己：该论文逻辑是否严谨，数据是否可靠，实验证据是否支持结论，你是否能想出更好的实验，你是否可以在此论文的基础上提出新的重要问题？等等。
+
+### 语录
+
+
+### 言论
+1. 发送简历时，请说明你解决的一些最困难的问题，以及你如何解决这些问题。-- 马斯克（Elon Musk）谈他希望看到的简历。
+1. 程序员追求开源软件，但是开源软件压低了软件价格，软件价格过低又降低了程序员的价值，并因此使得许多程序员失去工作，也减少了投资者对软件行业的投资，因为投资者追逐利润丰厚的地方来投资。-- 《开源软件对软件商品化的挑战》
+1. Lucky equation: 你的幸运 = X 乘以 Y, X 是你所做的准备，Y 是你遇到的机会。
+1. 太多的人把辩论看作是战斗，要分出胜负。其实，辩论应该是一种合作，两个人合作发现真理。-- 《建设性辩论的初学者指南》
+1. 科技进步具有累积效应，你可以利用别人的结果继续做出改进，而挫折和厄运没有累积效应。——约翰·利特伍德
+1. 不管你多么聪明或多么有经验，你的大多数想法根本行不通。成功的想法需要花费时间和辛勤的工作，才能成为被市场广泛采用的真实产品。-- [《The Founder’s Guide to Actually Understanding Users》](https://mgadams.com/the-founders-guide-to-actually-understanding-users-c68feaecac44)
+1. 游泳横渡英吉利海峡的人说，最困难的部分之一是最后阶段，你已经可以看到前方的海岸，但实际上还有很长一段距离。-- [《New features aren't Solved Problems》](https://blog.thinkst.com/2020/11/new-features-arent-solved-problems.html)
+1.  不要再关注能不能找一个好工作/好公司（让你定居），人生的主轴应该是关注能不能实现下面三个目标。1.目的：你的人生想做到什么。2.成长：怎么保证自己的技能不断在成长。3.人脉关系：你能联系和动员的社会网络有多大。
+1. 人工智能 AI 迄今所有令人印象深刻的成就，都不过是曲线拟合，并不是真正的智能。-- [Judea Pearl（图灵奖获得者）](https://mindmatters.ai/2020/12/ai-still-just-curve-fitting-not-finding-a-theory-of-everything/)
+1. 如果我只有一个小时来拯救世界，那么我将花费55分钟来定义问题，而仅花5分钟来找到解决方案。-- [据说出自爱因斯坦](https://quoteinvestigator.com/2014/05/22/solve/)
+1. 不要被贪婪的公司动机所吸引，不要投入全部的时间和精力，这绝对会导致您毫无正当理由地失去自己的一生。-- [Jonathan Carter，Debian 项目负责人](https://jonathancarter.org/2020/12/10/centos-stream-or-debian/)
+1. 一个知道怎么做的人可能总能找到一份工作，但是知道为什么做的人将成为他的老板。-- [John Maxwell，畅销书《影响力》的作者](https://motiveex.com/quotes/john-maxwell-leadership-quotes-sayings/)
+1. 锚定偏差（anchoring bias）指的是决策时严重依赖第一个可用的信息。比如，你走进一家体育用品商店，发现的第一件商品，是一条价值500美元的运动裤。接着，你看到另一条价格为300美元的运动裤时，就会觉得它很便宜，实际上如果首先看到这条300美元的裤子，你会觉得它根本不便宜。
+1. 我之前在一家独角兽工作，后来辞职去了创业公司，上班第一天就感到比以前下降了一个等级。以前的办公室非常漂亮，现在的办公室是一个堆放着硬件零件的漆黑小房间，研究着一种不知前途的产品，由于各种令人烦恼的小问题，要花很多年才能进入大众市场。[-- 《Quitting a new job》](https://yolken.net/blog/quitting-a-new-job)
+1. 我主管工程团队已经两年了，在这期间我停止写代码。主要原因是，团队主管写代码会妨碍团队管理，你会没有足够的时间来召开所有团队会议，以及一对一的谈话。另一方面，退出编码也表明我信任团队。但是，随着时间的流逝，我逐渐感到与团队脱节。开始忘记构建系统和产品的实际感觉。我发现很难跟上的某些技术决策。从长远来看，最坏的情况下，由于缺乏代码信誉，这可能导致你在团队失去尊重。这种矛盾，从本质上讲，是管理者与开发者的角色冲突。管理者的日程安排是一个接一个的会议，而开发者要求要大量连续时间，保证投入到关键任务上。管理者和开发者的时间表是不一样的。我真的很想念编码，想念从构建事物、定位和修复 Bug 中获得的成就感。我还意识到，我参与编码，就会与团队产生更多的联系。但我也明白，一旦参与编码，我就很难切换注意力，我的关注点无法在编码和会议之间及时切换。我的结论是，管理者与程序员的角色无法合一，解决方法可能是你在业余时间坚持编码，工作时间专心管理。（xilock觉得高校教师也在面临这个问题。）——[Managers should code, but not at work](https://nngorok.com/managers-should-code-but-not-at-work)
+1. 大公司想尽办法引诱人们多消费，真正的解决方案通常恰恰相反：你应该少消费。大多数情况下，我们的问题主要是由过度消费引起的。如果你超重，不是要购买健身鞋和蛋白质粉，而是要少吃东西。如果你头痛和感到巨大压力，不是要购买头痛药和抗抑郁药，而要更多地睡觉和走路，并且不在深夜浏览社交媒体。--[《Consume Less. Create More. It’s More Fun.》](https://telegra.ph/Consume-Less-Create-More-Its-More-Fun-12-04)
+1. 投资于研发可以促进经济增长。但是，研究发现，促进经济增长的主要是公司投资的研发，而不是政府投资的研发。-- [《Does academic research cause economic growth?》](https://lemire.me/blog/2013/02/26/does-academic-research-cause-economic-growth/)
+1. 贫富差距越来越大，新技术革命正在创造一个个神话般的技术奇迹，但这对大多数人来说是一个冷酷的仙境，改变不了自己的命运。——Frank Ruan
+1. 我离职后，整整有一年，一毛钱的收入都没有。那又怎么样？翻译《魔戒》就是我想做的事。很多人讲，你怎么敢签那样的合约，要是卖不到1万本，你怎么办！但其实，联经和我想的是不一样的东西，联经想的是这本书如果卖不动，也不会有损失。我想的是，我翻译了这本书，就算一毛钱也拿不到，将来可以跟孙子说，你爷爷当年翻译了《魔戒》，这就够了。你要知道，人生有的事情，我们做的时候是因为觉得值得，不是因为能够赚钱。只是有的时候，你做了值得的事情，就自然赚到了钱。——朱学恒：我翻译《魔戒》的故事
+1. 代码应该尽可能简单，因为下一个维护你的代码的人不会像你那么聪明。--[《What I’ve Learned in 45 Years in the Software Industry》](https://www.bti360.com/what-ive-learned-in-45-years-in-the-software-industry/)
+1. 为什么我需要钱？原因跟你想的不一样，我几乎没有时间休闲，也没有度假屋或游艇之类的东西。我一半的钱用于解决地球上的问题，另一半钱用来在火星上建立一个自给自足的居民点，确保一旦地球被流星击中（恐龙灭绝就是这种情况）、或者第三次世界大战爆发、人类自己消灭自己时，（所有生物种群的）生命能够延续下去。(You should ask why I would want money. The reason is not what you think. Very little time for recreation. Don’t have vacation homes or yachts or anything like that.About half my money is intended to help problems on Earth & half to help establish a self-sustaining city on Mars to ensure continuation of life (of all species) in case Earth gets hit by a meteor like the dinosaurs or WW3 happens & we destroy ourselves)-- Elon Musk
+1. 英语中，"大学"（university）这个词是"单一性"（uni-）和"多样性"（versity）两个词的结合。它的意思是，大学就是将各种各样的知识统一起来，寻求规律。-- David Perell
+1. I work with Java in my day job; it's by no means my favorite language, but I can be quite productive in it.-- [Hacker News](https://news.ycombinator.com/item?id=25799400)
+1. 
+
+
+### 有趣
+1. [MY ENGINEERING AXIOMS](https://martinrue.com/my-engineering-axioms/)
+1. [How an obscure British PC maker invented ARM and changed the world](https://arstechnica.com/features/2020/12/how-an-obscure-british-pc-maker-invented-arm-and-changed-the-world/)
+1. [如何不靠运气变得富有(更新中)](https://github.com/fat-garage/how-to-get-rich-without-getting-lucky)
+1. [Arikan: Huawei, 5G, and the Man Who Conquered Noise](https://www.wired.com/story/huawei-5g-polar-codes-data-breakthrough/)
+1. [An Interactive Introduction to Fourier Transforms](http://www.jezzamon.com/fourier/index.html)
+1. [煮牛肉登上一区顶刊！科学家教你如何正确煮牛肉](https://mp.weixin.qq.com/s/arti2ZE1Iqw7qq29vIFh0Q)
+1. []()
+
+![](/img/wc-tail.GIF)

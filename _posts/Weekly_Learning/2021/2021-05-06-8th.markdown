@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      "2021-每周补脑8th"
+subtitle:   ""
+date:       2021-05-06 08:40:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+1. [WikiPedia:List of emerging technologies](https://en.wikipedia.org/wiki/List_of_emerging_technologies)
+
+### 言论
+1. 智者看到一样东西，疑问要比答案多。--Kevin Kelly
+1. 金钱的作用被高估了。真正的创新很少需要大量资金，否则大公司将垄断创新。相反，几乎所有的突破都是由那些缺乏钱的人实现的，正是因为他们资源有限，才被迫进行创新，依靠自己的热情、毅力和独创性来寻找新的方法。资源不足是创新的优势。
+1. 小时候，让你与其它同学格格不入的东西，长大后会帮助你成功，如果你不失去它的话。
+1. 成功的秘诀：少承诺，多交付。
+1. 实现一个目标，拿到什么结果是次要的，更重要的是，它让你改变了多少。
+1. 唯一可以接受的债务，是购买价值极有可能增加的东西。大多数商品一旦购买，价值就会减少或消失，不要借钱进行这类消费。
+1. "Warren Buffett’s net worth is $84.5 billion. Of that, $84.2 billion was accumulated after his 50th birthday... [If he started at age 30 and] generated 22% annual returns, and retired at 60 to play golf, his net worth would only be $11.9 million (99.9% less than current)."
+1. 领先他人一年，你会致富；领先他人十年，你会发疯。-- David Perell
+1. 老师们总是抱怨学生不听课，但是很少想一想，自己的讲课是否值得一听。--Larry Ellison
+1. 如果你不知道如何写作，可能就不知道如何思考。--Larry Ellison
+1. 他（比尔·盖茨）投入时间和精力，反复思考这个问题，得出结论我是对的，他是错的。大多数人不愿承认自己是错的，比尔毫不犹豫就这样做了。他唯一关心的就是对和错。这使得他是一个非常危险的对手。--Larry Ellison
+1. --Larry Ellison
+
+
+### 有趣
+
+
+### 观点
+1. [《99 Additional Bits of Unsolicited Advice》](https://kk.org/thetechnium/99-additional-bits-of-unsolicited-advice/)
+1. [THE PMARCA GUIDE TO STARTUPS Part 4: The only thing that matters](https://pmarchive.com/guide_to_startups_part4.html)
+1. 中国程序员的年薪已经不低了，虽然不如美国，但是一点不输给欧洲，高级程序员的收入其实要比欧洲高得多。 但只从数字看问题是不全面的，要多视角来看这个问题，比如西欧的薪水是以每天工作8小时计算的。
+
+### 奇技淫巧
+
+
+### 荐书
+1. 《软件战争》（Softwar）--Larry Ellison
+
+![](/img/wc-tail.GIF)

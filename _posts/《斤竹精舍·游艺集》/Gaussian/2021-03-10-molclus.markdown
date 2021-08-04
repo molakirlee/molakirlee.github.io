@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "MolClus"
+subtitle:   ""
+date:       2021-03-10 11:31:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2021
+
+---
+
+
+另外注意复合物可能有很多种构型，计算时应当选取能量最低的。可以用genmer+molclus做构型搜索来实现，看下面的介绍和实例。其中对于弱相互作用计算级别的正当选用也有充分体现  
+genmer：生成团簇初始构型结合molclus做团簇结构搜索的超便捷工具:  
+[http://bbs.keinsci.com/thread-2369-1-1.html](http://bbs.keinsci.com/thread-2369-1-1.html)  
+molclus官网：  
+[http://www.keinsci.com/research/molclus.html](http://www.keinsci.com/research/molclus.html)
+
+
+### 参考资料
+1. [使用molclus程序做团簇构型搜索和分子构象搜索](http://bbs.keinsci.com/thread-577-1-1.html)
+1. [萃取体系溶剂化自由能求助](http://bbs.keinsci.com/thread-13960-1-1.html)
+
+ 
+![](/img/wc-tail.GIF)

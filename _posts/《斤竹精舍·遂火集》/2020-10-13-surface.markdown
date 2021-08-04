@@ -1,0 +1,51 @@
+---
+layout:     post
+title:      "Knowledge 表面/界面科学"
+subtitle:   ""
+date:       2020-10-13 15:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·遂火集》
+    - 2020
+
+
+---
+
+### Surface
+###### surface tension
+1. Surface tension: the cohesive force of molecules at the surface of an element attracting toward one another to take up the least possible surface area.
+1. Surface energy: the amount of intermolecular force created at the surface of a material, and it determines the amount of attractive or repulisve force a surface can exert on another material. 
+
+Types of Surface Tension
+
+1. Contact angle analysis is used to measure the quality of a solid surface. 
+1. Surface tension analysis is used to measure the quality of a liquid. 
+
+there are two types of surface tension at play: 
+1. the surface tension of the liquid；
+1. the interfacial tension between the liquid and the solid：the measure of adhesive force between the liquid phase of one substance and the liquid, solid, or gas state of another substance. 
+
+###### Wettability
+For wetting, the surface energy is stronger than the surface tension of the liquid's molecules that would normally keep it in droplet form.
+
+ The surface tension of the liquid doesn't change, but rather the surface energy of the solid is stronger than the liquid's surface tension and overpowers it, causing the liquid to spread out over the solid surface. Low contact angle = high surface energy and high interfacial tension.
+ 
+ For a low wetting surface, the surface energy is weaker than the surface tension of the liquid, meaning that the liquid can better keep its droplet shape. The interfacial tension between the solid and liquid is low because the interaction between the two is not as strong.
+
+###### 表面活性剂
+表面张力（Surface tension）：液体表面分子的向心收缩力，表面张力可使液滴的表面积收缩到最小程度，即表面张力越大，喷雾时形成的雾滴越大；表面张力越小，形成的雾滴越小。表面活性剂分子具有两亲性，其极性基一端虽受到水分子的拉力，但因有非极性基一端和气相亲和，因而它本身的表面张力很小，所以液体表面张力得以降低，即E=δ×S中的δ得以降低。降低液体表面张力是因为液体分子与表面活性剂的亲和力强，相互直接的亲合力就弱下来，所以表面活性剂可以降低液体表面的张力。
+
+###### 65°为亲疏水临界
+As a matter of practical convenience, this Leading Opinion defines hydrophilic as all solid surfaces that support advancing water (or buffer) contact angles θ < 65° and hydrophobic as solid surfaces supporting θ > 65°. The basis of this definition is the observation that biological responses such as bioadhesion, protein adsorption, and blood plasma coagulation seem to “pivot” from high-to-low or vice-versa within an approximately ±15° range around θ = 65° (note that these citations include reviews of a broad literature).[引自doi: 10.1016/j.biomaterials.2011.10.059]
+
+###### 纯液体表面张力
+参见课程:[第二节 纯液体的表面张力](http://courseware.eduwest.com/courseware/0129/content/0007/020001.htm)
+
+### 参考资料：
+1. [CSC Scientific Blog - Contact Angle and Surface Tension - A Fascinating Liaison](https://www.cscscientific.com/csc-scientific-blog/how-does-contact-angle-relate-to-surface-tension)
+1. [3.1 表面张力和表面能](https://wenku.baidu.com/view/594f822fcc7931b765ce1571.html)
+
+![](/img/wc-tail.GIF)

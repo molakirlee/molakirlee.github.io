@@ -1,0 +1,62 @@
+---
+layout:     post
+title:      "2021-每周补脑1st"
+subtitle:   ""
+date:       2021-01-17 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科技
+###### nat. comm.中机器学习耦合计算化学
+1. 通过利用**深度迁移学习**的计算和实验数据增强材料性能预测（形成能等）：Jha, D., Choudhary, K., Tavazza, F. et al. Enhancing materials property prediction by leveraging computational and experimental data using deep transfer learning. Nat Commun 10, 5316 (2019). https://doi.org/10.1038/s41467-019-13297-w
+1. **无监督**发现固态锂离子导体（电导率等）：Zhang, Y., He, X., Chen, Z. et al. Unsupervised discovery of solid-state lithium ion conductors. Nat Commun 10, 5260 (2019). https://doi.org/10.1038/s41467-019-13214-1
+1. **可合成材料**发现的网络分析（凸自由能面+无标度网络）：Aykol, M., Hegde, V.I., Hung, L. et al. Network analysis of synthesizable materials discovery. Nat Commun 10, 2018 (2019). https://doi.org/10.1038/s41467-019-10030-5
+1. 用于二氧化碳还原的强大的合成**光催化剂**：一项数据驱动材料的发现（第一性原理筛选）：Singh, A.K., Montoya, J.H., Gregoire, J.M. et al. Robust and synthesizable photocatalysts for CO2 reduction: a data-driven materials discovery. Nat Commun 10, 443 (2019). https://doi.org/10.1038/s41467-019-08356-1
+1. 机器学习在固体分子中的化学位移：Paruzzo, F.M., Hofstetter, A., Musil, F. et al. Chemical shifts in molecular solids by machine learning. Nat Commun 9, 4501 (2018). https://doi.org/10.1038/s41467-018-06972-x
+1. 材料原子尺度动力学**无监督学习的动态网络图**：Xie, T., France-Lanord, A., Wang, Y. et al. Graph dynamical networks for unsupervised learning of atomic scale dynamics in materials. Nat Commun 10, 2667 (2019). https://doi.org/10.1038/s41467-019-10663-6
+1. **物理通知**的材料原子建模人工神经网络：Pun, G.P.P., Batra, R., Ramprasad, R. et al. Physically informed artificial neural networks for atomistic modeling of materials. Nat Commun 10, 2339 (2019). https://doi.org/10.1038/s41467-019-10343-5
+1. 机器学习粗粒度模型的水：Chan, H., Cherukara, M.J., Narayanan, B. et al. Machine learning coarse grained models for water. Nat Commun 10, 379 (2019). https://doi.org/10.1038/s41467-018-08222-6
+1. 用机器学习力场进行精确分子动力学模拟：Chmiela, S., Sauceda, H.E., Müller, KR. et al. Towards exact molecular dynamics simulations with machine-learned force fields. Nat Commun 9, 3887 (2018). https://doi.org/10.1038/s41467-018-06169-2
+1. 用机器学习绕过科恩-沙姆方程：Brockherde, F., Vogt, L., Li, L. et al. Bypassing the Kohn-Sham equations with machine learning. Nat Commun 8, 872 (2017). https://doi.org/10.1038/s41467-017-00839-3
+
+参考资料：  
+1. [Nat. Comm中使用“机器学习”结合计算化学的研究案例]((https://mp.weixin.qq.com/s/uPAPIMDkp98lT6cbH6zsWA))
+1. [《自然通讯》：无孔不入的机器学习，如何让计算化学渐入佳境](https://mp.weixin.qq.com/s?__biz=MzIzMTY3NDEwMA==&mid=2247498574&idx=1&sn=5186736e0b013d07cc09efd98bf843b7&chksm=e8a222d5dfd5abc354c3fbee020f8aebfcadeaf3aa8a939f535c09359992ea4775c3cccca518&scene=21#wechat_redirect)
+
+###### [龚剑萍2020年工作回顾](https://mp.weixin.qq.com/s/kQGwZ9ALLErlq3VohRHsug)
+
+###### 部分水凝胶进展
+1. [锁志刚、江雷、王中林、陈学思、赵选贺、龚剑萍、余桂华、刘明杰、赵远锦等水凝胶科研进展](http://www.cailiaoniu.com/207359.html)
+
+### 语录
+1. The size of your dreams must always exceed your current capacity to achieve them.
+1. 优秀的人讨论思想，普通的人讨论事件，狭隘的人讨论人。-- 埃莉诺·罗斯福，罗斯福总统夫人
+1. You don’t sharpen your skills with resources, books, or articles. You sharpen your skills with practice. If you want get better, go do the thing.——Jason Fried（Basecamp 的创始人）
+
+### 言论
+1. 好奇不设限+事半功倍+持续精进：[Kaito：如何在压力中成长？我的学习方法论分享](http://kaito-kidd.com/2020/09/25/how-to-grow-under-pressure/)
+1. 为什么成年人学习外语，不如儿童快？一个主要原因是，如果小孩犯了语法错误，随时会得到纠正；成年人犯了语法错误，别人会不好意思指出，如果当面指出，很可能得罪人。-- Hacker News 读者
+1. 逻辑学还存在另一种三值逻辑， 认为任何一个判断有三种可能，除了真伪，还有一种中间状态，即非真非伪。如果你采用三值逻辑的思维模式，看待世界的心态会完全不一样。遇到陌生人的时候，二值逻辑只有好人和坏人两种结果，这必然导致"党同伐异"（结交同类，反对异类的意思）。但是，三值逻辑认为可能有第三种结果，对方算不是好人，但也不是坏人，可以中性对待。所以，三值逻辑就会导致一种比较温和包容的世界观。一个哲学家说过，中国哲学与西方哲学的最大区别，就在于西方哲学是二值逻辑，追求事物的真伪，一定要搞清楚真理和谬误； 中国哲学是三值逻辑，不追求真理和谬误，而提倡恪守中间道路，也就是中庸。三值逻辑的缺点是不利于追求真相，也没有明确的立场。顺便提一下，逻辑学还有多值逻辑（一个判断存在 n 种结果）和模糊逻辑（分不清结果）。如果是那样的世界观，就更无所谓对错了，一切都是模模糊糊的，学着接受就可以了。——Frank Ruan
+1. 德国科学家发表论文，认为城市夜晚的照明（广告、建筑物、停车场、体育场等）大部分都浪费了，因为很大一部分灯光都向上发射到太空，形成光污染，而没有集中照亮路标、街道或建筑物。生活中很多问题都没解决，玺洛克突然想起来之前万华说过的一句话，可以做的很多，好玩意太多了，做不过来。
+1. 在科学、技术、工程领域，不同人才选择不同的方向，充分发挥每个人的才智。多学科交叉突破会更有可能，横向融合创新才能形成颠覆性的效果；科学、技术、工程垂直打通才会形成能力，真正落实创新驱动发展的理念。因此合作交流越来越重要，当然，大学还是应偏科学理论，偏重发现；企业偏重技术、工程，偏重发明，结合起来，力量才会更强大。——任正非《向上捅破天，向下扎到根》
+1. 我们今天的科研状况很像二战前的美国，二战前50年时间，尽管美国产业已经领先全球，但在科研上充满功利主义，不重视基础研究、基础教育，大量依赖欧洲的灯塔照耀，利用欧洲的基础研究成果，发展短、平、快的产业。二战即将结束时，罗斯福总统的科技顾问范内瓦·布什在“科学：无尽的前沿”中提出要重视不以应用为目的的基础研究，面向长远，逐步摆脱了对欧洲基础科学研究的依赖，从此，美国基础科学研究远远领跑全球，形成若干重大突破。美国经过几十年的实践，上世纪九十年代，美国普林斯顿大学的唐纳德·斯托克斯1997年在“基础科学与技术创新：巴斯德象限”中，强调美国不仅需要纯技术研究，即波尔象限，也要纯应用开发的爱迪生象限，更强调应用驱动的基础科学研究。理论上遥遥领先，又与应用结合，这样既拓展了科学认知，又能创造价值。——同上
+1. 北大张平文副校长说，据说波音777飞机的风洞吹风是使用全新的空气动力学软件模拟仿真的，使过去需要80次风洞试验减少到现在的7次左右，那么说明美国已把空气动力学的漩涡都变成了经典力学方程。而我们不吹风还不敢造飞机。俄罗斯将核发动机小型化，形成了战略威慑；美国把核弹小型化、战术化、无污染化。和平需要实力相当才可获取，祥林嫂式的和平是不存在的。美国的科技发展史就是一面镜子，我们以此来反思我国的科技发展战略的系统性、科学性。学人之长，长自己之力。——同上
+1. 如果你想成为一流的网球运动员，你很快就会发现，这是没有希望的。但是，如果你想成为一流的水暖工，那么大部分人都可以做到。只要具有意志，坚持下去了解这个行业，精通手艺，假以时日，这是可以实现的目标。你无法成为网球明星，但是在其他领域，你可以慢慢发展自己的竞争力。这种竞争力，一部分来自你的内在因素（兴趣、学习能力、毅力、纪律性等等），另一部分来自通过工作的缓慢积累。——查理·芒格
+1. "快能力"更多地取决于天赋或外部条件，所以普通人不容易成功；"慢能力"则是取决于后天的努力，可以用时间来换。芒格建议，如果没有天赋，就尽量选择"慢能力"的行业，这样你才有机会通过日复一日的积累做到优秀。前端开发大概是属于"快能力"。因为这个行业要求你快速形成生产力，根本没有时间积累，而且积累的效果不明显，因为开发工具变得太快。相比之下，C / C++ 语言应该属于"慢能力"，坚持写20年，会越写越好，但是前端不是这样，几年就换一套技术栈，代码的生命周期非常短。所以，想要进入前端的同学，要有清醒的认识。优秀的前端程序员，其实比的是"冲刺能力"，你想一直在这个行业，就要一直在冲刺。"快能力"的行业都是如此，一段时间出不了成绩，就会被淘汰。如果你不适应这种生活，可能就需要做一些准备，想想能不能换到"慢能力"的行业。——Frank Ruan
+
+
+### 有趣
+1. [面试常见的四种算法思想，全在这里了](https://my.oschina.net/u/4598014/blog/4905585)
+1. [你想知道沸腾现象的奥秘吗？](http://lxyd.imech.ac.cn/info/detail.asp?infono=18517)
+
+
+
+![](/img/wc-tail.GIF)

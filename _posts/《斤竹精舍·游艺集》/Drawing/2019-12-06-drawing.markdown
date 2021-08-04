@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "手绘杂记"
+subtitle:   ""
+date:       2019-12-06 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 手绘
+    - 2019
+
+
+---
+
+### 手绘板推荐
+wacom CTL 672手绘板，适合新手和中级选手。
+
+
+![](/img/wc-tail.GIF)

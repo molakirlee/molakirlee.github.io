@@ -1,0 +1,59 @@
+---
+layout:     post
+title:      "2021-每周补脑4th"
+subtitle:   ""
+date:       2021-02-13 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+
+### 言论
+1. These posts bring me to the realization that you should never go above and beyond for a company that you don’t own. Just show up, do the bare minimum to meet expectations, finish your 8 hour shift and go home and enjoy quality time with your family. This way when you get laid-off there is nothing to cry for. You can always find an occupation, but you cannot get back the time that you dedicated to fulfill someone else’s dreams.
+1. In war, resolution; in defeat, defiance; in victory, magnanimity; in peace, goodwill.——Winston S. Churchill
+1. 军事强大是结果，而不是原因。——[逃不掉的是宿命](https://mp.weixin.qq.com/s/qvMwi4-OJff8m-fYwgaRzQ)
+1. In my experience the worst start ups don't hit the skids fast. They kind of keep bumping along, often for years. Neither growing much, nor dying, nor making much money, nor losing enough to go out of business. I even co-founded one of these a few years ago. If you're in one of these my advice is to recognise it and quit.——[Hacker News](https://news.ycombinator.com/item?id=22967024)
+1. 常态偏差指的是，人们倾向于相信事物将会以正常的方式运行，不太可能出现不正常的情况，从而低估了灾难的可能性和影响程度。
+1. [Best Story Wins](https://www.collaborativefund.com/blog/story/)
+1. 不要问自己能得到什么，要问自己能做到什么。——中学爱因斯坦（批：工作后，要追求成长而非成功。）
+
+### 有趣
+1. [我在硅谷的9年](https://eduardosasso.co/blog/working-in-silicon-valley/)
+1. [A letter to myself as a fresh software engineer](https://www.florio.dev/20200328-letter-to-myself/)
+1. [Inside Netflix’s Project Griffin: The Forgotten History Of Roku Under Reed Hastings](https://www.fastcompany.com/3004709/inside-netflixs-project-griffin-forgotten-history-roku-under-reed-hastings)
+1. [What does a Director of Engineering do?](https://www.hashtagcoder.dev/blog/director-of-engineering)
+1. [開箱 猴齊天 之 秋水閣--自力自地自建2年圖文長 請耐心看完](https://www.mobile01.com/topicdetail.php?f=360&t=5855017)
+1. [No Meetings, No Deadlines, No Full-Time Employees](https://sahillavingia.com/work)
+1. [Building a PC:自己攒台机](https://blog.codinghorror.com/building-a-pc-part-i/)
+1. [10万座大坝的诞生！](https://mp.weixin.qq.com/s/cLiEv282p1PXQ93u_NW39w)
+1. [Career advice for people with bad luck](https://chiefofstuff.substack.com/p/career-advice-for-people-with-bad)
+1. [hacker-news-digest](http://hackernews.betacat.io/)
+1. [Pricing Psychology](https://www.nickkolenda.com/psychological-pricing-strategies/)
+
+### 观点
+###### 致富其实只需要两步（Frank Ruan）
+1. [和菜头翻译 如何不靠运气致富(Naval Ravikant)](https://new.qq.com/omn/20200413/20200413A0U72C00.html)+[阐释](How to Get Rich: Every Episode)
+
+第一步：找到"个人-市场-产品"这三者交叉的那个定位。 你问问自己，你的竞争力在哪里？市场需要的哪一种产品，可以用到你的这种竞争力？这就是你的定位。
+
+第二步：使用各种杠杆（leverage），使得你的产品可以服务尽可能大的市场。
+
+赚大钱的奥秘就是定位和杠杆这两件事。当市场需要你的产品时，如果有办法"放大"产品，服务更多的人，你就成功了。
+
+
+### 奇技淫巧
+1. [Avatarify:一张头像照片就可以生成人物开口讲话的视频](https://github.com/alievk/avatarify)
+1. [Learning-to-See-in-the-Dark:将一片漆黑的照片还原成有光时的样子](https://github.com/cchen156)
+
+### 荐书
+1. [《Invent Your Own Computer Games with Python》](https://www.dbooks.org/invent-your-own-computer-games-with-python-1503212300/)
+
+![](/img/wc-tail.GIF)

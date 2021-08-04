@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      "AFM"
+subtitle:   ""
+date:       2019-11-26 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Experiment
+    - 2019
+
+
+---
+
+### 理论
+1. **Thermal Tune**: Detect the natural resonant frequency of the cantilever by doing an interactive series of frequency sweeps and averaging them. A real-time amplitude v.s. frequency (power spectrum) plot coms up.大部分的drive frequency for AC mode cantilever在50kHz-400kHz的范围（气相）。  
+1. **Amplitude modulation**也叫Tapping mode, intermitent contact mode, dynamic force mode.  
+1. 镀Al的tip不宜用于液相，背面镀Au或全部镀Au的可以。  
+
+### Trik
+1. 如何调激光![](/img/in-post/《斤竹精舍-游艺集》/2019-11-26-AFM/laser.jpg)
+1. [FFT去除有规律的杂线](/attachment/afm/FFT_remove_line.pdf)
+
+![](/img/wc-tail.GIF)

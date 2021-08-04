@@ -1,0 +1,35 @@
+---
+layout: page
+title: "Research"
+description: "</br><b>If you want something you’ve never had, you must be willing to do something you’ve never done.</br></br>------Thomas Jefferson<b>"
+header-img: "img/research.jpg"
+multilingual: true
+---
+
+<!-- Language Selector -->
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+    {% capture research_zh %}{% include research/zh.md %}{% endcapture %}
+    {{ research_zh | markdownify }}
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture research_en %}{% include research/en.md %}{% endcapture %}
+    {{ research_en | markdownify }}
+</div>
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread"></div>
+</div>
+<!-- disqus 评论框 end -->
+{% endif %}
+

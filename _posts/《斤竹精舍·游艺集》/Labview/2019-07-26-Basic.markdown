@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "Labview学习"
+subtitle:   ""
+date:       2019-07-26 16:28:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Labview
+    - 2019
+
+---
+  
+### 基础
+[LabVIEW 入门指南](http://www.wxnova.com/images/upfile/file/10255411.pdf)  
+[Virtual Instrumentation](http://www.ni.com/en-sg/innovations/white-papers/06/virtual-instrumentation.html)  
+[LabVIEW 学习札记](ftp://ftp.ni.com/pub/branches/china/LabVIEWLearningII.pdf)
+
+推荐书籍：《Labview2018虚拟仪器程序设计第2版》毛琼、王敏等编著  
+![](/attachment/Labview/book1.jpg)
+
+
+![](/img/wc-tail.GIF)

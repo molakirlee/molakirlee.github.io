@@ -1,0 +1,494 @@
+#######################################################################
+# 0. 设置运行环境, 计算参数
+#######################################################################
+
+dump='gmx dump'					# gmx程序
+trjconv='gmx trjconv'
+apbs='c:/apbs1.5/bin/apbs.exe'	# apbs程序
+
+ff=AMBER						# 力场类型
+trj=1EBZ.xtc					# 轨迹文件
+tpr=1EBZ.tpr					# tpr文件
+ndx=index.ndx					# 索引文件
+
+com=System						# 复合物索引组
+pro=Protein						# 蛋白索引组
+lig=BEC							# 配体索引组
+
+step=1         # 从第几步开始运行
+
+pid=pid
+scr=_$pid.scr  # 屏幕输出
+qrv=_$pid.qrv  # 电荷/半径/VDW参数文件
+
+# 网络尺寸设置
+fadd=5    # 分子尺寸到细密格点的增加值(A)
+cfac=1.5  # 分子尺寸到粗略格点的放大系数
+df=.25     # 细密格点间距(A)
+
+# 极性计算设置
+PBEset='
+  lpbe              # PB方程求解方法, lpbe(线性), npbe(非线性), smbpe(大小修正)
+
+  temp  300         # 温度
+
+  pdie  2           # 溶质介电常数
+  sdie  80          # 溶剂介电常数, 真空1, 水78.54
+  bcfl  mdh         # 粗略格点PB方程的边界条件, zero, sdh/mdh(single/multiple Debye-Huckel), focus, map
+  srfm  smol        # 构建介质和离子边界的模型, mol(分子表面), smol(平滑分子表面), spl2/4(三次样条/7阶多项式)
+  chgm  spl4        # 电荷映射到格点的方法, spl0/2/4, 三线性插值, 立方/四次B样条离散
+  swin  0.3         # 立方样条的窗口值, 仅用于 srfm=spl2/4
+
+  srad  1.4         # 溶剂探测半径
+  sdens 10          # 表面密度, 每A^2的格点数, (srad=0)或(srfm=spl2/4)时不使用
+
+  ion  1 0.15 0.95  # 阳离子的电荷, 浓度, 半径
+  ion -1 0.15 1.81  # 阴离子
+
+  calcforce  no
+  calcenergy comps'
+
+# 非极性计算设置(Apolar/Non-polar)
+PBAset='
+  temp  300  # 温度
+  srfm  sacc # 构建溶剂相关表面或体积的模型
+  swin  0.3  # 立方样条窗口(A), 用于定义样条表面
+
+  # SASA模型
+  srad  1.4    # 探测半径(A)
+  gamma 1      # 表面张力(kJ/mol-A^2)
+
+  #gamma const 0.027     0        # 表面张力, 常数
+  #gamma const 0.0226778 3.84928  # 表面张力, 常数
+
+  press  0     # 压力(kJ/mol-A^3)
+  bconc  0     # 溶剂本体密度(A^3)
+  sdens 10
+  dpos  0.2
+  grid  0.1 0.1 0.1
+
+  # SAV模型 截距0
+  #srad  1.29      # SAV探测半径(A)
+  #press 0.234304  # 压力(kJ/mol-A^3)
+
+  # WCA模型
+  #srad   1.25           # 探测半径(A)
+  #sdens  200            # 表面的格点密度(1/A)
+  #dpos   0.05           # 表面积导数的计算步长
+  #bconc  0.033428       # 溶剂本体密度(A^3)
+  #grid   0.45 0.45 0.45 # 算体积分时的格点间距(A)
+
+  calcforce no
+  calcenergy total'
+
+if [[ $step -le 1 ]]; then
+#######################################################################
+# 1. 获取每个原子的电荷, 半径, LJ参数
+#######################################################################
+$dump -quiet -s $tpr 2>$scr | awk -v ndx=$ndx -v pro=$pro -v lig=$lig ''
+	BEGIN { radType=1
+		RS="["
+		while(getline < ndx) { gsub(/\s/,"", $1)
+			if($1==pro)    for(i=3; i<=NF; i++) ndxPro[$i+0]++
+			if($1==lig)    for(i=3; i<=NF; i++) ndxLig[$i+0]++
+			if($1==pro"]") for(i=2; i<=NF; i++) ndxPro[$i+0]++
+			if($1==lig"]") for(i=2; i<=NF; i++) ndxLig[$i+0]++
+		}
+		RS="\r?\n"
+	}
+
+	/#molblock/  { Ntyp=$3 }
+
+	/moltype.+=/ { Imol=$3; getline; Nmol[Imol]=$3 }
+
+	/ffparams:/ {
+		getline Atyp; sub(/.+=/, "", Atyp); Atyp += 0
+		getline
+		for(i=0; i<Atyp*Atyp; i++) {
+			getline
+			idx=int(i/Atyp)
+			if(idx==i%Atyp) {
+				sigma[idx]=0; epsilon[idx]=0
+				Rad[idx]=1.2 # 默认原子半径(A), 用于无半径参数的原子(主要为H)
+				C6=$3;  sub(",", "", C6);
+				C12=$5; sub(",", "", C12);
+				if(C6*C12!=0) {
+					sigma[idx]=10*(C12/C6)^(1./6) # 转换单位为A
+					epsilon[idx]=C6^2/(4*C12)
+					Rad[idx]=.5*sigma[idx]        # sigma为直径
+				}
+			}
+		}
+	}
+
+	/moltype.+\(/ { Imol=$0; gsub(/[^0-9]/,"",Imol)
+		getline txt; sub(/.*=/,"",txt); Name[Imol]=txt
+		getline; getline txt;       gsub(/[^0-9]/,"",txt); Natm[Imol]=txt+0
+		for(i=0; i<Natm[Imol]; i++) {
+			getline; txt=$0; idx=$3; resID[Imol, i]=$(NF-2)+1
+			sub(/.+q=/, "", txt); sub(/,.+/,  "", txt); Qatm[Imol, i]=txt
+			sub(",", "", idx);    idx += 0;
+			Ratm[Imol, i]=Rad[idx]
+			Satm[Imol, i]=sigma[idx]
+			Eatm[Imol, i]=epsilon[idx]
+		}
+		getline
+		for(i=0; i<Natm[Imol]; i++) {
+			getline txt
+			sub(/.+=./, "", txt); sub(/..$/, "", txt)
+			Tatm[Imol, i]=txt
+		}
+	}
+
+	/residue\[/ { nres++
+		sub(/.*=\"/,"",$0); sub(/\".*/,"",$0);
+		resName[nres]=sprintf("%05d%s", nres, $0)
+	}
+
+	END {
+#		print "#Mol  Name  #Atom #Num"
+		Ntot=0; Nidx=0
+		for(i=0; i<Ntyp; i++) {
+#			printf "%3d %6s %3d %5d\n",  i+1, Name[i], Natm[i], Nmol[i]
+			for(n=0; n<Nmol[i]; n++) {
+				for(j=0; j<Natm[i]; j++) {
+					Ntot++
+					if(Ntot in ndxPro || Ntot in ndxLig) {
+						Nidx++
+						if(radType==0) radi=Ratm[i, j]
+						if(radType >0) radi=getRadi(Tatm[i, j], radType)
+						printf "%6d %9.5f %9.6f %9.6f %9.6f %6d %s %s %-6s  ",  \
+						Nidx, Qatm[i,j], radi, Satm[i,j], Eatm[i,j], \
+						Ntot, n+1"."Name[i]"-"j+1, \
+						resName[resID[i,j]], Tatm[i, j]
+						if(Ntot in ndxPro) print "Pro"
+						if(Ntot in ndxLig) print "Lig"
+					}
+				}
+			}
+		}
+	}
+
+	function getRadi(tag, radType) {
+		radBondi["O" ]= 1.50; if(radType==2) radBondi["O" ]= 1.52
+		radBondi["S" ]= 1.80; if(radType==2) radBondi["S" ]= 1.83
+		radBondi["P" ]= 1.85; if(radType==2) radBondi["P" ]= 1.80
+		radBondi["I" ]= 1.98; if(radType==2) radBondi["I" ]= 2.06
+		radBondi["BR"]= 1.85; if(radType==2) radBondi["BR"]= 1.92
+		radBondi["N" ]= 1.55
+		radBondi["F" ]= 1.47
+		radBondi["CL"]= 1.77
+
+		radBondi["C" ]= 1.70; radBondi["H" ]= 1.20
+		radBondi["C*"]= 1.77; radBondi["H4"]= 1.00
+		radBondi["CA"]= 1.77; radBondi["H5"]= 1.00
+		radBondi["CB"]= 1.77; radBondi["HA"]= 1.00
+		radBondi["CC"]= 1.77; radBondi["HC"]= 1.30
+		radBondi["CD"]= 1.77; radBondi["HN"]= 1.30
+		radBondi["CN"]= 1.77; radBondi["HP"]= 1.30
+		radBondi["CR"]= 1.77; radBondi["HO"]= 0.80
+		radBondi["CV"]= 1.77; radBondi["HS"]= 0.80
+		radBondi["CW"]= 1.77;
+
+		tag=toupper(tag)
+		if(length(tag)>=2) {
+			if(!radBondi[substr(tag,1,2)]) return radBondi[substr(tag,1,1)]
+			else return radBondi[substr(tag,1,2)]
+		}
+		return radBondi[tag]
+	}
+'' >$qrv
+
+fi; if [[ $step -le 2 ]]; then
+#######################################################################
+# 2. 预处理轨迹: 复合物完整化, 居中叠合, 然后生成pdb文件
+#######################################################################
+trjwho=$pid~who
+echo $com                      | $trjconv -f $trj    -s $tpr -n $ndx -o $trjwho.xtc &>$scr -pbc whole
+echo -e "$com \n $com \n $com" | $trjconv -f $trjwho -s $tpr -n $ndx -o _$pid.pdb   &>$scr -center -fit rot+trans -skip 100000
+rm -f $trjwho.xtc
+
+fi; if [[ $step -le 3 ]]; then
+#######################################################################
+# 3. MM-PBSA计算: pdb->pqr, 输出apbs, 计算MM, APBS
+#######################################################################
+awk -v pid=$pid -v qrv=$qrv -v RS="\r?\n" -v ff=$FF \
+	-v apbs="$apbs" -v PBEset="$PBEset" -v PBAset="$PBAset" \
+	-v fadd=$fadd -v cfac=$cfac -v df=$df ''
+	BEGIN {
+		while(getline < qrv) {
+			Qatm[$1]=$2; Ratm[$1]=$3;
+			Satm[$1]=$4; Eatm[$1]=$5
+			if($NF=="Pro") { Npro++; if(Npro==1) Ipro=$1
+				ndxPro[$1]++; resPro[Npro]="P~"$(NF-2)
+			}
+			if($NF=="Lig") { Nlig++; if(Nlig==1) Ilig=$1
+				ndxLig[$1]++; resLig[Nlig]="L~"$(NF-2)
+			}
+		}
+		close(qrv)
+		Ncom=Npro+Nlig
+
+		PBEset0=PBEset
+		sub(/sdie +[0-9]+/, "sdie  1", PBEset0)
+
+		txt=PBEset; sub(/.*pdie +/, "", txt);
+		sub(/\n.*/, "", txt); split(txt, arr)
+		pdie=arr[1]
+
+		txt=PBAset; sub(/.*#gamma +con[a-zA-Z]+/, "", txt);
+		sub(/\n.*/, "", txt); split(txt, arr)
+		gamma=arr[1]; const=arr[2]
+
+		Icr=2; if(ff=="OPLS") Icr=1    # 组合规则
+
+		minXpro= 1E9;    minXlig= 1E9;
+		minYpro=minXpro; minYlig=minXlig;
+		minZpro=minXpro; minZlig=minXlig
+
+		maxXpro=-1E9;    maxXlig=-1E9
+		maxYpro=maxXpro; maxYlig=maxXlig
+		maxZpro=maxXpro; maxZlig=maxXlig
+	}
+
+	/REMARK/ {next}
+	/TITLE/ {Fout=FILENAME
+		txt=$(NF-2); sub(/\.0+$/,"", txt)
+		sub(".pdb", "~"txt, Fout)
+		Nfrm++; n=0
+		Fname[Nfrm]=Fout
+	}
+	/^ATOM/ {
+		ATOM=substr($0,1,6)
+		INDX=substr($0,7,5)+0
+		NAME=substr($0,13,4)
+		RES =substr($0,18,3)
+		CHN =substr($0,22,1); if(CHN=" ") CHN="A"
+		NUM =substr($0,23,4)
+		X   =substr($0,31,8); X += 0
+		Y   =substr($0,39,8); Y += 0
+		Z   =substr($0,47,8); Z += 0
+		r=Ratm[INDX]
+
+		txt=sprintf("%s %s %s %s %s %s %s %s %s %s %s", \
+			ATOM, INDX, NAME, RES, CHN, NUM, X, Y, Z, Qatm[INDX], r)
+
+		print txt > Fout"_com.pqr"
+		if(INDX in ndxPro) {
+			print txt > Fout"_pro.pqr"
+			minXpro=min(minXpro, X-r); maxXpro=max(maxXpro, X+r)
+			minYpro=min(minYpro, Y-r); maxYpro=max(maxYpro, Y+r)
+			minZpro=min(minZpro, Z-r); maxZpro=max(maxZpro, Z+r)
+		} else
+		if(INDX in ndxLig) {
+			print txt > Fout"_lig.pqr"
+			minXlig=min(minXlig, X-r); maxXlig=max(maxXlig, X+r)
+			minYlig=min(minYlig, Y-r); maxYlig=max(maxYlig, Y+r)
+			minZlig=min(minZlig, Z-r); maxZlig=max(maxZlig, Z+r)
+		}
+		next
+	}
+
+	END{
+		kJcou=1389.35457520287
+
+		minXcom=min(minXpro, minXlig); maxXcom=max(maxXpro, maxXlig)
+		minYcom=min(minYpro, minYlig); maxYcom=max(maxYpro, maxYlig)
+		minZcom=min(minZpro, minZlig); maxZcom=max(maxZpro, maxZlig)
+
+		for(i=1; i<=Npro; i++) dE[resPro[i]]=0
+		for(i=1; i<=Nlig; i++) dE[resLig[i]]=0
+		Nres=asorti(dE, Tres)
+
+		txt="   #Frame   "
+		for(i=1; i<=Nres; i++) {
+			ii=Tres[i]; sub(/~0+/, "~", ii)
+			txt = txt""sprintf("%12s", ii)
+		}
+		print txt > "_"pid"~resMM.dat"
+		print txt > "_"pid"~resPBSA.dat"
+		print txt > "_"pid"~resMM_COU.dat"
+		print txt > "_"pid"~resMM_VDW.dat"
+		print txt > "_"pid"~resPBSA_PB.dat"
+		print txt > "_"pid"~resPBSA_SA.dat"
+		print txt > "_"pid"~res_MMPBSA.dat"
+
+		print "   #Frame      Binding    MM        PB        SA     |   COU       VDW     |       PBcom        PBpro        PBlig  |    SAcom     SApro     SAlig"
+		for(fr=1; fr<=Nfrm; fr++) {
+			Fout=Fname[fr]
+
+			# MM 计算
+			txt=Fout"_com.pqr"; close(txt)
+			n=0;
+			while(getline < txt) { n++;
+				type[n]=$3; res[n]=$4; resID[n]=$6;
+				x[n]=$7;    y[n]=$8;   z[n]=$9
+			}
+			close(txt)
+
+			for(i=1; i<=Npro; i++) { dEcou[resPro[i]]=0; dEvdw[resPro[i]]=0 }
+			for(i=1; i<=Nlig; i++) { dEcou[resLig[i]]=0; dEvdw[resLig[i]]=0 }
+			for(i=1; i<=Npro; i++) {
+				ii=i+Ipro-1
+				qi=Qatm[ii]; si=Satm[ii]; ei=Eatm[ii]
+				xi=x[ii]; yi=y[ii]; zi=z[ii]
+				for(j=1; j<=Nlig; j++) {
+					jj=j+Ilig-1
+					r=sqrt( (xi-x[jj])^2+(yi-y[jj])^2+(zi-z[jj])^2 )
+					if(Icr==2) t=.5*(si+Satm[jj]); else t=sqrt(si*Satm[jj])
+					t=(t/r)^6
+					Ecou = qi*Qatm[jj]/r
+					Evdw = 4*sqrt(ei*Eatm[jj])*t*(t-1)
+					dEcou[resPro[i]] += Ecou; dEcou[resLig[j]] += Ecou
+					dEvdw[resPro[i]] += Evdw; dEvdw[resLig[j]] += Evdw
+				}
+			}
+
+			Ecou=0; Evdw=0
+			for(i in dEcou) {
+				dEcou[i] *= kJcou/(2*pdie); Ecou += dEcou[i];
+				dEvdw[i] /= 2;              Evdw += dEvdw[i]
+			}
+
+			# PBSA 计算
+			print "read\n" \
+				"  mol pqr "Fout"_com.pqr\n" \
+				"  mol pqr "Fout"_pro.pqr\n" \
+				"  mol pqr "Fout"_lig.pqr\n" \
+				"end\n\n" \
+				dimAPBS(Fout"_com", 1, minXcom, maxXcom, minYcom, maxYcom, minZcom, maxZcom), \
+				dimAPBS(Fout"_pro", 2, minXcom, maxXcom, minYcom, maxYcom, minZcom, maxZcom), \
+				dimAPBS(Fout"_lig", 3, minXlig, maxXlig, minYlig, maxYlig, minZlig, maxZlig) > Fout".apbs"
+
+			cmd=apbs" "Fout".apbs  &> "Fout".out";
+			system(cmd); close(cmd)
+
+			txt=Fout".out";
+			while(getline < txt ) {
+				if(index($0, "CALCULATION #")) {
+					if(index($0, "("Fout"_com")) { t=1; n=Ncom }
+					if(index($0, "("Fout"_pro")) { t=2; n=Npro }
+					if(index($0, "("Fout"_lig")) { t=3; n=Nlig }
+					if(index($0, "~VAC)")) t += 10
+					if(index($0, "~SAS)")) t += 20
+					while(getline < txt) {
+						if(t<20 && index($0, "Per-atom energies:") \
+						|| t>20 && index($0, "Solvent Accessible Surface Area")) break
+					}
+
+					for(i=1; i<=n; i++) {
+						getline <txt;
+						if(t<20) r=$3; else r=$NF
+						if(t<10)       Esol[t%10, i]=r
+						else if(t<20)  Evac[t%10, i]=r
+						else if(t<30)  Esas[t%10, i]=gamma*r+const/n
+					}
+				}
+			}
+			close(txt)
+
+			for(i=1; i<=Ncom; i++) { Esol[1,i] -= Evac[1,i]; PBcom += Esol[1,i]; SAcom += Esas[1,i] }
+			for(i=1; i<=Npro; i++) { Esol[2,i] -= Evac[2,i]; PBpro += Esol[2,i]; SApro += Esas[2,i] }
+			for(i=1; i<=Nlig; i++) { Esol[3,i] -= Evac[3,i]; PBlig += Esol[3,i]; SAlig += Esas[3,i] }
+
+			for(i=1; i<=Npro; i++) {
+				PBres[resPro[i]] += Esol[1, Ipro+i-1]-Esol[2, i]
+				SAres[resPro[i]] += Esas[1, Ipro+i-1]-Esas[2, i]
+			}
+			for(i=1; i<=Nlig; i++) {
+				PBres[resLig[i]] += Esol[1, Ilig+i-1]-Esol[3, i]
+				SAres[resLig[i]] += Esas[1, Ilig+i-1]-Esas[3, i]
+			}
+
+			printf "%-12s %9.3f %9.3f %9.3f %9.3f | %9.3f %9.3f | %12.3f %12.3f %12.3f | %9.3f %9.3f %9.3f\n", \
+				Fout, Ecou+Evdw+PBcom-PBpro-PBlig+SAcom-SApro-SAlig, \
+				Ecou+Evdw,  PBcom-PBpro-PBlig, SAcom-SApro-SAlig, \
+				Ecou, Evdw, PBcom, PBpro, PBlig, SAcom, SApro, SAlig
+
+			for(i=1; i<=Nres; i++) {
+				ii="";  if(i==1) ii=sprintf("%-12s", Fout)
+				txt=""; if(i==Nres) txt="\n"
+				printf "%s%12.3f%s", ii, dEcou[Tres[i]], txt > "_"pid"~resMM_COU.dat"
+				printf "%s%12.3f%s", ii, dEvdw[Tres[i]], txt > "_"pid"~resMM_VDW.dat"
+				printf "%s%12.3f%s", ii, PBres[Tres[i]], txt > "_"pid"~resPBSA_PB.dat"
+				printf "%s%12.3f%s", ii, SAres[Tres[i]], txt > "_"pid"~resPBSA_SA.dat"
+				printf "%s%12.3f%s", ii, dEcou[Tres[i]]+dEvdw[Tres[i]], txt > "_"pid"~resMM.dat"
+				printf "%s%12.3f%s", ii, PBres[Tres[i]]+SAres[Tres[i]], txt > "_"pid"~resPBSA.dat"
+				printf "%s%12.3f%s", ii, dEcou[Tres[i]]+dEvdw[Tres[i]] \
+										+PBres[Tres[i]]+SAres[Tres[i]], txt > "_"pid"~res_MMPBSA.dat"
+			}
+
+			for(i=1; i<=Npro; i++) {
+				ii=Ipro+i-1
+				txt=sprintf("%-6s%5d %-4s %3s A%4d    %8.3f%8.3f%8.3f", \
+					 "ATOM", ii, type[ii], res[ii], resID[ii], x[ii], y[ii], z[ii])
+				printf "%s%6.1f%6.1f\n", txt, dEcou[resPro[i]], dEvdw[resPro[i]] > Fout"~COU+VDW.pdb"
+				printf "%s%6.1f%6.1f\n", txt, PBres[resPro[i]], SAres[resPro[i]] > Fout"~PB+SA.pdb"
+				printf "%s%6.1f%6.1f\n", txt, dEcou[resPro[i]]+dEvdw[resPro[i]], \
+											  PBres[resPro[i]]+SAres[resPro[i]]  > Fout"~res_MM+PBSA.pdb"
+				printf "%s%6.1f%6.1f\n", txt, dEcou[resPro[i]]+dEvdw[resPro[i]]  \
+											 +PBres[resPro[i]]+SAres[resPro[i]],0> Fout"~res_MMPBSA.pdb"
+			}
+			for(i=1; i<=Nlig; i++) {
+				ii=Ilig+i-1
+				txt=sprintf("%-6s%5d %-4s %3s A%4d    %8.3f%8.3f%8.3f", \
+					 "ATOM", ii, type[ii], res[ii], resID[ii], x[ii], y[ii], z[ii])
+				printf "%s%6.1f%6.1f\n", txt, dEcou[resLig[i]], dEvdw[resLig[i]] > Fout"~COU+VDW.pdb"
+				printf "%s%6.1f%6.1f\n", txt, PBres[resLig[i]], SAres[resLig[i]] > Fout"~PB+SA.pdb"
+				printf "%s%6.1f%6.1f\n", txt, dEcou[resLig[i]]+dEvdw[resLig[i]], \
+											  PBres[resLig[i]]+SAres[resLig[i]]  > Fout"~res_MM+PBSA.pdb"
+				printf "%s%6.1f%6.1f\n", txt, dEcou[resLig[i]]+dEvdw[resLig[i]]  \
+											 +PBres[resLig[i]]+SAres[resLig[i]],0> Fout"~res_MMPBSA.pdb"
+			}
+		}
+	}
+
+	function dimAPBS(file, Imol, minX, maxX, minY, maxY, minZ, maxZ) {
+		lenX=max(maxX-minX, 0.1); cntX=(maxX+minX)/2
+		lenY=max(maxY-minY, 0.1); cntY=(maxY+minY)/2
+		lenZ=max(maxZ-minZ, 0.1); cntZ=(maxZ+minZ)/2
+		cdX =lenX*cfac;           fdX =min(cdX, lenX+fadd)
+		cdY =lenY*cfac;           fdY =min(cdY, lenY+fadd)
+		cdZ =lenZ*cfac;           fdZ =min(cdZ, lenZ+fadd)
+
+		levN=4    # 划分级别
+		t=2^(levN+1)
+		grdX=int(fdX/df+0.5)-1; grdX=max(t*int(grdX/t+0.5)+1, 33)
+		grdY=int(fdY/df+0.5)-1; grdY=max(t*int(grdY/t+0.5)+1, 33)
+		grdZ=int(fdZ/df+0.5)-1; grdZ=max(t*int(grdZ/t+0.5)+1, 33)
+
+		XYZset="  mol "Imol \
+			"\n  dime   "grdX"  "grdY"  "grdZ"  # 格点数目" \
+			"\n  cglen  "cdX "  "cdY "  "cdZ "  # 粗略格点长度" \
+			"\n  fglen  "fdX "  "fdY "  "fdZ "  # 细密格点长度" \
+			"\n  fgcent "cntX"  "cntY"  "cntZ"  # 细密格点中心" \
+			"\n  cgcent "cntX"  "cntY"  "cntZ"  # 粗略格点中心"
+
+		return \
+			"ELEC name "file"\n" \
+			"  mg-auto\n" \
+			XYZset "\n" \
+			PBEset "\n" \
+			"end\n\n" \
+			"ELEC name "file"~VAC\n" \
+			"  mg-auto" \
+			XYZset  "\n" \
+			PBEset0 "\n" \
+			"end\n\n" \
+			"APOLAR name "file"~SAS\n" \
+			"  mol "Imol"\n" \
+			PBAset"\n" \
+			"end\n\n" \
+			"#print elecEnergy "file" - "file"~VAC end\n" \
+			"#print apolEnergy "file"~SAS end\n" \
+			"#quit\n"
+	}
+	function min(x, y) { return x<y ? x : y }
+	function max(x, y) { return x>y ? x : y }
+'' _$pid.pdb >>_$pid~MMPBSA.dat
+
+fi
+#######################################################################
+# 4. 删除临时文件
+#######################################################################
+rm -f io.mc $scr \#_$pid*\#

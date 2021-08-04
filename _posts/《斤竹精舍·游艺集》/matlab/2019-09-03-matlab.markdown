@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      "Matlab代码"
+subtitle:   ""
+date:       2019-09-03 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - matlab
+    - 2019
+
+
+---
+
+### 遗传算法
+参考：[matlab实现遗传算法](http://wenku.baidu.com/link?url=jXQJclTtA9zI-ooxqSbWYrdE4aQiOCtYqNuisHDmbaD2ZO_hz27Juy4YWXH6IQAKsmRZbnZbWCWBcGc1MRXeeIn6uc4_4vyV55lscshdZGu)  
+
+### 甲醇-水气液平衡
+[甲醇-水气液平衡](https://molakirlee.github.io/attachment/matlab/methanl-water_V-L-balance.m)  
+
+
+### 很多带参数变量排序
+[测试](https://molakirlee.github.io/attachment/matlab/rank/Rank.m)
+[实战](https://molakirlee.github.io/attachment/matlab/rank/Rank2.m)
+
+### 动力学拟合
+Duan Yuhao版及Zong Shuyi版，可参见attachment。
+
+### T-Test检验
+[实例](https://molakirlee.github.io/attachment/matlab/TTest.m)
+
+
+![](/img/wc-tail.GIF)

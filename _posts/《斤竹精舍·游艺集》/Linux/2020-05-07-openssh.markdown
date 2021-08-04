@@ -1,0 +1,41 @@
+---
+layout:     post
+title:      "组网+openssh实现以实验室win电脑为跳板控制内网服务器"
+subtitle:   ""
+date:       2020-05-07 20:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Linux
+    - 2020
+
+---
+  
+参考资料：
+1. [如何设置双网卡电脑同时上内外网](https://jingyan.baidu.com/article/cbf0e500ac8b232eaa289339.html)
+1. [Windows安装OpenSSH服务](https://www.jianshu.com/p/6e5bc39d386e)
+1. [设置 SSH 通过密钥登录](https://hyjk2000.github.io/2012/03/16/how-to-set-up-ssh-keys/)
+
+
+### 背景说明
+1. 为了安全起见，服务器只被允许连接局域网；
+2. 实验室台式机通过无线连接局域网进而控制服务器，同时可以通过有线连接外网；
+3. 目的：通过个人笔记本，向实验室台机传输命令，进而控制服务器；
+
+### 实现方案
+1. 通过蒲公英将个人笔记本与实验室台机组网；
+1. 笔记本通过组网后的虚拟IP来ssh台机（实验室台机安装openssh服务端，个人笔记本安装ssh客户端）；
+1. 笔记本向台机传输控制服务器的指令；
+
+### 具体步骤
+1. 注册蒲公英账号，在个人笔记本和实验室台机同时登陆，记下相应IP；
+1. 在实验室台机安装openssh服务端，在个人笔记本安装ssh客户端；
+1. 个人笔记本ssh实验室台机的虚拟IP；
+1. 个人笔记本ssh服务器内网IP（此时台机会自动将指令转发至服务器）。
+
+说明：感谢师弟小史的指导。
+
+![](/img/wc-tail.GIF)

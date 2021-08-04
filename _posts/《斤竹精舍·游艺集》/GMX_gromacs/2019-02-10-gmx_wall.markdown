@@ -1,0 +1,40 @@
+---
+layout:     post
+title:      "gmx Gromacs带上下wall的xy周期"
+subtitle:   ""
+date:       2019-02-10 20:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2019
+
+---
+
+### 带上、下壁面的xy周期体系
+
+在mdp中将周期部分修改为：
+```
+pbc		= xy 		    ; 2-D PBC
+nwall		= 2
+wall-atomtype	= CG321 CG321
+wall-type	= 9-3
+wall-density    = 4.6 4.6
+wall-ewald-zfac = 3
+wall-r-linpot   = 0.01
+ewald-geometry  = 3dc
+```
+
+在添加一个带壁面参数的itp，内容为：  
+
+```
+[ atomtypes ]
+; name      at.num  mass     charge  ptype  sigma      epsilon
+CG321	     6      12.011    0.000  A      0.358141    0.023430
+```
+
+
+![](/img/wc-tail.GIF)

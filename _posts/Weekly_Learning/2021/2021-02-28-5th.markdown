@@ -1,0 +1,74 @@
+---
+layout:     post
+title:      "2021-每周补脑5th"
+subtitle:   ""
+date:       2021-02-28 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+
+### 言论
+1. Taleb argued that the limitations of the human brain resulted in our species’ tendency to squeeze unrelated facts and events into cause-and-effect equations and then convert them into easily understood narratives. These stories, Taleb wrote, shield humanity from the true randomness of the world, the chaos of human experience, and, to some extent, the unnerving element of luck that plays into all successes and failures.——[JEFF BEZOS](https://jacklimpert.com/2018/04/jeff-bezos-talks-about-writing-and-the-narrative-fallacy/)
+1. It is easy - maybe too easy - to stop asking yourself what would make you happy, and stay close to the things that you think will make you safe. This is wrong, and I will tell you why: you are never safe. Loss and change are constants. You will never be safe, and you may not always be happy - but you owe it to yourself to start asking the question.——[In marginal decisions, favour action over inaction](https://www.sivv.io/article/5ecededf46cc9f76d4639b24/In-marginal-decisions,-favour-action-over-inaction)
+1.转移学习（TL）是机器学习的一个研究领域，指的是如何将解决一个问题时获得的知识，应用于另一个相关的问题。有些人也具有这种能力，在感兴趣的每个领域都非常出色，擅长创新。—— [Who should you be: Technology Generalist or Specialist?](https://adityarohilla.com/2020/06/11/who-should-you-be-technology-generalist-or-specialist/)
+1. 阿波罗8号宇宙飞船有560万个零件，以及150万个系统和组件。即使它们每一个都有99.9％的可靠性，预期也会产生560个故障。——[Michael Collins](https://en.wikipedia.org/wiki/Michael_Collins_%28astronaut%29)
+1. In the beginner's mind there are many possibilities, but in the expert's there are few.——铃木俊隆
+1. Be liberal in what you accept, and conservative in what you send.——[《Good Intentions on the Old-Timey Internet》](https://somanymachines.com/tx/character-generator-protocol/)
+1. 爬得越高，获救的机会也就越少。——[《Into Thin Error: Mountaineer Ed Viesturs on Making Mistakes》](https://slate.com/news-and-politics/2010/06/into-thin-error-mountaineer-ed-viesturs-on-making-mistakes.html)
+1. 数学家理查德·汉明（Richard Hamming）总是问其他领域的科学家："你的领域中最重要的问题是什么？"，然后问第二个问题："你为什么不研究它们？"。——[《The Hamming Question》](https://www.lesswrong.com/posts/P5k3PGzebd5yYrYqd/the-hamming-question)
+1. 对于开发者，我希望大家不仅只是写出好的代码，还必须很善于解释自己的代码。代码的提交信息，对我来说，几乎跟代码本身一样重要。——Linus Torvalds
+1. 开源软件的一大部分其实是交流，而交流包括提交信息，也包括来来回回的 Email。告诉别人你想做什么，为什么原来的代码你觉得要改，真的是非常重要的一件事。——Linus Torvalds
+1. 看到抽象的东西，应该尽量使它变得具体；看到具体的东西，应该尽量使它变得抽象。——李敖
+1. 创业公司不要专注于创造产品，而要专注于解决问题。——[《Why Your Startup Needs to Build the Product Your Customers Aren’t Expecting》](https://jproco.medium.com/why-your-startup-needs-to-build-the-product-your-customers-arent-expecting-8d769054db53)
+1. 创新型的创业公司，一开始的目标用户应该是对新产品最有兴趣的那2％的人群，并设法与剩下的那 98％的人建立一座桥梁，把那些人推向未来。。——[《Why Your Startup Needs to Build the Product Your Customers Aren’t Expecting》](https://jproco.medium.com/why-your-startup-needs-to-build-the-product-your-customers-arent-expecting-8d769054db53)
+1. 不要轻易说出自己痛苦，能体会的人很少，看热闹的人很多。也不要轻易炫耀，会替你感到高兴的人很少，等着看你最后下场的人很多。
+1. Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.——Antoine de Saint-Exupery
+1. 公司刚成立时，需要瑞士军刀型人才。公司一旦发展壮大，需要菜刀型人才。——David Perell
+
+### 有趣
+1. [设计模式](https://refactoringguru.cn/design-patterns)
+1. [计算机系统的设计原则](https://embeddedartistry.com/blog/2018/04/26/embedded-rules-of-thumb/)
+1. [New York, Why it was time to say bye to San Francisco](https://paulstamatiou.com/new-york/)
+1. [What really happened when the "dino-killer" asteroid struck](http://www.bbc.com/earth/story/20160415-what-really-happened-when-the-dino-killer-asteroid-struck)
+1. [如何根据照片判断是哪里拍摄的](https://www.secjuice.com/geolocation-osint-amateur-hour/)
+1. [美国海军电气与电子培训教材](https://archive.org/search.php?query=subject%3A%22The+Navy+Electricity+and+Electronics+Training+Series%22&sort=publicdate)
+1. Linus Torvalds每天的工作就是读Email和写Email（包括在Email里写伪代码）。
+1. [网页设计风格的变化](https://www.webdesignmuseum.org/)
+1. [财政部用来调节国有金融企业工资总额的arctan函数好在哪里](https://mp.weixin.qq.com/s/ig_FTMp6XbbSE7q-XR70fA)
+1. [故宫博物馆馆藏总目](https://zm-digicol.dpm.org.cn/)
+
+
+### 观点
+###### [领导力的阶段The Culture of Leadership](https://medium.com/@benmappen/the-culture-of-leadership-eb424b0726ef)
+1. 第一阶段：熟悉自己的业务，知道问题在哪里，怎样可以解决。
+1. 第二阶段：培养说服能力，能说服他人，问题可以按照你说的方式解决。
+1. 第三阶段：激发他人的热情，让他们产生解决问题的热情。
+###### [简历注意事项](8 Hacks For Your Next Tech Resume)
+1. 不要试图提及你掌握的所有技能，这会给人一种"万事通"的感觉。
+1. 将你的技能分成三个等级："精通"（proficient in）、"有实战经验"（experienced with）、"熟悉"（familiar with）。
+1. "精通"和"有实战经验"的技能，必须提供细节，要给出项目内容和你的个人成果。
+###### Embrace, extend, and extinguish
+1. 拥抱阶段 ：开发与竞争产品基本兼容的软件，或实施公共标准。
+1. 扩展阶段：添加和推广竞争对手或标准不支持的功能。
+1. 扑灭阶段：由于市场份额的扩展，添加的功能成为事实上的标准时，再将竞争对手边缘化
+
+
+### 奇技淫巧
+1. [自动生成人脸：Deep Fake Videos](https://myvoiceyourface.com/)
+1. [设计工具收集](https://nodesign.dev/)
+1. [SQL Teaching](https://www.sqlteaching.com/)
+1. [数据可视化工具目录](https://datavizcatalogue.com/ZH/)
+
+### 荐书
+
+
+![](/img/wc-tail.GIF)

@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "Linux软件的win版编译"
+subtitle:   ""
+date:       2019-11-17 20:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Linux
+    - 2019
+
+---
+  
+### 说明
+因为自己平常用的电脑是win版，用虚拟机做文件预处理时总还是不那么方便，所以咨询了Jerkwin老师，老师介绍了以下方法并做了说明
+
+[Win版gromacs编译说明](https://jerkwin.github.io/9999/11/01/GROMACS%E7%A8%8B%E5%BA%8F%E7%BC%96%E8%AF%91/)  
+
+### 问题
+Q:所有的Linux软件都可以这样编译吗？
+A:不一定, 需要那个linux程序写的遵循一些标准, 不能使用liux下独有的特性, 只能用POXIS(记不清怎么写了)标准, 而且最好还要用cmake。如果用的是make, 那最好用cygwin来编译。当然, 理论上说, 一切的linux应该都可用用cygwin编译, 只是效率不高, 不如Windows原生的效率高。
+
+![](/img/wc-tail.GIF)

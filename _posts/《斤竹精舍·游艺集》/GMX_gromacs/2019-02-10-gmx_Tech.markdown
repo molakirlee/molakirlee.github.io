@@ -1,0 +1,77 @@
+---
+layout:     post
+title:      "gmx Gromacs小技巧"
+subtitle:   ""
+date:       2019-02-10 20:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2019
+
+---
+
+### 备注
+###### 关于限制
+一般能量极小化的时候用-DFLEXIBLE使用柔性水，第一次动力学模拟时用-DPOSRES让蛋白质位置限制住，等水已经弛豫了，再去掉蛋白质的限制做动力学。只要动力学用2fs步长，都应当用constraint=hbonds
+
+###### 关于
+
+
+### 技巧
+#### 续算
+一、意外中断的任务md1  
+```
+gmx mdrun -v -deffnm md1 -cpi md1.cpt
+```  
+二、md1已跑完，延续之前的模拟参数，再跑额外的10ns  
+法1：在原来的md1.trr/xtc/log/edr/gro之外得道md2.part0002.trr/xtc/log/edr/gro  
+```
+gmx convert-tpr -s md1.tpr -extend 10000 -o md2.tpr  
+gmx mdrun -v -deffnm md2 -cpi md1.cpt  -noappend
+```
+法2：直接在md1上续写内容  
+```
+gmx convert-tpr -s md1.tpr -extend 10000 -o md1.tpr
+gmx mdrun -v -deffnm md1 -cpi md1.cpt
+```
+
+#### Gromacs中pH值设定  
+It is not possible to define pH in an MD system as there are no hydronium ions floating around (you can't plausibly model that) and protons can't be exchanged in classical MD, anyway.  
+ You set a dominant protonation state representative of a given pH using options in pdb2gmx to alter the protonation state of titratable residues based on their individual pKa values.  
+参考：[How to set the pH in Gromacs?](https://www.researchgate.net/post/How_to_set_the_pH_in_Gromacs)
+
+#### pdb2gmx中的-chainsep和-merge的区别  
+在处理二硫键时，若两个S原子分别在两条链上，则需要将两条链进行合并，否则二硫键不会成键。（因为gromacs不能处理成/断键，所以若想保证成键必须是一个分子）  
+在pdb2gmx时，若想合并两/多条链则可以用-chainsep或-merge，但两者不同。  
+1. 使用-chainsep合并两条链时两条链之间会形成肽键，所以有时会出现原子类型OTX（C端O）不识别的情况，若参照“aminoacids.arn”将OTX改成OC1则可运行，但合成出来的两条链分别脱O（因为C端已经去质子化，所以不是OH而是O）、H（N端），以肽键相连。  
+1. 使用-merge合并时，只是将两条链合并到一个[moleculartype]中，不会强迫两条链以肽键链接。  
+
+如对pH=2时的胰岛素的处理，胰岛素同时具有A、B两条链且链间用二硫键连接：  
+```
+gmx pdb2gmx -f 5miz.pdb -ignh -o insulin.gro -p insulin.top -glu -ss -merge all -ter
+```
+
+#### 盐桥计算
+用gromacs的盐桥计算基本算不动，所以Xilock用VMD进行盐桥计算，因为载入的gro文件识别不了链，所以会提示不unique（即便之间index文件里面有分类），转换成pdb文件并标注链后则能区分是相同链还是不同链之间形成盐桥（链标识只能是一个字符单位）。  
+生成的文件包括所有存在过盐桥的位置以及距离随时间的关系，为dat文件，也可以额外生成一个汇总的Log文件，但log文件里只有位点没有距离随时间的关系。  
+若想得到每一时刻可能存在的盐桥数量则可以用这个[matlab脚本](https://molakirlee.github.io/attachment/gmx/Matlab_cal_salt_bridge.m)，将该脚本与所有的dat文件放在同一文件夹下运行，则脚本会自动筛选出属于同一条链的盐桥并将其距离随时间的关系拼合到同一个xls文件中。  
+
+#### 提取轨迹中某一帧  
+```
+gmx trjconv -f md.trr -s md.tpr -o 3000ps.gro -dump 3000
+```
+就可以提取最接近3000ps的那一帧  
+
+#### 质心间距计算
+1. `gmx distance -s md.tpr -f md.xtc -selrpos mol_cog -seltype mol_cog -n -oxyz d1 -select "cog of group "PEEK" plus com of group "Lipids""`
+1. 如果用VMD，可参考[gromacs如何提取数据做距离随时间变化的函数图？](http://bbs.keinsci.com/thread-6343-1-1.html)
+
+#### 统计某种离子一定范围内的分子个数
+1. [[VMD] 统计某种离子一定范围内的水分子个数](http://bbs.keinsci.com/thread-1136-1-1.html)
+
+
+![](/img/wc-tail.GIF)

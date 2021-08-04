@@ -1,0 +1,52 @@
+---
+layout:     post
+title:      "2019-每周补脑11th"
+subtitle:   ""
+date:       2019-05-11 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2019
+
+
+---
+ 
+### 它山之石
+#### 言论
+1. 深沉厚重是第一等资质，磊落豪雄是第二等资质，聪明才辩是第三等资质。
+1. 把做人应当遵守的普遍真理作为人生的原理原则。——稻盛和夫的京瓷“哲学”
+1. 惟谦受福
+1. 时间管理的“道”是“顺应人性，注重绩效”。
+1. 雷军找人主要看两点：一是专业，二是合适。
+1. 没有老兵，没有传承，没有新军，没有未来。
+1. 什么是二阶思维？其实非常简单，就是遇事多想一步，去思考：如果我这样做，会得到什么结果？（一阶）；如果我得到了这个结果，随着时间推移，它会产生哪些新的可能性和结果？（二阶）。
+1. 一切事物在底层上都是互相联系的；整体能提供比个体本身更多的信息。
+1. 从现在起，做你害怕做的事情，然后你会发现，其实也不过如此。
+1. 你多学一样本事，多长一点本领，那么就可以少说一句求人的话。
+1. 不要逢人就到处宣扬自己的内心，因为这世上不止你一个人有故事。
+1. 你之所以会累，是因为你无法心安理得地懒惰。
+1. 痛苦就是痛苦，对痛苦的思考才是财富。
+1. 做你没做过的事情叫成长，做你不愿意做的事情叫改变，做你不敢做的事情叫突破。
+1. 生活，生下来，活下去。
+1. 考虑到间接成本，最好的方法就是找出适用于大部分决策的通用模式或原则。
+1. 独特价值，任何人都无法替代你。
+1. 德鲁克过着极其简单的生活，没有员工，没有研究助手，没有正式的办公室。他坐在小书桌前，敲着老式打字机，每天在普通房子的备用卧室里工作。他在自己客厅的藤椅上，会见了全世界各种有影响力的企业家和CEO们。
+1. 
+
+
+
+#### 转载
+[透漏几点面试的真相](https://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650665581&idx=1&sn=bd48e63dd4602a4eb274ef6d6ab1906a&chksm=87d12f32b0a6a6243ab8599d03a32fe7292edee24707201441b7e1dd4523202a369aef9b7b02&mpshare=1&scene=24&srcid=#rd)  
+[运营干货](https://mp.weixin.qq.com/s?__biz=MzA4NDM4Nzk3MA==&mid=2653307176&idx=1&sn=43b9be3a19738964bbc16a3ec174f046&chksm=843510c5b34299d3cc643e81570f59c01d66f0e0f2f3d1cae78529709e3df46da6303da4c743&mpshare=1&scene=24&srcid=#rd)  
+[提高工作效率的要点总结](https://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&mid=2655714328&idx=1&sn=c4632a33724ec1a35be63ecde192593e&chksm=bd50ef9b8a27668de35e5e0a2b58d80fab8e1821baa84db17eb60201e54d52e20adacc0f29ba&mpshare=1&scene=24&srcid=#rd)  
+[几个看透事情本质的模型](https://mp.weixin.qq.com/s?__biz=MzA5NzQ2MjMxMQ==&mid=2705049594&idx=1&sn=c752d77da4e061cc623e5c11814d7b65&chksm=b46f16b283189fa4bb4388cd1aa727946c6500e95529629f0f1740a41444e47e2e66374533ec&mpshare=1&scene=24&srcid=#rd)  
+[思维导图 | 稻盛和夫：工作5年后明白的8个道理](https://mp.weixin.qq.com/s?__biz=MzIxNTAzNzU0Ng==&mid=2654622097&idx=3&sn=4f750c454483dbdcad4487d174a2b197&chksm=8c509294bb271b8259a111daf0c6f0ff69dbf530c5c442b975f609cdea6d084e154d6b205135&mpshare=1&scene=24&srcid=#rd)  
+[马云: 管理阿里86000人的4字真经](https://mp.weixin.qq.com/s?__biz=MzIxNTAzNzU0Ng==&mid=2654622097&idx=2&sn=e4b4f2c97fbd7ac1ec0f1d9155ae7ff3&chksm=8c509294bb271b82152d0980ba76ae9736f1f57b6869a8bf40dadcb6231f899a0d00b77828f5&mpshare=1&scene=24&srcid=#rd)  
+[职业生涯的前7年要怎样度过？这是我听过最好的答案](https://mp.weixin.qq.com/s?__biz=MzI1ODA2MzYwOQ==&mid=2651921796&idx=1&sn=f188daf5388f69a3d8d38b7541906ec9&chksm=f1e85012c69fd904ae18b3e3524f166d3c7c1a2394eb0dd11afac956f767c0209c2da8f6f934&mpshare=1&scene=24&srcid=#rd)  
+[微精通：快速学会任何一个技能的方法论](https://mp.weixin.qq.com/s?__biz=MjM5NjA3OTM0MA==&mid=2655714456&idx=1&sn=2419ee5437e0dbed053bf695afe14c1e&chksm=bd50ef1b8a27660dbfae6e5fdc90733abc33e93b6deb8733048b94a414964cff4cbe768780ef&mpshare=1&scene=24&srcid=#rd)  
+
+
+![](/img/wc-tail.GIF)

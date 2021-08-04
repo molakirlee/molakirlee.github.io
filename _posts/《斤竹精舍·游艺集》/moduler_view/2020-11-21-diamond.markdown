@@ -1,0 +1,19 @@
+---
+layout:     post
+title:      "Diamond使用"
+subtitle:   ""
+date:       2020-11-21 11:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Moduler
+    - 2020
+
+---
+
+1. [Diamond软件使用问题集锦，你想知道的都在这里！](https://zhuanlan.zhihu.com/p/150801477)
+
+![](/img/wc-tail.GIF)

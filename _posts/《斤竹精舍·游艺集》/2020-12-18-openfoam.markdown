@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "OpenFoam 安装 CentOS"
+subtitle:   ""
+date:       2021-01-18 19:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2021
+
+---
+
+
+
+### 参考资料
+1. [CentOS6.5 安装 OpenFOAM-2.4.0](https://blog.csdn.net/ztq157677114/article/details/49819925?ops_request_misc=&request_id=&biz_id=102&utm_term=linux%2520openfoam%25E5%25AE%2589%25E8%25A3%2585&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-7-49819925.pc_search_result_hbase_insert)
+
+
+![](/img/wc-tail.GIF)

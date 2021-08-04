@@ -1,0 +1,35 @@
+---
+layout:     post
+title:      "Vasp DFT加U"
+subtitle:   ""
+date:       2020-12-10 16:12:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Vasp
+    - 2020
+
+
+---
+
+### 基本概念
+DFT（LDA和GGA）对于一般体系的计算结果是令人满意的，尤其是能带结构的计算，这些一般体系主要是金属体系或者是只包含前三周期元素的体系。但是，对于包含d电子或者f电子的体系，特别是过渡金属氧化物或者氮化物，DFT直接计算的结果往往是错误的，所以在金属/绝缘体的判定上常常出错。LDA和GGA往往会低估一些绝缘体或者半导体的带隙，甚至最高占据轨道（VBM或者HOMO）在Fermi面之上，变成金属。对于包含d或者f电子的体系，VBM或者HOMO往往是来自这些金属原子的d电子或者f电子，而DFT无法直接处理d轨道或者f轨道的强关联相互作用，**目前广泛采用LDA+U的方法来处理d电子或者f电子的这种强关联相互作用**。
+
+LDA＋U核心思想是：首先将研究体系的轨道分隔成两个子体系（subsystem），其中一部分是一般的DFT算法（如LSDA，GGA）等可以比 较准确描述的体系，另外是定域在原子周围的轨道如d或者f轨道，这些轨道在标准的DFT计算下不能获得正确的能量与占据数之间的关系（如DFT总是认为分 数占据是能量最小的，而不是整数占据）；对于d或者f轨道，能带模型采用Hubbard模型，而其他轨道仍然是按照Kohn－Sham方程求解；d以及f 轨道电子之间的关联能采用一个和轨道占据以及自旋相关的有效U表示；整体计算的时候需要将原来DFT计算过程中已经包含的部分关联能扣除，这部分一般叫 Double Counting part，并且用一个新的U来表示，最终的结果是在DFT计算的基础上新增加一个和d或者f轨道直接相关的分裂势的微扰项，这部分能量可以采用一般微扰理 论计算。
+
+### 参考资料
+1. [VASP态密度、能带、DFT+U实例分析教程](https://www.shangyexinzhi.com/article/2842525.html)
+1. [常见U值：VASP加U考虑强关联相互作用](http://blog.sciencenet.cn/blog-567091-775079.html)
+1. [LDA+U中U值的计算方法](https://zhuanlan.zhihu.com/p/89812780)
+1. [[交流] DFT+U中U参数的确定](http://muchong.com/t-5237955-1)
+1. [vasp中用PBE算含有d和f电子的原子必须要加U吗？](http://bbs.keinsci.com/thread-11966-1-1.html)
+1. [在VASP上，如何用DFT+U算DOS，求INCAR如何写？](http://muchong.com/html/201510/9552932.html)
+1. [DFT+U相关问题](http://bbs.keinsci.com/thread-12476-1-1.html)
+1. []()
+1. []()
+
+
+![](/img/wc-tail.GIF)

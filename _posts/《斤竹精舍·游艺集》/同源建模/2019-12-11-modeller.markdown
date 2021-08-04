@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "同源建模资料整理"
+subtitle:   ""
+date:       2019-12-11 08:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2018
+
+---
+
+1. [https://zhuanlan.zhihu.com/p/32600515](https://zhuanlan.zhihu.com/p/32600515)
+1. [利用Modeller构建未知序列三维结构(利用cryo-EM map)的详细流程](http://www.voidcn.com/article/p-hqxzmafj-bkr.html)
+1. [同源建模方法整理](https://zhuanlan.zhihu.com/p/45041082)
+1. [同源建模详细讲解-整理版](https://wenku.baidu.com/view/8c836b34915f804d2b16c158.html)
+1. [DS同源建模讲义](https://wenku.baidu.com/view/32fdae53daef5ef7ba0d3cca.html)
+1. [同源建模工具easymodeller4.0 操作说明](https://wenku.baidu.com/view/2d00e4220b1c59eef8c7b46b.html)
+1. [Easymodeller 4.0: a new gui to modeller](/attachment/EasyModeller4.0_A_new_gui_to_MODELLER.pdf)，或[链接1](http://modellergui.blogspot.com/)、[链接2](http://modellergui.blogspot.com/2012/07/easymodeller-40-new-gui-to-modeller.html)
+
+![](/img/wc-tail.GIF)

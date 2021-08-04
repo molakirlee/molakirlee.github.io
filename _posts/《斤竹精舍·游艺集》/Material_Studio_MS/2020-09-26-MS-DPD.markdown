@@ -1,0 +1,45 @@
+---
+layout:     post
+title:      "MS中DPD的模拟"
+subtitle:   ""
+date:       2020-09-26 14:55:00
+author:     "XiLock"
+header-img: "img/in-post/2018/2018-11-07-howtowritepaper/bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - MS
+    - 2020
+
+---
+
+### 模拟过程
+DPD的模拟过程可以参考help里的tutorial。
+
+
+### 注意事项
+
+1. 建立bead的时候可以有两种方式：一种是在Build->Build Mesostructure->Coarse Grain->More->Motion Group里Create；另一种是直接在Build->Build Mesostructure->Beads types里直接创建。对于三个水分子形成一个Bead的情况，用前一种方法无法构建（因为无法把几个片段合为一个Bead），只能用后者；
+1. 对于DPD而言，使用Constrain进行约束时并不能完全rigid约束住，其实质还是用restrain进行约束。所以对于DPD的约束，不要使用constrain进行约束，用restrain进行约束，定义完restrain之后constrain里会自然勾选上。
+
+###### Flory-Huggins参数
+tutorial里有几种方法，这里简述2种：blend法和amouphous法。flory-huggins参数可以从blends模块，也可以从amorphous中得到，在分析的能量里的内聚能密度里，分析的结果里就可以看到。
+
+一·blend法：
+1. 画出模拟体系中的结构并进行优化；
+2. 借助于BLENDS模块导入分子；
+3. 分别选择Base和Screen进行混合；
+4. 分析输出中的参数x(希腊字母，读作chi)即是Flory-Huggins参数。
+
+
+法二2·amorphous法：  
+用BLEND计算结果并不准确，考虑不了珠子具体分子片段的构形效应，采用amorphous会好一点，但比BLEND计算量大不少。
+1. 用amorphous cell建盒子，构型优化，然后跑MD；
+1. 平衡后用AC模块中的分析，选Energy，用Cohesive energy density对其分析
+
+### 参考资料
+1. [祖师文献：Dissipative particle dynamics: Bridging the gap between atomistic and mesoscopic simulation](https://aip.scitation.org/doi/10.1063/1.474784)
+1. [求教DPD高手怎样用amorphous cell计算Flory huggins参数](http://muchong.com/html/201312/3002328.html)
+
+![](/img/wc-tail.GIF)

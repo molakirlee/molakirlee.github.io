@@ -1,0 +1,19 @@
+---
+layout:     post
+title:      "食谱"
+subtitle:   ""
+date:       2019-01-05 09:57:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《一个学化工的厨子》
+    - 2019
+
+
+---
+###### 南瓜
+[素食南瓜](https://mp.weixin.qq.com/s?__biz=MzU5MjczNTk0Mw==&mid=2247496141&idx=1&sn=b4dca0f7e69552a67a0ca021e72eea58&chksm=fe198a65c96e03732ecc0264b5e891ce49a73818bfa0149ef2eb18fb983d0f2d7df4d9bb43ec&mpshare=1&scene=24&srcid=#rd)  
+
+![](/img/wc-tail.GIF)

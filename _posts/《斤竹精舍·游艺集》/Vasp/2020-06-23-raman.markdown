@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      "Vasp raman"
+subtitle:   ""
+date:       2020-06-23 09:55:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Vasp
+    - 2020
+
+
+---
+
+vasp没有自带的模块计算raman谱，如果想用vasp计算拉曼谱则可以通过脚本：
+1. Phonopy-Spectroscopy（https://github.com/JMSkelton/Phonopy-Spectroscopy）+Phonopy+Phono3py: 一个Python包能和各种第一性原理计算程序连用
+1. vasp_raman.py: https://github.com/raman-sc/VASP#opennewwindow
+
+参考资料：
+1. [Q:如何计算晶体的拉曼光谱？](http://bbs.keinsci.com/thread-12473-1-1.html)
+1. [Q:VASP+phonopy计算Raman谱](http://muchong.com/html/201707/10408604.html)
+
+
+![](/img/wc-tail.GIF)

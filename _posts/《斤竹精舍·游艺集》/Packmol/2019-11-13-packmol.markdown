@@ -1,0 +1,43 @@
+---
+layout:     post
+title:      "packmol"
+subtitle:   ""
+date:       2019-09-03 09:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - packmol
+    - 2019
+
+
+---
+
+参考资料：[Packmol程序资料整理](https://jerkwin.github.io/2016/08/05/Packmol%E7%A8%8B%E5%BA%8F%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/)  
+
+### tethered brush
+在71.97x49.86x100的盒子里填充20个P1.pdb分子，并使8号原子在z=0的表面。  
+其他说明：文件格式为pdb，输出文件名为P1_20.pdb
+
+```
+
+tolerance 2.0
+
+filetype pdb
+output P1_20.pdb
+
+structure P1.pdb
+  number 20
+  inside box 0. 0. 0. 71.97 49.86 100
+  atoms 8
+    inside box 0. 0. 0. 71.97 49.86 0
+  end atoms
+end structure
+```
+
+
+
+
+![](/img/wc-tail.GIF)

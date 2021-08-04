@@ -1,0 +1,115 @@
+---
+layout:     post
+title:      "Vasp ABC"
+subtitle:   ""
+date:       2020-07-20 19:55:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Vasp
+    - 2020
+
+
+---
+
+### 输入文件
+VASP的输入文件有4个：  
+1. INCAR：告诉vasp算啥，咋算；
+1. POSCAR：模型结构；
+1. KPOINTS：K点信息；
+1. POTCAR：原子的平面波基组，描述体系中对应的原子核和电子的相关信息。
+
+
+```
+# ------------
+# - 1. INCAR -
+# ------------
+# 写INCAR的时候，不要使用 tab，用空格替换tab；
+# 官网有些旧的文件可能用的不是 # 号，而是 !。 大家记住: ! 可能会出错；
+# 下文中的“分子原子体系”指的就是“把分子或者原子放到一个box里面”。
+
+SYSTEM = O atom       # 该计算的说明，任意写，没有也没有影响.
+ISMEAR = 0            
+# ----------------------------
+# 展宽方法，一般ISMEAR = 0 (Gaussian Smearing) 可以满足大部分的体系（金属，导体，半导体，分子）；
+# 对于分子或者原子，用0;
+# 对于金属来说，ISMEAR的取值一般为0或1；
+# 半导体和绝缘体体系不大于0，一般用0；
+# K 点少，半导体或者绝缘体，那么只能用 ISMEAR = 0；
+# 对所有体系，如果想获取更加精确能量的时候用-5：但使用-5的时候，K点数目小于3则程序会罢工；
+# ----------------------------
+SIGMA = 0.01          
+# ----------------------------
+# 对于分子原子体系，死死记住下面组合就可以了，ISMEAR = 0; SIGMA = 0.01。
+# 对于金属(ISMEAR=1或0)，非金属(ISMEAR=0)，一般取SIGMA=0.10即可，默认值是0.20，不放心的话，用0.05；
+# 如果用了ISMEAR = -5； SIGMA的值可以忽略，也可以不管；
+# 判断标准： SIGMA的取值要保证OUTCAR 中的 entropy T*S (展宽entropy而非物化entropy)这一项，平均到每个原子上，要小于 1-2 meV；
+# ----------------------------
+
+# -------------
+# - 2. POSCAR -
+# -------------
+O atom in a box # 随便写，但不能不写；
+1.0             # universal scaling parameters，将后面坐标进行缩放的系数，用1就行，直观！ 
+8.0 0.0 0.0     # lattice vector a(1)，组成格子的x边，从原点出发取 8 angstrom.
+0.0 8.0 0.0     # lattice vector a(2)  
+0.0 0.0 8.0     # lattice vector a(3)  
+O               # O element， not zero，第一个元素符号要顶格写；
+1               # number of atoms，元素相对应的原子数目； 
+Cartesian       # positions in cartesian coordinates，只认第一个字母，C或c代表笛卡尔坐标，D或d代表分数坐标系；
+0 0 0           #
+
+
+# --------------
+# - 3. KPOINTS -
+# --------------
+# 决定计算精度和计算时间；
+# 可有空格但不能有tab；
+K-POINTS      #  第一行随便写都行，但不能没有
+0             # 零，格子自动生成
+Gamma         
+# ----------------------------
+# gamma点centered(VASP只认第一个字母，大小写均可)，以gamma点为中心生产网格，建议用这种方式； 
+# gamma centered是Monkhorst-Pack网格的一种特殊情况，二者区别在于在3个方向上平移了1/（2N）个单位；
+#-----------------------------
+1 1 1         
+# ----------------------------
+# 在3个方向生成的K点数，对于原子或者分子的计算，K点取一个gamma点就够了(111格子)，数值越大计算量越大；
+# 对于ISMER=-5需要用(222)或者(333)的格子；
+# ----------------------------
+0 0 0         #  S1 S2 S3， 一般保持 0 0 0 不变。optional shift of the mesh (s_1, s_2, s_3).
+
+# k点个数的选择取决于k点个数*基向量长度a
+# ka ~ 30 A: d band metal
+# ka ~ 25 A: simple metal
+# ka ~ 20 A: semiconductors
+# ka ~ 15 A: insulators
+
+# -------------
+# - 4. POTCAR -
+# -------------
+# 在存放POTCAR文件夹里会有LDA，PBE，和PW91这三个文件夹，主流的计算一般都是用PBE。进入PBE的文件夹就会找到各个元素所对应的POTCAR文件。
+# 对于同一个元素来说，也可能会有很多不同的情况，如：与GW 计算的对应的POTCAR标注为Fe_GW，Fe_pv代表把内层的p电子作为价电子来处理；
+# ！！！使用VASP the GUIDE推荐的赝势文件即可！！
+cat ~/pot/Al/POTCAR ~/pot/C/POTCAR ~/pot/H/POTCAR >POTCAR
+# 合并所需元素的赝势文件，POTCAR中的元素顺序一定要和POSCAR保持一致,否则计算会出错
+
+# 部分POTCAR文件中的关键词
+# VRHFIN 用来看元素的价电子排布，如果你元素周期表倒背如流，可以忽略这个参数；
+# LEXCH 表示这个POTCAR对应的是GGA-PBE泛函；如果INCAR中不设定泛函，则默认通过这个参数来设定。
+# TITEL 就不用说了，指的是哪个元素，以及POTCAR发布的时间；
+# ZVAL 指的是实际上POTCAR中价电子的数目，尤其是做Bader电荷分析的时候，极其重要。
+# ENMAX 代表默认的截断能。与INCAR中的ENCUT这个参数相关。
+```
+
+### 参考资料：
+1. [VASP的最简单的安装方法](http://sobereva.com/455)
+1. [LVASPTHW](https://www.bigbrosci.com/categories/)
+1. [官网推荐选的赝势的选取规则：粗体](https://cms.mpi.univie.ac.at/vasp/vasp/Recommended_PAW_potentials_DFT_calculations_using_vasp_5_2.html)
+1. [Bulk的单点计算(Fe 单胞): gama点个数选择](https://www.bigbrosci.com/2018/02/01/ex32/)
+
+
+![](/img/wc-tail.GIF)

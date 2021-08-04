@@ -1,0 +1,67 @@
+---
+layout:     post
+title:      "2021-每周补脑3rd"
+subtitle:   ""
+date:       2021-01-30 09:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+1. [余国琮院士：为争一口气 不负周总理厚望，提取纯度99.9%的重水](https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9657941324583463623%22%7D&n_type=-1&p_from=-1)
+1. [PhDs: the tortuous truth](https://www.nature.com/articles/d41586-019-03459-7)
+
+### 语录
+
+1. 要么是用户控制程序，要么是程序控制用户。-- [《Keep control of your computing, so it doesn't control you!》理查德·斯托曼](https://www.gnu.org/philosophy/keep-control-of-your-computing.en.html)
+1. C 语言很保守，变化和增长非常缓慢。这其实是一项吸引人的功能，开发人员常常低估了它。--[《Why Aren't There C Conferences?》](https://nullprogram.com/blog/2018/11/21/)
+1. 如果我只能给其他程序员一个建议，那就是编写小的代码块，你要多写小方法、小功能、小程序。我自己写C＃时，当函数接近15或20行代码时，我会感到不舒服。我的限制是，一个函数最多最多就是24行代码，因为传统终端就是24行一屏。——[The 80/24 rule](https://blog.ploeh.dk/2019/11/04/the-80-24-rule/)
+1. If you had a pet, would you attempt to lock it up for most of its life? Would you starve it and tell it it’s not worthy of being let out of the cage? Would you call it nasty names when no one is looking?——[Unlocking the Creative Body](https://elliottfienberg.com/unlocking-the-creative-body/)
+1. [if it's free - you are the product.](https://news.ycombinator.com/item?id=21609987)
+1. 如何才能画一幅完美的画？很简单。先让自己变得完美，然后自然地画，所有的专家都这样做。-- 《禅与摩托车维修艺术》
+1. 几乎所有的战争原则，都可以总结为一个词"集中"，或者扩展成一句话"集中力量攻击敌人的弱点"。-- 李德·哈特《战略论：间接路线》
+
+### 言论
+
+###### CTO+CEO
+Learn to Sell, Learn to Build ——[Naval](https://nav.al/build-sell)
+
+Frank点评：  
+
+他的意思是，一家成功的公司，必须同时具备两种能力：优秀的制造能力和优秀的销售能力。 成功的公司，不仅要懂得如何创造出优秀的产品，还要懂得如何把产品卖出去。
+
+这就是为什么公司会设置 CEO 和 CTO 两个角色。一般来说，CEO 负责销售（包括融资）和管理，CTO 负责制造。这两个角色里面，只要有一个没做好，公司就成功不了。
+
+Naval 接着说， 这个世界上，最厉害的人就是既懂得制造，又懂得销售的人。这样的人可以创造出一个行业。 举例来说，马斯克（Elon Musk）就是这样的人，他懂得技术，可以让工程师为他造出想要的东西，他也懂得销售，能让整个世界为特斯拉汽车疯狂。乔布斯也是这样的人，懂得顾客想要什么，以及苹果公司能造出什么，几乎凭一己之力让苹果公司变成世界市值最高的公司。
+
+如果我们把自己的人生看成是一个项目，人生成功也是如此，既要有真才实学，也要懂得推销自己。
+
+Naval 说，通常情况下，Maker（制造者）学习 sales（销售）比较容易，Sales 学习 make 比较难。比如，程序员学习运营，要比运营人员学习编程容易。所以，我的想法是，大学最好主修一些跟 make 相关的课程（比如计算机），然后辅修一些跟 sales 相关的课程（比如经济），这样的搭配比较合理。
+
+
+### 有趣
+1. 自从1996年以来，软件领域几乎所有东西都是巧妙地重新包装和重新设计了先前的发明。为什么1996年以后，软件技术突然停止了进展？1996年到底发生了什么？Frank Ruan 认为原因就是互联网开始繁荣。突然之间，程序员有史以来第一次可以迅速致富，大量聪明的有抱负的人涌入了硅谷。但是，你不能在创业公司做研究，基础技术需要很长时间酝酿，并且风险很大。合理的商业计划是利用 VC 的资金，将其投入到最优秀的程序员，让他们改进当前糟糕的技术，然后兑现获利。创业公司没有发明基础技术的时间。如今，只有像 Google / Facebook / Amazon / Microsoft 这样的大型公司才有金钱和时间来创造新技术，但是他们似乎只对以最小的破坏性方式解决自己的问题感兴趣。——Frank Ruan
+1. [Why I Quit Google to Work for Myself](https://mtlynch.io/why-i-quit-google/)
+1. [Tech Trends from 2020](https://danieleckler.com/2020/)
+1. [Revolutionary recycling? A new technology turns everyday trash into plastic treasure.](https://www.washingtonpost.com/graphics/2019/climate-solutions/israeli-startup-ubq-turning-trash-into-plastic-products/)
+1. [Selling My Bootstrapped SaaS Business](https://tylertringas.com/selling-my-bootstrapped-saas-business/)
+1. [Redux 作者Dan Abramov的十年回顾](https://overreacted.io/my-decade-in-review/)
+1. [The Comprehensive Guide to Speaking at Technology Conferences in 2020](https://www.cfpland.com/guides/speaking/)
+1. [Managing my personal knowledge base](https://tkainrad.dev/posts/managing-my-personal-knowledge-base/)
+1. [How I organize my knowledge as a Software Engineer](https://dev.to/brpaz/how-do-i-organize-my-knowledge-as-a-software-engineer-4387)
+1. [How to Pick a Career (That Actually Fits You)](https://waitbutwhy.com/2018/04/picking-career.html)
+1. [23 rules to run a software startup with minimum hassle](https://www.joisig.com/rules-software-startup-minimum-hassle)
+1. [The 66 Best Inventions of the Past 66 Years](https://www.popularmechanics.com/technology/g24668233/best-inventions/)
+1. [Lateral thinking during troubled times](https://creativesamba.substack.com/p/lateral-thinking-during-troubled)
+1. [Rehabilitating “you can’t manage what you can’t measure”](https://surfingcomplexity.blog/2020/01/26/rehabilitating-you-cant-manage-what-you-cant-measure/)
+1. [戴森印象记](https://www.changhai.org/articles/miscellaneous/people/Dyson.php)
+
+
+![](/img/wc-tail.GIF)
