@@ -1,0 +1,33 @@
+---
+layout:     post
+title:      "2021-每周补脑11th"
+subtitle:   ""
+date:       2021-08-06 22:06:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+
+### 言论
+1. "work-life balance is a 'debilitating phrase.'If I am happy at home, I come into the office with tremendous energy, If I am happy at work, I come home with tremendous energy." --Jeff Bezos. 
+
+
+
+### 有趣
+
+### 观点
+
+### 奇技淫巧
+
+### 荐书
+
+
+![](/img/wc-tail.GIF)
