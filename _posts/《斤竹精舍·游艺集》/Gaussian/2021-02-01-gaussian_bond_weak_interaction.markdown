@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gaussian 键能·弱相互作用计算"
+title:      "Gaussian 成键分析·弱相互作用计算"
 subtitle:   ""
 date:       2021-02-01 20:38:00
 author:     "XiLock"
@@ -14,8 +14,13 @@ tags:
 
 ---
 
-### 共价键
+### 化学键分析
 
+参考：
+1. [Multiwfn支持的分析化学键的方法一览](http://sobereva.com/471)
+1. [谈谈原子间是否成键的判断问题](http://sobereva.com/414)
+
+##### 键能
 参考:
 1. [求关于高斯计算具体键的键能的方法](http://bbs.keinsci.com/thread-2102-1-1.html)
 
