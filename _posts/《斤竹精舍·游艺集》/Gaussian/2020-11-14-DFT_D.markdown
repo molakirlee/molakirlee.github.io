@@ -22,5 +22,6 @@ tags:
 1. [盘点Grimme迄今对理论化学的贡献](http://sobereva.com/388)
 1. [乱谈DFT-D](http://sobereva.com/83)
 1. [DFT-D色散校正的使用](http://sobereva.com/210)
+1. [大体系弱相互作用计算的解决之道](http://sobereva.com/214)
 
 ![](/img/wc-tail.GIF)

@@ -17,6 +17,8 @@ tags:
 ### 待阅读
 1. [静电效应主导了氢气、氮气二聚体的构型](http://sobereva.com/209)
 1. [谈谈温度、压力、同位素设定对量子化学计算结果产生的影响](http://bbs.keinsci.com/thread-10159-1-1.html)
+1. [使用Multiwfn绘制光电子谱](http://sobereva.com/478)
+1. [Gaussian中用TDDFT计算激发态和吸收、荧光、磷光光谱的方法](http://sobereva.com/314)
 
 ###重要
 1. [学习量子化学计算必看的博文 - from 谈谈学量子化学如何正确地入门](http://sobereva.com/355)
