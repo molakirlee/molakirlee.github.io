@@ -284,6 +284,10 @@ git clean -nf
 git clean -nfd
 ```
 
+### 参考资料
+1. [git宝典—应付日常工作使用足够的指北手册](https://www.zhoulujun.cn/html/tools/VCS/git/402.html)
+
+
 ### 常见问题
 ###### linux系统安装完新版本的git后用--version查看仍为旧版本
 这是因为没有添加环境变量路径或新添加的路径在原来的`$PATH`后面，环境变量应为：`export PATH=/usr/local/git/bin:$PATH`

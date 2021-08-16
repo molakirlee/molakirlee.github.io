@@ -370,4 +370,16 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 1. 收到github通知说repositories最大储存容量500M，看了下已经300M+了，非长久之计，打算清理下.git文件夹，结果按照[这篇文章](https://blog.csdn.net/cysear/article/details/102823671)的指示操作，最后把所有的rar文件都抹掉了，连checkout退回的版本里也没有rar记录了，后来发现500M流量是针对private的，public还是free……做处理之前一定要先备份好啊！
 2. 发现，在attachment文件夹里放一个内容为"Blog_Attachment_A"的README.md文件的话，会出现一个名为Blog_Attachment_A的Tag……
 
+### 更新20210816
+今天`git push`时遇到问题：
+```
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+``` 
+呃，不支持密码验证了，解决方案如下：
+1. 在Setting里生成token;
+1. 对于Win系统：Go to Credential Manager from Control Panel => Windows Credentials => find git:https://github.com => Edit => On Password replace with with your Github Personal Access Taken => You are Done
 
+参考资料：
+1.[GitHub不再支持密码验证解决方案：SSH免密与Token登录配置](https://www.cnblogs.com/zhoulujun/p/15141608.html) 
+1.[Support for password authentication was removed. Please use a personal access token instead](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to) 
