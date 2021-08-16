@@ -42,10 +42,6 @@ tags:
 1. [绎模科技](http://www.emoltech.com/?p=43&mdtp=2)
 
 ### 笔记
-#### 热力学基本知识  
-1. [两篇热力学数据计算的入门介绍文章](http://bbs.keinsci.com/thread-123-1-1.html)  
-1. [Shermo：计算气相分子配分函数和热力学数据的简单程序](http://sobereva.com/315)  
-
 #### 酸碱pK
 1. [怎样计算一个有机分子中质子供体的酸性和质子受体的碱性?](http://bbs.keinsci.com/thread-19043-1-1.html)
 1. [使用Multiwfn的定量分子表面分析功能预测反应位点、分析分子间相互作用](http://sobereva.com/159)
