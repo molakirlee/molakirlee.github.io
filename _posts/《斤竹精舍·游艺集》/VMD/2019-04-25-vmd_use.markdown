@@ -58,7 +58,7 @@ tachyon_WIN32.exe vmdscene.dat -aasamples 24 -mediumshade -trans_vmd -res 1024 7
 ### 教程
 1. [vmd教程](http://course.sdu.edu.cn/Download2/20151113131122124.pdf)  
 1. [使用vmd批量渲染cube文件的tcl脚本vcube 更新2.0版](http://bbs.keinsci.com/thread-18150-1-1.html)
-
+1. [谈谈VMD可视化程序的连接关系的判断和设置问题](http://sobereva.com/534)
 
 除了基本操作，还有分子坐标的对齐、tcl语言等，整体比较简单。
 

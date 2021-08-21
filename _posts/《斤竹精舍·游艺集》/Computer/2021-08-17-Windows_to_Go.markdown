@@ -22,6 +22,7 @@ tags:
 ###### 系统盘
 1. 如果是直接买的固态硬盘而非固态移动硬盘，那么可以直接在里面做系统。
 1. 用固态优盘或固态移动硬盘时，因为接口不支持，所以才需要用WinToGo。
+1. 装入系统前，盘必须被格式化，且应为GUID格式而非MBR格式（可用DiskGenius处理）。
 
 ###### 第三方软件
 1. 萝卜头等第三方软件都可以用来制作WinToGo系统，但有的做出来的不能用，比如引导存在问题。
@@ -29,7 +30,8 @@ tags:
 
 ###### Win10镜像下载
 1. 下载地址参见[电手](https://www.dianshouit.com/?thread-22.htm)或[这3个地方下载的都是：官网Windows 10镜像](https://www.dianshouit.com/thread-22.htm)
-1. **镜像很重要，有的镜像不能做WinToGo**，通过比较不同的镜像xilock实际上是从[win10官网](https://www.microsoft.com/zh-cn/software-download/windows10)上下载的“媒体创建工具（MediaCreationTool21H1）”，并用其生成了ISO文件“Windows.iso”
+1. **镜像很重要，有的镜像不能做WinToGo**，据说是不低于1907??不好说。
+1. 通过比较不同的镜像xilock实际上是从[win10官网](https://www.microsoft.com/zh-cn/software-download/windows10)上下载的“媒体创建工具（MediaCreationTool21H1）”，并用其生成了ISO文件“Windows.iso”
 
 ###### Win10激活
 1. 参见[Windows 10 激活就只有这4种](https://www.dianshouit.com/thread-26.htm)

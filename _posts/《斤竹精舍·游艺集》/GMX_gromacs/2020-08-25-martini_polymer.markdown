@@ -96,5 +96,6 @@ O5 C1 C2 C3
 1. [martini原文·Table.3为珠子类型](https://pubs.acs.org/doi/10.1021/jp071097f)
 1. [The Martini Coarse-Grained Force Field](http://md.biol.rug.nl/images/stories/martini-chapter.pdf)
 
+1. 另：gromacs粗理华建模程序PyCGTool，参见李老师博客
 
 ![](/img/wc-tail.GIF)

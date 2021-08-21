@@ -716,6 +716,7 @@ var quotes = [
 '努力让自己发光，对的人才会迎光而来。',
 '幸于始者怠于终，善其辞者嗜其利。——《红楼梦》56回',
 'Failure sneaks up on you slowly, then all at once.',
+'True master are those who have chosen to make a life rather than a living.',
 '才情高超，清越脱俗。'
 ]
 

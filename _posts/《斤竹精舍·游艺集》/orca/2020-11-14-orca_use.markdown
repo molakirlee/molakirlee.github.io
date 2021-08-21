@@ -14,6 +14,11 @@ tags:
 
 ---
 
+### 方法/机组
+1. opt和freq：B3LYP-D3(BJ)/6-31G**
+1. 单点：wB97M-V/def2-QZVP或PWPB95-D3(BJ)/def2-QZVP；对应高斯M06-2X/def2-TZVP
+
+### 参考阅读
 1. [详谈Multiwfn产生ORCA量子化学程序的输入文件的功能](http://sobereva.com/490)
 1. [orca AIMD](https://brehm-research.de/orcamd.php)
 

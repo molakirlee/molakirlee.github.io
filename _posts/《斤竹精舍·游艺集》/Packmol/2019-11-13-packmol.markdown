@@ -15,7 +15,6 @@ tags:
 
 ---
 
-参考资料：[Packmol程序资料整理](https://jerkwin.github.io/2016/08/05/Packmol%E7%A8%8B%E5%BA%8F%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/)  
 
 ### tethered brush
 在71.97x49.86x100的盒子里填充20个P1.pdb分子，并使8号原子在z=0的表面。  
@@ -38,6 +37,11 @@ end structure
 ```
 
 
+### 参考资料
+[Packmol程序资料整理](https://jerkwin.github.io/2016/08/05/Packmol%E7%A8%8B%E5%BA%8F%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/)  
 
 
+### 其它
+sob不建议用packmol,genmixmen好用的多：[生成混合组分的磷脂双层膜结构文件的工具genmixmem](http://sobereva.com/245)
+ 
 ![](/img/wc-tail.GIF)

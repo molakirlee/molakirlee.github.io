@@ -16,7 +16,7 @@ tags:
 ---
 
 
-### 
+### 前言
 1. Aspen puls很大程度上是为稳态过程计算而非动态过程计算所设计的。
 1. 绝热节流膨胀（Joule-Thomson定律，Adiabatic flash）。
 1. 模拟前在Setup里设置标题、温度、压力的单位，这是好习惯。
@@ -26,6 +26,8 @@ tags:
 1. Le Chatelier and Braun原理。
 1. 固相在component里的type为solid而非默认的conventional。
 
+###### 物性估算
+1. [物性估算在 ASPEN PLUS软件中的应用](https://molakirlee.github.io/attachment/aspen/aspen_property_estimation.PDF)
 
 ###### 物性方法
 1. 物性方法的选择将会影响到压力/密度关联性质的参数，如：焓值、熵值，而不是理想气体性质的参数。
