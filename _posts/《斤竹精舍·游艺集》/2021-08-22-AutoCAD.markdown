@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "AutoCAD"
+subtitle:   ""
+date:       2021-08-22 16:57:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2021
+
+---
+
+
+
+### 问题
+1. [cad闪退的解决办法](https://molakirlee.github.io/attachment/cad/cad_crash.pdf)
+
+
+![](/img/wc-tail.GIF)
