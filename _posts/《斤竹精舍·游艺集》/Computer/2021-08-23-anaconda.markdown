@@ -4,7 +4,7 @@ title:      "Anaconda及python环境安装"
 subtitle:   ""
 date:       2021-08-23 21:52:00
 author:     "XiLock"
-header-img: ""
+header-img: "img/post-background/bamboo3.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
