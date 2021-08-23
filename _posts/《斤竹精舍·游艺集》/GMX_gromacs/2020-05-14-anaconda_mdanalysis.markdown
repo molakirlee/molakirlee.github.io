@@ -18,11 +18,14 @@ tags:
 之前在win系统下用pip安装MDAnalysis一直没有成功，问了下好像很多人都没成功，经supernova推荐，又看了下官网，决定改用conda安装，为了方便就用anaconda了。  
 
 ###### Anaconda的安装
-关于Anaconda，安装可参考下面两篇资料，简单概括一下：
+
+~~关于Anaconda，安装可参考下面两篇资料，简单概括一下：
 1. 根据系统和所想支持的python的版本，从Anaconda官网下载安装包；（xilock用的许多脚本只支持py2.7语言，所以下载py2.7，如果想用更高版本的只需后期在conda里创建相应python版本的环境。）
 1. 安装完几个G大，所以留足硬盘空间。
 1. win下直接管理员模式运行安装包即可，注意**让添加path时不要添加**，**让选择给谁安装时只给当前用户安装**。
-1. 安装完成后在菜单栏打开Anaconda Prompt，输入命令`conda list`，若显示出一大堆packages的信息则说明安装成功了。
+1. 安装完成后在菜单栏打开Anaconda Prompt，输入命令`conda list`，若显示出一大堆packages的信息则说明安装成功了。~~
+
+重新整理版见[Anaconda及python环境安装](https://molakirlee.github.io/_posts/《斤竹精舍·游艺集》/Computer/2021-08-23-anaconda.markdown)
 
 参考资料：
 1. [Anaconda介绍、安装及使用教程](https://zhuanlan.zhihu.com/p/32925500)
