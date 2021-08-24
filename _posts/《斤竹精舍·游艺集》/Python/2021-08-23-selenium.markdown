@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "python selenium and chromedriver安装"
+title:      "python selenium+chromedriver安装及爬虫算例"
 subtitle:   ""
 date:       2021-08-24 23:29:00
 author:     "XiLock"
@@ -45,9 +45,11 @@ if __name__ == '__main__':
     main()
 ```
 
+### 爬虫知网算例
+写了一个爬知网文献的[case](https://molakirlee.github.io/attachment/python/get_CNKI_xilock.py)，但是XPATH变得比较频繁，用的话可能需要经常自己手动更新。顺便录了一个使用[实例](https://www.bilibili.com/video/BV1U44y1k7Yq/)
 
 ### 参考资料
 1. [selenium 安装与 chromedriver安装](https://www.cnblogs.com/lfri/p/10542797.html)
-
+1. [Python爬虫，批量获取知网文献信息](http://events.jianshu.io/p/56722a33ad07)
 
 ![](/img/wc-tail.GIF)
