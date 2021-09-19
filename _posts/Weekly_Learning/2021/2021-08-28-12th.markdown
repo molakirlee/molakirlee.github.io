@@ -18,15 +18,19 @@ tags:
 
 ### 言论
 1. To chime in with my own anecdotal opinion that is likely to anger some people... in my experience most developers do their best work after about 6-8 months of starting a job at a new company, and that comes to an end after about 24-36 months of working at the same company. After that the vast majority of people just stagnate, get complacent, the job stops being interesting to them and they move on.--[Kanar](https://news.ycombinator.com/item?id=28050106) 
-
+1. One of the best tips I have gotten from the internet is to never copy and paste code you have not written yourself. Even rewriting it verbatim makes you think about what it is you are actually copying.
+It's a pretty neat rule to have in mind.
 
 ### 有趣
 1. 皮克斯发家史，多亏乔布斯贵人相助。--[The Real Story of Pixar How a bad hardware company turned itself into a great movie studio](read://https_spectrum.ieee.org/?url=https%3A%2F%2Fspectrum.ieee.org%2Fthe-real-story-of-pixar)
 1. [CLAUDE SHANNON: TINKERER, PRANKSTER, AND FATHER OF INFORMATION THEORY](https://spectrum.ieee.org/claude-shannon-tinkerer-prankster-and-father-of-information-theory)：香农的采访，介绍了一些关于香浓的有趣事情。
 1. [11 Life Lessons From History’s Most Underrated Genius](https://forge.medium.com/10-000-hours-with-claude-shannon-12-lessons-on-life-and-learning-from-a-genius-e8b9297bee8f)
-
+1. [Richard Stallman and The History of Free Software and Open Source](https://www.cmpod.net/all-transcripts/history-open-source-free-software-text/)
 ### 观点
-
+###### [Difficult math is about recognizing patterns: lessons from Jeff Bezos](https://get21stnight.com/2021/08/09/difficult-math-is-about-recognizing-patterns-lessons-from-jeff-bezos/)
+Once you realize that advanced math is about pattern matching, it changes your perspective on how to learn math. You no longer have to worry about inventing new solutions all the time. You only have 2 questions to answer:
+1. How can I use the solutions that already exist?
+1. What are my triggers to know to use those solutions?
 
 ### 奇技淫巧
 
