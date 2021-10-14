@@ -36,5 +36,6 @@ tags:
 ###### Win10激活
 1. 参见[Windows 10 激活就只有这4种](https://www.dianshouit.com/thread-26.htm)
 
+###### 使用注意
 
 ![](/img/wc-tail.GIF)

@@ -20,7 +20,7 @@ tags:
 1. To chime in with my own anecdotal opinion that is likely to anger some people... in my experience most developers do their best work after about 6-8 months of starting a job at a new company, and that comes to an end after about 24-36 months of working at the same company. After that the vast majority of people just stagnate, get complacent, the job stops being interesting to them and they move on.--[Kanar](https://news.ycombinator.com/item?id=28050106) 
 1. One of the best tips I have gotten from the internet is to never copy and paste code you have not written yourself. Even rewriting it verbatim makes you think about what it is you are actually copying.
 It's a pretty neat rule to have in mind.
-
+1. 失败很少是一种永久状态。失败后，继续前进就可以了。失败只是旅程中的一站，不要让它成为你的目的地。--[The First Delta Force Trainee Class](https://historyofyesterday.com/the-first-delta-force-trainee-class-fc46a131fea2)
 ### 有趣
 1. 皮克斯发家史，多亏乔布斯贵人相助。--[The Real Story of Pixar How a bad hardware company turned itself into a great movie studio](read://https_spectrum.ieee.org/?url=https%3A%2F%2Fspectrum.ieee.org%2Fthe-real-story-of-pixar)
 1. [CLAUDE SHANNON: TINKERER, PRANKSTER, AND FATHER OF INFORMATION THEORY](https://spectrum.ieee.org/claude-shannon-tinkerer-prankster-and-father-of-information-theory)：香农的采访，介绍了一些关于香浓的有趣事情。
