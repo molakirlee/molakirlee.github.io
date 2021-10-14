@@ -87,6 +87,16 @@ $ git remote rename <原主机名> <新主机名>
 # git手动建立<当前分支>与<远程分支>的追踪关系：
 git branch --set-upstream-to origin/next
 ```
+
+如：系统重装后，想让原来的文件夹与仓库挂钩，可如下操作  
+```
+git remote add master https://github.com/molakirlee/molakirlee.github.io
+remove -v
+git pull
+git config --global user.email "molakirlee@sina.com"
+```
+然后`git push`时添加token.
+
 ### git fetch 远程分支取回
 因为fetch取回的代码对本地的开发代码没有影响，所以`git fetch`命令通常用来查看其他人的进程。在本地主机上读取远程分支的形式为"远程主机名/分支名"，如origin主机的master就要用`origin/master`读取。
 ```
