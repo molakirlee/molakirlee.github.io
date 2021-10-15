@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "自制软件的绿色便携版本"
+title:      "便携软件下载及自制"
 subtitle:   ""
 date:       2018-12-02 15:00:00
 author:     "XiLock"
@@ -13,11 +13,19 @@ tags:
     - 2018
 
 ---
-### 原理
+
+### 下载
+1. [难道直接安装软件不香么?我为什么还在用 portable apps绿色便携软件](https://zhuanlan.zhihu.com/p/158241303)
+
+
+
+###自制
+
+#### 原理
 
 先来了解一些绿色软件的工作原理：[链接](https://www.jianshu.com/p/1fcd663319a8)  
 
-### 方法
+#### 方法
 ###### 软件下载
 下载安装**Total Uninstall**软件: https://pan.baidu.com/s/1kVCG2az 密码: 3fbb，安装完成后，把CK文件夹里的程序复制粘贴覆盖你安装程序的文件夹里的主文件。
 ###### 分析已安装程序
