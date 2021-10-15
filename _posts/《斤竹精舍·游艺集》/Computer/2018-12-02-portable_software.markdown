@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "便携软件下载及自制"
+title:      "便携软件下载及自制 Portable Software"
 subtitle:   ""
 date:       2018-12-02 15:00:00
 author:     "XiLock"
@@ -16,7 +16,7 @@ tags:
 
 ### 下载
 1. [难道直接安装软件不香么?我为什么还在用 portable apps绿色便携软件](https://zhuanlan.zhihu.com/p/158241303)
-
+1. [https://portableappk.com/](https://portableappk.com/)
 
 
 ###自制
