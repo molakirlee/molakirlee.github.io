@@ -386,9 +386,25 @@ remote: Please see https://github.blog/2020-12-15-token-authentication-requireme
 
 ### 更新20211017
 `git push`时遇到问题：Failed to connect to github.com port 443:connection timed out  
-解决方法：取消代理
+解决步骤1：取消代理
 ```
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
+解决步骤2：修改 hosts 文件
+添加以下内容到hosts文件（C:\Windows\System32\drivers\etc\HOSTS）
+```
+# github push
+140.82.112.4 github.com 
+199.232.69.194 github.global.ssl.fastly.net
+185.199.108.153 assets-cdn.github.com
+185.199.109.153 assets-cdn.github.com
+185.199.110.153 assets-cdn.github.com
+185.199.111.153 assets-cdn.github.com
+```
+然后刷新dns：`ipconfig /flushdns`
+
+参考资料：
+1. [GitHub无法访问、443 Operation timed out的解决办法](https://juejin.cn/post/6844904193170341896)
+1. [Failed to connect to github.com port 443 Timed out](https://houbb.github.io/2021/03/06/github-access)
