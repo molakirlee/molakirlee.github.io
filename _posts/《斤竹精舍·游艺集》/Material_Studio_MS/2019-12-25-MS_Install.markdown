@@ -19,6 +19,11 @@ tags:
 [Materials Studio 2017破解版 (附安装教程)](http://www.ddooo.com/softdown/93763.htm#dltab)    
 有的电脑可能安装完某些模块不能运行，经测试有些win7不行，有的win8可以（再次测试后发现可能是因为处理器太旧或者太low不支持）。  
 
+###### Cannot find licensing library: ls_license_vs2008.dll 
+1. 问题描述：安装完打开时提示“Cannot find licensing library: ls_license_vs2008.dll  This Materials Studio product requires this licensing library to run.  This application cannot be run without it.”
+1. 问题解答：修复一下
+1. 参考资料：[出现Cannot find licensing library: ls_license_vs2008.dll问题的一种解决办法](http://bbs.keinsci.com/thread-10357-1-1.html)
+
 ###### Materials Studio无法选择原子和旋转图形
 1. 问题描述：
 1. 问题解答：tools-> options -> Graphics -> Disable hardware acceleration，勾选上Disable hardware acceleration就正常了。
