@@ -383,3 +383,12 @@ remote: Please see https://github.blog/2020-12-15-token-authentication-requireme
 参考资料：
 1.[GitHub不再支持密码验证解决方案：SSH免密与Token登录配置](https://www.cnblogs.com/zhoulujun/p/15141608.html) 
 1.[Support for password authentication was removed. Please use a personal access token instead](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to) 
+
+### 更新20211017
+`git push`时遇到问题：Failed to connect to github.com port 443:connection timed out  
+解决方法：取消代理
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
