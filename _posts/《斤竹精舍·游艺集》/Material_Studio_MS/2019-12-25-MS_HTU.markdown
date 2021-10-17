@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Material Studio 安装及模块介绍"
+title:      "Material Studio 模块介绍及入门"
 subtitle:   ""
 date:       2019-12-25 18:04:00
 author:     "XiLock"
@@ -14,10 +14,6 @@ tags:
 
 ---
 
-### 下载地址
-
-[Materials Studio 2017破解版 (附安装教程)](http://www.ddooo.com/softdown/93763.htm#dltab)    
-有的电脑可能安装完某些模块不能运行，经测试有些win7不行，有的win8可以（再次测试后发现可能是因为处理器太旧或者太low不支持）。  
 
 ### 教程
 ###### 建模
