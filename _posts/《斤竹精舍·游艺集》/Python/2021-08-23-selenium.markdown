@@ -30,7 +30,7 @@ conda install selenium
 ###### 安装chromedriver
 chromedriver的版本一定要与Chrome的版本一致，不然就不起作用。  
 1. 有两个下载地址：1、 http://chromedriver.storage.googleapis.com/index.html；2、 https://npm.taobao.org/mirrors/chromedriver/
-1. 下载完后解压，找到chromedriver.exe复制到chrome的安装目录，将文件位置（C:\Program Files (x86)\Google\Chrome\Application\）添加到环境变量PATH里
+1. 下载完后解压，找到chromedriver.exe复制到chrome的安装目录（C:\Program Files (x86)\Google\Chrome\Application\），将文件位置（C:\Program Files (x86)\Google\Chrome\Application\）添加到环境变量PATH里
 1. 在cmd里输入`chromedriver`检查是否安装成功，或者输入下面代码看是否自动弹出一个浏览器：
 
 ```
