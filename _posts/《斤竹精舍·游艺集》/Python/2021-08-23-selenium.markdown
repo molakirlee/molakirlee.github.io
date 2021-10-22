@@ -50,7 +50,7 @@ if __name__ == '__main__':
 ### 爬虫知网算例
 写了几个爬知网文献的[case](https://github.com/molakirlee/python_selenium)，但是XPATH变得比较频繁，用的话可能需要经常自己手动更新。顺便录了一个[使用selenium爬知网实例](https://www.bilibili.com/video/BV1U44y1k7Yq/)。
 
-注：xpath可用edge的插件“SelectorsHub - XPath Plugin”获取。
+注：xpath可用edge的插件“SelectorsHub - XPath Plugin”或“Xpath finder”获取。
 
 ### 参考资料
 1. [selenium 安装与 chromedriver安装](https://www.cnblogs.com/lfri/p/10542797.html)
