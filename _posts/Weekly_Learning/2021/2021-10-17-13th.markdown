@@ -21,7 +21,7 @@ tags:
 1. A complex system that works is invariably found to have evolved from a simple system that worked. The inverse proposition also appears to be true: a complex system designed from scratch never works and cannot be made to work. You have to start over, beginning with a simple system.--[ Gall’s Law and How I Ignored It](https://www.ivanmontilla.com/blog/galls-law-and-how-i-ignored-it)
 1. 大师并不是一开始就是大师。你把他们早期第一阶段的作品找出来看看，就会了解他们取得了多大的进步。--David Perell
 1. 每秒是不相等的。早上精力充沛的一个小时工作，相当于晚上疲倦时三个小时的工作。-- David Perell
-
+1. Reports that say that something hasn't happened are always interesting to me, because as we know, there are known knowns; there are things we know we know. We also know there are known unknowns; that is to say we know there are some things we do not know. But there are also unknown unknowns—the ones we don't know we don't know. And if one looks throughout the history of our country and other free countries, it is the latter category that tends to be the difficult ones.--Donald Rumsfeld 
 ### 有趣
 1. [Excerpt: How Google bought Android—according to folks in the room](https://arstechnica.com/information-technology/2021/08/excerpt-the-history-of-android-as-written-by-a-longtime-android-developer/)
 1. [DeepFaceLive](https://github.com/iperov/DeepFaceLive):在视频直播和视频会议里面实时换脸
