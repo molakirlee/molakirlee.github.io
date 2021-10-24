@@ -15,6 +15,6 @@ tags:
 ---
 
 ### 人体骨骼
-1. [人体骨骼](molakirlee.github.io/attachment/!collect/skeleton.html)
+1. [人体骨骼](https://molakirlee.github.io/attachment/!collect/skeleton.html)
 
 ![](/img/wc-tail.GIF)
