@@ -47,7 +47,7 @@ tags:
 1. 使用WTG/PE访问系统盘。
 
 ###### 其他
-1. 禁用休眠功能
+1. 禁用休眠功能，参考[Microsoft-Windows_To_Go常见问题](https://docs.microsoft.com/zh-cn/windows/deployment/planning/windows-to-go-frequently-asked-questions)
 1. 在硬盘系统里访问WTG系统一般不会破坏WTG的系统（朋友一块机械盘装好几个WTG和PE且常年互访都没出过问题），只要屏蔽快速启动（WTG一般直接屏蔽），除非PE乱删文件，因为要删WTG文件是要有权限的。
 1. WTG不能升级，如果想升级需要重新安装。
 1. 完全关闭后才能拔下移动硬盘。
