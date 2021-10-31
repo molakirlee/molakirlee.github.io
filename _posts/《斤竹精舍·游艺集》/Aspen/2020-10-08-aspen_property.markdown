@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "aspen 杂记"
+title:      "aspen 物性·估算·分析"
 subtitle:   ""
 date:       2020-01-12 09:50:00
 author:     "XiLock"
@@ -15,16 +15,6 @@ tags:
 
 ---
 
-
-##### 前言
-1. Aspen puls很大程度上是为稳态过程计算而非动态过程计算所设计的。
-1. 绝热节流膨胀（Joule-Thomson定律，Adiabatic flash）。
-1. 模拟前在Setup里设置标题、温度、压力的单位，这是好习惯。
-1. 一致性检验只可以对PTxy数据进行，TPz、PTx不行。
-1. 高压状态下的汽液平衡数据不做一致性检验，因为一致性检验需要假设汽相为理想气体。
-1. 思考为什么无限稀释活度系数随温度上升而降低。
-1. Le Chatelier and Braun原理。
-1. 固相在component里的type为solid而非默认的conventional。
 
 ##### 物性估算
 1. [物性估算在 ASPEN PLUS软件中的应用](https://molakirlee.github.io/attachment/aspen/aspen_property_estimation.PDF)
@@ -60,65 +50,6 @@ tags:
 1. 除了`pure`中的默认的热力学性质，纯组分物性分析时（汽液平衡线），通过`Property Sets --> New`可以添加性质，并通过`PT-Envelope`分析（即：`Property sets` ==> 在`Property sets`的`Property`里选性质，在`Qualifier`里输入要显示的相态 ==> `PT-Envelope`里`system-->Tabulate`里选定物性集 ==> `Run`。非汽液平衡线，如某些性质如何随压力变化，则可通过`GENERIC`而非`PE-Envelope`。注意在`Generate`选`Point(s) without flash`，在`Variable`标签下设定变量，`Tabulate`里选定物性集，`Run`。
 1. Property Analysis(Analysis --> Binary)计算VLE的优点是便于用来生成P-xy、T-xy和描述混合物的不同组分与吉布斯自由能之间的函数关系的图表。缺点：只能用于双组分；只能用于固定T或P下的计算，不能用于仅知道最终压力和焓值条件下的计算，如焦-汤节流膨胀。
 1. 想在结果中显示活度系数等，可通过`Property Sets`实现，即`Setup --> Report Options--> Stream --> Property Sets --> New`。跟在`Properties`主菜单里找到的一样。
-
-
-##### 换热器
-1. Heater-单流股换热器
-1. HeatX-双流股换热器
-1. MHeatX-多流股换热器
-1. HXFlux-模拟穿过换热表面的对流或辐射热传递
-
-###### HeatX模型
-Calculation mode和Model Fidelity决定了计算方法。
-
-Model Fidelity:如Shortcut, Shell&tube, Kettle Reboiler, Thermosyphon, Air Cooled, Plate等；
-
-Calculation mode:
-Shortcut（简洁）：指定其中一个流股的出口条件  
-1. Design（设计）：利用固定的传热系数计算所需换热面积
-1. Rating（校核）：确定指定的换热面积是否超过/低于必要换热面积
-1. Simulation（模拟）：基于给定的换热面积或传热系数确定出口条件
-1. Maximum fouling: “达到指定热负荷的换热器能承受的最大污垢热阻是多少?
-
-Rigorous（严格）：利用 EDR 程序设计一个新的换热器或对现有换热器进行校核  
-
-注：
-1. 公用工程流股可以代替工艺流股放置于冷侧或者热侧
-1. 对于纯水系统，请选择蒸气表物性方法，如 STEAMNBS。
-
-###### MHeatX
-MHeatX 可用于多个热流股和冷流股之间的热传递（如液化天然气工艺中的换热器）
-1. 可执行详尽、严格的内部区域分析以确定夹点
-1. MHeatX 利用多个 Heater 模块和热流股来加强工艺流程收敛
-1. 双流股换热器亦可利用 MHeatX 建模（不考虑换热器几何结构）
-
-###### 换热器收敛
-1. 如果您收到温度交叉信息，请检查流股是否与正确端口相连（热流股与热端口相连，冷流股与冷端口相连）
-1. 先以 Shortcut 模式运行 HeatX 模型，以便在切换至严格模式之前排除流率和物性错误
-1. 如果闪蒸计算失败，切换至校核计算并规定出口温度，计算将更加稳定
-1. 使用区域分析来诊断问题：转到 Options（选项）| Report（报告），并勾选“Include Detailed Zone Analysis profile in report”
-1. 查看模块的文本报告，以获取完整的输入与结果摘要
-1. 让热流股和冷流股通过 MHeatX 模块，并绘制组分加热／冷却曲线，以检查夹点和温度交叉情况
-1. 如果有可能存在两种液相，将有效相选择汽-液-液相
-
-##### 闪蒸
-1. 利用flash模块计算泡点压力和组成时，气相分率设定为很小的一个值，比如0.0001；计算露点压力和组成时，气相分率设定为接近1的值，比如0.9999.做绝热闪蒸时，如一个膨胀，热负荷设为0并指定压力。
-1. 绝热闪蒸算出的汽液组分未必在共沸处，这还跟进料组成有关。（想一下T-xy图）
-
-##### 塔
-1. 设计中考虑每块塔板有0.5 psi（或更小，1 psi=6.89 kPa）的压降更符合实际情况。
-1. 再沸器、分凝器各算作一个平衡级；全凝器不算平衡级，但在Aspen中被视为一个平衡级。
-1. 离开某块塔板的汽液相是呈热力学平衡的，但与下降进入该塔板的液相、上升入该塔板的汽相是不平衡的。
-1. 引入板效率因子是为了表征实际塔板上不可能达到完全的汽液平衡。
-1. 由经典热力学可知，精馏无法得到纯组分，因为塔顶/塔底的产生为单一组分时deltaG无穷大。
-1. 精馏塔的校核模式相对设计模式计算较为简单且易于收敛，但是需要大量的人工干预来调整塔的参数以满足塔顶塔底的组成指标。
-1. 简捷计算中，每块板上的组成是在恒定相对挥发度和恒摩尔流的假定前提下，经物料衡算得出的。
-1. HCl、NH3吸收电离的过程用电解质模型，并将HCl、NH3设为Henry组分。因为此二者是对应于水溶液中的HCl和NH3分子，不算离子！换言之，HCl和NH3是通过溶解进入液相而非通过冷凝。回顾一下Henry组分的定义（在操作条件下表现为不凝气体的组分，其在液相中的溶解度用亨利定律描述），所以是否定义为Henry组分的关键不在于其是否是进入液相，而是其本身在操作条件下是否冷凝！（醋酸就不能设为Henry组分，因为其挥发度不够大，无法出现在汽相中。）
-
-
-##### 反应器
-1. RStoic和RYield依据反应进度或收率只做质量衡算；RGibbs能够高效计算多相反应系统内的化学平衡；REquil也可用来计算化学平衡，但只适用于单相体系。
-
 
 
 ![](/img/wc-tail.GIF)
