@@ -1,0 +1,51 @@
+---
+layout:     post
+title:      "2021-每周补脑14th"
+subtitle:   ""
+date:       2021-11-06 11:29:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+
+### 言论
+1. 我在大学里得到的最好建议是："找到最好的老师，上他们所有的课，不管是什么课。"这个建议也适用于互联网。-- David Perell
+1. 当我 80 岁时，我不会后悔尝试过的事情，比如我尝试了互联网创业，就算失败了，我也不后悔。我后悔的是那些我想尝试却没做的事情，它们每天困扰着我，如果我当时尝试了，我的人生会怎样。--[Regret Minimization](http://www.samvitjain.com/blog/regret/)
+
+### 有趣
+1. [全是干货！90岁台积电创始人1.5小时演讲，讲透60年创业和管理心得](https://zhidx.com/p/301575.html)
+1. [聊聊2020年的国家科学技术大奖](https://zhuanlan.zhihu.com/p/429247683)
+1. [Slow Electricity: The Return of DC Power?](https://www.lowtechmagazine.com/2016/04/slow-electricity-the-return-of-low-voltage-dc-power.html)
+1. []()
+
+
+### 观点
+###### [Hire for slope, not Y-Intercept](https://matt-rickard.com/hire-slope-not-intercept/)
+即使一条线的起点远低于另一条线，只要它的斜率更大，终究会超越前一条线。
+
+你可能听过这样的建议：做一个终身学习者，每天学一点，不断进步。很少有人能够遵循这条建议，因为在开始后的很长时间内，根本看不到有什么效果。时间周期越短，直线看起来越平坦，当你远远落后时，这是非常令人沮丧的。
+
+但是，只要坚持下去，保持向上的斜率，长期以后，你将远远地超越原来的人生道路。
+
+记住，短期总是比我们想象的要长，各种打击足以让你灰心丧气，但是 长期总是比我们想象的要短。
+
+同一个道理，在招聘时，有潜力但经验不足的候选人，长期来看，比经验丰富但潜力不足的候选人，对公司更有帮助。
+
+总之，当事情没有达到你的目标时，不要放弃，每一个伟大的事业都始于一个小小的念头。学习一项新技能，每天进步一点点，短时间内，一切看起来都是老样子，但是随着时间的推移，改进会持续累积起来，进步会越来越明显。
+
+
+### 奇技淫巧
+1. VS Code正式发布官方的[浏览器版](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev)，从此可以在浏览器里面使用这个编辑器。它与github.dev很接近，唯一的区别是还支持其他的代码托管服务。
+
+### 荐书
+
+
+![](/img/wc-tail.GIF)

@@ -85,5 +85,6 @@ tags:
 ### 其他
 1. [TabFloater](https://www.tabfloater.io/)
 1. [wifi账号密码生成二维码](https://wificard.io/)
+1. [互动教室](https://flat.whiteboard.agora.io/)
 
 ![](/img/wc-tail.GIF)
