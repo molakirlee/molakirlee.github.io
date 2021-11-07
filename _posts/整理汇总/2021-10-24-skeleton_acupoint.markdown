@@ -19,7 +19,7 @@ tags:
 
 ### 人体经络
 1. [人体经络](https://molakirlee.github.io/attachment/!collect/acupoint.html)
-1. [人体经络2](https://molakirlee.github.io/attachment/!collect/acupoint2.html)
+1. [人体经络2](https://www.163.com/dy/article/F77SITLE05382VS5.html)
 
 
 ![](/img/wc-tail.GIF)
