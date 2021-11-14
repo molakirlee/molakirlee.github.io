@@ -18,6 +18,7 @@ tags:
 1. 从[https://github.com/grimme-lab/xtb/releases](https://github.com/grimme-lab/xtb/releases)上下载".tar.xz"格式文件并解压到xtb文件夹中得到bin、lib64等文件夹.
 1. `tar -xvf xxx.tar.xz`解压文件
 1. 添加环境变量（见下，其中N是并行计算时使用的CPU核心数，不要超过CPU的物理核心数，sob老师测试过说12核时最优），
+1. `export OMP_STACKSIZE=1000m`中1G对应1000个原子，超出了报错`segmentation fault `
 
 ```
 # xtb
@@ -28,6 +29,7 @@ export MKL_NUM_THREADS=12
 export OMP_STACKSIZE=1000m
 ulimit -s unlimited
 ```
+
 
 ### 使用
 输入文件为xyz格式，控制指令以通过xtb -h查看，可以直接用命令行也可以用控制文件（见sob文），如果用命令行则常见如下：  
