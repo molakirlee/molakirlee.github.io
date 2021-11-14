@@ -31,20 +31,20 @@ ulimit -s unlimited
 
 ### 使用
 输入文件为xyz格式，控制指令以通过xtb -h查看，可以直接用命令行也可以用控制文件（见sob文），如果用命令行则常见如下：  
-1. -c或--chrg：设定体系净电荷
-1. -u或--uhf：设定alpha电子数减beta电子数（相当于自旋多重度减1）
-1. -g或--gbsa：使用隐式溶剂模型。目前支持的溶剂有toluene、thf、methanol、h2o、ether、chcl3、acetonitrile、acetone、cs2
-1. --molden：计算结束后产生molden.input，这是Molden输入文件
-1. --gfn：选择GFN-xTB理论的版本，可以为0、1、2。如--gfn 0就代表GFN0-xTB。GFN2-xTB物理上最严格，多数情况精度最佳，但有时候SCF收敛困难；GFN1-xTB不如GFN2-xTB严格，平均精度稍逊一点，但SCF收敛容易（因此明显更适合SCF难收敛的金属团簇等情况），耗时也比GFN2-xTB低一些。GFN0-xTB精度最烂但速度也最快，非常适合快速简单粗暴地搞巨大体系，但对于找过渡态的目的就太糙了而不建议用
+1. `-c`或`--chrg`：设定体系净电荷
+1. `-u`或`--uhf`：设定alpha电子数减beta电子数（相当于自旋多重度减1）
+1. `-g`或`--gbsa`：使用隐式溶剂模型。目前支持的溶剂有toluene、thf、methanol、h2o、ether、chcl3、acetonitrile、acetone、cs2
+1. `--molden`：计算结束后产生molden.input，这是Molden输入文件
+1. `--gfn`：选择GFN-xTB理论的版本，可以为0、1、2。如--gfn 0就代表GFN0-xTB。GFN2-xTB物理上最严格，多数情况精度最佳，但有时候SCF收敛困难；GFN1-xTB不如GFN2-xTB严格，平均精度稍逊一点，但SCF收敛容易（因此明显更适合SCF难收敛的金属团簇等情况），耗时也比GFN2-xTB低一些。GFN0-xTB精度最烂但速度也最快，非常适合快速简单粗暴地搞巨大体系，但对于找过渡态的目的就太糙了而不建议用
 
 常用任务类型：  
-1. --sp：计算单点（此为默认，可不写）
-1. --grad：计算梯度
-1. --opt [级别]：几何优化。级别默认为normal，更佳的是tight、verytight、extreme
-1. --hess：计算数值Hessian并做振动分析
-1. --ohess [级别]：优化后自动计算Hessian并做振动分析
-1. --md：基于当前结构做分子动力学（目前xtb还支持metadynamics，详见手册）
-1. --omd：优化后做分子动力学
+1. `--sp`：计算单点（此为默认，可不写）
+1. `--grad`：计算梯度
+1. `--opt [级别]`：几何优化。级别默认为normal，更佳的是tight、verytight、extreme
+1. `--hess`：计算数值Hessian并做振动分析
+1. `--ohess [级别]`：优化后自动计算Hessian并做振动分析
+1. `--md`：基于当前结构做分子动力学（目前xtb还支持metadynamics，详见手册）
+1. `--omd'：优化后做分子动力学
 
 如：
 1. 对yoshiko.xyz做真空中的单点计算，电荷为1，自旋多重度为2（alpha比beta电子多1个）：xtb yoshiko.xyz --chrg 1 --uhf 1 -sp
