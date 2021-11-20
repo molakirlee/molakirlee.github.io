@@ -125,11 +125,13 @@ NSW 控制几何结构优化的步数。也就是VASP进行多少离子步。
 1. 不知道什么时候收敛，初始结构很差，或者设置了很严格的收敛标准，那么你就要增大一下NSW的取值了，比如NSW=500或者更大。
 
 ###### POTIM = 0.05   
+```
 # ----------------------------
 # sets the time step (MD) or step width scaling (ionic relaxations)
 # POTIM = none, must be set if IBRION= 0 (MD); = 0.5 if IBRION= 1,2,3 (ionic relaxation) and 5 (up to VASP.4.6); = 0.015 for IBRION=5 (up from VASP.5.1).
 # 一般0.1就很不错
 # ----------------------------
+```
 
 ###### 示例
 ```
