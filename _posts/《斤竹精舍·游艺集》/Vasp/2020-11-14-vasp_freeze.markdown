@@ -18,6 +18,6 @@ tags:
 
 [武汉理工大学赵焱课题组开发脚本 MS建模一键获取VASP输入文件POSCAR](http://www.cailiaoniu.com/159458.html)
 
-[xsd2pos.pl]((https://molakirlee.github.io/attachment/vasp/xsd2pos.pl)
+[xsd2pos.pl](https://molakirlee.github.io/attachment/vasp/xsd2pos.pl)
 
 ![](/img/wc-tail.GIF)

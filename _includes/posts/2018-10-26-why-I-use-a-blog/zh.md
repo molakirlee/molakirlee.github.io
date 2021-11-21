@@ -405,6 +405,12 @@ git config --global --unset https.proxy
 ```
 然后刷新dns：`ipconfig /flushdns`
 
+地址查询：
+1. [github.com ](https://github.com.ipaddress.com/)
+1. [github.global.ssl.fastly.net](https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo)
+1. [assets-cdn.github.com](https://github.com.ipaddress.com/assets-cdn.github.com)
+
+
 参考资料：
 1. [GitHub无法访问、443 Operation timed out的解决办法](https://juejin.cn/post/6844904193170341896)
 1. [Failed to connect to github.com port 443 Timed out](https://houbb.github.io/2021/03/06/github-access)
