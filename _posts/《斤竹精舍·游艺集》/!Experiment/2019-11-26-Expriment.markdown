@@ -81,5 +81,7 @@ tags:
 1. 络合常数可以与结合能（用ITC测）互相换算，低pH下络合常数通常很低，常pH下络合常数则较高。
 1. pI小于pH带负电，如PBS中BSA，pI大于pH带正电，如PBS中lysozyme。
 
+### 有用的链接
+1. [仪器表征基础知识汇总帖](https://mp.weixin.qq.com/s?__biz=MzUxMDMzODg2Ng==&mid=2247522643&idx=2&sn=89cc5b31ce149b6f367bdc0134ca86fe&chksm=f906ab0ece7122189b5a5bc009ed71c69919f1e197713a5d95d7178734b68488dec5de639582&scene=21#wechat_redirect)
 
 ![](/img/wc-tail.GIF)
