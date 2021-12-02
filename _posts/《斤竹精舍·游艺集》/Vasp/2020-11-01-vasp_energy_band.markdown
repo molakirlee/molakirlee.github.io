@@ -17,4 +17,10 @@ tags:
 
 由于在能带计算时k点是一些在倒空间高对称线上的点，不能进行自洽计算。参考网址：https://http://blog.sciencenet.cn/blog-567091-675253.html/ 也就是计算能带的时候，自洽计算必须单独一步，故**能带计算必须分两步**！！
 
+
+### 参考资料
+1. [VASPKIT能带图计算](http://blog.wangruixing.cn/2019/07/11/band2/)
+1. [能带结构图、态密度图的基本分析方法](https://mp.weixin.qq.com/s/VoDBASzV4-J706pZJZv2Ww)
+1. [p4vasp导出的能带并有效质量](http://www.yidianzixun.com/article/0MDyRXuy)
+
 ![](/img/wc-tail.GIF)

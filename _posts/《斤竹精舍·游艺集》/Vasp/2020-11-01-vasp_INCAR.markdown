@@ -45,7 +45,7 @@ SIGMA = 0.01
 
 ### 一般附加
 ```
-ISTART = 0   # Default: ISTART = 1 if a WAVECAR file exists,  = 0 else; 
+ISTART = 0   # Default: ISTART = 1 read WAVECAR if a WAVECAR file exists,  = 0 else; 
 # ----------------------------
 # 1: the usual setting for convergence tests with respect to the cut-off energy and for all jobs where the volume/cell-shape varies (e.g. to calculate binding energy curves looping over a set of volumes).
 # 2: Continuation job， "restart with constant basis set". Orbitals are read from the WAVECAR file.
@@ -139,6 +139,13 @@ IBRION = 2
 NSW = 500
 POTIM = 0.05   
 ISIF= 3   # 2 default
+```
+
+结构优化完算单点时要修改的地方：
+```
+NSW    = 0    #  优化离子步上限
+ISIF   = 2    #  2:不优化晶胞
+IBRION = -1   # -1:不优化离子步
 ```
 
 ### 精度控制

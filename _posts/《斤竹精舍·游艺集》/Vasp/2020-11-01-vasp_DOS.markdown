@@ -77,6 +77,9 @@ LCHARG  =   .FALSE.
 
 ### 参考资料
 1. [DOS 计算(一)](https://www.bigbrosci.com/2018/02/06/ex37/)
-
+1. [DOS计算方法及部分参数分析](https://blog.csdn.net/qq_27658115/article/details/105129072)
+1. [Physics:VASP计算能带和态密度](https://yh-phys.github.io/2019/10/04/vasp-band-structure-dos/)
+1. []()
+1. []()
 
 ![](/img/wc-tail.GIF)

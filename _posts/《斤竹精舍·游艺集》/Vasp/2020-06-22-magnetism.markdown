@@ -14,9 +14,6 @@ tags:
 
 
 ---
-参考资料：
-1. [通俗的解释一下铁磁性和反铁磁性](https://www.zhihu.com/question/337897711/answer/769724433)
-1. [如何用VASP计算铁磁、反铁磁和顺磁](http://blog.sciencenet.cn/blog-72871-255382.html)
 
 ![](/img/in-post/《斤竹精舍-游艺集》/2020-06-22-Vasp_magnatism/20200622_magnatism.jpg)
 1. 顺磁：材料对磁场响应很弱的磁性
@@ -34,5 +31,13 @@ tags:
 亚铁磁，也意味要进行spin-polarized的计算，ISPIN=2，与反铁磁的计算类似，不同的是原子正负磁矩的绝对值不是样大。非共线的磁性，那需采用专门的non-collinear的来进行计算，除了要设置ISPIN，MAGMOM的设置还需要指定每个原子在x,y,z方向上的大小。这种情况会复杂一些。
 举个例子来说，对于Mn-Cu(001)c(2x2)这种体系，原胞里面有2个Mn原子，那么你直接让两个Mn原子的MAGMOM的绝对值一样，符号相反就可以了，再加上ISPIN=2。这样就可以实现进行反铁磁的计算了。
 
+
+### 参考资料
+1. [通俗的解释一下铁磁性和反铁磁性](https://www.zhihu.com/question/337897711/answer/769724433)
+1. [如何用VASP计算铁磁、反铁磁和顺磁](http://blog.sciencenet.cn/blog-72871-255382.html)
+1. [磁性设置再谈：VASP自旋轨道耦合-磁性计算之百家说法](https://blog.sciencenet.cn/blog-567091-885966.html)
+1. [求助VASP表面结构优化自旋极化ISPIN及MAGMOM设置问题](http://bbs.keinsci.com/thread-22387-1-1.html)
+1. [VASP计算磁性体系](https://www.bilibili.com/read/cv13271993)
+1. []()
 
 ![](/img/wc-tail.GIF)

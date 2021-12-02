@@ -110,6 +110,6 @@ cat ~/pot/Al/POTCAR ~/pot/C/POTCAR ~/pot/H/POTCAR >POTCAR
 1. [LVASPTHW](https://www.bigbrosci.com/categories/)
 1. [官网推荐选的赝势的选取规则：粗体](https://cms.mpi.univie.ac.at/vasp/vasp/Recommended_PAW_potentials_DFT_calculations_using_vasp_5_2.html)
 1. [Bulk的单点计算(Fe 单胞): gama点个数选择](https://www.bigbrosci.com/2018/02/01/ex32/)
-
+1. [VASP输入文件总结](https://cndaqiang.github.io/2018/01/21/vasp-input/)
 
 ![](/img/wc-tail.GIF)

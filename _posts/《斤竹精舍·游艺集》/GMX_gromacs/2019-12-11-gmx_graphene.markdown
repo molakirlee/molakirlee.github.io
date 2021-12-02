@@ -32,4 +32,6 @@ tags:
 1. 若freeze石墨烯则用NVT，若允许石墨烯运动则用NPT。
 
 
+1. 若报错提示：`Can not find forcefield for atom Si-39 with 0 bonds`之类的报错，一般都是n2t文件的问题，检查距离是不是对的，单位（nm）是不是对的。
+
 ![](/img/wc-tail.GIF)

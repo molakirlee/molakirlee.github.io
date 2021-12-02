@@ -16,7 +16,7 @@ tags:
  
 ### 常用指令
 1. 任务管理系统使用的是slurm，差别就是把slurm命令中的s替换成yh，得到 yhrun、yhbatch、yhqueue 等一系列命令。
-1. 查看节点状态：`yhi`
+1. 查看节点状态：`yhi`,`yhinfo`,`sinfo`
 1. 提交命令：`yhbatch`，具体使用方法参见slurm文件； 
 1. 已用机时：`time`；
 1. 查看正在运行的序列：`yhq`；
