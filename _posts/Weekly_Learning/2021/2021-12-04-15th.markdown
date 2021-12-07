@@ -1,0 +1,44 @@
+---
+layout:     post
+title:      "2021-每周补脑14th"
+subtitle:   ""
+date:       2021-11-06 11:29:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2021
+
+
+---
+
+### 科研
+
+### 言论
+1. 经常有人说："学习 xx 语言会让你成为更好的程序员。" 我认为，这种说法有些误导。学习新的语言确实很有趣，而且非常有用，但是真正让我更擅长编程的是做大量的编程练习，尤其是那些挑战能力极限的问题。--[《Things unlearned》](https://www.scattered-thoughts.net/writing/things-unlearned/)
+1. 节省资源的技术，只会带来资源使用量的增加。--杰文斯悖论。
+1. I often think about the “Read what you love until you love to read” comment from @naval, and this is a good generalization. My experience has been that it is easier to educate a Do-er than to motivate the educated; you have to believe you can Do before you embark on an effort.--John Carmack (twitter)
+1. 如果你收到我的邮件，只允许三种操作，否则就要立即辞职。第一种，回邮给我，解释为什么我说错了；第二种，如果有歧义，要求我进一步澄清；第三种，按照我说的去做。-- 马斯克今年10月发给所有特斯拉经理的内部邮件
+1. 美国人喜欢轻资产的高科技业，互联网巨头 FAANG 都是轻资产重设计的模式，凡是要盖厂房搞制造就外包，让亚洲人穷忙又赚不了太多的钱，这才是美国人想要的产业模式。-- Mobile01 读者
+1. Get your facts first, then you can distort them as you please.
+
+### 有趣
+1. [Awesome Math:A curated list of awesome mathematics resources](https://github.com/rossant/awesome-math)
+
+
+### 观点
+
+
+
+### 奇技淫巧
+1. [人物模型](https://setpose.com/)
+1. [别人的电脑桌面](https://deskto.ps/)
+1. [深度学习课程](https://arthurdouillard.com/deepcourse/)
+1. [下载图片网站](https://admcpr.com/where-to-find-royalty-free-images/)
+
+### 荐书
+
+
+![](/img/wc-tail.GIF)

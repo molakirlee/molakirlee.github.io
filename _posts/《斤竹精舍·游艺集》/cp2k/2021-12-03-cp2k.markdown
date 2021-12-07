@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "CP2K 大体系"
+subtitle:   ""
+date:       2021-12-03 17:57:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2021
+
+---
+
+800个原子如果是指晶胞的化(包含显式水，真空层等)的化，无论VASP，Dmol3或是扣出团簇用orca(团簇也至少是500个原子以上吧)，都应该是没机会的。估计用cp2k里的一些黑科技才有点机会。  
+量化范畴里，800原子优化问题，几乎只能半经验或者GFN-xTB，如果当周期性体系算，CP2K里开OT用纯泛函结合DZVP档次的基组优化800个原子在你的计算条件下还是能搞的
+
+
+### 参考资料
+1. [关于orca的几个简单的问题](http://bbs.keinsci.com/thread-21650-1-1.html)
+
+
+![](/img/wc-tail.GIF)

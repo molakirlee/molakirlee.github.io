@@ -48,6 +48,7 @@ zerotier-cli join 网络ID
 1. [linux 安装zerotier](https://yfcn.github.io/posts/dce2de1b/)
 1. [ZeroTier One 内网穿透、组建虚拟局域网](https://blog.csdn.net/u010953692/article/details/78739509)
 1. [内网穿透神器 ZeroTier 使用教程](https://www.hi-linux.com/posts/33914.html)
+1. [无公网IP搞定群晖+ZEROTIER ONE实现内网穿透](https://post.m.smzdm.com/p/741270/)
 
 ### [inlets](https://github.com/inlets/inlets)
 一个反向代理服务器，可以将内网的服务映射到公网。（xilock未测试）

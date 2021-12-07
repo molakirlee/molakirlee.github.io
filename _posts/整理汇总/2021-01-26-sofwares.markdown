@@ -70,6 +70,7 @@ tags:
 1. [背景音乐](https://lofimusic.app/chilledcow)
 1. [图片放大不失真](https://ojoy.zaps.dev/)
 1. [在线视频剪辑](https://mastershot.app/)
+1. [在线视频剪辑2](https://vididoo.vercel.app/)
 1. video sou ver(PC影视资源搜索工具) v2.0免费版
 
 ### 视频下载
