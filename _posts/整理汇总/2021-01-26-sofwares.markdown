@@ -27,6 +27,7 @@ tags:
 1. [PDF处理](https://pdfreal.com/)
 1. [onlyoffice](https://www.onlyoffice.com/zh/home-use.aspx)
 1. [doodle投票](https://doodle.com/en/)
+1. [Deskreen:同局域网投屏]()
 
 ###### 文字识别
 1. [雨梦OCR文字提取](https://blog.csdn.net/bowenqiu/article/details/82149392)

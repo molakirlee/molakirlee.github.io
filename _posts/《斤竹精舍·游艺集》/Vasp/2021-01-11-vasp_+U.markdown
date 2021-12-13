@@ -28,7 +28,7 @@ LDA＋U核心思想是：首先将研究体系的轨道分隔成两个子体系�
 1. [vasp中用PBE算含有d和f电子的原子必须要加U吗？](http://bbs.keinsci.com/thread-11966-1-1.html)
 1. [在VASP上，如何用DFT+U算DOS，求INCAR如何写？](http://muchong.com/html/201510/9552932.html)
 1. [DFT+U相关问题](http://bbs.keinsci.com/thread-12476-1-1.html)
-1. []()
+1. [LDA+U](https://blog.sciencenet.cn/blog-671981-718060.html)
 1. []()
 
 

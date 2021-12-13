@@ -19,8 +19,15 @@ tags:
 
 
 ### 参考资料
+###### energy band
 1. [VASPKIT能带图计算](http://blog.wangruixing.cn/2019/07/11/band2/)
 1. [能带结构图、态密度图的基本分析方法](https://mp.weixin.qq.com/s/VoDBASzV4-J706pZJZv2Ww)
 1. [p4vasp导出的能带并有效质量](http://www.yidianzixun.com/article/0MDyRXuy)
+
+###### hse
+1. [VASP计算笔记-HSE能带计算](https://zhuanlan.zhihu.com/p/194320218)
+1. [HSE06计算DOS和能带](https://www.misaraty.com/792)
+1. [HSE计算能带](https://blog.sciencenet.cn/blog-671981-634791.html)
+1. [Vaspkit做杂化泛函能带计算方法](http://blog.wangruixing.cn/2019/05/22/vaspkit-hse-band/)
 
 ![](/img/wc-tail.GIF)

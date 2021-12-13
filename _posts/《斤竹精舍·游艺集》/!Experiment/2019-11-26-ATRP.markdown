@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "ATRP"
+subtitle:   ""
+date:       2019-11-26 10:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Experiment
+    - 2019
+
+
+---
+
+### pSBMA
+1. Fabric-BiBB was dispersed in the mixture of water (30 mL) and methanol (30 mL) by sonication. 
+1. After the addition of bpy (122.7 mg) and SBMA monomer (1g) into the suspension, the solution was degassed for three time through the typical freeze-pump-thaw process. 
+1. Then, CuBr (21.6 mg) was added into the above solution, and the whole system was degassed another three times. 
+1. The reaction was carried out at 60 C for 24 h. 
+1. After the ATRP reaction for the predetermined time, the substrates were removed and sequentially washed with DI water and ethanol twice and air-dried before use.
+
+![](/img/wc-tail.GIF)
