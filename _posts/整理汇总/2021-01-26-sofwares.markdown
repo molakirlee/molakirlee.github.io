@@ -28,6 +28,7 @@ tags:
 1. [onlyoffice](https://www.onlyoffice.com/zh/home-use.aspx)
 1. [doodle投票](https://doodle.com/en/)
 1. [Deskreen:同局域网投屏]()
+1. [Spacedesk:同局域网ipad第二屏](https://www.spacedesk.net/zh/##box_434):记得取消开机自动启动，否则PC端容易重启后显示不出窗口。
 
 ###### 文字识别
 1. [雨梦OCR文字提取](https://blog.csdn.net/bowenqiu/article/details/82149392)
