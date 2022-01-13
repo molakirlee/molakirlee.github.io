@@ -410,7 +410,10 @@ git config --global --unset https.proxy
 1. [github.global.ssl.fastly.net](https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo)
 1. [assets-cdn.github.com](https://github.com.ipaddress.com/assets-cdn.github.com)
 
-
 参考资料：
 1. [GitHub无法访问、443 Operation timed out的解决办法](https://juejin.cn/post/6844904193170341896)
 1. [Failed to connect to github.com port 443 Timed out](https://houbb.github.io/2021/03/06/github-access)
+
+### 更新20220113
+1. [静态网站加入评论系统的方法](https://darekkay.com/blog/static-site-comments/)
+

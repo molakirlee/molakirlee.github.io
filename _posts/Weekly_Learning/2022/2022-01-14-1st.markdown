@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      "2022-每周补脑1st"
+subtitle:   ""
+date:       2022-01-14 18:29:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2022
+
+
+---
+
+### 科研
+
+### 言论
+1. 十年前，我写了一篇文章，题目是《为什么比特币会失败？》。十年过去了，比特币活得很好，价格上涨了许许多多倍。我还是不认为自己判断错了，只是我忽略了一点：人们真的、真的、真的想要它。我现在意识到，一个项目的成败，不取决于它是否合理，而是取决于人们是否愿意相信该项目。--[10 years of... whatever this has been](https://apenwarr.ca/log/20211117)
+1. I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.--Mickael Jordan
+1. 过去几十年，中国农民从农村迁移到城市的工厂。我一直不明白，城市工厂的条件并不好，有些相当差，为什么有这么多农民去？
+
+后来，我看了一部美国纪录片，想明白了。很多美国年轻人搬到洛杉矶去当演员，其中99%年轻人的生活会变得更糟，但是有机会逃离他们原来的处境，对很多人来说依然是一个强大的吸引力。[Hacker News](https://news.ycombinator.com/item?id=29341991)
+1. 工程师和程序员通常缺乏"产品化思维"，更看重解决问题，不善于做成商业化产品。这样不利于把事业做大，毕竟只有做成产品才能拿去卖，卖得好才能摆脱帮别人打工的命运。
+
+几十年前，一个惠普公司的工程师在业余时间设计了一块非常厉害的电路板。他只想着自己玩玩，觉得做电路板很过瘾。一天，他的朋友看到了，坚持要为这块电路板配上机箱和外设，做成计算机拿出去卖。这个工程师的名字是沃兹尼亚克，他的朋友是乔布斯，两个一无所有的青年，就这样创立了苹果公司。我们就需要学习乔布斯的这种产品化思维，从电路板想到个人电脑，从腕式血压计想到手表。--Ruan
+1. 重要的书都应该连着读两遍，因为第二遍读的时候，你已经知道结局了，这样才能真正理解开头。另一个原因是第二遍阅读时，你有不一样的心情，可能会从另一种角度看待问题。--[Arthur Schopenhauer: On Reading and Books](https://fs.blog/schopenhauer-on-reading/)
+
+### 有趣
+1. [数学、计算机科学、物理学等学科的一些违反直觉的事实](https://axisofordinary.substack.com/p/the-most-counterintuitive-facts-in)
+1. [有一种说法，你的预估乘以 π，就会得到真实的估计。](https://web.archive.org/web/20170603123809/http://www.tuicool.com:80/articles/7niyym)
+1. [镜子阵列：Marry me](https://github.com/bencbartlett/3D-printed-mirror-array)
+
+
+### 观点
+
+
+
+### 奇技淫巧
+1. [生成可以正常显示、但永远无法下载完成的图片](https://youcantdownloadthisimage.online/)
+1. [Mall-Cook:可视化的商城搭建平台，不用编写代码生成全站](https://github.com/wangyuan389/mall-cook)
+1. [互动式 Python 入门](https://futurecoder.io/)
+1. [图形化方式定义爬虫，不写代码即可完成抓取网页](https://github.com/ssssssss-team/spider-flow)
+
+### 荐书
+
+
+![](/img/wc-tail.GIF)
