@@ -21,4 +21,9 @@ tags:
 1. [实战：What do you want to learn today ?](https://aquadzn.github.io/learn-x-by-doing-y/?Project%5Bquery%5D=python&Project%5Bmenu%5D%5Bmain_language%5D=Python)
 1. [涵盖计算机本科课程的youtube视频](https://web.archive.org/web/20210210143025/https://laconicml.com/computer-science-curriculum-youtube-videos/)
 
+### 学习网站
+1. [我要自学网](https://www.51zxw.net/List.aspx?cid=390)
+1. [大学资源网](http://www.dxzy163.com/)
+1. [医学微视](https://www.mvyxws.com/)
+
 ![](/img/wc-tail.GIF)
