@@ -15,8 +15,11 @@ tags:
 ---
 
 ### 科研
+1. [PDMS: a review (ELVE FLOW)](https://www.elveflow.com/microfluidic-reviews/general-microfluidics/the-polydimethylsiloxane-pdms-and-microfluidics/)
 
 ### 言论
+1. 觉人之诈，不形于言；受人之侮，不动于色。此中有无穷意味，亦有无穷受用。--洪应明《菜根谭》
+1. You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete -- [Fuller](https://news.ycombinator.com/item?id=29441945)
 1. 十年前，我写了一篇文章，题目是《为什么比特币会失败？》。十年过去了，比特币活得很好，价格上涨了许许多多倍。我还是不认为自己判断错了，只是我忽略了一点：人们真的、真的、真的想要它。我现在意识到，一个项目的成败，不取决于它是否合理，而是取决于人们是否愿意相信该项目。--[10 years of... whatever this has been](https://apenwarr.ca/log/20211117)
 1. I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.--Mickael Jordan
 1. 过去几十年，中国农民从农村迁移到城市的工厂。我一直不明白，城市工厂的条件并不好，有些相当差，为什么有这么多农民去？
@@ -27,21 +30,29 @@ tags:
 几十年前，一个惠普公司的工程师在业余时间设计了一块非常厉害的电路板。他只想着自己玩玩，觉得做电路板很过瘾。一天，他的朋友看到了，坚持要为这块电路板配上机箱和外设，做成计算机拿出去卖。这个工程师的名字是沃兹尼亚克，他的朋友是乔布斯，两个一无所有的青年，就这样创立了苹果公司。我们就需要学习乔布斯的这种产品化思维，从电路板想到个人电脑，从腕式血压计想到手表。--Ruan
 1. 重要的书都应该连着读两遍，因为第二遍读的时候，你已经知道结局了，这样才能真正理解开头。另一个原因是第二遍阅读时，你有不一样的心情，可能会从另一种角度看待问题。--[Arthur Schopenhauer: On Reading and Books](https://fs.blog/schopenhauer-on-reading/)
 
+
 ### 有趣
 1. [数学、计算机科学、物理学等学科的一些违反直觉的事实](https://axisofordinary.substack.com/p/the-most-counterintuitive-facts-in)
 1. [有一种说法，你的预估乘以 π，就会得到真实的估计。](https://web.archive.org/web/20170603123809/http://www.tuicool.com:80/articles/7niyym)
 1. [镜子阵列：Marry me](https://github.com/bencbartlett/3D-printed-mirror-array)
-
+1. [Five timeless lessons](https://www.productlessons.xyz//article/timeless-lessons-amazon-unbound-book)
 
 ### 观点
+###### [My Path to Financial Independence as a Software Engineer](https://software.rajivprab.com/2021/12/26/my-path-to-financial-independence-as-a-software-engineer/)
+One of the watershed moments of my life was as a 20 year old intern attending a workplace presentation about personal finance. Over the course of one hour, I learnt about the power of buy-and-hold investing and compound growth. I learnt that even an average engineer with a five-figure salary can become a millionaire by her late 30s, through financial discipline and investment planning. This was both inspiring and energizing. I had always thought that I would need to work until I was 60, just to pay the bills and make ends meet. That being a “multi-millionaire” is something to dream of, not something to plan for. This talk changed the way I thought about my financial destiny.
+1. 首要的努力方向，就是追求工资提升。 普通人的收入来源，主要还是本职工作，如果工资很低，根本不可能实现财务独立，所以必须想方设法提高工资。一般来说，大厂的高级职位可以拿到稳定的高工资。所以，他要求自己一定要进大厂，并且做到高级工程师。
+2. 每过三年，就到别处面试。 他一般三年换一家公司，这样可以获得显著的加薪和晋升。他说每次换公司，收入至少增加30%。另外，还可以让自己始终拥有一种进取的心态，不断处于学习和成长的环境之中。不过，换公司是双刃剑，为了获得更高的薪酬，就需要在面试和工作中给别人留下深刻印象，后面的公司对你的要求也会越来越高。
+3. 建立良好的职业履历。 要通过大厂的面试，必须有良好的职业履历。最早的时候，他的履历没有特别的亮点，他就去一个名校，读了一年制硕士（欧美硕士一般都是一年）。这会带来很多职业机会（前提是必须为 Top 5 名校），同时一年的时间成本相对较小。不过，IT 行业跟律师和金融业不一样，就算没有名校经历，只要自身水平过硬，也能求职成功，只是开始时的机会可能会少一些。
+4. 优先加入增长最快的领域。 一个行业增长越快，产生的机会越多，越容易涨工资。在机会面前，你不要害怕改变专业领域。
 
-
+他是硬件工程师出身，进入行业时在英特尔做硬件。后来发现互联网机会更大，他就跳到互联网公司当软件工程师。现在，机器学习很热门，他又去尝试这个领域。
 
 ### 奇技淫巧
 1. [生成可以正常显示、但永远无法下载完成的图片](https://youcantdownloadthisimage.online/)
 1. [Mall-Cook:可视化的商城搭建平台，不用编写代码生成全站](https://github.com/wangyuan389/mall-cook)
 1. [互动式 Python 入门](https://futurecoder.io/)
 1. [图形化方式定义爬虫，不写代码即可完成抓取网页](https://github.com/ssssssss-team/spider-flow)
+1. [DareBee:1700多种身体锻炼的方法](https://darebee.com/workouts.html)
 
 ### 荐书
 

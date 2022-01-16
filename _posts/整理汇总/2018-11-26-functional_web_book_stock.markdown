@@ -26,6 +26,8 @@ tags:
 1. [sweethome3d-家装辅助设计](http://www.sweethome3d.com/zh-cn/)
 1. [Clara.io_3D_CAD](https://clara.io/)@molakirlee_sina  Clara.io is an impressive browser-based free 3D CAD software. Like any desktop solution, it includes all the common modeling tools for polygon modeling, like extrusion, beveling, slicing, cutting, and looping. In terms of texture maps, you get UV mapping. In sume, you get pretty much everything you need for basic 3D modeling purposes. But Clara.io goes beyond the functionality you would expect from a free online CAD software tool. For instance, the rendering does not need to shy away from many desktop programs. It includes V-Ray, that allows you to light your meshes using an HDR image and many other nifty tricks. Equipped with basic keyframe animation, Clara.io is even the right tool for computer animated movies. One of the many useful features of this free online CAD software tool is collaboratively working on projects. Similarly to Google Docs, you can add other Clara.io users to the scene that can then modify the file. Every change made is automatically synched between the accounts, this means other users get to see the scene transforming before their eyes instantaniously. This allows for a truly collaborative experience. The free version of Clara.io gives you 5GB cloud storage. The commercial options include more storage, unlimited private scene, and unlimited personal rendering. We have no doubt in our mind that this is one of the best free online CAD software tools. Best Free Online CAD Software Tool for: Intermediate users working on ambitious projects.
 
+### 办公
+1. [PPTist:在线演示文稿](https://github.com/pipipi-pikachu/PPTist)
 
 ### 书库
 1. [开源书籍](https://love2.io/)
@@ -35,5 +37,9 @@ tags:
 
 ### 图库
 1. [InterfaceLIFT](https://interfacelift.com/wallpaper/downloads/downloads/any/)
+
+### 视频
+1. [eja.tv:全世界可以网上免费观看的电视频道](https://eja.tv/)
+
 
 ![](/img/wc-tail.GIF)
