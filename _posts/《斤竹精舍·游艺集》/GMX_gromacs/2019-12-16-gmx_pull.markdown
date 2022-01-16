@@ -65,17 +65,17 @@ pull_coord1_k           = 1000          ; kJ mol^-1 nm^-2
 ###### 牵引方式与牵引几何的组合
 I:`pull=umbrella`
 1. `pull-geometry=distance`:始终沿参考组质心与牵引组质心连线的方向进行牵引. 弹簧点只会沿两质心的连线方向移动. 弹簧点t=0时刻在此连线方向上距参考点的距离由`pull-coord*-init`设定, 弹簧点在连线方向上的移动速率由`pull-coord*-rate`设定, 逐渐靠近还是逐渐远离可以通过此值的正负号来控制.在这种情况下,`pull-coord*-vec`的设定对弹簧点的运动方向无任何影响, 也不会对结果产生影响.
-1. `pull-geometry=direction`:定义矢量`pull-coord*-vec`, 为t=0时刻过牵引组质心的矢量. 设参考组在这个向量上投影点为P, 则弹簧点在t时刻的位置为P+(pull-coord*-init+tpull-coord*-rate)uni(pull-coord*-vec).其中uni()代表求单位矢量..
+1. `pull-geometry=direction`:定义矢量`pull-coord*-vec`, 为t=0时刻过牵引组质心的矢量. 设参考组在这个向量上投影点为P, 则弹簧点在t时刻的位置为`P+(pull-coord*-init+tpull-coord*-rate)uni(pull-coord*-vec)`.其中uni()代表求单位矢量..
 上面几种情况都是假定参考组是绝对坐标或者被固定住, 如果参考组在牵引过程中位置会发生变化, 弹簧点位置也会相应变化, 以维持间距均匀增长.
 
 II:`pull=constraint`
 与`pull=umbrella`一样, 区别在于使用约束算法将牵引组位置固定在弹簧点位置上, 而不会被弹簧点拉着走.
-1. `pull-geometry=distance`:可使参考组与牵引组之间的距离保持固定不变(即`pull-coord*-init`)或者刻意让其逐渐改变(即pull-coord*-init+time*pull-coord*-rate), 而它们之间的相对角度方位可随意变化.
+1. `pull-geometry=distance`:可使参考组与牵引组之间的距离保持固定不变(即`pull-coord*-init`)或者刻意让其逐渐改变(即`pull-coord*-init+time*pull-coord*-rate`), 而它们之间的相对角度方位可随意变化.
 
 III:`pull=constant-force`
 这种情况下拉力大小始终不变, 由`pull-coord*-k`设定. 无论使用哪种几何都没有弹簧点的概念, 因此`pull-coord*-rate`,`pull-coord*-init`对结果无影响.
-1. `pull-geometry=distance`:如果设定的参考组为原子组, 则无论何时, 始终朝参考组方向拉伸牵引组. 若牵引过程中越过了参考组, 拉力会反向. 如果参考组为绝对坐标, 则拉力方向始终是t=0时刻牵引组朝着参考组的方向, 即便牵引组可能已经越过了参考组.pull-coord*-vec的设定对弹簧点的运动方向无任何影响, 也不会对结果产生影响.
-1. `pull-geometry=direction`:将牵引组(将其假想为坐标原点)向pull-coord*-vec的反方向拉. pull-group0-name的设定不会对结果产生影响.
+1. `pull-geometry=distance`:如果设定的参考组为原子组, 则无论何时, 始终朝参考组方向拉伸牵引组. 若牵引过程中越过了参考组, 拉力会反向. 如果参考组为绝对坐标, 则拉力方向始终是t=0时刻牵引组朝着参考组的方向, 即便牵引组可能已经越过了参考组.`pull-coord*-vec`的设定对弹簧点的运动方向无任何影响, 也不会对结果产生影响.
+1. `pull-geometry=direction`:将牵引组(将其假想为坐标原点)向`pull-coord*-vec`的反方向拉.`pull-group0-name`的设定不会对结果产生影响.
 
 
 ###### 从轨迹中抽取构型
