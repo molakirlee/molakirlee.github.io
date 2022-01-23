@@ -22,14 +22,13 @@ tags:
 1. You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete -- [Fuller](https://news.ycombinator.com/item?id=29441945)
 1. 十年前，我写了一篇文章，题目是《为什么比特币会失败？》。十年过去了，比特币活得很好，价格上涨了许许多多倍。我还是不认为自己判断错了，只是我忽略了一点：人们真的、真的、真的想要它。我现在意识到，一个项目的成败，不取决于它是否合理，而是取决于人们是否愿意相信该项目。--[10 years of... whatever this has been](https://apenwarr.ca/log/20211117)
 1. I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.--Mickael Jordan
-1. 过去几十年，中国农民从农村迁移到城市的工厂。我一直不明白，城市工厂的条件并不好，有些相当差，为什么有这么多农民去？
-
-后来，我看了一部美国纪录片，想明白了。很多美国年轻人搬到洛杉矶去当演员，其中99%年轻人的生活会变得更糟，但是有机会逃离他们原来的处境，对很多人来说依然是一个强大的吸引力。[Hacker News](https://news.ycombinator.com/item?id=29341991)
-1. 工程师和程序员通常缺乏"产品化思维"，更看重解决问题，不善于做成商业化产品。这样不利于把事业做大，毕竟只有做成产品才能拿去卖，卖得好才能摆脱帮别人打工的命运。
-
-几十年前，一个惠普公司的工程师在业余时间设计了一块非常厉害的电路板。他只想着自己玩玩，觉得做电路板很过瘾。一天，他的朋友看到了，坚持要为这块电路板配上机箱和外设，做成计算机拿出去卖。这个工程师的名字是沃兹尼亚克，他的朋友是乔布斯，两个一无所有的青年，就这样创立了苹果公司。我们就需要学习乔布斯的这种产品化思维，从电路板想到个人电脑，从腕式血压计想到手表。--Ruan
+1. 过去几十年，中国农民从农村迁移到城市的工厂。我一直不明白，城市工厂的条件并不好，有些相当差，为什么有这么多农民去？后来，我看了一部美国纪录片，想明白了。很多美国年轻人搬到洛杉矶去当演员，其中99%年轻人的生活会变得更糟，但是有机会逃离他们原来的处境，对很多人来说依然是一个强大的吸引力。[Hacker News](https://news.ycombinator.com/item?id=29341991)
+1. 工程师和程序员通常缺乏"产品化思维"，更看重解决问题，不善于做成商业化产品。这样不利于把事业做大，毕竟只有做成产品才能拿去卖，卖得好才能摆脱帮别人打工的命运。几十年前，一个惠普公司的工程师在业余时间设计了一块非常厉害的电路板。他只想着自己玩玩，觉得做电路板很过瘾。一天，他的朋友看到了，坚持要为这块电路板配上机箱和外设，做成计算机拿出去卖。这个工程师的名字是沃兹尼亚克，他的朋友是乔布斯，两个一无所有的青年，就这样创立了苹果公司。我们就需要学习乔布斯的这种产品化思维，从电路板想到个人电脑，从腕式血压计想到手表。--Ruan
 1. 重要的书都应该连着读两遍，因为第二遍读的时候，你已经知道结局了，这样才能真正理解开头。另一个原因是第二遍阅读时，你有不一样的心情，可能会从另一种角度看待问题。--[Arthur Schopenhauer: On Reading and Books](https://fs.blog/schopenhauer-on-reading/)
-
+1. Repetition builds confidence, but iteration builds competence. Seek iteration over pure repetition.
+1. The classroom is a wonderful, if artificial, place: Your professor gets paid to pay attention to your ideas, and your classmates are paying to pay attention to your ideas. Never again in your life will you have such a captive audience. Soon after, you learn that most of the world doesn’t necessarily care about what you think. - Austin Kleon 
+1. ‍Fear is a reminder that you’re not asleep at the wheel, you’re steering towards a new challenge. 
+1. 在SpaceX，我们有一支天才团队，他们夜以继日地工作，让愿景成为现实。放弃这两个字不在我的字典里，管他乐观还是悲观，都滚蛋，干就完了！ -- [马斯克](https://chedongxi.com/p/264710.html)
 
 ### 有趣
 1. [数学、计算机科学、物理学等学科的一些违反直觉的事实](https://axisofordinary.substack.com/p/the-most-counterintuitive-facts-in)
@@ -47,6 +46,16 @@ One of the watershed moments of my life was as a 20 year old intern attending a 
 
 他是硬件工程师出身，进入行业时在英特尔做硬件。后来发现互联网机会更大，他就跳到互联网公司当软件工程师。现在，机器学习很热门，他又去尝试这个领域。
 
+###### [马斯克访谈](https://chedongxi.com/p/264710.html)
+思考的第一原则
+马斯克：我只是知道自己思考问题的方式。对我来说，这是一件很重要的事情，我们应该继续做下去，否则就会失败。而我也不需要什么力量来源。
+
+Lex Fridman：你能不能再放大到星舰的具体问题或你工作的任何工程问题上？你能不能试着描述下你思考问题的方式？比如不同的工程和设计问题？是否有一个系统的过程？你已经说过了思考的第一原则，但是否有一个过程？  
+马斯克：物理学是基础，其他都是建议。**我见过很多违反法律的人，但还没有见过可以违反物理学的人。**如果是技术问题，你只需要确保自己没有违反物理学。另外，第一原则是分析，我认为分析可以应用于任何生活中所出现的事情。实际上，我们可以把一些事情归结为最基本的原则。物理学有些基础知识，比如说能量守恒定律，如果你违反了物理学，这件事就不可能完成。另一个方法是在极限中思考问题，如果你在思考一件事情的同时，把它扩展到一个非常大的范畴或一个非常小的范畴，事情会发生什么变化？
+
+马斯克：常见的思考方式其实是一种惯性功能。人们更倾向于使用他们熟悉的工具和方法，导致做出的东西不太可能是完美产品。所以这就是为什么要从两个方向来考虑问题：第一，可以用我们的工具建造什么；第二，理论上的完美产品是什么样的？因为你学习得越多，对完美产品的定义也会改变。在此之前，你实际上不知道完美的产品会是什么样的，但你可以制造一个近似于完美的产品。具备了以上两个思考方向，你应该会想：“现在我们需要创造什么工具、方法、材料才能让原子变成需要的形状？这种思考方式很有效，但很少人这么想。
+
+
 ###### [黄嘉兴：我们发表论文是为了什么？](https://mp.weixin.qq.com/s/uLkN7X_FDgLKdRQLXbO-vQ)
 我想并不是每一篇文章都要去改变世界，也许我们自己有时也没有意识到自己论文背后更高远的意义，但你要守住的底线和初心是，不要抱着“刷单”的心态去对待你的或者别人的每一篇文章。发了“大文章”自然值得祝贺，但是“小文章”也无需妄自菲薄，无论文章是大是小，作为第一作者，你必须对自己的工作了如指掌，概括承受，随时能娓娓道来。
 
@@ -60,6 +69,7 @@ One of the watershed moments of my life was as a 20 year old intern attending a 
 1. [互动式 Python 入门](https://futurecoder.io/)
 1. [图形化方式定义爬虫，不写代码即可完成抓取网页](https://github.com/ssssssss-team/spider-flow)
 1. [DareBee:1700多种身体锻炼的方法](https://darebee.com/workouts.html)
+1. [ihavenotv:纪录片网站](https://ihavenotv.com/category/science)
 
 ### 荐书
 
