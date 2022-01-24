@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "基于python的图像轮廓识别及轮廓表面积计算"
+title:      "python 基于python的图像轮廓识别及轮廓表面积计算"
 subtitle:   ""
 date:       2020-05-11 09:57:00
 author:     "XiLock"
