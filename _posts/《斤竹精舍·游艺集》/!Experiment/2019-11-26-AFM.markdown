@@ -20,8 +20,12 @@ tags:
 1. **Amplitude modulation**也叫Tapping mode, intermitent contact mode, dynamic force mode.  
 1. 镀Al的tip不宜用于液相，背面镀Au或全部镀Au的可以。  
 
+
 ### Trik
 1. 如何调激光![](/img/in-post/《斤竹精舍-游艺集》/2019-11-26-AFM/laser.jpg)
 1. [FFT去除有规律的杂线](/attachment/afm/FFT_remove_line.pdf)
+
+### 相关资料
+1. [一文读懂原子力显微镜（AFM）测试](https://mp.weixin.qq.com/s/ookiZHEl4amKQ2Cyz59sHQ)
 
 ![](/img/wc-tail.GIF)

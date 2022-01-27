@@ -16,6 +16,7 @@ tags:
 
 ### 科研
 1. [PDMS: a review (ELVE FLOW)](https://www.elveflow.com/microfluidic-reviews/general-microfluidics/the-polydimethylsiloxane-pdms-and-microfluidics/)
+1. [Introduction to lab-on-a-chip 2020: review, history and future](https://www.elveflow.com/microfluidic-reviews/general-microfluidics/introduction-to-lab-on-a-chip-review-history-and-future/)
 
 ### 言论
 1. 觉人之诈，不形于言；受人之侮，不动于色。此中有无穷意味，亦有无穷受用。--洪应明《菜根谭》
