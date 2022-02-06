@@ -41,5 +41,5 @@ tags:
 ### 参考资料
 1. [归一化法、外标法、内标法、标准加入法的选择及区别](http://www.jituotech.com/m/articledetail.asp?id=14)
 1. [百度百科：内标法](https://baike.baidu.com/item/%E5%86%85%E6%A0%87%E6%B3%95/2154300)
-
+1. [HPLC分析常见问题与实用对策](http://www.jituotech.com/m/articledetail.asp?id=38)
 ![](/img/wc-tail.GIF)
