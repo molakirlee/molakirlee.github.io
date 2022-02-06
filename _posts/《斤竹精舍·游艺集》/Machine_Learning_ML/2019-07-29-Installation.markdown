@@ -15,6 +15,9 @@ tags:
 
 ---
 
+### 神经网络
+1. [CNN vs.RNN vs.ANN——浅析深度学习中的三种神经网络](https://cloud.tencent.com/developer/article/1587273?from=article.detail.1590243)
+
 ### 深度学习框架差异(Tensorflow、Pytorch、Keras和Scikit-learn)
 1. Tensorflow更倾向于工业应用领域，适合深度学习和人工智能领域的开发者进行使用，具有强大的移植性。
 1. Pytorch更倾向于科研领域，语法相对简便，利用动态图计算，开发周期通常会比Tensorflow短一些。
