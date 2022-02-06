@@ -16,6 +16,8 @@ tags:
 
 ### 科研
 1. [pubsure:Optimize Your Research Manuscript Before Journal Submission To Avoid Desk Rejection](https://pubsure.researcher.life/)
+1. [QuillBot：英文润色](https://quillbot.com/)
+1. [Deepl：翻译](https://www.deepl.com/translator)
 
 ### 办公
 1. [PPTist:在线演示文稿](https://github.com/pipipi-pikachu/PPTist)
