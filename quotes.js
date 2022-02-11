@@ -740,7 +740,8 @@ var quotes = [
 '腹中天地阔，常有渡人船。',
 '随缘不是得过且过，因循苟且，而是尽人事听天命。',
 '佛法在世间，不离世间觉，离世觅菩提，恰如求兔角。',
-'制心一處，無事不辦。',
+'制心一处，无事不办。',
+'If you care about what other people think, you are never gonna do anything.',
 '才情高超，清越脱俗。'
 ]
 
