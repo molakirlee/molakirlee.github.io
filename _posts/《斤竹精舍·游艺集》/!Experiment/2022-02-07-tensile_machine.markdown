@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Tensile machine "
+title:      "拉力机 Tensile machine"
 subtitle:   ""
 date:       2022-02-07 22:37:00
 author:     "XiLock"
