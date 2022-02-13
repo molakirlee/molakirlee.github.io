@@ -20,6 +20,7 @@ tags:
 ### 言论
 1. 如果一样东西，你能感到它想做成什么，并且也知道它可能很重要，但是它的制造商没有做对。技术人员就会产生一种强烈的愿望来修复它，把它做对，并向人们展示它应该是什么样。--[John Carmack](https://sherief.fyi/post/arkham-quixote/)
 1. The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man .--George Bernard Shaw
+1. 打工的本质是定价出卖自己的劳动力，并不承担结果。随着雇佣时代的结束，你必须主动思考和去解决问题，并竭力发挥自己的特长，为社会和他人创造价值，否则你就没有存在的价值。中国人的工作方式正在从“谋生”到“创造”升级。
 
 ### 有趣
 1. [夹层水壶的工作原理](https://www.engineerine.com/2021/12/the-assassins-teapot-how-it-works.html)
