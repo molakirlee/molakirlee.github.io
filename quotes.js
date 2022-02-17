@@ -744,6 +744,8 @@ var quotes = [
 'If you care about what other people think, you are never gonna do anything.',
 '从无好丑向人说，只等君看自己知。',
 '所谓专家，就是把一个狭小领域内能犯的错误都犯了个遍的人。--尼尔斯·玻尔',
+'一想到你，我这张丑脸上就泛起微笑。--王小波',
+'Keep your friends close, but your enemies closer.',
 '才情高超，清越脱俗。'
 ]
 
