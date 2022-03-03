@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Vasp 收敛及结构优化"
+title:      "Vasp K点"
 subtitle:   ""
 date:       2020-11-01 19:29:00
 author:     "XiLock"
