@@ -19,6 +19,7 @@ tags:
 ### 言论
 
 ### 有趣
+1. [GPS工作原理](https://pages.longtian.info/gps/)
 
 ### 观点
 ###### 你做过不在乎结果的项目吗？
