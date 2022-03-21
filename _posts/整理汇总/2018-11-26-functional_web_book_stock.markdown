@@ -44,6 +44,7 @@ tags:
 ### 图片处理
 1. [matlab处理图片](https://blogs.mathworks.com/steve/2012/11/13/image-effects-part-1/)
 1. [开源的在线图片编辑器](https://github.com/nhnent/tui.image-editor)
+1. [图片压缩](https://www.butterpig.top/compress)
 
 ### 音频视频处理
 1. [eja.tv:全世界可以网上免费观看的电视频道](https://eja.tv/)

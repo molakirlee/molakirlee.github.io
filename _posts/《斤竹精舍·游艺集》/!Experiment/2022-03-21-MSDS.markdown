@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "药品 MSDS"
+subtitle:   ""
+date:       2022-3-21 15:56:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Experiment
+    - 2022
+
+
+---
+
+
+### 查阅链接
+1. [soMSDS](http://www.somsds.com/msds.asp)
+1. [ChemicalBook](https://www.chemicalbook.com/Search.aspx?_s=&keyword=1-%E8%90%98%E7%A1%BC%E9%85%B8)
+1. [化源网](https://www.chemsrc.com/searchResult/%25E5%2592%25AA%25E5%2594%2591/)
