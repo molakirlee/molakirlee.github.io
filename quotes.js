@@ -761,6 +761,7 @@ var quotes = [
 'It is always darkest just before the dawn.', 
 'Before finding the right person, the only thing you need to do is to make yourself good enough.', 
 'Positive thinking initiates more happiness! ',
+'认准方向，咬住重点，统筹谋划，强力推进--张立基 ',
 '才情高超，清越脱俗。'
 ]
 
