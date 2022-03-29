@@ -748,6 +748,19 @@ var quotes = [
 'Keep your friends close, but your enemies closer.',
 '生活中，所有事情都有最后一次。你会最后一次出门，最后一次吃你最喜欢的菜，最后一次听一首歌，或者最后一次呼吸。但是在那之前，你有很多机会做所有这些事情，珍惜你做的每一次。',
 '问了都听不懂的东西，有什么资格问？',
+'Life is about learning how to dance in the rain. ', 
+'Laughter is the cure for fear. ', 
+'For the things that make you sad, one day, you will laugh out and say it.', 
+'The only thing stronger than you is you tomorrow.', 
+'Age wrinkles the body. Quitting wrinkles the soul.', 
+'For every minute you are angry, you lose sixty seconds of happiness. ', 
+'We all wonder about the path we did not follow. ', 
+'Idleness is the root of all evil. ', 
+'You're never alone when you have books.', 
+'If you are hopeful, you will be invincible. ', 
+'It is always darkest just before the dawn.', 
+'Before finding the right person, the only thing you need to do is to make yourself good enough.', 
+'Positive thinking initiates more happiness! ',
 '才情高超，清越脱俗。'
 ]
 
