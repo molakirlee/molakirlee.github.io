@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "python python转exe"
+title:      "python python转exe pyinstaller"
 subtitle:   ""
 date:       2021-08-24 23:29:00
 author:     "XiLock"

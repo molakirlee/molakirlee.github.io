@@ -18,8 +18,9 @@ tags:
 
 ##### 物性估算
 1. [物性估算在 ASPEN PLUS软件中的应用](https://molakirlee.github.io/attachment/aspen/aspen_property_estimation.PDF)
+1. [Aspen入门篇4—物性方法选择及物性估算](https://www.jianshu.com/p/04ad791aa339)
 
-##### 物性方法
+##### 物性方法选择
 1. 物性方法的选择将会影响到压力/密度关联性质的参数，如：焓值、熵值，而不是理想气体性质的参数。
 1. P-R（广义P-R一般不用，因为仅通过临界温度、临界压力及偏心因子获得）、SRK等立方型EOS没有很高的精度，但足以描述汽液两相的状态。其对**非极性且无氢键作用的纯组分或混合组成**的热力学计算结果较准。
 1. 与基于活度系数模型（UNIQAC, UNIFAC, NRTL, WILSON）和状态方程模型(P-R, SRK)来预测纯组分和混合物性质不同，NIST TDE提供的是纯组分和混合组分的实验数据。
@@ -51,5 +52,9 @@ tags:
 1. Property Analysis(Analysis --> Binary)计算VLE的优点是便于用来生成P-xy、T-xy和描述混合物的不同组分与吉布斯自由能之间的函数关系的图表。缺点：只能用于双组分；只能用于固定T或P下的计算，不能用于仅知道最终压力和焓值条件下的计算，如焦-汤节流膨胀。
 1. 想在结果中显示活度系数等，可通过`Property Sets`实现，即`Setup --> Report Options--> Stream --> Property Sets --> New`。跟在`Properties`主菜单里找到的一样。
 
+##### 液体比热容查看
+ aspen 默认方法不显示液体比热容，需查阅时，要将`Method-Parameter-pure component`里的`THRSWT/6`改为100或114或124，（如改为100，此时采用DIPPR方法计算液体比热容；将纯组分焓值计算方法HL改为HL09同理）  
+
+参考资料：[如何用Aspen调出甲醇的液体比热容公式系数](https://bbs.mahoupao.com/thread-158265-1-1.html)
 
 ![](/img/wc-tail.GIF)

@@ -1,0 +1,61 @@
+---
+layout:     post
+title:      "python python转exe pyinstaller"
+subtitle:   ""
+date:       2021-08-24 23:29:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - python
+    - 2021
+
+
+---
+
+### 安装
+###### install from pypi
+`pip install extract-video-ppt`
+
+###### or local
+`python ./setup.py install`
+
+###### or local user
+`python ./setup.py install --user`
+
+### 使用
+```
+evp --help
+evp --similarity 0.6 --pdfname hello.pdf --start_frame 0:00:09 --end_frame 00:00:30 ./ ./test.mp4
+```
+
+1. similarity: The similarity between this frame and the previous frame is less than this value and this frame will be saveed, default: 0.6
+1. pdfname: the name for export pdf 
+1. start_frame: start frame time point, default = '00:00:00'
+1. end_frame: end frame time point, default = 'INFINITY'
+
+### convert to exe
+为了方便使用，使用pyinstaller转化成了exe文件，在转换过程中遇到以下问题：
+###### 提示`ImportError: OpenCV loader: missing configuration file: ['config.py']. Check OpenCV installation`
+Solution：在pyinstaller时添加一下opencv的路径即可：`pyinstaller -w xxx.py --paths="xxx\Lib\site-packages\cv2"`
+###### 
+Solution:
+```
+pip uninstall matplotlib
+pip install matplotlib==3.1.1
+pyinstaller -F XXX.py
+```
+找到.spec文件，将其中的`hiddenimports=[]`修改为`hiddenimports=['matplotlib']`，然后：
+```
+pyinstaller -F XXX.spec
+```
+此时再运行就可以了，虽然运行时会有Warning，但不影响。
+
+### 参考资料
+1. [extract ppt from a video](https://github.com/wudududu/extract-video-ppt)
+1. [Python pyinstaller打包opencv程序出错](https://zhuanlan.zhihu.com/p/462208284)
+1. [打包matplotlib出现RuntimeError: Could not find the matplotlib data files](https://blog.csdn.net/Iv_zzy/article/details/107916741)
+
+![](/img/wc-tail.GIF)
