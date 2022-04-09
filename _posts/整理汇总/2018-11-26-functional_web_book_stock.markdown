@@ -53,4 +53,7 @@ tags:
 ### 娱乐
 1. [在线打谱](https://www.hacklily.org/)
 
+### 网页
+1. [自定义邮箱地址（替代）](https://simplelogin.io/)
+
 ![](/img/wc-tail.GIF)
