@@ -761,7 +761,17 @@ var quotes = [
 'It is always darkest just before the dawn.', 
 'Before finding the right person, the only thing you need to do is to make yourself good enough.', 
 'Positive thinking initiates more happiness! ',
-'认准方向，咬住重点，统筹谋划，强力推进--张立基 ',
+'认准方向，咬住重点，统筹谋划，强力推进--张立基',
+'Part of life is learning to let things go.',
+'When things are looking down, look up.',
+'Live today as if there is no tomorrow.',
+'Love is what binds us, through fair or stormy weather.',
+'People always prepare for the worst but hope for the best.',
+'Look deep into nature, and then you will understand everything better. ',
+'Always take every opportunity that comes your way.',
+'You are the best thing that ever happened to me.',
+'Adversity does teach you who your real friends are.',
+'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]
 
