@@ -1,0 +1,61 @@
+---
+layout:     post
+title:      "2022-每周补脑6st"
+subtitle:   ""
+date:       2022-04-23 13:29:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2022
+
+
+---
+
+### 科研
+
+### 言论
+1. 耐冷耐苦，耐劳耐闲。-- 曾国藩
+1. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.-- [Steve Jobs](https://bitfieldconsulting.com/golang/career)
+1. 平和的力量源自经年累月的平和心境，应时看出敌人的破绽，如入无人之境。-- 《黄昏的清兵卫》
+
+### 有趣
+1. [How USB Came to Be](https://spectrum.ieee.org/how-usb-came-to-be)
+
+### 观点
+###### 马斯克的经验（《硅谷钢铁侠》）
+1. 多读“书”，比解决问题更重要的是提出“好”问题
+1. 让自己处于优秀人才的环境中
+1. 第一性原理+模型化+迁移学习
+1. 非同步沟通+批量处理
+
+###### Frank的疫情观
+疫情何时结束，小区何时解封，这是你无能为力的。与其烦恼这种事情，不如不去管它。人生难得有这样一段突然停下来的时间，别浪费了，多读一点书，多学一点技术，比什么都有用，等到生活恢复正常，它们能帮到你。
+
+1665年8月，剑桥大学由于鼠疫大流行而关门，学生们都回家了。有一个22岁的学生回到乡下的老家，整整18个月闭门不出，努力读书和做实验，最后提出了一整套全新理论，彻底改变了人类的科学进展。这个学生就是牛顿。
+
+疫情是一场灾难，但是如果能好好利用这段日子，它也许就会变成你的人生财富。
+
+裁员也应该如此看待，这一次有些行业（房地产、教培、互联网）的裁员，属于全行业收缩，不是员工的问题，行业的问题超出了你个人的努力。
+
+如果公司把整个部门和业务线都砍了，里面最好的员工也不可避免会受到影响。不要灰心焦虑，更不要怀疑自己，既然事情已经发生了，你所能做的就是随它去，别把时间用来长吁短叹、愤世嫉俗，而要保持学习，磨练自己的技术，等到行业回暖时，就会有回报。
+
+你要这么想，这些行业之所以会收缩，就是因为前期的市场需求旺盛，扩张太快。这说明它们的市场需求是真实存在的，只要市场需求还在，就有发展空间，你练好本领，不愁将来没有用武之地。
+
+###### [A career ending mistake](https://bitfieldconsulting.com/golang/career)
+Some people blithely assume that if they keep doing what they're doing for long enough and don't screw up, they'll eventually make senior IC. Maybe. But maybe not. A better strategy is to take personal control of your skills development, and take it seriously.
+
+Don't wait for the company to train you. They prefer to promote people who don't need training. Instead, find the craft you love, and dedicate yourself to mastering it. Start seeing your current work not as a simple exchange of your time for their money, but rather as an opportunity to find out what you're good at, and to get better.
+
+Mastering a craft is hard work, though, even with professional coaching, and it won't happen overnight. There's a saying in the martial arts that “it takes two lifetimes to get good”. You don't have that long, so you'll need to approach the work with patience, dedication, a clear mind, and a pure heart. Namaste.
+
+###### [The Silicon in Silicon Valley, Again](https://future.a16z.com/the-silicon-in-silicon-valley-again/)
+
+### 奇技淫巧
+
+### 荐书
+
+
+![](/img/wc-tail.GIF)
