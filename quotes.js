@@ -771,6 +771,10 @@ var quotes = [
 'Always take every opportunity that comes your way.',
 'You are the best thing that ever happened to me.',
 'Adversity does teach you who your real friends are.',
+'锅大，水烧开的就慢.',
+'不俗即仙骨，无情乃佛心.',
+'冷静的心，在任何环境里，都能建立了解更深微的世界.',
+'The best way to predict the future is to actually invent it yourself.',
 'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]
