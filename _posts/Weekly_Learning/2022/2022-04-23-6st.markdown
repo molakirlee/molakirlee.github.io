@@ -21,8 +21,9 @@ tags:
 1. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.-- [Steve Jobs](https://bitfieldconsulting.com/golang/career)
 1. 平和的力量源自经年累月的平和心境，应时看出敌人的破绽，如入无人之境。-- 《黄昏的清兵卫》
 
-### 有趣
+### 看世界
 1. [How USB Came to Be](https://spectrum.ieee.org/how-usb-came-to-be)
+1. [创业还是专心科研？海外华人研究员的创业失败之旅](https://mp.weixin.qq.com/s?__biz=MzAwNTAyMDY0MQ==&mid=2652642708&idx=1&sn=27bb1533b5873165b66e8e811b2515f2&chksm=80cbb31ab7bc3a0c22327a4325929bda6c1fd3fa82dd6aee5ed5b85704c088a51114d756f521&scene=21&cur_album_id=1720694269541138435#wechat_redirect)
 
 ### 观点
 ###### 马斯克的经验（《硅谷钢铁侠》）
