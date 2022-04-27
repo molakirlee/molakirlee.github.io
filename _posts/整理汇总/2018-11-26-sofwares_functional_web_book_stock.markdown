@@ -31,7 +31,7 @@ tags:
 1. [硕博生活学术导航](https://shuobolife.com/)
 1. [材料牛](http://www.cailiaoniu.com/)
 1. [bioengx](http://www.bioengx.com/)
-1. [清新电源 | 来自清华，服务世界！](www.sztspi.com)
+1. [清新电源](www.sztspi.com)
 
 ###### 视频
 1. [蔻享直播](https://www.koushare.com/lives/liveHome)
