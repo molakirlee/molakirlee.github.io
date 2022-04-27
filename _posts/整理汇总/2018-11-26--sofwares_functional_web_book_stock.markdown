@@ -22,6 +22,9 @@ tags:
 1. [锅盖头软件](https://www.ggtrj.com/)
 1. []()
 
+### 中文
+1. [反向词典：词义-->单词](https://wantwords.net)
+
 ### 科研
 ###### 导航
 1. [学吧导航](https://www.xue8nav.com/)
@@ -102,8 +105,7 @@ tags:
 ###### 文本内容检索
 1. [DocFetcher](https://www.zhihu.com/question/20237918)。
 1. FileLocator Pro 最大的问题是索引文件太占空间，比windows自带的索引大几倍；
-1. AnyText最大的问题，是后台更新索引（索引文件位置不能自定义，只在C盘）太频繁，是全部文件全文比对，而不是只检测有变化的文件，带来的问题：
-1）拖慢整机性能，2）过度消耗SSD寿命3）经常占用文件句柄，编辑或清理时时有撞车;
+1. AnyText最大的问题，是后台更新索引（索引文件位置不能自定义，只在C盘）太频繁，是全部文件全文比对，而不是只检测有变化的文件，带来的问题：1）拖慢整机性能，2）过度消耗SSD寿命3）经常占用文件句柄，编辑或清理时时有撞车;
 
 ###### 其他
 1. [分析工具：决策树等](http://www.ruanyifeng.com/blog/2020/06/weekly-issue-110.html)
@@ -130,12 +132,15 @@ tags:
 ### 图片
 ###### 图库
 1. [InterfaceLIFT](https://interfacelift.com/wallpaper/downloads/downloads/any/)
+1. [世界名画博物馆](https://gallerix.asia)
+
 ###### 图片处理
 1. [matlab处理图片](https://blogs.mathworks.com/steve/2012/11/13/image-effects-part-1/)
 1. [开源的在线图片编辑器](https://github.com/nhnent/tui.image-editor)
 1. [图片压缩](https://www.butterpig.top/compress)
 1. [泼辣修图](https://www.polaxiong.com/web/)
 1. [老照片修复](https://hotpot.ai/restore-picture)
+1. [橡皮擦：图片局部擦除](https://www.magiceraser.io)
 
 ### 音频视频
 1. 飞熊影视
@@ -154,6 +159,8 @@ tags:
 1. video sou ver(PC影视资源搜索工具) v2.0免费版
 1. [eja.tv:全世界可以网上免费观看的电视频道](https://eja.tv/)
 1. [实时语音克隆 - 中文/普通话](https://github.com/babysor/MockingBird/blob/main/README-CN.md)
+1. [音频在线编辑](https://vocalremover.org/ch)
+
 
 ### 视频下载
 1. [Youtube视频下载：findyoutube](findyoutube.net)，[greasyfork脚本](https://greasyfork.org/zh-CN/scripts/8426)
