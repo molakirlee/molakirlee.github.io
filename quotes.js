@@ -776,6 +776,8 @@ var quotes = [
 '冷静的心，在任何环境里，都能建立了解更深微的世界.',
 'The best way to predict the future is to actually invent it yourself.',
 '做一个会改造发动机的赛车手，作为程序员在善用佳软的同时也要根据需要打造自己的工具.',
+'Do what you say, and say what you do.',
+'Every obstacle is an opportunity.',
 'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]
