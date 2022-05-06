@@ -762,6 +762,7 @@ tags:
 
 ###### V
 1. vac：空的 vacation evacuation
+1. vacc：牛 vaccine
 1. vag：走，漫游 extravegance vague
 1. val：价值 invalid prevalent devalue
 1. val：力量 equivalent prevalence
