@@ -778,6 +778,16 @@ var quotes = [
 '做一个会改造发动机的赛车手，作为程序员在善用佳软的同时也要根据需要打造自己的工具.',
 'Do what you say, and say what you do.',
 'Every obstacle is an opportunity.',
+'He who laughs last laughs best.',
+'Everyday and in every way I am getting better.',
+'All things come to those who wait.',
+'A fool will fool himself, but time will not fool anyone.',
+'Winner makes the rules, and losers live by them.',
+'My philosophy is if you worry, you suffer twice.',
+'Great men are not born great, they grow great.',
+'Youth is not a time of life; it is a state of mind.',
+'If you look the right way, you can see that the whole world is a garden.',
+'Nothing breeds success like success.',
 'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]
