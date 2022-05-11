@@ -15,7 +15,7 @@ tags:
 ---
 
 ###### A
-1. a 不 afield
+1. a：不 afield
 1. ab：离去 absent
 1. abol：清除 abolish
 1. ac：附近 accessory
@@ -25,14 +25,12 @@ tags:
 1. acquaint：使熟知 acquaintance
 1. acro：高 acrobat
 1. act：法令 enact
-1. act：行动 transact
-1. act：做 exact interact
+1. act：行动 transact exact interact
 1. acu：尖 acumen acupuncture
 1. ad：向 adverse
 1. ad：一再 addict addiction
-1. aer(o)：空气 aerobic aeronautics aeration aeroplane aerospace
-1. af：去 affluent
-1. af：向 afflicit
+1. aer(o)：空气 aerobic aeration aeronautics aeroplane aerospace
+1. af：去，向 affluent afflict
 1. af：一再 afflict
 1. ag：加强 exaggerate
 1. ag：驱动，做 agenda agile
@@ -41,48 +39,44 @@ tags:
 1. ali：其他的 inalienable
 1. ali：营养 aliment
 1. allow：允许 allowance
-1. alt：高 altitude
-1. alt：高 halt
+1. alt：高 altitude halt
 1. alter(n):其他的 alternative alternate
 1. amat：爱 amateur
-1. amb(i)：周围，两边 ambitious ambiguity ambassador
+1. amb(i)/emb：周围，两边 ambitious ambiguity ambassador embassy
 1. ambul：行走 ambulate ambulance 
 1. amount：数量 paramount
-1. amphi：amphibious
+1. amphi：两 amphibious
 1. ampl：大 amphlify
 1. an/ante：前面 ancestor
-1. an：没有 anecdote
+1. an：没有 anec anecdote
 1. ana：分开 anatomy
 1. ana：类似 analogy
-1. anim：精神 unanimous
-1. anmin：生命 animate
+1. anim：精神，生命 animate unanimous
 1. anthrop：人类 anthropologist
-1. anti：反 antibiotic antique
+1. anti：反 antibiotic 
 1. anti：在..之前 anticipate
 1. antique：古代的 antiquity antiquate
-1. apt：适宜的，易于..的 adapt adptitude
+1. apt：适宜的，易于..的 adapt adaptitude
 1. aqu(a)：水 aquarium
 1. ar：犁地 arable
 1. ar：增加 arrogance
 1. arbor：树 arboreal
 1. arc：弓 arcade
-1. arch：hierarchy
+1. arch：统治，统治者，主要的 hierarchy
 1. arid：干旱 aridity
 1. arithm：数字 arithmatic
-1. art：技巧 artefact
+1. art(i)：技巧 artefact artificial
 1. arthr：连接 arthritis
-1. arti：技巧 artificial
 1. as：接近 assemble assist
 1. as：向 assault
 1. ass：做 ambassador embassy
 1. assur：保 ascurance
-1. astro：星 astrology catastrophe disastrous astronaut
+1. astro：星 astronaut astrology disastrous
 1. au：鸟 augur inaugurate
 1. aud：大胆的 audacious
-1. aud：听 auditorium audition audit
+1. aud：听 audit audition auditorium
 1. aug：增加 augment
-1. authentic：真的 authenticate
-1. auto：自己 autobiograph
+1. auto：自己 autobiograph authentic
 1. aval：向下 avalanche
 1. avi：鸟 aviation
 
@@ -91,24 +85,22 @@ tags:
 1. balc：树干 balcony
 1. ban：禁止 banner
 1. bank：河堤，岸 embankment
-1. bar(r)：栏 barrier barrel
+1. bar(r)：条，棒（引申为栏） barrier barrel barrage
 1. bar：光秃秃 barren
 1. bar：重，压 barometer baron
 1. barb：条，棒 barbecue
 1. barbar：胡说 barbaric
 1. bark：船 embark
-1. barr：条，棒 barrage
-1. bat：打 debat
-1. bat：走 acrobat combat
+1. bat：打 debat combat
+1. bat：走 acrobat 
 1. bate：减少 abate
 1. be：使 bereave
 1. bed：床 embed
 1. bene：好 benifit benificial benevolent
-1. bever：beverage
+1. bever：喝 beverage
 1. bezzle：吞没 embezzle
 1. bi：生命 amphibious
-1. bid：请求 abide abode
-1. bide：停留 abide
+1. bid：请求 bid bide abide abode
 1. blemish：污点 unblemished
 1. born：出生 inborn
 1. boss：突出 emboss
@@ -116,10 +108,10 @@ tags:
 1. brac：胳膊 embrace
 1. break：超过 breakwater
 1. bris：破开 debris
-1. broch：刺 bruchure
+1. broch：刺 brochette brochure
 1. bronch：气管 bronchitis
 1. brute：畜生 brutal
-1. bryo：embryo
+1. bryo：胚胎 embryo
 1. bund：接近的 moribund
 1. bureau：桌子 bureaucracy
 1. burg：城堡 burglar
@@ -128,27 +120,23 @@ tags:
 ###### C
 1. cad：落下 cascade
 1. calc：石灰 calcium recalcitrant caulk
-1. camp：营地 campus campfire campaign
-1. camper：露营者 scamper
+1. camp：营地 campus camper(scamper) campfire campaign
 1. cant：弯，角落 canteen
-1. cap：盖 handicap cater
-1. cap：抓拿 incapacitate
+1. cap：盖 handicap 
+1. cap(t)：抓拿 capture captive captivity incapacitate cater
 1. capit：头 decapitate
 1. caps：头 capsize
 1. caps：箱子 capsule
-1. capt：抓住 capture captive captivity
 1. cardio：心 cardiovascular
 1. cas：掉落 casual casualty cascade
-1. case：容器 encase caseette
-1. case：手提箱 briefcase
+1. case：容器 encase casette briefcase
 1. cata：向下 catastrophe catalogue
 1. caust；烧 caustic
 1. cav：洞 excavate concave
 1. cay：落下 decay
 1. ceal：隐藏 conceal
-1. ced：走 procedure concede precedent precede
-1. ceed：走 proceed succeed exceed
-1. ceiv：拿住 perceive deceive conceive
+1. ce(e)d：走 succeed exceed proceed procedure concede precedent precede
+1. ceiv：拿住 conceive deceive perceive
 1. cel：天空 celestial
 1. celer：快速的 accelerate
 1. cend：发白光 incendiary
@@ -156,12 +144,12 @@ tags:
 1. cens：评价，审查 censor censure
 1. cent：唱歌 incentive
 1. centr：中心 eccentric
-1. cept：拿，抓 perception deception concept misconception
+1. cept：拿，抓 concept deception perception misconception
 1. cern：分开 discerning secern concern
-1. cert：确定，区分 ascert certify concert
+1. cert：确定，区分 ascertain certify concert
 1. cervic：颈 cervical
-1. cess：走 succession access process procession accessory concession
-1. cest/cess：走 ancestor
+1. cess：走 access accessory process procession concession succession 
+1. cest：走 ancestor
 1. chant：唱歌，念咒 enchant disenchant
 1. char：烧焦 charcoal
 1. char：珍爱 charity
@@ -173,7 +161,7 @@ tags:
 1. cid：切 coincide
 1. cine：移动，电影 cinema
 1. ciner：灰 incinerate 
-1. cip：拿 anticipate municipal principle disciple discipline
+1. cip：拿 anticipate municipal principle discipline disciple
 1. cipher：密码 decipher
 1. cipit：头 precipitation
 1. circ：圆 circus
@@ -188,19 +176,15 @@ tags:
 1. clos：关 enclose
 1. clud/clus：关闭 conclude seclude exclude exclusion
 1. col：耕种 colony colon
-1. com：带有 commisrate
+1. com：带有 commiserate
 1. commod：方便 accommodate
-1. compet：竞争 competent 
-1. con：共同 confuse
-1. con：全部 conquer condone
-1. consort：陪伴 consortium
-1. consult：请教，查阅 consultant
-1. contri：相反 contrived 
+1. con：共同，全部 confuse conquer condone
+1. contri：相反 contrive contrived 
 1. contro：相反 controversy
 1. cop：砍 coupon
 1. cor：完全 corrupt
 1. cord：心 cord
-1. corp：身体 corpus corporal coporate incorporate
+1. corp：身体 corpus corporal corporate incorporate
 1. cosm：宇宙 cosmic microcosm
 1. coun：强调 council counsel counsellor
 1. count：计算 伯爵 county
@@ -208,19 +192,17 @@ tags:
 1. cour：精神 discourage
 1. cour：跑 scour
 1. course：路线 recourse
-1. court：花园（引申为朝廷、阿谀奉承） discourteous courtship
+1. court：花园（引申为朝廷、阿谀奉承） courtship discourteous
 1. cracy：统治 cracy
 1. craft：技术 spacraft
 1. crastin：明天 procrastinate
-1. crat：管理者 democrat
-1. crat：统治 autocratic
+1. crat：管理者，统治 democrat autocratic
 1. cre：产生，生长 create recreate concrete decrease 
-1. cred：相信 incredible credit discredit accredit credential
+1. cred：相信 credit(credential) incredible discredit accredit 
 1. creet：清楚 discreet
-1. crep：发出破裂声 discrepancy
-1. crepit：破裂 decrepit
+1. crep(it)：破裂,发出破裂声 decrepit discrepancy
 1. cret：分开 excrete excreta
-1. cri(t)：判断 criterion critical critic criticise
+1. cri(t)：判断 critic criticise critical criterion
 1. crim：罪 crime
 1. crimin：分开 discriminate
 1. croach：钩子 encroach
@@ -232,9 +214,8 @@ tags:
 1. cult：种植 cultivate
 1. cumb：躺 succumb
 1. cumul：堆积 cumulative
-1. cur：关心 curiously
+1. cur：关心，治疗  curiously curative
 1. cur：跑 concur incur corridor excurtion currency curriculum carousel
-1. cur：治疗 curative
 1. curl：使卷曲 curly
 1. curricular：课程的 extracurricular
 1. curt：短 curtail
@@ -275,8 +256,7 @@ tags:
 1. don：给予 donate condom condone dose
 1. dorm：睡 drom dormat
 1. dors：背 endorse
-1. dot：给予 antidot anecdote
-1. dote：溺爱 anecdote
+1. dot：给予 dote antidot anecdote
 1. dox：观点 orthedox
 1. dra：推动 dramatic
 1. drain：排水 drainage
@@ -458,7 +438,7 @@ tags:
 1. ice：冰 slice
 1. ident：相同 identical
 1. ident：一样的 identification
-1. ig：开 ambiguity
+1. ig：做 ambiguity
 1. ig：缺少 indigence indigent
 1. illusion：幻想 disillution
 1. im：进入，使 implement imperil
@@ -548,12 +528,11 @@ tags:
 1. magn：巨大的 magnitude
 1. main：手 maintain
 1. maj：大 major majesty
-1. mal：坏 maltreat
-1. male：恶 malevolent
+1. mal(e)：坏，恶 maltreat malevolent
 1. malle：锤子 malleable
 1. mamm：乳房 mammal
 1. man：逗留 mansion manor
-1. man：流动 permanent mansion
+1. man：流动 permanent
 1. man：手 manoeuvre manage manageable
 1. mand：命令 demand mandarin
 1. mani：手 manipulate manifest
@@ -568,9 +547,8 @@ tags:
 1. mechan：机械 mechanic
 1. med：治疗 remedy
 1. medi：中间 medieval mediocre mediterranean medium
-1. memor：记忆 menmorandum memorable
-1. men：伸出，突出（引申为引导、威胁） menace
-1. men：引导 commence
+1. memor：记忆 memorandum memorable
+1. men：伸出，突出（引申为引导、威胁） menace  commence
 1. mens：测量 dimension immense
 1. ment：想法 comment mental mentor
 1. mer：部分，分配 emeritus
@@ -579,14 +557,13 @@ tags:
 1. mery：浸没 emerge submerge
 1. meta：改变 metaphor 
 1. meteor：陨石，天气 meteorology
-1. meter：测量 diameter
-1. metr：测量 optomertist
+1. meter/metr：测量 diameter optomertist
 1. mid：中间的 midst
-1. migr：迁移 immigrant migrate migrant
+1. migr：迁移 migrate migrant immigrant
 1. milit：打架 militant
 1. mill：磨坊 treadmill
 1. mim：模仿 mime 
-1. min：突出 prominence prominent eminent 
+1. min：突出 eminent prominent prominence 
 1. min：小 diminish 
 1. mine：挖 undermine
 1. ming：混合 mingle
@@ -594,26 +571,21 @@ tags:
 1. mis：放，送 premise promise
 1. mis：坏的，错的 mishandle
 1. miser：同情 miserable commiserate
-1. miss：送 commission admission dismiss missile
-1. mit：发送 vomit
-1. mit：送 commit commitment transmit emit
+1. miss：送 admission dismiss missile mission(commission)
+1. mit：发送 commit commitment transmit emit vomit
 1. mix：混合 mixture
-1. mod：样式 commodity modish moderate
-1. mol：磨 demolish
-1. mol：推 demolition
+1. mod：样式 moderate commodity modish
+1. mol：堆 demolish  demolition
 1. mon：忠告 monitor
 1. mono：单个 monopoly
 1. monstr：展示 demonstrate
 1. monu：警告 monument
-1. mor：风俗 moral
-1. moral：道德的 morality
-1. mori：死 moribund
+1. mor：风俗，道德的 moral morality
 1. morph：形状 amorphous 
-1. mort：死亡 mortality
+1. mort/mori：死亡 mortal immortal mortality mortify mortgage moribund 
 1. mot：移动 motive motion
 1. mud：泥 muddle
-1. mun(i)：服务 community municipal remunerate
-1. mun：作用 immune
+1. mun(i)：服务，公共的 community municipal remunerate immune
 1. mund：世界 mundane
 1. muni：服务 municipal
 1. mut：变(move) mutual transmute commute
@@ -642,23 +614,20 @@ tags:
 ###### O
 1. ob：逆 obsession obstruct
 1. obey：服从 disobey
-1. obtrusive：突出的 unobtrusive
-1. ocul：眼睛 binoculas
+1. ocul：眼睛 binoculars
 1. od：路 exodus
 1. ole：油 petroleum
-1. op：财富 opulant
+1. op：工作（引申为财富） opulent
 1. opa：不透明 opaque
 1. opt：选择 option
 1. opt：眼睛 optical
 1. optim：最好 optimum optimistic
-1. opul：工作 opulent
 1. orb：轨道 orbit exorbitant
 1. order：命令 border
 1. ordin：顺序 subordinate coordinate
-1. ori：产生 origin 
-1. orient：使适应 reorient
+1. ori：产生 origin orient(reorient)
 1. oriety：多 notoriety
-1. orn：装饰 ornament
+1. orn：装饰 ornament adorn
 1. ought：应该 drought
 1. out：超过 outdo
 1. oxy：酸 oxygen
@@ -695,7 +664,7 @@ tags:
 1. peri：周围 periphery
 1. pert：带 repertoire
 1. pest：瘟疫 pesticide
-1. pet(u)：寻找，追求 appetitive perpetual impetus perpetuate
+1. pet(u)：寻找，追求 impetus compet(competent) perpetual(perpetuate) appetitive
 1. petr：岩石 petroleum
 1. phas：说 emphasize
 1. phe：说 prophecy
@@ -789,7 +758,7 @@ tags:
 1. re：反，相对 resist reluctant
 1. re：一再 reclaim
 1. real：真正的 realm
-1. reav：掠夺 berave
+1. reav：掠夺 bereave
 1. rec：向后 reciprocate
 1. reck：注意 reckon
 1. rect：直的 rectangular
@@ -878,6 +847,7 @@ tags:
 1. soli(d)：坚固，完整 solicit solidary consolidate
 1. soph：聪明 sophist sophistic sophistry
 1. sorb：吸收 absorb
+1. sort：种类 consort consortium
 1. spec(t)：看 speculate prospective prospectus spectator suspect spectacular expect respite
 1. speci：外观，种类 species special specimen
 1. sper：希望 desperate prosper prosperous
@@ -904,7 +874,7 @@ tags:
 1. stil：掉 instil
 1. stinct：刺 distinct instinct
 1. stip：一起按压 stipulate
-1. stit(u)：站立 institue constitute substitute superstitious
+1. stit(u)：站立 institue constitute substitute superstitious prostitute
 1. stock：东西 livestock
 1. ston：石头 astonish
 1. strain：拉紧 restrain constrain 
@@ -918,6 +888,7 @@ tags:
 1. sue：跟随 pursue ensue
 1. sui：自己 suicidal
 1. suit：起诉 lawsuit
+1. sult：带来，召集 consult consultant
 1. sum：拿，取 assume resume presume
 1. summ：总的 summary summit
 1. sumpt：使用 consumption
@@ -994,11 +965,12 @@ tags:
 1. trig：小障碍物 intrigue
 1. trip：旅行 strip
 1. triumph：胜利 triumphant
+1. triv：转，寻找 contrive
 1. trop(o)：转 tropical troposphere
 1. troph：营养 dystrophy
 1. tru：真实，相信 truce trust entrust
 1. trud：伸出 protrude
-1. trus：刺 intrusion extrusion
+1. trus：推，刺 intrusion extrusion obtrusive(unobtrusive)
 1. try：审判，实验 trial
 1. turb：晃动 turbine turbid
 1. twine：缠绕 entwine
@@ -1026,6 +998,7 @@ tags:
 1. vas：走 pervasive
 1. vascular：血管的 cardiovascular
 1. vast：空，广阔 devastate
+1. van/advan：前面  van advance advantage
 1. veget：醒着的，活着的 vegetate vegetablere vegetarian
 1. veil：看 surveillance
 1. veloc：快 velocity
@@ -1036,7 +1009,7 @@ tags:
 1. ver：真实：verdict verify
 1. verb：言语 verbal
 1. verg：转 diverge
-1. vers：转 diverse versatile
+1. vers：转 diverse versatile controversy
 1. vert：转 invert divert diversion converse controversial extrovert introvert
 1. veter：老 veterinary vet
 1. vey：搬运 convey
@@ -1122,7 +1095,7 @@ tags:
 1. cloth sloth
 1. clutch catch
 1. coffer coffin
-1. commit commute commerce
+1. commit comment commute commerce commence commission
 1. conditioner container
 1. conductive inductive reasoning
 1. corps cops
