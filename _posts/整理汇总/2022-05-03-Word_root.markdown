@@ -545,7 +545,6 @@ tags:
 1. lys：分开 analyse paralysis
 
 ###### M
-1, mol：推 demolition
 1. magn：巨大的 magnitude
 1. main：手 maintain
 1. maj：大 major majesty
@@ -601,6 +600,7 @@ tags:
 1. mix：混合 mixture
 1. mod：样式 commodity modish moderate
 1. mol：磨 demolish
+1. mol：推 demolition
 1. mon：忠告 monitor
 1. mono：单个 monopoly
 1. monstr：展示 demonstrate
