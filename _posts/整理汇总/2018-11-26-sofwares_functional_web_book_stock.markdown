@@ -160,6 +160,7 @@ tags:
 1. [eja.tv:全世界可以网上免费观看的电视频道](https://eja.tv/)
 1. [实时语音克隆 - 中文/普通话](https://github.com/babysor/MockingBird/blob/main/README-CN.md)
 1. [音频在线编辑](https://vocalremover.org/ch)
+1. [微信视频号视频下载器](https://github.com/xuncv/WeChatDownloader)
 
 
 ### 视频下载
