@@ -784,7 +784,7 @@ tags:
 1. sacr：神圣 sacrifice
 1. sal：盐 saline
 1. san(it)：健康的 sanitate sanitation insane
-1. sanct：神圣 sancturary sanction
+1. sanct：神圣 sanction sanctuary
 1. sat：充足 saturate 
 1. sault：跳 assault
 1. sav：品尝 savour
