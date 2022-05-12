@@ -144,7 +144,7 @@ tags:
 1. cens：评价，审查 censor censure
 1. cent：唱歌 incentive
 1. centr：中心 eccentric
-1. cept：拿，抓 concept deception perception misconception
+1. cept：拿，抓 concept(misconception) deception perception susceptible  
 1. cern：分开 discerning secern concern
 1. cert：确定，区分 ascertain certify concert
 1. cervic：颈 cervical
@@ -695,7 +695,7 @@ tags:
 1. popul：人 populate populace
 1. port：搬运 transport portable
 1. portion：部分 proportion apportion 
-1. pos：放 deposit disposal impose predispose positive posture compose
+1. pos：放 propose deposit disposal impose predispose positive posture compose
 1. poss：有力的 possess
 1. post：放置，柱，岗 outpost signpost compost
 1. pot：喝 potion poison symposium
@@ -754,7 +754,7 @@ tags:
 1. reck：注意 reckon
 1. rect：直的 rectangular
 1. red：反复 redundant
-1. reg：统治 regent
+1. reg：直的，规则，统治 regent regular irregular
 1. regard：关心 disregard
 1. relent：变温和 relentless
 1. rend：给 render rendition
@@ -772,8 +772,8 @@ tags:
 1. rope：绳子 grope
 1. rot：旋转 rotate
 1. rouse：激励 arousal
-1. rub：摩擦，擦伤 shrub scrub
-1. rud：天然的 rude rudimentary crude
+1. rub：摩擦，擦伤 shrub scrub rubble rubbish
+1. rud：天然的 rude crude rudimentary 
 1. run：跑 brunt
 1. rupt：断裂 irrupt corrupt erupt bankrupt 
 1. rur：乡村 rural
@@ -791,36 +791,33 @@ tags:
 1. scen(e)：设置 scenery obscene
 1. scend：爬 descend
 1. scent：香味 crescent
-1. scept：看 sceptic sceptial
+1. scept：看 sceptic sceptical
 1. sci：知道 conscious conscience
-1. scrib：写 ascribe circumscribe transcribe inscribe
-1. script：写 prescription 
+1. scrib/script：写：写 inscribe ascribe prescribe(prescription) circumscribe transcribe 
 1. sculp：雕刻 sculpture
 1. scur：盖上 obscure
 1. se：分开 seduce seclude
 1. sect：切割 section
-1. secut：跟随 procesute
+1. secut：跟随 procecute
 1. sed：坐 supersede sedentary
 1. seg：切割 segment
 1. sel：带来 counsel
 1. sem：符号，意义 semantic
 1. sembl：一样 assemble resemble
-1. semin：种子 dissemination disseminate
-1. sens(e)：感觉 sensation sensible concensus sensate sensation sensory
-1. sent：感觉 resent sentient sentiment consent
+1. semin：种子 disseminate  dissemination
+1. sens(e)：感觉 sensation sensate sensory sensible consensus
+1. sent：感觉 sentient sentiment consent resent
 1. sept：腐烂的 antiseptic
 1. sequ：跟随 subsequent
 1. sert：放置，安排 assert insert dissert
-1. serv：保持 conserve conservation observe preserve
-1. serv：服务 deserce
-1. sess：坐 obsession assess
+1. serv：保持 observe preserve conserve(conservation)
+1. serv：服务 subserve disserve deserve
+1. sess：坐 assess obsession 
 1. set：布置 setting upset
-1. she：她 sheer
 1. shut：关 shuttle
-1. sid：坐 subside subsidiary subsidy insidious reside residential
+1. sid：坐 subside subsidiary subsidy reside(residential) insidious
 1. sign：符号 signpost consign
-1. simil：相同 facsimile assimilate
-1. simul：相同 simultaneously assimilate
+1. simil/simul：相同 facsimile assimilate simultaneously
 1. sinist：左边 sinister
 1. sist：站 insist persist resist consist
 1. sland：障碍物 slander
@@ -829,22 +826,21 @@ tags:
 1. snob：势力的人 snobbish
 1. soci：结交 associated
 1. sod：路 episode
-1. sol：太阳 solemn solar
+1. sol：太阳 solar solemn
 1. sole：安慰 console
 1. soli(d)：坚固，完整 solicit solidary consolidate
 1. soph：聪明 sophist sophistic sophistry
 1. sorb：吸收 absorb
 1. sort：种类 consort consortium
-1. spec(t)：看 speculate prospective prospectus spectator suspect spectacular expect respite
+1. spec(t)：看 respect expect respite suspect speculate prospectus prospective spectacular spectator    
 1. speci：外观，种类 species special specimen
-1. sper：希望 desperate prosper prosperous
+1. sper：希望 desperate prosper(prosperous)
 1. sphere：层 troposphere
-1. spir：呼吸 aspiration expire expiry
+1. spir：呼吸 aspiration expire(expiry)
 1. spire：塔尖 aspire
 1. spirit：精神 dispiriting
 1. splend：明亮 splendid
-1. spoil：变质 spoilage
-1. spoil：掠夺 despoil
+1. spoil：掠夺，变质 despoil spoilage
 1. spond：回答，约定 respond correspond
 1. spore：播撒，种子，孢子 sporadic
 1. spring：弹跳，生长 offspring
@@ -861,17 +857,17 @@ tags:
 1. stil：掉 instil
 1. stinct：刺 distinct instinct
 1. stip：一起按压 stipulate
-1. stit(u)：站立 institue constitute substitute superstitious prostitute
+1. stit(u)：站立 institute constitute substitute superstitious prostitute
 1. stock：东西 livestock
 1. ston：石头 astonish
 1. strain：拉紧 restrain constrain 
 1. strate：层 substrate
 1. string：捆绑 stringent
 1. strophe：转 catastrophe
-1. struct：建立 destruction construct instruct obstruct
+1. struct：建立 instruct construct obstruct destruction
 1. suad：甜的 persuade
-1. sub：在下面 subtle substantial sub-strate sub-stract substation
-1. suc：在下面 succeed succumb
+1. sub：在下面 subtle substantial substrate subtract substation
+1. suc/sus：在下面 succeed succumb susceptible
 1. sue：跟随 pursue ensue
 1. sui：自己 suicidal
 1. suit：起诉 lawsuit
@@ -882,7 +878,6 @@ tags:
 1. sur：超过 surpass
 1. surd：耳聋（听不懂） absurd
 1. surg：外科 surgeon
-1. sus：加强 susceptable
 1. sus：在下面 suspend sustain 
 1. syn：一起 synthetic
 
@@ -905,6 +900,7 @@ tags:
 1. templ：庙 contemplate
 1. tempor：时间 contemporary
 1. tempt：藐视 contempt contemn
+1. tempt：尝试 tempt attempt
 1. ten：维持，持有 tenable tenant
 1. tend：趋势 pretend
 1. tend：伸展 tendency pretension intense tender
@@ -1088,6 +1084,7 @@ tags:
 1. count county country
 1. crank曲柄转动，性情古怪 crash crack
 1. crew crow craw crawl creep
+1. cripple跛  grapple
 1. cue hint clue
 1. custom习俗 accustom customer costume服装
 1. dash猛冲 crash撞 crush碾碎
@@ -1107,6 +1104,7 @@ tags:
 1. flame火焰 flap拍打 flip快速翻转 flick轻弹 flicker闪烁
 1. favour恩惠 flavour特色，调味 flour面粉
 1. fleet舰队，掠过 flee逃跑
+1. fish flesh
 1. brow眉毛，山脊 frown皱眉
 1. gallop奔驰 gallon
 1. glide slide
@@ -1175,7 +1173,7 @@ tags:
 1. strip条 strap带
 1. stripe strip 
 1. strive斗争 strife争斗
-1. stroke打击 strike打击 stick刺(stitch缝合) stink恶臭 stint定额 strict stake打桩 strand海岸，搁浅，绳股
+1. stroke打击 strike打击 stick刺，粘(stitch缝合) stink恶臭 stint定额 strict stake打桩 strand海岸，搁浅，绳股
 1. stuff staff
 1. subjective objective
 1. subside precipitate
