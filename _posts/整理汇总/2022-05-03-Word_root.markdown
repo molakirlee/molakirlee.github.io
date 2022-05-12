@@ -239,7 +239,6 @@ tags:
 1. dem：人民 epidemic democracy
 1. dem：伤害，诅咒 condemn
 1. dent：齿，咬合 indent
-1. der：给 render
 1. di：分开 diverse diverge
 1. dial：刻度盘 sundial
 1. dic：分配 dedicate predict
@@ -382,6 +381,7 @@ tags:
 1. gno：知道 diagnose ignorance
 1. gorge：峡谷 gorgeous
 1. gran：颗粒 granite
+1. grap：钩子 grape grapnel grapple
 1. graph：书写 graphic
 1. grat：感谢 gratitude
 1. grav：重的 aggravate
@@ -623,8 +623,9 @@ tags:
 1. opt：选择 option
 1. opt：眼睛 optical
 1. optim：最好 optimum optimistic
+1. ora：说 orate
 1. orb：轨道 orbit exorbitant
-1. order：命令 border
+1. order：命令 border ordain
 1. ordin：顺序 subordinate coordinate
 1. ori：产生 origin orient(reorient)
 1. oriety：多 notoriety
@@ -634,34 +635,30 @@ tags:
 1. oxy：酸 oxygen
 
 ###### P
-1, pass：忍受，引申为感情 passion passionate compassion
 1. pact：系紧 compact
 1. pag：扎牢，系牢 propagate
-1. pair：相等 impair
+1. pair：更糟 impair
 1. pal：白色 appal
 1. pan：面包 company accompany companion
-1. par(a)：并列 parallel apparatus apparat paralysis unparalleled
-1. par：平等 comparrable disparage
+1. par(a)：并列，平等 parallel(unparalleled) apparatus(apparat) paralysis comparrable disparage
 1. par(l)：说话 parlor parley parliament
 1. part：部分 impart counterpart
 1. part：分开 apart particular particulate 
+1. pass：忍受，引申为感情 passion passionate compassion
 1. pass：通过 compass encompass surpass
 1. past：喂养 pasture
 1. path：病痛 pathology
 1. path：感觉 sympathy
-1. patr：父亲，祖国 repatriate compatriot patriot patrol
+1. patr：父亲，祖国 patrol patriot(compatriot) repatriate  
 1. patron：赞助人 patronage
 1. pave：铺设 pavement
-1. pe(a)l：推 expel repel propel compel appeal
-1. ped：脚 expedition impede pedestrian pedal
+1. pe(a)l：推 compel repel expel propel appeal
+1. ped：脚 pedal pedestrian impede expedition
 1. pen：刑事的，惩罚 penalty penalize
-1. pend：悬挂 suspend compendium indispensable interdepend
-1. pens：支付，偿还 expense pension compensate dispenser
-1. pens：重量 dispense
-1. per：贯穿 permanent perception
+1. pend：悬挂 depend interdepend indispensable suspend compendium 
+1. pens：悬挂沉重（引申为支付，偿还） pension expense dispense dispenser compensate poise
+1. per：贯穿，始终 permanent persist perpetuate pervasive perplex perceive(perception) persuade permeate
 1. per：冒险 imperil
-1. per：始终 persist perpetuate 
-1. per：完全 perceive permeate perplex pervasive persuade
 1. peri：周围 periphery
 1. pert：带 repertoire
 1. pest：瘟疫 pesticide
@@ -679,7 +676,7 @@ tags:
 1. pill：药丸 spill
 1. pine：松树 spine
 1. pit：坑 spit
-1. plagi：斜的 plagiarism plagiarise
+1. plagi：斜的 plagiarise plagiarism
 1. plas：模式，展开 plaster
 1. plat：平 plateau
 1. plaud/plaus：击，打，拍掌 applaud plausible
@@ -697,31 +694,28 @@ tags:
 1. pon：放 postpone
 1. popul：人 populate populace
 1. port：搬运 transport portable
-1. portion：部分 apportion proportion
-1. pos：放 compose positive disposal impose predispose deposit posture
+1. portion：部分 proportion apportion 
+1. pos：放 deposit disposal impose predispose positive posture compose
 1. poss：有力的 possess
-1. post：放置，柱，岗 outpost signpost  compost
+1. post：放置，柱，岗 outpost signpost compost
 1. pot：喝 potion poison symposium
 1. pound：放置 compound
 1. pover：贫困 impoverish 
 1. prag：做 pragmatic
 1. prais：价 appraisal 
 1. pre：领先，前面 prevalence preface
-1. prec：祈祷 precarious
-1. preci：价值 appreciate
-1. pred：掠夺 predatory predator
+1. prec：祈祷 pray precative precarious deprecate
+1. prais/preci/pret：价值 appraise praise appreciable appreciate interpret
+1. pred：掠夺 predator predatory 
 1. prehens：抓住 comprehensive
-1. pren：拿住 entrepreneur
 1. press；压 depress depression
-1. pret：价值 interpret
 1. pri：单个 privilege
-1. prim：第一 primitive prime prior
-1. prin：第一 principle
-1. pris：握住 enterprise enterpreneur prison
-1. priv：私有 deprive privacy
+1. prim/prin：第一 prior prime primitive principle
+1. pris/pren：握住 prison enterprise enterpreneur 
+1. priv：私有 privacy deprive 
 1. pro：向前 process reciprocate
 1. proach：接近 reproach
-1. prob：检查 probation probe
+1. prob：检查 probe probation 
 1. profit：利益 profitable
 1. promise：保证 compromise
 1. propr：自身的 appropriate
@@ -730,20 +724,19 @@ tags:
 1. prox：近 approximate
 1. psych：精神 psychiatry
 1. pto：掉下 symptom
-1. puls：推 compulsory compulsive impulse
+1. puls：推 impulse compulsive compulsory 
 1. pulver：粉尘 pulverise
-1. punct：刺 punctual
-1. punct：尖 puncture acupuncture
+1. punct：尖，点，刺 puncture acupuncture punctual
 1. pur：干净的 purify
 1. pur：向前 pursue
-1. put：思考，想 dispute reputation reputable deput
+1. put：思考，想 depute dispute reputation(reputable) 
 
 ###### Q
 1. quaint：知道 acquaint
-1. quer/quir：询问 conquer enquire requir unconquerable
+1. quer/quir：询问 conquer(unconquerable) require enquire/inquire  
 1. quest：找 conquest
-1. qui(l)：安静 quite acquiesce requiem tranquil
-1. quisit：要求 prequisite requisite
+1. qui(l)：安静 quite tranquil acquiesce requiem 
+1. quisit：要求 requisite prequisite 
 
 ###### R
 1. rac：种族 race racial
@@ -764,29 +757,25 @@ tags:
 1. reg：统治 regent
 1. regard：关心 disregard
 1. relent：变温和 relentless
-1. ren：回 render
 1. rend：给 render rendition
 1. rept：爬 reptile
 1. resile：弹回 resilient
 1. rid：笑 ridiculous
-1. rig：大 irrigation
-1. rig：要求 rigous
-1. rig：直的，正确的 rightous
+1. rig：雨 irrigate irrigation
+1. rig：直的，正确的 rigid(rigor) rigorous rightous
 1. ring：铃 string
-1. rit：擦 irritable irritate
-1. riv：河，流动 derive rival
-1. rod：咬 corrode 
+1. rit：擦 irritate irritable
+1. riv：河，流动 rival derive
+1. rot/rod/ros：咬 rot corrode erosion
 1. rog：要求 arrogance
 1. roll：名单 enroll
 1. rope：绳子 grope
-1. ros：咬 erosion 
-1. rot：撕咬 rot
 1. rot：旋转 rotate
 1. rouse：激励 arousal
 1. rub：摩擦，擦伤 shrub scrub
 1. rud：天然的 rude rudimentary crude
 1. run：跑 brunt
-1. rupt：断裂 corrupt erupt bankrupt irrupt
+1. rupt：断裂 irrupt corrupt erupt bankrupt 
 1. rur：乡村 rural
 1. ruth：怜悯 ruthless
 
@@ -1112,7 +1101,7 @@ tags:
 1. ensue接着发生 ensure
 1. equity公正 inequity不公正 iniquity极不公正,邪恶
 1. external eternal不朽
-1. fallow休闲 follow flood
+1. fallow休闲 follow flood harrow耙地，折磨
 1. fancy爱好，想象 fantasy幻想
 1. fauna flora
 1. flame火焰 flap拍打 flip快速翻转 flick轻弹 flicker闪烁
@@ -1123,7 +1112,7 @@ tags:
 1. glide slide
 1. grant授予 grand重大的 gland腺 grind碾碎
 1. grim严肃 grime/begrime弄脏 grimy 
-1. grip紧握 grasp紧握，理解 grass草地 graze放牧
+1. grip grasp graspple紧握 grass草地 graze(pasture)放牧
 1. groan moan呻吟，抱怨
 1. grove小树林 groove沟槽 groom新郎，马夫，刷洗动物
 1. greet欢迎 greed贪婪 grease油脂 greece(greek) grew/grow
@@ -1147,10 +1136,11 @@ tags:
 1. pamper娇惯 pepper
 1. pest plague
 1. pitch投，推销，沥青，球场 peach
-1. pin大头针 pine松树
+1. pin大头针 pine松树 spine脊柱
 1. plow plough犁
 1. plushy luxurious opulent豪华的
 1. poll民意检测 toll伤亡，通行费
+1. posture姿势，立场 poise姿势。平衡
 1. pray prey捕食，猎物
 1. rank腐臭的 rancid腐臭的 
 1. lend借 rent租 rend撕裂
