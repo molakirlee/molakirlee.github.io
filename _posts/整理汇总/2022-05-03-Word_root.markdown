@@ -883,11 +883,10 @@ tags:
 
 ###### T
 1. tabl：平板 tablet
-1. tach：接触，连接 detach attach
+1. tach/tact：接触，连接 attach detach intact
 1. tack：钉 tackle
-1. tact：接触 intact
-1. tail：切割 retail curtail entail
-1. tain：拿住 attain retain maintain obtain entertain
+1. tail：切割 entail curtail retail  
+1. tain：拿住 attain obtain retain maintain entertain
 1. tain：支持 sustain
 1. take：带来 intake painstaking
 1. tale：传说 stale
