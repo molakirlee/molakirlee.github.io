@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      "2022-每周补脑6st"
+subtitle:   ""
+date:       2022-04-23 13:29:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2022
+
+
+---
+
+### 科研
+
+### 言论
+1. 就算吃不下、睡不着、笑不出来，你的问题会因此解决吗？世界会因此改变吗？肯定不会啊。既然如此，我为什么要折磨自己呢。反而是在精力充沛、保持清醒的时候，你才有办法平静地面对和解决遇到的问题。 -- Frank
+1. 兴趣爱好是一个跟现实无关的平行世界，你越是沉浸其中，就越会暂时忘却现实。现在很流行钓鱼，我觉得原因就与此有关。程序员这方面有天然优势，不妨多沉浸在技术世界，多搞清楚一些技术细节，提高技能。 -- Frank
+1. 很多名人传记，故事性很强，容易看进去。更重要的是，看看其他人的人生，你会明白遭遇苦难的并非你一个人，从中吸收信心，了解前人是怎么做的，吸取经验。我推荐阅读《约翰·克里斯朵夫》，要想心灵强壮，此书必读。 -- Frank
+1. 语文课总是偏爱讲授那些很美、很有诗意的散文和小说，这是不对的，就像篮球课不应该鼓励学生进行花哨的运球。写作最重要的目标是写得清楚，此后才考虑写得有诗意。-- David Perell
+
+### 看世界
+
+### 观点
+###### [103 Bits of Advice I Wish I Had Known](https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/)
+1. 永远不要为你不想成为的人工作。
+2. 不要犯同样的错误，尝试犯新的错误。
+3. 效率被高估了，休息被严重低估了。没有良好的休息，不可能有高效率。
+4. 不要追求更好的方法来尽快完成任务，而要追求更好的任务，让你做得不想停下来。
+5. 没有"准时"这回事，你要么迟到，要么早到。
+6. 回答"我要做什么？"，需要先回答"我要成为谁？"。
+
+###### [Writing and the Creative Life: What if…](https://scottdistillery.medium.com/writing-and-the-creative-life-what-if-683f80a5f04f)
+A big part of what if success is simply opening our eyes to what’s around us… and imagining new possibilities.
+
+Someone looked at a pencil and said, “What if we could put an eraser on one end?” Someone looked at a bar of chocolate and asked, “What if I broke it up into chocolate chips?” Someone looked at modeling clay and thought, “What if we made play ‘dough’ for children?”
+
+###### [That famous Pixar lunch of 1994](https://gointothestory.blcklst.com/that-famous-pixar-lunch-of-1994-2200a9f68afd)
+Imagine one meeting in which you come up with four great ideas, each of which becomes a hit movie. That happened with Pixar. 
+
+### 奇技淫巧
+
+### 荐书
+
+
+![](/img/wc-tail.GIF)

@@ -114,7 +114,7 @@ tags:
 1. bryo：胚胎 embryo
 1. bund：接近的 moribund
 1. bureau：桌子 bureaucracy
-1. burg：城堡 burglar
+1. burg：城堡 burgle burglar
 1. by：旁边 bypass
 
 ###### C
@@ -639,6 +639,7 @@ tags:
 1. pag：扎牢，系牢 propagate
 1. pair：更糟 impair
 1. pal：白色 appal
+1. pan：扩展 expand expanse patent(patency) spawn
 1. pan：面包 company accompany companion
 1. par(a)：并列，平等 parallel(unparalleled) apparatus(apparat) paralysis comparrable disparage
 1. par(l)：说话 parlor parley parliament
@@ -702,10 +703,10 @@ tags:
 1. pound：放置 compound
 1. pover：贫困 impoverish 
 1. prag：做 pragmatic
+1. prais/preci/pret：价值 appraise praise appreciable appreciate interpret
 1. prais：价 appraisal 
 1. pre：领先，前面 prevalence preface
 1. prec：祈祷 pray precative precarious deprecate
-1. prais/preci/pret：价值 appraise praise appreciable appreciate interpret
 1. pred：掠夺 predator predatory 
 1. prehens：抓住 comprehensive
 1. press；压 depress depression
@@ -722,7 +723,7 @@ tags:
 1. proto：首先 prototype
 1. prow：英勇的 prowess
 1. prox：近 approximate
-1. psych：精神 psychiatry
+1. psych：精神 psychiatry psychological
 1. pto：掉下 symptom
 1. puls：推 impulse compulsive compulsory 
 1. pulver：粉尘 pulverise
@@ -782,11 +783,11 @@ tags:
 
 ###### S
 1. sacr：神圣 sacrifice
+1. sal/sil/sul/sail/saul：跳 saltant salient assail assault exult resile insult consilient salacious result somersault
 1. sal：盐 saline
 1. san(it)：健康的 sanitate sanitation insane
-1. sanct：神圣 sanction sanctuary
+1. sanct：神圣 sanction sanctuary 
 1. sat：充足 saturate 
-1. sault：跳 assault
 1. sav：品尝 savour
 1. scen(e)：设置 scenery obscene
 1. scend：爬 descend
@@ -975,14 +976,15 @@ tags:
 1. vail：强壮 avail prevail
 1. val：价值 invalid prevalent devalue
 1. val：力量 equivalent prevalence
+1. van/advan：前面  van advance advantage
 1. var：改变 variety
 1. vas：走 invasion invasive
 1. vas：走 pervasive
 1. vascular：血管的 cardiovascular
 1. vast：空，广阔 devastate
-1. van/advan：前面  van advance advantage
 1. veget：醒着的，活着的 vegetate vegetablere vegetarian
 1. veil：看 surveillance
+1. vel/veal/veil：盖 veil reveal velar envelop develop 
 1. veloc：快 velocity
 1. ven：来 intervene venue revenue provenance
 1. veng：惩戒 avenge
@@ -1057,6 +1059,7 @@ tags:
 
 ### 近形词
 1. alert警报 alter更改
+1. alley allege allergy
 1. appeal申诉 appal使震惊
 1. artery vein
 1. blank blanket毯子，覆盖
@@ -1070,7 +1073,7 @@ tags:
 1. buck雄性动物 buckle搭扣
 1. bullet子弹 bulletin公告
 1. bump limp limb climb
-1. butter flutter
+1. butter flutter blockbuster
 1. carouse carousal carousel 
 1. cereal ceramic
 1. cloth sloth懒惰
