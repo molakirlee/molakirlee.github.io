@@ -102,6 +102,7 @@ tags:
 1. bi：生命 amphibious
 1. bid：请求 bid bide abide abode
 1. blemish：污点 unblemished
+1. bol：扩张，扔 bold bollix bole bollard bale boulder metabl- metabolic metabolism
 1. born：出生 inborn
 1. boss：突出 emboss
 1. bound：界限 abound
@@ -173,8 +174,7 @@ tags:
 1. clim：倾斜 climate acclimate
 1. clin：床 clinic
 1. clin：倾斜，弯曲 inclination decline
-1. clos：关 enclose
-1. clud/clus：关闭 conclude seclude exclude exclusion
+1. clud/clus/clos：关闭 conclude seclude preclude exclude precludeexclusion enclose(incluse) disclose
 1. col：耕种 colony colon
 1. com：带有 commiserate
 1. commod：方便 accommodate
@@ -556,7 +556,7 @@ tags:
 1. merc：交易 commerce merchandising
 1. merit：功绩 demerit
 1. mery：浸没 emerge submerge
-1. meta：改变 metaphor 
+1. meta：改变 metaphor metabl- metabolic metabolism
 1. meteor：陨石，天气 meteorology
 1. meter/metr：测量 diameter optomertist
 1. mid：中间的 midst
