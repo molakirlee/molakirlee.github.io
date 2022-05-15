@@ -815,6 +815,7 @@ var quotes = [
 'It is not enough to do good; one must do it the right way. - John Morley',
 'The very rememberance of my former misfortune proves a new one to me. - Miguel de Cervantes',
 'Don\'t let anyone ever make you feel like you don\'t deserve what you want.',
+'The real danger is that if we hear enough lies, then we no longer recognize the truth at all.',
 'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]
