@@ -304,7 +304,7 @@ tags:
 
 ###### F
 1. furb：擦亮 furbish refurbish
-1, furn：提供 furnish
+1. furn：提供 furnish
 1. fabul：说，预言 fabulous
 1. fac(t)：做 facilitate artefact facsimile faculty
 1. fac：面 facial
