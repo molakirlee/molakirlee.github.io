@@ -74,7 +74,9 @@ tags:
 8. 会议上最大限度地少用专业术语——不要用“协同作用”这个词！
 9. 编写一个经常使用的缩写词的列表，让新来者可以轻松地参与会议讨论。
 10. 在会议结束之际，请参会者一起决定谁该做什么工作、每个工作什么时候完成。形成文字总结，并加上任务截止时间和负责人，群发邮件。
+
 ### 后记
+
 这些内容与“小系统”很相似，尽量对自己日常工作建立成体系的小系统，最大限度节省时间和减少选择，当你反复改进这些系统之后，才能更好的管理精力和时间。
 
 尝试建立自己的小系统，想想都需要有哪些内容？
@@ -111,18 +113,8 @@ tags:
 马上将要投入到一天里最密集的工作中了。
 - **16:10-19:00 细致密集的工作：**
 四点到七点，身体和大脑都处于一天的巅峰状态，这时候我们应该做细致而密集的工作。做完这些别着急回家，
->花10分钟总结一下当天的工作：
->今天收获了哪些好创意
->
->积累了哪些经验
->
->学习了什么新工具
->
->验证了什么想法
->
->……
->每天10分钟反思，大器必将早成！
-
+花10分钟总结一下当天的工作：今天收获了哪些好创意、积累了哪些经验、学习了什么新工具、验证了什么想法……
+每天10分钟反思，大器必将早成！
 - **19:00 最佳的运动时间：**
 下班之后稍微吃点东西，晚饭不要吃太多，三分饱即可。
 晚饭后稍微歇一会儿再开始运动。
@@ -138,130 +130,128 @@ tags:
 放松睡一个好觉，明天又是美好的一天！
 
 ### 大学时间安排
-每天90分钟阅读书籍。  
-每天15分钟浏览自己所在或关心的专业领域新闻，并写出至少一条点评。  
-每天30分钟晨练。  
-每天30分钟外语听力训练。  
-每天10个新单词，40个复习单词。  
-每天不缺课，上课认真听讲适当做笔记，认真完成当天作业。  
-每天保持良好的卫生习惯。  
-每周参加一次公益或社团活动。  
-每周写一篇文章有关自己最新的心得体会收获与成长。  
-每月安排一次周末外出徒步或短途旅行，并且撰写心得总结。  
-每学期掌握一门新技能，如驾驶。  
-每个假期参加一个实习或者中远途旅行，并且撰写心得总结。  
-每年考取一个证书。  
-说一千遍，不如行动一遍。 改变自己的人生，从每天的努力开始，从做好每件小事开始。
+1. 每天90分钟阅读书籍。  
+1. 每天15分钟浏览自己所在或关心的专业领域新闻，并写出至少一条点评。  
+1. 每天30分钟晨练。  
+1. 每天30分钟外语听力训练。  
+1. 每天10个新单词，40个复习单词。  
+1. 每天不缺课，上课认真听讲适当做笔记，认真完成当天作业。  
+1. 每天保持良好的卫生习惯。  
+1. 每周参加一次公益或社团活动。  
+1. 每周写一篇文章有关自己最新的心得体会收获与成长。  
+1. 每月安排一次周末外出徒步或短途旅行，并且撰写心得总结。  
+1. 每学期掌握一门新技能，如驾驶。  
+1. 每个假期参加一个实习或者中远途旅行，并且撰写心得总结。  
+1. 每年考取一个证书。  
+1. 说一千遍，不如行动一遍。 改变自己的人生，从每天的努力开始，从做好每件小事开始。
 
 ### 相关阅读  
-[如何建立知识体系](http://mp.weixin.qq.com/s?__biz=MzA5NzQ2MjMxMQ==&mid=2705038520&idx=2&sn=d0dda6177e46fbf1f6f28a75a4734dec&chksm=b46f4df08318c4e660eab6919d2c1f4785fdc3b9c913d1fd1dca80e0813e4d8978661de6bf80&mpshare=1&scene=24&srcid=04116vDavQ2WUbRkzWds89xT#rd)  
-[45招练就最强大脑](https://mp.weixin.qq.com/s?__biz=MjM5NjM2MjA4NA==&mid=2650916047&idx=2&sn=ae673713baf9b9a040a45139a0653335&chksm=bd1f06c48a688fd21dd61f23faa0fbc3c2c818f5a4cc7afa86c05e20f573a680643dd4185f70&scene=0#rd)  
+1. [如何建立知识体系](http://mp.weixin.qq.com/s?__biz=MzA5NzQ2MjMxMQ==&mid=2705038520&idx=2&sn=d0dda6177e46fbf1f6f28a75a4734dec&chksm=b46f4df08318c4e660eab6919d2c1f4785fdc3b9c913d1fd1dca80e0813e4d8978661de6bf80&mpshare=1&scene=24&srcid=04116vDavQ2WUbRkzWds89xT#rd)  
+1. [45招练就最强大脑](https://mp.weixin.qq.com/s?__biz=MjM5NjM2MjA4NA==&mid=2650916047&idx=2&sn=ae673713baf9b9a040a45139a0653335&chksm=bd1f06c48a688fd21dd61f23faa0fbc3c2c818f5a4cc7afa86c05e20f573a680643dd4185f70&scene=0#rd)  
 
 
 ### 一些资源
 **外语学习**  
-[英语四级考试网](http://www.cet4v.com/)
-[英语六级考试网](http://www.cet6w.com/)
-[四六级考试网](http://www.cet-46.com/default.asp) 
-[中国雅思网](http://www.cnielts.com/)
-[无忧雅思网](http://www.51ielts.com/)
-[3G雅思网](http://www.3gbbs.com/)
-[中国考试网](http://www.sinoexam.com.cn/)
-[E学网](http://www.exue.com/)
-[旺旺英语](http://www.wwenglish.com/)
-[普特英语听力](http://www.putclub.com/)
-[中国英语学习网](http://www.24en.com/)
-[英语翻译吧](http://www.fanyi8.com/)
-[英文写作网 ](http://www.4ewriting.com/)
-[新东方网络课堂](http://www.tol24.com/)
-[英语周报](http://www.ew.com.cn/)
-[英语365](http://e365.cc163.net/)
-[英文早报](http://gzmp.dayoo.com/)
-[英语时空](http://www.yysk.net/)
-[中国英语学习网](http://www.24en.com/)
-[空中英语教室](http://www.kzyyjs.com/)
-[牛津英语网](http://www.oxford.com.cn/study/exam/major/)
-[考试大](http://www.examda.com/TEM/)
-[中国英语学习网](http://www.24en.com/tem/)
-[沪江网](http://www.hjenglish.com/down/list/113/)
-[新挑战国际英语](http://www.tzcool.com/List2.asp?BClassID=4&SClassID=18)
-[中国考题网](http://www.ksw123.com/index_54.shtml)
-[星沙英语](http://www.rr365.com/english/List_700.html)
-[大耳朵英语](http://www.ebigear.com/newslist-122-1.html)
-[真题网](http://www.pass-e.com/sort.php?sortid=25)
-[就学网](http://www.joxue.com/joxue/en/id11/)
-
-[择校学习网](http://www.zexiao.com)：出国学习外语,咨询等  
-[163考试网](http://www.test163.com)：要过CET的朋友要去看看，还有听力资料啊  
-[英语之声](http://www.4english.cn)：网上学习英语的好地方  
-[疯狂英语俱乐部](http://www.crazyenglish.org)：想了解疯狂英语吗?  
-[在线英语杂志](http://www.englishcn.com)：不错的地方  
-[英语写作网](http://www.4ewriting.com)：英语协作技巧等  
-[英语周报](http://www.ew.com.cn)：学习英语的好地方  
-[英语角](http://www.english-corner.com.cn)：看看吧
+1. [英语四级考试网](http://www.cet4v.com/)
+1. [英语六级考试网](http://www.cet6w.com/)
+1. [四六级考试网](http://www.cet-46.com/default.asp) 
+1. [中国雅思网](http://www.cnielts.com/)
+1. [无忧雅思网](http://www.51ielts.com/)
+1. [3G雅思网](http://www.3gbbs.com/)
+1. [中国考试网](http://www.sinoexam.com.cn/)
+1. [E学网](http://www.exue.com/)
+1. [旺旺英语](http://www.wwenglish.com/)
+1. [普特英语听力](http://www.putclub.com/)
+1. [中国英语学习网](http://www.24en.com/)
+1. [英语翻译吧](http://www.fanyi8.com/)
+1. [英文写作网 ](http://www.4ewriting.com/)
+1. [新东方网络课堂](http://www.tol24.com/)
+1. [英语周报](http://www.ew.com.cn/)
+1. [英语365](http://e365.cc163.net/)
+1. [英文早报](http://gzmp.dayoo.com/)
+1. [英语时空](http://www.yysk.net/)
+1. [中国英语学习网](http://www.24en.com/)
+1. [空中英语教室](http://www.kzyyjs.com/)
+1. [牛津英语网](http://www.oxford.com.cn/study/exam/major/)
+1. [考试大](http://www.examda.com/TEM/)
+1. [中国英语学习网](http://www.24en.com/tem/)
+1. [沪江网](http://www.hjenglish.com/down/list/113/)
+1. [新挑战国际英语](http://www.tzcool.com/List2.asp?BClassID=4&SClassID=18)
+1. [中国考题网](http://www.ksw123.com/index_54.shtml)
+1. [星沙英语](http://www.rr365.com/english/List_700.html)
+1. [大耳朵英语](http://www.ebigear.com/newslist-122-1.html)
+1. [真题网](http://www.pass-e.com/sort.php?sortid=25)
+1. [就学网](http://www.joxue.com/joxue/en/id11/)
+1. [择校学习网](http://www.zexiao.com)：出国学习外语,咨询等  
+1. [163考试网](http://www.test163.com)：要过CET的朋友要去看看，还有听力资料啊  
+1. [英语之声](http://www.4english.cn)：网上学习英语的好地方  
+1. [疯狂英语俱乐部](http://www.crazyenglish.org)：想了解疯狂英语吗?  
+1. [在线英语杂志](http://www.englishcn.com)：不错的地方  
+1. [英语写作网](http://www.4ewriting.com)：英语协作技巧等  
+1. [英语周报](http://www.ew.com.cn)：学习英语的好地方  
+1. [英语角](http://www.english-corner.com.cn)：看看吧
  
 **简历制作**  
-[中国简历网](http://www.5520.org/)
-[简历吧](http://www.resume8.com/)
-[中国人才指南网](http://www.cnrencai.com/)
-[简历中国](http://www.jlchina.cn/)
-[轻松简历网](http://www.easyresume.net/)
-[中英文简历工作室](http://www.mycvcv.com/)
-[中国个人简历网](http://www.t135.com/)
-[世纪简历网](http://www.21ren.com/)
-[中国求职简历网](http://www.jianli-sky.com/)
-
-[飞达简历网](http://www.jianlishop.com )：精美的简历设计网站,大量免费资源  
-[无忧简历网](http://www.51jianli.com)：收费简历设计网站  
-[我的简历网](http://www.wdjl.net )：免费提供电子简历  
-[视频简历网](http://www.cnvhr.com)：想试试视频简历吗  
-[中国简历网](http://www.5520.com)：收费简历设计网站  
-[简历翻译网](http://www.jlok.com)：简历翻译到这里,到外企少不了  
-[点睛简历网](http://www.doteye.com)：收费简历设计  
+1. [中国简历网](http://www.5520.org/)
+1. [简历吧](http://www.resume8.com/)
+1. [中国人才指南网](http://www.cnrencai.com/)
+1. [简历中国](http://www.jlchina.cn/)
+1. [轻松简历网](http://www.easyresume.net/)
+1. [中英文简历工作室](http://www.mycvcv.com/)
+1. [中国个人简历网](http://www.t135.com/)
+1. [世纪简历网](http://www.21ren.com/)
+1. [中国求职简历网](http://www.jianli-sky.com/)
+1. [飞达简历网](http://www.jianlishop.com )：精美的简历设计网站,大量免费资源  
+1. [无忧简历网](http://www.51jianli.com)：收费简历设计网站  
+1. [我的简历网](http://www.wdjl.net )：免费提供电子简历  
+1. [视频简历网](http://www.cnvhr.com)：想试试视频简历吗  
+1. [中国简历网](http://www.5520.com)：收费简历设计网站  
+1. [简历翻译网](http://www.jlok.com)：简历翻译到这里,到外企少不了  
+1. [点睛简历网](http://www.doteye.com)：收费简历设计  
 
 
 **考试资源**  
-[考试163](http://www.test163.com)：大量的资格认真考试试题，计算机，英语视听材料  
-[IT认证考试资源网](http://www.itexamprep.com)：大量IT认证考试题库  
-[中国大学生网](http://www.chinadaxuesheng.com)：题库,模拟题,论文,小学大学  
-[中国考试网网](http://www.sinoexam.com.cn)：太多了  
-[中国考研网](http://www.好好学习，天天校内an.com)：想考研究生来看看吧,大量免费资源  
-[考研网](http://www.kaoyan.net)：也是考研的网站,大量免费资源  
-[中国自考网](http://www.chinazikao.com)：自学考试相关资源  
-[出国考试网](http://www.007test.com)：出国考试过关习题等  
-[天下资源网](http://www.da126.com)：出国考试过关习题,英语视听材料等  
+1. [考试163](http://www.test163.com)：大量的资格认真考试试题，计算机，英语视听材料  
+1. [IT认证考试资源网](http://www.itexamprep.com)：大量IT认证考试题库  
+1. [中国大学生网](http://www.chinadaxuesheng.com)：题库,模拟题,论文,小学大学  
+1. [中国考试网网](http://www.sinoexam.com.cn)：太多了  
+1. [中国考研网](http://www.好好学习，天天校内an.com)：想考研究生来看看吧,大量免费资源  
+1. [考研网](http://www.kaoyan.net)：也是考研的网站,大量免费资源  
+1. [中国自考网](http://www.chinazikao.com)：自学考试相关资源  
+1. [出国考试网](http://www.007test.com)：出国考试过关习题等  
+1. [天下资源网](http://www.da126.com)：出国考试过关习题,英语视听材料等  
 
 **书库资源**  
-[白鹿书院](http://www.oklink.net)：中国最好的网上读书站点,可以投稿赚稿费  
-[清韵书院](http://www.qingyun.com)：有一大型网上读书站点,看看吧  
-[潇湘书院](http://www.xxsy.net)：挺特别的地方,不过品类齐全  
-[黄金书屋](http://wenxue.myrice.com)：网上看书好地方  
-[新时代书城](http://www.mypcera.com/book)：网上看书好地方  
-[亦凡书库](http://www.yifan.net)：网上看书,不错的地方  
-[校园文学网](http://www.okqq.net)：学生读书的好地方  
-[中国诗人网](http://www.chinapoet.net)：看看吧  
-[山阳书院](http://www.jzinfo.ha.cn/book)：挺全的站点  
-[网天书城](http://www.net-sky.com/book)：网上读书,看看吧  
-[中华电脑书库](http://www.pcbookcn.com)：大量计算机方面图书,可以下载  
-[考试163](http://www.pcbookcn.com)：大量考试方面的图书,可以下载  
+1. [白鹿书院](http://www.oklink.net)：中国最好的网上读书站点,可以投稿赚稿费  
+1. [清韵书院](http://www.qingyun.com)：有一大型网上读书站点,看看吧  
+1. [潇湘书院](http://www.xxsy.net)：挺特别的地方,不过品类齐全  
+1. [黄金书屋](http://wenxue.myrice.com)：网上看书好地方  
+1. [新时代书城](http://www.mypcera.com/book)：网上看书好地方  
+1. [亦凡书库](http://www.yifan.net)：网上看书,不错的地方  
+1. [校园文学网](http://www.okqq.net)：学生读书的好地方  
+1. [中国诗人网](http://www.chinapoet.net)：看看吧  
+1. [山阳书院](http://www.jzinfo.ha.cn/book)：挺全的站点  
+1. [网天书城](http://www.net-sky.com/book)：网上读书,看看吧  
+1. [中华电脑书库](http://www.pcbookcn.com)：大量计算机方面图书,可以下载  
+1. [考试163](http://www.pcbookcn.com)：大量考试方面的图书,可以下载  
 
 
 **论文资源**  
-[毕业论文完整收集](http://www.xiaonei.com/crasy])：最最权威论文  
-[优秀论文杂志](http://www.interpapers.com/kj/)：以科技类为主。  
-[论文资料网](http://www.51paper.net/)：以财经经济管理类为主。  
-[法律图书馆](http://www.law-lib.com/)：文如其名。  
-[法学论文资料库](http://www.law-lib.com/lw/)：文如其名。  
-[中国总经理网论文集](http://www.cnceo.com/school/lwj.asp)  
-[mba职业经理人论坛](http://mba.001.com.cn/mbamba.htm)  
-[中国农业在线-农业论文](http://www.agrionline.net.cn/keji/lunwenzy/)  
-[体育论文](http://www.zxty.net/product4.htm)  
-[财经学位论文下载中心](http://www.forumcn.com/sblw/)  
-[公开发表论文_深圳证券交易所](http://www.sse.org.cn/sse/yjkw/gkfblw.asp)  
-[中国路桥资讯网论文资料中心](http://www.lqzx.com/lunwen.htm)  
-[论文商务中心](http://doc.cei.gov.cn/)  
-[法律帝国](http://www.fl365.com/gb/lawthinker/bbs/default.asp)  
-[学术论文](http://www.hrexam.com/advanced1.htm)：其实是学术论文的写作网站。  
+1. [毕业论文完整收集](http://www.xiaonei.com/crasy])：最最权威论文  
+1. [优秀论文杂志](http://www.interpapers.com/kj/)：以科技类为主。  
+1. [论文资料网](http://www.51paper.net/)：以财经经济管理类为主。  
+1. [法律图书馆](http://www.law-lib.com/)：文如其名。  
+1. [法学论文资料库](http://www.law-lib.com/lw/)：文如其名。  
+1. [中国总经理网论文集](http://www.cnceo.com/school/lwj.asp)  
+1. [mba职业经理人论坛](http://mba.001.com.cn/mbamba.htm)  
+1. [中国农业在线-农业论文](http://www.agrionline.net.cn/keji/lunwenzy/)  
+1. [体育论文](http://www.zxty.net/product4.htm)  
+1. [财经学位论文下载中心](http://www.forumcn.com/sblw/)  
+1. [公开发表论文_深圳证券交易所](http://www.sse.org.cn/sse/yjkw/gkfblw.asp)  
+1. [中国路桥资讯网论文资料中心](http://www.lqzx.com/lunwen.htm)  
+1. [论文商务中心](http://doc.cei.gov.cn/)  
+1. [法律帝国](http://www.fl365.com/gb/lawthinker/bbs/default.asp)  
+1. [学术论文](http://www.hrexam.com/advanced1.htm)：其实是学术论文的写作网站。  
 
 
 ![](/img/wc-tail.GIF)

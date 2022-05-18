@@ -305,7 +305,7 @@ tags:
 
 ###### F
 1. fabul：说，预言 fabulous
-1. fac(t)：做 facilitate artefact facsimile faculty
+1. fac(t)/fect：做 facilitate artefact facsimile faculty defect defeat affect refectory 
 1. fac：面 facial
 1. fan：迷 fancy
 1. fare：走 farewell warfare welfare
@@ -313,7 +313,6 @@ tags:
 1. fat：胖 fatigue
 1. fate:命运 fatal
 1. feas：做 feasible
-1. fect：做 defect affect refectory
 1. feder：信任 federal
 1. feit：做 forfeit
 1. femin：女 feminism
@@ -588,7 +587,7 @@ tags:
 1. noc：伤害 innocent
 1. noct：夜 nocturnal
 1. nom：法律 autonomy
-1. nomin：名字 nominal
+1. nom(in)：名字 nominate denominate nominal cognomen/agnomen
 1. nomy：法则 astronomy
 1. norm：规范 enormous
 1. not：知道denote notion notoriety notorious
@@ -728,6 +727,7 @@ tags:
 1. rap：使着迷 wrap
 1. rat：清点，计算 ratio ration
 1. ray：光线 array
+1. ras/raz/rad：刮擦 rascal raze erase abrase(abrade) razor rasp  
 1. re：反，相对 resist reluctant
 1. re：一再 reclaim
 1. real：真正的 realm
@@ -778,7 +778,9 @@ tags:
 1. scrib/script：写：写 inscribe ascribe prescribe(prescription) circumscribe transcribe 
 1. sculp：雕刻 sculpture
 1. scur：盖上 obscure
+1. scrut/scrutin：检查 scrutiny scrutable
 1. se：分开 seduce seclude
+1. sen：老 senate senior segnior
 1. sect：切割 section
 1. secut：跟随 procecute
 1. sed：坐 supersede sedentary
@@ -1157,14 +1159,14 @@ tags:
 1. stock stack
 1. strip条 strap带
 1. stripe strip 
-1. strive斗争 strife争斗
-1. stroke打击 strike打击 stick刺，粘(stitch缝合) stink恶臭 stint定额 strict stake打桩 strand海岸，搁浅，绳股
+1. strive斗争 strife争斗 strike打击 stroke打击 stick刺，粘(stitch缝合) stink恶臭 strict stint定额 stake打桩 strand海岸，搁浅，绳股
 1. stuff staff
 1. subjective objective
 1. subside precipitate
 1. sub-stant-ial sub-stitu-entsus-tain
 1. swap交换 swamp沼泽，淹没
 1. swivel转动 swing摇摆
+1. sham骗局 shame羞耻
 1. tease taunt mock
 1. throat throttle
 1. thresh脱谷 thread线，缝
