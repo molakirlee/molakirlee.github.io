@@ -637,6 +637,7 @@ tags:
 1. patron：赞助人 patronage
 1. pave：铺设 pavement
 1. pe(a)l：推 compel repel expel propel appeal
+1. pecc：犯罪 peccable(impeccable) peccant 
 1. ped：脚 pedal pedestrian impede expedition
 1. pen：刑事的，惩罚 penalty penalize
 1. pend：悬挂 depend interdepend indispensable suspend compendium 
@@ -796,7 +797,7 @@ tags:
 1. sert：放置，安排 assert insert dissert
 1. serv：保持 observe preserve conserve(conservation)
 1. serv：服务 subserve disserve deserve
-1. sess：坐 assess obsession 
+1. sess：坐 assess obsess(bsession )
 1. set：布置 setting upset
 1. shut：关 shuttle
 1. sid：坐 subside subsidiary subsidy reside(residential) insidious
@@ -1000,7 +1001,7 @@ tags:
 1. vit：生命 vitality vital
 1. viv：生活 survive revival revive
 1. voc：大声呼喊 advocate vocation
-1. vok：喊 invoke evoke revoke(irrevocable)
+1. vok：喊 invoke evoke convoke revoke(irrevocable) advocate vouch
 1. vol：意念 benevolent malevolent
 1. volu/volv：滚，卷 evolution involve evolve revolve
 1. vor：吃 herbvorse
