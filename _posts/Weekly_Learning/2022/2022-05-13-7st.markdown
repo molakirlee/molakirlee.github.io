@@ -21,8 +21,15 @@ tags:
 1. 兴趣爱好是一个跟现实无关的平行世界，你越是沉浸其中，就越会暂时忘却现实。现在很流行钓鱼，我觉得原因就与此有关。程序员这方面有天然优势，不妨多沉浸在技术世界，多搞清楚一些技术细节，提高技能。 -- Frank
 1. 很多名人传记，故事性很强，容易看进去。更重要的是，看看其他人的人生，你会明白遭遇苦难的并非你一个人，从中吸收信心，了解前人是怎么做的，吸取经验。我推荐阅读《约翰·克里斯朵夫》，要想心灵强壮，此书必读。 -- Frank
 1. 语文课总是偏爱讲授那些很美、很有诗意的散文和小说，这是不对的，就像篮球课不应该鼓励学生进行花哨的运球。写作最重要的目标是写得清楚，此后才考虑写得有诗意。-- David Perell
+1. Fast, good, cheap: pick two. -- [An old engineering adage](https://daringfireball.net/2004/04/spray_on_usability)
+1. 如果一个人习惯了轻松成功，可能就无法培养处理真正困难的问题所必需的耐心。 -- [Does one have to be a genius to do maths](https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/)
+1. The best programmers I know are product-first, but actually have more coding knowledge than the coding-first programmers. They know when to use the chainsaw vs the hand saw vs the chisel. -- [Zach Lloyd
+](https://thezbook.com/code-first-vs-product-first?x-host=thezbook.com)
 
-### 看世界
+
+### 有趣
+1. [iPhone lidar with applications for the geosciences](https://opentopography.org/blog/iphone-lidar-applications-geosciences)
+1. [The Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
 
 ### 观点
 ###### [103 Bits of Advice I Wish I Had Known](https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/)
@@ -44,6 +51,6 @@ Imagine one meeting in which you come up with four great ideas, each of which be
 ### 奇技淫巧
 
 ### 荐书
-
+1. [The Feynman Lectures Website ](https://www.feynmanlectures.caltech.edu/)
 
 ![](/img/wc-tail.GIF)
