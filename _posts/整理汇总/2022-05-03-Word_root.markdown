@@ -183,7 +183,7 @@ tags:
 1. contro：相反 controversy
 1. cop：砍 coupon
 1. cor：完全 corrupt
-1. cord：心 cord
+1. cord：心 cord discord
 1. corp：身体 corpus corporal corporate incorporate
 1. cosm：宇宙 cosmic microcosm
 1. coun：强调 council counsel counsellor
@@ -587,16 +587,16 @@ tags:
 1. noc：伤害 innocent
 1. noct：夜 nocturnal
 1. nom：法律 autonomy
-1. nom(in)：名字 nominate denominate nominal cognomen/agnomen
+1. nom(in)：名字 nominate(nominal) denominate  cognomen/agnomen
 1. nomy：法则 astronomy
 1. norm：规范 enormous
-1. not：知道denote notion notoriety notorious
+1. not：知道 denote notion notoriety(notorious) 
 1. nour：营养 nourish
 1. nov：新 innovation novice
-1. nutri：滋养 nutrient nutritious
+1. nutri：滋养 nutrient(nutritious)
 
 ###### O
-1. ob：逆 obsession obstruct
+1. ob：逆 obsess(obsession) obstruct
 1. obey：服从 disobey
 1. ocul：眼睛 binoculars
 1. od：路 exodus
@@ -608,8 +608,8 @@ tags:
 1. optim：最好 optimum optimistic
 1. ora：说 orate
 1. orb：轨道 orbit exorbitant
-1. order：命令 border ordain
-1. ordin：顺序 subordinate coordinate
+1. order：命令 ordain border 
+1. ordin：顺序 coordinate subordinate 
 1. ori：产生 origin orient(reorient)
 1. oriety：多 notoriety
 1. orn：装饰 ornament adorn
@@ -797,7 +797,7 @@ tags:
 1. sert：放置，安排 assert insert dissert
 1. serv：保持 observe preserve conserve(conservation)
 1. serv：服务 subserve disserve deserve
-1. sess：坐 assess obsess(bsession )
+1. sess：坐 assess obsess(obsession )
 1. set：布置 setting upset
 1. shut：关 shuttle
 1. sid：坐 subside subsidiary subsidy reside(residential) insidious

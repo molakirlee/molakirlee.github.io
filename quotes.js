@@ -817,6 +817,7 @@ var quotes = [
 'Don\'t let anyone ever make you feel like you don\'t deserve what you want.',
 'The real danger is that if we hear enough lies, then we no longer recognize the truth at all.',
 'Nothing for nothing.',
+'头等人，有本事，没脾气。 -- 杜月笙'
 '才情高超，清越脱俗。'
 ]
 
