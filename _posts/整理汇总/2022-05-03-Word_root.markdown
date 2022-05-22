@@ -642,7 +642,7 @@ tags:
 1. pen：刑事的，惩罚 penalty penalize
 1. pend：悬挂 depend interdepend indispensable suspend compendium 
 1. pens：悬挂沉重（引申为支付，偿还） pension expense dispense dispenser compensate poise
-1. per：贯穿，始终 permanent persist perpetuate pervasive perplex perceive(perception) persuade permeate
+1. per：贯穿，始终 permanent persist perpetuate pervasive(permeate) perplex perceive(perception) persuade 
 1. per：冒险 imperil
 1. peri：周围 periphery
 1. pert：带 repertoire
