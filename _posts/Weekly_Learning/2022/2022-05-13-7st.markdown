@@ -25,7 +25,7 @@ tags:
 1. 如果一个人习惯了轻松成功，可能就无法培养处理真正困难的问题所必需的耐心。 -- [Does one have to be a genius to do maths](https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/)
 1. The best programmers I know are product-first, but actually have more coding knowledge than the coding-first programmers. They know when to use the chainsaw vs the hand saw vs the chisel. -- [Zach Lloyd
 ](https://thezbook.com/code-first-vs-product-first?x-host=thezbook.com)
-
+1. 未来1%的人掌握算法，99%的人提供数据，大部分的人把自己的时间切成碎末，供养别人的算法；只有少部分人，能够自己制定规则，成为自己的算法工程师。成为数据还是成为算法，不取决于命运，而是取决于我们自己的选择。 -- 《未来简史》
 
 ### 有趣
 1. [iPhone lidar with applications for the geosciences](https://opentopography.org/blog/iphone-lidar-applications-geosciences)
@@ -53,6 +53,30 @@ Imagine one meeting in which you come up with four great ideas, each of which be
 ### 奇技淫巧
 
 ### 荐书
-1. [The Feynman Lectures Website ](https://www.feynmanlectures.caltech.edu/)
+###### [The Feynman Lectures Website ](https://www.feynmanlectures.caltech.edu/)
+
+###### 《认知觉醒：开启自我改变的原动力》
+学习知识的目的是“消除模糊”，而获取知识的方法也是消除模糊，目的和方法统一，这几乎成了这个世界上所有人能共同遵守的学习法则。这类例子能举出很多：
+1. 《思考力》讲：思考力的本质就是“丢弃所有已经消化的信息，让问题的核心浮出水面”；
+1. 《刻意练习》的核心方法论是“不要重复练习已经会的，要不断寻找哪些稍有难度的部分”；
+1. 《原则》罗列生活和工作中的原则以清晰地指导自己行事；
+1. 《超越感觉》讲：
+
+凡事不要凭模糊感觉判断，要寻找清晰地证据。种种现象都在告诉我们一个事实：提升思考能力的方法正是不断明确核心困难和心得感悟，并专注于此。
+
+###### 《格局》
+陷入“越穷越忙，越忙越穷”怪圈的人，要做的就是斩断厄运链：
+1. 慢下来，以免不知不觉中成为积极的废人或者伪工作者；
+1. 审视自己，找到忙碌的原因
+
+越是落在别人后面就越想通过并行处理多做点事，结果错误百出，和别人的差距越来越大。这时候不妨做减法，把不必要的事情从清单上删除，不花过多时间在低回报的道路上狂奔，因为那样只会让人失控。承认自己过去用的方法不得到，过于贪婪，需要有一种开放的心态。反省自己的得失，接受新的思维方式，才能走出“越穷越忙，越忙越穷”的怪圈。
+
+###### 《精进：如何成伪一个很厉害的人》
+如果我能长期坚持去做一件事，一定是这件事带给我的丰盈感和满足感超过了我的所有付出，一定是这件事日日夜夜萦绕在我的心头，让我欲罢不能，一定是这件事唤起了我内心深处最强烈的兴趣。也就是说，赐予我力量的，是激情的驱动，而不是意志力的鞭策。
+
+###### 《精进2：解锁万物的心智进化法》
+1. 写作者最好的武器就是修改，一遍遍地修改，删除废话，增加吸引人地素材，并想从第一句就把读者紧紧勾住。
+1. 最大的错误就是希望自己一开始就做得完美，初稿一定是糟糕的，但是在修改过程中，如果你愿意严肃地甚至严苛地对待自己的作品的话，那一定能越改越好。
+
 
 ![](/img/wc-tail.GIF)

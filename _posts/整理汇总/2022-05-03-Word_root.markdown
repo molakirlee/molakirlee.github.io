@@ -744,12 +744,12 @@ tags:
 1. rept：爬 reptile
 1. resile：弹回 resilient
 1. rid：笑 ridiculous
-1. rig：雨 irrigate irrigation
-1. rig：直的，正确的 rigid(rigor) rigorous rightous
+1. rig：雨 irrigate(irrigation) 
+1. rig：直的，正确的 rigid(rigor) rigorous righteous
 1. ring：铃 string
-1. rit：擦 irritate irritable
+1. rit：擦 irritate(irritable) 
 1. riv：河，流动 rival derive
-1. rot/rod/ros：咬 rot corrode erosion
+1. rot/rod/ros：咬 rot corrode(erosion)
 1. rog：要求 arrogance
 1. roll：名单 enroll
 1. rope：绳子 grope
@@ -758,7 +758,7 @@ tags:
 1. rub：摩擦，擦伤 shrub scrub rubble rubbish
 1. rud：天然的 rude crude rudimentary 
 1. run：跑 brunt
-1. rupt：断裂 irrupt corrupt erupt bankrupt 
+1. rupt：断裂 irrupt erupt corrupt bankrupt 
 1. rur：乡村 rural
 1. ruth：怜悯 ruthless
 
@@ -954,59 +954,50 @@ tags:
 1. utter：全然的，发声（均为外面） utterance
 
 ###### V
-1. vac：空的 vacation evacuate evacuation
+1. vac：空的 vacation evacuate(evacuation)
 1. vacc：牛 vaccine
-1. vag：走，漫游 extravagance vague
-1. vail：强壮 avail prevail
-1. val：价值 invalid prevalent devalue
-1. val：力量 equivalent prevalence
+1. vag：走，漫游 vague extravagance 
+1. val/vail：价值，力量 avail devalue invalid prevail(prevalent prevalence) equivalent
 1. van/advan：前面  van advance advantage
 1. var：改变 variety
-1. vas：走 invasion invasive
-1. vas：走 pervasive
+1. vas：走 invasion(invasive) pervasive
 1. vascular：血管的 cardiovascular
 1. vast：空，广阔 devastate
-1. veget：醒着的，活着的 vegetate vegetablere vegetarian
-1. veil：看 surveillance
+1. veget：醒着的，活着的 vegetate vegetable(vegetarian)
+1. veil：看 surveil(surveillance)
 1. vel/veal/veil：盖 veil reveal velar envelop develop 
 1. veloc：快 velocity
-1. ven：来 intervene venue revenue provenance
-1. veng：惩戒 avenge
+1. ven：来 venue revenue provenance intervene
+1. veng：惩戒 avenge(revenge)
 1. venom：毒液 venomous
-1. vent：来 convention inventory advent venture
-1. ver：真实：verdict verify
+1. vent：来 advent venture convention inventory 
+1. ver：真实：verify verdict 
 1. verb：言语 verbal
-1. verg：转 diverge
-1. vers：转 diverse versatile controversy
-1. vert：转 invert divert diversion converse controversial extrovert introvert
+1. vert/vers/verg：转 invert divert(diversion diverse versatile) diverge converse controversy(controversial) extrovert(introvert)
 1. veter：老 veterinary vet
-1. vey：搬运 convey
-1. vi：路 previous viable deviance trivial invoice
+1. vi/via/voy/vey：路  viatic viable deviance previous trivial invoice convey(convoy) envoy voyage
 1. vic：看 device
-1. vice：罪行 viciousvi
+1. vice：罪行 vicious
 1. vict：征服，克服 convict
 1. victim：受害 victimise
 1. vid：看见 evidence
 1. vid：切 dividend
-1. vigor：活力 vigorous reinvigorous
+1. vigor：活力 vigorous reinvigorate
 1. vil：无耻的 vile
-1. vin：葡萄/葡萄酒 vintage vinous
+1. vin：葡萄/葡萄酒 vinous vintage
 1. vinc：征服 convince
-1. viol：冒犯，暴力 inviolable violate
-1. vir：男人 virtue
-1. virtue：德行 virtual
-1. vis：看见 envisage supervise revise
+1. viol：冒犯，暴力 violate(inviolable)
+1. vir：男人 virtue virtual
+1. vis：看见 supervise revise envisage
 1. vis：切 division
-1. vit/vid：分开 evitable inevitable
-1. vit：生命 vitality vital
-1. viv：生活 survive revival revive
-1. voc：大声呼喊 advocate vocation
-1. vok：喊 invoke evoke convoke revoke(irrevocable) advocate vouch
-1. vol：意念 benevolent malevolent
-1. volu/volv：滚，卷 evolution involve evolve revolve
+1. vit/vid：分开 evitable(inevitable)
+1. vit：生命 vital vitality 
+1. viv：生活 survive revive(revival)
+1. vok/voc：喊 invoke evoke convoke revoke(irrevocable) advocate vocation vouch 
+1. vol：意念 benevolent(malevolent)
+1. volu/volv：滚，卷 involve evolve(evolution) revolve
 1. vor：吃 herbvorse
 1. vort：跳 cavort
-1. voy：路 voyage
 1. vulg：人们，大众 vulgar
 1. vuln：受伤 vulnerable
 
@@ -1181,5 +1172,6 @@ tags:
 1. wander wonder
 1. whir呼呼地飞 whirl旋转,回旋 whorl涡,轮,螺纹 swirl漩涡,盘绕
 1. womb子宫，发源地 tomb坟墓
+1. puzzle强调不理解或解决不了，bewilde通常表现为心理和智力的紊乱 ，perplex使杂乱，使疑虑，使不安，confuse强调因混淆而使人产生迷乱，embarrass有令人不快、难为情和内心混乱的意味
 
 ![](/img/wc-tail.GIF)
