@@ -36,13 +36,13 @@ tags:
 1. ag：驱动，做 agenda agile
 1. aholic：上瘾的 workaholic 
 1. al：向 allege alleviate
-1. ali：其他的 inalienable
+1. al/ali/alter/ulter：其他的，改变状态 alter(alternate) altercate adulterate altruist allegory allergy alias alien(inalienable)
 1. ali：营养 aliment
 1. allow：允许 allowance
 1. alt：高 altitude halt
 1. alter(n):其他的 alternative alternate
 1. amat：爱 amateur
-1. amb(i)/emb：周围，两边 ambitious ambiguity ambassador embassy
+1. amb(i)/emb：周围，两边 ambitious ambiguity ambassador embassy anfractuous
 1. ambul：行走 ambulate ambulance 
 1. amount：数量 paramount
 1. amphi：两 amphibious
@@ -149,7 +149,7 @@ tags:
 1. cern：分开 discerning secern concern
 1. cert：确定，区分 ascertain certify concert
 1. cervic：颈 cervical
-1. cess：走 access accessory process procession concession succession 
+1. cess：走 access(accessory) process(procession) recess(recession) success(succession) concession
 1. cest：走 ancestor
 1. chant：唱歌，念咒 enchant disenchant
 1. char：烧焦 charcoal
@@ -344,7 +344,7 @@ tags:
 1. formid：可怕的 formidable
 1. foss：挖 fossil
 1. found：创立 profound
-1. fract：打破 fracture fraction 
+1. fract：打破 fracture fraction anfractuous
 1. frag：打破：fragile fragment
 1. fragr：香 fragrance
 1. frain：笼头 refrain
@@ -469,9 +469,11 @@ tags:
 1. later：侧面 lateral bilateral collateral
 1. lav：洗 lava lavatory
 1. lay：放置 relay
+1. lax/leas/lang：松，疲倦 lax relax delay lease(lessor lessee) languid
+1. lapid：石头 lapidate(lapidary delapidate)
 1. lect：讲 lecture dialect
 1. lect：选择，收集 select collect intellectual neglect
-1. leg：法律 legislation legistimate delegacy
+1. leg：法律 legislation legistimate delegate(delegacy)
 1. leg：送 legacy allege
 1. len：软 lenient
 1. leth：死，僵 lethal
@@ -835,33 +837,31 @@ tags:
 1. station：站，局，驻地，位置，身份 substation stationery stationary
 1. steal：偷 stealth
 1. stereo：立体 stereoscope
-1. sti：刺 stimulus
-1. stick：黏贴 sticky
+1. sti：刺 stimulus stick(sticky)
 1. stil：掉 instil
-1. stinct：刺 distinct instinct
+1. stinct：刺 instinct distinct 
 1. stip：一起按压 stipulate
 1. stit(u)：站立 institute constitute substitute superstitious prostitute
 1. stock：东西 livestock
 1. ston：石头 astonish
-1. strain：拉紧 restrain constrain 
+1. strain：拉紧 constrain restrain  
 1. strate：层 substrate
 1. string：捆绑 stringent
 1. strophe：转 catastrophe
 1. struct：建立 instruct construct obstruct destruction
 1. suad：甜的 persuade
-1. sub：在下面 subtle substantial substrate subtract substation
-1. suc/sus：在下面 succeed succumb susceptible
+1. sub：在下面 subtle substance(substantial) substrate subtract substation
+1. suc/sus：在下面 sustain succeed succumb suspend susceptible   
 1. sue：跟随 pursue ensue
 1. sui：自己 suicidal
 1. suit：起诉 lawsuit
-1. sult：带来，召集 consult consultant
-1. sum：拿，取 assume resume presume
+1. sult：带来，召集 consult(consultant)
+1. sum：拿，取 assume presume resume 
 1. summ：总的 summary summit
 1. sumpt：使用 consumption
 1. sur：超过 surpass
 1. surd：耳聋（听不懂） absurd
 1. surg：外科 surgeon
-1. sus：在下面 suspend sustain 
 1. syn：一起 synthetic
 
 ###### T
@@ -991,7 +991,7 @@ tags:
 1. vit/vid：分开 evitable(inevitable)
 1. vit：生命 vital vitality 
 1. viv：生活 survive revive(revival)
-1. vok/voc：喊 invoke evoke convoke revoke(irrevocable) advocate vocation vouch 
+1. vok/voc：喊 invoke evoke provoke convoke revoke(irrevocable) advocate vocation vouch 
 1. vol：意念 benevolent(malevolent)
 1. volu/volv：滚，卷 involve evolve(evolution) revolve
 1. vor：吃 herbvorse
@@ -1068,6 +1068,7 @@ tags:
 1. dazzle dizzy
 1. deem认为 doom厄运 damp潮湿
 1. despise(disdain) despite
+1. delegate委托 deligate捆扎
 1. dissert论述 desert沙漠 dessert点心
 1. drain drown
 1. drill钻，练习 thrill兴奋 trial审判
