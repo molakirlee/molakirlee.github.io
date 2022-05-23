@@ -167,7 +167,7 @@ tags:
 1. cipit：头 precipitation
 1. circ：圆 circus
 1. circum：周围 circumstence
-1. cit：激起 excitement solicitor
+1. cit：引用，唤起 recite excite(incite excitement) resuscitate solicit(solicitor)
 1. civ：公民 civil
 1. cla：夹 clamp
 1. clar：清楚 clarify
@@ -764,45 +764,44 @@ tags:
 
 
 ###### S
-1. sacr：神圣 sacrifice
-1. sal/sil/sul/sail/saul：跳 saltant salient assail assault exult resile insult consilient salacious result somersault
+1. sacr/secr：神圣 sacrifice obsecrate
+1. sal/sil/sul/sail/saul：跳 saltant salient assail(assault) exult resile insult result consilient salacious somersault
 1. sal：盐 saline
 1. san(it)：健康的 sanitate sanitation insane
 1. sanct：神圣 sanction sanctuary 
 1. sat：充足 saturate 
 1. sav：品尝 savour
-1. scen(e)：设置 scenery obscene
+1. scen(e)：场景 scenery obscene
 1. scend：爬 descend
 1. scent：香味 crescent
-1. scept：看 sceptic sceptical
+1. scept：看 sceptic(sceptical) 
 1. sci：知道 conscious conscience
-1. scrib/script：写：写 inscribe ascribe prescribe(prescription) circumscribe transcribe 
+1. scrib/script：写 inscribe ascribe prescribe(prescription) circumscribe transcribe 
+1. scrut(in)：检查 scrutiny scrutable
 1. sculp：雕刻 sculpture
-1. scur：盖上 obscure
-1. scrut/scrutin：检查 scrutiny scrutable
+1. scur：盖上 obscure(obscurity)
 1. se：分开 seduce seclude
-1. sen：老 senate senior segnior
 1. sect：切割 section
-1. secut：跟随 procecute
 1. sed：坐 supersede sedentary
 1. seg：切割 segment
 1. sel：带来 counsel
 1. sem：符号，意义 semantic
 1. sembl：一样 assemble resemble
-1. semin：种子 disseminate  dissemination
-1. sens(e)：感觉 sensation sensate sensory sensible consensus
+1. semin：种子 disseminate (dissemination)
+1. sen：老 senate senior seignior
+1. sens(e)：感觉 sensate(sensation sensory) sensible consensus
 1. sent：感觉 sentient sentiment consent resent
 1. sept：腐烂的 antiseptic
-1. sequ：跟随 subsequent
+1. sequ/secut：跟随 subsequent prosecute
 1. sert：放置，安排 assert insert dissert
 1. serv：保持 observe preserve conserve(conservation)
-1. serv：服务 subserve disserve deserve
-1. sess：坐 assess obsess(obsession )
+1. serv：服务 subserve deserve disserve 
+1. sess：坐 assess obsess(obsession)
 1. set：布置 setting upset
 1. shut：关 shuttle
 1. sid：坐 subside subsidiary subsidy reside(residential) insidious
 1. sign：符号 signpost consign
-1. simil/simul：相同 facsimile assimilate simultaneously
+1. simil/simul：相同 assimilate facsimile simultaneously
 1. sinist：左边 sinister
 1. sist：站 insist persist resist consist
 1. sland：障碍物 slander
@@ -811,23 +810,22 @@ tags:
 1. snob：势力的人 snobbish
 1. soci：结交 associated
 1. sod：路 episode
-1. sol：太阳 solar solemn
+1. sol/sold/solid：坚固，完整 solicit solidary consolidate solemn
+1. sol：太阳 solar 
 1. sole：安慰 console
-1. soli(d)：坚固，完整 solicit solidary consolidate
-1. soph：聪明 sophist sophistic sophistry
+1. soph：聪明 sophist(sophistic sophistry)
 1. sorb：吸收 absorb
 1. sort：种类 consort consortium
-1. spec(t)：看 respect expect respite suspect speculate prospectus prospective spectacular spectator    
+1. spec(t)：看 respect expect respite suspect speculate prospectus prospective spectator spectacular     
 1. speci：外观，种类 species special specimen
-1. sper：希望 desperate prosper(prosperous)
+1. sper：希望 prosper(prosperous) desperate
 1. sphere：层 troposphere
-1. spir：呼吸 aspiration expire(expiry)
-1. spire：塔尖 aspire
-1. spirit：精神 dispiriting
+1. spi：刺 spire spike spile spear spiciform 
+1. spir：呼吸 aspire(aspiration) spirit(dispiriting) expire(expiry) 
 1. splend：明亮 splendid
-1. spoil：掠夺，变质 despoil spoilage
+1. spoil：掠夺，变质 spoil(spoilage) despoil
 1. spond：回答，约定 respond correspond
-1. spore：播撒，种子，孢子 sporadic
+1. spor：播撒，种子，孢子 spore sporadic
 1. spring：弹跳，生长 offspring
 1. st：站 substance obstacle destine
 1. stagn：池塘 stagnate
@@ -1131,7 +1129,7 @@ tags:
 1. shadow shallow浅
 1. shatter粉碎 scatter散落
 1. shrew悍妇 shrewd精明的
-1. slash劈 flash闪光
+1. slash劈 flesh肉 flash闪光 fresh
 1. splint夹板 slat板条 slate石板，安排
 1. sled滑板雪橇 sledge 雪橇
 1. slick灵活/华而不实 sleek光滑光亮
