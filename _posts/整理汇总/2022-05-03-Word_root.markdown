@@ -963,7 +963,7 @@ tags:
 1. vast：空，广阔 devastate
 1. veget：醒着的，活着的 vegetate vegetable(vegetarian)
 1. veil：看 surveil(surveillance)
-1. vel/veal/veil：盖 veil reveal velar envelop develop 
+1. vel/veal/veil：盖 veil(unveil) reveal velar envelop develop 
 1. veloc：快 velocity
 1. ven：来 venue revenue provenance intervene
 1. veng：惩戒 avenge(revenge)
@@ -1057,7 +1057,7 @@ tags:
 1. cognition perception 感知 precipitate沉淀
 1. insulative conductive inductive reasoning
 1. corps兵团 cops警察
-1. count county country
+1. count counter county country
 1. crank曲柄转动，性情古怪 crash crack
 1. crew crow craw crawl creep
 1. cripple跛  grapple
