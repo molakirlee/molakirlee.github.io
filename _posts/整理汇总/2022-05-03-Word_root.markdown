@@ -800,6 +800,7 @@ tags:
 1. serv：服务 subserve deserve disserve 
 1. sess：坐 assess obsess(obsession)
 1. set：布置 setting upset
+1. sever：切割，严肃 sever dissever asseverate
 1. shut：关 shuttle
 1. sid：坐 subside subsidiary subsidy reside(residential) insidious
 1. sign：符号 signpost consign
@@ -869,8 +870,7 @@ tags:
 1. tach/tact：接触，连接 attach detach intact
 1. tack：钉 tackle
 1. tail：切割 entail curtail retail  
-1. tain：拿住 attain obtain retain maintain entertain
-1. tain：支持 sustain
+1. tain：拿住 attain obtain retain maintain entertain sustain
 1. take：带来 intake painstaking
 1. tale：传说 stale
 1. tali：同样 retaliate
@@ -917,12 +917,13 @@ tags:
 1. tort：卷缠 distort
 1. toun：雷 astound
 1. tour：走 detour
+1. tr：踩踏 trip trap tread(treadmill) tramp
 1. tract：拉 contract detract subtract distract trait
 1. trans：穿过 transient
 1. trans：改变，交易 transplant transact
 1. tray：盘子 astray
-1. tread：踩踏 treadmill
-1. treas：移交 treason
+1. treas/trad：移交 treason(traitor) tradition betray
+1. treat：处理 retreat entreat maltreat
 1. trem：害怕 tremendous
 1. tres：超过 trespass
 1. tri：摩擦 detriment
@@ -1043,19 +1044,20 @@ tags:
 1. boost增长 boast吹牛 roast
 1. boulder巨石 brood孵 breed孕育，种类 brand品牌 bound跳，必然的 bump撞 bunch捆扎
 1. brass黄铜 gloss光亮 glossary术语表 toss扔
+1. brow眉毛，山脊 frown皱眉
 1. buck雄性动物 buckle搭扣
 1. bullet子弹 bulletin公告
 1. bump limp limb climb
 1. butter flutter blockbuster
 1. carouse carousal carousel 
+1. catch clutch
 1. cereal ceramic
 1. cloth sloth懒惰
-1. catch clutch
 1. coffer保险箱 coffin
+1. cognition perception 感知 precipitate沉淀
 1. commit comment评论 commend赞扬 commerce商业 commission委员会/委托 commence开始 commute通勤
 1. conditioner调节器 container
-1. cognition perception 感知 precipitate沉淀
-1. insulative conductive inductive reasoning
+1. consult咨询 insult侮辱
 1. corps兵团 cops警察
 1. count counter county country
 1. crank曲柄转动，性情古怪 crash crack
@@ -1067,89 +1069,93 @@ tags:
 1. daunt威吓 dominate控制 tame驯养
 1. dazzle dizzy
 1. deem认为 doom厄运 damp潮湿
-1. despise(disdain) despite
 1. delegate委托 deligate捆扎
+1. despise(disdain) despite
+1. dissent异议(dissident) disseminate传播 dissilient爆裂的
 1. dissert论述 desert沙漠 dessert点心
+1. disserve危害 dissever使分离
 1. drain drown
 1. drill钻，练习 thrill兴奋 trial审判
 1. ensue接着发生 ensure
 1. equity公正 inequity不公正 iniquity极不公正,邪恶
-1. external eternal不朽
 1. explore考察  exploit开拓
+1. external eternal不朽
 1. fallow休闲 follow flood harrow耙地，折磨
 1. fancy爱好，想象 fantasy幻想
 1. fauna flora
-1. flame火焰 flap拍打 flip快速翻转 flick轻弹 flicker闪烁
 1. favour恩惠 flavour特色，调味 flour面粉
-1. fleet舰队，掠过 flee逃跑
 1. fish flesh
-1. brow眉毛，山脊 frown皱眉
+1. flame火焰 flap拍打 flip快速翻转 flick轻弹 flicker闪烁
+1. fleet舰队，掠过 flee逃跑
 1. gallop奔驰 gallon
 1. glide slide
 1. grant授予 grand重大的 gland腺 grind碾碎
+1. greet欢迎 greed贪婪 grease油脂 greece(greek) grew/grow
 1. grim严肃 grime/begrime弄脏 grimy 
 1. grip grasp graspple紧握 grass草地 graze(pasture)放牧
 1. groan moan呻吟，抱怨
 1. grove小树林 groove沟槽 groom新郎，马夫，刷洗动物
-1. greet欢迎 greed贪婪 grease油脂 greece(greek) grew/grow
 1. hammer锤子  hamper阻碍
+1. hasty匆忙的 nasty极差的
 1. hodgepodge蔬菜大杂烩 baloney肉杂烩，香肠 farrago饲料杂烩
 1. hose软管 house horse
 1. hover徘徊 lover
 1. indigene(indigenous)土著 indigence(indigent)贫乏
-1. consult咨询 insult侮辱
+1. insulative conductive inductive reasoning
 1. irrigate灌溉 irritate激怒
 1. knob knock
 1. lava larva
 1. leather feather weather
+1. lend借 rent租 rend撕裂
 1. loan借 loam沃土 load
-1. modern moderately适度的
 1. mist薄雾 moist湿润的
+1. modern moderately适度的
 1. mould浇筑，铸模 model模型 module模块
 1. mountain fountain
 1. mud泥土 bud萌芽
-1. hasty匆忙的 nasty极差的
 1. pamper娇惯 pepper
 1. pest plague
-1. pitch投，推销，沥青，球场 peach
 1. pin大头针 pine松树 spine脊柱
+1. pitch投，推销，沥青，球场 peach
 1. plow plough犁
 1. plushy luxurious opulent豪华的
 1. poll民意检测 toll伤亡，通行费
 1. posture姿势，立场 poise姿势。平衡
 1. pray prey捕食，猎物
+1. puzzle强调不理解或解决不了，bewilde通常表现为心理和智力的紊乱 ，perplex使杂乱，使疑虑，使不安，confuse强调因混淆而使人产生迷乱，embarrass有令人不快、难为情和内心混乱的意味
 1. rank腐臭的 rancid腐臭的 
-1. lend借 rent租 rend撕裂
-1. rough粗糙的，艰难的 rouge胭脂 rogue流氓
+1. rape掠夺强奸 ripe成熟的 viper毒蛇 
 1. rite仪式 ritual礼节，习惯
+1. rough粗糙的，艰难的 rouge胭脂 rogue流氓
 1. sack解雇，麻袋 lack snack snake
 1. scare恐惧 scarce稀少，几乎不
 1. scent嗅出，香味 scene现场，场景
 1. scrap scrape skyscrape rape ripe
 1. scream尖叫 icecream
 1. shadow shallow浅
+1. sham骗局 shame羞耻
 1. shatter粉碎 scatter散落
 1. shrew悍妇 shrewd精明的
 1. slash劈 flesh肉 flash闪光 fresh
-1. splint夹板 slat板条 slate石板，安排
 1. sled滑板雪橇 sledge 雪橇
 1. slick灵活/华而不实 sleek光滑光亮
 1. smear弄脏 swear发誓
 1. snap nap小睡
-1. spit唾 spite尽管，恶意 spiral螺旋式
+1. spit吐 spite尽管，恶意 spiral螺旋式
 1. splash spade
+1. splint夹板 slat板条 slate石板，安排
 1. spouse espouse betroth
 1. sprawl scrawl stall
 1. stain污点 strain压力 stretch伸展  
-1. staple主要的，主食 stipulate约定，规定
-1. status statue state stated states statute stature station
 1. stand someone in good stead, steady
+1. staple主要的，主食 stipulate约定，规定
+1. stark裸露的，严酷的 starve stern严厉的
+1. status statue state stated states statute stature station
 1. steep step
 1. steer操控 stare凝视
-1. stark裸露的，严酷的 starve stern严厉的
-1. stock stack
-1. strip条 strap带
+1. stack垛 stock
 1. stripe strip 
+1. strip条 strap带
 1. strive斗争 strife争斗 strike打击 stroke打击 stick刺，粘(stitch缝合) stink恶臭 strict stint定额 stake打桩 strand海岸，搁浅，绳股
 1. stuff staff
 1. subjective objective
@@ -1157,20 +1163,18 @@ tags:
 1. sub-stant-ial sub-stitu-entsus-tain
 1. swap交换 swamp沼泽，淹没
 1. swivel转动 swing摇摆
-1. sham骗局 shame羞耻
 1. tease taunt mock
-1. throat throttle
 1. thresh脱谷 thread线，缝
+1. throat throttle
 1. ticket tickle痒
 1. tract大片土地，小册子 trait特点 track tramp步行/远足/踩踏，流浪汉 trek(treck)长途跋涉 truck火车 trunk树干 trinket小装饰品
 1. troupe剧团，巡回演出 troop stoop俯身，驼背 loot掠夺，战利品
 1. truant逃学 tenant租客
 1. twinkle闪烁 wrinkle皱纹
 1. victor victim
-1. rape掠夺强奸 ripe成熟的 viper毒蛇 
 1. wander wonder
 1. whir呼呼地飞 whirl旋转,回旋 whorl涡,轮,螺纹 swirl漩涡,盘绕
 1. womb子宫，发源地 tomb坟墓
-1. puzzle强调不理解或解决不了，bewilde通常表现为心理和智力的紊乱 ，perplex使杂乱，使疑虑，使不安，confuse强调因混淆而使人产生迷乱，embarrass有令人不快、难为情和内心混乱的意味
+
 
 ![](/img/wc-tail.GIF)
