@@ -818,6 +818,7 @@ var quotes = [
 'The real danger is that if we hear enough lies, then we no longer recognize the truth at all.',
 'Nothing for nothing.',
 '头等人，有本事，没脾气。 -- 杜月笙',
+'往后的每一天，都是你最年轻的一天.',
 '才情高超，清越脱俗。'
 ]
 

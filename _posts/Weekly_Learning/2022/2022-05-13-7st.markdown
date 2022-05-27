@@ -26,12 +26,19 @@ tags:
 1. The best programmers I know are product-first, but actually have more coding knowledge than the coding-first programmers. They know when to use the chainsaw vs the hand saw vs the chisel. -- [Zach Lloyd
 ](https://thezbook.com/code-first-vs-product-first?x-host=thezbook.com)
 1. 未来1%的人掌握算法，99%的人提供数据，大部分的人把自己的时间切成碎末，供养别人的算法；只有少部分人，能够自己制定规则，成为自己的算法工程师。成为数据还是成为算法，不取决于命运，而是取决于我们自己的选择。 -- 《未来简史》
+1. 你要学会把代码和你自己分离，不要成为代码的拥有者。你要优化代码，便于其他人找到方法来修复错误和添加功能，把代码的控制权分散。因为你需要解放自己，继续去做下一个项目，否则你将永远无法脱身。 -- [My guiding principles after 20 years of programming](https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c)
 
-### 有趣
+### 世界之窗
 1. [iPhone lidar with applications for the geosciences](https://opentopography.org/blog/iphone-lidar-applications-geosciences)
 1. [The Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
+1. [Intel在线博物馆](https://virtualmuseum.intel.com/#)
+1. [这名“业余”程序员，曾用50张1080Ti对抗癌症](https://www.toutiao.com/article/7094940100450107935/?wid=1653657458193)
+1. [Nuclear fusion: Inside the construction of the world’s largest tokamak](https://www.sciencefocus.com/future-technology/nuclear-fusion-inside-the-construction-of-the-worlds-largest-tokamak/)
 
 ### 观点
+
+###### [马斯克：让我成功的其实是工程思维](https://mp.weixin.qq.com/s/40qZ_kCgKq0iryy5Ll3bmA)
+
 ###### [103 Bits of Advice I Wish I Had Known](https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/)
 1. 永远不要为你不想成为的人工作。
 2. 不要犯同样的错误，尝试犯新的错误。
@@ -51,6 +58,9 @@ Someone looked at a pencil and said, “What if we could put an eraser on one en
 Imagine one meeting in which you come up with four great ideas, each of which becomes a hit movie. That happened with Pixar. 
 
 ### 奇技淫巧
+1. [Side Project 指南](https://sideproject.guide/)
+1. [一张照片，就能知道你在哪里？网络迷踪初探](https://sspai.com/post/73193)
+1. [IaaS，PaaS，SaaS 的区别](https://www.ruanyifeng.com/blog/2017/07/iaas-paas-saas.html)
 
 ### 荐书
 ###### [The Feynman Lectures Website ](https://www.feynmanlectures.caltech.edu/)

@@ -147,6 +147,7 @@ tags:
 1. cens：评价，审查 censor censure
 1. cent：唱歌 incentive
 1. centr：中心 eccentric
+1. cerebr：脑 cerebral
 1. cern：分开 discerning secern concern
 1. cert：确定，区分 ascertain certify concert
 1. cervic：颈 cervical
