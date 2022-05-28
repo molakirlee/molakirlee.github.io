@@ -1148,32 +1148,31 @@ tags:
 1. smear弄脏 swear发誓
 1. snap nap小睡
 1. spit吐 spite尽管，恶意 spiral螺旋式
-1. splash spade
-1. splint夹板 slat板条 slate石板，安排
+1. spade splash 
+1. slat板条 slate石板，安排 splint夹板
 1. spouse espouse betroth
-1. sprawl scrawl stall
+1. stall scrawl sprawl
 1. stain污点 strain压力 stretch伸展  
 1. stand someone in good stead, steady
 1. staple主要的，主食 stipulate约定，规定
 1. stark裸露的，严酷的 starve stern严厉的
-1. status statue state stated states statute stature station
+1. status statue state(stated states) statute stature station
 1. steep step
-1. steer操控 stare凝视
+1. stare凝视 steer操控 
 1. stack垛 stock
-1. stripe strip 
-1. strip条 strap带
-1. strive斗争 strife争斗 strike打击 stroke打击 stick刺，粘(stitch缝合) stink恶臭 strict stint定额 stake打桩 strand海岸，搁浅，绳股
+1. strap带 strip条 stripe
+1. strive斗争 strife争斗 strike打击 stroke打击 stick刺，粘(stitch缝合) strict stink恶臭 stint定额 stake打桩 strand海岸，搁浅，绳股
 1. stuff staff
 1. subjective objective
 1. subside precipitate
-1. sub-stant-ial sub-stitu-entsus-tain
+1. sub-stant-ial sub-stitu-ent sus-tain
 1. swap交换 swamp沼泽，淹没
 1. swivel转动 swing摇摆
 1. tease taunt mock
 1. thresh脱谷 thread线，缝
 1. throat throttle
 1. ticket tickle痒
-1. tract大片土地，小册子 trait特点 track tramp步行/远足/踩踏，流浪汉 trek(treck)长途跋涉 truck火车 trunk树干 trinket小装饰品
+1. trait特点 tract大片土地，小册子 track trek(treck)长途跋涉 tramp步行/远足/踩踏，流浪汉 truck货车 trunk树干 trinket小装饰品
 1. troupe剧团，巡回演出 troop stoop俯身，驼背 loot掠夺，战利品
 1. truant逃学 tenant租客
 1. twinkle闪烁 wrinkle皱纹
