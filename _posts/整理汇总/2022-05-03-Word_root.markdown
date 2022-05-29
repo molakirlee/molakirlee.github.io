@@ -122,7 +122,7 @@ tags:
 
 ###### C
 1. cad：落下 cascade
-1. calc：石灰 calcium recalcitrant caulk
+1. calc：石头（引申为计算）/脚跟（引申为踢） calcium recalcitrant caulk
 1. camp：营地 campus camper(scamper) campfire campaign
 1. cant：弯，角落 canteen
 1. cap：盖 handicap 
@@ -628,6 +628,7 @@ tags:
 1. pair：更糟 impair
 1. pal：白色 appal
 1. pan：扩展 expand expanse patent(patency) spawn
+1. pan：全部的，广泛的 pandemic panacea panegyric
 1. pan：面包 company accompany companion
 1. par(a)：并列，平等 parallel(unparalleled) apparatus(apparat) paralysis comparrable disparage
 1. par(l)：说话 parlor parley parliament
@@ -801,7 +802,7 @@ tags:
 1. sequ/secut：跟随 subsequent prosecute
 1. sert：放置，安排 assert insert dissert
 1. serv：保持 observe preserve conserve(conservation)
-1. serv：服务 subserve deserve disserve 
+1. serv：服务 subserve deserve disserve sergeant
 1. sess：坐 assess obsess(obsession)
 1. set：布置 setting upset
 1. sever：切割，严肃 sever dissever asseverate
@@ -1049,6 +1050,7 @@ tags:
 1. boost增长 boast吹牛 roast
 1. boulder巨石 brood孵 breed孕育，种类 brand品牌 bound跳，必然的 bump撞 bunch捆扎
 1. brass黄铜 gloss光亮 glossary术语表 toss扔
+1. brawl争吵斗殴 brown brass brace brake brack(bracket)
 1. brow眉毛，山脊 frown皱眉
 1. buck雄性动物 buckle搭扣
 1. bullet子弹 bulletin公告
