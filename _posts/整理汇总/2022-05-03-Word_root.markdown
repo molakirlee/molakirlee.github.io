@@ -122,16 +122,15 @@ tags:
 
 ###### C
 1. cad：落下 cascade
-1. calc：石头（引申为计算）/脚跟（引申为踢） calcium recalcitrant caulk
+1. calc：石头（引申为计算）/脚跟（引申为踢） calcium  caulk inculcate recalcitrant
 1. camp：营地 campus camper(scamper) campfire campaign
 1. cant：弯，角落 canteen
 1. cap：盖 handicap 
-1. cap(t)/cept/cip/ceiv：拿，抓  capture captive captivity incapacitate cater(chase catch) anticipate municipal principle discipline disciple concept(misconception) deception perception susceptible receipt participate precept incept(except) deceit conceive(perceive derceive) 
-1. capit：头 decapitate
-1. caps：头 capsize
+1. cap(t)/cept/cip/ceiv：拿，抓  capture(captive captivity) incapacitate cater(chase catch) anticipate municipal principle discipline(disciple) concept(misconception) deception(deceive) perception susceptible participate receipt precept incept(except) deceit conceive(perceive ) 
+1. cap/cipit：头 decapitate capsize precipitation 
 1. caps：箱子 capsule
 1. cardio：心 cardiovascular
-1. cas：掉落 casual casualty cascade
+1. cas：掉落 casual(casualty) cascade
 1. case：容器 encase casette briefcase
 1. cast：投 cast caster forecast downcast offcast outcast opencast
 1. cata：向下 catastrophe catalogue
@@ -139,7 +138,7 @@ tags:
 1. cav：洞 excavate concave
 1. cay：落下 decay
 1. ceal：隐藏 conceal
-1. ce(e)d：走 succeed exceed proceed procedure concede precedent precede
+1. ce(e)d/cess/cest：走 succeed exceed proceed(procedure) concede(concession) precede(precedent) access(accessory) process(procession) recess(recession) success(succession) ancestor
 1. cel：天空 celestial
 1. celer：快速的 accelerate
 1. cend：发白光 incendiary
@@ -148,11 +147,8 @@ tags:
 1. cent：唱歌 incentive
 1. centr：中心 eccentric
 1. cerebr：脑 cerebral
-1. cern：分开 discerning secern concern
-1. cert：确定，区分 ascertain certify concert
+1. cern/cert/cret/crimin：分开，搞清 discerning secern concern ascertain certify concert excrete(excreta) discriminate 
 1. cervic：颈 cervical
-1. cess：走 access(accessory) process(procession) recess(recession) success(succession) concession
-1. cest：走 ancestor
 1. chant：唱歌，念咒 enchant disenchant
 1. char：烧焦 charcoal
 1. char：珍爱 charity
@@ -160,65 +156,51 @@ tags:
 1. chest：胸腔 orchestra
 1. chor：歌 chorus
 1. chron：时间 chronic
-1. cid：掉落 incident
-1. cid：切 coincide
+1. cid：掉落 incident coincide
 1. cine：移动，电影 cinema
 1. ciner：灰 incinerate 
 1. cipher：密码 decipher
-1. cipit：头 precipitation
-1. circ：圆 circus
-1. circum：周围 circumstence
+1. circ：圆环 circus
+1. circum：环绕，周围 circumstence
 1. cit：引用，唤起 recite excite(incite excitement) resuscitate solicit(solicitor)
 1. civ：公民 civil
 1. cla：夹 clamp
 1. clar：清楚 clarify
-1. clim：倾斜 climate acclimate
-1. clin：床 clinic
+1. clim：倾斜 climate acclimate clinic(愿意为躺下，病床)
 1. clin：倾斜，弯曲 inclination decline
-1. clud/clus/clos：关闭 conclude seclude preclude exclude precludeexclusion enclose(incluse) disclose
-1. col：耕种 colony colon
-1. com：带有 commiserate
-1. commod：方便 accommodate
-1. con：共同，全部 confuse conquer condone
-1. contri：相反 contrive contrived 
-1. contro：相反 controversy
+1. clud/clus/clos：关闭 conclude seclude preclude(exclude) enclose(inclose) disclose
+1. col：耕种 colon colony 
+1. commod：方便 commode commodious discommode accommodate
+1. con/com：共同，全部 confuse conquer condone
+1. contri/contro/counter：相反 contrive(contrived) controversy encounter counterpart
 1. cop：砍 coupon
 1. cor：完全 corrupt
 1. cord：心 cord discord
-1. corp：身体 corpus corporal corporate incorporate
+1. corp：身体 corpus corporal corporate(incorporate)
 1. cosm：宇宙 cosmic microcosm
-1. coun：强调 council counsel counsellor
+1. coun：强调 council counsel(counsellor)
 1. count：计算 伯爵 county
-1. counter：相反的，相应的 encounter counterpart
 1. cour：精神 discourage
-1. cour：跑 scour
-1. course：路线 recourse
 1. court：花园（引申为朝廷、阿谀奉承） courtship discourteous
-1. cracy：统治 cracy
-1. craft：技术 spacraft
+1. cracy/crat：统治 aristocracy democracy democrat autocratic
 1. crastin：明天 procrastinate
-1. crat：管理者，统治 democrat autocratic
-1. cre：产生，生长 create recreate concrete decrease 
+1. cre：产生，生长 create recreate concrete decrease recruit
 1. cred：相信 credit(credential) incredible discredit accredit 
 1. creet：清楚 discreet
 1. crep(it)：破裂,发出破裂声 decrepit discrepancy
-1. cret：分开 excrete excreta
 1. cri(t)：判断 critic criticise critical criterion
 1. crim：罪 crime
-1. crimin：分开 discriminate
 1. croach：钩子 encroach
 1. crock：瓦罐 crockery
 1. cru(c)：十字形 crucial crusade cruise
-1. cru：生长 recruit
-1. cule：踩踏 inculcate
+1. cru：外壳 crust incrust  
 1. culmin：顶 culminate
 1. cult：种植 cultivate
 1. cumb：躺 succumb
 1. cumul：堆积 cumulative
 1. cur：关心，治疗  curiously curative
-1. cur：跑 concur incur corridor excurtion currency curriculum carousel
+1. cur/curr/curs/cours：跑，发生 concur incur corridor excurtion currency curricular(extracurricular curriculum) carousel scour course(recourse)
 1. curl：使卷曲 curly
-1. curricular：课程的 extracurricular
 1. curt：短 curtail
 1. cus：原因 accuse
 1. custod：看护 custos custody
@@ -226,44 +208,33 @@ tags:
 
 ###### D
 1. dain：尊贵 disdain
-1. de(i)：神，神的 deity divine divination
-1. de：不 deficiency demolition
-1. de：分开 division
-1. de：加强 debate interdepend decrepit
-1. de：偏离 deviance
-1. de：去掉 detergent
+1. damn/demn：伤害，诅咒 damn condemn damage indemnify
+1. de(i)：神，神的 divine(divination) deity
+1. de：离开，向下(引申为彻底离开，完全向下；表完全->表加强，表离开->没有，相反) deviance demolition defend deficiency detergent debate interdepend decrepit  
 1. deal：交易 dealer
 1. dear：珍贵的 dearth
 1. deavor：债务，责任 endeavor
-1. dec(or)：装饰 decorate decent
+1. dec(or)：美丽(引申为可接受，装饰) decent decorate 
 1. deci：十分之一 decibel
-1. defend：辩护 defendant
-1. dem：人民 epidemic democracy
-1. dem：伤害，诅咒 condemn
+1. dem(0)：人民 epidemic democracy
 1. dent：齿，咬合 indent(indenture)
-1. di：分开 diverse diverge
 1. dial：刻度盘 sundial
 1. dic：分配 dedicate predict
 1. dict：说 dictate contradict addict
-1. dif：分开 diffuse
 1. dipl：对着 diploma diplomat
-1. dis：不，非 disclose disqualify
-1. dis：分开  dispenser discard indispensable dispose dissert
-1. dis：加强 discreet
-1. dis：轻视 disparage
+1. di/dis/dif：分开(引申为没有，相反) diverge(diverse) division dispense(dispenser) dispose discard indispensable dissert diffuse discreet disparage disclose disqualify 
 1. dit：说  condition
 1. dol：悲痛 indolent
 1. dom：家 domestic dominate predominate
-1. don：给予 donate condom condone dose
-1. dorm：睡 drom dormat
+1. don：给予 donate condone(condom) dose
+1. dorm：睡 drom dormant
 1. dors：背 endorse
-1. dot：给予 dote antidot anecdote
-1. dox：观点 orthedox
+1. dot：给予 dote antidote anecdote
+1. dox：观点 orthodox
 1. dra：推动 dramatic
 1. drain：排水 drainage
 1. dub：不确定 dubious
-1. duc：拉，引导 deduce sedue conduce
-1. duct：引导 induct conduct inductive
+1. duc(t)：拉，引导 deduce seduce conduce induct(inductive) conduct(conduction) 
 1. due：预期的 overdue
 1. dur：持续 durable endure
 1. dys：坏 dystrophy
@@ -317,7 +288,7 @@ tags:
 1. feder：信任 federal
 1. feit：做 forfeit
 1. femin：女 feminism
-1. fens/fend：打 fence defend offensive 
+1. fens/fend：打 fence defend(defendant) offensive 
 1. fer/fert：带来，搬运 infer(inference inferential) interfere ferry refer(referee) fertile(fertilise)
 1. fer：野 feral(ferocious) fierce
 1. fest：打 manifest
@@ -538,6 +509,7 @@ tags:
 1. medi：中间 medieval mediocre mediterranean medium
 1. memor：记忆 memorandum memorable
 1. men：伸出，突出（引申为引导、威胁） menace  commence
+1. mend：改错 mend(amend mendable) maunder
 1. mens：测量 dimension immense
 1. ment：想法 comment mental mentor
 1. mer：部分，分配 emeritus
@@ -618,6 +590,7 @@ tags:
 1. ori：产生 origin orient(reorient)
 1. oriety：多 notoriety
 1. orn：装饰 ornament adorn
+1. ortho：正，直 orthodox orthopeady
 1. ought：应该 drought
 1. out：超过 outdo
 1. oxy：酸 oxygen
@@ -731,7 +704,6 @@ tags:
 1. rac：种族 race racial
 1. rad：根 radical radicate eradicate
 1. radi：光线 radiate
-1. raft：筏 craft
 1. rap：使着迷 wrap
 1. rat：清点，计算 ratio ration
 1. ray：光线 array
@@ -1061,7 +1033,7 @@ tags:
 1. cereal ceramic
 1. cloth sloth懒惰
 1. coffer保险箱 coffin
-1. cognition perception 感知 precipitate沉淀
+1. perception(cognition)感知 precipitate沉淀
 1. commit comment评论 commend赞扬 commerce商业 commission委员会/委托 commence开始 commute通勤
 1. conditioner调节器 container
 1. consult咨询 insult侮辱
@@ -1132,6 +1104,7 @@ tags:
 1. puzzle强调不理解或解决不了，bewilde通常表现为心理和智力的紊乱 ，perplex使杂乱，使疑虑，使不安，confuse强调因混淆而使人产生迷乱，embarrass有令人不快、难为情和内心混乱的意味
 1. rank腐臭的 rancid腐臭的 
 1. rape掠夺强奸 ripe成熟的 viper毒蛇 
+1. raft craft(spacecraft)
 1. rite仪式 ritual礼节，习惯
 1. rift裂缝 chasm裂口 chase追逐 
 1. rough粗糙的，艰难的 rouge胭脂 rogue流氓
