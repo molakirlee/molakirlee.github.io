@@ -819,6 +819,7 @@ var quotes = [
 'Nothing for nothing.',
 '头等人，有本事，没脾气。 -- 杜月笙',
 '往后的每一天，都是你最年轻的一天.',
+'Necessity is the mistress and guide of nature. Necessity is the theme and inventress of nature, her curb and her eternal law. -- Leonardo da Vinci',
 '才情高超，清越脱俗。'
 ]
 

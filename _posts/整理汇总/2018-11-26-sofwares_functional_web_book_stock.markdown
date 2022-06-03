@@ -20,10 +20,14 @@ tags:
 1. [完美导航](https://www.9eip.com/)
 1. [龙轩导航](http://ilxdh.com/)
 1. [锅盖头软件](https://www.ggtrj.com/)
-1. []()
 
 ### 中文
 1. [反向词典：词义-->单词](https://wantwords.net)
+
+### 英文词典
+1. [词根词源字典](http://www.etymon.cn/origins/f/16037.html)
+1. [趣词](https://www.quword.com/)
+1. [visuwords](https://visuwords.com/impact)
 
 ### 科研
 ###### 导航
