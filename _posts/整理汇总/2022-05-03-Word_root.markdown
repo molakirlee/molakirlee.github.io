@@ -1,19 +1,21 @@
 ---
-layout：     post
-title：      "英1词根 近形词"
-subtitle：   ""
-date：       2022-05-03 21：18：00
-author：     "XiLock"
-header-img： "img/in-post/2018/2018-11-08-equqtions/bg.jpg"
-header-mask： 0.3
-catalog：    true
-tags：
+layout:     post
+title:      "英·词根 近形词"
+subtitle:   ""
+date:       2022-05-03 21：18：00
+author:     "XiLock"
+header-img: "img/in-post/2018/2018-11-08-equqtions/bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
     - 整理汇总
     - 2022
 
+
 ---
+
 ###### A
-1. a： 不 afield 测试1
+1. a： 不 afield 
 1. ab： 离去 absent
 1. abol： 清除 abolish
 1. ac： 附近 accessory
