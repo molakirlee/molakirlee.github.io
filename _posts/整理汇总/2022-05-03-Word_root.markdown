@@ -13,7 +13,7 @@ tags：
 
 ---
 ###### A
-1. a： 不 afield 测试
+1. a： 不 afield
 1. ab： 离去 absent
 1. abol： 清除 abolish
 1. ac： 附近 accessory
