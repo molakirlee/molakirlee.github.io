@@ -118,6 +118,8 @@ tags:
 1. bureau： 桌子 bureaucracy
 1. burg： 城堡 burgle burglar
 1. by： 旁边 bypass
+
+
 ###### C
 1. cad： 落下 cascade
 1. calc： 石头（引申为计算）/脚跟（引申为踢） calcium  caulk inculcate recalcitrant
@@ -205,6 +207,7 @@ tags:
 1. custod： 看护 custos custody
 1. custom： 风俗 accustom
 1. cyn： 狗 cynic(cynical) kennel
+
 ###### D
 1. dain： 尊贵 disdain
 1. damn/demn： 伤害，诅咒 damn condemn damage indemnify
@@ -237,6 +240,7 @@ tags:
 1. due： 预期的 overdue
 1. dur： 持续 durable endure
 1. dys： 坏 dystrophy
+
 ###### E
 1. e： 去，向外 erode eliminate evacuation
 1. ease： 安心 lease cease
@@ -272,6 +276,7 @@ tags:
 1. euver： 工作 manoeuvre
 1. ex： 出，向外 exaggerate extinguish exile exterior anecdote
 1. extro： 外 extrovert
+
 ###### F
 1. fac(t)/fect/feit/fic/feas <do,make>： facilitate artefact facsimile faculty defeat(defect) refectory suffice(deficiency) affect(efficient) fiction feasible forfeit
 1. fac/fic/front <face,forehead>： facial superficial(surficial) facade deface confront affront
@@ -312,6 +317,7 @@ tags:
 1. furn <to provide>： furnish furniture perform
 1. fus/fund/found/fut <pour>： fusion confuse diffuse refund futile
 1. fy <使...>： classify
+
 ###### G
 1. gag <pledge>： gage mortgage engage
 1. galact/lact <milk>： galactic lactary galaxy
@@ -340,6 +346,7 @@ tags:
 1. gr <rub,grind>： grit gruel congruous(congruity) incongruity(incongruous)
 1. gull <>： gullible
 1. gur： 说 augur inaugurate
+
 ###### H
 1. habit <dwell>： habit habitat(habitable) inhabit(inhabitant)
 1. hal(it) <breathe>： hale inhale exhale
@@ -367,6 +374,7 @@ tags:
 1. hot/host/hospit <guest>： hostel hospitality
 1. hum <earth>： human(humble) inhume(hunmus) exhume
 1. hypno <sleep>： hypnotic
+
 ###### I
 1. ice <>： slice
 1. id/ident/it <same>： item identify identical identification
@@ -383,6 +391,7 @@ tags:
 1. iron/rhet <speak>： irony(ironic) rhetor(rhetoric)
 1. isol/insul <island>： isolate(insulate) insularity
 1. it <go>： itinerary(itineracy) reiterate
+
 ###### J
 1. jac/ject <throw>： adjacent object reject eject 
 1. jeal <zeal>： jealous
@@ -392,7 +401,9 @@ tags:
 1. junct/join/jug <join>： junction conjunction adjunct 
 1. just <right>： justify adjust
 1. juven <young>： juvenile
+
 ###### K
+
 ###### L
 1. la(u)nc <to throw>： launch lance(lancinate)
 1. labor <>： labor/labour belabour elaborate(elaboration) collaboration  
@@ -436,6 +447,7 @@ tags:
 1. lust(e)r <illuminate>： illustrate
 1. lux <luxury,excess>： luxury luxuriant
 1. lys <break down>： analyse paralysis
+
 ###### M
 1. magn： 巨大的 magnitude
 1. main： 手 maintain
@@ -505,6 +517,7 @@ tags:
 1. muni： 服务 municipal
 1. mut： 变(move) mutual transmute commute
 
+
 ###### N
 1. na： 知道 narrate narrative
 1. naiss： 出生 renaissance
@@ -524,6 +537,7 @@ tags:
 1. nour： 营养 nourish
 1. nov： 新 innovation novice
 1. nutri： 滋养 nutrient(nutritious)
+
 ###### O
 1. ob： 逆 obsess(obsession) obstruct
 1. obey： 服从 disobey
@@ -546,6 +560,7 @@ tags:
 1. ought： 应该 drought
 1. out： 超过 outdo
 1. oxy： 酸 oxygen
+
 ###### P
 1. pact： 系紧 compact
 1. pag： 扎牢，系牢 propagate
@@ -645,12 +660,14 @@ tags:
 1. pur： 向前 pursue
 1. put： 思考，想 depute dispute reputation(reputable) 
 1. pyr(o)： 火，发热 pyretic pyrolysis empyreal pyrotechnical
+
 ###### Q
 1. quaint： 知道 acquaint
 1. quer/quir： 询问 conquer(unconquerable) require enquire/inquire  
 1. quest： 找 conquest
 1. qui(l)： 安静 quite tranquil acquiesce requiem 
 1. quisit： 要求 requisite prequisite 
+
 ###### R
 1. rac： 种族 race racial
 1. rad： 根 radical radicate eradicate
@@ -691,6 +708,7 @@ tags:
 1. rupt： 断裂 irrupt erupt corrupt bankrupt 
 1. rur： 乡村 rural
 1. ruth： 怜悯 ruthless
+
 
 ###### S
 1. sacr/secr： 神圣 sacrifice obsecrate
@@ -792,6 +810,7 @@ tags:
 1. surg： 外科 surgeon
 1. surg： 升起 surge resurge(resurrect) resort insurgent insurgence(insurrection)
 1. syn： 一起 synthetic
+
 ###### T
 1. tabl： 平板 tablet
 1. tach/tact： 接触，连接 attach detach intact
@@ -868,6 +887,7 @@ tags:
 1. turb： 晃动 turbine turbid
 1. twine： 缠绕 entwine
 1. typ： 模型 prototype
+
 ###### U
 1. uber： 果实 exuberant
 1. ulter： 远 ulterior
@@ -877,6 +897,7 @@ tags:
 1. us： 使用 abuse
 1. ut： 使用 utility
 1. utter： 全然的，发声（均为外面） utterance
+
 ###### V
 1. vac： 空的 vacation evacuate(evacuation)
 1. vacc： 牛 vaccine
@@ -925,6 +946,7 @@ tags:
 1. vort： 跳 cavort
 1. vulg： 人们，大众 vulgar
 1. vuln： 受伤 vulnerable
+
 ###### W
 1. war： 保卫 warrant
 1. ware： 看 beware
@@ -934,8 +956,11 @@ tags:
 1. wing： 翅膀 swing
 1. wise： 方向 clockwise
 1. wr： 拧 wring wriggle worm
+
 ###### X
+
 ###### Y
+
 ###### Z
 ### 词组
 1. and so forth
