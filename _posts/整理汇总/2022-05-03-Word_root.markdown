@@ -1,6 +1,6 @@
 ---
 layout：     post
-title：      "英 词根 近形词"
+title：      "英1词根 近形词"
 subtitle：   ""
 date：       2022-05-03 21：18：00
 author：     "XiLock"
@@ -13,7 +13,7 @@ tags：
 
 ---
 ###### A
-1. a： 不 afield 测试
+1. a： 不 afield 测试1
 1. ab： 离去 absent
 1. abol： 清除 abolish
 1. ac： 附近 accessory
