@@ -1,6 +1,6 @@
 ---
 layout：     post
-title：      "英·词根 近形词"
+title：      "英 词根 近形词"
 subtitle：   ""
 date：       2022-05-03 21：18：00
 author：     "XiLock"
