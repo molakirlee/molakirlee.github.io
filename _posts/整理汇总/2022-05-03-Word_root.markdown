@@ -267,8 +267,8 @@ tags:
 1. escal: 梯子(ladder) escalate escalator
 1. esce: 动作的起始 adolesce fluoresce senescefa
 1. esque: 表形容词 picturesque
-1. ess: 存在 essence
-1. ess: 存在 essential
+1. ess/est/ent <to be>: esse essence essential absent interest process
+1. escent <开始、正在、逐渐成为某种状态的>:  acescent crescent
 1. est: 燃烧 estuary
 1. esthet: 感觉 aesthetic
 1. ether: 苍穹，天空 ethereal
@@ -623,9 +623,9 @@ tags:
 1. pon: 放 postpone
 1. popul: 人 populate populace
 1. port: 搬运 transport portable
-1. portion: 部分 proportion apportion 
-1. pos: 放 propose deposit disposal impose predispose positive posture compose
-1. poss: 有力的 possess
+1. portion <part>: proportion apportion 
+1. pos(it) <put>: posit reposit appose propose dispose(predispose) deposit impose positive posture compose transpose
+1. pow/pot/poss <powerful,capable of>: potence possess puissant
 1. post: 放置，柱，岗 outpost signpost compost
 1. pot: 喝 potion poison symposium
 1. pound: 放置 compound
@@ -716,24 +716,23 @@ tags:
 1. sarc <flesh>: sarco sarcasm(sarcastic) sarcocarp
 1. sal/sil/sul/sail/saul <leap>: saltant salient assail(assault) exult resile insult result consilient salacious somersault
 1. sal(t) <salt>: saline
-1. san(it): 健康的 sanitate sanitation insane
-1. sanct: 神圣 sanction sanctuary 
-1. sat: 充足 saturate 
-1. sav: 品尝 savour
-1. scen(e): 场景 scenery obscene scenario
-1. scend: 爬 descend
-1. scent: 香味 crescent
-1. scept: 看 sceptic(sceptical) 
-1. sci: 知道 conscious conscience
-1. scrib/script: 写 inscribe ascribe prescribe(prescription) circumscribe transcribe 
-1. scrut(in): 检查 scrutiny scrutable
-1. sculp: 雕刻 sculpture
-1. scur: 盖上 obscure(obscurity)
-1. se: 分开 seduce seclude
-1. sect: 切割 section
-1. sed: 坐 supersede sedentary
-1. seg: 切割 segment
-1. sel: 带来 counsel
+1. san(it) <healthy>: sanitate sanitation insane
+1. sanct <holy>: sanction sanctuary 
+1. sati(s) <enough>: sate saturate asset
+1. sap <taste>: sapid sapour sage(savant savvy) savour
+1. sav/salv/salu <safe,healthful,save>: salute salvable salvage salve salver
+1. scen <to set>: scenery obscene scenario
+1. scend/scent/scens <climb>: ascend(ascent) descend(descent) transcend
+1. scept/skept <skeptic>: sceptic(sceptical) skeptic
+1. sci <know>: conscious conscience
+1. scrib/script <write>: conscribe inscribe ascribe prescribe(prescription) circumscribe transcribe scrap(scrape scrawl)
+1. scrut(in) <search>: scrutiny scrutable
+1. sculp/scalp <cut,scrape>: sculpt(sculpture) scalp(scalpel)
+1. scu(r) <shield>: scute obscure(obscurity)
+1. se(d) <apart,without>: sever sedulity seduce seclude 
+1. sect/seg <cut,divide>: bisect(dissect resect) section segment
+1. sed/sid/sess <sit>: assess obsess(obsession) supersede sedentary subside(subsidiary subsidy) reside(residential) insidious
+1. sel/sul/sult <summon>: counsel consul(consult consultant)
 1. sem: 符号，意义 semantic
 1. sembl: 一样 assemble resemble
 1. semin: 种子 disseminate (dissemination)
@@ -745,11 +744,9 @@ tags:
 1. sert: 放置，安排 assert insert dissert
 1. serv: 保持 observe preserve conserve(conservation)
 1. serv: 服务 subserve deserve disserve sergeant
-1. sess: 坐 assess obsess(obsession)
 1. set: 布置 setting upset
 1. sever: 切割，严肃 sever dissever asseverate
 1. shut: 关 shuttle
-1. sid: 坐 subside subsidiary subsidy reside(residential) insidious
 1. sign: 符号 signpost consign
 1. simil/simul: 相同 assimilate facsimile simultaneously
 1. sinist: 左边 sinister
@@ -803,7 +800,6 @@ tags:
 1. sue: 跟随 pursue ensue
 1. sui: 自己 suicidal
 1. suit: 起诉 lawsuit
-1. sult: 带来，召集 consult(consultant)
 1. sum: 拿，取 assume presume resume 
 1. summ: 总的 summary summit
 1. sumpt: 使用 consumption
