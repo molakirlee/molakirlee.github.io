@@ -2,7 +2,7 @@
 layout:     post
 title:      "英·词根 近形词"
 subtitle:   ""
-date:       2022-05-03 21：18：00
+date:       2022-05-03 21:18:00
 author:     "XiLock"
 header-img: "img/in-post/2018/2018-11-08-equqtions/bg.jpg"
 header-mask: 0.3
@@ -15,947 +15,949 @@ tags:
 ---
 
 ###### A
-1. a： 不 afield 
-1. ab： 离去 absent
-1. abol： 清除 abolish
-1. ac： 附近 accessory
-1. ac： 向 acclimate
-1. acerb： 苦涩的 exacerbate
-1. acoust： 听 acoustic
-1. acquaint： 使熟知 acquaintance
-1. acro： 高 acrobat
-1. act： 法令 enact
-1. act： 行动 transact exact interact
-1. acu： 尖 acumen acupuncture
-1. ad： 向 adverse
-1. ad： 一再 addict addiction
-1. aer(o)： 空气 aerobic aeration aeronautics aeroplane aerospace
-1. af： 去，向 affluent afflict
-1. af： 一再 afflict
-1. ag： 加强 exaggerate
-1. ag/ig/ass <do,act>： agenda(agency agent) agile agitate ambiguity embassy exigence litigant mitigate
-1. aholic： 上瘾的 workaholic 
-1. al： 向 allege alleviate
-1. al/ali/alter/ulter： 其他的，改变状态 alter(alternate) altercate adulterate altruist allegory allergy(allergic) alias alien(inalienable) 
-1. ali： 营养 aliment
-1. allow： 允许 allowance
-1. alt： 高 altitude halt
-1. alter(n)：其他的 alternative alternate
-1. amat： 爱 amateur
-1. amb(i)/emb： 周围，两边 ambitious ambiguity ambassador embassy anfractuous
-1. ambul： 行走 ambulate ambulance 
-1. amount： 数量 paramount
-1. amphi： 两 amphibious
-1. ampl： 大 amphlify
-1. an/ante： 前面 ancestor
-1. an： 没有 anec anecdote
-1. ana： 分开 anatomy
-1. ana： 类似 analogy
-1. anim： 精神，生命 animate unanimous
-1. anthrop： 人类 anthropologist
-1. anti： 反 antibiotic 
-1. anti： 在..之前 anticipate
-1. antique： 古代的 antiquity antiquate
-1. apt： 适宜的，易于..的 adapt adaptitude
-1. aqu(a)： 水 aquarium
-1. ar： 犁地 arable
-1. ar： 增加 arrogance
-1. arbor： 树 arboreal
-1. arc： 弓 arcade
-1. arch： 统治，统治者，主要的 hierarchy
-1. arid： 干旱 aridity
-1. arithm： 数字 arithmatic
-1. art(i)： 技巧 artefact artificial
-1. arthr： 连接 arthritis
-1. as： 接近 assemble assist
-1. as： 向 assault
-1. ass： 做 ambassador embassy
-1. assur： 保 ascurance
-1. astro： 星 astronaut astrology disastrous
-1. au： 鸟 augur inaugurate
-1. aud： 大胆的 audacious
-1. aud： 听 audit audition auditorium
-1. aug： 增加 augment
-1. auto： 自己 autobiograph authentic
-1. aval： 向下 avalanche
-1. avi： 鸟 aviation
+1. a: 不 afield 
+1. ab: 离去 absent
+1. abol: 清除 abolish
+1. ac: 附近 accessory
+1. ac: 向 acclimate
+1. acerb: 苦涩的 exacerbate
+1. acoust: 听 acoustic
+1. acquaint: 使熟知 acquaintance
+1. acro: 高 acrobat
+1. act: 法令 enact
+1. act: 行动 transact exact interact
+1. acu: 尖 acumen acupuncture
+1. ad: 向 adverse
+1. ad: 一再 addict addiction
+1. aer(o): 空气 aerobic aeration aeronautics aeroplane aerospace
+1. af: 去，向 affluent afflict
+1. af: 一再 afflict
+1. ag: 加强 exaggerate
+1. ag/ig/ass <do,act>: agenda(agency agent) agile agitate ambiguity embassy exigence litigant mitigate
+1. aholic: 上瘾的 workaholic 
+1. al: 向 allege alleviate
+1. al/ali/alter/ulter: 其他的，改变状态 alter(alternate) altercate adulterate altruist allegory allergy(allergic) alias alien(inalienable) 
+1. ali: 营养 aliment
+1. allow: 允许 allowance
+1. alt: 高 altitude halt
+1. alter(n):其他的 alternative alternate
+1. amat: 爱 amateur
+1. amb(i)/emb: 周围，两边 ambitious ambiguity ambassador embassy anfractuous
+1. ambul: 行走 ambulate ambulance 
+1. amount: 数量 paramount
+1. amphi: 两 amphibious
+1. ampl: 大 amphlify
+1. an/ante: 前面 ancestor
+1. an: 没有 anec anecdote
+1. ana: 分开 anatomy
+1. ana: 类似 analogy
+1. anim: 精神，生命 animate unanimous
+1. anthrop: 人类 anthropologist
+1. anti: 反 antibiotic 
+1. anti: 在..之前 anticipate
+1. antique: 古代的 antiquity antiquate
+1. apt: 适宜的，易于..的 adapt adaptitude
+1. aqu(a): 水 aquarium
+1. ar: 犁地 arable
+1. ar: 增加 arrogance
+1. arbor: 树 arboreal
+1. arc: 弓 arcade
+1. arch: 统治，统治者，主要的 hierarchy
+1. arid: 干旱 aridity
+1. arithm: 数字 arithmatic
+1. art(i): 技巧 artefact artificial
+1. arthr: 连接 arthritis
+1. as: 接近 assemble assist
+1. as: 向 assault
+1. ass: 做 ambassador embassy
+1. assur: 保 ascurance
+1. astro: 星 astronaut astrology disastrous
+1. au: 鸟 augur inaugurate
+1. aud: 大胆的 audacious
+1. aud: 听 audit audition auditorium
+1. aug: 增加 augment
+1. auto: 自己 autobiograph authentic
+1. aval: 向下 avalanche
+1. avi: 鸟 aviation
 
 ###### B
-1. balc： 树干 balcony
-1. ball： 抛，舞，球 balls ballad ballistic ballot
-1. ban： 禁止 banner
-1. bank： 河堤，岸 embankment
-1. bar(r)： 条，棒（引申为栏） barrier barrel barrage
-1. bar： 光秃秃 barren
-1. bar： 重，压 barometer baron
-1. barb： 条，棒 barbecue
-1. barbar： 胡说 barbaric
-1. bark： 船 embark
-1. bat： 打 debat combat
-1. bat： 走 acrobat 
-1. bate： 减少 abate
-1. be： 使 bereave
-1. bed： 床 embed
-1. bel/bell： 战争，打斗 rebel revel bellicose duel 
-1. bene： 好 benifit benificial benevolent
-1. bever： 喝 beverage
-1. bezzle： 吞没 embezzle
-1. bi： 生命 amphibious
-1. bid： 请求 bid bide abide abode
-1. blemish： 污点 unblemished
-1. bol： 扩张，扔 bold bollix bole bollard bale boulder metabl- metabolic metabolism
-1. born： 出生 inborn
-1. boss： 突出 emboss
-1. bound： 界限 abound
-1. brac： 胳膊 embrace
-1. break： 超过 breakwater
-1. bris： 破开 debris
-1. broch： 刺 brochette brochure
-1. bronch： 气管 bronchitis
-1. brute： 畜生 brutal
-1. bryo： 胚胎 embryo
-1. bund： 接近的 moribund
-1. bureau： 桌子 bureaucracy
-1. burg： 城堡 burgle burglar
-1. by： 旁边 bypass
+1. balc: 树干 balcony
+1. ball: 抛，舞，球 balls ballad ballistic ballot
+1. ban: 禁止 banner
+1. bank: 河堤，岸 embankment
+1. bar(r): 条，棒（引申为栏） barrier barrel barrage
+1. bar: 光秃秃 barren
+1. bar: 重，压 barometer baron
+1. barb: 条，棒 barbecue
+1. barbar: 胡说 barbaric
+1. bark: 船 embark
+1. bat: 打 debat combat
+1. bat: 走 acrobat 
+1. bate: 减少 abate
+1. be: 使 bereave
+1. bed: 床 embed
+1. bel/bell: 战争，打斗 rebel revel bellicose duel 
+1. bene: 好 benifit benificial benevolent
+1. bever: 喝 beverage
+1. bezzle: 吞没 embezzle
+1. bi: 生命 amphibious
+1. bid: 请求 bid bide abide abode
+1. blemish: 污点 unblemished
+1. bol: 扩张，扔 bold bollix bole bollard bale boulder metabl- metabolic metabolism
+1. born: 出生 inborn
+1. boss: 突出 emboss
+1. bound: 界限 abound
+1. brac: 胳膊 embrace
+1. break: 超过 breakwater
+1. bris: 破开 debris
+1. broch: 刺 brochette brochure
+1. bronch: 气管 bronchitis
+1. brute: 畜生 brutal
+1. bryo: 胚胎 embryo
+1. bund: 接近的 moribund
+1. bureau: 桌子 bureaucracy
+1. burg: 城堡 burgle burglar
+1. by: 旁边 bypass
 
 
 ###### C
-1. cad： 落下 cascade
-1. calc： 石头（引申为计算）/脚跟（引申为踢） calcium  caulk inculcate recalcitrant
-1. camp： 营地 campus camper(scamper) campfire campaign
-1. cant： 弯，角落 canteen
-1. cap： 盖 handicap 
-1. cand <white,glow>： candid candle kindle(rekindle)
-1. cap(t)/cept/cip/ceiv： 拿，抓  capture(captive captivity) incapacitate cater(chase catch) anticipate municipal principle discipline(disciple) concept(misconception) deception(deceive) perception susceptible participate receipt precept incept(except) deceit conceive(perceive ) 
-1. cap/cipit： 头 decapitate capsize precipitation 
-1. caps： 箱子 capsule
-1. cardio： 心 cardiovascular
-1. cas： 掉落 casual(casualty) cascade
-1. case： 容器 encase casette briefcase
-1. cast： 投 cast caster forecast downcast offcast outcast opencast
-1. cata： 向下 catastrophe catalogue
+1. cad: 落下 cascade
+1. calc: 石头（引申为计算）/脚跟（引申为踢） calcium  caulk inculcate recalcitrant
+1. camp: 营地 campus camper(scamper) campfire campaign
+1. cant: 弯，角落 canteen
+1. cap: 盖 handicap 
+1. cand <white,glow>: candid candle kindle(rekindle)
+1. cap(t)/cept/cip/ceiv: 拿，抓  capture(captive captivity) incapacitate cater(chase catch) anticipate municipal principle discipline(disciple) concept(misconception) deception(deceive) perception susceptible participate receipt precept incept(except) deceit conceive(perceive ) 
+1. cap/cipit: 头 decapitate capsize precipitation 
+1. caps: 箱子 capsule
+1. cardio: 心 cardiovascular
+1. cas: 掉落 casual(casualty) cascade
+1. case: 容器 encase casette briefcase
+1. cast: 投 cast caster forecast downcast offcast outcast opencast
+1. cata: 向下 catastrophe catalogue
 1. caust；烧 caustic
-1. cav： 洞 excavate concave
-1. cay： 落下 decay
-1. ceal： 隐藏 conceal
-1. ce(e)d/cess/cest： 走 succeed exceed proceed(procedure) concede(concession) precede(precedent) access(accessory) process(procession) recess(recession) success(succession) ancestor
-1. cel： 天空 celestial
-1. celer： 快速的 accelerate
-1. cend： 发白光 incendiary
-1. cend： 爬 transcend ascend
-1. cens： 评价，审查 censor censure
-1. cent： 唱歌 incentive
-1. centr： 中心 eccentric
-1. cerebr： 脑 cerebral
-1. cern/cert/cret/crimin： 分开，搞清 discerning secern concern ascertain certify concert excrete(excreta) discriminate 
-1. cervic： 颈 cervical
-1. chant： 唱歌，念咒 enchant disenchant
-1. char： 烧焦 charcoal
-1. char： 珍爱 charity
-1. chart： 纸 charter
-1. chest： 胸腔 orchestra
-1. chor： 歌 chorus
-1. chron： 时间 chronic
-1. cid： 掉落 incident coincide
-1. cine： 移动，电影 cinema
-1. ciner： 灰 incinerate 
-1. cipher： 密码 decipher
-1. circ： 圆环 circus
-1. circum： 环绕，周围 circumstence
-1. cit： 引用，唤起 recite excite(incite excitement) resuscitate solicit(solicitor)
-1. civ： 公民 civil
-1. cla： 夹 clamp
-1. clar： 清楚 clarify
-1. clim： 倾斜 climate acclimate clinic(愿意为躺下，病床)
-1. clin： 倾斜，弯曲 inclination decline
-1. clud/clus/clos： 关闭 conclude seclude preclude(exclude) enclose(inclose) disclose
-1. col： 耕种 colon colony 
-1. commod： 方便 commode commodious discommode accommodate
-1. con/com： 共同，全部 confuse conquer condone
-1. contri/contro/counter： 相反 contrive(contrived) controversy encounter counterpart
-1. cop： 砍 coupon
-1. cor： 完全 corrupt
-1. cord： 心 cord discord
-1. corp： 身体 corpus corporal corporate(incorporate)
-1. cosm： 宇宙 cosmic microcosm
-1. coun： 强调 council counsel(counsellor)
-1. count： 计算 伯爵 county
-1. cour： 精神 discourage
-1. court： 花园（引申为朝廷、阿谀奉承） courtship discourteous
-1. cracy/crat： 统治 aristocracy democracy democrat autocratic
-1. crastin： 明天 procrastinate
-1. cre： 产生，生长 create recreate concrete decrease recruit
-1. cred： 相信 credit(credential) incredible discredit accredit 
-1. creet： 清楚 discreet
-1. crep(it)： 破裂,发出破裂声 decrepit discrepancy
-1. cri(t)： 判断 critic criticise critical criterion
-1. crim： 罪 crime
-1. croach： 钩子 encroach
-1. crock： 瓦罐 crockery
-1. cru(c)： 十字形 crucial crusade cruise
-1. cru： 外壳 crust incrust  
-1. culmin： 顶 culminate
-1. cult： 种植 cultivate
-1. cumb： 躺 succumb
-1. cumul： 堆积 cumulative
-1. cur： 关心，治疗  curiously curative
-1. cur/curr/curs/cours： 跑，发生 concur incur corridor excurtion currency curricular(extracurricular curriculum) carousel scour course(recourse)
-1. curl： 使卷曲 curly
-1. curt： 短 curtail
-1. cus： 原因 accuse
-1. custod： 看护 custos custody
-1. custom： 风俗 accustom
-1. cyn： 狗 cynic(cynical) kennel
+1. cav: 洞 excavate concave
+1. cay: 落下 decay
+1. ceal: 隐藏 conceal
+1. ce(e)d/cess/cest: 走 succeed exceed proceed(procedure) concede(concession) precede(precedent) access(accessory) process(procession) recess(recession) success(succession) ancestor
+1. cel: 天空 celestial
+1. celer: 快速的 accelerate
+1. cend: 发白光 incendiary
+1. cend: 爬 transcend ascend
+1. cens: 评价，审查 censor censure
+1. cent: 唱歌 incentive
+1. centr: 中心 eccentric
+1. cerebr: 脑 cerebral
+1. cern/cert/cret/crimin: 分开，搞清 discerning secern concern ascertain certify concert excrete(excreta) discriminate 
+1. cervic: 颈 cervical
+1. chant: 唱歌，念咒 enchant disenchant
+1. char: 烧焦 charcoal
+1. char: 珍爱 charity
+1. chart: 纸 charter
+1. chest: 胸腔 orchestra
+1. chor: 歌 chorus
+1. chron: 时间 chronic
+1. cid: 掉落 incident coincide
+1. cine: 移动，电影 cinema
+1. ciner: 灰 incinerate 
+1. cipher: 密码 decipher
+1. circ: 圆环 circus
+1. circum: 环绕，周围 circumstence
+1. cit: 引用，唤起 recite excite(incite excitement) resuscitate solicit(solicitor)
+1. civ: 公民 civil
+1. cla: 夹 clamp
+1. clar: 清楚 clarify
+1. clim: 倾斜 climate acclimate clinic(愿意为躺下，病床)
+1. clin: 倾斜，弯曲 inclination decline
+1. clud/clus/clos: 关闭 conclude seclude preclude(exclude) enclose(inclose) disclose
+1. col: 耕种 colon colony 
+1. commod: 方便 commode commodious discommode accommodate
+1. con/com: 共同，全部 confuse conquer condone
+1. contri/contro/counter: 相反 contrive(contrived) controversy encounter counterpart
+1. cop: 砍 coupon
+1. cor: 完全 corrupt
+1. cord: 心 cord discord
+1. corp: 身体 corpus corporal corporate(incorporate)
+1. cosm: 宇宙 cosmic microcosm
+1. coun: 强调 council counsel(counsellor)
+1. count: 计算 伯爵 county
+1. cour: 精神 discourage
+1. court: 花园（引申为朝廷、阿谀奉承） courtship discourteous
+1. cracy/crat: 统治 aristocracy democracy democrat autocratic
+1. crastin: 明天 procrastinate
+1. cre: 产生，生长 create recreate concrete decrease recruit
+1. cred: 相信 credit(credential) incredible discredit accredit 
+1. creet: 清楚 discreet
+1. crep(it): 破裂,发出破裂声 decrepit discrepancy
+1. cri(t): 判断 critic criticise critical criterion
+1. crim: 罪 crime
+1. croach: 钩子 encroach
+1. crock: 瓦罐 crockery
+1. cru(c): 十字形 crucial crusade cruise
+1. cru: 外壳 crust incrust  
+1. culmin: 顶 culminate
+1. cult: 种植 cultivate
+1. cumb: 躺 succumb
+1. cumul: 堆积 cumulative
+1. cur: 关心，治疗  curiously curative
+1. cur/curr/curs/cours: 跑，发生 concur incur corridor excurtion currency curricular(extracurricular curriculum) carousel scour course(recourse)
+1. curl: 使卷曲 curly
+1. curt: 短 curtail
+1. cus: 原因 accuse
+1. custod: 看护 custos custody
+1. custom: 风俗 accustom
+1. cyn: 狗 cynic(cynical) kennel
 
 ###### D
-1. dain： 尊贵 disdain
-1. damn/demn： 伤害，诅咒 damn condemn damage indemnify
-1. de(i)： 神，神的 divine(divination) deity
-1. de： 离开，向下(引申为彻底离开，完全向下；表完全->表加强，表离开->没有，相反) deviance demolition defend deficiency detergent debate interdepend decrepit  
-1. deal： 交易 dealer
-1. dear： 珍贵的 dearth
-1. deavor： 债务，责任 endeavor
-1. dec(or)： 美丽(引申为可接受，装饰) decent decorate 
-1. deci： 十分之一 decibel
-1. dem(0)： 人民 epidemic democracy
-1. dent： 齿，咬合 indent(indenture)
-1. dial： 刻度盘 sundial
-1. dic： 分配 dedicate predict
-1. dict： 说 dictate contradict addict
-1. dipl： 对着 diploma diplomat
-1. di/dis/dif： 分开(引申为没有，相反) diverge(diverse) division dispense(dispenser) dispose discard indispensable dissert diffuse discreet disparage disclose disqualify 
-1. dit： 说  condition
-1. dol： 悲痛 indolent
-1. dom： 家 domestic dominate predominate
-1. don： 给予 donate condone(condom) dose
-1. dorm： 睡 drom dormant
-1. dors： 背 endorse
-1. dot： 给予 dote antidote anecdote
-1. dox： 观点 orthodox
-1. dra： 推动 dramatic
-1. drain： 排水 drainage
-1. dub： 不确定 dubious
-1. duc(t) <to lead>： deduce seduce conduce induce induct(inductive) conduct(conduction) 
-1. due： 预期的 overdue
-1. dur： 持续 durable endure
-1. dys： 坏 dystrophy
+1. dain: 尊贵 disdain
+1. damn/demn: 伤害，诅咒 damn condemn damage indemnify
+1. de(i): 神，神的 divine(divination) deity
+1. de: 离开，向下(引申为彻底离开，完全向下；表完全->表加强，表离开->没有，相反) deviance demolition defend deficiency detergent debate interdepend decrepit  
+1. deal: 交易 dealer
+1. dear: 珍贵的 dearth
+1. deavor: 债务，责任 endeavor
+1. dec(or): 美丽(引申为可接受，装饰) decent decorate 
+1. deci: 十分之一 decibel
+1. dem(0): 人民 epidemic democracy
+1. dent: 齿，咬合 indent(indenture)
+1. dial: 刻度盘 sundial
+1. dic: 分配 dedicate predict
+1. dict: 说 dictate contradict addict
+1. dipl: 对着 diploma diplomat
+1. di/dis/dif: 分开(引申为没有，相反) diverge(diverse) division dispense(dispenser) dispose discard indispensable dissert diffuse discreet disparage disclose disqualify 
+1. dit: 说  condition
+1. dol: 悲痛 indolent
+1. dom: 家 domestic dominate predominate
+1. don: 给予 donate condone(condom) dose
+1. dorm: 睡 drom dormant
+1. dors: 背 endorse
+1. dot: 给予 dote antidote anecdote
+1. dox: 观点 orthodox
+1. dra: 推动 dramatic
+1. drain: 排水 drainage
+1. dub: 不确定 dubious
+1. duc(t) <to lead>: deduce seduce conduce induce induct(inductive) conduct(conduction) 
+1. due: 预期的 overdue
+1. dur: 持续 durable endure
+1. dys: 坏 dystrophy
 
 ###### E
-1. e： 去，向外 erode eliminate evacuation
-1. ease： 安心 lease cease
-1. ec： 没有 eclipse
-1. eco： 家庭的 ecosystem ecology
-1. ed： 吃 edible edify 
-1. ef： 出来 efficient
-1. em： 给予 embody 
-1. em： 拿 premium
-1. empl： 拿 exemplar exemplify
-1. emul： 竞争 emulate
-1. en： 给予 entrust
-1. en： 进去 emtire entitle
-1. en： 使 enlighten enact enlist
-1. enigm： 迷 enigma
-1. enn： 年 centennial millennium
-1. enrol： 登记，入学 enrolment
-1. epi： 在..上 epitomise episode
-1. epi： 在..周围 epidemic
-1. equ： 相等 equal adequate equator
-1. era： 时代 ceramic
-1. erg： 能量，活动，工作 allergic
-1. err： 徘徊 erroneous
-1. escal： 梯子(ladder) escalate escalator
-1. esce： 动作的起始 adolesce fluoresce senescefa
-1. esque： 表形容词 picturesque
-1. ess： 存在 essence
-1. ess： 存在 essential
-1. est： 燃烧 estuary
-1. esthet： 感觉 aesthetic
-1. ether： 苍穹，天空 ethereal
-1. ethic： 道德，伦理 ethical
-1. euver： 工作 manoeuvre
-1. ex： 出，向外 exaggerate extinguish exile exterior anecdote
-1. extro： 外 extrovert
+1. e: 去，向外 erode eliminate evacuation
+1. ease: 安心 lease cease
+1. ec: 没有 eclipse
+1. eco: 家庭的 ecosystem ecology
+1. ed: 吃 edible edify 
+1. ef: 出来 efficient
+1. em: 给予 embody 
+1. em: 拿 premium
+1. empl: 拿 exemplar exemplify
+1. emul: 竞争 emulate
+1. en: 给予 entrust
+1. en: 进去 emtire entitle
+1. en: 使 enlighten enact enlist
+1. enigm: 迷 enigma
+1. enn: 年 centennial millennium
+1. enrol: 登记，入学 enrolment
+1. epi: 在..上 epitomise episode
+1. epi: 在..周围 epidemic
+1. equ: 相等 equal adequate equator
+1. era: 时代 ceramic
+1. erg: 能量，活动，工作 allergic
+1. err: 徘徊 erroneous
+1. escal: 梯子(ladder) escalate escalator
+1. esce: 动作的起始 adolesce fluoresce senescefa
+1. esque: 表形容词 picturesque
+1. ess: 存在 essence
+1. ess: 存在 essential
+1. est: 燃烧 estuary
+1. esthet: 感觉 aesthetic
+1. ether: 苍穹，天空 ethereal
+1. ethic: 道德，伦理 ethical
+1. euver: 工作 manoeuvre
+1. ex: 出，向外 exaggerate extinguish exile exterior anecdote
+1. extro: 外 extrovert
 
 ###### F
-1. fac(t)/fect/feit/fic/feas <do,make>： facilitate artefact facsimile faculty defeat(defect) refectory suffice(deficiency) affect(efficient) fiction feasible forfeit
-1. fac/fic/front <face,forehead>： facial superficial(surficial) facade deface confront affront
-1. fan/fam/fat/fess/fabul <to speak>： fate(fatal fatidic) fab(fable faery faerie) fame infrant profess confess fantastic(fabulous) prefatory(preface)
-1. fare <to journey>：  farewell warfare welfare
-1. fascin <bewitch>： fascinate
-1. fat <fat>： fatigue
-1. feb/fev <febris>： fever foment
-1. fem(in) <feme>： female feminism effeminate  
-1. fens/fend/fest <strike>： fence defend(defendant) infest offend(offensive) manifest
-1. fer <wild>： feral fierce(ferocious)
-1. fer/fert <to carry,to bring,to bear>： confer infer(inference inferential) ferry fertile(fertilise) interfere refer(referee) 
-1. fid/feder/feal <to trust>： defy affiant fidelity(infidel fealty) fiance/fiancee confide federal
-1. figur <to shape,figure>： configuration disfigure
-1. fil <thread,to spin>： profile
-1. filt <filter>： filtrate infiltrate
-1. fin <end,limit>： define confine refinement affinity
-1. firm <strong>： confirm infirm
-1. fla <glass>： flask fiasco
-1. flam/flagr <to burn,flame>： inflammable flagrant
-1. flat <to blow>： inflate inflation
-1. flex/flect <bend>： inflex deflect
-1. flict <to strike>： inflict(afflict) conflict
-1. flu <to flow >： flush fluctuate affluent
-1. for <away,apart>： forsake forgo forlorn forum(forensic) forfeit
-1. fore <before>： foremost
-1. form <form,to form>： formal(formality) formulate inform conform(conformity) reform
-1. foss <dug up>： foss(e) fossil
-1. fract/frag/fric/fringe <break>： infract(infringe) fracture(anfractuous) fragile(fragment fraction)  
-1. fragr <to smell>： fragrance
-1. franc/frank/franch <free>： frank (en)franchise
-1. fren <curb>： frenum refrain
-1. fresc <fresh>： refresh alfresco
-1. frustr <to deceive,disappoint,frustrate>： frustrate
-1. fum <smoke>： fume perfume
-1. fund/found <base>： fundamental profound 
-1. furb <polish>： furbish refurbish
-1. furn <to provide>： furnish furniture perform
-1. fus/fund/found/fut <pour>： fusion confuse diffuse refund futile
-1. fy <使...>： classify
+1. fac(t)/fect/feit/fic/feas <do,make>: facilitate artefact facsimile faculty defeat(defect) refectory suffice(deficiency) affect(efficient) fiction feasible forfeit
+1. fac/fic/front <face,forehead>: facial superficial(surficial) facade deface confront affront
+1. fan/fam/fat/fess/fabul <to speak>: fate(fatal fatidic) fab(fable faery faerie) fame infrant profess confess fantastic(fabulous) prefatory(preface)
+1. fare <to journey>:  farewell warfare welfare
+1. fascin <bewitch>: fascinate
+1. fat <fat>: fatigue
+1. feb/fev <febris>: fever foment
+1. fem(in) <feme>: female feminism effeminate  
+1. fens/fend/fest <strike>: fence defend(defendant) infest offend(offensive) manifest
+1. fer <wild>: feral fierce(ferocious)
+1. fer/fert <to carry,to bring,to bear>: confer infer(inference inferential) ferry fertile(fertilise) interfere refer(referee) 
+1. fid/feder/feal <to trust>: defy affiant fidelity(infidel fealty) fiance/fiancee confide federal
+1. figur <to shape,figure>: configuration disfigure
+1. fil <thread,to spin>: profile
+1. filt <filter>: filtrate infiltrate
+1. fin <end,limit>: define confine refinement affinity
+1. firm <strong>: confirm infirm
+1. fla <glass>: flask fiasco
+1. flam/flagr <to burn,flame>: inflammable flagrant
+1. flat <to blow>: inflate inflation
+1. flex/flect <bend>: inflex deflect
+1. flict <to strike>: inflict(afflict) conflict
+1. flu <to flow >: flush fluctuate affluent
+1. for <away,apart>: forsake forgo forlorn forum(forensic) forfeit
+1. fore <before>: foremost
+1. form <form,to form>: formal(formality) formulate inform conform(conformity) reform
+1. foss <dug up>: foss(e) fossil
+1. fract/frag/fric/fringe <break>: infract(infringe) fracture(anfractuous) fragile(fragment fraction)  
+1. fragr <to smell>: fragrance
+1. franc/frank/franch <free>: frank (en)franchise
+1. fren <curb>: frenum refrain
+1. fresc <fresh>: refresh alfresco
+1. frustr <to deceive,disappoint,frustrate>: frustrate
+1. fum <smoke>: fume perfume
+1. fund/found <base>: fundamental profound 
+1. furb <polish>: furbish refurbish
+1. furn <to provide>: furnish furniture perform
+1. fus/fund/found/fut <pour>: fusion confuse diffuse refund futile
+1. fy <使...>: classify
 
 ###### G
-1. gag <pledge>： gage mortgage engage
-1. galact/lact <milk>： galactic lactary galaxy
-1. gar/garn <furnish>： garnish garniture
-1. gard <guard, ward>： regard
-1. gen <birth,produce>： genuine(ingenuity) generous(degenerate) indigenous 
-1. ger <to bear,carry>： exaggerate
-1. germ <seed>： germinate 
-1. gest/gister <carry,bring>： digest(digestive) congested(congestion)
-1. giant/gigant <giant>： gigantic
-1. gl <shining,bright>： glitter gleam glim(glimpse)
-1. glaci <ice>： glacier glacial 
-1. glob <sphere>： global glebe
-1. gn/gno <know>： cognition diagnose ignorance
-1. gorg/gurg <throat>：  gorge engorge gorgeous regurgitate
-1. gran/grain <seed>：  grain(graner grange) granite grenade engrain
-1. grap <hook>： grape grapnel grapple
-1. graph/gram <write>： graphic
-1. grat/gree <pleasing>： grace gratify gratitude ingrate(ingratiate)
-1. grav/griev <heavy>： grieve(aggrieve) grave(engrave gravid aggravate) grief
-1. grad/gred <step>：  grade gradin gradient ingredient
-1. graze： overgraze
-1. greg <herd,flock>： gregarious segregate
-1. gress <go,walk>： congress aggressive
-1. gross <great>： engross grocer(grocery)
-1. gr <rub,grind>： grit gruel congruous(congruity) incongruity(incongruous)
-1. gull <>： gullible
-1. gur： 说 augur inaugurate
+1. gag <pledge>: gage mortgage engage
+1. galact/lact <milk>: galactic lactary galaxy
+1. gar/garn <furnish>: garnish garniture
+1. gard <guard, ward>: regard
+1. gen <birth,produce>: genuine(ingenuity) generous(degenerate) indigenous 
+1. ger <to bear,carry>: exaggerate
+1. germ <seed>: germinate 
+1. gest/gister <carry,bring>: digest(digestive) congested(congestion)
+1. giant/gigant <giant>: gigantic
+1. gl <shining,bright>: glitter gleam glim(glimpse)
+1. glaci <ice>: glacier glacial 
+1. glob <sphere>: global glebe
+1. gn/gno <know>: cognition diagnose ignorance
+1. gorg/gurg <throat>:  gorge engorge gorgeous regurgitate
+1. gran/grain <seed>:  grain(graner grange) granite grenade engrain
+1. grap <hook>: grape grapnel grapple
+1. graph/gram <write>: graphic
+1. grat/gree <pleasing>: grace gratify gratitude ingrate(ingratiate)
+1. grav/griev <heavy>: grieve(aggrieve) grave(engrave gravid aggravate) grief
+1. grad/gred <step>:  grade gradin gradient ingredient
+1. graze: overgraze
+1. greg <herd,flock>: gregarious segregate
+1. gress <go,walk>: congress aggressive
+1. gross <great>: engross grocer(grocery)
+1. gr <rub,grind>: grit gruel congruous(congruity) incongruity(incongruous)
+1. gull <>: gullible
+1. gur: 说 augur inaugurate
 
 ###### H
-1. habit <dwell>： habit habitat(habitable) inhabit(inhabitant)
-1. hal(it) <breathe>： hale inhale exhale
-1. hall <>： hallowed
-1. hap <chance>： haphazard
-1. har <army>： harness
-1. haste <>： hasty
-1. hazard <>： haphazard
-1. heir/herit/hered <heir,succession>： inherit heritage hereditary
-1. helic <spiiral>： helicopter
-1. hemi/half <half>： hemisphere behalf
-1. hent <doer,being>： authentic
-1. her/hes <stick>： inhere(inherent inhesion) hesitate
-1. herb <grass>： herbivore(carnivore)
-1. herd <>： herdsman
-1. here/ere <to take>： heretic(heresy)
-1. hibit <hold>： exhibit inhibit prohibit(prohibitive) adhibit
-1. hier <sacred,holy>： hierarch(ierarchy) hieratic
-1. hilar <glad>： hilarity exhilarate
-1. hill <>： chill
-1. hit <>： hither hitherto
-1. horn <>： thorn(thorny)
-1. horr <shudder,dread>： horror horrify abhorrent
-1. host <enemy>： hostile
-1. hot/host/hospit <guest>： hostel hospitality
-1. hum <earth>： human(humble) inhume(hunmus) exhume
-1. hypno <sleep>： hypnotic
+1. habit <dwell>: habit habitat(habitable) inhabit(inhabitant)
+1. hal(it) <breathe>: hale inhale exhale
+1. hall <>: hallowed
+1. hap <chance>: haphazard
+1. har <army>: harness
+1. haste <>: hasty
+1. hazard <>: haphazard
+1. heir/herit/hered <heir,succession>: inherit heritage hereditary
+1. helic <spiiral>: helicopter
+1. hemi/half <half>: hemisphere behalf
+1. hent <doer,being>: authentic
+1. her/hes <stick>: inhere(inherent inhesion) hesitate
+1. herb <grass>: herbivore(carnivore)
+1. herd <>: herdsman
+1. here/ere <to take>: heretic(heresy)
+1. hibit <hold>: exhibit inhibit prohibit(prohibitive) adhibit
+1. hier <sacred,holy>: hierarch(ierarchy) hieratic
+1. hilar <glad>: hilarity exhilarate
+1. hill <>: chill
+1. hit <>: hither hitherto
+1. horn <>: thorn(thorny)
+1. horr <shudder,dread>: horror horrify abhorrent
+1. host <enemy>: hostile
+1. hot/host/hospit <guest>: hostel hospitality
+1. hum <earth>: human(humble) inhume(hunmus) exhume
+1. hypno <sleep>: hypnotic
 
 ###### I
-1. ice <>： slice
-1. id/ident/it <same>： item identify identical identification
-1. ig <lack>： indigent indigence
-1. im/in/il/ir <in>： imply implement impress imperil irritate irrigate induce
-1. im/in/il/ir <not,opposite>： irrevocable
-1. imit/imag <imagine,likeness>： imitate
-1. infra <below>： infrastructure 
-1. init <begining>： initial initiate initiative
-1. integr <whole>： integer(integral) entire
-1. inter/enter <in+ter,ter=land>： intellectual intelligible
-1. intim <inmost>： intimate
-1. intro/intrin <inward>： introspection introvert intrinsic
-1. iron/rhet <speak>： irony(ironic) rhetor(rhetoric)
-1. isol/insul <island>： isolate(insulate) insularity
-1. it <go>： itinerary(itineracy) reiterate
+1. ice <>: slice
+1. id/ident/it <same>: item identify identical identification
+1. ig <lack>: indigent indigence
+1. im/in/il/ir <in>: imply implement impress imperil irritate irrigate induce
+1. im/in/il/ir <not,opposite>: irrevocable
+1. imit/imag <imagine,likeness>: imitate
+1. infra <below>: infrastructure 
+1. init <begining>: initial initiate initiative
+1. integr <whole>: integer(integral) entire
+1. inter/enter <in+ter,ter=land>: intellectual intelligible
+1. intim <inmost>: intimate
+1. intro/intrin <inward>: introspection introvert intrinsic
+1. iron/rhet <speak>: irony(ironic) rhetor(rhetoric)
+1. isol/insul <island>: isolate(insulate) insularity
+1. it <go>: itinerary(itineracy) reiterate
 
 ###### J
-1. jac/ject <throw>： adjacent object reject eject 
-1. jeal <zeal>： jealous
-1. journ <day>： journal
-1. judg/judic <judge>： judicious unprejudiced
-1. jump <>： jumble
-1. junct/join/jug <join>： junction conjunction adjunct 
-1. just <right>： justify adjust
-1. juven <young>： juvenile
+1. jac/ject <throw>: adjacent object reject eject 
+1. jeal <zeal>: jealous
+1. journ <day>: journal
+1. judg/judic <judge>: judicious unprejudiced
+1. jump <>: jumble
+1. junct/join/jug <join>: junction conjunction adjunct 
+1. just <right>: justify adjust
+1. juven <young>: juvenile
 
 ###### K
 
 ###### L
-1. la(u)nc <to throw>： launch lance(lancinate)
-1. labor <>： labor/labour belabour elaborate(elaboration) collaboration  
-1. lac/lic <to entice>： lace delicate elicit delight  
-1. lap/laps/lab <slip>： lapse illapse elapse collapse prolapse relapse
-1. lapid <stone>： lapidate(lapidary delapidate)
-1. lat <bring out>： illative collate sublate delate ablate elate oblate prolate
-1. lat <wide>： latitude dilate
-1. later <side>： lateral bilateral collateral
-1. lav/lau/luv/lut <wash>： launder lav(lavatory lavabo) lava alluvial dilute(diluvian)
-1. lax/leas/lang <loose>： lax relax delay lease(lessor lessee) languid(languish)
-1. lay/lag/law <to lay,put,place>： relay ledge(ledger)
-1. lect/leg <speak,read>： lecture dialect prelect legible lection
-1. lect/lig/leg <choose,gather>： select elite collect eligible legion neglect intellectual intelligent intelligible 
-1. leg/legis <law>： legacy allege leal(loyal) relegate delegate(delegacy) legislation legistimate 
-1. len <loose>： lenient lenity
-1. leth <oblivion>：  lethal
-1. lev/liev <raise,lighten>： lever elevate(elevator) alleviate relevant(relevance) relieve relief
-1. lex/lexic <word,lexic>： lexical lexicographer
-1. lib/lime/slim <smooth>： indelible(delete) levigate lime(limestone) slime 
-1. liber/libr/liter/lev： libra librate(euilibrate) deliberate
-1. liber/liver <free>： deliver liberate(liberty)
-1. libr <book>： libel exlibris
-1. licen <allow>： licence leisure licit
-1. lict/linqu <leave>： relic(relict remnant) derelict delinquent relinquish
-1. lig/loy <to bind>： ligate(colligate ligament) oblige(obbligato) liaise(liable) lien
-1. lim/limin <threshold>： preliminary subliminal eliminate limbus
-1. lingu <language>： bilingual linguistic
-1. lips <leave>： ecliptic eclipse
-1. liqu <wet>： liquor liquiate deliquesce prolix
-1. lit/lis <to dispute>： litigate litigable
-1. liter <letter>： literature
-1. loc <place>： locus lieu allocate
-1. log/logu <speak>： logic dialog analogy catalogue
-1. long <>： prolonged
-1. lop/leap <run>： leap lope elope gallop wallop
-1. luc <light,shine>： lucent lucid elucidate 
-1. luct <struggle>： reluctant
-1. lud/lus <play>： allude collude delude illude(elude elusive) illusion(disillusion)
-1. lure <>： allure
-1. lust(e)r <illuminate>： illustrate
-1. lux <luxury,excess>： luxury luxuriant
-1. lys <break down>： analyse paralysis
+1. la(u)nc <to throw>: launch lance(lancinate)
+1. labor <>: labor/labour belabour elaborate(elaboration) collaboration  
+1. lac/lic <to entice>: lace delicate elicit delight  
+1. lap/laps/lab <slip>: lapse illapse elapse collapse prolapse relapse
+1. lapid <stone>: lapidate(lapidary delapidate)
+1. lat <bring out>: illative collate sublate delate ablate elate oblate prolate
+1. lat <wide>: latitude dilate
+1. later <side>: lateral bilateral collateral
+1. lav/lau/luv/lut <wash>: launder lav(lavatory lavabo) lava alluvial dilute(diluvian)
+1. lax/leas/lang <loose>: lax relax delay lease(lessor lessee) languid(languish)
+1. lay/lag/law <to lay,put,place>: relay ledge(ledger)
+1. lect/leg <speak,read>: lecture dialect prelect legible lection
+1. lect/lig/leg <choose,gather>: select elite collect eligible legion neglect intellectual intelligent intelligible 
+1. leg/legis <law>: legacy allege leal(loyal) relegate delegate(delegacy) legislation legistimate 
+1. len <loose>: lenient lenity
+1. leth <oblivion>:  lethal
+1. lev/liev <raise,lighten>: lever elevate(elevator) alleviate relevant(relevance) relieve relief
+1. lex/lexic <word,lexic>: lexical lexicographer
+1. lib/lime/slim <smooth>: indelible(delete) levigate lime(limestone) slime 
+1. liber/libr/liter/lev: libra librate(euilibrate) deliberate
+1. liber/liver <free>: deliver liberate(liberty)
+1. libr <book>: libel exlibris
+1. licen <allow>: licence leisure licit
+1. lict/linqu <leave>: relic(relict remnant) derelict delinquent relinquish
+1. lig/loy <to bind>: ligate(colligate ligament) oblige(obbligato) liaise(liable) lien
+1. lim/limin <threshold>: preliminary subliminal eliminate limbus
+1. lingu <language>: bilingual linguistic
+1. lips <leave>: ecliptic eclipse
+1. liqu <wet>: liquor liquiate deliquesce prolix
+1. lit/lis <to dispute>: litigate litigable
+1. liter <letter>: literature
+1. loc <place>: locus lieu allocate
+1. log/logu <speak>: logic dialog analogy catalogue
+1. long <>: prolonged
+1. lop/leap <run>: leap lope elope gallop wallop
+1. luc <light,shine>: lucent lucid elucidate 
+1. luct <struggle>: reluctant
+1. lud/lus <play>: allude collude delude illude(elude elusive) illusion(disillusion)
+1. lure <>: allure
+1. lust(e)r <illuminate>: illustrate
+1. lux <luxury,excess>: luxury luxuriant
+1. lys <break down>: analyse paralysis
 
 ###### M
-1. magn： 巨大的 magnitude
-1. main： 手 maintain
-1. maj： 大 major majesty
-1. mal(e)： 坏，恶 maltreat malevolent
-1. malle： 锤子 malleable
-1. mamm： 乳房 mammal
-1. man： 逗留 mansion manor
-1. man： 流动 permanent
-1. man： 手 manoeuvre manage manageable
-1. mand： 命令 demand mandarin
-1. mani： 手 manipulate manifest
-1. mantle： 覆盖 dismantle
-1. manu： manufacture
-1. mar： 战争 maraud martial
-1. mari： 海 maritime
-1. mark： 记号 remark
-1. mass： 揉捏，引申为团块 mass massage magma massacre
-1. mat： 垫 mattress
-1. mate： 伙伴 inmate
-1. mater： 母亲 maternal 
-1. mea： 经过 permeate
-1. mechan： 机械 mechanic
-1. med： 治疗 remedy
-1. medi： 中间 medieval mediocre mediterranean medium
-1. memor： 记忆 memorandum memorable
-1. men： 伸出，突出（引申为引导、威胁） menace  commence
-1. mend： 改错 mend(amend mendable) maunder
-1. mens： 测量 dimension immense
-1. ment： 想法 comment mental mentor
-1. mer： 部分，分配 emeritus
-1. merc： 交易 commerce merchandising
-1. merit： 功绩 demerit
-1. mery： 浸没 emerge submerge
-1. meta： 改变 metaphor metabl- metabolic metabolism
-1. meteor： 陨石，天气 meteorology
-1. meter/metr： 测量 diameter optomertist
-1. mid： 中间的 midst
-1. migr： 迁移 migrate migrant immigrant
-1. milit： 打架 militant
-1. mill： 磨坊 treadmill
-1. mim： 模仿 mime 
-1. min： 突出 eminent prominent prominence 
-1. min： 小 diminish 
-1. mine： 挖 undermine
-1. ming： 混合 mingle
-1. mir： 惊奇 miracle
-1. mis： 放，送 premise promise
-1. mis： 坏的，错的 mishandle
-1. miser： 同情 miserable commiserate
-1. miss： 送 admission dismiss missile mission(commission)
-1. mit： 发送 commit commitment transmit emit vomit
-1. mix： 混合 mixture
-1. mod： 样式 moderate commodity modish
-1. mol： 堆 demolish  demolition
-1. mon： 忠告 monitor
-1. mono： 单个 monopoly
-1. monstr： 展示 demonstrate
-1. monu： 警告 monument
-1. mor： 风俗，道德的 moral morality
-1. morph： 形状 amorphous 
-1. mort/mori： 死亡 mortal immortal mortality mortify mortgage moribund 
-1. mot： 移动 motive motion
-1. mud： 泥 muddle
-1. mun(i)： 服务，公共的 community municipal remunerate immune
-1. mund： 世界 mundane
-1. muni： 服务 municipal
-1. mut： 变(move) mutual transmute commute
+1. magn: 巨大的 magnitude
+1. main: 手 maintain
+1. maj: 大 major majesty
+1. mal(e): 坏，恶 maltreat malevolent
+1. malle: 锤子 malleable
+1. mamm: 乳房 mammal
+1. man: 逗留 mansion manor
+1. man: 流动 permanent
+1. man: 手 manoeuvre manage manageable
+1. mand: 命令 demand mandarin
+1. mani: 手 manipulate manifest
+1. mantle: 覆盖 dismantle
+1. manu: manufacture
+1. mar: 战争 maraud martial
+1. mari: 海 maritime
+1. mark: 记号 remark
+1. mass: 揉捏，引申为团块 mass massage magma massacre
+1. mat: 垫 mattress
+1. mate: 伙伴 inmate
+1. mater: 母亲 maternal 
+1. mea: 经过 permeate
+1. mechan: 机械 mechanic
+1. med: 治疗 remedy
+1. medi: 中间 medieval mediocre mediterranean medium
+1. memor: 记忆 memorandum memorable
+1. men: 伸出，突出（引申为引导、威胁） menace  commence
+1. mend: 改错 mend(amend mendable) maunder
+1. mens: 测量 dimension immense
+1. ment: 想法 comment mental mentor
+1. mer: 部分，分配 emeritus
+1. merc: 交易 commerce merchandising
+1. merit: 功绩 demerit
+1. mery: 浸没 emerge submerge
+1. meta: 改变 metaphor metabl- metabolic metabolism
+1. meteor: 陨石，天气 meteorology
+1. meter/metr: 测量 diameter optomertist
+1. mid: 中间的 midst
+1. migr: 迁移 migrate migrant immigrant
+1. milit: 打架 militant
+1. mill: 磨坊 treadmill
+1. mim: 模仿 mime 
+1. min: 突出 eminent prominent prominence 
+1. min: 小 diminish 
+1. mine: 挖 undermine
+1. ming: 混合 mingle
+1. mir: 惊奇 miracle
+1. mis: 放，送 premise promise
+1. mis: 坏的，错的 mishandle
+1. miser: 同情 miserable commiserate
+1. miss: 送 admission dismiss missile mission(commission)
+1. mit: 发送 commit commitment transmit emit vomit
+1. mix: 混合 mixture
+1. mod: 样式 moderate commodity modish
+1. mol: 堆 demolish  demolition
+1. mon: 忠告 monitor
+1. mono: 单个 monopoly
+1. monstr: 展示 demonstrate
+1. monu: 警告 monument
+1. mor: 风俗，道德的 moral morality
+1. morph: 形状 amorphous 
+1. mort/mori: 死亡 mortal immortal mortality mortify mortgage moribund 
+1. mot: 移动 motive motion
+1. mud: 泥 muddle
+1. mun(i): 服务，公共的 community municipal remunerate immune
+1. mund: 世界 mundane
+1. muni: 服务 municipal
+1. mut: 变(move) mutual transmute commute
 
 
 ###### N
-1. na： 知道 narrate narrative
-1. naiss： 出生 renaissance
-1. naut： 航行 aeronautics
-1. nav： 船 navigation
-1. neath： 在..之下 beneath
-1. nect： 绑 connect
-1. neg： 否定 negative neglect
-1. nerv： 体力，神经，勇气 nerve
-1. noc： 伤害 innocent
-1. noct： 夜 nocturnal
-1. nom： 法律 autonomy
-1. nom(in)： 名字 nominate(nominal) denominate  cognomen/agnomen
-1. nomy： 法则 astronomy
-1. norm： 规范 enormous
-1. not： 知道 denote notion notoriety(notorious) 
-1. nour： 营养 nourish
-1. nov： 新 innovation novice
-1. nutri： 滋养 nutrient(nutritious)
+1. na: 知道 narrate narrative
+1. naiss: 出生 renaissance
+1. naut: 航行 aeronautics
+1. nav: 船 navigation
+1. neath: 在..之下 beneath
+1. nect: 绑 connect
+1. neg: 否定 negative neglect
+1. nerv: 体力，神经，勇气 nerve
+1. noc: 伤害 innocent
+1. noct: 夜 nocturnal
+1. nom: 法律 autonomy
+1. nom(in): 名字 nominate(nominal) denominate  cognomen/agnomen
+1. nomy: 法则 astronomy
+1. norm: 规范 enormous
+1. not: 知道 denote notion notoriety(notorious) 
+1. nour: 营养 nourish
+1. nov: 新 innovation novice
+1. nutri: 滋养 nutrient(nutritious)
 
 ###### O
-1. ob： 逆 obsess(obsession) obstruct
-1. obey： 服从 disobey
-1. ocul： 眼睛 binoculars
-1. od： 路 exodus
-1. ole： 油 petroleum
-1. op： 工作（引申为财富） opulent
-1. opa： 不透明 opaque
-1. opt： 选择 option
-1. opt： 眼睛 optical
-1. optim： 最好 optimum optimistic
-1. ora： 说 orate
-1. orb： 轨道 orbit exorbitant
-1. order： 命令 ordain border 
-1. ordin： 顺序 coordinate subordinate 
-1. ori： 产生 origin orient(reorient)
-1. oriety： 多 notoriety
-1. orn： 装饰 ornament adorn
-1. ortho： 正，直 orthodox orthopeady
-1. ought： 应该 drought
-1. out： 超过 outdo
-1. oxy： 酸 oxygen
+1. ob: 逆 obsess(obsession) obstruct
+1. obey: 服从 disobey
+1. ocul: 眼睛 binoculars
+1. od: 路 exodus
+1. ole: 油 petroleum
+1. op: 工作（引申为财富） opulent
+1. opa: 不透明 opaque
+1. opt: 选择 option
+1. opt: 眼睛 optical
+1. optim: 最好 optimum optimistic
+1. ora: 说 orate
+1. orb: 轨道 orbit exorbitant
+1. order: 命令 ordain border 
+1. ordin: 顺序 coordinate subordinate 
+1. ori: 产生 origin orient(reorient)
+1. oriety: 多 notoriety
+1. ora <to speak>: adore orate(oracle) exorable(inexorable)
+1. orn: 装饰 ornament adorn
+1. ortho: 正，直 orthodox orthopeady
+1. ought: 应该 drought
+1. out: 超过 outdo
+1. oxy: 酸 oxygen
 
 ###### P
-1. pact： 系紧 compact
-1. pag： 扎牢，系牢 propagate
-1. pair： 更糟 impair
-1. pal： 白色 appal
-1. pan： 扩展 expand expanse patent(patency) spawn
-1. pan： 全部的，广泛的 pandemic panacea panegyric
-1. pan： 面包 company accompany companion
-1. par(a)： 并列，平等 parallel(unparalleled) apparatus(apparat) paralysis comparrable disparage
-1. par(l)： 说话 parlor parley parliament
-1. part： 部分 impart counterpart
-1. part： 分开 apart particular particulate 
-1. pass： 忍受，引申为感情 passion passionate compassion
-1. pass： 通过 compass encompass surpass
-1. past： 喂养 pasture
-1. path： 病痛 pathology
-1. path： 感觉 sympathy
-1. patr： 父亲，祖国 patrol patriot(compatriot) repatriate  
-1. patron： 赞助人 patronage
-1. pave： 铺设 pavement
-1. pe(a)l： 推 compel repel expel propel appeal
-1. pecc： 犯罪 peccable(impeccable) peccant 
-1. ped： 脚 pedal pedestrian impede expedition
-1. pen： 刑事的，惩罚 penalty penalize
-1. pend： 悬挂 depend interdepend indispensable suspend compendium 
-1. pens： 悬挂沉重（引申为支付，偿还） pension expense dispense dispenser compensate poise
-1. per： 贯穿，始终 permanent persist perpetuate pervasive(permeate) perplex perceive(perception) persuade 
-1. per： 冒险 imperil
-1. peri： 周围 periphery
-1. pert： 带 repertoire
-1. pest： 瘟疫 pesticide
-1. pet(u)： 寻找，追求 impetus compet(competent) perpetual(perpetuate) appetitive
-1. petr： 岩石 petroleum
-1. phas： 说 emphasize
-1. phan/phen/fan <to show,to appear>： phantom diaphanous fancy
-1. phe： 说 prophecy
-1. pher： 带来 periphery
-1. philo： 爱 philosophy
-1. phon： 声音 symphony
-1. phor： 带来 metaphor
-1. physic： 医学 physician
-1. pict： 画，描写 depict 
-1. pile： 堆 stockpile compile
-1. pill： 药丸 spill
-1. pine： 松树 spine
-1. pit： 坑 spit
-1. plagi： 斜的 plagiarise plagiarism
-1. plas： 模式，展开 plaster
-1. plat： 平 plateau
-1. plaud/plaus： 击，打，拍掌 applaud plausible
-1. ple/plen/plet/pli/ply： 填满 implement replenish complete deplete(depletion) accomplish
-1. plex/plic： 重叠 complex perplex complicate implication replicate
-1. plod： 击掌 explode
-1. plor： 哭，喊 explore implore deplore 
-1. pl(o)y： 弯，折叠 pliable imply comply apply(appliance) deploy
-1. point： 指 appoint
-1. pol： 磨 polish
-1. polit： 城市 cosmopolitan
-1. pon： 放 postpone
-1. popul： 人 populate populace
-1. port： 搬运 transport portable
-1. portion： 部分 proportion apportion 
-1. pos： 放 propose deposit disposal impose predispose positive posture compose
-1. poss： 有力的 possess
-1. post： 放置，柱，岗 outpost signpost compost
-1. pot： 喝 potion poison symposium
-1. pound： 放置 compound
-1. pover： 贫困 impoverish 
-1. prag： 做 pragmatic
-1. prais/preci/pret： 价值 appraise praise appreciable appreciate interpret
-1. prais： 价 appraisal 
-1. pre： 领先，前面 prevalence preface
-1. prec： 祈祷 pray precative precarious deprecate
-1. pred： 掠夺 predator predatory 
-1. prehens： 抓住 comprehensive
+1. pact: 系紧 compact
+1. pag: 扎牢，系牢 propagate
+1. pair: 更糟 impair
+1. pal: 白色 appal
+1. pan: 扩展 expand expanse patent(patency) spawn
+1. pan: 全部的，广泛的 pandemic panacea panegyric
+1. pan: 面包 company accompany companion
+1. par(a): 并列，平等 parallel(unparalleled) apparatus(apparat) paralysis comparrable disparage
+1. par(l): 说话 parlor parley parliament
+1. part: 部分 impart counterpart
+1. part: 分开 apart particular particulate 
+1. pass: 忍受，引申为感情 passion passionate compassion
+1. pass: 通过 compass encompass surpass
+1. past: 喂养 pasture
+1. path: 病痛 pathology
+1. path: 感觉 sympathy
+1. patr: 父亲，祖国 patrol patriot(compatriot) repatriate  
+1. patron: 赞助人 patronage
+1. pave: 铺设 pavement
+1. pe(a)l: 推 compel repel expel propel appeal
+1. pecc: 犯罪 peccable(impeccable) peccant 
+1. ped: 脚 pedal pedestrian impede expedition
+1. pen: 刑事的，惩罚 penalty penalize
+1. pend: 悬挂 depend interdepend indispensable suspend compendium 
+1. pens: 悬挂沉重（引申为支付，偿还） pension expense dispense dispenser compensate poise
+1. per: 贯穿，始终 permanent persist perpetuate pervasive(permeate) perplex perceive(perception) persuade 
+1. per: 冒险 imperil
+1. peri: 周围 periphery
+1. pert: 带 repertoire
+1. pest: 瘟疫 pesticide
+1. pet(u): 寻找，追求 impetus compet(competent) perpetual(perpetuate) appetitive
+1. petr: 岩石 petroleum
+1. phas: 说 emphasize
+1. phan/phen/fan <to show,to appear>: phantom diaphanous fancy
+1. phe: 说 prophecy
+1. pher: 带来 periphery
+1. philo: 爱 philosophy
+1. phon: 声音 symphony
+1. phor: 带来 metaphor
+1. physic: 医学 physician
+1. pict: 画，描写 depict 
+1. pile: 堆 stockpile compile
+1. pill: 药丸 spill
+1. pine: 松树 spine
+1. pit: 坑 spit
+1. plagi: 斜的 plagiarise plagiarism
+1. plas: 模式，展开 plaster
+1. plat: 平 plateau
+1. plaud/plaus: 击，打，拍掌 applaud plausible
+1. ple/plen/plet/pli/ply: 填满 implement replenish complete deplete(depletion) accomplish
+1. plex/plic: 重叠 complex perplex complicate implication replicate
+1. plod: 击掌 explode
+1. plor: 哭，喊 explore implore deplore 
+1. pl(o)y: 弯，折叠 pliable imply comply apply(appliance) deploy
+1. point: 指 appoint
+1. pol: 磨 polish
+1. polit: 城市 cosmopolitan
+1. pon: 放 postpone
+1. popul: 人 populate populace
+1. port: 搬运 transport portable
+1. portion: 部分 proportion apportion 
+1. pos: 放 propose deposit disposal impose predispose positive posture compose
+1. poss: 有力的 possess
+1. post: 放置，柱，岗 outpost signpost compost
+1. pot: 喝 potion poison symposium
+1. pound: 放置 compound
+1. pover: 贫困 impoverish 
+1. prag: 做 pragmatic
+1. prais/preci/pret: 价值 appraise praise appreciable appreciate interpret
+1. prais: 价 appraisal 
+1. pre: 领先，前面 prevalence preface
+1. prec: 祈祷 pray precative precarious deprecate
+1. pred: 掠夺 predator predatory 
+1. prehens: 抓住 comprehensive
 1. press；压 depress depression
-1. pri： 单个 privilege
-1. prim/prin： 第一 prior prime primitive principle
-1. pris/pren： 握住 prison enterprise enterpreneur 
-1. priv： 私有 privacy deprive 
-1. pro： 向前 process reciprocate
-1. proach： 接近 reproach
-1. prob： 检查 probe probation 
-1. profit： 利益 profitable
-1. promise： 保证 compromise
-1. propr： 自身的 appropriate
-1. proto： 首先 prototype
-1. prow： 英勇的 prowess
-1. prox： 近 approximate
-1. prud： 卓越的，傲慢的 prude proud(pride) prow
-1. psych： 精神 psychiatry psychological
-1. pto： 掉下 symptom
-1. puls： 推 impulse compulsive compulsory 
-1. pulver： 粉尘 pulverise
-1. punct： 尖，点，刺 puncture acupuncture punctual
-1. pur： 干净的 purify
-1. pur： 向前 pursue
-1. put： 思考，想 depute dispute reputation(reputable) 
-1. pyr(o)： 火，发热 pyretic pyrolysis empyreal pyrotechnical
+1. pri: 单个 privilege
+1. prim/prin: 第一 prior prime primitive principle
+1. pris/pren: 握住 prison enterprise enterpreneur 
+1. priv: 私有 privacy deprive 
+1. pro: 向前 process reciprocate
+1. proach: 接近 reproach
+1. prob: 检查 probe probation 
+1. profit: 利益 profitable
+1. promise: 保证 compromise
+1. propr: 自身的 appropriate
+1. proto: 首先 prototype
+1. prow: 英勇的 prowess
+1. prox: 近 approximate
+1. prud: 卓越的，傲慢的 prude proud(pride) prow
+1. psych: 精神 psychiatry psychological
+1. pto: 掉下 symptom
+1. puls: 推 impulse compulsive compulsory 
+1. pulver: 粉尘 pulverise
+1. punct: 尖，点，刺 puncture acupuncture punctual
+1. pur: 干净的 purify
+1. pur: 向前 pursue
+1. put: 思考，想 depute dispute reputation(reputable) 
+1. pyr(o): 火，发热 pyretic pyrolysis empyreal pyrotechnical
 
 ###### Q
-1. quaint： 知道 acquaint
-1. quer/quir： 询问 conquer(unconquerable) require enquire/inquire  
-1. quest： 找 conquest
-1. qui(l)： 安静 quite tranquil acquiesce requiem 
-1. quisit： 要求 requisite prequisite 
+1. quaint: 知道 acquaint
+1. quer/quir: 询问 conquer(unconquerable) require enquire/inquire  
+1. quest: 找 conquest
+1. qui(l): 安静 quite tranquil acquiesce requiem 
+1. quisit: 要求 requisite prequisite 
 
 ###### R
-1. rac： 种族 race racial
-1. rad： 根 radical radicate eradicate
-1. radi： 光线 radiate
-1. rap： 使着迷 wrap
-1. rat： 清点，计算 ratio ration
-1. ray： 光线 array
-1. ras/raz/rad： 刮擦 rascal raze erase abrase(abrade) razor rasp  
-1. re： 反，相对 resist reluctant
-1. re： 一再 reclaim
-1. real： 真正的 realm
-1. reav： 掠夺 bereave
-1. rec： 向后 reciprocate
-1. reck： 注意 reckon
-1. rect： 直的 rectangular
-1. red： 反复 redundant
-1. reg： 直的，规则，统治 regent regular irregular
-1. regard： 关心 disregard
-1. relent： 变温和 relentless
-1. rend： 给 render rendition
-1. rept： 爬 reptile
-1. resile： 弹回 resilient
-1. rid： 笑 ridiculous
-1. rig <rain>： irrigate(irrigation) 
-1. rig： 直的，正确的 rigid(rigor) rigorous righteous
-1. ring： 铃 string
-1. rit <to rub>： irritate(irritable) 
-1. riv： 河，流动 rival derive
-1. rot/rod/ros： 咬 rot corrode(erosion)
-1. rog： 要求 arrogance
-1. roll： 名单 enroll
-1. rope： 绳子 grope
-1. rot： 旋转 rotate
-1. rouse： 激励 arousal
-1. rub： 摩擦，擦伤 shrub scrub rubble rubbish
-1. rud： 天然的 rude crude rudimentary 
-1. run： 跑 brunt
-1. rupt： 断裂 irrupt erupt corrupt bankrupt 
-1. rur： 乡村 rural
-1. ruth： 怜悯 ruthless
+1. rac: 种族 race racial
+1. rad: 根 radical radicate eradicate
+1. radi: 光线 radiate
+1. rap: 使着迷 wrap
+1. rat: 清点，计算 ratio ration
+1. ray: 光线 array
+1. ras/raz/rad: 刮擦 rascal raze erase abrase(abrade) razor rasp  
+1. re: 反，相对 resist reluctant
+1. re: 一再 reclaim
+1. real: 真正的 realm
+1. reav: 掠夺 bereave
+1. rec: 向后 reciprocate
+1. reck: 注意 reckon
+1. rect: 直的 rectangular
+1. red: 反复 redundant
+1. reg: 直的，规则，统治 regent regular irregular
+1. regard: 关心 disregard
+1. relent: 变温和 relentless
+1. rend: 给 render rendition
+1. rept: 爬 reptile
+1. resile: 弹回 resilient
+1. rid: 笑 ridiculous
+1. rig <rain>: irrigate(irrigation) 
+1. rig: 直的，正确的 rigid(rigor) rigorous righteous
+1. ring: 铃 string
+1. rit <to rub>: irritate(irritable) 
+1. riv: 河，流动 rival derive
+1. rot/rod/ros: 咬 rot corrode(erosion)
+1. rog: 要求 arrogance
+1. roll: 名单 enroll
+1. rope: 绳子 grope
+1. rot: 旋转 rotate
+1. rouse: 激励 arousal
+1. rub: 摩擦，擦伤 shrub scrub rubble rubbish
+1. rud: 天然的 rude crude rudimentary 
+1. run: 跑 brunt
+1. rupt: 断裂 irrupt erupt corrupt bankrupt 
+1. rur: 乡村 rural
+1. ruth: 怜悯 ruthless
 
 
 ###### S
-1. sacr/secr： 神圣 sacrifice obsecrate
-1. sal/sil/sul/sail/saul： 跳 saltant salient assail(assault) exult resile insult result consilient salacious somersault
-1. sal： 盐 saline
-1. san(it)： 健康的 sanitate sanitation insane
-1. sanct： 神圣 sanction sanctuary 
-1. sat： 充足 saturate 
-1. sav： 品尝 savour
-1. scen(e)： 场景 scenery obscene scenario
-1. scend： 爬 descend
-1. scent： 香味 crescent
-1. scept： 看 sceptic(sceptical) 
-1. sci： 知道 conscious conscience
-1. scrib/script： 写 inscribe ascribe prescribe(prescription) circumscribe transcribe 
-1. scrut(in)： 检查 scrutiny scrutable
-1. sculp： 雕刻 sculpture
-1. scur： 盖上 obscure(obscurity)
-1. se： 分开 seduce seclude
-1. sect： 切割 section
-1. sed： 坐 supersede sedentary
-1. seg： 切割 segment
-1. sel： 带来 counsel
-1. sem： 符号，意义 semantic
-1. sembl： 一样 assemble resemble
-1. semin： 种子 disseminate (dissemination)
-1. sen： 老 senate senior seignior
-1. sens(e)： 感觉 sensate(sensation sensory) sensible consensus
-1. sent： 感觉 sentient sentiment consent resent
-1. sept： 腐烂的 antiseptic
-1. sequ/secut： 跟随 subsequent prosecute
-1. sert： 放置，安排 assert insert dissert
-1. serv： 保持 observe preserve conserve(conservation)
-1. serv： 服务 subserve deserve disserve sergeant
-1. sess： 坐 assess obsess(obsession)
-1. set： 布置 setting upset
-1. sever： 切割，严肃 sever dissever asseverate
-1. shut： 关 shuttle
-1. sid： 坐 subside subsidiary subsidy reside(residential) insidious
-1. sign： 符号 signpost consign
-1. simil/simul： 相同 assimilate facsimile simultaneously
-1. sinist： 左边 sinister
-1. sist： 站 insist persist resist consist
-1. sland： 障碍物 slander
-1. slaught：打击 onslaught 
-1. slave： 奴隶 enslave 
-1. snob： 势力的人 snobbish
-1. soci： 结交 associated
-1. sod： 路 episode
-1. sol/sold/solid： 坚固，完整 solicit solidary consolidate solemn
-1. sol： 太阳 solar 
-1. sole： 安慰 console
-1. soph： 聪明 sophist(sophistic sophistry)
-1. sorb： 吸收 absorb
-1. sort： 种类 consort consortium
-1. spec(t)： 看 respect expect respite suspect speculate prospectus prospective spectator spectacular     
-1. speci： 外观，种类 species special specimen
-1. sper： 希望 prosper(prosperous) desperate
-1. sphere： 层 troposphere
-1. spi： 刺 spire spike spile spear spiciform 
-1. spir： 呼吸 aspire(aspiration) spirit(dispiriting) expire(expiry) 
-1. splend： 明亮 splendid
-1. spoil： 掠夺，变质 spoil(spoilage) despoil
-1. spond： 回答，约定 respond correspond
-1. spor： 播撒，种子，孢子 spore sporadic
-1. spring： 弹跳，生长 offspring
-1. st： 站 substance obstacle destine
-1. stagn： 池塘 stagnate
-1. stall： 放置 install installment
-1. starch： 淀粉 starchy
-1. stat： 站 statue
-1. station： 站，局，驻地，位置，身份 substation stationery stationary
-1. steal： 偷 stealth
-1. stereo： 立体 stereoscope
-1. sti： 刺 stimulus stick(sticky)
-1. stil： 掉 instil
-1. stinct： 刺 instinct distinct 
-1. stip： 一起按压 stipulate
-1. stit(u)： 站立 institute constitute substitute superstitious prostitute
-1. stock： 东西 livestock
-1. ston： 石头 astonish
-1. strain： 拉紧 constrain restrain  
-1. strate： 层 substrate
-1. string： 捆绑 stringent
-1. strophe： 转 catastrophe
-1. struct： 建立 instruct construct obstruct destruction
-1. suad： 甜的 persuade
-1. sub： 在下面 subtle substance(substantial) substrate subtract substation
-1. suc/sus： 在下面 sustain succeed succumb suspend susceptible   
-1. sue： 跟随 pursue ensue
-1. sui： 自己 suicidal
-1. suit： 起诉 lawsuit
-1. sult： 带来，召集 consult(consultant)
-1. sum： 拿，取 assume presume resume 
-1. summ： 总的 summary summit
-1. sumpt： 使用 consumption
-1. sur： 超过，在上面 surpass surfeit surcease surreal survey
-1. surd： 耳聋（听不懂） absurd
-1. surg： 外科 surgeon
-1. surg： 升起 surge resurge(resurrect) resort insurgent insurgence(insurrection)
-1. syn： 一起 synthetic
+1. sacr/secr <holy>: sacrifice obsecrate
+1. sarc <flesh>: sarco sarcasm(sarcastic) sarcocarp
+1. sal/sil/sul/sail/saul <leap>: saltant salient assail(assault) exult resile insult result consilient salacious somersault
+1. sal(t) <salt>: saline
+1. san(it): 健康的 sanitate sanitation insane
+1. sanct: 神圣 sanction sanctuary 
+1. sat: 充足 saturate 
+1. sav: 品尝 savour
+1. scen(e): 场景 scenery obscene scenario
+1. scend: 爬 descend
+1. scent: 香味 crescent
+1. scept: 看 sceptic(sceptical) 
+1. sci: 知道 conscious conscience
+1. scrib/script: 写 inscribe ascribe prescribe(prescription) circumscribe transcribe 
+1. scrut(in): 检查 scrutiny scrutable
+1. sculp: 雕刻 sculpture
+1. scur: 盖上 obscure(obscurity)
+1. se: 分开 seduce seclude
+1. sect: 切割 section
+1. sed: 坐 supersede sedentary
+1. seg: 切割 segment
+1. sel: 带来 counsel
+1. sem: 符号，意义 semantic
+1. sembl: 一样 assemble resemble
+1. semin: 种子 disseminate (dissemination)
+1. sen: 老 senate senior seignior
+1. sens(e): 感觉 sensate(sensation sensory) sensible consensus
+1. sent: 感觉 sentient sentiment consent resent
+1. sept: 腐烂的 antiseptic
+1. sequ/secut: 跟随 subsequent prosecute
+1. sert: 放置，安排 assert insert dissert
+1. serv: 保持 observe preserve conserve(conservation)
+1. serv: 服务 subserve deserve disserve sergeant
+1. sess: 坐 assess obsess(obsession)
+1. set: 布置 setting upset
+1. sever: 切割，严肃 sever dissever asseverate
+1. shut: 关 shuttle
+1. sid: 坐 subside subsidiary subsidy reside(residential) insidious
+1. sign: 符号 signpost consign
+1. simil/simul: 相同 assimilate facsimile simultaneously
+1. sinist: 左边 sinister
+1. sist: 站 insist persist resist consist
+1. sland: 障碍物 slander
+1. slaught:打击 onslaught 
+1. slave: 奴隶 enslave 
+1. snob: 势力的人 snobbish
+1. soci: 结交 associated
+1. sod: 路 episode
+1. sol/sold/solid: 坚固，完整 solicit solidary consolidate solemn
+1. sol: 太阳 solar 
+1. sole: 安慰 console
+1. soph: 聪明 sophist(sophistic sophistry)
+1. sorb: 吸收 absorb
+1. sort: 种类 consort consortium
+1. spec(t): 看 respect expect respite suspect speculate prospectus prospective spectator spectacular     
+1. speci: 外观，种类 species special specimen
+1. sper: 希望 prosper(prosperous) desperate
+1. sphere: 层 troposphere
+1. spi: 刺 spire spike spile spear spiciform 
+1. spir: 呼吸 aspire(aspiration) spirit(dispiriting) expire(expiry) 
+1. splend: 明亮 splendid
+1. spoil: 掠夺，变质 spoil(spoilage) despoil
+1. spond: 回答，约定 respond correspond
+1. spor: 播撒，种子，孢子 spore sporadic
+1. spring: 弹跳，生长 offspring
+1. st: 站 substance obstacle destine
+1. stagn: 池塘 stagnate
+1. stall: 放置 install installment
+1. starch: 淀粉 starchy
+1. stat: 站 statue
+1. station: 站，局，驻地，位置，身份 substation stationery stationary
+1. steal: 偷 stealth
+1. stereo: 立体 stereoscope
+1. sti: 刺 stimulus stick(sticky)
+1. stil: 掉 instil
+1. stinct: 刺 instinct distinct 
+1. stip: 一起按压 stipulate
+1. stit(u): 站立 institute constitute substitute superstitious prostitute
+1. stock: 东西 livestock
+1. ston: 石头 astonish
+1. strain: 拉紧 constrain restrain  
+1. strate: 层 substrate
+1. string: 捆绑 stringent
+1. strophe: 转 catastrophe
+1. struct: 建立 instruct construct obstruct destruction
+1. suad: 甜的 persuade
+1. sub: 在下面 subtle substance(substantial) substrate subtract substation
+1. suc/sus: 在下面 sustain succeed succumb suspend susceptible   
+1. sue: 跟随 pursue ensue
+1. sui: 自己 suicidal
+1. suit: 起诉 lawsuit
+1. sult: 带来，召集 consult(consultant)
+1. sum: 拿，取 assume presume resume 
+1. summ: 总的 summary summit
+1. sumpt: 使用 consumption
+1. sur: 超过，在上面 surpass surfeit surcease surreal survey
+1. surd: 耳聋（听不懂） absurd
+1. surg: 外科 surgeon
+1. surg: 升起 surge resurge(resurrect) resort insurgent insurgence(insurrection)
+1. syn: 一起 synthetic
 
 ###### T
-1. tabl： 平板 tablet
-1. tach/tact： 接触，连接 attach detach intact
-1. tack： 钉 tackle
-1. tail： 切割 entail curtail retail  
-1. tain： 拿住 attain obtain retain maintain entertain sustain
-1. take： 带来 intake painstaking
-1. tale： 传说 stale
-1. tali： 同样 retaliate
-1. tang： 接触 tangible
-1. techn： 技艺 technique
-1. tect： 遮盖 detect
-1. tegr： 触摸 integral
-1. tele： 远 telescope telegraph
-1. templ： 庙 contemplate
-1. tempor： 时间 contemporary
-1. tempt： 藐视 contempt contemn
-1. tempt： 尝试 tempt attempt
-1. ten： 维持，持有 tenable tenant
-1. tend： 趋势 pretend
-1. tend： 伸展 tendency pretension intense tender
-1. tent： 伸展 intent extent pretentious
-1. ter： 地 deteriorate 
-1. ter： 吓唬 deter
-1. terg： 擦 detergent
-1. termin： 边界 terminal terminology
-1. terr： 地 terrace terrain territory terrestrial
-1. test： 证明 protest
+1. tabl: 平板 tablet
+1. tach/tact: 接触，连接 attach detach intact
+1. tack: 钉 tackle
+1. tail: 切割 entail curtail retail  
+1. tain: 拿住 attain obtain retain maintain entertain sustain
+1. take: 带来 intake painstaking
+1. tale: 传说 stale
+1. tali: 同样 retaliate
+1. tang: 接触 tangible
+1. techn: 技艺 technique
+1. tect: 遮盖 detect
+1. tegr: 触摸 integral
+1. tele: 远 telescope telegraph
+1. templ: 庙 contemplate
+1. tempor: 时间 contemporary
+1. tempt: 藐视 contempt contemn
+1. tempt: 尝试 tempt attempt
+1. ten: 维持，持有 tenable tenant
+1. tend: 趋势 pretend
+1. tend: 伸展 tendency pretension intense tender
+1. tent: 伸展 intent extent pretentious
+1. ter: 地 deteriorate 
+1. ter: 吓唬 deter
+1. terg: 擦 detergent
+1. termin: 边界 terminal terminology
+1. terr: 地 terrace terrain territory terrestrial
+1. test: 证明 protest
 1. text；编织 textile texture context
-1. the： 看，考虑 theory
-1. therm： 热 thermal
-1. thet： 放 synthetic
-1. thresh： 踩踏，打谷，鞭打，推敲 threshold
-1. till： 耕种 tillable
-1. timid/temer： 天黑，引申为害怕 timid(intimidate) timorous temerity
-1. tin： 持握 continent
-1. tinct： 刺 extinct
-1. ting： 触摸 contingency
-1. ting： 刺 extinguish
-1. tiny： 微小的 scrutiny
-1. tip： 尖点 tiptoe
-1. tir： 拉 entire
-1. tire： 劳累 retire
-1. toe： 脚趾 tiptoe
-1. tol： 举起 extol
-1. tom： 切 epitomise
-1. tomy： 切 anatomy
-1. ton： 声音 monotonous
-1. tor： 转动，扭曲 torrent torment
-1. tort： 卷缠 distort
-1. toun： 雷 astound
-1. tour： 走 detour
-1. tr： 踩踏 trip trap tread(treadmill) tramp
-1. tract： 拉 contract detract subtract distract trait
-1. trans： 穿过 transient
-1. trans： 改变，交易 transplant transact
-1. tray： 盘子 astray
-1. treas/trad： 移交 treason(traitor) tradition betray
-1. treat： 处理 retreat entreat maltreat
-1. trem： 害怕 tremendous
-1. tres： 超过 trespass
-1. tri： 摩擦 detriment
-1. tribut： 给予 contribute
-1. trig： 小障碍物 intrigue
-1. trip： 旅行 strip
-1. triumph： 胜利 triumphant
-1. triv： 转，寻找 contrive
-1. trop(o)： 转 tropical troposphere
-1. troph： 营养 dystrophy
-1. tru： 真实，相信 truce trust entrust
-1. trud： 伸出 protrude
-1. trus： 推，刺 intrusion extrusion obtrusive(unobtrusive)
-1. try： 审判，实验 trial
-1. turb： 晃动 turbine turbid
-1. twine： 缠绕 entwine
-1. typ： 模型 prototype
+1. the: 看，考虑 theory
+1. therm: 热 thermal
+1. thet: 放 synthetic
+1. thresh: 踩踏，打谷，鞭打，推敲 threshold
+1. till: 耕种 tillable
+1. timid/temer: 天黑，引申为害怕 timid(intimidate) timorous temerity
+1. tin: 持握 continent
+1. tinct: 刺 extinct
+1. ting: 触摸 contingency
+1. ting: 刺 extinguish
+1. tiny: 微小的 scrutiny
+1. tip: 尖点 tiptoe
+1. tir: 拉 entire
+1. tire: 劳累 retire
+1. toe: 脚趾 tiptoe
+1. tol: 举起 extol
+1. tom: 切 epitomise
+1. tomy: 切 anatomy
+1. ton: 声音 monotonous
+1. tor: 转动，扭曲 torrent torment
+1. tort: 卷缠 distort
+1. toun: 雷 astound
+1. tour: 走 detour
+1. tr: 踩踏 trip trap tread(treadmill) tramp
+1. tract: 拉 contract detract subtract distract trait
+1. trans: 穿过 transient
+1. trans: 改变，交易 transplant transact
+1. tray: 盘子 astray
+1. treas/trad: 移交 treason(traitor) tradition betray
+1. treat: 处理 retreat entreat maltreat
+1. trem: 害怕 tremendous
+1. tres: 超过 trespass
+1. tri: 摩擦 detriment
+1. tribut: 给予 contribute
+1. trig: 小障碍物 intrigue
+1. trip: 旅行 strip
+1. triumph: 胜利 triumphant
+1. triv: 转，寻找 contrive
+1. trop(o): 转 tropical troposphere
+1. troph: 营养 dystrophy
+1. tru: 真实，相信 truce trust entrust
+1. trud: 伸出 protrude
+1. trus: 推，刺 intrusion extrusion obtrusive(unobtrusive)
+1. try: 审判，实验 trial
+1. turb: 晃动 turbine turbid
+1. twine: 缠绕 entwine
+1. typ: 模型 prototype
 
 ###### U
-1. uber： 果实 exuberant
-1. ulter： 远 ulterior
-1. ultim： 最后 ultimate
-1. und： 波浪 inundate redundant
-1. urb： 城市 suburb
-1. us： 使用 abuse
-1. ut： 使用 utility
-1. utter： 全然的，发声（均为外面） utterance
+1. uber: 果实 exuberant
+1. ulter: 远 ulterior
+1. ultim: 最后 ultimate
+1. und: 波浪 inundate redundant
+1. urb: 城市 suburb
+1. us: 使用 abuse
+1. ut: 使用 utility
+1. utter: 全然的，发声（均为外面） utterance
 
 ###### V
-1. vac： 空的 vacation evacuate(evacuation)
-1. vacc： 牛 vaccine
-1. vag： 走，漫游 vague extravagance 
-1. val/vail： 价值，力量 avail devalue invalid prevail(prevalent prevalence) equivalent
-1. van/advan： 前面  van advance advantage
-1. var： 改变 variety
-1. vas： 走 invasion(invasive) pervasive
-1. vascular： 血管的 cardiovascular
-1. vast： 空，广阔 devastate
-1. veget： 醒着的，活着的 vegetate vegetable(vegetarian)
-1. veil： 看 surveil(surveillance)
-1. vel/veal/veil： 盖 veil(unveil) reveal velar envelop develop 
-1. veloc： 快 velocity
-1. ven： 来 venue revenue provenance intervene
-1. veng： 惩戒 avenge(revenge)
-1. venom： 毒液 venomous
-1. vent： 来 advent venture convention inventory 
-1. ver： 真实： verify verdict 
-1. verm： 蠕虫 verm(vermin) vermicelli
-1. verb： 言语 verbal
-1. vert/vers/verg： 转 invert divert(diversion diverse versatile) diverge converse controversy(controversial) extrovert(introvert)
-1. veter： 老 veterinary vet
-1. vi/via/voy/vey： 路  viatic viable deviance previous trivial invoice convey(convoy) envoy voyage
-1. vic： 看 device
-1. vice： 罪行 vicious
-1. vict： 征服，克服 convict
-1. victim： 受害 victimise
-1. vid： 看见 evidence
-1. vid： 切 dividend
-1. vigor： 活力 vigorous reinvigorate
-1. vil： 无耻的 vile
-1. vin： 葡萄/葡萄酒 vinous vintage
-1. vinc： 征服 convince
-1. viol： 冒犯，暴力 violate(inviolable)
-1. vir： 男人 virtue virtual
-1. vis： 看见 supervise revise envisage
-1. vis： 切 division
-1. vit/vid： 分开 evitable(inevitable)
-1. vit： 生命 vital vitality 
-1. viv： 生活 survive revive(revival)
-1. vok/voc： 喊 invoke evoke provoke convoke revoke(irrevocable) advocate vocation vouch 
-1. vol： 意念 benevolent(malevolent)
-1. volu/volv： 滚，卷 involve evolve(evolution) revolve
-1. vor： 吃 herbvorse
-1. vort： 跳 cavort
-1. vulg： 人们，大众 vulgar
-1. vuln： 受伤 vulnerable
+1. vac: 空的 vacation evacuate(evacuation)
+1. vacc: 牛 vaccine
+1. vag: 走，漫游 vague extravagance 
+1. val/vail: 价值，力量 avail devalue invalid prevail(prevalent prevalence) equivalent
+1. van/advan: 前面  van advance advantage
+1. var: 改变 variety
+1. vas: 走 invasion(invasive) pervasive
+1. vascular: 血管的 cardiovascular
+1. vast: 空，广阔 devastate
+1. veget: 醒着的，活着的 vegetate vegetable(vegetarian)
+1. veil: 看 surveil(surveillance)
+1. vel/veal/veil: 盖 veil(unveil) reveal velar envelop develop 
+1. veloc: 快 velocity
+1. ven: 来 venue revenue provenance intervene
+1. veng: 惩戒 avenge(revenge)
+1. venom: 毒液 venomous
+1. vent: 来 advent venture convention inventory 
+1. ver: 真实: verify verdict 
+1. verm: 蠕虫 verm(vermin) vermicelli
+1. verb: 言语 verbal
+1. vert/vers/verg: 转 invert divert(diversion diverse versatile) diverge converse controversy(controversial) extrovert(introvert)
+1. veter: 老 veterinary vet
+1. vi/via/voy/vey: 路  viatic viable deviance previous trivial invoice convey(convoy) envoy voyage
+1. vic: 看 device
+1. vice: 罪行 vicious
+1. vict: 征服，克服 convict
+1. victim: 受害 victimise
+1. vid: 看见 evidence
+1. vid: 切 dividend
+1. vigor: 活力 vigorous reinvigorate
+1. vil: 无耻的 vile
+1. vin: 葡萄/葡萄酒 vinous vintage
+1. vinc: 征服 convince
+1. viol: 冒犯，暴力 violate(inviolable)
+1. vir: 男人 virtue virtual
+1. vis: 看见 supervise revise envisage
+1. vis: 切 division
+1. vit/vid: 分开 evitable(inevitable)
+1. vit: 生命 vital vitality 
+1. viv: 生活 survive revive(revival)
+1. vok/voc: 喊 invoke evoke provoke convoke revoke(irrevocable) advocate vocation vouch 
+1. vol: 意念 benevolent(malevolent)
+1. volu/volv: 滚，卷 involve evolve(evolution) revolve
+1. vor: 吃 herbvorse
+1. vort: 跳 cavort
+1. vulg: 人们，大众 vulgar
+1. vuln: 受伤 vulnerable
 
 ###### W
-1. war： 保卫 warrant
-1. ware： 看 beware
-1. whelm： 淹没 overwhelm
-1. wild： 荒野的 bewilder
-1. wind： 风 dwindle
-1. wing： 翅膀 swing
-1. wise： 方向 clockwise
-1. wr： 拧 wring wriggle worm
+1. war: 保卫 warrant
+1. ware: 看 beware
+1. whelm: 淹没 overwhelm
+1. wild: 荒野的 bewilder
+1. wind: 风 dwindle
+1. wing: 翅膀 swing
+1. wise: 方向 clockwise
+1. wr: 拧 wring wriggle worm
 
 ###### X
 
@@ -1114,7 +1116,7 @@ tags:
 1. sub-stant-ial sub-stitu-ent sus-tain
 1. swap交换 swamp沼泽，淹没
 1. swivel转动 swing摇摆
-1. tease taunt mock
+1. tease戏弄 taunt mock嘲笑
 1. thresh脱谷 thread线，缝
 1. throat throttle
 1. ticket tickle痒
