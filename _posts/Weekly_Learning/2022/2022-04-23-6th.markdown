@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "2022-每周补脑6st"
+title:      "2022-每周补脑6th"
 subtitle:   ""
 date:       2022-04-23 13:29:00
 author:     "XiLock"

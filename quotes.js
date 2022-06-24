@@ -816,10 +816,16 @@ var quotes = [
 'The very rememberance of my former misfortune proves a new one to me. - Miguel de Cervantes',
 'Don\'t let anyone ever make you feel like you don\'t deserve what you want.',
 'The real danger is that if we hear enough lies, then we no longer recognize the truth at all.',
-'Nothing for nothing.',
+'Fortune favors the bold. .',
 '头等人，有本事，没脾气。 -- 杜月笙',
 '往后的每一天，都是你最年轻的一天.',
 'Necessity is the mistress and guide of nature. Necessity is the theme and inventress of nature, her curb and her eternal law. -- Leonardo da Vinci',
+'Try to accept differences instead of making judgements.',
+'Not pleased by external gains, not saddened by personal losses.',
+'The good seaman is known in bad weather.',
+'A great ship asks for deep waters.',
+'You fail to recognize that it matters not what someone is born, but what they grow to be.',
+'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]
 

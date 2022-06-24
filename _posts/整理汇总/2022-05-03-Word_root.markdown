@@ -34,6 +34,7 @@ tags:
 1. af: 一再 afflict
 1. ag: 加强 exaggerate
 1. ag/ig/ass <do,act>: agenda(agency agent) agile agitate ambiguity embassy exigence litigant mitigate
+1. agor <public assembly>: agora allegory panegyric paregoric
 1. aholic: 上瘾的 workaholic 
 1. al: 向 allege alleviate
 1. al/ali/alter/ulter: 其他的，改变状态 alter(alternate) altercate adulterate altruist allegory allergy(allergic) alias alien(inalienable) 
@@ -282,7 +283,7 @@ tags:
 ###### F
 1. fac(t)/fect/feit/fic/feas <do,make>: facilitate artefact facsimile faculty defeat(defect) refectory suffice(deficiency) affect(efficient) fiction feasible forfeit
 1. fac/fic/front <face,forehead>: facial superficial(surficial) facade deface confront affront
-1. fan/fam/fat/fess/fabul <to speak>: fate(fatal fatidic) fab(fable faery faerie) fame infrant profess confess fantastic(fabulous) prefatory(preface)
+1. fan/fam/fat/fess/fabul <to speak>: fate(fatal fatidic) fab(fable faery/faerie) fame infrant profess confess fantastic(fabulous) prefatory(preface)
 1. fare <to journey>:  farewell warfare welfare
 1. fascin <bewitch>: fascinate
 1. fat <fat>: fatigue
@@ -566,21 +567,21 @@ tags:
 1. oxy: 酸 oxygen
 
 ###### P
-1. pact: 系紧 compact
-1. pag: 扎牢，系牢 propagate
-1. pair: 更糟 impair
-1. pal: 白色 appal
-1. pan: 扩展 expand expanse patent(patency) spawn
-1. pan: 全部的，广泛的 pandemic panacea panegyric
-1. pan: 面包 company accompany companion
+1. pact/pect/pag <fastened>: compact propagate
+1. pair <worse>: impair
+1. pal <stake>: pale impale palisade pole
+1. pall <pale>: palish appal
+1. pand/pans <spread>: expand expanse patent(patency) spawn
+1. pan/pant <all>: pandemic panacea panegyric
+1. pan <bread>: company(companion) accompany
 1. par(tur) <bring,forth>: parent parturient biparous viper repertory
-1. par(a): 并列，平等 parallel(unparalleled) apparatus(apparat) paralysis comparrable disparage
-1. par(l): 说话 parlor parley parliament
-1. part: 部分 impart counterpart
-1. part: 分开 apart particular particulate 
-1. pass: 忍受，引申为感情 passion passionate compassion
-1. pass: 通过 compass encompass surpass
-1. past: 喂养 pasture
+1. par <equal>: parallel(unparalleled) apparatus(apparat) paralysis comparrable disparage
+1. para <beside>: parry parados paradise parachute
+1. par(l) <speak>: parlor parley parliament
+1. part <part,divide>: apart particular particulate impart counterpart
+1. pass/pat <suffer,引申为感情 >: passion(passionate) compassion
+1. pass <pass through>: compass encompass surpass
+1. past <feed>: pasture pastor repast antipasto
 1. path: 病痛 pathology
 1. path: 感觉 sympathy
 1. patr: 父亲，祖国 patrol patriot(compatriot) repatriate  
@@ -597,7 +598,7 @@ tags:
 1. peri: 周围 periphery
 1. pert: 带 repertoire
 1. pest: 瘟疫 pesticide
-1. pet(u): 寻找，追求 impetus compet(competent) perpetual(perpetuate) appetitive
+1. pet(u) <seek>: petition impetus compete(competent) perpetual(perpetuate) appetitive
 1. petr: 岩石 petroleum
 1. phas: 说 emphasize
 1. phan/phen/fan <to show,to appear>: phantom diaphanous fancy
@@ -821,6 +822,7 @@ tags:
 1. take: 带来 intake painstaking
 1. tale: 传说 stale
 1. tali: 同样 retaliate
+1. tard <slow>: tardy tarry retard
 1. tang: 接触 tangible
 1. techn: 技艺 technique
 1. tect: 遮盖 detect

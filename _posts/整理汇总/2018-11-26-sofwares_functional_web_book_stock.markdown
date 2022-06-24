@@ -189,9 +189,13 @@ tags:
 1. [wifi账号密码生成二维码](https://wificard.io/)
 1. [互动教室](https://flat.whiteboard.agora.io/)
 
+### 软件下载
+1. [化工导航](https://www.hg-dh.com/)
+
 ### 待整理
 1. [34款Windows软件中的神器：看片、安全杀毒、效率神器，它们最好用](https://mp.weixin.qq.com/s?__biz=MzU4Mjg3MDAyMQ==&mid=2247493139&idx=1&sn=e08171ebf30e749cf0c2ad0c2f8ea872&source=41#wechat_redirect)
 1. [我花了一个星期，整理了100个超强神器网站](https://mp.weixin.qq.com/s?__biz=Mzg2NzIzOTQ4NQ==&mid=2247498069&idx=3&sn=7908342a23d225a9fe1e1ae27fa47395&source=41#wechat_redirect)
 1. [腾讯、阿里、百度出品的10个良心小工具，免费无广告还好用到爆！](https://mp.weixin.qq.com/s?__biz=MjM5MDgxNjc0MA==&mid=2651011407&idx=1&sn=a0ce48b4778ad3c1c9ea7844c61d7fb4&chksm=bd4899c48a3f10d2b680fc0c44786b316d83e6f637596e18e04419c4c70d649794ef7c9856b9&mpshare=1&scene=24&srcid=#rd)
+
 
 ![](/img/wc-tail.GIF)
