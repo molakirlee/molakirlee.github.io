@@ -17,21 +17,62 @@ tags:
 ### 科研
 
 ### 言论
+1. 学习就是换血，不断学习就是不断更新血液，促进新陈代谢和循环。 -- Xilock
 1. The scariest moment is always just before you start. -- Stephen King
 1. Normality is a fine ideal for those who have no imagination. -- C.G. Jung\
 1. Congratulations, you're curious and have an intellectual appetite!Since we're not given the opportunity to choose the world we live in, the least we could do is try to understand it. -- [Hacker News](https://news.ycombinator.com/item?id=30928948)
 1. One has to specialize in some things to make money. I always tell my kids: You need to learn a trick that your are better at than others so someone will pay you to do it. Then you can pay others to do things you find boring or difficult. Of course you want to focus on something you find fun. If they get older I'd recommend them to keep consciously thinking about what gives them energy and what drains it. It's what my career coaches always told me (I was fortunate enough to work at a company that supplied coaches to everyone). Is it really more complex than that?My tip would be to look for a company where you get the opportunity to "transform" (a large company's research department for example?), and then to sometimes just give it a year when you don't like your current position. Talk to people, go to conferences, try to learn if there is work out there with the right balance of old vs new for you. -- [Hacker News](https://news.ycombinator.com/item?id=30929422)
 1. 是没想过？还是忘了？若你的注意力试试都在他人身上，那还是你的道吗？一切只是经历，所需做的是明澈自己为何而修，如何悟道，洗却蒙尘之念。
 1. 知为何而修，知为何而战，一番经历，终有所得。
+1. 如果一种计算机语言不会影响你对编程的看法，它就不值得学习。-- Alan J. Perlis(第一届图灵奖得主)
+1. 编程是思考，而不是打字。多年编程后，我时常觉得自己打字太多，思考太少。--[How to control the metacognition process of programming?](https://lambdaisland.com/blog/2022-02-17-the-fg-command)
+1. 每个人都是父母的基因混合在一起产生的，这样会制造基因突变，其中有利的突变最终会形成生存优势。同理，作为程序员，也应该多尝试新事物和新技能，与旧知识和旧技能进行混合，这样才能获得生存优势。-- [Why Developers Stagnate](https://blog.devgenius.io/why-developers-stagnate-77d9bfc5c91e)
+1. 说服他人的一种常见手法是，不要争辩某事是假的，只需要证明它与低地位的人有关；反之亦然，不要争论某事是真的，只需要证明它与高地位的人有关。 -- [Persuasion and the Prestige Paradox: Are High Status People More Likely to Lie?](https://quillette.com/2021/04/03/persuasion-and-the-prestige-paradox-are-high-status-people-more-likely-to-lie/)
+1. 
 
-### 世界之窗
 
 ### 观点
+###### [Be less technical](https://www.sequential.dev/posts/be-less-technical/)
+Whatever the reason, you solve problems, and you’re likely damn good at it (the solving of problems that is, not delivering groceries).But you need to Be less technical when describing and thinking about how to solve those far-reaching problems and the atomic** ones that occur along the way.
 
+That may sound blasphemous, but please bear with me for a second (or a few minutes). I am not saying that you should reject everything you’ve learned and cultivated over the years, but rather - you should learn how to communicate those things to someone who hasn’t had that same experience of learning and cultivation as you.
+
+###### [任正非：华为不搞培养制，我们没责任培养你](https://finance.sina.com.cn/jjxw/2022-04-03/doc-imcwiwss9772070.shtml)
+我们要从过去的培养制和苦口婆心的培育方式，转变成你爱学就学，不学我们也不会给你穿小鞋，关键是看你工作干得好不好来确定你的去留，而不是看你爱不爱学习。历史上不好好学习最后成了伟大人物的例子很多，学习不要强求。我们不搞培养制，我们没有责任培养你，我们是选拔制，选拔更优秀的人上来，在全公司和全世界范围内选拔优秀者，落后者我们就淘汰。我们不会派一批老专家苦口婆心地与落后者沟通，迁就落后者，在这个问题上我们要改变过去的一些做法。按照这种办学方针，华为大学就应该是个赚钱的大学。华为大学将来要想大发展，就一定要赚到钱，将来没人拨款给你。
+
+华为大学的老师在后备干部培养这一系中，是组织者，不是传授者，如果他们是传授者，水平就限制在一定高度了。我们的学习就是启发式的学习，这里没有老师上课，只有“吵架”，吵完一个月就各奔前程，不知道最后谁是将军，谁是列兵。相信真理一定会萌芽的，相信随着时间的久远，会有香醇的酒酿成的。
+
+我们华为公司允许有反对者，相反对于正面的观点，我们恰恰要看他是否真正认识到了规律性的东西，或者只是陈词滥调、被动接收。
+
+要从选拔制开始，推广员工主动学习进步是自己的责任，不是组织的责任。我们做一个平台，所有岗位的应知应会，全在这个平台上，掌握应知应会是你的责任。
+
+###### Stanford Prison Experiment
+得到一个结论：人类行为受到工作环境的强烈影响，你会变成环境要求你成为的样子。 正常人关进监狱，就会变得囚犯般俯首听命，暗中算计；要是当上狱警，就会不由自主地居高临下、残忍霸道。这个实验带给我们的启示就是，要小心你的工作，它会改变你，让你成为另一个人。 很多人都有一种印象，会计师的性格是斤斤计较、对数字格外敏感，律师的性格是重视利益最大化，海关执法人员的性格则是充满怀疑、不信任他人，这就是职业对性格的改变。
+
+###### [How To Read A Book](https://dkb.io/post/how-to-read-a-book)
+
+###### [你不会让别人偷走你的财产，但你却让别人偷走你的时间](https://news.ycombinator.com/item?id=31887681)
+人生很短，但是如果你知道，怎么利用好这些时间，它就不短。人生刚好够实现自己的一个梦想，前提是你必须从一开始，就把所有精力专注于此。如果你浪费时间，不够专注，那么你没做什么事，人生就结束了。真正的问题不是人生短暂，而是我们浪费了太多时间。
+
+冯·诺依曼，死于1957年，享年53岁。他一生都非常忙碌，各种事情都来找他。他多次推迟自己想做的事情，总是说以后有时间再做，但又不说到底什么时候做。他本人并非不知道这一点，但就是这种性格，喜欢同时研究很多事情，一旦对某件事情产生了兴趣，就会放下手头的工作，推说稍后再回来接着做，可惜人生并没有为他留出"回过头再做"的时间。人生也没有为你我留出这些时间。如果你听任时间浪费在各种琐碎的用途，那你就永久失去了这些时间。只有当你能够保护好自己的时间，专注于一个方向，人生才不会那么短暂。
+
+###### [请寻找地图以外的未知领域]
+地图的最大部分一定是未知领域。现在的这张地图让互联网世界看起来像零和游戏，但事实并非如此。我们正在开拓新疆域，创造价值，而不是从别人那里夺走它们。 -- 扎克伯格
+
+所有的地图都是描绘已知的世界，但是，更大的世界是那些还没有画出来的部分，那里才是最大的机会。如果你只盯着地图画出来的部分，那就意味着，你把自己局限在这些疆域。当你发展壮大，就势必要侵入其他人的领域，对方一定会殊死反抗。但是，如果你把目光放到地图以外，那里其实是更大的世界，有更多的机会，你可以从零开始建立自己的王国。你的时间和精力，用来解决前人没有遇到的问题，而不跟对手进行零和竞争。
+
+现在的这些互联网巨头，我印象中，好像没有一家是通过占领别人的地盘，而成为巨头的。每一家都是因为开创了新领域，而发展壮大。比如，微软建立了桌面操作系统，亚马逊开创了 AWS 云服务，Youtube 创造了流媒体平台，Netflix 建立了视频点播服务，抖音是竖屏短视频再创作。乔布斯说过一句名言：问消费者他们需要什么是没有意义的，因为他们不知道，只有当你把新事物拿到他们眼前，他们才会意识到自己需要它。他的意思就是开发未知领域，再把消费者领进去，他们会惊叹新世界是多么美妙，而你就成为这里的王者。
+
+马斯克为什么在短短几年中，成为世界首富？因为他做的都是前无古人的事情：第一个大规模生产电动车、第一个建造可重复使用的火箭、第一个卫星上网服务，第一个要把人类移民到火星......他的每一个新领域都有巨大的成长空间，一旦做出成果，他就独享这些地图上新多出来的面积。下一次当你查看地图时，请寻找地图以外的未知领域，那才是建功立业、发展壮大的地方。否则，你只看到现有的世界，你的人生就被局限在那里，为了赢得零和游戏，与对手拼死竞争一点点空间。
+
+智能手表 Pebble 的创始人[Eric Migicovsky](https://medium.com/@ericmigi/why-pebble-failed-d7be937c6232)说“我们创业失败的原因是，我们改变了自己的方针，从制造人们想要的产品转向制造我们希望人们想要的产品。”
+
+这与探索地图理论并不冲突，因为Pebble的是失败于“制造我们希望人们想要的产品”，而非“制造人们潜在需要的东西”。
 
 ### 奇技淫巧
 1. [黑客技巧](https://book.hacktricks.xyz/welcome/readme)
 1. [numpy 100题目](https://github.com/rougier/numpy-100)
+1. [机械表的原理：Mechanical Watch](https://ciechanow.ski/mechanical-watch/)
 
 ### 荐书
 
