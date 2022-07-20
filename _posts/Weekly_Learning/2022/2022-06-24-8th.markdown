@@ -32,6 +32,12 @@ tags:
 
 
 ### 观点
+###### How to learn a skill
+1. Deconstruct the skill
+1. Learn ehough to self-convert
+1. Remove practice barriers
+1. Practice at least 20 hours
+
 ###### [Be less technical](https://www.sequential.dev/posts/be-less-technical/)
 Whatever the reason, you solve problems, and you’re likely damn good at it (the solving of problems that is, not delivering groceries).But you need to Be less technical when describing and thinking about how to solve those far-reaching problems and the atomic** ones that occur along the way.
 

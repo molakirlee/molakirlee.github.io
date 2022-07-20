@@ -839,6 +839,13 @@ var quotes = [
 'Those who follow the light will eventually be radiant.',
 'Fortune favors the bold.',
 'Try to accept differences instead of making judgements.',
+'青衿之志，白首方坚.',
+'云程发轫，踵事增华.',
+'焚膏继晷，不兀穷年.',
+'行而不辍，未来可期.',
+'行远自迩，笃行不怠.',
+'不啻微芒，造炬成阳.',
+'允厥执中.',
 'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]
