@@ -87,6 +87,8 @@ tags:
 1. Quicker: 动作（快捷、批量）
 1. XYplorer: 文件管理
 1. WGestures: 鼠标手势
+1. UTools/PowerToys：系统快捷系统一些小应用
+1. bandicam：录屏软件
 
 ### CS
 1. [将任何网页转为RSS](http://fetchrss.com/)
