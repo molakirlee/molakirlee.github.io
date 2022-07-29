@@ -18,7 +18,7 @@ tags:
 
 ### 言论
 1. Go 语言只报告编译错误，从不发出警告。因为我们认为，如果值得警告，那就值得在代码中修复。如果不值得修复，那就不值得一提。 -- [Go 官方文档](https://go.dev/doc/faq#unused_variables_and_imports)
-
+1. 我仰慕的大多数程序员都有一个很少被谈论的特质：无所畏惧。他们无所畏惧地面对未知的代码库和未知的任务，尽管不知道如何完成，毅然开始着手做某事。让自己变得无所畏惧，是我发现的最好的学习加速器之一。 -- [Professional Programming: The First 10 Years](https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/)
 
 ### 观点
 ###### [巴菲特的看人标准](https://www.inc.com/marcel-schwantes/warren-buffett-hiring-top-talent-characteristics.html)
@@ -56,12 +56,19 @@ tags:
 
 这才是真正的梦想家，人生不是为了金钱，而是为了实现心中的梦想。实现了一个目标，马不停蹄去做下一个，短暂的人生要尽量多实现几个目标才过瘾，让未来早一点变成现实。
 
+###### 提高学习效率
+1. 把学习作为一份工作，一开始就要广泛学习，以减轻以后的压力（如看youtube轻松扩展知识），要让自己游刃有余。
+1. 消除“伪学习”，抓重点，提高效率（问自己这件事是否回影响我的成绩）。
+1. 积极参与重构材料（创建问答、成为教师、构建概念和图表）。
+1. 避免多任务处理。
+1. 分布式实践（组间间隔的设置）。
+
 ### 有趣
 1. [I spent 2 years launching tiny projects](https://tinyprojects.dev/posts/i_spent_two_years_launching_tiny_projects)
 1. [Piece of paper quiets Intel Alder Lake stock coolers](https://pubby.games/papermod.html)
 1. [World architecture festival](https://www.worldarchitecturefestival.com/live/en/page/2022-shortlist)
 1. [Web Scraping with Python: Everything you need to know](https://www.scrapingbee.com/blog/web-scraping-101-with-python/)
-
+1. [皮克斯的3D动画制作过程](https://www.khanacademy.org/computing/pixar)
 
 
 ### 荐书
