@@ -19,8 +19,15 @@ tags:
 ### 言论
 1. Go 语言只报告编译错误，从不发出警告。因为我们认为，如果值得警告，那就值得在代码中修复。如果不值得修复，那就不值得一提。 -- [Go 官方文档](https://go.dev/doc/faq#unused_variables_and_imports)
 1. 我仰慕的大多数程序员都有一个很少被谈论的特质：无所畏惧。他们无所畏惧地面对未知的代码库和未知的任务，尽管不知道如何完成，毅然开始着手做某事。让自己变得无所畏惧，是我发现的最好的学习加速器之一。 -- [Professional Programming: The First 10 Years](https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/)
+1. 软件开发的目标不是类型安全、100%的测试覆盖率、流畅的代码逻辑、完善的开发工具、高效的系统、使用最好的编程语言、优雅的 API 设计、快速的反馈循环、编写很棒的代码等等......软件开发的真正目标只有一个：发布解决客户问题的软件，为客户提供价值。 -- [Professional Programming: The First 10 Years](https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/)
+1. 最好的销售方法，就是真诚地相信你所销售的东西。出售你真正相信的东西感觉很棒，而试图出售你不相信的东西，感觉很糟糕。 -- [Sam Altman: How To Be Successful](https://blog.samaltman.com/how-to-be-successful)
+1. 人们拥有一种神奇的能力，就是使事情发生。但是大多数人从来不敢尝试这种能力，只是默默接受世界本来的样子。 -- [Sam Altman: How To Be Successful](https://blog.samaltman.com/how-to-be-successful)
+
 
 ### 观点
+###### [任正非只有一个](https://finance.sina.com.cn/tech/it/2022-07-27/doc-imizirav5659240.shtml)
+任木生说：“孩子，记住，知识就是力量，别人不学，你要学，不要随大流。”因此，回到校园后，任正非开始自学电子计算机、数字技术、自动控制等专业书，把樊映川的《高等数学习题集》从头到尾做了两遍，读了很多逻辑学、哲学方面的书，并且还先后自学了三门外语。可以说，艰苦的物质生活和心灵的磨难锻造了任正非无私、坚强的性格，而知识的力量，则改变了他的一生。
+
 ###### [巴菲特的看人标准](https://www.inc.com/marcel-schwantes/warren-buffett-hiring-top-talent-characteristics.html)
 巴菲特说，他考察候选人，就看三个"i"：integrity（正直）、intelligence（智力）、initiative（主动）。
 
