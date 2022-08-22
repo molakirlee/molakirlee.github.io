@@ -835,6 +835,7 @@ var quotes = [
 'Everything has cracks and that\'s where the light comes in.',
 'Talent indeed makes a person shine, but hard work does too.',
 'It\'s futile to rectify the past, but you can still change the future.',
+'Life\'s too short to hold grudges.',
 'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]
