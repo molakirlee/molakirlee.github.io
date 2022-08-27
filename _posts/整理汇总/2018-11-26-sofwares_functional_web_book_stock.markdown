@@ -23,6 +23,7 @@ tags:
 
 ### 中文
 1. [反向词典：词义-->单词](https://wantwords.net)
+1. [据意查句](https://wantquotes.net/)
 
 ### 英文词典
 1. [词根词源字典](http://www.etymon.cn/origins/f/16037.html)
@@ -147,6 +148,8 @@ tags:
 1. [泼辣修图](https://www.polaxiong.com/web/)
 1. [老照片修复](https://hotpot.ai/restore-picture)
 1. [橡皮擦：图片局部擦除](https://www.magiceraser.io)
+1. [Bgsub抠图](https://bgsub.cn/)
+1. [Dall e2:AI图像生成](https://openai.com/dall-e-2/)
 
 ### 音频视频
 1. 飞熊影视
