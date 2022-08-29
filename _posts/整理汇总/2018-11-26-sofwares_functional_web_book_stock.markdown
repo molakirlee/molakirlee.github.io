@@ -149,7 +149,8 @@ tags:
 1. [老照片修复](https://hotpot.ai/restore-picture)
 1. [橡皮擦：图片局部擦除](https://www.magiceraser.io)
 1. [Bgsub抠图](https://bgsub.cn/)
-1. [Dall e2:AI图像生成](https://openai.com/dall-e-2/)
+1. [AI图像生成：Dall e2](https://openai.com/dall-e-2/)
+1. [图片扫描：onlinecamscanner](https://onlinecamscanner.com/zh-Hans/)
 
 ### 音频视频
 1. 飞熊影视
