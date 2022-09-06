@@ -836,6 +836,11 @@ var quotes = [
 'Talent indeed makes a person shine, but hard work does too.',
 'It\'s futile to rectify the past, but you can still change the future.',
 'Life\'s too short to hold grudges.',
+'A little of every thing is nothing in the main.',
+'Each man is the architect of his own fate.',
+'Goals determine what you\'re going to be.',
+'Don\'t just sit at home, or the life of your dreams will sail right past you.',
+'Easy times create weak men. Weak men create tough times.',
 'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]

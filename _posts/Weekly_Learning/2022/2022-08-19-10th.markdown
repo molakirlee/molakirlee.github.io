@@ -23,6 +23,8 @@ tags:
 1. 如果你是一个工程师，那么在成为资深工程师之前，永远不要担任管理职务。 -- [TWIN ANXIETIES OF THE ENGINEER/MANAGER PENDULUM](https://charity.wtf/2022/03/24/twin-anxieties-of-the-engineer-manager-pendulum/)
 1. 理智的态度不是去挑战或否定人工智能，幻想人类有胜过它们之处，也不是感到焦虑和绝望。唯一可行的选择就是把它们看成是一个机会，它们是更好更值得学习和使用的工具，我们应该主动去了解这些模型，适应它们，使用它们，尽快将它们转化为自己的生产力。 -- Frank
 1. 真的想做一个项目，那就开始得越快越好。早点做出有价值的成果，你会吸引到客户；如果做不出来，你就可以早点放弃，节省自己的时间，并了解哪里行不通。 -- [Don't Build Your Own Framework](https://dodov.dev/blog/dont-build-your-own-framework)
+1. 对于布朗语料库来说，15,851个单词可以覆盖语料库97.8%的内容。这差不多就是英美大学生掌握的单词数量。这意味着，如果你记住了15000个单词，再遇到不认识的单词，就可以较有把握得猜出它的含义。但是，对于外国人来说，想要通过几年学习，掌握15000个左右的英语单词，绝非易事。 -- 基于“Zipf 定律”
+1. 技术进步有多快，只要记住这个事实就可以了：1900年，家庭是没有电的。当时，即使在最发达的美国，也只向一些特殊部门供电，比如路灯和电报局。 -- [The Dictatorship of the Articulate](https://florentcrivello.com/index.php/2022/09/01/the-dictatorship-of-the-articulate/)
 
 
 ### 观点
