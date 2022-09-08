@@ -52,9 +52,10 @@ Ultimate : 192GB
 1. 新建"多字符串值"，命名为"autorun".
 1. 内容分两行填入"set LANG=zh_CN.UTF-8" "set LC_ALL=zh_CN.utf8" .
 1. 保存后重启.
+
 参考：
-1.[windows系统修改cmd窗口utf-8编码格式](https://jingyan.baidu.com/article/d7130635e8a38413fdf4753b.html) 
-1.[win10 CMD ls 命令显示乱码](https://www.rxx0.com/motion/win10-cmd-ls-ming-ling-xian-shi-luan-ma.html) 
+1. [windows系统修改cmd窗口utf-8编码格式](https://jingyan.baidu.com/article/d7130635e8a38413fdf4753b.html) 
+1. [win10 CMD ls 命令显示乱码](https://www.rxx0.com/motion/win10-cmd-ls-ming-ling-xian-shi-luan-ma.html) 
 
 ### 缺少xxx
 ###### 缺少MSVCP110.DLL
