@@ -46,6 +46,16 @@ Enterprise : 192GB
 Ultimate : 192GB  
 然后检查bios里的info看主板是否读出了内存，之后再考虑网上疯传的“msconfig里的最大内存”。
 
+### windows系统下cmd中文乱码
+1. win键+R，输入"regedit.
+1. 按顺序找到"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor按顺序找到HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor按顺序找到HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor".
+1. 新建"多字符串值"，命名为"autorun".
+1. 内容分两行填入"set LANG=zh_CN.UTF-8" "set LC_ALL=zh_CN.utf8" .
+1. 保存后重启.
+参考：
+1.[windows系统修改cmd窗口utf-8编码格式](https://jingyan.baidu.com/article/d7130635e8a38413fdf4753b.html) 
+1.[win10 CMD ls 命令显示乱码](https://www.rxx0.com/motion/win10-cmd-ls-ming-ling-xian-shi-luan-ma.html) 
+
 ### 缺少xxx
 ###### 缺少MSVCP110.DLL
 1. 安装Visual C++库：msvcp110.dll是一个c++的库，所以可以在http://www.microsoft.com/zh-CN/download/details.aspx?id=30679上下载跟系统对应的c++库进行安装； 
