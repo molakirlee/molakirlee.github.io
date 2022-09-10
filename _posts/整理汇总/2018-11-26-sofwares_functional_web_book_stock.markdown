@@ -90,6 +90,7 @@ tags:
 1. WGestures: 鼠标手势
 1. UTools/PowerToys：系统快捷系统一些小应用
 1. bandicam：录屏软件
+1. [共享白板](https://www.ourboard.io/)
 
 ### CS
 1. [将任何网页转为RSS](http://fetchrss.com/)
@@ -151,6 +152,7 @@ tags:
 1. [Bgsub抠图](https://bgsub.cn/)
 1. [AI图像生成：Dall e2](https://openai.com/dall-e-2/)
 1. [图片扫描：onlinecamscanner](https://onlinecamscanner.com/zh-Hans/)
+1. [去除图片中物体](https://cleanupphotos.com/)
 
 ### 音频视频
 1. 飞熊影视
