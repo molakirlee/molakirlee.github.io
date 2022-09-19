@@ -25,7 +25,14 @@ tags:
 1. 我认为，人工智能不会取代人类。因为计算机只会计算，它们做不了任何不能表示为计算的事情。 -- [罗伯特 J. 马克斯](https://mindmatters.ai/2022/07/marks-forget-the-hype-thinking-machines-cant-replace-humans/)
 1. 你的脑海中，必须始终记着十几个你最喜欢的问题，平时它们处于休眠状态。每次你听到或读到一个新发现时，就针对这十几个问题中的每一个进行测试，看看对解答问题是否有帮助，很多突破就是这样产生的。 -- [理查德·费曼](https://alumni.media.mit.edu/~cahn/life/gian-carlo-rota-10-lessons.html)
 1. Maintaining your technical chops is a stellar way to hedge against uncertainties and maintain your optionality. -- [TWIN ANXIETIES OF THE ENGINEER/MANAGER PENDULUM](https://charity.wtf/2022/03/24/twin-anxieties-of-the-engineer-manager-pendulum/)
-
+1. 多读书，把自己带入传记中的人物身上。要时刻警醒自己，大科学家都是自律且高产。-- 刘师
+1. 未来的领导者，做事主动，明白自己在做什么，制定目标。 -- 刘师
+1. 抓紧拿出初代模型，每次修补1-3个问题，逐代提升。 -- 刘师
+1. 没有人能预测学佛者的未来，因为他在积极主动地创造未来。 -- 刘师
+1. 我们只有当下，注意自己内心的力量有无增加。 -- 刘师
+1. 向未来学习，要听到领导没说的那句话。 -- 《U型理论》
+1. 好好分析自己的习惯，改变自己的习气，如果一直等着别人检查，那只能一辈子被人管。 -- 刘师
+1. 如果你怨天尤人，那你就会干的比别人多，很累但没有收获，不要耍小聪明。 -- 刘师
 ### 观点
 ###### [四十年编程感想(Hacker News)](https://codefol.io/posts/the-forty-year-programmer/)
 1. 编程是s长期职业：你可能会从事20年甚至更长。你应该从长期角度看待编程。在长期中，技术来来去去，语言也来来去去，精通一种技术或语言，并不能保证你的长期职业发展。你的目标不必局限在学习什么语言或框架，只要吃透基础知识，你可以学会任何你想要的东西。
