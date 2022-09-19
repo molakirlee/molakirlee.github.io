@@ -38,8 +38,8 @@ end structure
 
 
 ### 参考资料
-[Packmol程序资料整理](https://jerkwin.github.io/2016/08/05/Packmol%E7%A8%8B%E5%BA%8F%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/)  
-
+1. [Packmol程序资料整理](https://jerkwin.github.io/2016/08/05/Packmol%E7%A8%8B%E5%BA%8F%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/)  
+1. [sob:分子动力学初始结构构建程序Packmol的使用](http://bbs.keinsci.com/thread-12549-1-1.html) 
 
 ### 其它
 sob不建议用packmol,genmixmen好用的多：[生成混合组分的磷脂双层膜结构文件的工具genmixmem](http://sobereva.com/245)
