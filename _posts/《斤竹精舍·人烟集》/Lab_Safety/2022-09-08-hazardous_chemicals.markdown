@@ -23,7 +23,7 @@ tags:
 参考资料：
 1. [国家安全生产监督管理总局令 第60号:化学品物理危险性鉴定与分类管理办法](http://www.gov.cn/gongbao/content/2013/content_2473885.htm)
 1. [危险化学品目录2018版](https://scce.sjtu.edu.cn/upload/ueditor/file/20211203/1638512496754433.pdf)
-1. [应急管理部关于危险化学品目录及判定常见问题QA回复汇总精华版(下)！应急管理部关于危险化学品目录及判定常见问题QA回复汇总精华版(下)！](://www.cirs-group.com/cn/chemicals/yjglbgywxhxpmljpdcjwtqahfhzjhb-x)
-1. [专家QA《危险化学品安全法（征求意见稿）》—解读及拓展](://nimonik.com/zh-hans/2020/03/%E4%B8%93%E5%AE%B6qa%E3%80%8A%E5%8D%B1%E9%99%A9%E5%8C%96%E5%AD%A6%E5%93%81%E5%AE%89%E5%85%A8%E6%B3%95%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89%E3%80%8B-%E8%A7%A3/)
+1. [应急管理部关于危险化学品目录及判定常见问题QA回复汇总精华版(下)！应急管理部关于危险化学品目录及判定常见问题QA回复汇总精华版(下)！](www.cirs-group.com/cn/chemicals/yjglbgywxhxpmljpdcjwtqahfhzjhb-x)
+1. [专家QA《危险化学品安全法（征求意见稿）》—解读及拓展](nimonik.com/zh-hans/2020/03/%E4%B8%93%E5%AE%B6qa%E3%80%8A%E5%8D%B1%E9%99%A9%E5%8C%96%E5%AD%A6%E5%93%81%E5%AE%89%E5%85%A8%E6%B3%95%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89%E3%80%8B-%E8%A7%A3/)
 
 ![](/img/wc-tail.GIF)
