@@ -1,0 +1,32 @@
+---
+layout:     post
+title:      "2022-每周补脑12th"
+subtitle:   ""
+date:       2022-09-24 10:40:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2022
+
+
+---
+
+### 科研
+
+### 言论
+1. 我的一个朋友说，他的生活被尖锐地分成了两个部分。上半场，他始终是小组中最年轻的人；下半场，他突然就成了小组中年纪最大的，中间没有过渡期。 我现在意识到，人生就是这样。到了一定年龄后，你就不再被视为一个人，而是被当成一个机构，别人看你就像看一件仿古家具、一个地标建筑或一个古墓。 -- [Ten Lessons I wish I had been Taught](https://alumni.media.mit.edu/~cahn/life/gian-carlo-rota-10-lessons.html)
+1. 我那些开发者兄弟，不要为这次代码泄漏垂头丧气，它会过去的。将来有一天，人们玩你们的游戏，欣赏你们的手艺，而这次的泄漏事件只会成为维基百科的一个脚注。向前看，继续创造吧。 -- [Neil Druckmann评论《GTA6》源码大量泄漏事件](https://twitter.com/Neil_Druckmann/status/1571525058946035713)
+1. 不要浪费你的无知。当你对一门知识毫无所知时，最容易问出简单而重要的问题。 一旦你习惯了某种现象或事物，认为它是理所当然时，思维就不知不觉受到了限制. -- [David Kohn](https://www.timescale.com/blog/how-postgresql-views-and-materialized-views-work-and-how-they-influenced-timescaledb-continuous-aggregates/)
+
+### 观点
+
+### 有趣
+
+### 荐书
+
+
+
+![](/img/wc-tail.GIF)

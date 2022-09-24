@@ -839,6 +839,7 @@ var quotes = [
 'Goals determine what you\'re going to be.',
 'Don\'t just sit at home, or the life of your dreams will sail right past you.',
 'Easy times create weak men. Weak men create tough times.',
+'成长是一种蜕变，失去了旧的，必然因为又来了新的，这就是公平。 -- 三毛 《亲爱的三毛》.',
 'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]
