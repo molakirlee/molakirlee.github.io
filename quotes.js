@@ -840,6 +840,12 @@ var quotes = [
 'Don\'t just sit at home, or the life of your dreams will sail right past you.',
 'Easy times create weak men. Weak men create tough times.',
 '成长是一种蜕变，失去了旧的，必然因为又来了新的，这就是公平。 -- 三毛 《亲爱的三毛》.',
+'即使深陷绝地，也要保持希望.',
+'不要因为虚伪的人或烂人而自乱心境.',
+'正身以俟时，守己而律物. -- 《儒林外史》',
+'君子慎独，不欺暗室。卑以自牧，含章可贞. -- 《易经》',
+'逆水行舟用力撑，一篙不慎退千寻.  -- 董必武',
+'古人云此水，一歃怀千金。试使夷齐饮，终当不易心. -- 吴隐之',
 'Nothing for nothing.',
 '才情高超，清越脱俗。'
 ]
