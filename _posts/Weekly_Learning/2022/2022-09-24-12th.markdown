@@ -21,9 +21,29 @@ tags:
 1. 我那些开发者兄弟，不要为这次代码泄漏垂头丧气，它会过去的。将来有一天，人们玩你们的游戏，欣赏你们的手艺，而这次的泄漏事件只会成为维基百科的一个脚注。向前看，继续创造吧。 -- [Neil Druckmann评论《GTA6》源码大量泄漏事件](https://twitter.com/Neil_Druckmann/status/1571525058946035713)
 1. 不要浪费你的无知。当你对一门知识毫无所知时，最容易问出简单而重要的问题。 一旦你习惯了某种现象或事物，认为它是理所当然时，思维就不知不觉受到了限制. -- [David Kohn](https://www.timescale.com/blog/how-postgresql-views-and-materialized-views-work-and-how-they-influenced-timescaledb-continuous-aggregates/)
 1. 你从自己的一次失败中学到的东西，比阅读一千个成功故事学到的更多。 -- [What Should You Do with Your Life? Directions and Advice](https://guzey.com/personal/what-should-you-do-with-your-life/)
+1. 不善于利用时间的人，总是首先抱怨没有时间，因为他把时间都耗费在穿、吃、睡和聊天上，去考虑该做什么，而只是什么也不去做。 -- 拉布吕耶尔《品格论》
+1. 善于利用时间的人，永远找得到充裕的时间。 -- 歌德
+1. 酒店也是有呼吸的，管理层必须在一线观察，才能统筹员工。 -- 《Hotel大饭店》
 
 ### 观点
-1. [AVOID SPAGHETTI CODE WITH SCOPE MINIMIZATION](https://massimo-nazaria.github.io/blog/2022/02/10/avoid-spaghetti-code-with-scope-minimization.html)
+###### [陈忠实-他去世了，震痛的何止是演艺圈](https://mp.weixin.qq.com/s/N_umI30nearDY6UMRxyNPw)
+
+###### [AVOID SPAGHETTI CODE WITH SCOPE MINIMIZATION](https://massimo-nazaria.github.io/blog/2022/02/10/avoid-spaghetti-code-with-scope-minimization.html)
+
+###### [《《小米创业思考》，雷军亲述64条方法论》](https://www.jianshu.com/p/028ad12e273c)
+
+###### 如何快速了解一款产品的商业模式?
+想要快速了解一款产品的商业模式，只需要以下三步：
+
+一、明确价值主张。  
+在客户心中建立起来的区别于竞争对手的差异化认识。如何做与竞争对手不同的事情，第一个核心要点是从上述价值中为产品赋予不同的性能和价值点，第二个核心要点是将这个差异化上做到极致：即聚焦。直到竞争对手达不到的程度，即人有我优的境界，毕竟品牌也是有一定溢价潜力的。因此，找到一个客户的差异化需求点，又能做到竞争对手做不到的专业程度，才算是真正走出了一条差异化的道路。这个价值要能被客户认可并接受：即客户得了解我们，并认同我们的确是这个差异化价值点的最佳服务商，因为从营销的角度来说，如果没有客户认知，一切皆无。
+
+二、重构业务结构  
+业务结构是指企业方与其它所有利益相关方之间关键活动和交易结构，是一种价值交换关系。在设计业务结构时需要遵循轻资产的设计原则，即通过输出管理、模式、技术或品牌等获取利润，自己则专注在产品研发、销售、服务等环节上。充分利用各种外界资源，减少自身的投入，把自己的资源和优势集中在利润最高点以提高盈利水平。在数字化时代，品牌、客户关系、数据、算法甚至管理模式都是看不见的轻资产。如果企业的定位需要很多重资产才能运营，是时候考虑能否借助资本的力量了。
+
+三、优化盈利模式。
+收入来自为客户提供的产品或服务，支付取决于提供这个产品和服务的所有成本。基于成本、收入、利润这三项，有四种优化方式：1）在固定成本、可变成本及产值库存上结构化的优化成本；2）在产品服务组合、产品结构、定价方面，提高客单价和整体销售收入；3）以单客产值拉动业绩增长的收入多频化，让一个客户多次、长期购买，它是研究如何增加客户的忠诚度、黏性的一种收入增长方式；4）在现有的产品服务基础上寻找新的收入来源，以拓宽收入的渠道。
+
 
 ### 有趣
 1. [Algorithms for Competitive Programming](https://cp-algorithms.com/graph/strongly-connected-components.html)
