@@ -91,6 +91,7 @@ tags:
 1. UTools/PowerToys：系统快捷系统一些小应用
 1. bandicam：录屏软件
 1. [共享白板](https://www.ourboard.io/)
+1. 软媒魔方
 
 ### CS
 1. [将任何网页转为RSS](http://fetchrss.com/)
