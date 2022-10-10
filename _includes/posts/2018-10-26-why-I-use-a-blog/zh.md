@@ -177,11 +177,39 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 #### 字体渲染
 之后又考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
 
-#### SSL证书设置
+#### 自定义域名
+###### 无SSL证书（HTTP）
+自定义域名包括以下几步：
+1. 注册域名，可使用[freenom](https://my.freenom.com/)申请免费域名，但注意及时更新。
+2. 在github的根目录下创建文本文件“CNAME”，内容为域名地址，如“chefxilock.cf”
+3. 在freenom里配置DNS，"My Domains" --> "Manage Domain" --> "Manage Freenom DNS" --> 添加1个CNAME记录（github.io域名）和1个A记录（ping你的github.io域名后得到的IP）
+4. 保存后等待生效。
 
-为了打开HTTPS的安全访问，玺洛克用[CloudFlare](https://dash.cloudflare.com)设定了DNS加速和SSL证书，证书设置可参考[yucicheung](https://blog.csdn.net/yucicheung/article/details/79560027)或者[xietao3](https://www.jianshu.com/p/eb1bcc3da8d6)的博客。
+注：
+1. Freenom用新的谷歌帐号登陆时，可能会提示“Your social login could not be deturemined”，无法确定您的社交登录名。这时先不登陆，先搜索一个带后缀的域名（如chefxilock.cf，切记腰带后缀cf）。然后提交订单的时候，左下角会有一个“Verify My Email Address”，然后输入邮箱帐号登陆，并在收到的邮件中填写信息（信息用“u.s. fake address”生成，直接google搜索就能找到很多生成“u.s. fake address”的网站），然后继续完成下单，则可顺利拿下域名。
+1. Freenom下单后提示“Some of your domains could not be registered because of a technical error. These domains have been cancelled”，则用“u.s. fake address”重新生成信息并填写一下，则可解决。
+1. google帐号要经常登陆，要不就会因为不识别身份而登陆不上。
 
-记得在SSL里打开**Always Use HTTPS**。
+参考资料：[github怎么绑定自己的域名](https://www.zhihu.com/question/31377141)
+
+###### SSL证书设置（HTTPS）
+在上述HTTP基础上，可通过SSL证书设置增加安全性，变成HTTPS。有多种方式，这里列举Xilock测试过的两种：  
+第一种是xilock最开始用的，为了打开HTTPS的安全访问，玺洛克用[CloudFlare](https://dash.cloudflare.com)设定了DNS加速和SSL证书。
+1. 打开CloudFlare之后，根据指引点击Add Site，添加自定义域名（如chefxilock.cf），会自动开始扫描DNS解析记录。
+2. 扫描完成后，Cloudflare会选择给我们分配两个NS地址，将这两个地址添加到"My Domains" --> "Manage Domain" --> "Management Tools" --> "Nameservers"里的Nameserver1和Nameserver2
+3. 记得在CloudFlare的SSL里打开**Always Use HTTPS**，但不要选Full，选Flexible，否则连接时可能出现“使用了不受支持的协议”。
+
+参考资料：
+1. [yucicheung](https://blog.csdn.net/yucicheung/article/details/79560027)
+1. [xietao3](https://www.jianshu.com/p/eb1bcc3da8d6)的博客
+1. [解决 Cloudflare 代理 HTTPS 出错](https://ews.ink/tech/network-cloudflare-ssl/)
+
+第二种使用[DNSPOD](https://console.dnspod.cn/dns/list)
+1. DNS解析 --> 我的域名 --> 添加域名chefxilock.cf。
+2. 添加2个CNAME记录（@ github.io域名和www github.io域名）。
+3. 在freenom里添加两个Namerserver：phecda.dnspod.net和hospital.dnspod.net
+4. 在SSL里申请签发。
+5. SSL签发下来以后，登陆网页可能还是没有https和小绿锁，此时去github的相应项目里找Settings，然后在Pages里找到“Custom domain --> Enforece HTTPS”，此时可能显示“Unavailable for your site because your domain is not properly configured to support HTTPS (chefxilock.cf) — Troubleshooting custom domains ”，且上方为棕色的“DNS Check in Progress”。将chefxilock.cf改为www.chefxilock.cf后保存，此时变为绿色对勾的“DNS check successful”，然后下方的“Enforce HTTPS”也可勾选了，勾选上再测试下，网站应该就是HTTPS的了。
 
 #### 添加搜索框
 使用[这个包](https://github.com/androiddevelop/jekyll-search)可以对文章标题、时间、标签进行搜索。
