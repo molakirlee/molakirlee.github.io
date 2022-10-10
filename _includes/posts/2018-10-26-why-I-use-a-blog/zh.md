@@ -180,9 +180,9 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 #### 自定义域名
 ###### 无SSL证书（HTTP）
 自定义域名包括以下几步：
-1. 注册域名，可使用[freenom](https://my.freenom.com/)申请免费域名，但注意及时更新。
+1. 注册域名，可使用[Freenom](https://my.freenom.com/)申请免费域名，但注意及时更新。
 2. 在github的根目录下创建文本文件“CNAME”，内容为域名地址，如“chefxilock.cf”
-3. 在freenom里配置DNS，"My Domains" --> "Manage Domain" --> "Manage Freenom DNS" --> 添加1个CNAME记录（github.io域名）和1个A记录（ping你的github.io域名后得到的IP）
+3. 在Freenom里配置DNS，"My Domains" --> "Manage Domain" --> "Manage Freenom DNS" --> 添加1个CNAME记录（github.io域名）和1个A记录（ping你的github.io域名后得到的IP）
 4. 保存后等待生效。
 
 注：
@@ -209,7 +209,7 @@ fetch = +refs/heads/*:refs/remotes/origin/*
 2. 添加2个CNAME记录（@ github.io域名和www github.io域名）。
 3. 在freenom里添加两个Namerserver：phecda.dnspod.net和hospital.dnspod.net
 4. 在SSL里申请签发。
-5. SSL签发下来以后，登陆网页可能还是没有https和小绿锁，此时去github的相应项目里找Settings，然后在Pages里找到“Custom domain --> Enforece HTTPS”，此时可能显示“Unavailable for your site because your domain is not properly configured to support HTTPS (chefxilock.cf) — Troubleshooting custom domains ”，且上方为棕色的“DNS Check in Progress”。将chefxilock.cf改为www.chefxilock.cf后保存，此时变为绿色对勾的“DNS check successful”，然后下方的“Enforce HTTPS”也可勾选了，勾选上再测试下，网站应该就是HTTPS的了。
+5. SSL签发下来以后，登陆网页可能还是没有https和小绿锁，此时去github的相应项目里找Settings，然后在Pages里找到“Custom domain --> Enforece HTTPS”，此时可能显示“Unavailable for your site because your domain is not properly configured to support HTTPS (chefxilock.cf) — Troubleshooting custom domains ”，且上方为棕色的“DNS Check in Progress”。将chefxilock.cf改为www.chefxilock.cf后保存（建议直接在CNAME文件里改，要不还得重新pull），此时变为绿色对勾的“DNS check successful”，然后下方的“Enforce HTTPS”也可勾选了，勾选上再测试下，网站应该就是HTTPS的了。
 
 #### 添加搜索框
 使用[这个包](https://github.com/androiddevelop/jekyll-search)可以对文章标题、时间、标签进行搜索。
