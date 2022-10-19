@@ -124,6 +124,7 @@ tags:
 
 ### 书库
 1. [开源书籍](https://love2.io/)
+1. [识典古籍](https://www.shidianguji.com/)
 1. [中华古籍资源库](http://www.nlc.cn/pcab/zy/zhgj_zyk/)
 1. [书格:古籍图书馆](https://new.shuge.org/)
 1. [世界数字图书馆](https://www.wdl.org/zh/)

@@ -1,0 +1,35 @@
+---
+layout:     post
+title:      "2022-每周补脑13th"
+subtitle:   ""
+date:       2022-10-16 09:30:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2022
+
+
+---
+
+### 科研
+
+### 言论
+1. 宏观的眼界，数字化逻辑化的思考。 -- Xilock
+1. 融化在血液中，变成素养。 -- Xilock
+
+### 观点
+1. [Mimetic traps](https://www.briantimar.com/notes/mimetic/mimetic/)
+1. [Did the Teacup Hinder Chinese Scientific Progress?](https://erikexamines.substack.com/p/did-the-teacup-hinder-chinese-scientific)
+
+### 有趣
+1. [马斯克的聊天记录](https://danluu.com/elon-twitter-texts/)
+1. [AI播客](https://podcast.ai/)
+
+### 荐书
+
+### 杂谈
+
+![](/img/wc-tail.GIF)
