@@ -19,6 +19,8 @@ tags:
 ### 言论
 1. 宏观的眼界，数字化逻辑化的思考。 -- Xilock
 1. 融化在血液中，变成素养。 -- Xilock
+1. 招聘时，最重要的不是招到优秀的工程师，而是避免招到糟糕的工程师。 -- [High performance individuals and teams](https://pablasso.com/high-performance-individuals-and-teams/)
+1. 不同的面试官有不同的方法，有一种方法是让应聘者"分享自己的代码"，应聘者选择一段他的项目代码，展示给面试官。后者会针对性地问一些问题，例如为什么这么写、有没有其他实现方法、哪些部分你觉得写得好，哪些写得不好等等。但这种方式非常糟糕，首先，一些优秀的应聘者可能没有项目代码可以分享；其次，面试官需要能够理解应聘者的代码，这意味着，你只能雇佣到跟你有类似技能、做过类似项目的人；再次，这种方式非常主观，容易受到各种偏见的影响；最后，这种方法遗漏了工作的其他许多重要方面。更好的面试方法，应该是反过来的。面试官拿出一段代码，让应聘者点评这段代码。 -- Frank
 
 ### 观点
 1. [Mimetic traps](https://www.briantimar.com/notes/mimetic/mimetic/)
@@ -27,6 +29,9 @@ tags:
 ### 有趣
 1. [马斯克的聊天记录](https://danluu.com/elon-twitter-texts/)
 1. [AI播客](https://podcast.ai/)
+1. [The top 10 tips to write clean code](https://technologywolf.net/the-top-10-tips-to-write-clean-code/)
+1. [Biden declares economic war on the Chinese semiconductor industry](https://noahpinion.substack.com/p/biden-declares-economic-war-on-the)
+1. [XX岁转码来得及嘛？](https://www.1point3acres.com/bbs/thread-918311-1-1.html)
 
 ### 荐书
 

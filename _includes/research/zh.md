@@ -12,6 +12,8 @@
 1. [Gizmodo](https://gizmodo.com/)
 1. [Medium: Explore new perspectives](https://medium.com/)
 1. [机器之心](https://www.jiqizhixin.com/industry)
+1. [新浪专栏 创世纪](https://tech.sina.com.cn/chuangshiji/)
+
 
 ###### 其他社交媒体
 1. [Buzzing](https://www.buzzing.cc/)
