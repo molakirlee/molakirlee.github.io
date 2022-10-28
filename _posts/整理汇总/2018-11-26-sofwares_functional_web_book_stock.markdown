@@ -153,6 +153,7 @@ tags:
 1. [橡皮擦：图片局部擦除](https://www.magiceraser.io)
 1. [Bgsub抠图](https://bgsub.cn/)
 1. [AI图像生成：Dall e2](https://openai.com/dall-e-2/)
+1. [AI图像生成：DreamStudio](https://beta.dreamstudio.ai/dream)
 1. [图片扫描：onlinecamscanner](https://onlinecamscanner.com/zh-Hans/)
 1. [去除图片中物体](https://cleanupphotos.com/)
 
