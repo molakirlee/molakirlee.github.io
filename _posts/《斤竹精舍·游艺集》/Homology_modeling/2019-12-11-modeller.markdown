@@ -9,13 +9,22 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
+    - Homology modeling
     - 2019
 
 ---
 
 ### 不同同源建模平台
-1. Swiss-Model没办法补上端基缺失的氨基酸
-1. I-TASSER服务器：从头建模的，不能做太长的蛋白建模，只能分段完成，分段的话需要把几段拼一起，很麻烦。
+1. CPH-Model v3.0 (DTU Health Tech,Department of Health Technology, Lyngby, Denmark), 
+1. Phyre-2(Structural Bioinformatics Group, Imperial College, London, England),
+1. [Swiss-Model](https://swissmodel.expasy.org/) (Protein Structure Bioinformatics Group, University ofBasel Klingelbergstrasse, Basel, Switzerland)：没办法补缺失的氨基酸
+1. [I-TASSER服务器(Zhang服务器)](https://seq2fun.dcmb.med.umich.edu//I-TASSER/)：从头建模的，不能做太长的蛋白建模，只能分段完成，分段的话需要把几段拼一起，很麻烦。
+1. Modeller v9.2(University of California, San Francisco, CA, USA). 
+
+结构验证：
+1. PROCHECK
+1. ERRAT
+1. VERIFY 3D programs (http://servicesn.mbi.ucla.edu/; University of California, San Francisco, CA, USA).
 
 ### 安装
 [Modeller官网](https://salilab.org/modeller/10.3/release.html#anaconda)或[Anaconda网站](https://anaconda.org/salilab/modeller)上有详细的安装说明，Xilock还是习惯用anaconda，进conda环境后，输入以下两行命令就行了：
@@ -73,7 +82,7 @@ custom_channels:
 1. [小康学习 Modeller文档学习笔记](https://kangsgo.cn/p/modeller%E6%96%87%E6%A1%A3%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/)
 
 ### 旧参考资料：
-1. [https://zhuanlan.zhihu.com/p/32600515](https://zhuanlan.zhihu.com/p/32600515)
+1. [一文了解如何利用同源建模预测蛋白质三级结构](https://zhuanlan.zhihu.com/p/32600515)
 1. [利用Modeller构建未知序列三维结构(利用cryo-EM map)的详细流程](http://www.voidcn.com/article/p-hqxzmafj-bkr.html)
 1. [同源建模方法整理](https://zhuanlan.zhihu.com/p/45041082)
 1. [同源建模详细讲解-整理版](https://wenku.baidu.com/view/8c836b34915f804d2b16c158.html)
