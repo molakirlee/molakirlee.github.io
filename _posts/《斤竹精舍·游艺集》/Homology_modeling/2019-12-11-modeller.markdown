@@ -1,0 +1,84 @@
+---
+layout:     post
+title:      "同源建模 Modeller"
+subtitle:   ""
+date:       2019-12-11 08:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2019
+
+---
+
+### 不同同源建模平台
+1. Swiss-Model没办法补上端基缺失的氨基酸
+1. I-TASSER服务器：从头建模的，不能做太长的蛋白建模，只能分段完成，分段的话需要把几段拼一起，很麻烦。
+
+### 安装
+[Modeller官网](https://salilab.org/modeller/10.3/release.html#anaconda)或[Anaconda网站](https://anaconda.org/salilab/modeller)上有详细的安装说明，Xilock还是习惯用anaconda，进conda环境后，输入以下两行命令就行了：
+
+```
+conda config --add channels salilab
+export KEY_MODELLER=MODELIRANJE
+conda install modeller
+```
+或
+```
+conda config --add channels salilab
+set KEY_MODELLER=MODELIRANJE
+conda install modeller
+```
+
+注：MODELIRANJE为通用的学术key，公司不可用，可以自己去[Modeller官网](https://salilab.org/modeller/registration.html)注册  
+
+或：  
+Authentication Prerequisites:`anaconda login`  
+To install this package run one of the following: `conda install -c salilab modeller`
+
+有时候会下载的很慢或者报错：“An HTTP error occurred when trying to retrieve this URL. HTTP errors are often intermittent......”、“PackagesNotFoundError: The following packages are not available from current channels: - modeller”等，可能是源的问题，就是默认下载东西的链接是国外的镜像，存在一些问题，因此将源改成国内的镜像即可（清华或者中科大），不会或者嫌麻烦的话，直接把下面这段代码替换到“C:\Users\Xilock\.condarc”里：
+```
+channels:
+  - salilab
+  - defaults
+show_channel_urls: true
+default_channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+custom_channels:
+  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+```
+
+如果安装时没设置License，那么安装完后设置下License，“set KEY_MODELLER=MODELIRANJE”，或在“C:/Users/Xilock/.conda/envs/py36env\Library\modeller/modlib/modeller/config.py”里把`license = r'XXX' `改为`license = r'MODELIRANJE' `
+
+### 测试
+可以在[Modeller官网](https://salilab.org/modeller/tutorial/basic-example.zip)下载算例，然后测试：
+1. 创建新文件夹，把序列文件“TvLDH.ali”、模板文件“1bdm.pdb”、序列对比命令“align2d.py”、同源建模命令“model-single.py”复制进去，注意ali文件中序列的最后要加一个*。
+2. 序列对比，运行`python align2d.py`得到序列比对文件PIR ("TvLDH-1bdmA.ali") and PAP ("TvLDH-1bdmA.pap")。
+3. 同源建模：运行`python model-single.py`，生成5个models。
+
+### 参考资料
+1. [Modeller同源或比较建模安装及使用操作教程](https://zhuanlan.zhihu.com/p/474560886)
+1. [解决：An HTTP error occurred when trying to retrieve this URL. HTTP errors are often intermittent......](https://blog.csdn.net/gyyu32g/article/details/104611322)
+1. [小康学习 Modeller文档学习笔记](https://kangsgo.cn/p/modeller%E6%96%87%E6%A1%A3%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/)
+
+### 旧参考资料：
+1. [https://zhuanlan.zhihu.com/p/32600515](https://zhuanlan.zhihu.com/p/32600515)
+1. [利用Modeller构建未知序列三维结构(利用cryo-EM map)的详细流程](http://www.voidcn.com/article/p-hqxzmafj-bkr.html)
+1. [同源建模方法整理](https://zhuanlan.zhihu.com/p/45041082)
+1. [同源建模详细讲解-整理版](https://wenku.baidu.com/view/8c836b34915f804d2b16c158.html)
+1. [DS同源建模讲义](https://wenku.baidu.com/view/32fdae53daef5ef7ba0d3cca.html)
+1. [同源建模工具easymodeller4.0 操作说明](https://wenku.baidu.com/view/2d00e4220b1c59eef8c7b46b.html)
+1. [Easymodeller 4.0: a new gui to modeller](/attachment/EasyModeller4.0_A_new_gui_to_MODELLER.pdf)，或[链接1](http://modellergui.blogspot.com/)、[链接2](http://modellergui.blogspot.com/2012/07/easymodeller-40-new-gui-to-modeller.html)
+
+![](/img/wc-tail.GIF)
