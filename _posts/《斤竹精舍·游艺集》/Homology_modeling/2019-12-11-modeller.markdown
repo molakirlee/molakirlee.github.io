@@ -17,14 +17,11 @@ tags:
 ### 不同同源建模平台
 1. CPH-Model v3.0 (DTU Health Tech,Department of Health Technology, Lyngby, Denmark), 
 1. Phyre-2(Structural Bioinformatics Group, Imperial College, London, England),
-1. [Swiss-Model](https://swissmodel.expasy.org/) (Protein Structure Bioinformatics Group, University ofBasel Klingelbergstrasse, Basel, Switzerland)：没办法补缺失的氨基酸
+1. [Swiss-Model](https://swissmodel.expasy.org/) (Protein Structure Bioinformatics Group, University ofBasel Klingelbergstrasse, Basel, Switzerland)：没办法补缺失的氨基酸。教程可参考[SWISS-MODEL同源建模快速入门](https://liucheng.name/651/)
 1. [I-TASSER服务器(Zhang服务器)](https://seq2fun.dcmb.med.umich.edu//I-TASSER/)：从头建模的，不能做太长的蛋白建模，只能分段完成，分段的话需要把几段拼一起，很麻烦。
-1. Modeller v9.2(University of California, San Francisco, CA, USA). 
-
-结构验证：
-1. PROCHECK
-1. ERRAT
-1. VERIFY 3D programs (http://servicesn.mbi.ucla.edu/; University of California, San Francisco, CA, USA).
+1. [Modeller](https://salilab.org/modeller/)：Sali lab开发，可以进行多聚体建模，二硫键建模，杂原子建模等。自带一套结构评价体系。该工具完全通过命令行控制(University of California, San Francisco, CA, USA). 
+1. Yasara：一款商业化的多功能软件，内部包括同源建模模块.
+1. nest：由美国Columbia University 的Barry Honig教授及其同事开发，能够在SGI and Intel Linux平台下运行.
 
 ### 安装
 [Modeller官网](https://salilab.org/modeller/10.3/release.html#anaconda)或[Anaconda网站](https://anaconda.org/salilab/modeller)上有详细的安装说明，Xilock还是习惯用anaconda，进conda环境后，输入以下两行命令就行了：
@@ -75,6 +72,11 @@ custom_channels:
 1. 创建新文件夹，把序列文件“TvLDH.ali”、模板文件“1bdm.pdb”、序列对比命令“align2d.py”、同源建模命令“model-single.py”复制进去，注意ali文件中序列的最后要加一个*。
 2. 序列对比，运行`python align2d.py`得到序列比对文件PIR ("TvLDH-1bdmA.ali") and PAP ("TvLDH-1bdmA.pap")。
 3. 同源建模：运行`python model-single.py`，生成5个models。
+
+### 结构验证
+1. [UCLA-DOE的SAVES服务器(http://servicesn.mbi.ucla.edu/):包括PROCHECK、WHAT_CHECK、ERRAT、VERIFY_3D、PROVE、CRYST1 record matches、Ramachandran Plot、WedMol Viewer。这些软件可以分为两类：一类是检查结构的立体化学信息，比如PROCHECK。立体化学信息包括键长，键角，对称性，结构包埋率等等。另一类是检查序列与结构的匹配度，比如VERIFY 3D。
+
+以拉式图分析为例。拉氏图分为四个区域: most favoured (red), additional allowed (yellow), generously allowed (light yellow) 以及disallowed (white)，红色表示的是最合适的区域，白色表示最不适合的区域。一个高质量的蛋白质结构的分辨率通常小于2 Å， R-factor小于20%。统计分析118个这样的蛋白质结构表明，对于一个高质量的模型结构来说，其90%的ϕ and ψ 值都应该在红色的区域内.
 
 ### 参考资料
 1. [Modeller同源或比较建模安装及使用操作教程](https://zhuanlan.zhihu.com/p/474560886)
