@@ -57,10 +57,10 @@ tags:
 1. 缺陷导致的配位数下降问题：缺陷晶体d轨道受晶体周期性势场调制减小，有恢复原子轨道趋势；同时d带电子数没有改变，只能通过d带中心上浮，将更多d轨道推出Fermi面以维持d带DOS积分值，故缺陷相当于d带中心上浮，产生了强吸附。
 
 ### 参考资料
+1. [能带结构图、态密度图的基本分析方法](https://mp.weixin.qq.com/s/VoDBASzV4-J706pZJZv2Ww)
 1. [能带-态密度图分析:能带结构和态密度图的绘制及初步分析](https://wenku.baidu.com/view/4aba65b70342a8956bec0975f46527d3240ca6b7.html?re=view)
 1. [学术干货丨能带结构和态密度图的绘制及初步分析(基于MS)](http://www.cailiaoniu.com/51344.html)
 1. [理论计算干货：态密度](https://www.scimall.org.cn/article/detail?id=555575)
-1. [能带结构图、态密度图的基本分析方法](https://zhuanlan.zhihu.com/p/26801715)
 1. [D-band model / d带中心理论](http://li-kezhi.site/blog/archives/33)
 1. [导带、价带、禁带、允带都是什么逻辑关系？](https://www.zhihu.com/question/31683770)
 

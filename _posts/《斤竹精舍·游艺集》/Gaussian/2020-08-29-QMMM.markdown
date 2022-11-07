@@ -14,8 +14,18 @@ tags:
 
 ---
 
+### 软件选择
 sob老师说做QM/MM效率最高的是：amber+Gaussian、NAMD+ORCA
 1. [MM and QM/MM setup for a metalloprotein using GROMACS,  Chemshell and ORCA](https://sites.google.com/site/ragnarbjornsson/mm-and-qm-mm-setup)
 
+### 说明
+QM/MM是对原子间相互作用描述的一种方式，MD是具体的模拟任务类型，完全不是一个层面的东西。要知道QM/MM是什么、MD是什么。
+1. 计算能量的方法：QM、MM、QM/MM...
+1. 任务类型：单点、几何优化、振动分析、MD、MC...
+
+以上两类问题是独立的，可以随意组合。ONIOM是一种广义的能将不同级别方法描述体系不同区域的计算形式，可以通过ONIOM来等效实现QM/MM的目的，这确切来说叫做ONIOM(QM:MM)，这和QM/MM的常规实现方式不同。
+
+参考资料：
+1. [A. Introduction to Molecular Mechanics and Molecular Dynamics](https://chem.libretexts.org/Courses/CSU_Chico/CSU_Chico%3A_CHEM_451_-_Biochemistry_I/CHEM_451_Test/03%3A_Lipid_Structure/3.3%3A_Dynamics_of_Membrane_Lipids/Molecular_Mechanics_and_Dynamics/A._Introduction_to_Molecular_Mechanics_and_Molecular_Dynamics)
 
 ![](/img/wc-tail.GIF)

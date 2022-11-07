@@ -156,6 +156,7 @@ tags:
 1. [AI图像生成：DreamStudio](https://beta.dreamstudio.ai/dream)
 1. [图片扫描：onlinecamscanner](https://onlinecamscanner.com/zh-Hans/)
 1. [去除图片中物体](https://cleanupphotos.com/)
+1. 黑白图片上色：[Palette](https://palette.fm/)、[DeOldify](https://github.com/jantic/DeOldify)
 
 ### 音频视频
 1. 飞熊影视

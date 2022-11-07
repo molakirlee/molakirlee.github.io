@@ -21,10 +21,16 @@ tags:
 1. 融化在血液中，变成素养。 -- Xilock
 1. 招聘时，最重要的不是招到优秀的工程师，而是避免招到糟糕的工程师。 -- [High performance individuals and teams](https://pablasso.com/high-performance-individuals-and-teams/)
 1. 不同的面试官有不同的方法，有一种方法是让应聘者"分享自己的代码"，应聘者选择一段他的项目代码，展示给面试官。后者会针对性地问一些问题，例如为什么这么写、有没有其他实现方法、哪些部分你觉得写得好，哪些写得不好等等。但这种方式非常糟糕，首先，一些优秀的应聘者可能没有项目代码可以分享；其次，面试官需要能够理解应聘者的代码，这意味着，你只能雇佣到跟你有类似技能、做过类似项目的人；再次，这种方式非常主观，容易受到各种偏见的影响；最后，这种方法遗漏了工作的其他许多重要方面。更好的面试方法，应该是反过来的。面试官拿出一段代码，让应聘者点评这段代码。 -- Frank
+1. 一件事情的直接后果，称为一阶结果；直接后果引发的其他后果，称为二阶结果。如果一个人可以预见到直接结果，他就具有一阶思维。真正的聪明人拥有二阶思维，甚至三阶思维。 -- [Second-Order Thinking: What Smart People Use to Outperform](https://fs.blog/second-order-thinking/)
+1. 先帝筚路蓝缕，得此一隅，未敢幸安，常有未雨绸缪之警。 -- 秦惠文王嬴驷
+1. 最好的人也许不投简历，就决定去哪里了。所以要在他们做决定前找到他们。比较差的会投很多次简历，找不到工作的时间越多，投的简历越多，给整个pool 带来很多噪音，top10%的简历也许根本不算全部人的top10%。  -- [怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
+1. 书单+GitHub，就相当于一个两年左右的面试。没有什么面试比持续两年的面试更具有信息量。书单，加上项目，已经基本上覆盖了所需的全部技能。最妙的是，有太多的人在焦急的等待着他们未来的雇主给出明确的信号，他们想投入精力，去学习和实践，去成为企业需要的人，但是他们就是不知道往什么方向走，所谓有动力没方向。所以，雇主给出了清晰明确的要求，相信对于很多人来说反倒是一个解脱：“终于知道该干什么了”。《编程之美》为什么常居畅销榜？因为它透露了雇主眼中的需求，明确、清晰的需求，可以实现，并且知道怎么去实现的需求。  -- [怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
 
 ### 观点
 1. [Mimetic traps](https://www.briantimar.com/notes/mimetic/mimetic/)
 1. [Did the Teacup Hinder Chinese Scientific Progress?](https://erikexamines.substack.com/p/did-the-teacup-hinder-chinese-scientific)
+1. [程序员如何把控自己的职业](https://coolshell.cn/articles/20977.html)
+1. [查理芒格的100个思维模型（完整版）](https://zhuanlan.zhihu.com/p/487300401)
 
 ### 有趣
 1. [马斯克的聊天记录](https://danluu.com/elon-twitter-texts/)
