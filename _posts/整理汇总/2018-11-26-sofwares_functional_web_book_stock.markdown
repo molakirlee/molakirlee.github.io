@@ -155,8 +155,9 @@ tags:
 1. [AI图像生成：Dall e2](https://openai.com/dall-e-2/)
 1. [AI图像生成：DreamStudio](https://beta.dreamstudio.ai/dream)
 1. [图片扫描：onlinecamscanner](https://onlinecamscanner.com/zh-Hans/)
-1. [去除图片中物体](https://cleanupphotos.com/)
+1. 去除图片中物体：[Cleanupphotos](https://cleanupphotos.com/)、[Lama Cleaner](https://github.com/Sanster/lama-cleaner)
 1. 黑白图片上色：[Palette](https://palette.fm/)、[DeOldify](https://github.com/jantic/DeOldify)
+1. 提高图片像素：[Upscayl](https://github.com/upscayl/upscayl)
 
 ### 音频视频
 1. 飞熊影视
