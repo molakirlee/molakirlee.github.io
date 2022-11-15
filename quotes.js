@@ -897,7 +897,7 @@ var quotes = [
 'People follow the brave, not the high.',
 'The struggle makes everything all the more worth it.',
 'The most exhausting thing in life is being insincere.',
-'What we call "failure" is not falling down, but the staying down.',
+'What we call \"failure\" is not falling down, but the staying down.',
 'To infinity and beyond! 飞向宇宙，浩瀚无垠!',
 'Pain is inevitable. Suffering is optional.',
 'Miracles happen every day.',
