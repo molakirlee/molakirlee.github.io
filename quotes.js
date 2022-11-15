@@ -876,7 +876,7 @@ var quotes = [
 'Keep what you say and carry out what you do.',
 'At the place we don\'t know, there is always some sadness we haven\'t seen.',
 'Whatever is going to happen will happen, whether we worry or not.',
-'It is not more vacation we need—it is more vocation!',
+'It is not more vacation we need -- it is more vocation!',
 'Everything in the past is a mirror of wisdom.',
 'The elderly is history and drama for reference of our lives.',
 'The best way to predict your future is to create it.',
