@@ -27,6 +27,7 @@ tags:
 1. 书单+GitHub，就相当于一个两年左右的面试。没有什么面试比持续两年的面试更具有信息量。书单，加上项目，已经基本上覆盖了所需的全部技能。最妙的是，有太多的人在焦急的等待着他们未来的雇主给出明确的信号，他们想投入精力，去学习和实践，去成为企业需要的人，但是他们就是不知道往什么方向走，所谓有动力没方向。所以，雇主给出了清晰明确的要求，相信对于很多人来说反倒是一个解脱：“终于知道该干什么了”。《编程之美》为什么常居畅销榜？因为它透露了雇主眼中的需求，明确、清晰的需求，可以实现，并且知道怎么去实现的需求。  -- [怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
 1. Every action you take is a vote for the type of person you wish to become. -- [Jeremy Eder's Blog](https://jeremyeder.com/2022/08/16/every-action-you-take-is-a-vote-for-the-type-of-person-you-wish-to-become/)
 1. 创业公司只有两种命运：快速移动和缓慢死亡。 -- [Move Fast or Die: Key Startup Lessons](https://blog.southparkcommons.com/move-fast-or-die/)
+1. 茫不安的时候想想自己追求的到底是什么！ -- [张鑫旭:2021年总结和2022年展望](https://www.zhangxinxu.com/life/2022/02/new-year/)
 
 ### 观点
 1. [Mimetic traps](https://www.briantimar.com/notes/mimetic/mimetic/)
@@ -35,6 +36,7 @@ tags:
 1. [查理芒格的100个思维模型（完整版）](https://zhuanlan.zhihu.com/p/487300401)
 1. [Why Does the U.S. Have the Best Research Universities? Incentives, Resources, and Virtuous Circles](https://www.nber.org/papers/w28279)
 1. [Common patterns in technical interviewing](https://bytepawn.com/common-patterns-in-technical-interviewing.html#common-patterns-in-technical-interviewing)
+1. [如何描述自己的工作？](https://www.zhangxinxu.com/life/2021/06/describe-work/)
 
 ### 有趣
 1. [马斯克的聊天记录](https://danluu.com/elon-twitter-texts/)
