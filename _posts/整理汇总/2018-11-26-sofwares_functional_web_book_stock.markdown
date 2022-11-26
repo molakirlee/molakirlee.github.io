@@ -20,6 +20,7 @@ tags:
 1. [完美导航](https://www.9eip.com/)
 1. [龙轩导航](http://ilxdh.com/)
 1. [锅盖头软件](https://www.ggtrj.com/)
+1. [INS](https://github.com/zhaoolee/ins)
 
 ### 中文
 1. [反向词典：词义-->单词](https://wantwords.net)
@@ -116,6 +117,9 @@ tags:
 1. FileLocator Pro 最大的问题是索引文件太占空间，比windows自带的索引大几倍；
 1. AnyText最大的问题，是后台更新索引（索引文件位置不能自定义，只在C盘）太频繁，是全部文件全文比对，而不是只检测有变化的文件，带来的问题：1）拖慢整机性能，2）过度消耗SSD寿命3）经常占用文件句柄，编辑或清理时时有撞车;
 
+###### 设计
+1. [可画canva](https://www.canva.cn/)
+
 ###### 其他
 1. [分析工具：决策树等](http://www.ruanyifeng.com/blog/2020/06/weekly-issue-110.html)
 1. 图片数据读取：getdata graph digitizer 破解版。教程参见:[Getdata Dragh Digitizer完整详解版教程](https://wenku.baidu.com/view/616d1fbc02d276a200292e9e.html)
@@ -152,6 +156,7 @@ tags:
 1. [老照片修复](https://hotpot.ai/restore-picture)
 1. [橡皮擦：图片局部擦除](https://www.magiceraser.io)
 1. [Bgsub抠图](https://bgsub.cn/)
+1. [AI图像生成：Stable Diffusion](https://github.com/CompVis/stable-diffusion)及其生成过的图片搜索[lexica](https://lexica.art/)
 1. [AI图像生成：Dall e2](https://openai.com/dall-e-2/)
 1. [AI图像生成：DreamStudio](https://beta.dreamstudio.ai/dream)
 1. [图片扫描：onlinecamscanner](https://onlinecamscanner.com/zh-Hans/)

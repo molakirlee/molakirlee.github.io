@@ -1,0 +1,34 @@
+---
+layout:     post
+title:      "2022-每周补脑14th"
+subtitle:   ""
+date:       2022-11-26 09:30:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2022
+
+
+---
+
+### 科研
+
+### 言论
+1. 初级工程师关心编写软件。他们重视代码质量，采用最佳实践，投入大量时间学习新技术，最终目标是创建优雅、高性能、可维护的软件。高级工程师关心构建系统。对他们来说，创建软件只是一个步骤。他们首先质疑是否需要构建软件，询问它会解决什么问题，以及为什么解决这些问题很重要，然后询问谁将使用该软件和使用规模，并且考虑软件将在哪里运行以及如何监控，还决定如何衡量软件是否真正解决了它应该解决的问题。 -- [What Makes a Senior Engineer? Writing Software vs Building Systems](https://codewithstyle.info/software-vs-systems/)
+1. 如果你要说服其他人向你的项目投资，你应该先说服自己，为什么你愿意把时间和金钱投入这个项目，然后向其他人解释这一点，他们就会相信你。 -- [保罗·格拉汉姆](http://www.paulgraham.com/convince.html)
+1. 欧洲之所以在近代领先了，主要原因是内部竞争。无数的诸侯（其实是盗窃集团）互相掠夺，激烈竞争。无能的统治者会被淘汰，小国被吞并。 如果一个统治者对一项发明不感兴趣，发明者就会收拾行装，去游说下一个诸侯，直到遇到对新事物感兴趣的人。这样激烈的竞争和互相的战争，摧毁了根深蒂固的既得利益者和保守的统治集团，推动了发明，为新事物的出现创造了条件。 -- [Hacker News](https://news.ycombinator.com/item?id=32710831)
+1. 我做了几十年编码，我的职业生涯都被[敏捷开发](https://baike.baidu.com/item/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91/5618867)破坏了。没错，你始终是机器的一个齿轮，但敏捷开发让你每时每刻都感觉到这一点。 -- [Hacker News](https://news.ycombinator.com/item?id=32710832)
+1. 坚持写日记与自己对话、反思，会如同向别人倾诉一样，重新整理你的思绪，产生新的思考。 -- Xilock
+### 观点
+
+### 有趣
+1. [朝天开枪也会伤人THE REALITY OF CELEBRATORY GUNFIRE](https://www.1point21interactive.com/celebratory-gunfire/)
+
+### 荐书
+
+### 杂谈
+
+![](/img/wc-tail.GIF)
