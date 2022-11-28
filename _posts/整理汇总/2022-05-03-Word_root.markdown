@@ -576,7 +576,7 @@ tags:
 1. pan <bread>: company(companion) accompany
 1. par(tur) <bring,forth>: parent parturient biparous viper repertory
 1. par <equal>: parallel(unparalleled) apparatus(apparat) paralysis comparrable disparage
-1. para <beside>: parry parados paradise parachute
+1. para <beside>: parry parados paradise parachute parasite
 1. par(l) <speak>: parlor parley parliament
 1. part <part,divide>: apart particular particulate impart counterpart
 1. pass/pat <suffer,引申为感情 >: passion(passionate) compassion
@@ -746,7 +746,7 @@ tags:
 1. sent: 感觉 sentient sentiment consent resent
 1. sept: 腐烂的 antiseptic
 1. sequ/secut: 跟随 subsequent prosecute
-1. sert: 放置，安排 assert insert dissert
+1. sert: 放置，安排 assert(assertive) insert dissert
 1. serv: 保持 observe preserve conserve(conservation)
 1. serv: 服务 subserve deserve disserve sergeant
 1. set: 布置 setting upset
