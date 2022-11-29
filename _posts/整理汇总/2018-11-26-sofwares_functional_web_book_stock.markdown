@@ -104,6 +104,10 @@ tags:
 1. [天若ORC(胡萝卜周)](https://carrot.ctfile.com/fs/11269771-331359271)
 1. [基于python:EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
+###### 语音转文字
+1. [飞书妙记](https://www.feishu.cn/product/minutes)
+1. [Buzz](https://github.com/chidiwilliams/buzz)
+
 ###### 屏幕截图
 1. [屏幕截图软件](https://github.com/flameshot-org/flameshot)
 ###### 远程控制
@@ -154,12 +158,9 @@ tags:
 1. [图片压缩](https://www.butterpig.top/compress)
 1. [泼辣修图](https://www.polaxiong.com/web/)
 1. [老照片修复](https://hotpot.ai/restore-picture)
-1. [橡皮擦：图片局部擦除](https://www.magiceraser.io)
 1. [Bgsub抠图](https://bgsub.cn/)
-1. [AI图像生成：Stable Diffusion](https://github.com/CompVis/stable-diffusion)及其生成过的图片搜索[lexica](https://lexica.art/)
-1. [AI图像生成：Dall e2](https://openai.com/dall-e-2/)
-1. [AI图像生成：DreamStudio](https://beta.dreamstudio.ai/dream)
-1. [图片扫描：onlinecamscanner](https://onlinecamscanner.com/zh-Hans/)
+1. AI图像生成：[Stable Diffusion](https://github.com/CompVis/stable-diffusion)及其生成过的图片搜索[lexica](https://lexica.art/)、[Dall e2](https://openai.com/dall-e-2/)、[DreamStudio](https://beta.dreamstudio.ai/dream)
+1. [图片扫描成文档：online camscanner](https://onlinecamscanner.com/zh-Hans/)
 1. 去除图片中物体：[Cleanupphotos](https://cleanupphotos.com/)、[Lama Cleaner](https://github.com/Sanster/lama-cleaner)
 1. 黑白图片上色：[Palette](https://palette.fm/)、[DeOldify](https://github.com/jantic/DeOldify)
 1. 提高图片像素：[Upscayl](https://github.com/upscayl/upscayl)
@@ -209,6 +210,7 @@ tags:
 
 ### 软件下载
 1. [化工导航](https://www.hg-dh.com/)
+1. [小众软件](https://meta.appinn.net/)
 
 ### 待整理
 1. [34款Windows软件中的神器：看片、安全杀毒、效率神器，它们最好用](https://mp.weixin.qq.com/s?__biz=MzU4Mjg3MDAyMQ==&mid=2247493139&idx=1&sn=e08171ebf30e749cf0c2ad0c2f8ea872&source=41#wechat_redirect)
