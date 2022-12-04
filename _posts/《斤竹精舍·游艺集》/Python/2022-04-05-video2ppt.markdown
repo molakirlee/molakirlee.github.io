@@ -54,7 +54,7 @@ pyinstaller -F XXX.spec
 此时再运行就可以了，虽然运行时会有Warning，但不影响。
 
 ### 参考资料
-1. [extract ppt from a video](https://github.com/wudududu/extract-video-ppt)
+1. [github:extract ppt from a video](https://github.com/wudududu/extract-video-ppt)
 1. [Python pyinstaller打包opencv程序出错](https://zhuanlan.zhihu.com/p/462208284)
 1. [打包matplotlib出现RuntimeError: Could not find the matplotlib data files](https://blog.csdn.net/Iv_zzy/article/details/107916741)
 

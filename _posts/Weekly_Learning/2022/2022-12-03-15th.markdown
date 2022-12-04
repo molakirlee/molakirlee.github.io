@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      "2022-每周补脑15th"
+subtitle:   ""
+date:       2022-12-03 09:30:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2022
+
+
+---
+
+### 科研
+
+
+### 言论
+
+
+### 观点
+###### [A Summary of My Learnings On How To Find Startup Ideas](https://liorn.substack.com/p/a-summary-of-my-learnings-on-how)
+There are some tip about "how to get startup ideas". Some of them are from Paul Graham’s blog.
+1. Build something you want i.e. solve your own problem
+1. The next best thing to an unmet need of your own is an unmet need of someone else.
+1. Live in the future, then build what's missing.
+1. Turn off your “unsexy problems” filter.
+1. Turn off your “schlep” filter i.e. your filter for tasks that are tedious or unpleasant.
+1. Ask yourself whether in your previous job you ever found yourself saying "Why doesn't someone make x? If someone made x we'd buy it in a second.”
+1. Go through every job you ever had:What are the unique skills you learned?What seemed broken?What did you develop in-house?
+1. Look for things that have changed in the world recently e.g. new technological changes, new regulations, new problems in the world.
+1. Brainstorm with friends.
+1. Unbundling larger platforms (example)
+1. Senior managers tend to be a good source of knowing what their problems are and what’s holding back their performance
+1. Trawl through the last YC Startup Directory list and figure out what might fit your particular favourite domain, with some modification
+1. Audience: Brainstorm personas you identify with or wish to help, then I look at market research to find the obstacles they face.
+
+### 有趣
+
+
+
+### 荐书
+
+
+### 杂谈
+
+![](/img/wc-tail.GIF)

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "ORCA 使用"
+title:      "ORCA 安装及入门"
 subtitle:   ""
 date:       2020-11-14 16:28:00
 author:     "XiLock"
@@ -14,9 +14,35 @@ tags:
 
 ---
 
-### 方法/机组
+### 官网及手册
+1. [ORCA Input Library](https://sites.google.com/site/orcainputlibrary/home)
+1. [Orca manual 4.2.1](https://www.afs.enea.it/software/orca/orca_manual_4_2_1.pdf)
+1. [Dr.Martin Brehm课题组的资料](https://brehm-research.de/orcamd.php)
+
+### 安装
+
+### 方法/基组
 1. opt和freq：B3LYP-D3(BJ)/6-31G**
 1. 单点：wB97M-V/def2-QZVP或PWPB95-D3(BJ)/def2-QZVP；对应高斯M06-2X/def2-TZVP
+
+###### [大体系计算](http://sobereva.com/214)
+Lu老师对大体系的计算过程推荐了8个级别，第1项是用MOPAC2012来做计算，2~6项用ORCA来做计算，列出的就是在ORCA中实际要写的关键词。对于7、8，用什么程序来做都可以，ORCA的CCSD(T)计算效率是很高的。
+
+1. >500个原子：PM6-D3H4结合MOZYME
+1. >300个原子：BLYP D3 GCP(DFT/SVP) def2-SVP def2-SVP/J    写keyword可以这么写：BLYP def2-SVP D3 gCP(DFT/SVP),在这里BLYP-D3(BJ)搭配def2-SVP基组,Grimme's gCP方法用于BSSE，RI-J自动调用来加速计算.
+1. >150个原子：BLYP D3 GCP(DFT/TZ) def2-TZVP def2-TZVP/J
+1. >60个原子：BLYP D3 def2-QZVPP(-g,-f) def2-QZVPP/J
+1. >40个原子：RI-PWPB95 D3 RIJCOSX def2-QZVPP(-g,-f) def2-QZVPP/J def2-QZVPP/C grid4 tightSCF（/J可改用/JK以减小密度拟合的误差）
+1. 二、三十个原子：RI-PWPB95 D3 RIJK def2-QZVPP def2-QZVPP/JK def2-QZVPP/C grid4 tightSCF
+1. 十几个原子：CCSD(T)/jul-cc-pVTZ或may-cc-pVQZ
+1. <10个原子：CCSD(T)/CBS （aug-cc-pVTZ->QZ外推。想更精确再加上counterpoise校正，耗时将增加近2倍）
+
+用上面这些计算方法计算相应尺度的体系，在目前主流的Intel 4核CPU的机子上，一般都是可以在几个小时内计算完毕的。这些计算方法的弱相互作用计算误差和对应的体系的尺寸是正相关的。体系越大，可以忍受的绝对误差当然也就越大。无论是上面所列的哪个计算级别，对相应尺度的体系来说弱相互作用精度都是足以令人满意的。
+
+如果计算能力较好，所用计算级别可以提高一两个档；反之，如果打算计算大批量体系（比如用于分子筛选的目的），或者用于初步估算结果，或者用于几何优化等，那么就可以把计算水准降低两、三个档。
+
+另外，Lu老师特别推荐使用PM7或PM6-DH+对几十个或更多原子数目的体系进行优化，虽然几十个原子的体系用DFT也照样能优化得动，但由于在半经验下优化速度极快，几乎不费时间就能得到较好的初始构型，再接着用DFT来优化可以让收敛快得多。
+
 
 ### 参考阅读
 1. [详谈Multiwfn产生ORCA量子化学程序的输入文件的功能](http://sobereva.com/490)
