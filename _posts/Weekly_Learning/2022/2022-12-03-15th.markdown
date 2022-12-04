@@ -32,7 +32,7 @@ There are some tip about "how to get startup ideas". Some of them are from Paul 
 1. Go through every job you ever had:What are the unique skills you learned?What seemed broken?What did you develop in-house?
 1. Look for things that have changed in the world recently e.g. new technological changes, new regulations, new problems in the world.
 1. Brainstorm with friends.
-1. Unbundling larger platforms (example)
+1. Unbundling larger platforms 
 1. Senior managers tend to be a good source of knowing what their problems are and what’s holding back their performance
 1. Trawl through the last YC Startup Directory list and figure out what might fit your particular favourite domain, with some modification
 1. Audience: Brainstorm personas you identify with or wish to help, then I look at market research to find the obstacles they face.
