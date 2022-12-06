@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "QMMM及大体系计算"
+title:      "QM/MM ONION AIMD"
 subtitle:   ""
 date:       2020-08-29 15:13:00
 author:     "XiLock"
@@ -9,17 +9,22 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
-    - QMMM
+    - QM/MM
     - 2020
 
 ---
 
 ### 软件选择
-sob老师说做QM/MM效率最高的是：amber+Gaussian、NAMD+ORCA
+sob老师说做QM/MM效率最高的是：amber+Gaussian、NAMD+ORCA.（amber+orca也可以，但还是过于昂贵2）
 1. [MM and QM/MM setup for a metalloprotein using GROMACS,  Chemshell and ORCA](https://sites.google.com/site/ragnarbjornsson/mm-and-qm-mm-setup)
 
 ### [Different flavors of QM/MM](https://github.com/huichenggong/Learning-Computation-with-Chenggong/tree/main/CC_news_009)
+
 ![](https://github.com/huichenggong/Learning-Computation-with-Chenggong/blob/main/CC_news_009/mindmap.png)
+
+### 耗时
+千万别小看了QM/MM MD。很可能折腾、计算了几个月，最后什么有用的也没得到。  
+做个很短的比如10ps，耗时都得是单点的好几万倍。而且为了得到有用的数据，往往得反复摸索设定，可能得跑好几十条轨迹，耗时更可想而知。
 
 ### 说明
 QM/MM是对原子间相互作用描述的一种方式，MD是具体的模拟任务类型，完全不是一个层面的东西。要知道QM/MM是什么、MD是什么。
@@ -47,7 +52,7 @@ sob认为，只要cluster构建得当，对于静态方式研究酶催化反应�
 1. [Github:bioexcel](https://github.com/bioexcel)
 
 ### ChemShell
-1. [ChemShell—a modular software package for QM/MM simulations](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1163)
+1. [ChemShell - a modular software package for QM/MM simulations](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1163)
 
 
 ### AIMD

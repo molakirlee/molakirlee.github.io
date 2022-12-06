@@ -445,3 +445,8 @@ git config --global --unset https.proxy
 ### 更新20220113
 1. [静态网站加入评论系统的方法](https://darekkay.com/blog/static-site-comments/)
 
+### 更新20221206
+今天`git push`的时候发现又总出现`OpenSSL SSL_connect: Connection was reset in connection to github.com:443`或`Failed to connect to github.com port 443 after 21065 ms: Timed out`，照着“更新20211017”的方法尝试，并参照[OpenSSL SSL_connect: Connection was reset in connection to github.com:443](https://blog.csdn.net/qq_37555071/article/details/114260533)的方法后也不行。灵光一闪，检查下SSH吧，结果去github的Setting里一查SSH key，发现之前的没有了，并不知道原因，但重新生成并添加后就好了。
+
+
+
