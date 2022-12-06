@@ -14,13 +14,42 @@ tags:
 
 ---
 
+**注：多数资料引用自Sob，为便于学习，整理至此**
+
 ### 软件选择
-sob老师说做QM/MM效率最高的是：amber+Gaussian、NAMD+ORCA.（amber+orca也可以，但还是过于昂贵2）
+###### 单一程序
+1. Gaussian：支持AMBER、UFF、Direiding力场，可以以ONION方式将QM与MM结合做优化、震动分析、IRC
+1. Amber：经典力场的分子动力学程序，基于自带SQM半经验程序可以做QM/MM的优化和动力学
+1. Q-Chem：支持AMBER、OPLS-AA、CHARMM力场，可直接做QM/MM和双层ONION的优化和动力学
+1. NWChem；支持AMBER、CHARMM力场，可直接做QM/MM的优化和动力学
+1. ADF：支持AMBER95、SYBYL力场，可以以ONION方式将QM与MM结合做优化
+1. CP2K：可直接做QM/MM的优化和动力学
+
+###### QM与MM程序组合
+QM与MM程序至少有一方给对方留出接口：
+1. Amber：Gaussian、ORCA、Q-Chem、TeraChem、ADF、GAMESS-US、NWChem
+1. GROMACS：MOPAC、ORCA、CPMD、Gaussian、GAMESS-UK，但接口都不理想
+1. Tinker：GAMESS-US、Molcas
+1. CHARMM：Q-Chem、DeMon2k
+1. NAMD：MOPAC、ORCA
+
+###### 通用接口程序
+1. ChemShell：收费程序，可将分子动力学程序与DL_POLY、GULP、GROMACS、CHARMM与量化程序GAMESS-UK、NWChem、Dalton、Turbomole、ORCA、Molpro、Gaussian、Dmol3、Q-Chem相连做优化、动力学等。参见[ChemShell - a modular software package for QM/MM simulations](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1163)
+1. Pupil(Program for User Package Interface and Linking)：基于JAVA，开源免费，可将动力学程序Amber、DL_POLY和量化程序Gaussian、deMon2k、NEChem、Siesta相连做QM/MM动力学
+1. QMERA：MS的模块，专用于链接Dmol3和GULP模块做QM/MM,底层实为Chemshell
+
+
+###### 推荐
+sob老师说做QM/MM效率最高的是：amber+Gaussian、NAMD+ORCA.（amber+orca也可以，但还是过于昂贵）
 1. [MM and QM/MM setup for a metalloprotein using GROMACS,  Chemshell and ORCA](https://sites.google.com/site/ragnarbjornsson/mm-and-qm-mm-setup)
 
 ### [Different flavors of QM/MM](https://github.com/huichenggong/Learning-Computation-with-Chenggong/tree/main/CC_news_009)
 
 ![DifQMMM](https://github.com/huichenggong/Learning-Computation-with-Chenggong/blob/main/CC_news_009/mindmap.png?raw=true)
+
+1. Mechanical embedding：QM和MM区域的原子只有成键项相互作用，或者再用点电荷模型考虑彼此间静电作用。是QM/MM最为简单的实现，比较主流。
+1. Electronic embedding：MM区域的电荷可以极化QM区域的电子，比Mechanical embedding精度高，比较主流。
+1. Polarizable embedding：QM区域的点何可以极化MM区域，此适必须用可极化力场才行。原理上精度最高，但目前较为少用。
 
 ### 耗时
 千万别小看了QM/MM MD。很可能折腾、计算了几个月，最后什么有用的也没得到。  
@@ -41,24 +70,27 @@ Gaussian根本不支持QM/MM。必须明确分清楚QM/MM和ONIOM(QM:MM)。ORCA�
 sob提供了一些ONION的资料：[ONIOM算法](http://bbs.keinsci.com/thread-942-1-1.html)
 
 ### 簇模型
-与ONION相比，sob更推荐“簇模型”，参见[要善用簇模型，不要盲目用ONIOM算蛋白质-小分子相互作用问题](http://sobereva.com/597)
+与ONION相比，sob更推荐“簇模型”，参见[要善用簇模型，不要盲目用ONIOM算蛋白质-小分子相互作用问题](http://sobereva.com/597)。sob认为，只要cluster构建得当，对于静态方式研究酶催化反应就很合理，没必要用QM/MM，刻意用QM/MM只会自找麻烦。
 
-sob认为，只要cluster构建得当，对于静态方式研究酶催化反应就很合理，没必要用QM/MM，刻意用QM/MM只会自找麻烦。
-
+在处理一个蛋白质10000+原子、配体100+原子的大体系时，sob建议如下：甭用PM6。当前牵扯弱相互作用，PM6完全不靠谱。如果只限于Gaussian，最起码也得PM6D3或PM7。建议构造配体+周围残基的簇模型（几百个原子），用Gaussian+xtb联用（参看http://sobereva.com/421）在固定边缘原子的前提下搜索过渡态（可以用扫描帮助确定初猜）和相连的极小点，然后再用M06-2X算能垒。M06-2X算不动的话就用ORCA在B97-3c下算，几百个原子很轻松。整个过程耗时不会非常高，而原理非常合理。有条件的话，把Gaussian+xtb优化出的过渡态和极小点结构用ORCA在B97-3c下做进一步优化，这样更放心也更准
 
 ### GMX+CP2K
 最新版GROMACS可以直接结合CP2K做QM/MM。也可以通过MiMiC使之可以和CPMD联用。
 1. [Gromacs与cp2k联动使用plumed做QM/MM增强采样](http://bbs.keinsci.com/forum.php?mod=viewthread&tid=21783&highlight=qm%2Fmm)
 1. [Github:bioexcel](https://github.com/bioexcel)
 
-### ChemShell
-1. [ChemShell - a modular software package for QM/MM simulations](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1163)
-
+CP2K做xtb/MM比NAMD调用xtb的QM/MM效率低，一方面程序不同，xtb是专为GFN-xTB计算而生的，必定比CP2K这种通用DFT框架下实现GFN-xTB快得多。另一方面，是否考虑周期性，耗时必定相差悬殊。如果不是要明确对GFN-xTB描述的部分考虑周期性，就没必要用CP2K
 
 ### AIMD
-以几十核的一般双路服务器的运算能力，ORCA里用B97-3c跑几十原子有机体系的几十ps的动力学不是特别困难的事。不过，能跑的时间尺度仍远远比不上xtb跑半经验层面DFT的GFN-xTB方法的动力学
+1. Ab initio molecular dynamics methods: The system is simulated at a finite temperature with no empirical force field. Rather, the forces at each time step are determined with a full electronic structure calculation at the density functional level. Thus, simulations of chemical reactions can be performed where finite temperature effects are realistically represented. 参见[Towards more realistic computational modeling of homogenous catalysis by density functional theory: combined QM/MM and ab initio molecular dynamics](https://sci-hub.wf/10.1016/S0920-5861(98)00483-0)
+1. In AIMD, the atomic forces are calculated from first principles, classical atomistic MD using analytical empirical interaction potentials (force-fields). 参见[Molecular Dynamics Simulation: From "Ab Initio" to “Coarse Grained”](https://sci-hub.wf/10.1007/978-94-007-0711-5_7)
+1. 最初的AIMD为理想的Born-Oppenheimer分子动力学（BOMD），该理论将原子核-电子耦合体系的运动问题拆分为电子结构和分子动力学两部分，用密度泛函（DFT）等方法对特定原子核构型下的电子结构进行计算，得到K-S轨道及能量，在此基础上得到理想B-O势能面上原子核感受的势能和力，进而用经典力学来考察原子核在Born-Oppenheimer势能面上的运动。参见[浅谈对各类从头算分子动力学（AIMD）算法的认识](https://zhuanlan.zhihu.com/p/477824834?utm_id=0)
+
+以几十核的一般双路服务器的运算能力，ORCA里用B97-3c跑几十原子有机体系的几十ps的动力学不是特别困难的事。不过，能跑的时间尺度仍远远比不上xtb跑半经验层面DFT的GFN-xTB方法的动力学。因此，拿ORCA跑DFT的动力学之前，先拿xtb初步跑跑，找找感觉，大体摸索出自己期望的现象能出现的条件（如温度、初始结构、反应物相对位置和碰撞方式等），然后再用DFT跑通常是比较好的做法，免得做昂贵的DFT的MD试来试去把时间都耽误了。
 1. [使用ORCA做从头算动力学(AIMD)的简单例子](http://sobereva.com/576)
 1. [使用Molclus结合xtb做的动力学模拟对瑞德西韦(Remdesivir)做构象搜索](http://bbs.keinsci.com/thread-16255-1-1.html)
+
+
 
 
 
