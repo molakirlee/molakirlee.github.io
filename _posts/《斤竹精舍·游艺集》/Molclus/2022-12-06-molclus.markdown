@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "Molclus"
+subtitle:   ""
+date:       2022-12-06 11:50:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Molcluster
+    - 2022
+
+---
+
+直接用molclus结合gentor就能方便地对过渡态做构象搜索
+molclus计算前把涉及反应区域的原子序号写进settings.ini里的freeze里令其在优化时保持冻结即可，对于调用xtb的情况也生效。
+
+1. [gentor：扫描方式做分子构象搜索的便捷工具](http://bbs.keinsci.com/thread-2388-1-1.html)
+1. [使用molclus程序做团簇构型搜索和分子构象搜索](http://bbs.keinsci.com/thread-577-1-1.html)
+1. [使用Molclus结合xtb做的动力学模拟对瑞德西韦(Remdesivir)做构象搜索](http://bbs.keinsci.com/thread-16255-1-1.html)
+
+![](/img/wc-tail.GIF)

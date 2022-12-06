@@ -1,0 +1,63 @@
+---
+layout:     post
+title:      "QMMM及大体系计算"
+subtitle:   ""
+date:       2020-08-29 15:13:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - QMMM
+    - 2020
+
+---
+
+### 软件选择
+sob老师说做QM/MM效率最高的是：amber+Gaussian、NAMD+ORCA
+1. [MM and QM/MM setup for a metalloprotein using GROMACS,  Chemshell and ORCA](https://sites.google.com/site/ragnarbjornsson/mm-and-qm-mm-setup)
+
+### [Different flavors of QM/MM](https://github.com/huichenggong/Learning-Computation-with-Chenggong/tree/main/CC_news_009)
+![](https://github.com/huichenggong/Learning-Computation-with-Chenggong/blob/main/CC_news_009/mindmap.png)
+
+### 说明
+QM/MM是对原子间相互作用描述的一种方式，MD是具体的模拟任务类型，完全不是一个层面的东西。要知道QM/MM是什么、MD是什么。
+1. 计算能量的方法：QM、MM、QM/MM...
+1. 任务类型：单点、几何优化、振动分析、MD、MC...
+
+以上两类问题是独立的，可以随意组合.
+
+### ONION
+ONIOM是一种广义的能将不同级别方法描述体系不同区域的计算形式，可以通过ONIOM来等效实现QM/MM的目的，这确切来说叫做ONIOM(QM:MM)，这和QM/MM的常规实现方式不同。ONIOM(QM:MM)和常说的QM/MM并不相同，一个关键区别在于QM/MM相当于把QM和MM分别描述的两块区域以恰当的方式拼接起来，因此MM计算的时候不会涉及到含有小分子的high layer部分。而ONIOM(QM:MM)能量的计算方式是E(QM,HL)+E(MM,整体)-E(MM,HL)，因此需要算三次能量，可见也涉及到通过MM算配体部分（因为配体在HL里）.
+
+Gaussian根本不支持QM/MM。必须明确分清楚QM/MM和ONIOM(QM:MM)。ORCA倒是两种都直接支持，也不需要挂Chemshell之类.
+
+sob提供了一些ONION的资料：[ONIOM算法](http://bbs.keinsci.com/thread-942-1-1.html)
+
+### 簇模型
+与ONION相比，sob更推荐“簇模型”，参见[要善用簇模型，不要盲目用ONIOM算蛋白质-小分子相互作用问题](http://sobereva.com/597)
+
+sob认为，只要cluster构建得当，对于静态方式研究酶催化反应就很合理，没必要用QM/MM，刻意用QM/MM只会自找麻烦。
+
+
+### GMX+CP2K
+最新版GROMACS可以直接结合CP2K做QM/MM。也可以通过MiMiC使之可以和CPMD联用。
+1. [Gromacs与cp2k联动使用plumed做QM/MM增强采样](http://bbs.keinsci.com/forum.php?mod=viewthread&tid=21783&highlight=qm%2Fmm)
+1. [Github:bioexcel](https://github.com/bioexcel)
+
+### ChemShell
+1. [ChemShell—a modular software package for QM/MM simulations](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1163)
+
+
+### AIMD
+以几十核的一般双路服务器的运算能力，ORCA里用B97-3c跑几十原子有机体系的几十ps的动力学不是特别困难的事。不过，能跑的时间尺度仍远远比不上xtb跑半经验层面DFT的GFN-xTB方法的动力学
+1. [使用ORCA做从头算动力学(AIMD)的简单例子](http://sobereva.com/576)
+1. [使用Molclus结合xtb做的动力学模拟对瑞德西韦(Remdesivir)做构象搜索](http://bbs.keinsci.com/thread-16255-1-1.html)
+
+
+
+参考资料：
+1. [A. Introduction to Molecular Mechanics and Molecular Dynamics](https://chem.libretexts.org/Courses/CSU_Chico/CSU_Chico%3A_CHEM_451_-_Biochemistry_I/CHEM_451_Test/03%3A_Lipid_Structure/3.3%3A_Dynamics_of_Membrane_Lipids/Molecular_Mechanics_and_Dynamics/A._Introduction_to_Molecular_Mechanics_and_Molecular_Dynamics)
+
+![](/img/wc-tail.GIF)
