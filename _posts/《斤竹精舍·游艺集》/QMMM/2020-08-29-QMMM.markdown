@@ -20,7 +20,7 @@ sob老师说做QM/MM效率最高的是：amber+Gaussian、NAMD+ORCA.（amber+orc
 
 ### [Different flavors of QM/MM](https://github.com/huichenggong/Learning-Computation-with-Chenggong/tree/main/CC_news_009)
 
-![](https://github.com/huichenggong/Learning-Computation-with-Chenggong/blob/main/CC_news_009/mindmap.png)
+![DifQMMM](https://github.com/huichenggong/Learning-Computation-with-Chenggong/blob/main/CC_news_009/mindmap.png)
 
 ### 耗时
 千万别小看了QM/MM MD。很可能折腾、计算了几个月，最后什么有用的也没得到。  
