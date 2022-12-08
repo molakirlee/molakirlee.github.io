@@ -57,12 +57,17 @@ tags:
 1. 之后在ΔH校正因子下得到ΔH（即C-A）;
 1. 最终将这三个量加在一起，再加上高精度方法算的电子能量E，就得到了自由能G=E+ZPE+ΔH-T*S。
 
+
+### Shermo
+Sob老师开发了一个计算热力学数据的小软件，做完opt、freq、高精度单点后，用Shermo可以很方便的得到热力学量，具体参见：
+1. [使用Shermo结合量子化学程序方便地计算分子的各种热力学数据](http://sobereva.com/552)
+1. [Shermo：计算气相分子配分函数和热力学数据的简单程序](http://sobereva.com/315)  
+
+
 ### 参考资料  
 1. [谈谈谐振频率校正因子](http://sobereva.com/221)
 1. [Gaussian计算中分子总能量各项的意义及怎样输出基组](http://bbs.keinsci.com/thread-215-1-1.html)
 1. [两篇热力学数据计算的入门介绍文章](http://bbs.keinsci.com/thread-123-1-1.html)  
-1. [Shermo：计算气相分子配分函数和热力学数据的简单程序](http://sobereva.com/315)  
-1. [使用Shermo结合量子化学程序方便地计算分子的各种热力学数据](http://sobereva.com/552)
 1. [有关零点能校正的问题](http://bbs.keinsci.com/thread-2871-1-1.html)
 
 

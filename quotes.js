@@ -901,6 +901,8 @@ var quotes = [
 'A little of every thing is nothing in the main.',
 'Wisdom is to the mind what health is to the body.',
 'There \'s nothing for you behind you. All that exists is what\'s ahead.',
+'The smartest people understand that they are the most ignorant ones.',
+'Sometimes things go better when you just say no.',
 'Nothing for nothing.',
 '才情高超，清越脱俗.'
 ]

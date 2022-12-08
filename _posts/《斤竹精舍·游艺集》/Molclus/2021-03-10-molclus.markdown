@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Molclus"
+title:      "MolClus"
 subtitle:   ""
-date:       2022-12-06 11:50:00
+date:       2021-03-10 11:31:00
 author:     "XiLock"
 header-img: ""
 header-mask: 0.3
@@ -10,7 +10,7 @@ catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
     - Molcluster
-    - 2022
+    - 2021
 
 ---
 
@@ -21,4 +21,11 @@ molclus计算前把涉及反应区域的原子序号写进settings.ini里的free
 1. [使用molclus程序做团簇构型搜索和分子构象搜索](http://bbs.keinsci.com/thread-577-1-1.html)
 1. [使用Molclus结合xtb做的动力学模拟对瑞德西韦(Remdesivir)做构象搜索](http://bbs.keinsci.com/thread-16255-1-1.html)
 
+sob在[萃取体系溶剂化自由能求助](http://bbs.keinsci.com/thread-13960-1-1.html)提到，要注意复合物可能有很多种构型，计算时应当选取能量最低的。可以用genmer+molclus做构型搜索来实现，看下面的介绍和实例。其中对于弱相互作用计算级别的正当选用也有充分体现  
+1. [genmer：生成团簇初始构型结合molclus做团簇结构搜索的超便捷工具](http://bbs.keinsci.com/thread-2369-1-1.html)  
+1. [molclus官网](http://www.keinsci.com/research/molclus.html)
+
+
+
+ 
 ![](/img/wc-tail.GIF)

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "QM/MM ONION AIMD"
+title:      "QM/MM ONION AIMD 簇模型"
 subtitle:   ""
 date:       2020-08-29 15:13:00
 author:     "XiLock"
@@ -15,6 +15,8 @@ tags:
 ---
 
 **注：多数资料引用自Sob，为便于学习，整理至此**
+
+QM cluster、ONION、QM/MM、QM/MM MD存在一定区别，可参见[Multiscale modeling of enzymes: QM-cluster, QM/MM, and QM/MM/MD: A tutorial review](https://sci-hub.wf/10.1002/qua.25558)
 
 ### 软件选择
 ###### 单一程序
@@ -62,17 +64,6 @@ QM/MM是对原子间相互作用描述的一种方式，MD是具体的模拟任�
 
 以上两类问题是独立的，可以随意组合.
 
-### ONION
-ONIOM是一种广义的能将不同级别方法描述体系不同区域的计算形式，可以通过ONIOM来等效实现QM/MM的目的，这确切来说叫做ONIOM(QM:MM)，这和QM/MM的常规实现方式不同。ONIOM(QM:MM)和常说的QM/MM并不相同，一个关键区别在于QM/MM相当于把QM和MM分别描述的两块区域以恰当的方式拼接起来，因此MM计算的时候不会涉及到含有小分子的high layer部分。而ONIOM(QM:MM)能量的计算方式是E(QM,HL)+E(MM,整体)-E(MM,HL)，因此需要算三次能量，可见也涉及到通过MM算配体部分（因为配体在HL里）.
-
-Gaussian根本不支持QM/MM。必须明确分清楚QM/MM和ONIOM(QM:MM)。ORCA倒是两种都直接支持，也不需要挂Chemshell之类.
-
-sob提供了一些ONION的资料：[ONIOM算法](http://bbs.keinsci.com/thread-942-1-1.html)
-
-### 簇模型
-与ONION相比，sob更推荐“簇模型”，参见[要善用簇模型，不要盲目用ONIOM算蛋白质-小分子相互作用问题](http://sobereva.com/597)。sob认为，只要cluster构建得当，对于静态方式研究酶催化反应就很合理，没必要用QM/MM，刻意用QM/MM只会自找麻烦。
-
-在处理一个蛋白质10000+原子、配体100+原子的大体系时，sob建议如下：甭用PM6。当前牵扯弱相互作用，PM6完全不靠谱。如果只限于Gaussian，最起码也得PM6D3或PM7。建议构造配体+周围残基的簇模型（几百个原子），用Gaussian+xtb联用（参看http://sobereva.com/421）在固定边缘原子的前提下搜索过渡态（可以用扫描帮助确定初猜）和相连的极小点，然后再用M06-2X算能垒。M06-2X算不动的话就用ORCA在B97-3c下算，几百个原子很轻松。整个过程耗时不会非常高，而原理非常合理。有条件的话，把Gaussian+xtb优化出的过渡态和极小点结构用ORCA在B97-3c下做进一步优化，这样更放心也更准
 
 ### GMX+CP2K
 最新版GROMACS可以直接结合CP2K做QM/MM。也可以通过MiMiC使之可以和CPMD联用。
@@ -80,6 +71,14 @@ sob提供了一些ONION的资料：[ONIOM算法](http://bbs.keinsci.com/thread-9
 1. [Github:bioexcel](https://github.com/bioexcel)
 
 CP2K做xtb/MM比NAMD调用xtb的QM/MM效率低，一方面程序不同，xtb是专为GFN-xTB计算而生的，必定比CP2K这种通用DFT框架下实现GFN-xTB快得多。另一方面，是否考虑周期性，耗时必定相差悬殊。如果不是要明确对GFN-xTB描述的部分考虑周期性，就没必要用CP2K
+
+
+### ONION
+ONIOM是一种广义的能将不同级别方法描述体系不同区域的计算形式，可以通过ONIOM来等效实现QM/MM的目的，这确切来说叫做ONIOM(QM:MM)，这和QM/MM的常规实现方式不同。ONIOM(QM:MM)和常说的QM/MM并不相同，一个关键区别在于QM/MM相当于把QM和MM分别描述的两块区域以恰当的方式拼接起来，因此MM计算的时候不会涉及到含有小分子的high layer部分。而ONIOM(QM:MM)能量的计算方式是E(QM,HL)+E(MM,整体)-E(MM,HL)，因此需要算三次能量，可见也涉及到通过MM算配体部分（因为配体在HL里）.
+
+Gaussian根本不支持QM/MM。必须明确分清楚QM/MM和ONIOM(QM:MM)。ORCA倒是两种都直接支持，也不需要挂Chemshell之类.
+
+sob提供了一些ONION的资料：[ONIOM算法](http://bbs.keinsci.com/thread-942-1-1.html)
 
 ### AIMD
 1. Ab initio molecular dynamics methods: The system is simulated at a finite temperature with no empirical force field. Rather, the forces at each time step are determined with a full electronic structure calculation at the density functional level. Thus, simulations of chemical reactions can be performed where finite temperature effects are realistically represented. 参见[Towards more realistic computational modeling of homogenous catalysis by density functional theory: combined QM/MM and ab initio molecular dynamics](https://sci-hub.wf/10.1016/S0920-5861(98)00483-0)
@@ -90,9 +89,13 @@ CP2K做xtb/MM比NAMD调用xtb的QM/MM效率低，一方面程序不同，xtb是�
 1. [使用ORCA做从头算动力学(AIMD)的简单例子](http://sobereva.com/576)
 1. [使用Molclus结合xtb做的动力学模拟对瑞德西韦(Remdesivir)做构象搜索](http://bbs.keinsci.com/thread-16255-1-1.html)
 
+### 簇模型
+与ONION相比，sob更推荐“簇模型”，参见[要善用簇模型，不要盲目用ONIOM算蛋白质-小分子相互作用问题](http://sobereva.com/597)。sob认为，只要cluster构建得当，对于静态方式研究酶催化反应就很合理，没必要用QM/MM，刻意用QM/MM只会自找麻烦。
 
+在处理一个蛋白质10000+原子、配体100+原子的大体系时，sob建议如下：甭用PM6。当前牵扯弱相互作用，PM6完全不靠谱。如果只限于Gaussian，最起码也得PM6D3或PM7。建议构造配体+周围残基的簇模型（几百个原子），用Gaussian+xtb联用（参看http://sobereva.com/421）在固定边缘原子的前提下搜索过渡态（可以用扫描帮助确定初猜）和相连的极小点，然后再用M06-2X算能垒。M06-2X算不动的话就用ORCA在B97-3c下算，几百个原子很轻松。整个过程耗时不会非常高，而原理非常合理。有条件的话，把Gaussian+xtb优化出的过渡态和极小点结构用ORCA在B97-3c下做进一步优化，这样更放心也更准.
 
-
+1. [使用量子化学程序基于簇模型计算金属表面吸附问题](http://sobereva.com/540)
+1. [18碳环（cyclo[18]carbon）与石墨烯的相互作用：基于簇模型的研究一例](http://sobereva.com/615)
 
 参考资料：
 1. [A. Introduction to Molecular Mechanics and Molecular Dynamics](https://chem.libretexts.org/Courses/CSU_Chico/CSU_Chico%3A_CHEM_451_-_Biochemistry_I/CHEM_451_Test/03%3A_Lipid_Structure/3.3%3A_Dynamics_of_Membrane_Lipids/Molecular_Mechanics_and_Dynamics/A._Introduction_to_Molecular_Mechanics_and_Molecular_Dynamics)

@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "S&E 光谱图"
+subtitle:   ""
+date:       2022-12-07 06:30:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Simu. with Exp.
+    - 2022
+
+
+---
+
+
+### 光谱图
+1. [使用Multiwfn绘制红外、拉曼、UV-Vis、ECD、VCD和ROA光谱图](http://sobereva.com/224)
+1. [Simulating UV-Vis and ECD spectra using ORCA and Multiwfn](http://sobereva.com/485)
+
+
+ 
+![](/img/wc-tail.GIF)
