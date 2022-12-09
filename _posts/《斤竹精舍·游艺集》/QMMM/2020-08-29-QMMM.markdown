@@ -16,7 +16,7 @@ tags:
 
 **注：多数资料引用自Sob，为便于学习，整理至此**
 
-QM cluster、ONION、QM/MM、QM/MM MD存在一定区别，可参见[Multiscale modeling of enzymes: QM-cluster, QM/MM, and QM/MM/MD: A tutorial review](https://sci-hub.wf/10.1002/qua.25558)
+QM cluster、ONION、QM/MM、QM/MM MD存在一定区别，具体内容可阅读[Multiscale modeling of enzymes: QM-cluster, QM/MM, and QM/MM/MD: A tutorial review](https://sci-hub.wf/10.1002/qua.25558).这里简单说明一下QM/MM和QM/MM MD的区别: Hybrid QM/MM methodologies have been developed for such large complex systems in which a small part of the system is treated with QM while classical force field methods are typically employed for the rest. The energy minimization approaches described about QM-cluster and QM/MM approaches are either rather limited and ineffective or fail to provide any insight. Indeed, such methods typically explore only one local minimum of the reactant potential energy surface (the local-minima problem).简而言之，QM/MM是只做能量最小化，QM/MM MD要做MD.
 
 ### 软件选择
 ###### 单一程序
