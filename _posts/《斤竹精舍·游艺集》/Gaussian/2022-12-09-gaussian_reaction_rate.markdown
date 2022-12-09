@@ -28,14 +28,14 @@ tags:
 ###### 反应速率常数k及活化能Ea
 目前最常用，也比较省事的预测反应速率常数k的方法是Eyring的过渡态理论（transition state theory, TST），它可以写为基于配分函数的形式和基于热力学量的形式。
 
-**这个$k_{TST}$跟实验测得的k是两回事，计算所用的自由能跟Arrhenius方程里的活化能也是两回事。**
-[Wiki:Transition state theory](https://en.wikipedia.org/wiki/Transition_state_theory)是这么说的Because the functional form of the Eyring and Arrhenius equations are similar, it is tempting to relate the activation parameters with the activation energy and pre-exponential factors of the Arrhenius treatment. However, the Arrhenius equation was derived from experimental data and models the macroscopic rate using only two parameters, irrespective of the number of transition states in a mechanism. In contrast, activation parameters can be found for every transition state of a multistep mechanism, at least in principle.
+**这个$k_{TST}$跟实验测得的k是两回事，计算所用的自由能跟Arrhenius方程里的活化能也是两回事。**  
+[Transition state theory (Wiki)](https://en.wikipedia.org/wiki/Transition_state_theory)是这么说的Because the functional form of the Eyring and Arrhenius equations are similar, it is tempting to relate the activation parameters with the activation energy and pre-exponential factors of the Arrhenius treatment. However, the Arrhenius equation was derived from experimental data and models the macroscopic rate using only two parameters, irrespective of the number of transition states in a mechanism. In contrast, activation parameters can be found for every transition state of a multistep mechanism, at least in principle.
 
-The free energy of activation, $\Delta G^{\ddagger}$, is defined in transition state theory to be the energy such that $\Delta G^{\ddagger } = -RTlnK^{\ddagger}$ holds（利用化学势推导，具体参见[Wiki：Equilibrium constant](https://en.wikipedia.org/wiki/Equilibrium_constant)）. The parameters $\Delta H\ddagger$ and $\Delta S\ddagger$ can then be inferred by determining $\Delta G\ddagger = \Delta H\ddagger - T\Delta S\ddagger$ at different temperatures.
+The free energy of activation, $\Delta G^{\ddagger}$, is defined in transition state theory to be the energy such that $\Delta G^{\ddagger } = -RTlnK^{\ddagger}$ holds（利用化学势推导，具体参见[Equilibrium constant (Wiki)](https://en.wikipedia.org/wiki/Equilibrium_constant)）. The parameters $\Delta H^{\ddagger}$ and $\Delta S^{\ddagger}$ can then be inferred by determining $\Delta G^{\ddagger} = \Delta H^{\ddagger} - T\Delta S^{\ddagger}$ at different temperatures.
 
 TST理论中：
-1. $\Delta H\ddagger$与$E_a$相关：Although the enthalpy of activation, $\Delta H\ddagger$, is often equated with Arrhenius's activation energy $E_a$, they are not equivalent. For a condensed-phase (e.g., solution-phase) or unimolecular gas-phase reaction step, $Ea = \Delta H\ddagger$ + RT$. 
-1. $\Delta S\ddagger$与指前因子A有关.
+1. $\Delta H^{\ddagger}$与$E_a$相关：Although the enthalpy of activation, $\Delta H^{\ddagger}$, is often equated with Arrhenius's activation energy $E_a$, they are not equivalent. For a condensed-phase (e.g., solution-phase) or unimolecular gas-phase reaction step, $Ea = \Delta H^{\ddagger}$ + RT$. For other gas-phase reactions, $E_a = \Delta H^{\ddagger} + (1 - \Delta n^{\ddagger})RT$, where $\Delta n^{\ddagger}$ is the change in the number of molecules on forming the transition state. (Thus, for a bimolecular gas-phase process, $E_a = \Delta H^{\ddagger} + 2RT$.)
+1. $\Delta S\ddagger$与指前因子A有关. For a unimolecular, single-step process, the rough equivalence $A = (k_BT/h) exp(1 + \Delta S^{\ddagger}/R) (or A = (k_BT/h) exp(2 + \Delta S^{\ddagger}/R) for bimolecular gas-phase reactions) holds. For a unimolecular process, a negative value indicates a more ordered, rigid transition state than the ground state, while a positive value reflects a transition state with looser bonds and/or greater conformational freedom.
 
 活化能并非只能通过阿仑尼乌斯公式拟合。利用动力学模拟，对任何动态过程（如扩散）等也可以计算活化能，见[J. Phys. Chem. A, 123, 7185 (2019)](https://pubs.acs.org/doi/full/10.1021/acs.jpca.9b03967)。
 

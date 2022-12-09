@@ -18,7 +18,7 @@ tags:
 
 
 ### 言论
-
+1. 软件工程师和项目主管每周都必须发布代码，否则就要走人。项目分析、开发文档、帮助队友......这些都是工作的基础部分，但不能替代编写代码。 -- [MUSK’S LATEST TWITTER DICTUM](https://www.firstpost.com/tech/news-analysis/musks-latest-twitter-dictum-engineers-to-send-weekly-reports-managers-to-fire-weak-performers-every-week-11725821.html)
 
 ### 观点
 ###### [A Summary of My Learnings On How To Find Startup Ideas](https://liorn.substack.com/p/a-summary-of-my-learnings-on-how)
