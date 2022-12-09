@@ -36,7 +36,7 @@ QM与MM程序至少有一方给对方留出接口：
 1. NAMD：MOPAC、ORCA
 
 ###### 通用接口程序
-1. ChemShell：收费程序，可将分子动力学程序与DL_POLY、GULP、GROMACS、CHARMM与量化程序GAMESS-UK、NWChem、Dalton、Turbomole、ORCA、Molpro、Gaussian、Dmol3、Q-Chem相连做优化、动力学等。参见[ChemShell - a modular software package for QM/MM simulations](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1163)
+1. ChemShell：收费程序，可将分子动力学程序与DL_POLY、GULP、GROMACS、CHARMM与量化程序GAMESS-UK、NWChem、Dalton、Turbomole、ORCA、Molpro、Gaussian、Dmol3、Q-Chem相连做优化、动力学等。参见[ChemShell - a modular software package for QM/MM simulations](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1163)，惠成功用Chemshell耦合Orca和DL_POLY研究了artemisinin对hydroxylation of terpenoids的影响，参见[Regio- and Stereoselectivity of CYP450BM3-Catalyzed Oxidation of Complex Terpenoids: A QM/MM study](https://sci-hub.wf/10.1039/d0cp03083j)
 1. Pupil(Program for User Package Interface and Linking)：基于JAVA，开源免费，可将动力学程序Amber、DL_POLY和量化程序Gaussian、deMon2k、NEChem、Siesta相连做QM/MM动力学
 1. QMERA：MS的模块，专用于链接Dmol3和GULP模块做QM/MM,底层实为Chemshell
 
@@ -71,7 +71,6 @@ QM/MM是对原子间相互作用描述的一种方式，MD是具体的模拟任�
 1. [Github:bioexcel](https://github.com/bioexcel)
 
 CP2K做xtb/MM比NAMD调用xtb的QM/MM效率低，一方面程序不同，xtb是专为GFN-xTB计算而生的，必定比CP2K这种通用DFT框架下实现GFN-xTB快得多。另一方面，是否考虑周期性，耗时必定相差悬殊。如果不是要明确对GFN-xTB描述的部分考虑周期性，就没必要用CP2K
-
 
 ### ONION
 ONIOM是一种广义的能将不同级别方法描述体系不同区域的计算形式，可以通过ONIOM来等效实现QM/MM的目的，这确切来说叫做ONIOM(QM:MM)，这和QM/MM的常规实现方式不同。ONIOM(QM:MM)和常说的QM/MM并不相同，一个关键区别在于QM/MM相当于把QM和MM分别描述的两块区域以恰当的方式拼接起来，因此MM计算的时候不会涉及到含有小分子的high layer部分。而ONIOM(QM:MM)能量的计算方式是E(QM,HL)+E(MM,整体)-E(MM,HL)，因此需要算三次能量，可见也涉及到通过MM算配体部分（因为配体在HL里）.

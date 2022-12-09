@@ -17,4 +17,9 @@ tags:
 ###### 轨迹处理：xtd-->xyz
 参见[将Material Studio的xtd轨迹文件导出为xyz轨迹文件的方法](http://sobereva.com/143)，注意，使用时轨迹文件名不能有空格。
 
+
+###### 一些资料
+1. [杨老师:《MS入门手册》](https://mp.weixin.qq.com/s/Aodwh0jesRH2Oi-FUmub6w)
+1. [Materials Studio 培训教程 创腾科技有限公司](http://staff.ustc.edu.cn/~hly/book/Studio%C5%E0%D1%B5%BD%CC%B3%CC.pdf)
+
 ![](/img/wc-tail.GIF)
