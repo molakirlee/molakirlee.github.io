@@ -22,7 +22,7 @@ tags:
 
 ###### molecular docking
 1. [AutoDock](http://autodock.scripps.edu)
-1. [UCSF DOCK](http://dock.compbio.ucsf.edu)
+1. [UCSF DOCK](http://dock.compbio.ucsf.edu)
 1. [rDock](http://rdock.sourceforge.net)
 
 ###### protein channel
@@ -53,17 +53,17 @@ tags:
 
 ### 用于预测突变效果的工具
 ###### protein-protein interactions
-MutaBind](http://www.ncbi.nlm.nih.gov/projects/mutabind/
-iSEE](Be provided as an R-model
-mCSM-PPI2](http://biosig.unimelb.edu.au/mmcsm_ppi
+1. [MutaBind](http://www.ncbi.nlm.nih.gov/projects/mutabind/)
+1. iSEE: Be provided as an R-mode
+1. [mCSM-PPI2](http://biosig.unimelb.edu.au/mmcsm_ppi)
 
-###### interactions of the protein with nucleic acids and ligands
-mCSM-NA](http://structure.bioc.cam.ac.uk/mcsm na.
-PremPDI](https://lilab.jysw.suda.edu.cn/research/PremPDI/
-mCSM-lig](http://structure.bioc.cam.ac.uk/mcsm_lig
+###### interactions of the protein with nucleic acids and ligands
+1. [mCSM-NA](http://structure.bioc.cam.ac.uk/mcsm_na)
+1. [PremPDI](https://lilab.jysw.suda.edu.cn/research/PremPDI/)
+1. [mCSM-lig](http://structure.bioc.cam.ac.uk/mcsm_lig)
 
 ###### protein dynamics and stability
-DynaMut](http://biosig.unimelb.edu.au/dynamut/
+1. [DynaMut](http://biosig.unimelb.edu.au/dynamut/)
 
 
 参考资料：[计算机蛋白质设计的工具](http://www.bioengx.com/计算机蛋白质设计的工具/)
