@@ -14,6 +14,8 @@
 1. [机器之心](https://www.jiqizhixin.com/industry)
 1. [新浪专栏 创世纪](https://tech.sina.com.cn/chuangshiji/)
 
+###### 科技社区
+1. [bioengx](http://www.bioengx.com/)
 
 ###### 其他社交媒体
 1. [Buzzing](https://www.buzzing.cc/)

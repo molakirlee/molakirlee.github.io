@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gaussian 反应速率常数计算"
+title:      "S&T&E 反应速率常数计算"
 subtitle:   ""
 date:       2022-12-09 00:05:00
 author:     "XiLock"
@@ -9,7 +9,7 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
-    - Gaussian
+    - S&T&E
     - 2022
 
 ---

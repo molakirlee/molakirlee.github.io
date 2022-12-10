@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "S&E 光谱图"
+title:      "S&T&E 光谱图"
 subtitle:   ""
 date:       2022-12-07 06:30:00
 author:     "XiLock"
@@ -9,7 +9,7 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
-    - Simu. with Exp.
+    - S&T&E
     - 2022
 
 
