@@ -4,13 +4,16 @@
 **If something stands between you and your success, move it. Never be denied.**  
 **——Dwayne ‘The Rock’ Johnson**
 
-### SCOPE
+### SCIENCE SCOPE
 1. [Nature](https://www.nature.com/)
 1. [Science](https://www.sciencemag.org/)
 1. [Scientific American](https://www.scientificamerican.com)
 
-###### Technology
+### SCIENCE COMMUNITY
+1. [Sciencenet](https://www.sciencenet.cn/)
 1. [China technology](https://www.kepuchina.cn/)
+
+###### Technology
 1. [Phys Org](https://phys.org/page2.html)
 1. [Gizmodo](https://gizmodo.com/)
 1. [Medium: Explore new perspectives](https://medium.com/)
