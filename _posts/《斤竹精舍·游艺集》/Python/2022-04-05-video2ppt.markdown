@@ -37,17 +37,22 @@ evp --similarity 0.6 --pdfname hello.pdf --start_frame 0:00:09 --end_frame 00:00
 1. end_frame: end frame time point, default = 'INFINITY'
 
 ### convert to exe
+
 为了方便使用，使用pyinstaller转化成了exe文件，在转换过程中遇到以下问题：
 ###### 提示`ImportError: OpenCV loader: missing configuration file: ['config.py']. Check OpenCV installation`
+
 Solution：在pyinstaller时添加一下opencv的路径即可：`pyinstaller -w xxx.py --paths="xxx\Lib\site-packages\cv2"`
-###### 
+
+###### 打包matplotlib出现RuntimeError: Could not find the matplotlib data files
+现在的 matplotlib 版本都高于 3.2，而打包工具 pyinstaller需要低于 3.2 的版本，所以需要卸载 matplotlib，然后再安装低版本。
+
 Solution:
 ```
 pip uninstall matplotlib
 pip install matplotlib==3.1.1
 pyinstaller -F XXX.py
 ```
-找到.spec文件，将其中的`hiddenimports=[]`修改为`hiddenimports=['matplotlib']`，然后：
+找到.spec文件（配置文件），将其中的`hiddenimports=[]`修改为`hiddenimports=['matplotlib']`，然后：
 ```
 pyinstaller -F XXX.spec
 ```
