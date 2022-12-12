@@ -63,4 +63,52 @@ pyinstaller -F XXX.spec
 1. [Python pyinstaller打包opencv程序出错](https://zhuanlan.zhihu.com/p/462208284)
 1. [打包matplotlib出现RuntimeError: Could not find the matplotlib data files](https://blog.csdn.net/Iv_zzy/article/details/107916741)
 
+
+### 批处理
+有时候视频比较多，需要批处理，用下面的代码批量转换：
+
+```
+import os
+
+path = 'D:\Desktop\Captures video'
+for root,dirs,names in os.walk(path):
+	for name in names:
+		ext = os.path.splitext(name)[1]
+		nnn = os.path.splitext(name)[0]
+		if ext == '.mp4':
+			oName = name
+			NName = nnn + '.pdf'
+			s = "evp --similarity 0.8 --pdfname {0}.pdf --start_frame 0:00:00 --end_frame INFINITY ./ ./{1}.mp4".format(nnn,nnn)
+			os.system(s)
+```
+
+有时候转换了一部分就因为别的事情要把程序停掉，这样的话，如果下次直接继续转换就会有重复，所以要先把已经转换完的pdf和mp4文件移到另一个文件夹里，可以用下面的代码：
+
+```
+import os
+import shutil
+
+path = 'D:\Desktop\Captures video'
+npath = 'D:\Desktop\Captures video\converted'
+if not os.path.exists(npath)
+	os.makedirs(npath)
+for root,dirs,names in os.walk(path):
+	for name in names:
+		ext = os.path.splitext(name)[1]
+		nnn = os.path.splitext(name)[0]
+		if ext == '.pdf':
+			src = os.path.join(root,name)
+			dst = os.path.join(npath,name)
+			print('src',src)
+			print('dst',dst)
+			vname = nnn + '.mp4'
+			src2 = os.path.join(root,vname)
+			dst2 = os.path.join(npath,vname)
+			print('src2',src2)
+			print('dst2',dst2)
+			shutil.move(src,dst)
+			shutil.move(src2,dst2)
+```
+
+
 ![](/img/wc-tail.GIF)
