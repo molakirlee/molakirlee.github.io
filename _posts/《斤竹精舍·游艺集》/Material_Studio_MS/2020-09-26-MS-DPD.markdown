@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "MS中DPD的模拟"
+title:      "MS DPD模拟"
 subtitle:   ""
 date:       2020-09-26 14:55:00
 author:     "XiLock"

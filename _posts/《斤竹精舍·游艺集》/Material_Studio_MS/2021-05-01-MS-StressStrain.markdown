@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "MS·Stress - Strain"
+title:      "MS Stress - Strain"
 subtitle:   ""
 date:       2021-05-01 23:02:00
 author:     "XiLock"

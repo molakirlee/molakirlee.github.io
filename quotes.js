@@ -903,6 +903,13 @@ var quotes = [
 'There \'s nothing for you behind you. All that exists is what\'s ahead.',
 'The smartest people understand that they are the most ignorant ones.',
 'Sometimes things go better when you just say no.',
+'一怒之下踢石头，只会痛着脚趾头.',
+'建大事者，不忌小怨.',
+'君子之道，闇然而日章；小人之道，的然而日亡. -- 《中庸》',
+'N知识和实力是永远不会背叛你的.',
+'N只有拥抱变化，才能比别人更早发现机会.',
+'借假修真，以事炼人.',
+'优越感只不过是自卑感以倒立的姿态走路. -- 《奥修著作》',
 'Nothing for nothing.',
 '才情高超，清越脱俗.'
 ]

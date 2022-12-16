@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Material Studio 安装及使用问题"
+title:      "MS 安装及使用问题"
 subtitle:   ""
 date:       2019-12-25 18:04:00
 author:     "XiLock"

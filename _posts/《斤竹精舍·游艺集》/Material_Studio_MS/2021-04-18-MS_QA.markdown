@@ -19,6 +19,7 @@ tags:
 
 
 ###### 一些资料
+1. [Modules tutorals (Materials studio 2017)](https://globex.coe.pku.edu.cn/file/upload/201807/16/1259524417.pdf)
 1. [杨老师:《MS入门手册》](https://mp.weixin.qq.com/s/Aodwh0jesRH2Oi-FUmub6w)
 1. [Materials Studio 培训教程 创腾科技有限公司](http://staff.ustc.edu.cn/~hly/book/Studio%C5%E0%D1%B5%BD%CC%B3%CC.pdf)
 
