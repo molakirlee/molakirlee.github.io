@@ -103,12 +103,13 @@ tags:
 
 
 ###### 徒手练背
-![](img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_1.gif)
-![](img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_2.gif)
-![](img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_3.gif)
-![](img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_4.gif)
-![](img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_5.gif)
-![](img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_6.gif)
+![](/img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_1.gif)
+![](/img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_2.gif)
+![](/img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_3.gif)
+![](/img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_4.gif)
+![](/img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_5.gif)
+![](/img/in-post/《斤竹精舍·三思集》/shoulderTrain/shoulderTrain_6.gif)
+
 
 ### 饮食
 就饮食而言，平时做的倒还好，但偶尔还是有些放纵。

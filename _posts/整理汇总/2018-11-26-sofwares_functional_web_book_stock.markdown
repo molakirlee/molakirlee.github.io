@@ -93,6 +93,7 @@ tags:
 1. bandicam：录屏软件
 1. [共享白板](https://www.ourboard.io/)
 1. 软媒魔方
+1. 沙盘Sandboxie
 
 ### CS
 1. [将任何网页转为RSS](http://fetchrss.com/)
