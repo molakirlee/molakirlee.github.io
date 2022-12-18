@@ -197,6 +197,13 @@ C-C-C 结构在多个尺度上定义了文章的结构。从整篇文章来说�
 
 成功地完成一篇论文通常需要来自多人的努力。为了确保全文流畅，测试读者相当必要。他们同时可以给出有价值的信息，指出行文过快或过慢的地方。在是否最好重新构思和重述整体内容方面，他们也能给出有用的建议。审稿人也是非常有用的。笼统的反馈和冷冰冰的审稿人意见通常暗示审稿人无法掌握整篇文章的脉络。过于细致的反馈通常指出段落逻辑不够清晰的地方。我们应该用积极的方式接受这类反馈。因为来自他人的信息是必不可缺的，可以提供帮助的同事网络是提高论文质量的基石。为了保持这样的关系网，也不要忘记阅读他们的文章作为回报哦~
 
+
+### [EST:Why Was My Paper Rejected without Review](https://mp.weixin.qq.com/s?__biz=MzU2MzA1MzkxNQ==&mid=2247494777&idx=1&sn=42ead07576f1e324327320a15a063d84&chksm=fc62b84dcb15315b83dcadb74b4874775eba1ef5dcf9833b0ca8790489f927c2c8da4c33c5f0&scene=21#wechat_redirect)
+1. 首先，作者应该在引言或者讨论中，清楚地阐述本研究与环境的相关性、与前人研究相比有什么创新性、潜在影响，缺少这三点是文章被主编退稿的主要原因；
+1. 其次，文章应该具有高度的科学严谨性（文章应该包括合理的实验设置，有重复的样本，处理组和对照组，做好质量保证和质量控制（QA/QC），以及稳健的统计方法），研究结果还应具有可推广性，其适用性不可仅仅局限于本研究这一隅；
+1. 最后，数据发布要遵循所谓的“FAIR”原则，即findable（可发现）、accessible（可接近）、interoperable（可交互操作）和reusable（可重复使用）。
+1. 符合办刊范围（scope），具有创新性（novelty）以及具有影响力（impact）：能够改变他人对某个过程的认识、解决某个问题、检测或者模拟某种污染物、或者调控某个污染物的行为.
+
 参考阅读：  
 1. [原文链接](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1005619)
 1. [Whitesides的论文写作之“道”](https://mp.weixin.qq.com/s?__biz=MzIwMjk1OTc2MA==&mid=2247488594&amp;idx=1&amp;sn=acf49f0f0f6410eeada4dca0afaf917c&source=41#wechat_redirect)
