@@ -1,0 +1,66 @@
+---
+layout:     post
+title:      "xtb 安装及使用"
+subtitle:   ""
+date:       2020-12-08 19:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2021
+
+---
+
+
+### 安装-linux
+1. 从[https://github.com/grimme-lab/xtb/releases](https://github.com/grimme-lab/xtb/releases)上下载".tar.xz"格式文件并解压到xtb文件夹中得到bin、lib64等文件夹.
+1. `tar -xvf xxx.tar.xz`解压文件
+1. 添加环境变量（见下，其中N是并行计算时使用的CPU核心数，不要超过CPU的物理核心数，sob老师测试过说12核时最优），
+1. `export OMP_STACKSIZE=1000m`中1G对应1000个原子，超出了报错`segmentation fault `
+
+```
+# xtb
+export PATH=$PATH:/public4/home/pgv3848/Desktop/xtb-6.4.0/bin
+export XTBPATH=/public4/home/pgv3848/Desktop/xtb-6.4.0
+export OMP_NUM_THREADS=12
+export MKL_NUM_THREADS=12
+export OMP_STACKSIZE=1000m
+ulimit -s unlimited
+```
+
+
+### 使用
+输入文件为xyz格式，控制指令以通过xtb -h查看，可以直接用命令行也可以用控制文件（见sob文），如果用命令行则常见如下：  
+1. `-c`或`--chrg`：设定体系净电荷
+1. `-u`或`--uhf`：设定alpha电子数减beta电子数（相当于自旋多重度减1）
+1. `-g`或`--gbsa`：使用隐式溶剂模型。目前支持的溶剂有toluene、thf、methanol、h2o、ether、chcl3、acetonitrile、acetone、cs2
+1. `--molden`：计算结束后产生molden.input，这是Molden输入文件
+1. `--gfn`：选择GFN-xTB理论的版本，可以为0、1、2。如--gfn 0就代表GFN0-xTB。GFN2-xTB物理上最严格，多数情况精度最佳，但有时候SCF收敛困难；GFN1-xTB不如GFN2-xTB严格，平均精度稍逊一点，但SCF收敛容易（因此明显更适合SCF难收敛的金属团簇等情况），耗时也比GFN2-xTB低一些。GFN0-xTB精度最烂但速度也最快，非常适合快速简单粗暴地搞巨大体系，但对于找过渡态的目的就太糙了而不建议用
+
+常用任务类型：  
+1. `--sp`：计算单点（此为默认，可不写）
+1. `--grad`：计算梯度
+1. `--opt [级别]`：几何优化。级别默认为normal，更佳的是tight、verytight、extreme
+1. `--hess`：计算数值Hessian并做振动分析
+1. `--ohess [级别]`：优化后自动计算Hessian并做振动分析
+1. `--md`：基于当前结构做分子动力学（目前xtb还支持metadynamics，详见手册）
+1. `--omd`：优化后做分子动力学
+
+如：
+1. 对yoshiko.xyz做真空中的单点计算，电荷为1，自旋多重度为2（alpha比beta电子多1个）：`xtb yoshiko.xyz --chrg 1 --uhf 1 -sp`
+1. 对yohane.xyz做甲苯溶剂下优化和振动分析。体系是默认的中性单重态：`xtb yohane.xyz --ohess --gbsa toluene`
+
+1. xtb运行时一方面会在屏幕上输出信息，同时也会在当前目录下产生一大堆文件。这些文件的含义在自带的文档里有说明。
+1. xtb目前有解析梯度，但只支持数值Hessian。`--hess`或`-ohess`任务做完会输出g98.out和g98_canmode.out。前者是模仿高斯freq输出格式来输出频率、红外强度、正则坐标。后者没用。
+1. `--opt`任务产生的xtbopt.xyz是最后结构的xyz坐标文件，其中第二行是对应的能量。xtbopt.log是含有优化过程每一帧的多帧xyz文件，后缀改为.xyz后就可以拖入VMD查看优化轨迹。
+1. Multiwfn可以载入xtb用`--molden`产生的molden.input文件做十分丰富的波函数分析，具体见sob文.
+
+### 参考资料
+1. [将Gaussian与Grimme的xtb程序联用搜索过渡态、产生IRC、做振动分析 ](http://sobereva.com/421)
+1. [将Gaussian与ORCA联用搜索过渡态、产生IRC、做振动分析](http://sobereva.com/422)
+1. [如何解压缩 tar.xz 文件](https://zhuanlan.zhihu.com/p/137121638)
+1. [使用Molclus结合xtb做的动力学模拟对瑞德西韦(Remdesivir)做构象搜索](http://bbs.keinsci.com/thread-16255-1-1.html)
+
+![](/img/wc-tail.GIF)

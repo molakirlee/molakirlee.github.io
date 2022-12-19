@@ -213,6 +213,9 @@ tags:
 1. [化工导航](https://www.hg-dh.com/)
 1. [小众软件](https://meta.appinn.net/)
 
+### 资源网站
+1. [Rutracker](http://rutracker.org/forum/index.php)
+
 ### 待整理
 1. [34款Windows软件中的神器：看片、安全杀毒、效率神器，它们最好用](https://mp.weixin.qq.com/s?__biz=MzU4Mjg3MDAyMQ==&mid=2247493139&idx=1&sn=e08171ebf30e749cf0c2ad0c2f8ea872&source=41#wechat_redirect)
 1. [我花了一个星期，整理了100个超强神器网站](https://mp.weixin.qq.com/s?__biz=Mzg2NzIzOTQ4NQ==&mid=2247498069&idx=3&sn=7908342a23d225a9fe1e1ae27fa47395&source=41#wechat_redirect)

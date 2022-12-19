@@ -911,6 +911,7 @@ var quotes = [
 '借假修真，以事炼人.',
 '优越感只不过是自卑感以倒立的姿态走路. -- 《奥修著作》',
 '阴在阳之内，不在阳之对. -- 老子',
+'You cannot swim for new horizons until you have courage to lose sight of the shore.',
 'Nothing for nothing.',
 '才情高超，清越脱俗.'
 ]

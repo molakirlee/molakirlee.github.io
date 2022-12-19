@@ -1,0 +1,33 @@
+---
+layout:     post
+title:      "2022-每周补脑17th"
+subtitle:   ""
+date:       2022-12-17 07:30:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2022
+
+
+---
+
+### 科研
+
+### 言论
+1. I believe that technology ultimately progresses because of people and the deepening of the process knowledge they possess, and that the creation of new tools and IP are the milestones of better training. -- [WangDan](https://danwang.co/2019-letter/)
+1. 日本的伊势大神社是这一类型中的一个非凡例子。每隔20年，看守人就会彻底拆除神社并重新建造。木制神社经过1200年的一次又一次重建。当地人希望确保他们永远不会忘记建造神社的生产知识。有一种非常明显的感觉，老一辈人想把建筑技术传授给年轻一代：下次我会把这些职责留给你。 -- [WangDan](https://danwang.co/how-technology-grows/)
+
+### 观点
+
+
+### 有趣
+
+### 荐书
+
+
+### 杂谈
+
+![](/img/wc-tail.GIF)

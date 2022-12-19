@@ -14,12 +14,18 @@
 1. [Medium: Explore new perspectives](https://medium.com/)
 1. [机器之心](https://www.jiqizhixin.com/industry)
 1. [新浪专栏 创世纪](https://tech.sina.com.cn/chuangshiji/)
+1. [中国聚合物网](http://www.polymer.cn/)
 
-###### 科技视频/课程
+
+###### 科技教育/视频
 1. [蔻享学术](https://www.koushare.com/)
+1. [Chemistry Library](https://chem.libretexts.org/)
 
 ###### 科技社区/网志
 1. [bioengx](http://www.bioengx.com/)
+
+###### 引擎
+1. [全球学者智库](http://www.globalauthorid.com/)
 
 ###### 其他社交媒体
 1. [Buzzing](https://www.buzzing.cc/)
