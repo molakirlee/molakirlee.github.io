@@ -1,6 +1,7 @@
 
 ### 笨重的躯壳里，有个待突破的灵魂
 
+### S&T
 ###### 期刊
 1. [Nature](https://www.nature.com/)
 1. [Science](https://www.sciencemag.org/)
@@ -15,6 +16,7 @@
 1. [机器之心](https://www.jiqizhixin.com/industry)
 1. [新浪专栏 创世纪](https://tech.sina.com.cn/chuangshiji/)
 1. [中国聚合物网](http://www.polymer.cn/)
+1. [领研网](https://www.linkresearcher.com/)
 
 
 ###### 科技教育/视频
@@ -29,5 +31,10 @@
 
 ###### 其他社交媒体
 1. [Buzzing](https://www.buzzing.cc/)
+
+### English
+1. [CNN International](https://edition.cnn.com/)
+1. [CNN 10](https://edition.cnn.com/cnn10)
+
 
 ![](/img/qrcode_wechat.jpg)
