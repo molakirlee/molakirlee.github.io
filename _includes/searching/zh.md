@@ -2,11 +2,16 @@
 ### 笨重的躯壳里，有个待突破的灵魂
 
 ###### 论文
+1. [Sci Hub YoviSun工具集](https://tool.yovisun.com/scihub/)
+1. [Sci Hub 企鹅论文](https://doi.qqsci.com/)
+
+1. [科研通](https://www.ablesci.com/so)
+1. [SciDown网盘](https://www.scidown.cn/wangpan/login.php?ref=3)
 1. [Connected Papers](https://www.connectedpapers.com/)
 1. [GreenMedical根哥学术](https://www.geenmedical.com/)
 1. [广西壮族自治区图书馆](http://www.gxlib.org.cn/)
-1. [Sci Hub YoviSun工具集](https://tool.yovisun.com/scihub/)
 1. [Core openAccess](https://core.ac.uk/)
+1. [国外博士论文](https://www.alexandria.ucsb.edu/catalog?utf8=%E2%9C%93&f%5Bwork_type_label_sim%5D%5B%5D=Text&search_field=all_fields&q=Israelachvili)
 
 ###### 专利
 1. [佰腾网](https://www.baiten.cn/)
@@ -25,6 +30,7 @@
 ###### Google Mirror
 1. [收集的一些google镜像 url](https://coderschool.cn/1853.html)
 1. [xgoogle](https://more.moorzon.com/)
+1. [Searx](https://searx.space/)
 
 ###### Wiki
 1. [xgoogle-wiki](https://xgoogle.xyz/extdomains/zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5)
