@@ -21,7 +21,7 @@
 
 ###### 科技教育/视频
 1. [蔻享学术](https://www.koushare.com/)
-1. [Chemistry Library](https://chem.libretexts.org/)
+1. [Chemistry LibreTexts](https://chem.libretexts.org/)
 
 ###### 科技社区/网志
 1. [bioengx](http://www.bioengx.com/)

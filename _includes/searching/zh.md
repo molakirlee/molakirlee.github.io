@@ -6,7 +6,16 @@
 1. [GreenMedical根哥学术](https://www.geenmedical.com/)
 1. [广西壮族自治区图书馆](http://www.gxlib.org.cn/)
 1. [Sci Hub YoviSun工具集](https://tool.yovisun.com/scihub/)
-1. []()
+1. [Core openAccess](https://core.ac.uk/)
+
+###### 专利
+1. [佰腾网](https://www.baiten.cn/)
+1. [专利汇](https://www.patenthub.cn/)
+1. [专利信息服务平台](http://search.cnipr.com/)
+1. [日本专利检索](https://www.j-platpat.inpit.go.jp/c1800/PU/JP-S51-029145/53BA2BF484F26C09E9C388FD2A0BFFA210A28B7436C52A700F842BF458CB5373/12/ja)
+
+###### 标准
+1. [标准网](https://www.biaozhun.org/)
 
 ###### Google Scholar Mirror
 1. [思谋学术](https://ac.scmor.com/)
@@ -24,5 +33,8 @@
 1. [Library Genesis](http://libgen.rs/)
 1. [PDF Drive](https://www.pdfdrive.com/)
 1. []()
+
+###### 其它资源
+1. [太平洋化工网](http://www.pacificcrn.com/index.php?m=Home&c=Index&a=index)
 
 ![](/img/qrcode_wechat.jpg)
