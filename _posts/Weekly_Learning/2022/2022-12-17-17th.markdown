@@ -34,6 +34,14 @@ tags:
 1. 日本的伊势大神社是这一类型中的一个非凡例子。每隔20年，看守人就会彻底拆除神社并重新建造。木制神社经过1200年的一次又一次重建。当地人希望确保他们永远不会忘记建造神社的生产知识。有一种非常明显的感觉，老一辈人想把建筑技术传授给年轻一代：下次我会把这些职责留给你。 -- [WangDan](https://danwang.co/how-technology-grows/)
 1. “睡觉少”其实是时间管理上的失败，是企望以苦劳代替功劳，规避质量检查的的投机取巧，也是对追求健康的人性的迷失，可以说是可怜可悲乃至可以为耻的行为。
 1. 每一个想要有所成就的人，成为管理者（首先是自己的管理者，然后是别人的管理者），或许是一个效率最高的方案。
+1. 我曾在甲骨文公司工作多年，这家公司完全是销售驱动的，销售人员通常会骗客户，并保证产品具有它所没有或没有得到很好支持的功能，把产品卖出去之后，再聘请昂贵的顾问使得产品能够跟演示的一致。如果说苹果是设计师文化，谷歌是工程师文化，那么我想说，甲骨文公司是销售文化。 -- [Hacker News](https://news.ycombinator.com/item?id=21550991)
+1. 如果我只能给其他程序员一个建议，那就是编写小的代码块，你要多写小方法、小功能、小程序。我自己写C＃时，当函数接近15或20行代码时，我会感到不舒服。我的限制是，一个函数最多最多就是24行代码，因为传统终端就是24行一屏。 -- [The 80/24 rule by Mark Seemann](https://blog.ploeh.dk/2019/11/04/the-80-24-rule/)
+1. 你为别人打工，就必须变成别人要求的样子。但这并不是你内心想要的，如果你想顺应自己的内心和天赋，就应该创业。这话没错，但是有一个前提才能成立：你已经定型了，很难被外界塑造了。 这个时候，你走自己的路，内心满意度会高一些。我觉得这是创业的第一个条件。据我观察，大部分的中国年轻人，达不到这个条件。他们都没有定型，人生观和世界观还在发展中。典型的表现就是，说不出自己想做什么，也不知道自己的竞争力在哪里。这种情况下，你不是一块特殊形状的拼图，而是没有自己的形状，还在塑造中。如果这样去创业，你的想法可能随着外界的变化，而不断变化，今天想东，明天想西，这是大忌。反而是给别人打工，公司明确告诉你成为什么形状，你就往这个方向努力。公司把你塑造成型，适合公司的需求，融合进公司的拼图。这就是为什么，大部分创业者都是离职后才创业，因为只有到了这个时候，他们才定型。希望大家在越是困难时刻，越不要盲目。 面对失业率上升，你要做的第一位的事情，就是尽快把自己锻造成型，形成稳定的心智和人格，磨练自己的技能。 -- Frank
+1. Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover. -- [Minecraft的结束语](https://minecraft.fandom.com/wiki/End_Poem)
+1. A day without distractions is a very long day. You don't need more time. You need more focus.（不分心的一天是非常漫长的一天。） -- [Twitter User](https://twitter.com/ash_lmb/status/1575108089711165441)
+1. 达芬奇综合症指的是，不停地想学新东西，做了很多新项目，但是实际完成的很少。更糟糕的是，你完全没有达芬奇的才华，却得了达芬奇的这种病。 -- [Leonardo Syndrome](https://thoughtfulatlas.bearblog.dev/leonardo-syndrome/)
+1. 开发者可以合理维护的项目数量，可以看作是他们的"承载能力"。如果你的负荷超过了你的承载能力，你维护的一些项目就肯定会死掉（表现为年久失修）。问题是开发者对自己的承载能力，是没有感觉的。他们总是会不自觉地接受新项目，所以我们才会有这么多不再维护的老项目。 -- [Know your carrying capacity](https://www.macchaffee.com/blog/2022/carrying-capacity/)
+1. _You_ were the owner of every resource in the machine and it all danced to your tune. And, best of all, you could come to a complete understanding of how every part of those machines worked, in just a few weeks of practice. Who today knows the intricacies of their laptops to the same extent? -- [Hacker News](https://news.ycombinator.com/item?id=33060083)
 
 ### 观点
 ###### [政事堂2019：如何成为自己“人生的CEO”](https://mp.weixin.qq.com/s/xhN4CuUDSP8L3E-Ft-AEog)
@@ -56,6 +64,9 @@ tags:
 抗战之初，由于日军在沿海封锁，中国军队所需要的汽油十分短缺，情势非常紧急，侯祥麟急国家之所急，投入到搞油的研究试验工作。当时并无石油可炼，侯祥麟就和一些工程技术人员研究从植物油中炼制柴油，用煤干馏制取人造石油再炼制汽油和柴油等技术工艺。为了弥补燃料的不足，他还设计建造设备，提炼酒精，掺入汽油中使用。抗日战争胜利前夕，为了建立党的科技干部队伍，周恩来指示派遣一批技术干部到国外深造。经组织批准，侯祥麟通过了自费留学考试，在经过许多周折筹措到经费后，于1945年来到美国匹兹堡，在卡乃基理工学院攻读化学工程学，同时在该校的煤炭研究室做研究工作。
 
 50年代，中国军用和民航所用航空煤油(喷气燃料)一直靠进口。当时石油部曾组织试产这种油料，但在地面试验和空中试飞时均出现喷气发动机火焰筒严重烧蚀问题。后来由于中苏关系恶化，航空煤油进口日渐减少，中国军民用飞机均面临即将飞不起来的危急局面。当时石油部部长曾沉重地说：“搞不出航空煤油来，我们过天安门都得低着头啊!”又对侯祥麟说：“你们再解决不了这个问题，我就把你们研究院的牌子倒过来挂!”在这种紧迫情势下，侯祥麟组织起6个研究室的力量，亲自带领科研人员日夜苦干。其时他夫人李秀珍也是攻关试验组的负责人，在1960年除夕夜里，夫妻俩把两个小女儿锁在家里一起到实验室里鏖战。经过研究、试验、失败，再研究、再试验、再失败……无数次的挫折和失败，无数次的总结、探索，分析、对比，他们终于找到镍铬火焰筒烧蚀的原因，并由他和副总工程师林风等一起研究出了一种从根本上解决这一难题的添加剂配方。试验很快取得成功，随后指导生产厂在1961年生产出合格的航空煤油，并于1962年正式供应中国民航和空军部队，1964年这项被定名为“33号添加剂”的发明被列为国家级成果，1965年，应用此添加剂生产的航空煤油获得国家新产品成果一等奖。
+
+###### [Arnold Schwarzenegger: Change the World](https://www.facebook.com/rise.goalcast/videos/arnold-schwarzenegger-change-the-world/1385556401589400/)
+施瓦辛格的演讲：Change the world，让人热血沸腾。
 
 ### 有趣
 

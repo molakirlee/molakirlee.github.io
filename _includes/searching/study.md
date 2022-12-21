@@ -38,7 +38,7 @@
 ###### Book
 1. [Library Genesis](http://libgen.rs/)
 1. [PDF Drive](https://www.pdfdrive.com/)
-1. []()
+1. [书享家](https://www.shuxiangjia.cn/)
 
 ###### 其它资源
 1. [太平洋化工网](http://www.pacificcrn.com/index.php?m=Home&c=Index&a=index)

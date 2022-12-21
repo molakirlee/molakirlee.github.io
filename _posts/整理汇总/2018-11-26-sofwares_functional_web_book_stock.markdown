@@ -70,6 +70,7 @@ tags:
 
 ### 办公
 ###### 办公套件
+1. [Slant: trustworthy product rankings for all your shopping needs](https://www.slant.co/)
 1. [PDF处理](https://pdfreal.com/)
 1. [onlyoffice](https://www.onlyoffice.com/zh/home-use.aspx)
 1. [doodle投票](https://doodle.com/en/)
@@ -94,6 +95,7 @@ tags:
 1. [共享白板](https://www.ourboard.io/)
 1. 软媒魔方
 1. 沙盘Sandboxie
+1. [MobaXterm:Enhanced terminal](https://mobaxterm.mobatek.net/)
 
 ### CS
 1. [将任何网页转为RSS](http://fetchrss.com/)
@@ -154,6 +156,7 @@ tags:
 1. [世界名画博物馆](https://gallerix.asia)
 
 ###### 图片处理
+1. [pixlr: 在线图像编辑](https://pixlr.com/cn/x/)
 1. [matlab处理图片](https://blogs.mathworks.com/steve/2012/11/13/image-effects-part-1/)
 1. [开源的在线图片编辑器](https://github.com/nhnent/tui.image-editor)
 1. [图片压缩](https://www.butterpig.top/compress)
@@ -165,6 +168,7 @@ tags:
 1. 去除图片中物体：[Cleanupphotos](https://cleanupphotos.com/)、[Lama Cleaner](https://github.com/Sanster/lama-cleaner)
 1. 黑白图片上色：[Palette](https://palette.fm/)、[DeOldify](https://github.com/jantic/DeOldify)
 1. 提高图片像素：[Upscayl](https://github.com/upscayl/upscayl)
+1. [toonify: 人物卡通化](https://toonify.photos/)
 
 ### 音频视频
 1. 飞熊影视

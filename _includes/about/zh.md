@@ -25,4 +25,10 @@ Hey，我是**神探玺洛克**，多出没于 “微信公众号”、 “知�
 
 一个工科男博士的游戏人生~
 
+友情链接：
+1. [Kaito's Blog](http://kaito-kidd.com/)
+1. [王垠: 当然我在扯淡](http://www.yinwang.org/#)
+1. [Thoughtful Atlas's Newsletter](https://thoughtfulatlas.substack.com/)
+1. [Visual Growth: Visual ideas for creative entrepreneurs](https://www.getrevue.co/profile/ashlamb?via=twitter-card&client=DesktopWeb&element=publication-card)
+
 ![](/img/qrcode_wechat.jpg)
