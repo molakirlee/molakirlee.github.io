@@ -21,7 +21,7 @@ QM cluster、ONION、QM/MM、QM/MM MD存在一定区别，具体内容可阅读[
 ### 软件选择
 ###### 单一程序
 1. Gaussian：支持AMBER、UFF、Direiding力场，可以以ONION方式将QM与MM结合做优化、震动分析、IRC
-1. Amber：经典力场的分子动力学程序，基于自带SQM半经验程序可以做QM/MM的优化和动力学
+1. Amber：经典力场的分子动力学程序，基于自带SQM半经验程序可以做QM/MM的优化和动力学;QM/MM体系的分配与模拟用AMBER12的sander来进行
 1. Q-Chem：支持AMBER、OPLS-AA、CHARMM力场，可直接做QM/MM和双层ONION的优化和动力学
 1. NWChem；支持AMBER、CHARMM力场，可直接做QM/MM的优化和动力学
 1. ADF：支持AMBER95、SYBYL力场，可以以ONION方式将QM与MM结合做优化

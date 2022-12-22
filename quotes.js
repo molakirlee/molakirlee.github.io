@@ -912,6 +912,13 @@ var quotes = [
 '优越感只不过是自卑感以倒立的姿态走路. -- 《奥修著作》',
 '阴在阳之内，不在阳之对. -- 老子',
 'You cannot swim for new horizons until you have courage to lose sight of the shore.',
+'自逼为王，他逼为臣，不逼为奴.',
+'外柔内柔人辱之，外刚内刚人毁之，外刚内柔人轻之，外柔内刚人敬之.',
+'马险不扬鞭，人难不添言，知人不评人.',
+'There is nothing more deceptive than an obvious fact. -- Arthur Conan Doyle, The Boscombe Valley Mystery',
+'My name is Sherlock Holmes. It is my business to know what other people do not know. --  Arthur Conan Doyle, The Adventure of the Blue Carbuncle',
+'What you do in this world is a matter of no consequence. The question is what can you make people believe you have done. -- Arthur Conan Doyle, A Study in Scarlet',
+'I am a brain, Watson. The rest of me is a mere appendix. -- Arthur Conan Doyle, The Adventure of the Mazarin Stone',
 'Nothing for nothing.',
 '才情高超，清越脱俗.'
 ]
