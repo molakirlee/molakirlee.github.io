@@ -904,23 +904,26 @@ var quotes = [
 'The smartest people understand that they are the most ignorant ones.',
 'Sometimes things go better when you just say no.',
 '一怒之下踢石头，只会痛着脚趾头.',
-'建大事者，不忌小怨.',
+'建大事者，不忌小怨. -- 《后汉书》',
 '君子之道，闇然而日章；小人之道，的然而日亡. -- 《中庸》',
-'N知识和实力是永远不会背叛你的.',
-'N只有拥抱变化，才能比别人更早发现机会.',
+'知识和实力是永远不会背叛你的.',
+'只有拥抱变化，才能比别人更早发现机会.',
 '借假修真，以事炼人.',
 '优越感只不过是自卑感以倒立的姿态走路. -- 《奥修著作》',
 '阴在阳之内，不在阳之对. -- 老子',
 'You cannot swim for new horizons until you have courage to lose sight of the shore.',
-'自逼为王，他逼为臣，不逼为奴.',
+'自逼为王，他逼为臣，不逼为奴. -- 董明珠',
+'你永远赚不到超出认知范围的钱，你所赚的每一分钱，都是你对这个世界认知的变现。你所亏的每一分钱，都是因为对这个世界认知有缺陷。这个世界最大的公平在于：当一个人财富大于自己的认知时，这个社会有100种方法收割你。直到你的认知和财富相匹配为止。. -- 董明珠',
 '外柔内柔人辱之，外刚内刚人毁之，外刚内柔人轻之，外柔内刚人敬之.',
 '马险不扬鞭，人难不添言，知人不评人.',
 'There is nothing more deceptive than an obvious fact. -- Arthur Conan Doyle, The Boscombe Valley Mystery',
 'My name is Sherlock Holmes. It is my business to know what other people do not know. --  Arthur Conan Doyle, The Adventure of the Blue Carbuncle',
 'What you do in this world is a matter of no consequence. The question is what can you make people believe you have done. -- Arthur Conan Doyle, A Study in Scarlet',
 'I am a brain, Watson. The rest of me is a mere appendix. -- Arthur Conan Doyle, The Adventure of the Mazarin Stone',
+'一般的傻子，你能够和他们说话，帮助他們；但是自以为是的傻子，明明是傻子，卻要把自己的傻遮盖起來，然后用花招让別人以为自己有多了不起。这种人我无法忍受. -- Richard Philip Feynman',
+'Kept in a small bowl,the goldfish will remain small.',
 'Nothing for nothing.',
-'才情高超，清越脱俗.'
+'才情高超，清越脱俗. -- 谪仙'
 ]
 
 var randomNumber1 = Math.floor(Math.random()*(quotes.length));//用Math.random产生0-1的随机数，乘以quotes的个数以获取quotes的随机序号；用Math.floor来取整后返回给变量randomNumber1
