@@ -940,6 +940,7 @@ var quotes = [
 '我特别喜欢和聪明人在一起工作，因为最大的好处是不用考虑他们的尊严. -- 乔布斯 （聪明人更关注自己的成长，时刻保持开放的心态，只关注于是不是在做“正确的事”，而不是想方设法，捍卫“面子”，证明“我没错”。）',
 '愿你内心也有着某种不灭的火焰，那样才会把你和别人区分开来. -- 冯大辉',
 'Wine is a good servant, but a bad master. -- 摩斯探长',
+'If it\'s your job to eat a frog, it\'s best to do it first thing in the morning. And If it\'s your job to eat two frogs, it\'s best to eat the biggest one first.麻烦的工作就像青蛙，你会因为恶心而不愿意吃掉它，但一旦吃掉了，最大的麻烦也就解决了. -- Mark Twain',
 'Nothing for nothing.',
 '才情高超，清越脱俗. -- 谪仙'
 ]
