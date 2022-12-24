@@ -920,7 +920,6 @@ var quotes = [
 'My name is Sherlock Holmes. It is my business to know what other people do not know. --  Arthur Conan Doyle, The Adventure of the Blue Carbuncle',
 'What you do in this world is a matter of no consequence. The question is what can you make people believe you have done. -- Arthur Conan Doyle, A Study in Scarlet',
 'I am a brain, Watson. The rest of me is a mere appendix. -- Arthur Conan Doyle, The Adventure of the Mazarin Stone',
-'一般的傻子，你能够和他们说话，帮助他們；但是自以为是的傻子，明明是傻子，卻要把自己的傻遮盖起來，然后用花招让別人以为自己有多了不起。这种人我无法忍受. -- Richard Philip Feynman',
 'Kept in a small bowl,the goldfish will remain small.',
 '一个人里有两个我，一个在黑暗中醒着，一个在光明中睡着. -- 纪伯伦',
 '爱不占有也不被占有，爱在爱中满足. -- 纪伯伦',
@@ -937,6 +936,10 @@ var quotes = [
 '除了通过黑夜的道路，人们不能到达黎明. -- 纪伯伦 ',
 '对安逸的欲望扼杀了灵魂的激情，而它还在葬礼上咧嘴大笑. -- 纪伯伦',
 '一个伟大的人有两颗心，一颗心流血，一颗心宽容. -- 纪伯伦', 
+'别把自己当回事，把自己做的事当回事.做正确的事情，无需考虑个人的情绪、别人的看法，只要昂首去做即可.',
+'我特别喜欢和聪明人在一起工作，因为最大的好处是不用考虑他们的尊严. -- 乔布斯 （聪明人更关注自己的成长，时刻保持开放的心态，只关注于是不是在做“正确的事”，而不是想方设法，捍卫“面子”，证明“我没错”。）',
+'愿你内心也有着某种不灭的火焰，那样才会把你和别人区分开来. -- 冯大辉',
+'Wine is a good servant, but a bad master. -- 摩斯探长',
 'Nothing for nothing.',
 '才情高超，清越脱俗. -- 谪仙'
 ]
