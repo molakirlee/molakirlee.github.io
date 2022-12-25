@@ -212,10 +212,10 @@ tags:
 1. cyn: 狗 cynic(cynical) kennel
 
 ###### D
-1. dain: 尊贵 disdain
+1. dain <dignity>: disdain
 1. damn/demn: 伤害，诅咒 damn condemn damage indemnify
 1. de(i): 神，神的 divine(divination) deity
-1. de: 离开，向下(引申为彻底离开，完全向下；表完全->表加强，表离开->没有，相反) deviance demolition defend deficiency detergent debate interdepend decrepit  
+1. de <down, off, away, from among, down from>: (引申为彻底离开，完全向下；表完全->表加强，表离开->没有，相反) deviance demolition defend deficiency detergent debate interdepend decrepit  
 1. deal: 交易 dealer
 1. dear: 珍贵的 dearth
 1. deavor: 债务，责任 endeavor
@@ -235,14 +235,14 @@ tags:
 1. dorm: 睡 drom dormant
 1. dors: 背 endorse
 1. dot: 给予 dote antidote anecdote
-1. dox: 观点 orthodox
-1. dra: 推动 dramatic
-1. drain: 排水 drainage
-1. dub: 不确定 dubious
-1. duc(t) <to lead>: deduce seduce conduce induce induct(inductive) conduct(conduction) 
-1. due: 预期的 overdue
-1. dur: 持续 durable endure
-1. dys: 坏 dystrophy
+1. dox <opinion, praise>: orthodox
+1. dra <to do, act, perform>: dramatic
+1. drain <making dry>: drainage
+1. dub <undecided between two things>: dubious
+1. duc(t) <to lead>: deduce conduce seduce induce induct(inductive) conduct(conduction) 
+1. due <owing, payable>: overdue
+1. dur <lasting, permanent>: durable endure
+1. dys <hard, bad, ill>: dystrophy
 
 ###### E
 1. e: 去，向外 erode eliminate evacuation
@@ -561,7 +561,7 @@ tags:
 1. oriety: 多 notoriety
 1. ora <to speak>: adore orate(oracle) exorable(inexorable)
 1. orn: 装饰 ornament adorn
-1. ortho: 正，直 orthodox orthopeady
+1. ortho <right, true, straight>: orthodox orthopeady
 1. ought: 应该 drought
 1. out: 超过 outdo
 1. oxy: 酸 oxygen
