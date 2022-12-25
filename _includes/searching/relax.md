@@ -10,8 +10,7 @@
 
 1. [MyFlixer: English subtitle](https://myflixer.to/)
 1. [Voice Tube](https://tw.voicetube.com/channels/animation?sortBy=publishedAt&page=1)
-1. []()
-1. []()
+1. [9anime](https://9anime.win/movie/detective-conan-dub/)
 
 
 ![](/img/qrcode_wechat.jpg)
