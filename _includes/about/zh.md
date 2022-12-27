@@ -33,4 +33,6 @@ Hey，我是**神探玺洛克**，多出没于 “微信公众号”、 “知�
 1. [Thoughtful Atlas's Newsletter](https://thoughtfulatlas.substack.com/)
 1. [Visual Growth: Visual ideas for creative entrepreneurs](https://www.getrevue.co/profile/ashlamb?via=twitter-card&client=DesktopWeb&element=publication-card)
 
+1. [科学网: 何毓琦](https://blog.sciencenet.cn/home.php?mod=space&uid=1565)
+
 ![](/img/qrcode_wechat.jpg)
