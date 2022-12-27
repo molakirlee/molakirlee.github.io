@@ -13,4 +13,7 @@
 1. [9anime](https://9anime.win/movie/detective-conan-dub/)
 
 
+1. [青麦QIMAI](https://www.qmmovies.com/)
+1. [稀饭影视](https://www.xifanys.com/)
+
 ![](/img/qrcode_wechat.jpg)
