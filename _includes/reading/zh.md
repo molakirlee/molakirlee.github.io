@@ -56,6 +56,7 @@
 ### CC
 1. [野生架构师](https://www.getrevue.co/profile/lcomplete)
 1. [人人都是产品经理](https://www.woshipm.com/)
+1. [Codenews: 小工具发明创造](https://codenews.cc/)
 
 ### Live
 1. [Puffer: U.S. TV](https://puffer.stanford.edu/player/)

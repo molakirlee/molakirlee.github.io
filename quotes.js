@@ -945,6 +945,7 @@ var quotes = [
 '在压力下如果温顺示弱,反而回遭受更多的打骂;只有坚决反抗的办法,才能保护自己. -- 《毛泽东传》',
 'It\'s no use going back to yesterday,because I was a different person then.回顾昨天室无用处,因为我已今非昔比.',
 'I wouldn\'t give up being myself for even one second.',
+'A positive attitude will have positive results.',
 'Nothing for nothing.',
 '才情高超,清越脱俗. -- 谪仙'
 ]
