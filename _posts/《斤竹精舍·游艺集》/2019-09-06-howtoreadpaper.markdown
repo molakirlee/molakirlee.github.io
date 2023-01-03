@@ -88,6 +88,9 @@ tags:
 1. summary
 1. significants(展望)
 
+### SciFinder教程
+1. [CAS SciFinder 应用案例精选 纳米催化剂制备检索策略...](https://mp.weixin.qq.com/s/wy-QX0Cigfve1L_jiNEg-g)
+
 ### 参考资料
 1. [S. Keshav: 如何阅读科研论文](https://blog.csdn.net/qianlong4526888/article/details/11269129)
 
