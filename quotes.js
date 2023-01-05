@@ -946,6 +946,13 @@ var quotes = [
 'It\'s no use going back to yesterday,because I was a different person then.回顾昨天室无用处,因为我已今非昔比.',
 'I wouldn\'t give up being myself for even one second.',
 'A positive attitude will have positive results.',
+'路虽远,行则将至;事虽难,做则必成. -- 《荀子·修身》',
+'道阻且长,行则将至;行而不辍,未来可期. -- 人民论坛网',
+'脚踏实地把每件平凡的事做好,一切平见的人都可以获得不平见的人生. -- 人民论坛网',
+'半山腰总是最挤的,你得去山顶看看. -- 人民论坛网',
+'历经沧桑而初心不改,饱经风霜而本色依旧. -- 人民论坛网',
+'每个为梦想努力的你,都很了不起. -- 人民论坛网',
+'Trust is earned.',
 'Nothing for nothing.',
 '才情高超,清越脱俗. -- 谪仙'
 ]

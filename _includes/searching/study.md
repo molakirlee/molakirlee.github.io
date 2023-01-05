@@ -28,6 +28,7 @@
 1. [99学术](http://xueshu.99lb.net/)
 
 ###### Google Mirror
+1. [生物医学之家](http://www.swyxzj.com/)
 1. [收集的一些google镜像 url](https://coderschool.cn/1853.html)
 1. [xgoogle](https://more.moorzon.com/)
 1. [Searx](https://searx.space/)
