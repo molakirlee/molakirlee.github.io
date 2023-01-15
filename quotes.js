@@ -962,6 +962,8 @@ var quotes = [
 '为了想清楚昨天为什么失眠,今天,又失眠了.',
 '要是每个人都懂你,那你得有多平凡.',
 '大多数的不快乐,是因为我们追求的不是幸福,而是比别人幸福.',
+'Without the dark,we\'d never see the stars.',
+'God makes people lonely in a variety of ways so that we can go to ourselves.',
 '路见不平,绕道而行.',
 'Nothing for nothing.',
 '才情高超,清越脱俗. -- 谪仙'
