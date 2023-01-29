@@ -965,6 +965,10 @@ var quotes = [
 'Without the dark,we\'d never see the stars.',
 'God makes people lonely in a variety of ways so that we can go to ourselves.',
 '路见不平,绕道而行.',
+'There is always a way when things look like there is no way.有时候看似以山穷水尽，但其实正在柳暗花明处.',
+'Your faith is all that keeps me going.',
+'The more dumplings you eat,the more money you make.',
+'Anger begets greater anger.',
 'Nothing for nothing.',
 '才情高超,清越脱俗. -- 谪仙'
 ]
