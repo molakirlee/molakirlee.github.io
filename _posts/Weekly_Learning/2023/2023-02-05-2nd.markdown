@@ -1,0 +1,34 @@
+---
+layout:     post
+title:      "2023-每周补脑2nd"
+subtitle:   ""
+date:       2023-02-05 05:30:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2023
+
+
+---
+
+### 科研
+
+### 言论
+1. 费曼最大的特点之一，就是拥有永不满足的好奇心。从玛雅象形文字到非洲鼓，再到猫的解剖，他什么都学。而且，每当发现一个感兴趣的主题时，他从不等待老师出现，而是决心自己掌握它。 -- [A look inside Feynman’s calculus notebook](https://physicstoday.scitation.org/do/10.1063/PT.5.9099/full/)
+1. 对于整整一代精英工程师来说，大型互联网公司提供了终极的职业退出策略。如果你的创业公司失败了，或者你不喜欢学术界，或者你只是在寻找人生的下一个阶段，并且对 IT 技术很在行，那么大型互联网公司会在那里等着你，提供一份可以让你在美丽的沿海地区找到一所漂亮房子的工作机会，一群才华横溢且友好的同事，以及舒适的退休生活。现在，随着这些公司开始裁员，这种日子或多或少结束了。 -- [The Big Tech layoffs are a turning point](https://noahpinion.substack.com/p/the-big-tech-layoffs-are-a-turning)
+1. 美国社会追求个人的物质成功，通俗地说，就是鼓励尽可能快地获得尽可能多的东西，不惜一切代价赢得胜利。这种文化使得美国变成，一个大量生产精神病患者和孤独者的国家。 -- [Thanksgiving thoughts](https://walkingtheworld.substack.com/p/happy-thanksgiving)
+
+### 观点
+
+### 有趣
+1. 代码刷和代码校正：[Code brushes for GitHub Copilot](https://christianheilmann.com/2022/12/13/code-brushes-for-github-copilot/)
+1. ChatGPT替代：[ChatRWKV](https://github.com/BlinkDL/ChatRWKV)
+### 荐书
+
+
+### 杂谈
+
+![](/img/wc-tail.GIF)

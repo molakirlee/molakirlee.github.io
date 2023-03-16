@@ -970,6 +970,15 @@ var quotes = [
 'The more dumplings you eat,the more money you make.',
 'Anger begets greater anger.',
 'Nothing for nothing.',
+'受益惟谦， 有容乃大 -- 袁可立.',
+'Every obstacle is an opportunity.',
+'The only thing stronger than you is you tomorrow. ',
+'Always take every opportunity that comes your way.',
+'The strongest person is the one who isn\'t scared to be alone.',
+'Positive thinking initiates more happiness !',
+'Before finding the right person, the only thing you need to do is to make yourself good enough.',
+'It is always darkest just before the dawn.',
+'既坠釜甑，反顾无益；已覆之水，收之实难.',
 '才情高超,清越脱俗. -- 谪仙'
 ]
 
