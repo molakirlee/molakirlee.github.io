@@ -35,12 +35,26 @@ tags:
 1. The key skill seems not to be reading, but skipping the non relevant stuff. Get better at skipping stuff that's not worth it given our short lives! -- [Hacker News](https://news.ycombinator.com/item?id=34310318)
 1. 艺术家看到的不是世界的本来面目，而是一些更丰富、更简单、更强大的东西。艺术作品不是为了让观众重温现实，而是从现实中创造出一些东西，把一种更强烈的情绪传递给观众。 -- [Photo Editing: Respecting Context](https://simonsarris.substack.com/p/photo-editing-respecting-context)
 1. 我不考虑使用投票来选择政策。我认为这表明了领导人思想上的虚弱，无法规划路线。媒体鼓励人们走哪条路，你就跟着走。你就不是领导者。 -- 李光耀
+1. 善用心者，心田不长无明草，处处常开智慧花。
+1. 时光长短，唯心所造。一切苦乐，随境所迁。
+1. 精进勇猛，有大愿力，难的会变为易。疏散放逸，悠悠忽忽，易的也变为难。
+1. 有憎爱心，就有烦恼；憎心一起，道心就退。
+1. 生日又云母难日，自哀未遑，切不可作寿庆贺。
+1. 心平何劳持戒？行直何用参禅？ -- 惠能
 
 
 ### 观点
-1. [如何定价](https://news.ycombinator.com/item?id=32701769)
+###### [如何定价](https://news.ycombinator.com/item?id=32701769)
 如果你不知道自己收取的费用是否太少，或者市场的合理价格是多少，你就翻倍报价。如果你还能拿到合同，可以尝试稳步提价，直到你拿不到合同为止。只有这样才能知道真正的价格天花板在哪里。但是，你必须记住，如果收取的费用高，客户就会有更高的期望。我有一些报价在100美元/小时以下，这个价格并不高，但我还是愿意接受，因为客户的要求也没有很高。如果报价是200美元/小时，客户就会有很多挑剔的要求，要求你做这做那。虽然我收到的钱多了，但是我可能更想终止合同。客户的观念是"一分钱一分货"，如果你达不到他们的要求，双方的关系就会陷入困境。如果你的报价很高，并且客户也愿意接受，你就可以打入高端的细分市场了。那是个好地方！总之，还是这句老话，如果你的报价翻倍，而只失去一半的客户，那么你就赢了。
-
+###### [吴军：富足人生的7个台阶](https://mp.weixin.qq.com/s/HUoHpNh_aFu7icQCisr6ew)
+1. 做选择时，要有负数的概念。想到可能的损失，自己能不能承担。会不会掉入到深渊里，爬不出来。
+1. 做好减法。
+1. 学会用乘法。找到能复用的技能、资源，是聪明人的做事方式。
+1. 积累足够的经验。每次做一件事情，都要确保这件事依赖我过去的经验。然后，做这件事情，还要帮助我再次提升经验，能让我进步。废掉一个人的方法，就是让他没时间思考。
+1. 分得清别人到底要什么。真正给自己提要求，应该是要比对手好一个“代差”。能做出10倍好的东西，提高10倍的效率，把10倍放在心里，当成目标。
+1. 做大：授权，并信任.
+1. 精神：找到真正的快乐
+1. 富足，是免于恐惧的自由.
 ### 有趣
 1. [Matt Mullenweg who built WordPress from scratch](https://levelup.gitconnected.com/meet-a-programmer-who-turned-an-open-source-platform-into-a-7-500-000-000-company-645e14c53c8)
 1. [Mathmatic创始人Stephen Wolfram：Seeking the Productive Life: Some Details of My Personal Infrastructure](https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/)
