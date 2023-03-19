@@ -17,15 +17,38 @@ tags:
 ### 科研
 
 ### 言论
+1. 你应该开始写博客，如果不知道写什么，就写你学到的东西，以及写下你创造或建立的东西。 -- [What to blog about](https://simonwillison.net/2022/Nov/6/what-to-blog-about/)
 1. 费曼最大的特点之一，就是拥有永不满足的好奇心。从玛雅象形文字到非洲鼓，再到猫的解剖，他什么都学。而且，每当发现一个感兴趣的主题时，他从不等待老师出现，而是决心自己掌握它。 -- [A look inside Feynman’s calculus notebook](https://physicstoday.scitation.org/do/10.1063/PT.5.9099/full/)
 1. 对于整整一代精英工程师来说，大型互联网公司提供了终极的职业退出策略。如果你的创业公司失败了，或者你不喜欢学术界，或者你只是在寻找人生的下一个阶段，并且对 IT 技术很在行，那么大型互联网公司会在那里等着你，提供一份可以让你在美丽的沿海地区找到一所漂亮房子的工作机会，一群才华横溢且友好的同事，以及舒适的退休生活。现在，随着这些公司开始裁员，这种日子或多或少结束了。 -- [The Big Tech layoffs are a turning point](https://noahpinion.substack.com/p/the-big-tech-layoffs-are-a-turning)
 1. 美国社会追求个人的物质成功，通俗地说，就是鼓励尽可能快地获得尽可能多的东西，不惜一切代价赢得胜利。这种文化使得美国变成，一个大量生产精神病患者和孤独者的国家。 -- [Thanksgiving thoughts](https://walkingtheworld.substack.com/p/happy-thanksgiving)
+1. 乔布斯的营销方法，从来不侧重于产品规格，而是侧重于产品对人们的价值。 -- David Perell
+1. 大多数编程不再是艺术，也不再是高级工程。大多数程序都是微不足道的：编码人员只需要理解某些特定的接口，然后编写一些逻辑和胶水代码。 -- [Antirez，Redis 的作者](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)
+1. 我真正担心的是，今天的很多编程没有任何乐趣，它只是集合别人的软件，把组件拼起来并启动，不需要太多的创造力。我担心编程会变得太无聊，因为你没有机会做任何新鲜事。你的兴奋来自于看到机器产生出来的有趣结果，而不是来自创造新事物的过程。现在的乐趣变成，当你完成无聊的工作后，会突然得到一个很棒的结果，但在以前，工作本身并不乏味。  -- [Donald Knuth](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/)
+1. We suffer more in imagination than in reality. -- [Hacker News](https://news.ycombinator.com/item?id=33877124)
+1. Marketing is the humble act of accepting that people out there are not your mother or father. They won't give you attention. It is your duty to market your product. It is your duty to make people care. -- [No one cares](https://rohit.blog/care/)
+1. React 团队对开发者面对的实际问题，似乎一无所知，只关注一些不那么重要的事情。他们设计了很多新的做法（比如事件处理、数据获取等等），确实可以更快地加载网页。但是让开发者关注这些东西，对于高级用途来说，这是完全错误的。 -- [Get in Zoomer, We're Saving React Looking back, and forward](https://acko.net/blog/get-in-zoomer-we-re-saving-react/)
+1. 领导者的作用不是行使权力，而是分配权力。有效的领导者通过设定方向、确定人员（找到具有正确技能和背景的人）、授权他人、确保决策执行，来节省自己的时间，并扩大自己的影响。 -- [My Startup Mantras 1-7](https://hackernoon.com/optimize-for-alignment-not-control-great-leaders-serve-and-more-startup-mantras)
+1. 在程序员心中，他们认为自己是建筑师。当他们来到一个新地方，他们想做的第一件事就是推平这个地方，并建造一些宏伟的东西。程序员对渐进式翻新不感兴趣：修修补补、改进、在花坛种上绿植......他们不想做这些事，他们总是想扔掉旧代码并重新开始，原因并非是认为旧代码一团糟，而是编程的一个基本法则：阅读代码比编写代码更难。 -- [It's harder to read code than to write it](https://www.devshirt.club/developer-shirt/its-harder-to-read-code-than-to-write-it)
+1. 曾经有一段时间，成为一名全栈开发人员是可能的，可以做到对中等复杂系统的每一层都有很好的熟悉度。但是，今天的系统涉及太多的组件，想要掌握每个堆栈的每个组件，是不切实际的。正如一位开发者所说："程序员现在不得不在数百个 API 之间充当某种巨大的手动管理层。" -- [A Faster Horse](https://redmonk.com/sogrady/2022/12/09/faster-horse/)
+1. 人是由他们的经历和生活环境塑造的。如果不发生一些疯狂的事情，就不可能迅速改变一个人。 -- [Start with the Least Malleable](https://devpoga.org/blog/2023-01-02_start_with_the_least_malleable/)
+1. 博客获取灵感，书籍获取知识。 -- [Hacker News](https://news.ycombinator.com/item?id=34310109)
+1. The key skill seems not to be reading, but skipping the non relevant stuff. Get better at skipping stuff that's not worth it given our short lives! -- [Hacker News](https://news.ycombinator.com/item?id=34310318)
+1. 艺术家看到的不是世界的本来面目，而是一些更丰富、更简单、更强大的东西。艺术作品不是为了让观众重温现实，而是从现实中创造出一些东西，把一种更强烈的情绪传递给观众。 -- [Photo Editing: Respecting Context](https://simonsarris.substack.com/p/photo-editing-respecting-context)
+1. 我不考虑使用投票来选择政策。我认为这表明了领导人思想上的虚弱，无法规划路线。媒体鼓励人们走哪条路，你就跟着走。你就不是领导者。 -- 李光耀
+
 
 ### 观点
+1. [如何定价](https://news.ycombinator.com/item?id=32701769)
+如果你不知道自己收取的费用是否太少，或者市场的合理价格是多少，你就翻倍报价。如果你还能拿到合同，可以尝试稳步提价，直到你拿不到合同为止。只有这样才能知道真正的价格天花板在哪里。但是，你必须记住，如果收取的费用高，客户就会有更高的期望。我有一些报价在100美元/小时以下，这个价格并不高，但我还是愿意接受，因为客户的要求也没有很高。如果报价是200美元/小时，客户就会有很多挑剔的要求，要求你做这做那。虽然我收到的钱多了，但是我可能更想终止合同。客户的观念是"一分钱一分货"，如果你达不到他们的要求，双方的关系就会陷入困境。如果你的报价很高，并且客户也愿意接受，你就可以打入高端的细分市场了。那是个好地方！总之，还是这句老话，如果你的报价翻倍，而只失去一半的客户，那么你就赢了。
 
 ### 有趣
+1. [Matt Mullenweg who built WordPress from scratch](https://levelup.gitconnected.com/meet-a-programmer-who-turned-an-open-source-platform-into-a-7-500-000-000-company-645e14c53c8)
+1. [Mathmatic创始人Stephen Wolfram：Seeking the Productive Life: Some Details of My Personal Infrastructure](https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/)
+1. [How I make a living working on SerenityOS](https://awesomekling.github.io/How-I-make-a-living-working-on-SerenityOS/)
 1. 代码刷和代码校正：[Code brushes for GitHub Copilot](https://christianheilmann.com/2022/12/13/code-brushes-for-github-copilot/)
 1. ChatGPT替代：[ChatRWKV](https://github.com/BlinkDL/ChatRWKV)
+1. [CSS 特效和组件:handsome-css3-lib](https://www.handsome-css.com/)
+1. [IBM's asshole test](https://johnpublic.mataroa.blog/blog/the-asshole-test/)
 ### 荐书
 
 
