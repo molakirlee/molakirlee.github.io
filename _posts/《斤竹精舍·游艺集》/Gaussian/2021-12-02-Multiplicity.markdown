@@ -35,4 +35,13 @@ tags:
 1. [含Fe的离子团簇自旋多重度确定求助](http://bbs.keinsci.com/thread-25231-1-1.html)
 1. [实例操作之自旋多重度判断](https://www.ceshigo.com/article/10422.html)
 
+
+### 待看的自旋多重度确定资料
+1. [What are the alpha orbitals and beta orbitals and their importance in DFT calculations?](https://www.researchgate.net/post/What_are_the_alpha_orbitals_and_beta_orbitals_and_their_importance_in_DFT_calculations)
+1. [关于双自由基算法求助](http://bbs.keinsci.com/thread-4520-1-1.html)
+1. [如何计算gaussian的自旋多重度](http://blog.sciencenet.cn/home.php?mod=space&uid=485752&do=blog&id=1115385)
+1. [Gaussian量化模拟入门教程（三）：实例操作之自旋多重度的判断](https://zhuanlan.zhihu.com/p/272682337)
+
+
+
 ![](/img/wc-tail.GIF)

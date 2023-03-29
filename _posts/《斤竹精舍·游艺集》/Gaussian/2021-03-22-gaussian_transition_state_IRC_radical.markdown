@@ -39,7 +39,7 @@ tags:
 1. [简谈Gaussian里找过渡态的关键词opt=TS和QST2、3](http://sobereva.com/460)
 1. [Gaussian中几何优化收敛后Freq时出现NO或虚频的原因和解决方法](http://sobereva.com/278)
 1. [在Gaussian中计算IRC的方法和常见问题](http://sobereva.com/400)
-1. []()
+1. [过渡态、反应路径的计算方法及相关问题](http://sobereva.com/44)
 
 ### 双自由基
 

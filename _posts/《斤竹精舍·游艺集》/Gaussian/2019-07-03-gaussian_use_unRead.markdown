@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gaussian使用笔记 整理&待阅读"
+title:      "Gaussian 使用笔记 整理&待阅读"
 subtitle:   ""
 date:       2019-07-03 20:38:00
 author:     "XiLock"
@@ -34,9 +34,8 @@ tags:
 
 
 ### 杂整理
-1. [坚持使用B3LYP算有机体系的人的下场](http://bbs.keinsci.com/thread-12773-1-1.html)：用M06-2X算有机体系极为推荐，B3LYP算有机体系早该淘汰了；鼓励使用def或def2基组代替尺寸相近的Pople基组。
-1. [谈谈量子化学研究中什么时候用B3LYP泛函优化几何结构是适当的](http://bbs.keinsci.com/thread-17899-1-1.html)
-1. 室温几个小时反应完的反应，能垒应该是90kJ/mol左右。
+
+
 
 ### 基础资料
 1. [绎模科技](http://www.emoltech.com/?p=43&mdtp=2)
@@ -46,10 +45,5 @@ tags:
 1. [怎样计算一个有机分子中质子供体的酸性和质子受体的碱性?](http://bbs.keinsci.com/thread-19043-1-1.html)
 1. [使用Multiwfn的定量分子表面分析功能预测反应位点、分析分子间相互作用](http://sobereva.com/159)
 
-#### 自旋多重度确定
-1. [What are the alpha orbitals and beta orbitals and their importance in DFT calculations?](https://www.researchgate.net/post/What_are_the_alpha_orbitals_and_beta_orbitals_and_their_importance_in_DFT_calculations)
-1. [关于双自由基算法求助](http://bbs.keinsci.com/thread-4520-1-1.html)
-1. [如何计算gaussian的自旋多重度](http://blog.sciencenet.cn/home.php?mod=space&uid=485752&do=blog&id=1115385)
-1. [Gaussian量化模拟入门教程（三）：实例操作之自旋多重度的判断](https://zhuanlan.zhihu.com/p/272682337)
 
 ![](/img/wc-tail.GIF)

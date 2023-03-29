@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      "2023-每周补脑3rd"
+subtitle:   ""
+date:       2023-03-24 05:30:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2023
+
+
+---
+
+### 科研
+
+### 言论
+1. 亚马逊创始人贝佐斯禁止在公司使用 Powerpoint，他觉得这种方式太低效了。以前，每当有人站在他面前演示幻灯片，刚说了开头几句，贝佐斯就要那个人直接切换到最后一张幻灯片，展示他的结论。 -- [Compress to impress](https://www.eugenewei.com/blog/2017/5/11/jpeg-your-ideas)
+1. 现代数学理论书籍只有两种：一种是第一页就读不下去，另一种是第一句就读不下去。 -- [杨振宁](https://www.math.columbia.edu/~woit/wordpress/?p=674)
+1. 苹果公司的招聘理念就是两点。（1）优秀人才是自我管理的，但需要领导者为大家提供一个共同目标。（2） 只有某个人看到 Macintosh 电脑感到无比兴奋，我们才会雇佣他。 -- [Jobs](https://www.youtube.com/watch?v=fj0hpsJvrko)
+
+### 观点
+
+
+### 有趣
+1. [Skech Up教程:A Simple Guide to Architectural Rendering](https://www.strongtowns.org/journal/2017/8/29/a-simple-guide-to-architectural-rendering)
+
+
+### 荐书
+
+
+### 杂谈
+
+![](/img/wc-tail.GIF)

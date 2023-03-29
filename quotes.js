@@ -980,6 +980,7 @@ var quotes = [
 'It is always darkest just before the dawn.',
 '既坠釜甑,反顾无益；已覆之水,收之实难.',
 '行动是绝望的解药.(Action is the antidote to despair.) -- Joan Baez',
+'The more we study,the more we discover our ignorance.',
 '才情高超,清越脱俗. -- 谪仙'
 ]
 
