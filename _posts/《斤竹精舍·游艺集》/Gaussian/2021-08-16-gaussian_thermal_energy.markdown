@@ -74,6 +74,7 @@ tags:
 Sob老师开发了一个计算热力学数据的小软件，做完opt、freq、高精度单点后，用Shermo可以很方便的得到热力学量，具体参见：
 1. [使用Shermo结合量子化学程序方便地计算分子的各种热力学数据](http://sobereva.com/552)
 1. [Shermo：计算气相分子配分函数和热力学数据的简单程序](http://sobereva.com/315)  
+1. [各来源谐振校正因子汇总表格](http://bbs.keinsci.com/forum.php?mod=viewthread&tid=3805)
 
 
 ### 参考资料  
