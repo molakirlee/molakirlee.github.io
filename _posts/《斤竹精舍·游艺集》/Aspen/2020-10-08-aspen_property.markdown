@@ -15,6 +15,7 @@ tags:
 
 ---
 
+1. Aspen help文件：[Aspen 8.4 Property Methods](https://molakirlee.github.io/attachment/aspen/Aspen_8p4_PropertyMethods.pdf)
 
 ##### 物性估算
 1. [物性估算在 ASPEN PLUS软件中的应用](https://molakirlee.github.io/attachment/aspen/aspen_property_estimation.PDF)
