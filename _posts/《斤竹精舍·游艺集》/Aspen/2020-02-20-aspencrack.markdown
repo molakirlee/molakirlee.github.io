@@ -45,9 +45,32 @@ tags:
 
 
 ### Q&A
-1. 使用Sentinel.RMS.8.5.1.Server时遇到“The system cannot retrieve the servers, there is no response to the broadcast.”一般是因为修改了计算机名，可参照[这篇文章](https://gateway.sdl.com/apex/communityknowledge?articleName=000005725)来解决问题。
-1. “not able to successfully connect to any of the database and will not be able to use them in this simulation”的时候重新挂载一下Datebase，即：程序—— AspenTech——Process Modeling V8.4——Aspen Properties——
+###### The system cannot retrieve the servers, there is no response to the broadcast.
+使用Sentinel.RMS.8.5.1.Server时遇到“The system cannot retrieve the servers, there is no response to the broadcast.”一般是因为修改了计算机名，可参照[这篇文章](https://gateway.sdl.com/apex/communityknowledge?articleName=000005725)来解决问题。
+
+###### not able to successfully connect to any of the database and will not be able to use them in this simulation
+“not able to successfully connect to any of the database and will not be able to use them in this simulation”的时候重新挂载一下Datebase，即：程序—— AspenTech——Process Modeling V8.4——Aspen Properties——
 Aspen Properties Datebase Configuration Tester打开后点一下`Start`；（中间可能要两次点击start，中间过程自动配置好，本条参考AspenOneV8安装教程）
+
+###### Aspen12没有流股信息
+Aspen V12.0运行后没有流股信息的话，安装这个补丁：[](https://molakirlee.github.io/attachment/aspen/AspenV12_RepairNostreamInformation.rar)
+
+###### F CALCULATIONS  FAIL, SUPPLY T-EST AND OPTIONALLY BOTH X-EST AND Y-EST.
+'''
+- INFORMATION 
+
+  FLASH CALCULATIONS FAILED TO CONVERGE IN 30  ITERATIONS.  COMPOSITE FEED  FLASH FAILED TO CONVERGE; COLUMN CALCULATIONS CONTINUE.  IF CALCULATIONS  FAIL, SUPPLY T-EST AND OPTIONALLY BOTH X-EST AND Y-EST.
+  
+** ERROR
+  RADFRAC NOT CONVERGED IN 200 OUTSIDE LOOP ITERATIONS.
+'''
+出现这个问题时，在收敛项中，设置第1块塔板（塔顶冷凝器）估算温度为XX摄氏度，重置、运行。
+
+###### 计算液体热容
+环戊二烯与乙烯加成生成降冰片烯的反应大量放热，因此体系内物质比热容非常重要。
+通过中文、Norboenene搜索降冰片烯热容只找到了理想气体比热容，但实际需要液体比热容，因此尝试使用aspen进行估算。可发现aspen默认是不显示液体比热容的，通过网络检索同时对照aspen的help文件，发现要将Method-Parameter-pure component里的THRSWT/6改为100或114或124，（如改为100，此时采用DIPPR方法计算液体比热容，将HL改为HL09为同理），顺利得到了降冰片烯的比热容。
+后通过降冰片烯的别名Bicyclo[2.2.1]hept-2-ene（IUPAC名）和thermodynamic进行检索，找到一篇1996年的文献里有数据，经与aspen估算结果对比，降冰片烯在200°C时比热容均为0.23xxx kJ/(mol·K)，估算结果可靠。
+
 
 ### 说明
 1. 该破解方法适用于10.0及以前版本。破解虚拟机时，WlmAdmin那部可能耗时1.5小时左右。
