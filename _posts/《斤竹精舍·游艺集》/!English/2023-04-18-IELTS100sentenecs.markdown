@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "英语 "
+title:      "英语 7000雅思词汇用100个句子记完"
 subtitle:   ""
 date:       2023-04-18 20:21:00
 author:     "XiLock"

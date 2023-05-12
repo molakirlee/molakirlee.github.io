@@ -984,6 +984,8 @@ var quotes = [
 'When all else is lost,the future still remains.就算失去了一切别的东西，也还有未来。',
 'The answer must be in the attempt.你所追寻的答案一定会在努力探索中展现。',
 'Living means limitless possibilities.',
+'打得一拳开，免得百拳来. -- 毛泽东'
+'自知者不怨人，知命者不怨天；怨人者穷，怨天者无志. -- 《荀子·荣辱》'
 '才情高超,清越脱俗. -- 谪仙'
 ]
 
