@@ -44,5 +44,6 @@
 
 ###### 其它资源
 1. [太平洋化工网](http://www.pacificcrn.com/index.php?m=Home&c=Index&a=index)
+1. [共沸点·饱和蒸汽压查询](http://azeotrope.info/)
 
 ![](/img/qrcode_wechat.jpg)
