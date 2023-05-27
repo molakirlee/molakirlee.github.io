@@ -995,6 +995,11 @@ var quotes = [
 'Let\'s seize the day and live it to the fullest. 只争朝夕，不负韶华。'
 'A person often meets his destiny on the road he took to avoid it.'
 'Youth is not a time of life; it is a state of mind.'
+'It\'s okay to be scared. In order to be brave, we got to be a little scared.'
+'It is much more difficult to judge oneself than to judge others.'
+'People are afraid of what they don\'t understand.'
+'I see an opportunity, and I make it happen. 只要有机会，我就绝不让它溜走。'
+'You don\'t have to let the result of one mistake be the thing that defines you. '
 '才情高超,清越脱俗. -- 谪仙'
 ]
 
