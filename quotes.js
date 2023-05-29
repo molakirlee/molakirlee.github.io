@@ -984,22 +984,22 @@ var quotes = [
 'When all else is lost,the future still remains.就算失去了一切别的东西，也还有未来。',
 'The answer must be in the attempt.你所追寻的答案一定会在努力探索中展现。',
 'Living means limitless possibilities.',
-'打得一拳开，免得百拳来. -- 毛泽东'
-'自知者不怨人，知命者不怨天；怨人者穷，怨天者无志. -- 《荀子·荣辱》'
-'Those who follow the light will eventually be radiant.'
-'No road of flowers leads to glory.'
-'Do not let your emotions override your judgment.'
-'When you start to live the life you have been wanting, all the scars of the past will become medals.'
-'Don\'t let anyone ever make you feel like you don\'t deserve what you want.'
-'May you be loyal to yourself, live like yourself.'
-'Let\'s seize the day and live it to the fullest. 只争朝夕，不负韶华。'
-'A person often meets his destiny on the road he took to avoid it.'
-'Youth is not a time of life; it is a state of mind.'
-'It\'s okay to be scared. In order to be brave, we got to be a little scared.'
-'It is much more difficult to judge oneself than to judge others.'
-'People are afraid of what they don\'t understand.'
-'I see an opportunity, and I make it happen. 只要有机会，我就绝不让它溜走。'
-'You don\'t have to let the result of one mistake be the thing that defines you. '
+'打得一拳开，免得百拳来. -- 毛泽东',
+'自知者不怨人，知命者不怨天；怨人者穷，怨天者无志. -- 《荀子·荣辱》',
+'Those who follow the light will eventually be radiant.',
+'No road of flowers leads to glory.',
+'Do not let your emotions override your judgment.',
+'When you start to live the life you have been wanting, all the scars of the past will become medals.',
+'Don\'t let anyone ever make you feel like you don\'t deserve what you want.',
+'May you be loyal to yourself, live like yourself.',
+'Let\'s seize the day and live it to the fullest. 只争朝夕，不负韶华。',
+'A person often meets his destiny on the road he took to avoid it.',
+'Youth is not a time of life; it is a state of mind.',
+'It\'s okay to be scared. In order to be brave, we got to be a little scared.',
+'It is much more difficult to judge oneself than to judge others.',
+'People are afraid of what they don\'t understand.',
+'I see an opportunity, and I make it happen. 只要有机会，我就绝不让它溜走。',
+'You don\'t have to let the result of one mistake be the thing that defines you.',
 '才情高超,清越脱俗. -- 谪仙'
 ]
 
