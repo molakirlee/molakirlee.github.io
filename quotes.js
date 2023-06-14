@@ -1000,13 +1000,14 @@ var quotes = [
 'People are afraid of what they don\'t understand.',
 'I see an opportunity, and I make it happen. 只要有机会，我就绝不让它溜走。',
 'You don\'t have to let the result of one mistake be the thing that defines you.',
-'The darker the sky, the brighter the stars.'.
-'The fact that you are beaten by darkness proves that you are light itself. 你被黑暗敲打，恰恰证明你是光明本身。'.
-'Every effort is the foreshadowing of luck.'.
-'A great ship asks for deep waters.'.
-'We are all in the gutter, but some of us are looking at the stars. 身在井隅，心向璀璨。'.
-'Whatever happens tomorrow, we have had today. 不管明天会发生什么，至少我们拥有今天。'.
-'Whatever happens tomorrow, we have had today.'.
+'The darker the sky, the brighter the stars.',
+'The fact that you are beaten by darkness proves that you are light itself. 你被黑暗敲打，恰恰证明你是光明本身。',
+'Every effort is the foreshadowing of luck.',
+'A great ship asks for deep waters.',
+'We are all in the gutter, but some of us are looking at the stars. 身在井隅，心向璀璨。',
+'Whatever happens tomorrow, we have had today. 不管明天会发生什么，至少我们拥有今天。',
+'有诸形于内，必形于外',
+'心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
 ]
 
