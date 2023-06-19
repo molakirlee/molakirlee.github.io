@@ -1007,6 +1007,12 @@ var quotes = [
 'We are all in the gutter, but some of us are looking at the stars. 身在井隅，心向璀璨。',
 'Whatever happens tomorrow, we have had today. 不管明天会发生什么，至少我们拥有今天。',
 '有诸形于内，必形于外',
+'学如不及，犹恐失之. -- 《论语》',
+'不愤不启，不悱不发。 -- 《论语》',
+'中和位育 -- 溥仪',
+'仁者不乘危以邀利，智者不以侥幸以成功.所有的捷径都是绕远路.',
+'在狗一样的生活上做出神仙一样的事. -- 汪曾祺',
+'What we do in life echoes in eternity.',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
 ]
