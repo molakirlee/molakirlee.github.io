@@ -1013,6 +1013,8 @@ var quotes = [
 '仁者不乘危以邀利，智者不以侥幸以成功.所有的捷径都是绕远路.',
 '在狗一样的生活上做出神仙一样的事. -- 汪曾祺',
 'What we do in life echoes in eternity.',
+'诚者，不勉而中，不思而得，从容中道，圣人也. -- 《中庸》',
+'Be loyal to yourself.Laugh heartily,cry heartily.',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
 ]
