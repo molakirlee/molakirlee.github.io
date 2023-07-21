@@ -215,6 +215,7 @@ C-C-C 结构在多个尺度上定义了文章的结构。从整篇文章来说�
 1. [写论文的心得就三个字](https://mp.weixin.qq.com/s?__biz=MzIwMjczODA3MQ==&mid=2247487243&idx=3&sn=a460783e84e6f074119b5ec91b234ed8&chksm=96db5ff3a1acd6e5e26e4464ff1cc474ab4a46d61da2c7ba6587f8930f0ca73e3aed6ded171a&mpshare=1&scene=24&srcid=#rd)
 1. [如何撰写一个强有力的Conclusion部分](https://mp.weixin.qq.com/s/xLv61nM3FGI0Qgjto7Lzrg)
 1. [How to write in plain English](http://www.plainenglish.co.uk/how-to-write-in-plain-english.html)
+1. [哈佛传奇教授Whitesides的论文写作之“道”](https://mp.weixin.qq.com/s?__biz=MzIwMjk1OTc2MA==&mid=2247497607&idx=1&sn=b1c9925dc53dba5206effde3a7d20d04&chksm=96d40978a1a3806ecee9ea5f5a2d70df11748e1e4f814df09afc9311fce5c49edc9208bca20c&mpshare=1&scene=1&srcid=0529PRJHwHJIFhJ4Xbs10qk0&key=c333a3898be7f86f8534127264712e7963f09816b4b9b100bd6119fca2f6fcd66842dd6c8bbcf96de5cbc69d17d4bb6c7c6040c0abf93ddf0301379ca13e4a3d646606bdfcc4ca882d866eada391973d&ascene=1&uin=MjUwNjI4MjcyMg%3D%3D&devicetype=Windows+7&version=62060739&lang=zh_CN&pass_ticket=Gv9G7EmoXB9ul1VJ08CyeAV18NZmIXa%2FYWhoAgHoi2AoUz56dxsKbhznEXIUfCJc)
 
 
 ![](/img/wc-tail.GIF)

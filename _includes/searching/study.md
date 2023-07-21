@@ -41,6 +41,18 @@
 1. [PDF Drive](https://www.pdfdrive.com/)
 1. [书享家](https://www.shuxiangjia.cn/)
 1. [yibook](https://tool.yibook.org/)
+1. [淘客链](https://www.taolinks.cc/s/)
+1. [鸠摩搜书](https://www.jiumodiary.com/)
+1. [2023年免费电子书资源大全](https://www.yeeach.com/post/1732)
+1. []()
+
+###### 公开课
+1. [最全公开课知识库](https://docs.qq.com/sheet/DRU5MWHZCTHFGQnhM?tab=ykvdlu)
+
+###### 国际会议
+1. [All conference alert](https://allconferencealert.net/)
+1. [学术会议云](https://www.allconfs.org/index.asp)
+1. [Academic Resource ourglocal](https://www.ourglocal.com/)
 
 ###### 其它资源
 1. [太平洋化工网](http://www.pacificcrn.com/index.php?m=Home&c=Index&a=index)

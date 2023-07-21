@@ -1021,6 +1021,13 @@ var quotes = [
 '我想快乐地生活在一个我不了解的世界里。，当你寻求秩序，你得到的不过是表面的秩序；而当你拥抱随机性，你却能把握秩序、掌控局面。 -- 《反脆弱》',
 '复杂系统内部充满着难以察觉的相互依赖关系和非线性反应。 -- 《反脆弱》',
 '“黑天鹅”问题有一个恼人方面，实际上也是一个很核心的并在很大程度上被忽略的问题，即罕见事件的发生概率根本是不可计算的。 -- 《反脆弱》',
+'The good seaman is known in bad weather. 惊涛骇浪，方显英雄本色。',
+'Try to accept differences instead of making judgements. 试着去接受差异，而不是妄下断语.',
+'Fortune favors the bold. 好运眷顾勇者.',
+'When we let go of something, it opens up a little space to grow. 当我们放手时，也得到了成长.',
+'The result may joke with you, but the process won\'t. 结果可能会和你开玩笑，但过程不会.',
+'一语不能践，万卷徒空虚. -- 林鸿《饮酒》',
+'身后有余忘缩手，眼前无路想回头。 -- 《红楼梦》',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
 ]

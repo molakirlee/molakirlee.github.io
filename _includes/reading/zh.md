@@ -36,6 +36,7 @@
 1. [极客阅读](https://jikeyuedu.cn/hot)
 
 ###### 生活社区
+1. [Plus:bringing mathematics to life](https://plus.maths.org/content/)
 1. [Medium](https://medium.com/)
 1. [Buzzing](https://www.buzzing.cc/)
 1. [今日热榜](https://tophub.today/)
@@ -61,6 +62,6 @@
 
 ### Live
 1. [Puffer: U.S. TV](https://puffer.stanford.edu/player/)
-1. []()
+1. [意林](https://www.fx361.com/bk/yl/history_2023.html)
 
 ![](/img/qrcode_wechat.jpg)
