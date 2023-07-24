@@ -107,6 +107,6 @@ tags:
 
 
 ### 参考资料
-
+1. [一篇最全面介绍各种弱相互作用可视化分析方法的文章已发表！](http://bbs.keinsci.com/thread-37629-1-1.html)
 
 ![](/img/wc-tail.GIF)
