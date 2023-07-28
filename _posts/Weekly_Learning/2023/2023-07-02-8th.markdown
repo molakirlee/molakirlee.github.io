@@ -19,6 +19,8 @@ tags:
 ### 言论
 1. 技术团队的时间可以这样划分：70% 用于功能开发，20% 用于消除技术债务，10% 用于学习和实验。 -- [Tips On Prioritizing Tech Debt In A Healthy Way](https://leadership.garden/tips-on-prioritizing-tech-debt/)
 1. Some say that the makeup of our brains does not allow for multitasking, but learning to simultaneously comprehend such phenomena would be of great value.  -- [硬币绕等径硬币旋转一周会转2圈](https://plus.maths.org/content/circles-rolling-circles)
+1. 在任何一个领域，刻意练习都是造就顶尖人才的方法，也是顶尖人才用来保持领先地位的方法。如果你想成为专业人士，刻意训练自己是绝对必不可少的。 -- [The Ultimate Deliberate Practice Guide: How to Be the Best](https://fs.blog/deliberate-practice-guide/)
+
   
 ### 观点
 ###### Frank:我们应该像芒格那样谨慎，像马斯克那样做事
@@ -45,7 +47,7 @@ tags:
 1. 当喝牛奶会吐的她喝下那杯牛奶的时候，人们说她长大了。当刚失去爱犬的她吃下别人好意夹到盘子里的狗肉时，人们说她长大了。当见到曾经的爱犬却不肯相认时，她觉得自己长大了。成长，像是一股旋风，袭来的那一刻，一切的单纯刹那间变的血腥。我们不再年幼无知，我们开始习惯于这种刺激。虽然偶尔尝试寻找回之前的那份天真，但这股旋风总还是毫不留情地冲过来将其撕碎。抱着希望，伴着无奈，与伤痛不期而遇。直到我们能够淡淡地说上一句：“哦，你又来了。”但我们还是会心存不甘，不甘成为被踢出游戏的孩子，我们相信世界是温柔的，相信只要坚持下去就会有好事发生。一次次的走投无路。但走投无路不是要终结自己的路，而是要踩出一条自己的路，在人生中留下各种足迹，各种属于自己的足迹。一路上会看到雪中送炭，也会看到落井下石，会看到人性被照亮，也会看到尊严被碾压，但最大的喜悦莫过于在连别人都觉得你会放弃的时候继续站起来，继续前进。
 
 ### 荐书
-
+1. [《The Staff Engineer's Path — Book Review》](https://smyachenkov.com/posts/book-review-the-staff-engineers-path/)
 ### 杂谈
 ###### [Interview: Chris Miller, historian and author of "Chip War"](https://www.noahpinion.blog/p/interview-chris-miller-historian)
 ###### 戴笠与毛人凤
