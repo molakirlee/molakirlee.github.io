@@ -22,6 +22,9 @@ tags:
 1. [锅盖头软件](https://www.ggtrj.com/)
 1. [INS](https://github.com/zhaoolee/ins)
 
+### 外语
+1. [prettypolly: AI口语](https://www.prettypolly.app/login)
+
 ### 中文
 1. [反向词典：词义-->单词](https://wantwords.net)
 1. [据意查句](https://wantquotes.net/)
@@ -54,6 +57,7 @@ tags:
 
 ###### 绘图
 1. [3D Max:全套免费3D科研绘图教程](https://mp.weixin.qq.com/s/P33KT-dqcKnlzuz6Q0kAhA)
+1. [PDDON:在线绘框图流程图](https://pddon.com/)
 
 ###### 图谱
 1. [21个免费的谱图数据库](https://mp.weixin.qq.com/s?__biz=MzUxMjg2MjYxOA==&mid=2247493568&idx=1&sn=164c2840c7c0b003567407785feaf89a&chksm=f95f5735ce28de230c8de2c30a664fb7718c8f22e400cb4a6f05e7c35ab6ab9ddc2d36dc6c4e&mpshare=1&scene=1&srcid=&sharer_sharetime=1576024538046&sharer_shareid=0c12e4d0a32c59003ed0ac581f928cae&key=2b968f1291c7e91e097416488dfc180b14ffa1e4f57cbc6767542d6f2288845e2ebb9ed8fd6371b50f3331dc5b967ab9e2bcfde54146a8c94eda1631938d6d2f92089bce9f513621d018c1a1745582af&ascene=1&uin=MjUwNjI4MjcyMg%3D%3D&devicetype=Windows+7&version=62070158&lang=zh_CN&exportkey=AVEealtur1xijK5hFLKEHpU%3D&pass_ticket=vhxvX3p3tPGuOGyIHGe1tc0N4rBY3go5PU%2FLEba1jscvN859yhzawN7T6VNhhfzI)
@@ -162,6 +166,7 @@ tags:
 1. [图片压缩](https://www.butterpig.top/compress)
 1. [泼辣修图](https://www.polaxiong.com/web/)
 1. [老照片修复](https://hotpot.ai/restore-picture)
+1. [GFPGAN:腾讯开源的旧照片AI修复](https://github.com/TencentARC/GFPGAN)
 1. [Bgsub抠图](https://bgsub.cn/)
 1. AI图像生成：[Stable Diffusion](https://github.com/CompVis/stable-diffusion)及其生成过的图片搜索[lexica](https://lexica.art/)、[Dall e2](https://openai.com/dall-e-2/)、[DreamStudio](https://beta.dreamstudio.ai/dream)
 1. [图片扫描成文档：online camscanner](https://onlinecamscanner.com/zh-Hans/)
