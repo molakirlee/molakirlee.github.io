@@ -16,4 +16,6 @@
 1. [青麦QIMAI](https://www.qmmovies.com/)
 1. [稀饭影视](https://www.xifanys.com/)
 
+1. [龙轩导航](http://ilxdh.com/cat/171)
+
 ![](/img/qrcode_wechat.jpg)

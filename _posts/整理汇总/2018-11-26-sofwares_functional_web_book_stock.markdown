@@ -21,6 +21,11 @@ tags:
 1. [龙轩导航](http://ilxdh.com/)
 1. [锅盖头软件](https://www.ggtrj.com/)
 1. [INS](https://github.com/zhaoolee/ins)
+1. [iMyShare神秘的热心网友](https://imyshare.com/)
+1. [伊朗破解大牛网_Downloadly – Free Software Download](https://downloadly.net)
+1. [不死鸟 - 分享为王官网](https://iui.su)
+1. [淘链客](https://www.taolinks.cc/s/)
+1. [帮小忙:腾讯QQ浏览器在线工具箱](https://tool.browser.qq.com/)
 
 ### 外语
 1. [prettypolly: AI口语](https://www.prettypolly.app/login)
@@ -100,6 +105,7 @@ tags:
 1. 软媒魔方
 1. 沙盘Sandboxie
 1. [MobaXterm:Enhanced terminal](https://mobaxterm.mobatek.net/)
+1. [Office Tool 官方网站 - 管理、下载、安装 Office](https://otp.landian.vip/zh-cn/)
 
 ### CS
 1. [将任何网页转为RSS](http://fetchrss.com/)
@@ -158,6 +164,7 @@ tags:
 ###### 图库
 1. [InterfaceLIFT](https://interfacelift.com/wallpaper/downloads/downloads/any/)
 1. [世界名画博物馆](https://gallerix.asia)
+1. [无版权插图网站](https://gallery.manypixels.co)
 
 ###### 图片处理
 1. [pixlr: 在线图像编辑](https://pixlr.com/cn/x/)
@@ -174,6 +181,7 @@ tags:
 1. 黑白图片上色：[Palette](https://palette.fm/)、[DeOldify](https://github.com/jantic/DeOldify)
 1. 提高图片像素：[Upscayl](https://github.com/upscayl/upscayl)
 1. [toonify: 人物卡通化](https://toonify.photos/)
+1. [泼辣修图](https://www.polaxiong.com/web/#compare)
 
 ### 音频视频
 1. 飞熊影视
@@ -217,6 +225,7 @@ tags:
 1. [TabFloater](https://www.tabfloater.io/)
 1. [wifi账号密码生成二维码](https://wificard.io/)
 1. [互动教室](https://flat.whiteboard.agora.io/)
+1. []()
 
 ### 软件下载
 1. [化工导航](https://www.hg-dh.com/)
@@ -229,6 +238,7 @@ tags:
 1. [34款Windows软件中的神器：看片、安全杀毒、效率神器，它们最好用](https://mp.weixin.qq.com/s?__biz=MzU4Mjg3MDAyMQ==&mid=2247493139&idx=1&sn=e08171ebf30e749cf0c2ad0c2f8ea872&source=41#wechat_redirect)
 1. [我花了一个星期，整理了100个超强神器网站](https://mp.weixin.qq.com/s?__biz=Mzg2NzIzOTQ4NQ==&mid=2247498069&idx=3&sn=7908342a23d225a9fe1e1ae27fa47395&source=41#wechat_redirect)
 1. [腾讯、阿里、百度出品的10个良心小工具，免费无广告还好用到爆！](https://mp.weixin.qq.com/s?__biz=MjM5MDgxNjc0MA==&mid=2651011407&idx=1&sn=a0ce48b4778ad3c1c9ea7844c61d7fb4&chksm=bd4899c48a3f10d2b680fc0c44786b316d83e6f637596e18e04419c4c70d649794ef7c9856b9&mpshare=1&scene=24&srcid=#rd)
-
+1. [100个超强神器网站](https://mp.weixin.qq.com/s?__biz=Mzg2NzIzOTQ4NQ==&mid=2247498069&idx=3&sn=7908342a23d225a9fe1e1ae27fa47395&source=41#wechat_redirect)
+1. []()
 
 ![](/img/wc-tail.GIF)
