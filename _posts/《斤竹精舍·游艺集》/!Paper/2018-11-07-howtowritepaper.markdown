@@ -210,6 +210,7 @@ C-C-C 结构在多个尺度上定义了文章的结构。从整篇文章来说�
 1. 符合办刊范围（scope），具有创新性（novelty）以及具有影响力（impact）：能够改变他人对某个过程的认识、解决某个问题、检测或者模拟某种污染物、或者调控某个污染物的行为.
 
 参考阅读：  
+1. [《Science Research Writing for non-native speakers of English》](https://file.vogel.com.cn/laborpraxis/9d6a259a4ca541748c2da98027c0832d/files/cms/article/attachments/2018/09/Science%2BResearch%2BWriting%2BA%2BGuide%2Bfor%2BNon-Native%2BSpeakers%2Bof%2BEnglish%2B%25286%2529.pdf)
 1. [Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1005619)
 1. [Whitesides的论文写作之“道”](https://mp.weixin.qq.com/s?__biz=MzIwMjk1OTc2MA==&mid=2247488594&amp;idx=1&amp;sn=acf49f0f0f6410eeada4dca0afaf917c&source=41#wechat_redirect)
 1. [写论文的心得就三个字](https://mp.weixin.qq.com/s?__biz=MzIwMjczODA3MQ==&mid=2247487243&idx=3&sn=a460783e84e6f074119b5ec91b234ed8&chksm=96db5ff3a1acd6e5e26e4464ff1cc474ab4a46d61da2c7ba6587f8930f0ca73e3aed6ded171a&mpshare=1&scene=24&srcid=#rd)
