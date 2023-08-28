@@ -36,4 +36,13 @@ Hey，我是**神探玺洛克**。
 
 1. [科学网: 何毓琦](https://blog.sciencenet.cn/home.php?mod=space&uid=1565)
 
+1. [Jerkwin](http://jerkwin.github.io/)
+1. [Liu Yujie 受渔非渔の博客](https://liuyujie714.com/)
+1. [Kang Wenyuan 小康学习](http://kangsgo.com/)
+1. [Jianmin medecine design](https://blog.csdn.net/u012325865?viewmode=contents)
+1. [Hope](http://howiedlut.top/)
+1. [刘未鹏 | Mind Hacks](http://mindhacks.cn/)
+1. [陈皓的博客 CoolShell](https://coolshell.cn/)
+
+
 ![](/img/qrcode_wechat.jpg)
