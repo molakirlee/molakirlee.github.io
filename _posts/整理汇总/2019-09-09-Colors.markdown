@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "颜色RGB"
+title:      "Pool:颜色RGB"
 subtitle:   ""
 date:       2019-09-09 09:28:00
 author:     "XiLock"

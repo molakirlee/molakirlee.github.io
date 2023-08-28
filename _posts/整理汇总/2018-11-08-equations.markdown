@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "常用公式总结"
+title:      "Pool:常用公式总结"
 subtitle:   "发现自己总忘，就整理了一下贴在这里了"
 date:       2018-11-08 10:38:00
 author:     "XiLock"

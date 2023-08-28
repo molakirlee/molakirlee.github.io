@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "AI chatGPT网站"
+title:      "Pool:AI chatGPT网站"
 subtitle:   ""
 date:       2023-08-27 06:30:00
 author:     "XiLock"

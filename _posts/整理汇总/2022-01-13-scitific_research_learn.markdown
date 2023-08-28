@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "科学研究的策略及基础"
+title:      "Pool:科学研究的策略及基础"
 subtitle:   ""
 date:       2022-01-13 06:18:00
 author:     "XiLock"

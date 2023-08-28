@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "禅宗谱系"
+title:      "Pool:禅宗谱系"
 subtitle:   ""
 date:       2018-10-27 19:23:00
 author:     "XiLock"
