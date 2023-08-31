@@ -19,6 +19,7 @@ tags:
 
 1. [FreedomGPT](https://freedomgpt.com)
 
+1. [claude](https://claude.ai/login?selectAccount&returnTo=https%3A%2F%2Fclaude.ai%2Fchats)
 1. [ToolAI The world's most complete and comprehensive collection of AI artificial intelligence tools](https://www.toolai.io/)
 1. [ChatGPT在线免费 - 无需登录 - ChatGPT Demo](https://chatgptdemo.net/zh-hans)
 1. [GitHub - LiLittleCat/awesome-free-chatgpt:免费的 ChatGPT 镜像网站列表，持续更新](https://github.com/LiLittleCat/awesome-free-chatgpt)
