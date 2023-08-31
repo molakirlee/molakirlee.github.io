@@ -1088,6 +1088,10 @@ var quotes = [
 '说而不绎，从而不改，吾末如之何也已矣。 -- 《论语·子罕》',
 '厉害的人都有一个共性，那就是有目标后，不犹豫、不等待、执行力惊人，效果不好就复盘优化；效果好就乘胜追击，不断深耕。 -- 罗翔',
 '当你厌恶身边的人，表达厌恶最好的方式不是和他们争吵，而是自己勤快点，加把劲离开他们。 -- 罗翔',
+'The higher I got, the more amazed I was by the view.',
+'Victory won\'t come to me unless I go to it.',
+'Fear can hold you prisoner,but hope can set you free.',
+'Life is not about waiting for the storm to pass, but learn to dance in the rain.',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
 ]
