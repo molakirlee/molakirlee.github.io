@@ -136,6 +136,7 @@ tags:
 
 ###### 设计
 1. [可画canva](https://www.canva.cn/)
+1. [家装设计cedreo](https://cedreo.com/)
 
 ###### 其他
 1. [分析工具：决策树等](http://www.ruanyifeng.com/blog/2020/06/weekly-issue-110.html)
@@ -165,6 +166,7 @@ tags:
 1. [InterfaceLIFT](https://interfacelift.com/wallpaper/downloads/downloads/any/)
 1. [世界名画博物馆](https://gallerix.asia)
 1. [无版权插图网站](https://gallery.manypixels.co)
+1. [ICON图标](https://iconbuddy.app/)
 
 ###### 图片处理
 1. [pixlr: 在线图像编辑](https://pixlr.com/cn/x/)
