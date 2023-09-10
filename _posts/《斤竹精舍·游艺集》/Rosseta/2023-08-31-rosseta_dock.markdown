@@ -17,7 +17,7 @@ tags:
 ### 小康教程
 ###### 算例及结构预处理
 
-Rosetta给的官方教程：Protein-Protein Docking](https://new.rosettacommons.org/demos/latest/tutorials/Protein-Protein-Docking/Protein-Protein-Docking)为Colicin-D与其抑制剂IMM之间的对接，相关文件在`/demos/tutorials/Protein-Protein-Docking`。需要提供两个精炼的输入文件COL_D.pdb和IMM_D.pdb文件，以及1v74.pdb文件在input_files文件夹下，准备的方法详细可以查看输入和输出一章的[准备结构](https://www.rosettacommons.org/demos/latest/tutorials/input_and_output/input_and_output#controlling-input_common-stucture-input-files)一节。
+Rosetta给的官方教程：[Protein-Protein Docking](https://new.rosettacommons.org/demos/latest/tutorials/Protein-Protein-Docking/Protein-Protein-Docking)为Colicin-D与其抑制剂IMM之间的对接，相关文件在`/demos/tutorials/Protein-Protein-Docking`。需要提供两个精炼的输入文件COL_D.pdb和IMM_D.pdb文件，以及1v74.pdb文件在input_files文件夹下，准备的方法详细可以查看输入和输出一章的[准备结构](https://www.rosettacommons.org/demos/latest/tutorials/input_and_output/input_and_output#controlling-input_common-stucture-input-files)一节。
 若模型为同源建模等方法进行构建，可以首先进行一个结构的relax,当然也可以用其他软件进行制作。若您的模型为同源建模等进行的，模型评价效果不理想可以采用GROMACS等软件进行能量最小化的工作。 若模型质量佳或为解析结构，结构准备更多的是为了将输入结构转化为Rosetta的标准规范，官网给了一个简单的例子：`/demos/tutorials/input_and_output/flag_input_relax`
 
 `$ROSETTA3/bin/relax.default.linuxgccrelease -in:file:s input_files/from_rcsb/1qys.pdb @flag_input_relax`
