@@ -25,7 +25,7 @@ tags:
 1. [GitHub - LiLittleCat/awesome-free-chatgpt:免费的 ChatGPT 镜像网站列表，持续更新](https://github.com/LiLittleCat/awesome-free-chatgpt)
 1. [hello-ai/home/FreeChatGPTSiteList.md GitHub](https://github.com/xxxily/hello-ai/blob/main/home/FreeChatGPTSiteList.md)
 1. [ChatGPT中文在线，免费每天都可使用 - CodeNews](https://codenews.cc/chatgpt)
-1. [AI Code Converter / AI Code Translator | AI Code Generator](https://aicodeconvert.com)
+1. [AI Code Converter AI Code Translator | AI Code Generator](https://aicodeconvert.com)
 1. [首页_AI导航](https://ai.dreamthere.cn)
 1. [阿虚同学的储物间](https://axutongxue.com/?version=2.5.40003.149&platform=win)
 1. [Chat with any PDF - DamnGood.Tools](https://damngood.tools/tools/chat-pdf)
