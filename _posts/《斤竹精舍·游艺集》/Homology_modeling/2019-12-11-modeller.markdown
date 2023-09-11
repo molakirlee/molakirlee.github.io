@@ -78,6 +78,14 @@ custom_channels:
 
 以拉式图分析为例。拉氏图分为四个区域: most favoured (red), additional allowed (yellow), generously allowed (light yellow) 以及disallowed (white)，红色表示的是最合适的区域，白色表示最不适合的区域。一个高质量的蛋白质结构的分辨率通常小于2 Å， R-factor小于20%。统计分析118个这样的蛋白质结构表明，对于一个高质量的模型结构来说，其90%的ϕ and ψ 值都应该在红色的区域内.
 
+
+### 残基补全
+参考资料：
+1. [MODELLER初级教程中译](https://zhuanlan.zhihu.com/p/404157642)
+1. [官方教程：Missing residues](https://salilab.org/modeller/wiki/Missing_residues)
+
+
+
 ### 参考资料
 1. [Modeller同源或比较建模安装及使用操作教程](https://zhuanlan.zhihu.com/p/474560886)
 1. [解决：An HTTP error occurred when trying to retrieve this URL. HTTP errors are often intermittent......](https://blog.csdn.net/gyyu32g/article/details/104611322)
