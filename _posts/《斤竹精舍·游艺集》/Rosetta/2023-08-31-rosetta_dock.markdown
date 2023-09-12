@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Rosseta dock"
+title:      "Rosetta dock"
 subtitle:   ""
 date:       2023-08-31 22:06:00
 author:     "XiLock"
@@ -9,7 +9,7 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
-    - Rosseta
+    - Rosetta
     - 2023
 
 ---
@@ -296,5 +296,7 @@ mpirun docking_prepack_protocol.mpi.linuxgccrelease -in:file:s input_files/col_c
 1. [Rosetta快速入门指引](https://zhuanlan.zhihu.com/p/65248904)
 1. [上海交大超算平台用户手册 Rosseta](https://docs.hpc.sjtu.edu.cn/app/bioinformatics/rosetta.html)
 1. [小康学习 Rosetta蛋白蛋白对接](https://kangsgo.cn/p/rosetta%E8%9B%8B%E7%99%BD%E8%9B%8B%E7%99%BD%E5%AF%B9%E6%8E%A5/)
+
+1. [Rosetta Online:login by github](https://r2.graylab.jhu.edu/)
 
 ![](/img/wc-tail.GIF)
