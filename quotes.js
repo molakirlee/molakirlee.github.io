@@ -1092,6 +1092,16 @@ var quotes = [
 'Victory won\'t come to me unless I go to it.',
 'Fear can hold you prisoner,but hope can set you free.',
 'Life is not about waiting for the storm to pass, but learn to dance in the rain.',
+'心Before anything else, preparation is the key to success.',
+'How wonderful it is that nobody need wait a single moment before starting to improve the world.',
+'A small group of thoughtful people could change the world. Indeed, it\'s the only thing that ever has.',
+'Change is inevitable. Growth is optional.',
+'If you are not willing to risk the usual, you will have to settle for the ordinary.',
+'I can\'t change the direction of the wind, but I can adjust my sails to always reach my destination.',
+'Not everything that is faced can be changed, but nothing can be changed until it is faced.',
+'Run with passion and keep your heart still.',
+'Goals determine what you\'re going to be.',
+'Thank you for appearing in my youth.',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
 ]
