@@ -32,8 +32,8 @@ tags:
 
 
 1. [AI研究所:国内外AI工具首发站](https://www.aiyjs.com/)
-
-
+1. [AI Hub](https://www.aihub.cn/)
+1. [FinChat：上市公司数据分析](https://finchat.io/)
 
 
 ![](/img/wc-tail.GIF)

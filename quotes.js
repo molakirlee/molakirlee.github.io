@@ -1104,6 +1104,7 @@ var quotes = [
 'Thank you for appearing in my youth.',
 '觉人之诈，不愤于言；受人之侮，不动于色；察人之过，不扬于他；施人之惠，不记于心；受人之恩，铭记于心；受人之鱼，而学之渔；识人之才，授之于权；善于谋人，有容乃大。 -- 《易经八律》',
 '君子藏器于身，待时而动。 -- 《易经》',
+'The road to success and the road to failure are almost exactly the same.',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
 ]

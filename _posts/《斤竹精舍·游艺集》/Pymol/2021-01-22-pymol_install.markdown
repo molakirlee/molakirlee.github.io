@@ -59,7 +59,10 @@ conda install -c openbabel openbabel
 之后在anaconda里输入`pymol`调出pymol主程序，然后在Plugin-->Plugin Manager-->Install New Plugin里安装“PiViewer_plugin.py”，安装成功后，重新启动pymol即可使用。
 
 ### pymol使用教程
-见参考资料。
+1. [PyMOL中文教程：入门教程](http://pymol.chenzhaoqiang.com/intro/startManual.html)
+1. [Pymol常用命令](https://www.x-mol.com/groups/cpu1604/events/37369)
+1. [零基础PyMOL作图教程——绘制蛋白质-分子结合模式图](https://zhuanlan.zhihu.com/p/62350762)
+1. [高质量PyMOL作图教程](https://zhuanlan.zhihu.com/p/61568763)
 
 ### 选择语句
 1. [Pymol 选择速查手册](http://kangsgo.com/706.html)
@@ -71,8 +74,7 @@ conda install -c openbabel openbabel
 1. [Win或Linux系统下用conda安装Open Babel](https://zhuanlan.zhihu.com/p/83585670)
 1. [Github:PiViewer](https://github.com/hugecadd/PiViewer)
 1. [PiViewer: An open‐source tool for automated detection and display of π–π interactions](https://onlinelibrary.wiley.com/doi/abs/10.1111/cbdd.13340)
-1. [零基础PyMOL作图教程——绘制蛋白质-分子结合模式图](https://zhuanlan.zhihu.com/p/62350762)
-1. [高质量PyMOL作图教程](https://zhuanlan.zhihu.com/p/61568763)
+
 
 
 ![](/img/wc-tail.GIF)
