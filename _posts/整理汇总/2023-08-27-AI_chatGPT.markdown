@@ -16,6 +16,8 @@ tags:
 1. [ChatGPT OpenAI](https://chat.openai.com/auth/login)
 1. [DALL·E 2](https://openai.com/dall-e-2/)
 1. [OpenAI](https://platform.openai.com/login)
+1. [Lepton AI](https://www.lepton.ai/playground)
+1. [Consensus:AI to  find research papers](https://consensus.app/)
 
 1. [FreedomGPT](https://freedomgpt.com)
 

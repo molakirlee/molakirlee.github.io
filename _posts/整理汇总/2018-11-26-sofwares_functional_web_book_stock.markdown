@@ -27,6 +27,9 @@ tags:
 1. [淘链客](https://www.taolinks.cc/s/)
 1. [帮小忙:腾讯QQ浏览器在线工具箱](https://tool.browser.qq.com/)
 
+### 磁力搜索
+1. [AnyBT](https://anybt.eth.limo/)
+
 ### 外语
 1. [prettypolly: AI口语](https://www.prettypolly.app/login)
 
@@ -113,6 +116,7 @@ tags:
 
 
 ###### 文字识别
+1. [WeOCR：可离线识别的网站](https://ocr.plantree.me/ocr)
 1. [雨梦OCR文字提取](https://blog.csdn.net/bowenqiu/article/details/82149392)
 1. [天若ORC(胡萝卜周)](https://carrot.ctfile.com/fs/11269771-331359271)
 1. [基于python:EasyOCR](https://github.com/JaidedAI/EasyOCR)
