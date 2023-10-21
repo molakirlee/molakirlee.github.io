@@ -26,6 +26,9 @@ tags:
 1. 教育模式可以多样化。麻省理工学院就没有教材，一个老师上来写一通，另一个老师上来把前面的批判一通，再上来一个又把前面的批判一通。学生交作业，老师看思路正确就 OK 了，并不要结论，老师本身自己也没有结论。我们要借鉴这种教育模式。 -- 任正非谈大学教育
 1. AI的危险在于，模型的每一次训练所得到的知识，都可以复制并转移到别的模型，因此AI可以互相共享知识，而人类的大脑是不能直接互连的。 -- [Geoffrey Hinton](Geoffrey Hinton)
 1. 成立于2015年Loom被10亿美元收购，这件事告诉我们，一个很普通的功能，如果做到极致，也会身价非凡。 
+1. 程序员的任务不仅仅是解决今天的问题，还要确保你的代码不会成为明天的问题。 -- [Good code is like a love letter to the next developer who will maintain it.](https://addyosmani.com/blog/good-code/)
+1. 产品是资产，代码是负债。你的产品解决了客户的问题，因此是你的资产。代码则是创造资产的成本。你拥有的代码越多，阅读、测试、更改和理解所付出的成本就越高。 -- [MY ENGINEERING AXIOMS](https://martinrue.com/my-engineering-axioms/)
+
 ### 观点
 
 
