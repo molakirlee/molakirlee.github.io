@@ -28,6 +28,7 @@ tags:
 1. 成立于2015年Loom被10亿美元收购，这件事告诉我们，一个很普通的功能，如果做到极致，也会身价非凡。 
 1. 程序员的任务不仅仅是解决今天的问题，还要确保你的代码不会成为明天的问题。 -- [Good code is like a love letter to the next developer who will maintain it.](https://addyosmani.com/blog/good-code/)
 1. 产品是资产，代码是负债。你的产品解决了客户的问题，因此是你的资产。代码则是创造资产的成本。你拥有的代码越多，阅读、测试、更改和理解所付出的成本就越高。 -- [MY ENGINEERING AXIOMS](https://martinrue.com/my-engineering-axioms/)
+1. 除非打造自己的菜单，否则永远都会寂寂无名。 -- 《饥渴游戏》
 
 ### 观点
 
