@@ -49,7 +49,7 @@ tags:
 
 
 ### 杂谈
-
+###### [The early days of Linux](https://lwn.net/Articles/928581/)
 
 
 ![](/img/wc-tail.GIF)
