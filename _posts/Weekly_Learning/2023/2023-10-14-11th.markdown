@@ -15,7 +15,7 @@ tags:
 ---
 
 ### 科学
-
+1. 美国海军陆战队已经用中国制造的 Unitree Go1机械狗测试安装反坦克火箭筒，一辆坦克的造价，最少也要上千万人民币。如果10条机器狗，可以打掉一辆坦克，就非常划算，还没有己方人员伤亡。未来的战争一定是机器人（包括无人机）在交战。 -- Frank
 
 
 ### 言论
@@ -29,9 +29,21 @@ tags:
 1. 程序员的任务不仅仅是解决今天的问题，还要确保你的代码不会成为明天的问题。 -- [Good code is like a love letter to the next developer who will maintain it.](https://addyosmani.com/blog/good-code/)
 1. 产品是资产，代码是负债。你的产品解决了客户的问题，因此是你的资产。代码则是创造资产的成本。你拥有的代码越多，阅读、测试、更改和理解所付出的成本就越高。 -- [MY ENGINEERING AXIOMS](https://martinrue.com/my-engineering-axioms/)
 1. 除非打造自己的菜单，否则永远都会寂寂无名。 -- 《饥渴游戏》
+1. 你不知道自己的人生该做什么，所以你拿到了本科学位。你不知道本科学位可以做什么，所以你又拿到了研究生学位。 -- Peter Thiel
+1. 除了拖延创业时机、分散精力，大学还可能消磨一个人的创业意愿。 等到读完大学、拿到学位，大多数人的心态是，已经投入了多年的时间和金钱成本，不再愿意冒险，宁愿选择收入稳定、风险小的职业，所以金融、咨询、公务员才这么吃香。对于那些不具备企业家潜质，不知道自己想干什么的大多数学生，读完大学才是更好的选择。只是不要局限在大学为你安排的教育，而要找到自己想为社会创造的东西。 -- Frank
+1. 人们表达对其他人的感激之情，有一种方式就是创造一些美好的东西。在你精心制作这个东西的过程中，你会把爱包含在里面，不知不觉传递出去。 -- [Steve Jobs](https://thenewstack.io/vim-creator-bram-moolenaars-forgotten-programming-language-zimbu/)
+1. 我经常看到人们不断寻找最好的笔记 App、最好的 Linux 发行版、提高生产力的最佳 AI 软件、最好的游戏引擎......这样做并不会提高你的效率，你永远找不到最好或最完美的设置。我的建议是，只要一样东西足够好、能完成工作，你就不妨坚持用下去。不要盯着工具，而要盯着你要完成的工作。 -- [Stop Obsessing Over Tools](https://plug-world.com/posts/stop-obsessing-over-tools/)
+1. 我做出创业产品后，最大的错误是在 Twitter、LinkedIn 和 Instagram 上发布演示，来寻找用户。这好比在街道中央尖叫，以引起人们的关注。有时人们可能会停下来参与其中，但大多数情况下，这是没有效果的。 -- [going from 0 to 600+ users in six weeks](https://janvikalra.substack.com/p/going-from-zero-to-600-users)
 
 ### 观点
+###### [The Light At The End Of The Frog](https://www.patreon.com/posts/91410900)
+2020年，日本学者研究过一种水生甲虫的生存之道。这种甲虫经常被青蛙整个吞掉。虽然甲虫可以采取很多措施，防止被吃掉，但一旦进入青蛙体内，你的选择就非常有限。一般情况下你都会被消化掉。
 
+但是，这种特殊的甲虫说："你知道，肯定还有另一种方法。"它真的有办法。事实上，它穿过青蛙的消化道，完整地从肛门出来了。这不是我编出来的，你们可以查看论文([Active escape of prey from predator vent via the digestive tract](https://www.sciencedirect.com/science/article/pii/S0960982220308423))。20只甲虫中有19只，毫发无伤地从青蛙体内出来。它们通常需要大约一个小时，但有一只甲虫只用了五分钟就出来了，我确信青蛙肯定感到如释重负。
+
+这个故事如果有寓意的话，大概就是无论情况多么黑暗，总有一条出路。青蛙的尽头总有光明。
+
+###### [Steve Jobs in his own words](https://book.stevejobsarchive.com/?utm_source=thenewstack&utm_medium=website&utm_content=inline-mention&utm_campaign=platform)
 
 ### 荐书
 
