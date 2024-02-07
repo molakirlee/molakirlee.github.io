@@ -44,7 +44,8 @@
 1. [淘客链](https://www.taolinks.cc/s/)
 1. [鸠摩搜书](https://www.jiumodiary.com/)
 1. [2023年免费电子书资源大全](https://www.yeeach.com/post/1732)
-1. []()
+1. [Z-Library](https://singlelogin.re)
+1. [Z-library现阶段可行的访问方法和替代方法 - Another Dayu](https://anotherdayu.com/2022/3809/#fang_an_1_ji_xu_shi_yong_Zlib)
 
 ###### 公开课
 1. [最全公开课知识库](https://docs.qq.com/sheet/DRU5MWHZCTHFGQnhM?tab=ykvdlu)

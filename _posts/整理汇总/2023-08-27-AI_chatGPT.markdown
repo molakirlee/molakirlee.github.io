@@ -18,9 +18,20 @@ tags:
 1. [OpenAI](https://platform.openai.com/login)
 1. [Lepton AI](https://www.lepton.ai/playground)
 1. [Consensus:AI to  find research papers](https://consensus.app/)
+1. [Explore](https://replicate.com/explore)
+1. [Chatgot](https://start.chatgot.io/login)
 
 1. [FreedomGPT](https://freedomgpt.com)
+1. [GPTsHunter](https://www.gptshunter.com/)
+1. [AwesomeGPTs](https://awesomegpts.pro/)
+1. [BestGPTs](https://bestgpts.app/)
+1. [GPTs Works](https://gpts.works/)
+1. [GPTs Today](https://gptstoday.com/)
+1. [GPTs-store](https://gpts-store.net/)
+1. [YesChat.ai](https://www.yeschat.ai/zh-CN)
 
+
+1. [Bing:Image Creator](https://www.bing.com/images/create)
 1. [claude](https://claude.ai/login?selectAccount&returnTo=https%3A%2F%2Fclaude.ai%2Fchats)
 1. [ToolAI The world's most complete and comprehensive collection of AI artificial intelligence tools](https://www.toolai.io/)
 1. [ChatGPT在线免费 - 无需登录 - ChatGPT Demo](https://chatgptdemo.net/zh-hans)
@@ -31,6 +42,7 @@ tags:
 1. [首页_AI导航](https://ai.dreamthere.cn)
 1. [阿虚同学的储物间](https://axutongxue.com/?version=2.5.40003.149&platform=win)
 1. [Chat with any PDF - DamnGood.Tools](https://damngood.tools/tools/chat-pdf)
+1. [EmojiGen](https://emoji.fly.dev/)
 
 
 1. [AI研究所:国内外AI工具首发站](https://www.aiyjs.com/)

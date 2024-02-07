@@ -55,6 +55,7 @@
 1. [The independent](https://www.independent.co.uk/extras/indybest/gadgets-tech)
 
 1. [Vox: Understand the problems we face, potential solutions, and what you we do](https://www.vox.com/)
+
 ### CC
 1. [野生架构师](https://www.getrevue.co/profile/lcomplete)
 1. [人人都是产品经理](https://www.woshipm.com/)

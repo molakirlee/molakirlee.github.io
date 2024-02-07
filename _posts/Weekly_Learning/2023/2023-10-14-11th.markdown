@@ -34,6 +34,10 @@ tags:
 1. 人们表达对其他人的感激之情，有一种方式就是创造一些美好的东西。在你精心制作这个东西的过程中，你会把爱包含在里面，不知不觉传递出去。 -- [Steve Jobs](https://thenewstack.io/vim-creator-bram-moolenaars-forgotten-programming-language-zimbu/)
 1. 我经常看到人们不断寻找最好的笔记 App、最好的 Linux 发行版、提高生产力的最佳 AI 软件、最好的游戏引擎......这样做并不会提高你的效率，你永远找不到最好或最完美的设置。我的建议是，只要一样东西足够好、能完成工作，你就不妨坚持用下去。不要盯着工具，而要盯着你要完成的工作。 -- [Stop Obsessing Over Tools](https://plug-world.com/posts/stop-obsessing-over-tools/)
 1. 我做出创业产品后，最大的错误是在 Twitter、LinkedIn 和 Instagram 上发布演示，来寻找用户。这好比在街道中央尖叫，以引起人们的关注。有时人们可能会停下来参与其中，但大多数情况下，这是没有效果的。 -- [going from 0 to 600+ users in six weeks](https://janvikalra.substack.com/p/going-from-zero-to-600-users)
+1. 用电话的音频线来发送图像，本质上就是传真的画质，而且速度非常慢，6到8秒的延迟后，才会看到对方的图片。许多公司也有类似的尝试，但都遇到了同样的问题：电话线传输模拟信号的带宽太小，根本无法实现视频直播。真正的视频电话，只有等到数字网络和数字技术成熟以后才出现。使用数字技术压缩视频，在高带宽的网络线路上传输，才能真正实现视频电话。近年来，压缩技术的进步和带宽的增加，多人实时的视频会议也成为了现实。
+1. 创业者有一个谬误，叫做"下一个功能谬误"，指的是一种错误想法，认为自家产品的下一个新功能会突然让人们使用该产品。 -- [The Next Feature Fallacy](https://andrewchen.com/the-next-feature-fallacy-the-fallacy-that-the-next-new-feature-will-suddenly-make-people-use-your-product/)
+1. 按照目前的学术界气氛，我肯定会因为生产力不足，而被大学解雇，幸好后来得到了诺贝尔奖提名，大学才让我留下来。 -- [Peter Higgs: I wouldn't be productive enough for today's academic system](https://www.theguardian.com/science/2013/dec/06/peter-higgs-boson-academic-system)
+
 
 ### 观点
 ###### [The Light At The End Of The Frog](https://www.patreon.com/posts/91410900)
@@ -44,6 +48,12 @@ tags:
 这个故事如果有寓意的话，大概就是无论情况多么黑暗，总有一条出路。青蛙的尽头总有光明。
 
 ###### [Steve Jobs in his own words](https://book.stevejobsarchive.com/?utm_source=thenewstack&utm_medium=website&utm_content=inline-mention&utm_campaign=platform)
+
+###### 褚时健
+70多岁的褚时健，不是没有想过自己的年龄，但所谓的寿命、晚年，都是一些未知数，他说：“我想要做事，让自己忙碌起来，才能身心舒畅。”于是他开始学习如何种橙，从土壤、天气，到树苗、施肥、摘果、卖果等等，他全都亲力亲为，最终创造了商业奇迹，在84岁时再次“橙”为“亿万富翁”。
+
+在乌鸦的世界里，天鹅是有罪的。如果一只天鹅，意外落入乌鸦的领地，那么天鹅就会被视为异类，要被被驱逐、被攻击。因为，乌鸦无法容忍天鹅的洁白、高贵，如果你不学着“伪装”自己，那你将无法生存。正所谓“落地凤凰不如鸡”，为了生存，我们首先要学会适应周围的环境，调整自己的心态，才能确保自身的生存，当我们活了下来，一切才有希望。褚时健此言，意在告诫我们：在现实世界中，不管你是对是错，是好是坏，只要你和大多数人不一样，你就会被视为另类，遭到排斥，这是人类社会的“潜规则”。天鹅即便染黑了羽毛，依然掩盖不了他天鹅的本质。当我们遇到困难的时候，若能忍常人不能忍之苦，必能享常人不能享之福，成就常人不能成就的伟业。
+
 
 ### 荐书
 

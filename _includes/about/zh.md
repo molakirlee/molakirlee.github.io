@@ -41,8 +41,8 @@ Hey，我是**神探玺洛克**。
 1. [Kang Wenyuan 小康学习](http://kangsgo.com/)
 1. [Jianmin medecine design](https://blog.csdn.net/u012325865?viewmode=contents)
 1. [Hope](http://howiedlut.top/)
-1. [刘未鹏 | Mind Hacks](http://mindhacks.cn/)
+1. [刘未鹏 Mind Hacks](http://mindhacks.cn/)
 1. [陈皓的博客 CoolShell](https://coolshell.cn/)
-
+1. [Another Dayu](https://anotherdayu.com/)
 
 ![](/img/qrcode_wechat.jpg)
