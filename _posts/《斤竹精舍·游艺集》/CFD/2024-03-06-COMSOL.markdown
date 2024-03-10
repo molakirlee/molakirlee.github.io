@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      "COMSOL"
+subtitle:   ""
+date:       2024-03-06 19:00:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - CFD
+    - 2024
+
+
+---
+
+1. [在 COMSOL Multiphysics中模拟快速检测](https://cn.comsol.com/blogs/modeling-a-rapid-detection-test-in-comsol-multiphysics/)
+1. [通过仿真指导 mRNA 疫苗生产](https://cn.comsol.com/blogs/using-simulation-to-guide-mrna-vaccine-production/)
+1. []()
+
+
+
+
+
+
+![](/img/wc-tail.GIF)

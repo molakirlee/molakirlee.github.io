@@ -109,6 +109,7 @@ tags:
 1. 沙盘Sandboxie
 1. [MobaXterm:Enhanced terminal](https://mobaxterm.mobatek.net/)
 1. [Office Tool 官方网站 - 管理、下载、安装 Office](https://otp.landian.vip/zh-cn/)
+1. [PDF压缩:pdfshrinker](https://github.com/ocdi/PdfShrinker/releases/tag/v0.2):1)路径不要有中文名；2)ebook这个档压缩效果明显，而且画质损失也比较小
 
 ### CS
 1. [将任何网页转为RSS](http://fetchrss.com/)
