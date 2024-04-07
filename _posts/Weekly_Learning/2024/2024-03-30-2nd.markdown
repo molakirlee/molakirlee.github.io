@@ -1,0 +1,153 @@
+---
+layout:     post
+title:      "2024-每周补脑2nd"
+subtitle:   ""
+date:       2024-03-30 09:30:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2024
+
+
+---
+
+### 科学
+1. [Radios, how do they work?](https://lcamtuf.substack.com/p/radios-how-do-they-work)
+1. [Digression 3: CORROSION - Rust Never Sleeps](https://books.worksinprogress.co/book/maintenance-of-everything/vehicles/digression-3-corrosion-rust-never-sleeps/1)
+1. [3Blue1Brown: Visual introductions to the core ideas of derivatives, integrals, limits and more](https://www.3blue1brown.com/topics/calculus)
+
+### 言论
+1. 五行不定，输得干干净净。 -- 刘伯承/闵恩泽
+1. 小孩手中的两只鸟到底是活是死？答案就在他自己手中。
+1. 痛苦能滋养勇气。如果只有美好的事情发生在你身上，你就不可能变得勇敢。 -- 玛丽·泰勒·摩尔（Mary Tyler Moore）
+1. 大家总是提倡，提高工作效率。但是很少有人谈，为什么要提提高工作效率。我认为，真正的原因并不是，这样才能完成更多工作，或者获得更多时间，而是只有提高工作效率，你才能发挥自己最大的潜力。 -- [Why Be Productive?](https://thinkingthrough.substack.com/p/why-be-productive)
+1. 电动汽车的最大缺点是，大部分能量用来移动电池，而不是移动乘客。人类的体重并不重（大约70公斤左右），特斯拉 Y 型汽车的电池重量是770公斤。所以，运送电池的耗能是运送乘客的10倍。 -- [Hacker News](https://news.ycombinator.com/item?id=38835304)
+1. 个人的财务管理，其实只有两条原则：一是支出小于收入，二是做对投资，投资对象可以是能够获利的资产，也可以是你的个人技能。 -- [Hacker News](https://news.ycombinator.com/item?id=34532288)
+1. 如果你感觉自己被困住了，焦虑并充满消极情绪，生命出现了停滞，那么治疗方法很简单：做点什么。 -- [The best way to get unstuck](https://www.ggnotes.com/the-best-way-to-get-unstuck/)
+1. 我所在的公司去年赚了数十亿美元，但是决定解雇数百名工程师（占员工的很大比重）。一些我最尊敬的优秀工程师就这样离开了，这完全没有道理。此前公司已经裁员过一轮了，管理层那时告诉我们，员工调整已经完成，一切到此为止。你不能相信比你地位高的管理者告诉你的任何事情。他们可能对自己也撒了谎，更何况对你。永远不要对你的公司投入感情。 -- [Hacker News](https://news.ycombinator.com/item?id=38949749)
+1. 哈佛的导师更擅长从数学角度看问题，这给了范青很多不一样的学术视角。 -- [清华博士遭终身禁止入美，仅因一篇还在草稿阶段的论文？](https://mp.weixin.qq.com/s/dnMwy3f6R0_NqWxiC7Sb5g)
+1. it’s never too late to start a website. It doesn’t have to be perfect. It doesn’t have to get a million readers. It doesn’t have to change the world. All it has to be is a reflection on the past, a time capsule for the future — a document for the now. Your readers are out there, waiting. They’ll find you. -- [Snarkmarket Turns 20](https://kottke.org/23/11/snarkmarket-turns-20)
+1. While sharding involves splitting data across multiple standalone instances, it doesn’t inherently mean the system is distributed. The presence of a coordinator in sharding solutions, which directs client requests to the appropriate shard, underscores this distinction.On the other hand, distributed databases, built on a shared-nothing architecture, lack this centralized coordinator. Nodes in these systems are aware of each other, manage data distribution, and handle client requests seamlessly.Both architectures have their merits, and understanding their nuances is crucial for informed database design and selection. -- [Sharded Does Not Imply Distributed](https://medium.com/@magda7817/sharded-does-not-imply-distributed-572fdafc4040)
+1. “你可以把他空降到一个满是食人族的小岛上，五年后重返此地，他就会成为国王了。”-- 格雷厄姆评价山姆奥特曼
+1. “有一些人的意志力如此强大，他们会得到他们想要的任何东西。”-- 格雷厄姆评价山姆奥特曼
+1. 目前，我们在可解释性（interpretability）方面，已经展开了一些非常棒的工作，而且我认为随着时间推移，会有更多的解释出现。我们将能够理解这些（神经）网络，即便我们目前的理解能力还很低。而正如你所乐见的一切，我们凭着目前了解的那一点，已经能很大程度上改进人工智能模型了。 -- 山姆奥特曼与比尔盖茨在Unconfuse Me上的对话
+1. 人们虽然不知道所以然，但在结果上却又行得通。而此后，随着人们对科学理解的加深，这项技术也会变得更好。，构建 GPT-1 的那个人自己解决了这个“哇”的问题，这令人印象深刻。只不过，我们没有深入理解它是如何工作的，以及为何是有效的。之后，我们才有了拓展规律，借此预测它（GPT）会变得多好。这就是为什么当我们告诉你可以做演示时，我们相当有信心。虽然当时我们还没有训练模型，但我们信心十足。后来我们做了大量尝试，并对正在发生的事情有了越来越深入的科学理解。但现在从头来看，这（GPT）确实源于实证结果先行。 -- 山姆奥特曼与比尔盖茨在Unconfuse Me上的对话
+
+### 观点
+###### [中台的困局：眼看他搭中台，眼看他又拆了](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247669687&idx=1&sn=bd7b4331e30fea353de2d2ec43433a6c&chksm=eaa64de7ddd1c4f1e2bcb41fa09ade4aaf17bf9972bf20bba640296e448b3815dc3892ff33fe&scene=21#wechat_redirect)
+中台不是一直不变的，它需要根据市场需求不断进化，演变成能够满足当前企业市场需要的形态。中台不是万能的，它只是企业数字化转型的一种重要实现路径，我们不能对中台有过高的期望，而是应该理性地回归到企业数字化转型的价值上来。
+1.中台 与前台的边界模糊。很多前台的业务让中台接管开发，到底是接还是不接？中台的角色和范围缺乏明确界定，导致中台与业务之间的责任划分模糊不清，引发了重复建设、资源浪费和沟通成本等问题。
+1.稳定 性与灵活性的冲突。稳定与灵活一直是个矛盾体，中台接入的业务线非常多，一旦出问题影响面巨大，代码质量如何把控、上线流程如何稳定、业务如何做好隔离，都需要考虑清楚。
+1.沟通 障碍与目标差异。协调中台团队和业务团队之间的沟通和合作，平衡双方的需求和利益，以及处理中台和业务之间的依赖和变更，都是一项复杂的管理任务。
+1.中台 规划与业务需求之间的平衡。中台的服务需求和响应之间存在不匹配，这导致中台无法满足业务的多样化和个性化需求。有时中台过度迎合业务的短期需求，却牺牲了其长期规划和可持续发展。
+1 .利益分配。距离业务近的地方，比距离业务远的地方更能得到公司增长的成果，中台看似业务，其实只是沉淀，追求的是稳定和灵活。还有业务下沉的时候，会涉及到与中台的业务交接，前台业务必定会减少。如果是部门划到中台，是否会有人员变动？当中台的服务价值和收益缺乏清晰界定，将难以有效衡量自身的贡献和影响。
+
+
+###### [黄仁勋斯坦福大学两场最新对话](https://finance.sina.cn/chanjing/gsxw/2024-03-11/detail-inamxtkr1619017.d.html)
+1. 当时我在 LSI 做工程师，他们在 Sun 工作。我当时跟 CS 领域最聪明的人共事，制造各种工作站包括图形工作站。有一天Chris 和 Curtis 说，他们想离开 Sun 。他们想让我帮忙想想做什么好。我成为CEO 之前的第一份工作是洗碗工，那份工作我做得很出色。总之，我们经常聚会，而那段时期正值微处理器革命。那是在1992到1993年期间，PC革命才刚开始。革命性的Windows 95还没上市，奔腾处理器甚至还没发布。这一切都发生在 PC 革命爆发之前，显而易见，微处理器会非常重要。于是我们想，为什么不创立一家公司解决通用计算机无法解决的问题呢？这便成了公司使命：制造特殊的计算机解决通用计算机无法解决的问题。直到今天，我们还一直专注于此。
+1. Laurie和我当时银行里只有六个月左右的生活费，我们已经有了 Spencer和Madison，还有一条狗，所以我们一家五口只能靠手头这点存款生活。因此我时间不多，我没有写商业计划书，而是直接去找了威尔弗雷德·科里根（Wilf Corrigan，LSI创始人及CEO，也曾担任过著名的仙童半导体的总裁兼CEO）。随后他拿起电话打给 唐·瓦伦丁，说：“唐，我要给您送个小伙子过去，我希望你能给他投资。他是我在LSI 最棒的员工之一。”我学到的教训是：你可以忽悠一个精彩的面试，你也可能会把面试搞砸，但你无法逃避自己的过去，所以要把自己的“过去”做好。
+1. 从很多方面来说，我说我是个好洗碗工是认真的，我可能是Denny’s餐馆史上最好的洗碗工。我有规划，注重组织有序，我准备工作很用心，然后全力以赴地清洗盘子，之后我被提拔为服务员，我是Denny's最好的服务员。我从不空手离开工作区，也不空手回来，我效率很高。总之，我最终成为了CEO，但我仍在努力成为一名优秀的CEO。
+1. 每件事情都是在创造技术、开拓市场。
+1. 我们创立了“加速计算”（英伟达）公司。问题是，它用来做什么？它的杀手级应用是什么？这就是我们做出的第一个重大决定，也是红杉投资的项目。我们的第一个重大决定就是，首个重点应用领域是3D图形。技术将是3D图形，而具体应用程序将是电子游戏。
+1. 当时，廉价的3D图形技术是不可能做到的。硅谷图形芯片产品要上百万美元，做廉价版本很难。而电子游戏市场当时的价值是零美元、不存在。你有一项难以商品化的技术，瞄准了一个尚未存在的市场。这个交集就是我们公司的创立点。
+1. 我们必须不断创造新技术、新市场。这种“创造技术、开拓市场”的理念定义了我们公司。我们做的几乎每件事情都是创造技术、创造市场。这就是人们说的“生态链”的本质。
+1. 过去30年里，英伟达的核心领悟就在于：为了让别人购买我们的产品，我们必须亲手开拓这个新市场。
+1. 当时做的产品跟微软Direct 3D标准不兼容，怎么应对的？我们不得不更改赛道，否则就只能倒闭。但我们不知道如何按照微软的方式来构建它。我还记得那次会议上的讨论：我们现在有89个竞争对手，我们知道之前的方式不对，但我们不知道正确的方式是什么。幸运的是，有个周末我带女儿Madison 去书店，然后就看到了这本书 OpenGL手册，定义了硅谷图形的计算机图形处理方式。一本 68 美元，我带了几百块钱，买了三本。中间有大幅的折叠插页，这个插页就是OpenGL流水线计算机图形处理流水线。我把它交给了与我共同创办公司的那些天才手中。我们以前所未有的方式实现了OpenGL流水线，构建出了世界从未见过的东西。其中有很多经验教训。对我们公司来说，那一刻给了我们极大的信心：即使对所做的事情一无所知，也能成功创造出未来。现在这就是我对任何事情的态度。当有人跟我说我没听过的事情，或者听说过但不懂原理，我的想法总是：能有多难呢？可能看本书就搞定了，可能找一篇论文就能搞清楚原理。即使是今天的公司，我也经常回归本质，从头思考。我们今天思考软件、计算机的方式一直在改变。经常促使公司和自己回归问题本质，会创造出大量的机会。
+1. 我们坚信可以创造出一种计算机能解决一般计算无法解决的问题。我们相信CPU的能力是有极限的，通用计算的能力也有极限。同时我们也知道能去解决一些有趣的问题。但这些问题只是有趣吗？还是能扩展成有趣的市场？只有当它们成为市场时才能保证可持续性。
+1. 使用过哪些早期指标呢？各种各样的都有。我们为深度学习创造了一门编程语言，就像是该领域的OpenGL。他们需要我们做这个，这样他们才能表达他们的数学计算。他们不懂CUDA，但他们懂深度学习。我们在中间给他们创造了这个工具。我们之所以这么做，是因为即使当时市场规模是零……这些研究员身无分文，即使看不到财务回报、遥遥无期，只要你相信，公司也愿意去做。
+1. 从创立之初，我们就一直是注重工作的重要性而非市场规模。因为工作的重要性是未来市场存在的早期指标。
+1. 我们应该去做那些“如果我们不做就会出问题”的事情。
+1. 英伟达有十年的时间在投资未来，但市场并不存在。当时只存在一个市场：计算机图形。十几年的时间，推动我们今天发展壮大的市场根本不存在。那么，你该如何继续带领身边的所有人：公司、管理团队、优秀的工程师、股东、董事会、合作伙伴？你带着所有人上路，但根本没有市场存在的证据。这是真的非常非常的具有挑战性。我们有个短语叫EIOFS“未来成功早期指标”的缩写。我常使用这个词，它能帮助人们、给予公司希望。
+1. 股价跌了80%确实有点难堪。你只想穿一件“不是我的错”的T 恤出门。更糟的是你不想起床，不想出门。这些都很真实，但随后你还是得投入工作。我在同一时间醒来，用同样的方式规划我的一天。我回归初心：我相信什么？你必须始终牢记核心，你相信什么？最重要的事情是什么？一项项确认。这样做有帮助。家人爱我吗？是的，很好。你就得逐条确认。再回到你的工作核心，继续工作。然后每一次对话都回到工作核心，让公司的注意力集中在核心上。
+1. 你坚信吗？有什么东西改变了吗？股价变了但还有其他东西变了吗？物理定律变了？万有引力变了？那些促使我们做出决定的事情，那些假设、那些信念有变化吗？因为如果这些东西变了，那一切都得变。但如果它们不变，你也什么都不需要改变。继续走下去，这就是坚持的办法。
+1. 你必须回归初心，问问自己什么是生成式人工智能？发生了什么事？我们有了可以理解事物的软件它们可以理解为什么……我们将所有东西数字化了。但是这意味着什么呢？通过大量学习、大量数据以及从模式和关系中，我们现在理解了它们的含义。我们不是分开了解它们的。我们是在同一个上下文中学习口语、文字、段落和词汇。我们找到了它们之间的相关性，它们彼此都是有关联的。现在，我们不仅理解了模态、每个模态的含义，我们还明白如何在它们之间进行转换。显而易见的应用如：视频生成文本，就是字幕；文本生成图像如Midjourney；以及文本生成文本如ChatGPT，太神奇了。我们现在知道，我们理解了含义，还可以转换。某些事物的转换等同于信息生成。
+1. 未来的计算将高度依赖生成。举例来说我们现在正在聊天。我告诉给你们的信息很少是检索所得。大多数是生成的，这就叫做生成式人工智能（AIGC）。未来计算机的运算会高度依赖生成，而非基于检索。
+1. 世上有很多事我们无法控制，你的工作是做出独特贡献、有目标的生活，做一些只有你才能做或会去做的事。做出独特贡献，在你离开世界后，大家会觉得因为有你，世界变得更好了。对我来说我就是这样过日子的。我会快进到未来再往回看。我会往回看，翻看历史。我们用这种做法、那种方式解决了某些问题……说得通吗？这有点像你们解决问题的方式。你搞清楚最终想要的结果，然后反推实现它的方法。所以我设想英伟达为推动计算领域发展做出独特贡献，因为计算是推动整个人类进步的最大动力。这不是自我吹捧，而是因为这是我们擅长的领域，且难度极高。到今天，公司已经走过了31年，但我们的征途才刚开始。这是极难的目标。当我回首往事时我相信我们会被铭记，成为一家改变了世界的公司，不是因为我们到处宣讲通过言行改变世界，而是因为我们坚持做一件难度极高的事，这件事是我们擅长、热爱而且做了很久。
+1. 现代AI最伟大的突破是深度学习，有了长足的进步。但另一个不可思议的突破是人类常有、常使用的一项能力，就是强化学习、人为反馈。这就是我的工作。如今，我们才弄清楚如何将这个系统性地应用在人工智能上。还有很多其它防范手段：例如，微调、基础。目前，有些模型生成的物体会在太空中飘、不遵循物理定律。这需要技术来解决。防范需要技术，微调需要技术，使AI与人类目标相一致需要技术，安全也需要技术。飞机之所以安全，是因为所有的自动驾驶系统，都由多样性和冗余性系统支持，还有各种各样新发明的功能安全和主动安全系统。我们需要更快、更快速地发明出所有与之类似的技术。安全和人工智能之间的界限将会变得模糊且紧密交融。在网络安全领域，我们需要技术非常、非常快速地进步才能保护我们免受人工智能的伤害。
+1. AI给社会带来的影响，如何应对呢？我没有很好的答案。重要的是把这一切划分成很多个子问题，这样我们才不会过度聚焦于一个领域，而忘记了大量常规领域还可以做的事。
+1. 今天我们学习，然后我们应用。我们去训练推理，我们学习，然后我们应用。在未来，我们将有持续学习，并可以决定是否将那个持续学习的结果部署到世界上的应用中，但计算机将观察视频和新文本，并从所有互动中不断改进自己。学习，训练，推理，部署，应用过程都将成为一体。这就是我们所做的。推理、训练、应用这套强化学习循环将是持续的，而强化学习将基于实时通过互动以及我们实时创造的合成数据。就像当你学习时，你获取信息的片段，然后你从第一原理开始，在我们的大脑中进行模拟，想象状态，未来状态在很多方面对我们来说表现为现实。未来的人工智能计算机也会这样做。它会进行合成数据生成，它会进行强化学习，它将继续以真实世界的经验为基础。
+1. 如果你不尝试解释你为什么擅长某件事，他们永远不会有机会购买你的产品。
+1. 运营数据中心的人考虑的是运营成本、性能、部署时间及利用率等等，我们的总运营成本（TCO）非常好。即使竞争对手的芯片是免费的，整体算下来它也不够便宜。
+1. 我们的目标是增加更多的价值。这需要很多努力，我们必须不断创新，更不能掉以轻心。
+1. 我们正在训练的这些模型是多模态，这意味着我们将从声音中学习，从文字中学习，从视觉中学习，就像我们所有人一样，看电视并从中学习。当然这是ChatGPT真正创新的地方，也就是RLHF。AI观看大量不同的例子，比如视频，来学习这个世界被遵守的规律。它必须创建一个所谓的世界模型。所以，我们必须理解多模态性，还有其他模态，比如基因、氨基酸、蛋白质、细胞等等。
+1. AI会具有更强更强的推理能力，我们人类所做的很多推理，都编码在常识中。常识是我们所有人类认为理所当然的能力。互联网上有很多我们已经编码好的推理和知识，模型可以学习。还有更高层次的推理能力，例如现在你问我问题，大部分的问题，我的确像生成式模型一样快速生成。但有些问题，我需要想想，也就是规划。这种很多的“long thinking”，AI并不擅长。你输入到ChatGPT的一切，它都会立即回应。我们希望输入到ChatGPT的某个问题，给它一个目标，给它一个使命，它能思考一会儿。所以，这种系统，计算机科学称之为系统2，或者长思考，或规划。
+1. 如果给AI很多数学测试、推理测试、历史测试、生物学测试、医学考试，以及律师考试，甚至包括SAT、MCAT等等，你把这些测试列出来，摆在计算机科学行业面前，我猜在5年内就会在每一个测试上都做得很好。所以，如果你对AGI的定义是通过人类的测试，那么我会告诉你，五年我们会通过所有的测试。但如果你稍微换一种方式问我，AGI是拥有人类的智能，那么我不确定如何具体定义人类的所有智能，没有人真正知道，因此这很难实现，但我们都在努力让它变得更好。
+1. 我认为我的一大优势是，我期望值很低。我认为大多数斯坦福毕业生期望值很高。期望值很高的人通常韧性很低。不幸的是，韧性在成功中很重要。我不知道如何教你们，除了我希望痛苦发生在你们身上。我很幸运，我成长的环境中，我的父母为我们提供了成功的条件，但同时，也有足够的挫折和痛苦的机会。直到今天，我在我们公司里常常使用“痛苦和折磨”这个词。伟大不是智力，伟大来自于性格。聪明人需要经历痛苦才能打造出这样的性格。
+
+
+###### [入行 15 年，我还是觉得编程很难](https://mp.weixin.qq.com/s/B7Z0ROkiBqqxVKkLNR9BxQ)
+1. 很多年前，当我还是一名计算机专业的大四学生时，整天上网浏览各类招聘信息，想找到一个合适的程序员实习岗位。除了实习岗位外，我偶尔也会点进一些“高级工程师”的招聘帖里。现在回想起那些帖子，抛开让人眼花缭乱的技术名词，我印象最深的就是常出现在第一行的岗位年限要求：“本职位要求 工作经验 5 年以上”。作为一只一天班都没上过的小菜鸟，这些年限要求在我眼里简直长到夸张。不过，望洋兴叹之余，我有时也会在心中暗暗憧憬一下：“五年工作经验的程序员，那该多厉害啊？写代码对于他们来说，是不是像吃饭一样简单？”时光荏苒，一晃十几年过去了。如今回头一望，自己也成了一名有着 15 年工作经验的光荣打工人。在软件开发行业摸爬滚打这些年后，我发现很多事情，与我在大四时所想象的大不相同，比方说：1)随着经验增长，编程并不会变简单太多，“像吃饭一样简单”只出现在梦里。2)给许多“大项目”写代码不光没意思，还很危险，远不如在 LeetCode 上做一道算法题有趣。3)只从技术角度思考问题，成不了好程序员，有些东西远比技术更重要。
+1. 编程曾经是一项门槛很高的专业技能。从前，一个普通人想学编程，最常见的做法就是通过教材和书本学习。不过大部分编程专业书，十分艰深晦涩，对于初学者来说很不友好。因此不少人在尝到编程的乐趣前，就早早地半途而废。但如今，学编程正在变得越来越容易。学习不再像以前那样，只能硬啃书本，而是多了许多新途径。观看教学视频、参加 Codecademy 的交互式课程，甚至直接在 CodeCombat 通过玩游戏来学编程，每个人都能找到适合自己的学习方式。
+1. 2010 年，我跳槽到了一家总部位于北京五道口的大型互联网公司。加入这家公司前，我只在十人规模的小公司待过，因此，我对新公司在各方面都有着很高的期待，尤其是软件质量方面。当时，我心里想的大概是这样：“这可是支撑了有着千万用户量的产品的‘大’项目，代码质量跟之前那些比，肯定有质的飞跃吧！”等到在新公司工作了一周后，我才发现自己实在是错得离谱。所谓“大”项目的代码质量同我的预期相去甚远。打开 IDE，数百行的函数和神秘的数字字面量比比皆是，开发任何一个小需求都难如登天。后来，在待过更多公司，接触了更多软件项目后，我总结出一个道理：不论公司多大、项目多牛，在实际工作中遇见好代码，仍然是小概率事件。
+1. “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”“任何傻瓜都能写出计算机能理解的代码。优秀程序员写人类能理解的代码。” -- Martin Fowler
+1. 对于任何层级的程序员来说，好代码都不是什么唾手可得的东西。要写出好代码，需要在许多维度上反复权衡、精心设计，最后再加以持续打磨。
+1. 编程和写作非常相似。二者都是使用文本和符号来表达思想，只是方式略有不同。如果你去查阅相关资料，你会发现许多职业作家的日常生活，就是阅读和写作两件事在不断循环。他们每天会花大量时间阅读各类文字，然后再写作。同样是“文字工作者”，程序员们就很少重视阅读。但要想快速提升编程能力，阅读正是不可或缺的重要一环。除了日常工作接触到的项目以外，我们应该更多地阅读那些经典软件项目，从中学习 API 设计、模块架构和代码编写的技巧。不光代码和技术文档，最好再定期读一些计算机方面的专业书，保持阅读书籍的习惯。在这方面，我认为 Jeff Atwood 在十多年前写的文章 "Programmers Don't Read Books -- But You Should（都说程序员不读书——但你应该读）"，如今读来仍不过时。
+1. 当你在编程时，创造新事物的机会实际上随处可见。因为并非只有发布一个新软件，才称得上是“创造”。写一个可复用的工具函数、设计一套清晰的数据模型，全都可以归入“创造”的范畴。
+1. 身为程序员，保持对“创造”的热情至关重要。因为它可以帮我们：1)更高效地学习：学习一门新技术，最高效的方式就是用它开发一个真实项目，在创造的过程中学习，效果最好。2)有机会邂逅了不起的东西：许多改变世界的开源软件，最初都是作者纯粹出于兴趣所创造，比如 Linus Torvalds 和 Linux，Guido van Rossum 和 Python。
+1. 虽然“创造”好处多多，程序员们也有大把机会去做，但许多人常常缺少一种身为“创造者”的觉悟。就像那个广为流传的小故事所说：一位哲学家询问正在砌砖的工人，有人清楚地知道自己是在建造一座大教堂，有人却认为自己只是在砌砖。很多程序员正是“只见砖块，不见教堂”。将自己定位成创造者后，看待事物的方式就会发生天翻地覆的变化。举个例子，同样是给 API 增加报错提示文字，创造者们就能跳出“快速完成需求就好”的思维陷阱，向前一步，追问自己一些更重要的问题：“我想为用户创造什么样的产品体验？怎样的报错文字，更能帮助我达成该目标？”就像任何一个有用的编程模式一样，“创造者思维”也能成为你的职业生涯的一道巨大推进力。因此，现在就试着问自己一个问题吧——“我的下一份创造会是什么？”
+1. 除了可读性以外，评价代码好坏还有许多其他维度：1)贴合编程语言：是否使用了当前编程语言的推荐写法？语言特性和语法糖，使用程度是否恰到好处？2)易于修改：代码设计是否考虑了未来的需求变更，当变化发生时，代码是否容易随之修改？3)API 设计合理：API 设计是否合理，易于使用？好的 API 在简单场景下使用方便，在高级场景下又可以随需求扩展。4)性能够用：代码性能是否满足当前业务需求，同时为未来保留了一定提升空间？5)避免过度设计：代码是否存在过度设计、过早优化的毛病？
+1. 世间没有完美的代码。大多数时候，你的代码只要能满足当前需求，又为未来扩展留了一些空间就够了。
+1. 在软件开发领域，“单一职责原则”（全称为 Single responsibility principle，后简称为 SRP）是一条非常著名的设计原则。它的定义很简单，一句话就可以概括：“每个软件模块应该只有一个被修改的理由”。
+1. 在学习任何一项新事物时，先在脑海中想清楚一个问题：“我应该在‘学习成效与投入关系图’中的哪个位置停下来？”，而不是闷头猛学。
+1. 我非常非常喜欢单元测试，我认为写单测这件事，对我的编程生涯影响极大。夸张点说，如果以“开始写单元测试”作为分界线，把我的职业生涯分割成两段，后面那段远比前面那段精彩得多。
+1. 从某种角度来说，软件生来就是准备被修改的（不然你猜，软件为什么叫“软”件？）。这样看来，开发软件和修建房子完全不同。因为没人会在建好一栋大楼后说：“让我们把它推倒重建一遍吧！一样的楼，但是用的钢筋和水泥比之前少 30%！”所以，产品经理以及不稳定的需求不是程序员的敌人。并且，能否写出易于修改、适配变化的代码，是区分普通程序员和优秀程序员的重要标准之一。
+1. 《代码大全2》中所说：软件开发的核心问题是管理复杂度。失控的复杂度就是程序员最大的敌人。
+
+
+###### [Aardvark'd: The Fog Creek Documentary, 18 Years Later(保罗·格雷厄姆的实习)](https://mtlynch.io/aardvarkd/)
+1. A lot of these tech startup founders who are extremely successful, back when they were getting started, they were terrified.They were very unsure of what they were doing. They questioned things, and I’m sure doubted themselves…And so to see these people as vulnerable people at one point in time is interesting to me.
+1. I think the relationship between hackers and business guys — at least in the beginning — is that you need hackers, and you don’t need business guys. -- Paul Graham
+1. You don’t have to be in this fake world of school doing some silly assignment that has no real purpose. You can build something that’s actually useful. You can go put it up on your website, and people can really use it. If you can build something real, why spend your life doing stuff that’s fake? -- Aaron Swartz
+
+###### [Cottage computer programming (from《Digital Deli》)](https://www.atariarchives.org/deli/cottage_computer_programming.php)
+1. Without intending to, I had gathered all the necessities for what would now be called an "electronic cottage." Far from the hustle and bustle of Silicon Valley, I began writing programs for the fun of it-programs that drew pretty pictures on the display, played music or did something elegant and mathematical. I mailed some of them to Apple Computer, which promptly offered to buy them and encouraged me to write more. Then as now, there were many more computers than programs.
+1. I had bought the computer as a plaything, but within weeks I had been paid more than the cost of the machine. I began to think about a more ambitious project, a word processing program to "obsolete" my typewriter. Since I write a fair amount, I knew I would be able to test my program properly, which turned out to be very important.
+1.  I mailed off the first version of Apple Writer in a big manila envelope, and after some negotiating (and a few revisions) Apple agreed to pay $7,500 for the program. It didn't occur to me to ask for a percentage of future profits, but fortunately two things happened: 1) the first version became a big hit, and 2) no one at Apple was able to make the improvements that were needed for the next version. So about two years later Apple and I decided to start over, this time on a royalty basis.
+1. The slightest misstep caused the instant erasure of many hours of work; the machine would reject everything with perfect dispassion until each detail was just right. Then the program would suddenly function beautifully, and never fail again.
+1. As Einstein said in a different context: "the years of anxious searching in the dark, with their intense longing, their alternations of confidence and exhaustion, and the final emergence into the light-only those who have themselves experienced it can understand."
+1. Many software companies put their faith in committees because they believe this is the way things have always been done. In fact, most unique modern achievements have been the product of individuals or very small groups, including relativity theory, the airplane, the laser and the computer itself.
+
+
+###### [How Pinterest scaled to 11 million users with only 6 engineers](https://read.engineerscodex.com/p/how-pinterest-scaled-to-11-million)
+Lessons from Scaling Pinterest
+1. Use known, proven technologies. Pinterest’s dive into newer technologies at the time led to issues like data corruption.使用已知的、经过验证的技术。 Pinterest当时对新技术的深入研究导致了数据损坏等问题。使用已知的、经过验证的技术。
+1. Keep it simple. (A recurring theme!)保持简单。 （一个反复出现的主题！）
+1. Don’t get too creative. The team settled on an architecture where they could add more of the same nodes to scale.不要太有创意。 该团队确定了一种架构，他们可以添加更多相同的节点进行扩展。
+1. Limit your options.限制您的选择。
+1. Sharding databases > clustering. It reduced data transfer across nodes, which was a good thing.数据库>群集。 它减少了节点之间的数据传输，这是一件好事。
+1. Have fun! New engineers would contribute code in their first week.玩得愉快！ 新工程师将在第一周贡献代码。
+
+###### [How Instagram scaled to 14 million users with only 3 engineersInstagram ](https://read.engineerscodex.com/p/how-instagram-scaled-to-14-million)
+![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa279781f-8c76-4e67-8a63-6b9930d1a48c_1984x937.png)
+
+Instagram’s Guiding PrinciplesInstagram:
+1. Keep things very simple.让事情变得非常简单。
+1. Don’t re-invent the wheel.不要重新发明轮子。不要重新发明轮子。
+1. Use proven, solid technologies when possible.尽可能使用经过验证的可靠技术。尽可能使用经过验证的可靠技术。
+
+
+###### [阿里巴巴的工作经历：Software World Tour With Son Luong Ngoc](https://corecursive.com/software-world-tour-with-son-luong-ngoc/)
+1.  Learning in Asia was something very passive. Whatever you are given to by the teacher, you learn that and that’s it, but in North America and I think in Europe, if you were to learn something, then you must have a passion for it because you have a choice of choosing to learn that topic. So once you have a passion for it, it means that you enjoy learning about it and you would spend a lot of time self-studying about it. I did not have any of that. Even though I love math, I didn’t love it that much. I just love it simply because I was good at it.
+1. The university taught me two things. One is obviously, the computer science stuff is quite cool, but what it taught me is I need to value this environment. When I enter a competitive environment, I should not be competitive, but I should befriend all these people because turns out later in life when I look back, I cannot find the same quality of people, the same smartness, the same speed that I was able to find in Waterloo.
+1. As a Waterloo math grad, Son easily had the skills for understanding insurance and actuarial math, and it all started to make sense to him.There’s some value here. You don’t need to gamble everything, but there are percentage and there are value in safety net. You can actually quantitatively calculate that using an actuarial model behind all that insurance and then all that math from Waterloo start kicking it. I was like, “Oh, this all makes sense now. Okay, I can actually model out my life and my income and all that in a much better way than just gambling everything away.”
+
+
+###### [天天写业务代码，如何破局业务开发的本质？](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247667685&idx=1&sn=94959aefedb00fc4bf2d3393dd70e529&chksm=eaa655b5ddd1dca3310c575bc27c972e07f1cc4d409066992e0ffaf91bc9091c3ddd360312a5&scene=21#wechat_redirect)
+
+###### [Navigating the World of Large Language Models](https://www.bentoml.com/blog/navigating-the-world-of-large-language-models)
+
+
+### 有趣
+1. [自制检测飞机的雷达：My Toddler Loves Planes, So I Built Her A Radar](https://jacobbartlett.substack.com/p/my-toddler-loves-planes-so-i-built)
+1. [自制CPD：How To Make A CPU - A Simple Picture Based Explanation](https://blog.robertelder.org/how-to-make-a-cpu/)
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)

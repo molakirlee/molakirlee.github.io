@@ -57,15 +57,17 @@ tags:
 ### 弱相互作用计算
 
 #### 相互作用力分析
-计算配合物主体对客体分子之间是否存在相互作用力（氢键等）以及类型、大小：  
-1. [谈谈“计算时是否需要加DFT-D3色散校正？”](http://sobereva.com/413)  
-1. [DFT-D色散校正的使用](http://sobereva.com/210)  
-1. [乱谈DFT-D](http://sobereva.com/83)  
-1. [大体系弱相互作用计算的解决之道](http://sobereva.com/214)  
-1. [谈谈BSSE校正与Gaussian对它的处理](http://sobereva.com/46)  
-1. [Multiwfn支持的弱相互作用的分析方法概览-考察类型、特征、本质](http://sobereva.com/252)  
-1. [使用Multiwfn研究分子动力学中的弱相互作用](http://sobereva.com/186)
-1. [探究18碳环独特的分子间相互作用与pi-pi堆积特征](http://sobereva.com/572)
+计算配合物主体对客体分子之间是否存在相互作用力（氢键等）以及类型、大小。
+
+弱相互作用本质分为两大类：
+色散作用：pi-pi堆积、范德华吸引
+静电吸引主导，少量色散吸引参与：氢键、二氢键、卤键、pi-氢键、碳键、硫键、磷键等
+色散作用起的比重越大，越需要弥散函数、考虑BSSE问题。
+
+
+泛函和基组的选择看这2篇：
+1. [简谈量子化学计算中DFT泛函的选择](http://sobereva.com/272)
+1. [谈谈量子化学中基组的选择](http://sobereva.com/336)
 
 ###### 计算级别选择
 1. 特困：PM6-D3 
@@ -74,15 +76,16 @@ tags:
 1. 小康：m06-2x-d3 > b3lyp-d3/6-311+g**（可用counterpoise改进结果）
 
 根据计算能力和体系大小确定计算级别；
-优化和振动分析时完全可采用比计算能量时低1-2个档次的级别来节省时间；
+优化和振动分析时完全可采用比计算能量时低1-2个档次的级别来节省时间，详见[浅谈为什么优化和振动分析不需要用大基组](http://sobereva.com/387)；
 静电主导的体系在优化时不用带弥散；
 优化和振动分析不要用counterpoise；
 对于DFT-D3，def2-qzvp最理想（因为是在其基础上拟合的），没必要考虑弥散和BSSE；
 
 ###### 基组选择
 几何优化：
-色散主导：may-cc-pvtz足够理想，6-311+g**一般够用，6-311g**或tzvp也能接受；
-静电主导：tzvp足矣，6-31g**或def2-svp也可以接受。
+色散主导：may-cc-pvtz足够理想，6-311+g**一般够用，6-311g**或tzvp也能接受；  
+静电主导：tzvp足矣，6-31g**或def2-svp也可以接受。  
+对于色散作用占主导的弱相互作用，如果计算能力尚有余裕，相互作用能计算时建议用counterpoise方式处理BSSE问题，所耗时间会是复合物单点计算时间的两倍多。
 
 单电能：
 1. 底线：DFT + 6-31+g**或ma-def2-svp；后HF + jun-cc-pvdz
@@ -95,7 +98,8 @@ tags:
 
 ###### 色散校正
 1. DFT-D3常用的有零阻尼（EmpiricalDispersion=GD3）和BJ阻尼（EmpericalDispersion=GD3BJ）两种，BJ阻尼较好，但mx06-2x等明尼苏达泛函只能用零阻尼（因为其已经很很好处理中程）.
-1. DFT-D3没法体现电子结构哦的不同对色散作用的影响。例如不能体现激发态和基态的区别、金属处于不同氧化态的区别。准确区分这样的差别适合用XDM、VV10等方法表现色散作用，或用m06-2x等自身能描述色散作用的泛函.
+1. DFT-D3没法体现电子结构的不同对色散作用的影响。例如不能体现激发态和基态的区别、金属处于不同氧化态的区别。准确区分这样的差别适合用XDM、VV10等方法表现色散作用，或用m06-2x等自身能描述色散作用的泛函.
+具体参见[DFT-D色散校正的使用](http://sobereva.com/210)
 
 ###### BSSE
 1. [谈谈BSSE校正与Gaussian对它的处理](http://sobereva.com/46)
@@ -105,8 +109,22 @@ tags:
 1. 在气相下做counterpoise，把BSSE校正能加到溶液下算的相互作用能上.或在液相优化的结构上，直接#p  m062x/6-31+g(d,p) counterpoise =2 得到BSSE校正能.
 1. 在溶液下算两者间相互作用能，直接复合物的能量减单体能量.
 
+###### 氢键
+1. M06-2X-D3(0)/def-TZVP，即`M062X/TZVP EmpiricalDispersion=GD3`，但其实B3LYP-D3(BJ)够了
+1. 对于氢键、卤键等静电主导的强度不很弱的作用，用了带弥散的3-Zeta级别的基组后，不做BSSE校正算出来的相互作用能也不错。
+
+###### 其它弱相互作用资料
+1. [谈谈“计算时是否需要加DFT-D3色散校正？”](http://sobereva.com/413)  
+1. [DFT-D色散校正的使用](http://sobereva.com/210)  
+1. [乱谈DFT-D](http://sobereva.com/83)  
+1. [大体系弱相互作用计算的解决之道](http://sobereva.com/214)  
+1. [Multiwfn支持的弱相互作用的分析方法概览-考察类型、特征、本质](http://sobereva.com/252)  
+1. [使用Multiwfn研究分子动力学中的弱相互作用](http://sobereva.com/186)
+1. [探究18碳环独特的分子间相互作用与pi-pi堆积特征](http://sobereva.com/572)
+
 
 ### 参考资料
 1. [一篇最全面介绍各种弱相互作用可视化分析方法的文章已发表！](http://bbs.keinsci.com/thread-37629-1-1.html)
+1. [基组写法及相关知识Gaussian Basis Sets](https://gaussian.com/basissets/)
 
 ![](/img/wc-tail.GIF)

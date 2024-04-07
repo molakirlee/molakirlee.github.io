@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Windows to Go"
+title:      "WTG Windows to Go"
 subtitle:   ""
 date:       2021-08-17 16:22:00
 author:     "XiLock"

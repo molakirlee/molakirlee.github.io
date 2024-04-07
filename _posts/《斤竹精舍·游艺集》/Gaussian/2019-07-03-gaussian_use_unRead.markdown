@@ -41,9 +41,7 @@ tags:
 1. [绎模科技](http://www.emoltech.com/?p=43&mdtp=2)
 
 ### 笔记
-#### 酸碱pK
-1. [怎样计算一个有机分子中质子供体的酸性和质子受体的碱性?](http://bbs.keinsci.com/thread-19043-1-1.html)
-1. [使用Multiwfn的定量分子表面分析功能预测反应位点、分析分子间相互作用](http://sobereva.com/159)
+
 
 
 ![](/img/wc-tail.GIF)

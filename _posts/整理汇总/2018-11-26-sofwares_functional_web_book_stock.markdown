@@ -80,6 +80,7 @@ tags:
 1. [误删软件恢复Restoration](http://www.ddooo.com/softdown/114483.htm)
 1. Knoppix：linux版U盘/CD系统
 
+
 ### 办公
 ###### 办公套件
 1. [Slant: trustworthy product rankings for all your shopping needs](https://www.slant.co/)
@@ -110,11 +111,13 @@ tags:
 1. [MobaXterm:Enhanced terminal](https://mobaxterm.mobatek.net/)
 1. [Office Tool 官方网站 - 管理、下载、安装 Office](https://otp.landian.vip/zh-cn/)
 1. [PDF压缩:pdfshrinker](https://github.com/ocdi/PdfShrinker/releases/tag/v0.2):1)路径不要有中文名；2)ebook这个档压缩效果明显，而且画质损失也比较小
+1. [捕风记录仪:根据OCR文本、或对画面的描述进行搜索，摘要浏览活动](https://github.com/yuka-friends/Windrecorder)
+
 
 ### CS
 1. [将任何网页转为RSS](http://fetchrss.com/)
 1. [直接提供各种 Web 应用的 RSS 供订阅。代码开源，可以自己部署](https://docs.rsshub.app/)
-
+1. [python在线编译器](https://pythononlinecompiler.com/)
 
 ###### 文字识别
 1. [WeOCR：可离线识别的网站](https://ocr.plantree.me/ocr)
@@ -123,6 +126,7 @@ tags:
 1. [基于python:EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
 ###### 语音转文字
+1. [语音识别转文字工具stt](https://github.com/jianchang512/stt?tab=readme-ov-file)
 1. [飞书妙记](https://www.feishu.cn/product/minutes)
 1. [Buzz](https://github.com/chidiwilliams/buzz)
 
@@ -161,6 +165,10 @@ tags:
 1. [Jiumo Search 鸠摩搜索](https://www.jiumodiary.com/)
 1. [淘链客](https://www.toplinks.cc/s/)
 1. [田间小站 - 高级英语学习](https://www.tjxz.cc/)
+1. [唐库学习:中英双语朗读](http://www.tanglib.com/)
+
+### 书法
+1. [字帖生成：z2h](https://paper.z2h.cn/)
 
 ### 文件传输
 1. [奶牛快传](https://cowtransfer.com/)
@@ -189,6 +197,10 @@ tags:
 1. 提高图片像素：[Upscayl](https://github.com/upscayl/upscayl)
 1. [toonify: 人物卡通化](https://toonify.photos/)
 1. [泼辣修图](https://www.polaxiong.com/web/#compare)
+1. [inpaint:图片去杂、高清化](https://github.com/lxfater/inpaint-web)
+1. [background-erase:图片去背景](https://background-erase.xyz/)
+1. [ImageTools:图片去背景](https://ai-image.tools/home)
+1. [gif编辑：pear-rec](https://github.com/027xiguapi/pear-rec/blob/main/README.zh-CN.md)
 
 ### 音频视频
 1. 飞熊影视
@@ -236,7 +248,8 @@ tags:
 1. [TabFloater](https://www.tabfloater.io/)
 1. [wifi账号密码生成二维码](https://wificard.io/)
 1. [互动教室](https://flat.whiteboard.agora.io/)
-1. []()
+1. [历史人物关系轨迹图：](https://tools.buyixiao.xyz/historical-figure-query)
+
 
 ### 软件下载
 1. [化工导航](https://www.hg-dh.com/)

@@ -13,6 +13,9 @@ tags:
 
 
 ---
+
+### 软件
+###### chatGPT
 1. [ChatGPT OpenAI](https://chat.openai.com/auth/login)
 1. [DALL·E 2](https://openai.com/dall-e-2/)
 1. [OpenAI](https://platform.openai.com/login)
@@ -49,5 +52,40 @@ tags:
 1. [AI Hub](https://www.aihub.cn/)
 1. [FinChat：上市公司数据分析](https://finchat.io/)
 
+###### 文生图
+1. [sdxlturbo](https://sdxlturbo.ai/)
+1. [Meta公司推出的文生图工具](https://imagine.meta.com/)
+1. [Drawing Prompt](https://drawing-prompt.com/en)
+1. [IP-Adapter-FaceID:以克隆照片人物的脸部，然后通过文生图，将克隆的脸用于生成的图片](https://ipadapterfaceid.com/)
+
+
+###### 图生文
+1. [生成caption](https://felix.link/apps/captions)
+1. [imagetomusic：图生音乐](https://imagetomusic.top/)
+
+###### 图生图
+1. [InstantID:一脸多背景](https://github.com/InstantID/InstantID)
+1. []()
+
+###### 文生曲
+1. [riffusion：描述生成音乐](https://www.riffusion.com/)
+
+###### 聊天
+1. [Character.ai:与创建的角色聊天](https://beta.character.ai/)
+
+
+###### 其它
+1. [AI生成简历：优雅简历](https://www.elegantresume.pro/)
+
+
+### 软件开发
+1. [DevOpsGPT: AI开发软件](https://github.com/kuafuai/DevOpsGPT?tab=readme-ov-file)
+1. [Cloudflare Workers AI:搭建AI聊天、AI翻译、AI绘画平台](https://github.com/Jazee6/cloudflare-ai-web?tab=readme-ov-file)
+
+
+### 资料
+1. [LLM可视化讲解](https://bbycroft.net/llm)
+1. [生成式AI壳程](https://github.com/Microsoft/generative-ai-for-beginners)
+1. []()
 
 ![](/img/wc-tail.GIF)

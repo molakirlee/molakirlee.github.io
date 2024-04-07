@@ -37,6 +37,7 @@ Hey，我是**神探玺洛克**。
 1. [科学网: 何毓琦](https://blog.sciencenet.cn/home.php?mod=space&uid=1565)
 
 1. [Jerkwin](http://jerkwin.github.io/)
+1. [CASEA的奇思妙想](https://www.casea1998.cn/)
 1. [Liu Yujie 受渔非渔の博客](https://liuyujie714.com/)
 1. [Kang Wenyuan 小康学习](http://kangsgo.com/)
 1. [Jianmin medecine design](https://blog.csdn.net/u012325865?viewmode=contents)

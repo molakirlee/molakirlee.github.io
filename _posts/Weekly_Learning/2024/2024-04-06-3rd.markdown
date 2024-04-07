@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      "2024-每周补脑3rd"
+subtitle:   ""
+date:       2024-04-06 10:30:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2024
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 5秒法则：想到后5秒内就抓紧干，不拖延。
+1. 不在过去、无意义的事情上内耗。
+
+### 观点
+
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)

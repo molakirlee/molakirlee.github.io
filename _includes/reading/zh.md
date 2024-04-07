@@ -35,6 +35,9 @@
 1. [bioengx](http://www.bioengx.com/)
 1. [极客阅读](https://jikeyuedu.cn/hot)
 
+###### AI
+1. [齐思](https://news.miracleplus.com/feeds?tab=academic#)
+
 ###### 生活社区
 1. [Plus:bringing mathematics to life](https://plus.maths.org/content/)
 1. [Medium](https://medium.com/)
