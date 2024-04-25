@@ -14,6 +14,9 @@ tags:
 
 ---
 
+### 汇总资料
+1. [Allin-ChatGPT:ChatGPT资料汇总学习](https://github.com/xiaoqdu/allinchatgpt?tab=readme-ov-file)
+
 ### 软件
 ###### chatGPT
 1. [ChatGPT OpenAI](https://chat.openai.com/auth/login)

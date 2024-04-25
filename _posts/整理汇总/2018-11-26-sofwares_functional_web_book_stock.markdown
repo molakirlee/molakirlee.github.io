@@ -183,6 +183,7 @@ tags:
 
 ###### 图片处理
 1. [pixlr: 在线图像编辑](https://pixlr.com/cn/x/)
+1. [clipdrop:扩图、生图、换背景等](https://clipdrop.co/)
 1. [matlab处理图片](https://blogs.mathworks.com/steve/2012/11/13/image-effects-part-1/)
 1. [开源的在线图片编辑器](https://github.com/nhnent/tui.image-editor)
 1. [图片压缩](https://www.butterpig.top/compress)

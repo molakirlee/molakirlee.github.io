@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "机器学习 AI4Science AI4Engineering"
+subtitle:   ""
+date:       2024-04-16 06:06:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - 2024
+
+
+---
+
+### 程序
+1. [Deepmodeling:MD/DFT/flameCFD](https://deepmodeling.com/projects/20)
+
+
+
+
+![](/img/wc-tail.GIF)
