@@ -1223,7 +1223,11 @@ var quotes = [
 'Never doubt that you are valuable and powerful.',
 'Be slow to promise and be quick to perform.',
 'Care and diligence bring luck.',
+'不要做最好的，要做唯一的。 -- 凯文·凯利',
+'关注小事，许多人不是被高山打败，而是被脚上的水泡。 -- 凯文·凯利',
+'Where There\'s Life, There\'s Hope.',
 'A wise head makes a close mouth.',
+'Inside of every problem lies an opportunity.每个问题里都藏着一个机会。',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'

@@ -26,6 +26,7 @@ tags:
 1. [Consensus:AI to  find research papers](https://consensus.app/)
 1. [Explore](https://replicate.com/explore)
 1. [Chatgot](https://start.chatgot.io/login)
+1. [Meta AI](https://www.meta.ai/)
 
 1. [FreedomGPT](https://freedomgpt.com)
 1. [GPTsHunter](https://www.gptshunter.com/)

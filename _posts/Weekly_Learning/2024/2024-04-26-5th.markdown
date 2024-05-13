@@ -1,0 +1,78 @@
+---
+layout:     post
+title:      "2024-每周补脑5th"
+subtitle:   ""
+date:       2024-04-26 20:22:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2024
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 真正的富养，在于培养孩子适应社会的底层能力。比如遇到问题，不是从别人那里寻求帮助，首先要看看能不能通过思考自行找到解决问题的办法。解决问题的能力往往是决定一个人阶层的能力，这不需要卷财力。
+1. 底牌不够时，为了挤进餐桌必须要使用冒进的策略赌一把，但是已经上桌的群体绝不能这么高。难听点说，高球不去琢磨如何利用大宋丰富的资源搞新质生产力，而是带者进士出身的官员们跑去水泊梁山学习宋江的草根创业模式。
+
+
+### 观点
+###### 2024年的软件工程师与硬件工程师 -- Frank
+AI 的软件部分，有的是开源模型，你只要按照文档和教程，都能跑起来。不管原来干什么，哪怕是前端工程师，也能转型搞 AI。
+但是，硬件部分就不行了，必须用专业人才。 AI 离不开算力，算力可是百分之百的硬件，软件没法提供算力。
+互联网公司如果建设自己的算力，就需要 AI 芯片和 AI 服务器，有些公司还会搞定制的集成电路 ASIC/FPGA，这些都需要硬件工程师。你砸这么多钱上马 AI，就肯定要聘请大量的硬件工程师，否则就没有算力。
+但是，硬件工程师的供给很少，因为不容易培养，他需要有电子电路知识，还需要了解计算机系统，并且有足够的动手实践。所以，往往招不到合适的人，招聘岗位会挂很久，累积起来，加剧了市场的供求失衡。
+相比硬件工程师的火爆，软件工程师的招聘就平淡无奇了。
+软件岗位虽然还是远多于硬件岗位，但是增长缓慢，尤其是初级岗位，甚至有些疲软。跟前几年的巅峰相比，已经下降了很多。
+为什么（初级）软件工程师的需求不振呢？我可以列出好几条原因。
+1. SaaS 和云服务的发展，使得很多需求可以外购现成的服务，不必自己编码。
+1. 智能手机市场饱和，对手机 App 的需求减缓。
+1. 培训班和训练营，源源不断生产大量的初级软件工程师。
+1. AI 可以完成简单的编程任务，减少了对初级软件工程师的需求。
+展望未来，如果 AI 的编程能力进一步发展，可以完成复杂的编程任务，目前这种局面就会持续下去：硬件工程师火爆，软件工程师平稳。
+令人担心的是，软件工程师的初级岗位以后几乎肯定会减少，需求集中在中高级岗位。那样的话，初级工程师的培训会成为一个难题，没有外部环境，需要自己锻炼自己，变成中高级开发者。
+
+###### [Advice to people studying technology](https://unixdigest.com/articles/we-have-used-too-many-levels-of-abstractions-and-now-the-future-looks-bleak.html)
+1. Never just follow hype or trends.
+1. Be curious. Don't just learn tools, try to understand how the underlying technology works.
+1. If possible, try at least once to manually do what e.g. a configuration tool does for you.
+1. If possible, try to look at the code for the tool. Even a basic understanding of the code can be very valuable.
+1. Stay curious. Keep learning. Experiment. Dive deeper into the technology that interests you. If possible, set up a homelab and use it as a playground for learning and breaking things.
+1. Question everything. Especially things that don't make any sense to you. Don't just assume that someone else knows better - that's how you quickly turn into a blind follower. Sometimes someone else truly knows better, but don't just assume that to be the case by default. And be brave! Stand by the truth and your convictions even if that makes you feel like you stand alone.
+
+The point I am making with this post is not that everything needs to be understood from first principles by everyone, or that you shouldn't use any tools. As I said, we need abstractions. Furthermore, we have people who specialize in different fields such that e.g. the mechanic fixes the truck while the driver drives the truck.Rather, what I am addressing is the important value of an engineer's attitude toward technology by people working with technology.
+
+###### [风险投资人的话里话](https://jacobbartlett.substack.com/p/yes-actually-means-no-the-curious)
+1. Traction. When they say: “Talk to us again when you have traction.”They really mean: “If you prove there is a market opportunity and that you can execute as a management team, then we might consider you. But because I don’t believe either of those things will happen, I will not be taking a risk on you”.Passing on Fixr was the correct choice. In retrospect, there was no chance our management team was capable of successfully creating a two-sided marketplace, which is widely regarded as the hardest kind of startup to build. Don’t get me started on the abysmal decision to build 4 native apps on 2 platforms before we had a single transaction.
+2. Early Stage. When they say: “We think you’re too early for us, speak to us when you raise your next round.”They really mean: “We’re an early-stage fund, but generally speaking, we only invest pre-seed in second-time founders and people with executive-level industry experience in this sector. We like the opportunity but don’t believe your management team is the right one in which to invest.”Again, this is a pretty reasonable stance. While VC is inherently risky, these risks can be mitigated by backing management teams with a proven track record. Naturally, the riskiest pre-seed dollars are allocated accordingly to increase the chances of achieving a 3x ‘venture rate of return’ for a given VC fund.
+3. Yes Actually Means No. When they say: “We like you, we want to invest, you should start hiring now.”They really mean: “We do really like your vibe as a founding team. We see your potential. We do genuinely want to invest, and want to set you up to move quickly once the deal closes. Please note however that this is neither a term sheet or a wire transfer. Perhaps we want more time to evaluate other options in the space. We lack conviction.”
+
+Here are some quick and dirty thoughts to keep your head screwed on right as you look for startup funding:
+1. If a VC gives a reason for turning you down, don’t necessarily take it at face value.
+1. Be self-critical about your management and the market. Your team or the opportunity might just not be right.
+1. For your first round, it’s much easier to convince a single angel investor than a roomful of VC partners.
+1. When you land a lead angel investor, the rest become easier to find.
+1. If you aren’t a big dog in your industry or haven’t had a startup exit before, the bar for pre-seed VC investment is pretty high.
+1. In a VC firm, you need an influential internal champion who will fight hard for your startup.
+1. Don’t play coy with VCs. Don’t stop talking to them, and don’t let a term sheet get away before the market turns.
+1. “Yes” doesn’t always mean “yes”. Your raise isn’t over until a wire transfer hits your account.
+1. VC funding is cool and all, but essentially, it is a waste of time if you haven’t validated your market: bootstrapping to get paying customers quickly is the most effective tactic available.
+1. In all honesty, you don’t want to take external funding unless you have intensely strong user growth; and being unable to hire becomes your bottleneck.
+
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)
