@@ -1,0 +1,32 @@
+---
+layout:     post
+title:      "gmx FEP 自由能微扰计算"
+subtitle:   ""
+date:       2024-05-12 21:22:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2024
+
+
+---
+
+
+### PyAutoFEP
+1. [PyAutoFEP教程 教你快速自动化预测化学分子有无活性 - 好](https://mp.weixin.qq.com/s?__biz=Mzg4MzUyNTA3Nw==&mid=2247491007&idx=1&sn=fe3e5de73ac652051d890837e2ed23e0&chksm=c02cd085f75b5993cdfc1ab565f32ca1a19919768279a1f8260ece9fb72ef3bcd08dda0f27a3&scene=21#wechat_redirect)
+1. [PyAutoFEP Tutorial--基于Gromacs - 翻译版](https://blog.csdn.net/weixin_42486623/article/details/128765057?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-128765057-blog-128405718.235%5Ev43%5Epc_blog_bottom_relevance_base8&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-128765057-blog-128405718.235%5Ev43%5Epc_blog_bottom_relevance_base8&utm_relevant_index=2)
+1. [示例原文：PyAutoFEP Tutorial 01.pdf](https://github.com/luancarvalhomartins/PyAutoFEP/blob/master/docs/tutorial01/PyAutoFEP%20Tutorial%2001.pdf)
+1. [文献原文：PyAutoFEP: An Automated Free Energy Perturbation Workflow for GROMACS Integrating Enhanced Sampling Methods](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.1c00194)
+1. [手撕版：Gromacs FEP方法计算小分子溶剂自由能](https://mp.weixin.qq.com/s?__biz=Mzg5MzUyNTA3Nw==&mid=2247501678&idx=2&sn=210123c4aad667b3e5ea132e16f7d6d4&chksm=c02f0a54f7588342bb79a112695c3ee3f4331564875723a357093b1baf94515d68308c62dce7&scene=21#wechat_redirect)
+1. [GROMACS Tutorial Free Energy Calculations: Methane in Water](http://www.mdtutorials.com/gmx/free_energy/index.html)
+1. []()
+
+
+### 参考资料：
+
+
+![](/img/wc-tail.GIF)
