@@ -23,6 +23,8 @@ tags:
 1. 1）利用敌人的精神内耗；2）指挥敌人；3）将军，抽车。 -- 毛主席四渡赤水
 1. 不要将技术博客的写作视为打造"个人品牌"，它肯定对此有所帮助。但是，写作最重要的功能是，它是提升个人知识和批判性思维的一个工具。 -- [Write For Others But Mostly For Yourself](https://jack-vanlightly.com/blog/2022/1/25/write-for-others-but-mostly-for-yourself)
 1. 今天的创业公司还面临一个资金过剩的风险。许多创业公司资金充足，就过度招聘并迅速扩张，但并没有真正的增长或实际需求。 他们没有安排最好的工程师来创造最好的产品，而是从一开始就忙于招募和处理臃肿的团队和人员扩张的烦恼。 -- [For God’s sake, follow the Lean Startup Method](https://www.june.so/blog/lean-startup-method-2024)
+1. Copilot 这个名字取得很好，它的角色不是代替程序员进行编写，而是在程序员的指导下完成繁复的部分。作为机长，你需要了解你的目的地，以及途中经过的路标——对应地，你需要知道最终完成的效果，以及如何分步去完成。因此我对它的评价是：能力不详，遇强则强。 --[联手 Copilot，我在10个小时内上线了一个前端网站](https://ameow.xyz/archives/develop-a-frontend-site-with-copilot)
+1. 20多岁时，我跟一个长辈说："我很担心，别人会怎么看待我做的那个决定。"长辈说："放心吧，你没有观众的。"现在想起来，我认为这是我得到过的最好建议。 -- [阿曼达·福蒂尼（Amanda Fortini）](https://kottke.org/24/04/amanda-there-is-no-audience)
 
 
 ### 观点
@@ -84,6 +86,8 @@ Here are some quick and dirty thoughts to keep your head screwed on right as you
 1. VC funding is cool and all, but essentially, it is a waste of time if you haven’t validated your market: bootstrapping to get paying customers quickly is the most effective tactic available.
 1. In all honesty, you don’t want to take external funding unless you have intensely strong user growth; and being unable to hire becomes your bottleneck.
 
+###### [OpenAI前首席科学家的AI论文清单](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE)
+OpenAI前首席科学家Ilya Sutskever推荐的30篇论文，他说："如果你真正学会了所有这些，你就会知道当今 AI 的 90% 重要内容。"
 
 ### 有趣
 

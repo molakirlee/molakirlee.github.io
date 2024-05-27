@@ -1229,6 +1229,7 @@ var quotes = [
 'Care and diligence bring luck.',
 '不要做最好的，要做唯一的。 -- 凯文·凯利',
 '关注小事，许多人不是被高山打败，而是被脚上的水泡。 -- 凯文·凯利',
+'Above all,don\'t lie to yourself.最重要的是不要欺骗自己',
 'Where There\'s Life, There\'s Hope.',
 'A wise head makes a close mouth.',
 'Inside of every problem lies an opportunity.每个问题里都藏着一个机会。',
