@@ -222,6 +222,7 @@ tags:
 1. [实时语音克隆 - 中文/普通话](https://github.com/babysor/MockingBird/blob/main/README-CN.md)
 1. [音频在线编辑](https://vocalremover.org/ch)
 1. [微信视频号视频下载器](https://github.com/xuncv/WeChatDownloader)
+1. [cobalt:在线视频的下载器](https://cobalt.tools/)
 
 
 1. [在线音频编辑100audio](https://100audio.com/sound/100audio_editor/)

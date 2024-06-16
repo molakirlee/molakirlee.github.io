@@ -19,6 +19,7 @@ tags:
 
 ### 软件
 ###### chatGPT
+1. [gpt4o.so](https://gpt4o.so/zh-CN/app)
 1. [ChatGPT OpenAI](https://chat.openai.com/auth/login)
 1. [DALL·E 2](https://openai.com/dall-e-2/)
 1. [OpenAI](https://platform.openai.com/login)

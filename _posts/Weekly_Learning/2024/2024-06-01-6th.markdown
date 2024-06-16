@@ -1,0 +1,45 @@
+---
+layout:     post
+title:      "2024-每周补脑6th"
+subtitle:   ""
+date:       2024-06-01 21:22:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2024
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 创业公司的一大优势是，能够做有趣的事情，学到很多新东西。但是随着移动互联网的饱和，大家都在转向新领域（比如 AI），都在尝试新技术，所以这点优势也不明显了。 -- Frank
+1. 如果没有独立获取客户的能力，就不要创业。 刚刚毕业的年轻人，比较稳妥的道路是先进入大公司，开拓眼界，积累人脉，提升能力，等到可以独立获取客户了，再考虑要不要创业。 --Frank
+1. 人生不过3万天，所以这页我翻篇。
+1. 勇敢并不意味着不害怕，而是意味着尽管害怕，你还是去做那些必须要做的事。 -- [Hacker News](https://news.ycombinator.com/item?id=40487188)
+1. Avoid narrow vocational training for a doomed job and prepare to keep adapting all your career. -- [My career race is in the home stretch, here’s what I know](https://archive.ph/AUKFR#selection-1567.0-1567.57)
+1. They told themselves (and everyone else) that once they’d made their preassigned sum, before age 40, they would quit and become painters, winemakers etc. Eventually, an older banker explained to me that this was a fantasy.They also come to realise that they’d be unlikely to become decent painters or winemakers if they start without any training aged 37. Anyone genuinely serious about those jobs would have a 20-year lead on them. -- [My career race is in the home stretch, here's what I know](https://archive.ph/AUKFR#selection-1567.0-1567.57)
+1. Don’t kid yourself that your institution cares about individuals. The point of an institution is that it can function without any particular individuals. The end is harshest for people who draw their identity from their job. -- [My career race is in the home stretch, here’s what I know](https://archive.ph/AUKFR#selection-1567.0-1567.57)
+1. 互联网虽然大，但是占有统治地位的，就是那几家公司：谷歌、苹果、微软、亚马逊、Meta......它们是互联网领主，瓜分了大部分的数字领地。 在自己的领地上，它们就是掌管一切的王。 这本书进一步说，广大的网民实际上是数字农奴（又称云奴）。你在人家的领地里发帖子、上传照片视频，就是为领主工作。你拿不到多少回报，你的免费劳动只是为领主的公司增加价值。 久而久之，你甚至还会产生心理依赖，一天不去领主的土地看看，心里就会万分失落。 这些数字领主有强烈的领地意识，造出了高高的围篱，防止自己的数字资产（数据）流出，或者领地被其他公司侵占。 如果你要使用某个领主的领地，必须交付地租（使用费）。比如，你要把自己的 App 放在苹果应用商店出售，就必须把30%的收入交给苹果。这是苹果对它的数字领地收取的地租，跟中世纪的封建制度一模一样。
+1. 我认为，很快会出现第一家"一人独角兽"，就是没有任何员工，只有一个创始人，就实现了10亿美元估值的业务。以前这是不可想象的，但 AI 将让它成为现实。 -- [SEARCH SIGN IN Subscribe Now Home News Tech Finance Leadership Well Recommends Fortune 500 TECH·STARTUPS Could AI create a one-person unicorn? Sam Altman thinks so](https://fortune.com/2024/02/04/sam-altman-one-person-unicorn-silicon-valley-founder-myth/)
+1. 如果你是一家上市公司，仅仅生产令人满意的产品是不够的，你还必须成长。如果没有成长，或者成长得不够快，股价就会下跌。比如，苹果公司的市值已经3万亿美元了，但是投资者还要求它继续成长。这就好像要求一个人永远奔跑，不能停下来。没有终点线，追求无限成长，迟早变成恶性癌症。 -- [Growth is a mind cancer](https://manuelmoreale.com/growth-is-a-mind-cancer)
+1. The market doesn't incentivize clever engineering, it incentivizes speed and execution. In 2014 Meta famously changed their motto from "move fast and break things" to "move fast with stable infrastructure." -- [The perfect codebase won't save your company](https://www.catalystmonitor.com/blog/perfect-codebase-wont-save-your-company)
+1. 以前，一个人只要熟练掌握某一项技能，就能在整个职业生涯中保持身价。但是，未来不太可能终生从事单一职业。只会一项技能，因此就不够了，你需要有创业心态，并且成为一个综合主义者，学习不同的东西，并且最终把它们联系起来，组成了一个更大的图景。Looked at the whole picture rather than a part of it, tried to guess where everything was going and used his science skills to design something that people would spontaneously begin to use. -- [The Future Belongs to the Comprehensivist](https://medium.com/@tom.cassidy_40820/the-future-belongs-to-the-comprehensivist-a43e18dbb65a)
+
+### 观点
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)
