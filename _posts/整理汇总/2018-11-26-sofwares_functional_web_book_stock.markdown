@@ -82,9 +82,13 @@ tags:
 
 
 ### 办公
-###### 办公套件
-1. [Slant: trustworthy product rankings for all your shopping needs](https://www.slant.co/)
+###### PDF
 1. [PDF处理](https://pdfreal.com/)
+1. [PDF压缩:pdfshrinker](https://github.com/ocdi/PdfShrinker/releases/tag/v0.2):1)路径不要有中文名；2)ebook这个档压缩效果明显，而且画质损失也比较小
+
+###### 办公套件
+1. [Tinywow工具箱](https://tinywow.com/)
+1. [Slant: trustworthy product rankings for all your shopping needs](https://www.slant.co/)
 1. [onlyoffice](https://www.onlyoffice.com/zh/home-use.aspx)
 1. [doodle投票](https://doodle.com/en/)
 1. [Deskreen:同局域网投屏]()
@@ -110,7 +114,6 @@ tags:
 1. 沙盘Sandboxie
 1. [MobaXterm:Enhanced terminal](https://mobaxterm.mobatek.net/)
 1. [Office Tool 官方网站 - 管理、下载、安装 Office](https://otp.landian.vip/zh-cn/)
-1. [PDF压缩:pdfshrinker](https://github.com/ocdi/PdfShrinker/releases/tag/v0.2):1)路径不要有中文名；2)ebook这个档压缩效果明显，而且画质损失也比较小
 1. [捕风记录仪:根据OCR文本、或对画面的描述进行搜索，摘要浏览活动](https://github.com/yuka-friends/Windrecorder)
 
 
