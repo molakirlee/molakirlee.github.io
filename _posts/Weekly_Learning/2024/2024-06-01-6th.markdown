@@ -30,6 +30,8 @@ tags:
 1. 如果你是一家上市公司，仅仅生产令人满意的产品是不够的，你还必须成长。如果没有成长，或者成长得不够快，股价就会下跌。比如，苹果公司的市值已经3万亿美元了，但是投资者还要求它继续成长。这就好像要求一个人永远奔跑，不能停下来。没有终点线，追求无限成长，迟早变成恶性癌症。 -- [Growth is a mind cancer](https://manuelmoreale.com/growth-is-a-mind-cancer)
 1. The market doesn't incentivize clever engineering, it incentivizes speed and execution. In 2014 Meta famously changed their motto from "move fast and break things" to "move fast with stable infrastructure." -- [The perfect codebase won't save your company](https://www.catalystmonitor.com/blog/perfect-codebase-wont-save-your-company)
 1. 以前，一个人只要熟练掌握某一项技能，就能在整个职业生涯中保持身价。但是，未来不太可能终生从事单一职业。只会一项技能，因此就不够了，你需要有创业心态，并且成为一个综合主义者，学习不同的东西，并且最终把它们联系起来，组成了一个更大的图景。Looked at the whole picture rather than a part of it, tried to guess where everything was going and used his science skills to design something that people would spontaneously begin to use. -- [The Future Belongs to the Comprehensivist](https://medium.com/@tom.cassidy_40820/the-future-belongs-to-the-comprehensivist-a43e18dbb65a)
+1. 我不记得读过的书，就像不记得吃过的饭一样；即便如此，它们还是造就了我。 -- [You Are What You Read, Even If You Don’t Always Remember It](https://blog.jim-nielsen.com/2024/you-are-what-you-read/)
+
 
 ### 观点
 

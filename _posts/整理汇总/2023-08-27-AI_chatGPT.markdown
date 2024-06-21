@@ -58,11 +58,16 @@ tags:
 1. [AI Hub](https://www.aihub.cn/)
 1. [FinChat：上市公司数据分析](https://finchat.io/)
 
+###### 文生视频
+1. [luna AI video](https://lunaai.video/)
+
+
 ###### 文生图
 1. [sdxlturbo](https://sdxlturbo.ai/)
 1. [Meta公司推出的文生图工具](https://imagine.meta.com/)
 1. [Drawing Prompt](https://drawing-prompt.com/en)
 1. [IP-Adapter-FaceID:以克隆照片人物的脸部，然后通过文生图，将克隆的脸用于生成的图片](https://ipadapterfaceid.com/)
+1. [Stable Diffusion 3 免费在线](https://stablediffusion3.net/zh-CN)
 
 
 ###### 图生文
