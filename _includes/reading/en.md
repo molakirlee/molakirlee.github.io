@@ -22,5 +22,8 @@
 ###### Society
 1. [Buzzing](https://www.buzzing.cc/)
 
+###### Life
+1. [Freemagazines](https://freemagazines.top/)
+
 
 ![](/img/qrcode_wechat.jpg)

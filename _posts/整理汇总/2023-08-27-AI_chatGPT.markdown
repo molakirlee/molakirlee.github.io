@@ -68,6 +68,7 @@ tags:
 1. [Drawing Prompt](https://drawing-prompt.com/en)
 1. [IP-Adapter-FaceID:以克隆照片人物的脸部，然后通过文生图，将克隆的脸用于生成的图片](https://ipadapterfaceid.com/)
 1. [Stable Diffusion 3 免费在线](https://stablediffusion3.net/zh-CN)
+1. [logo生成Logo Galleria](https://logogalleria.com/zh-CN/app)
 
 
 ###### 图生文
@@ -80,6 +81,11 @@ tags:
 
 ###### 文生曲
 1. [riffusion：描述生成音乐](https://www.riffusion.com/)
+
+
+###### 文生语音
+1. [VoiceChanger.im](https://voicechanger.im/)
+
 
 ###### 聊天
 1. [Character.ai:与创建的角色聊天](https://beta.character.ai/)
