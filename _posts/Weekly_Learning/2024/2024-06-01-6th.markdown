@@ -33,6 +33,7 @@ tags:
 1. 我不记得读过的书，就像不记得吃过的饭一样；即便如此，它们还是造就了我。 -- [You Are What You Read, Even If You Don’t Always Remember It](https://blog.jim-nielsen.com/2024/you-are-what-you-read/)
 1. Kubernetes 和微服务都是重量级工具，会让你的软件变得更重。使用它们之前，请务必想清楚，你能不能处理它们带来的额外的重量、运营成本、工程开销。 -- [Arne Brasseur](https://toot.cat/@plexus/112403882840794498)
 1. 如果你过于悲观，就意味着你会做出不必要的牺牲，试图减轻实际上不存在的风险。 -- [《极端的假设可能导致更极端的结果》](https://causal.app/blog/forecasting-with-uncertainty)
+1. 我每天早上都这样完全一样地开始，我每天早上都从做我最优先的工作开始。首先。我有一个非常明确的优先事项列表，我从最高优先级的工作开始。在我开始工作之前，我的一天已经成功了。我已经完成了我最重要的工作，可以把我的一天奉献给帮助别人。 -- [黄仁勋](https://www.163.com/dy/article/J4RAH49F05118O92.html)
 
 
 ### 观点
