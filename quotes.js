@@ -1279,7 +1279,8 @@ var quotes = [
 'If you don\'t try,you\'ll never know. 如果不尝试，你永远不会知道结果。',
 'Rome was not built in a day. 罗马不是一天造成的。',
 'Look before you leap. 三思而后行。',
-'Life is expensive.You know,you have to be responsible. 生活很昂贵，你需要负麦。',
+'Life is expensive.You know,you have to be responsible. 生活很昂贵，你需要负责。',
+'一个文学人物十分钟的行为，可能是她十年的经历的反映。你不要局限于小说的情节，要去想象她的整个生命，而真正写成文字的，只是冰山的一角。 -- 白蓉to罗辑',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'

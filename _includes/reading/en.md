@@ -14,6 +14,7 @@
 1. [China technology](https://www.kepuchina.cn/)
 
 ###### Technology
+1. [The Chemical Engineer](https://www.thechemicalengineer.com/)
 1. [Phys Org](https://phys.org/page2.html)
 1. [Gizmodo](https://gizmodo.com/)
 1. [Medium: Explore new perspectives](https://medium.com/)
