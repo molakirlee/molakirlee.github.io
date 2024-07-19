@@ -226,6 +226,7 @@ tags:
 1. [音频在线编辑](https://vocalremover.org/ch)
 1. [微信视频号视频下载器](https://github.com/xuncv/WeChatDownloader)
 1. [cobalt:在线视频的下载器](https://cobalt.tools/)
+1. [英文视频转中文Easy Video Trans](https://easyvideotrans.com/)
 
 1. [视频处理pikimov](https://pikimov.com/)
 
