@@ -1,4 +1,13 @@
 
+### Search
+1. [Perplexity](https://www.perplexity.ai/)
+
+### Dictionary
+1. [趣词](https://www.quword.com/)
+1. [图文词典wordsea](https://wordsea.xyz/)
+1. [Vocabulary](https://www.vocabulary.com/?cnvsid=05fd220b-5e76-445c-b59a-6dbea72eea24)
+1. [Longman](https://www.ldoceonline.com/)
+
 ### Knowing something is different from knowing the name of something.
 
 ###### 论文

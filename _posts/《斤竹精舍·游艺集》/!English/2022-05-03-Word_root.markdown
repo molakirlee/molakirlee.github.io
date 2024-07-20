@@ -42,6 +42,7 @@ tags:
 1. allow: 允许 allowance
 1. alt: 高 altitude halt
 1. alter(n):其他的 alternative alternate
+1. amalgam:融合 amalgamation
 1. amat: 爱 amateur
 1. amb(i)/emb: 周围，两边 ambitious ambiguity ambassador embassy anfractuous
 1. ambul: 行走 ambulate ambulance 
@@ -114,6 +115,7 @@ tags:
 1. bris: 破开 debris
 1. broch: 刺 brochette brochure
 1. bronch: 气管 bronchitis
+1. braid/broid: embroider 
 1. brute: 畜生 brutal
 1. bryo: 胚胎 embryo
 1. bund: 接近的 moribund
@@ -138,7 +140,7 @@ tags:
 1. cast: 投 cast caster forecast downcast offcast outcast opencast
 1. cata: 向下 catastrophe catalogue
 1. caust；烧 caustic
-1. cav: 洞 excavate concave
+1. cav: 洞 excavate concave excavation
 1. cay: 落下 decay
 1. ceal: 隐藏 conceal
 1. ce(e)d/cess/cest: 走 succeed exceed proceed(procedure) concede(concession) precede(precedent) access(accessory) process(procession) recess(recession) success(succession) ancestor
@@ -154,7 +156,7 @@ tags:
 1. cervic: 颈 cervical
 1. chant: 唱歌，念咒 enchant disenchant
 1. char: 烧焦 charcoal
-1. char: 珍爱 charity
+1. char: 珍爱 charity charitable
 1. chart: 纸 charter
 1. chest: 胸腔 orchestra
 1. chor: 歌 chorus
@@ -174,7 +176,7 @@ tags:
 1. clud/clus/clos: 关闭 conclude seclude preclude(exclude) enclose(inclose) disclose
 1. col: 耕种 colon colony 
 1. commod: 方便 commode commodious discommode accommodate
-1. con/com: 共同，全部 confuse conquer condone
+1. con/com: 共同，全部 confuse conquer condone congregation
 1. contri/contro/counter: 相反 contrive(contrived) controversy encounter counterpart
 1. cop: 砍 coupon
 1. cor: 完全 corrupt
@@ -190,6 +192,7 @@ tags:
 1. cre: 产生，生长 create recreate concrete decrease recruit
 1. cred: 相信 credit(credential) incredible discredit accredit 
 1. creet: 清楚 discreet
+1. crest: highest part of a helmet
 1. crep(it): 破裂,发出破裂声 decrepit discrepancy
 1. cri(t): 判断 critic criticise critical criterion
 1. crim: 罪 crime
@@ -246,7 +249,7 @@ tags:
 
 ###### E
 1. e: 去，向外 erode eliminate evacuation
-1. ease: 安心 lease cease
+1. ease: 安心 lease cease deceased
 1. ec: 没有 eclipse
 1. eco: 家庭的 ecosystem ecology
 1. ed: 吃 edible edify 
@@ -326,7 +329,7 @@ tags:
 1. galact/lact <milk>: galactic lactary galaxy
 1. gar/garn <furnish>: garnish garniture
 1. gard <guard, ward>: regard
-1. gen <birth,produce>: genuine(ingenuity) generous(degenerate) indigenous 
+1. gen <birth,produce>: genuine(ingenuity) generous(degenerate) generosity indigenous 
 1. ger <to bear,carry>: exaggerate
 1. germ <seed>: germinate 
 1. gest/gister <carry,bring>: digest(digestive) congested(congestion)
@@ -570,7 +573,7 @@ tags:
 1. pact/pect/pag <fastened>: compact propagate
 1. pair <worse>: impair
 1. pal <stake>: pale impale palisade pole
-1. pall <pale>: palish appal
+1. pall <pale>: palish appal 
 1. pand/pans <spread>: expand expanse patent(patency) spawn
 1. pan/pant <all>: pandemic panacea panegyric
 1. pan <bread>: company(companion) accompany
@@ -617,7 +620,7 @@ tags:
 1. plas: 模式，展开 plaster
 1. plat: 平 plateau
 1. plaud/plaus: 击，打，拍掌 applaud plausible
-1. ple/plen/plet/pli/ply: 填满 implement replenish complete deplete(depletion) accomplish
+1. ple/plen/plet/pli/ply: 填满 implement replenish complete complement deplete(depletion) accomplish
 1. plex/plic: 重叠 complex perplex complicate implication replicate
 1. plod: 击掌 explode
 1. plor: 哭，喊 explore implore deplore 
@@ -643,7 +646,7 @@ tags:
 1. pred: 掠夺 predator predatory 
 1. prehens: 抓住 comprehensive
 1. press；压 depress depression
-1. pri: 单个 privilege
+1. pri: 单个 privilege 
 1. prim/prin: 第一 prior prime primitive principle
 1. pris/pren: 握住 prison enterprise enterpreneur 
 1. priv: 私有 privacy deprive 
@@ -690,7 +693,7 @@ tags:
 1. reck: 注意 reckon
 1. rect: 直的 rectangular
 1. red: 反复 redundant
-1. reg: 直的，规则，统治 regent regular irregular
+1. reg: 直的，规则，统治 regent regular irregular regiment 
 1. regard: 关心 disregard
 1. relent: 变温和 relentless
 1. rend: 给 render rendition
@@ -730,7 +733,7 @@ tags:
 1. scend/scent/scens <climb>: ascend(ascent) descend(descent) transcend
 1. scept/skept <skeptic>: sceptic(sceptical) skeptic
 1. sci <know>: conscious conscience
-1. scrib/script <write>: conscribe inscribe ascribe prescribe(prescription) circumscribe transcribe scrap(scrape scrawl)
+1. scrib/script <write>: conscribe inscribe(inscription) ascribe prescribe(prescription) circumscribe transcribe scrap(scrape scrawl)
 1. scrut(in) <search>: scrutiny scrutable
 1. sculp/scalp <cut,scrape>: sculpt(sculpture) scalp(scalpel)
 1. scu(r) <shield>: scute obscure(obscurity)
@@ -768,6 +771,7 @@ tags:
 1. soph: 聪明 sophist(sophistic sophistry)
 1. sorb: 吸收 absorb
 1. sort: 种类 consort consortium
+1. speak: bespeak bespoke
 1. spec(t): 看 respect expect respite suspect speculate prospectus prospective spectator spectacular     
 1. speci: 外观，种类 species special specimen
 1. sper: 希望 prosper(prosperous) desperate
@@ -832,6 +836,7 @@ tags:
 1. tempor: 时间 contemporary
 1. tempt: 藐视 contempt contemn
 1. tempt: 尝试 tempt attempt
+1. tempest: intense windstorm
 1. ten: 维持，持有 tenable tenant
 1. tend: 趋势 pretend
 1. tend: 伸展 tendency pretension intense tender
@@ -1135,6 +1140,7 @@ tags:
 1. wander wonder
 1. whir呼呼地飞 whirl旋转,回旋 whorl涡,轮,螺纹 swirl漩涡,盘绕
 1. womb子宫，发源地 tomb坟墓
+1. wreak造成混乱
 
 
 ![](/img/wc-tail.GIF)
