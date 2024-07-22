@@ -872,7 +872,7 @@ tags:
 1. toun: 雷 astound
 1. tour: 走 detour
 1. tr: 踩踏 trip trap tread(treadmill) tramp
-1. tract: 拉 contract detract subtract distract trait
+1. tract: 拉 contract detract subtract distract trait tractable
 1. trans: 穿过 transient
 1. trans: 改变，交易 transplant transact
 1. tray: 盘子 astray
@@ -1013,6 +1013,7 @@ tags:
 1. cloth sloth懒惰
 1. coffer保险箱 coffin
 1. commit comment评论 commend赞扬 commerce商业 commission委员会/委托 commence开始 commute通勤
+1. complete: Complement Compliment
 1. conditioner调节器 container
 1. confer infer conform inform confirm infirm
 1. consult咨询 insult侮辱
