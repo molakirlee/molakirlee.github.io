@@ -18,6 +18,9 @@ tags:
 1. [Allin-ChatGPT:ChatGPT资料汇总学习](https://github.com/xiaoqdu/allinchatgpt?tab=readme-ov-file)
 
 ### 软件
+###### AI工具集
+1. [Askaitools](https://askaitools.ai/)
+
 ###### chatGPT
 1. [gpt4o.so](https://gpt4o.so/zh-CN/app)
 1. [perplexity](https://www.perplexity.ai/)

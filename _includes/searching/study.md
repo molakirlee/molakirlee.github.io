@@ -4,6 +4,7 @@
 
 ### Dictionary
 1. [趣词](https://www.quword.com/)
+1. [Ethymology](https://www.etymonline.com/)
 1. [图文词典wordsea](https://wordsea.xyz/)
 1. [Vocabulary](https://www.vocabulary.com/?cnvsid=05fd220b-5e76-445c-b59a-6dbea72eea24)
 1. [Longman](https://www.ldoceonline.com/)

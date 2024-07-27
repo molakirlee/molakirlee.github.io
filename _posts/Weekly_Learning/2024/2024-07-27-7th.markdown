@@ -1,0 +1,35 @@
+---
+layout:     post
+title:      "2024-每周补脑7th"
+subtitle:   ""
+date:       2024-07-27 06:35:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2024
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 王传福多年前关于造车的一句话给了我很大的勇气。他说很多企业因为不了解，会把技术想象到令人畏惧的高度，这种畏惧正是对手给后来者营造了一种产业恐吓。他们不断地告诉你做不成，投入很大，研发很难，直到你放弃。其实你解决不了的不是因为你没有能力，而是你缺乏勇气。 -- [雷军](https://finance.sina.com.cn/tech/roll/2024-07-23/doc-incfcpey8084281.shtml)
+
+### 观点
+
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)

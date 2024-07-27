@@ -49,7 +49,7 @@ tags:
 1. amount: 数量 paramount
 1. amphi: 两 amphibious
 1. ampl: 大 amphlify
-1. an/ante: 前面 ancestor
+1. an/ant(e) <front, forehead>: ancestor ancient(antic)
 1. an: 没有 anec anecdote
 1. ana: 分开 anatomy
 1. ana: 类似 analogy
@@ -75,18 +75,18 @@ tags:
 1. ass: 做 ambassador embassy
 1. assur: 保 ascurance
 1. astro: 星 astronaut astrology disastrous
-1. au: 鸟 augur inaugurate
+1. au <bird>: augur inaugurate
 1. aud: 大胆的 audacious
 1. aud: 听 audit audition auditorium
 1. aug: 增加 augment
 1. auto: 自己 autobiograph authentic
 1. aval: 向下 avalanche
-1. avi: 鸟 aviation
+1. avi <bird>: aviation 
 
 ###### B
 1. balc: 树干 balcony
 1. ball: 抛，舞，球 balls ballad ballistic ballot
-1. ban: 禁止 banner
+1. ban: 禁止 banner banal
 1. bank: 河堤，岸 embankment
 1. bar(r): 条，棒（引申为栏） barrier barrel barrage
 1. bar: 光秃秃 barren
@@ -230,7 +230,7 @@ tags:
 1. dic: 分配 dedicate predict
 1. dict: 说 dictate contradict addict
 1. dipl: 对着 diploma diplomat
-1. di/dis/dif: 分开(引申为没有，相反) diverge(diverse) division dispense(dispenser) dispose discard indispensable dissert diffuse discreet disparage disclose disqualify 
+1. di/dis/dif: 分开(引申为没有，相反) diverge(diverse) division dispense(dispenser) dispose discard indispensable dissert diffuse discreet disparage disclose disqualify dishevel
 1. dit: 说  condition
 1. dol: 悲痛 indolent
 1. dom: 家 domestic dominate predominate
@@ -309,7 +309,7 @@ tags:
 1. flu <to flow >: flush fluctuate affluent
 1. for <away,apart>: forsake forgo forlorn forum(forensic) forfeit
 1. fore <before>: foremost
-1. form <form,to form>: formal(formality) formulate inform conform(conformity) reform
+1. form <form,to form>: formal(formality) formulate inform conform(conformity) reform [formidable]
 1. foss <dug up>: foss(e) fossil
 1. fract/frag/fric/fringe <break>: infract(infringe) fracture(anfractuous) fragile(fragment fraction)  
 1. fragr <to smell>: fragrance
@@ -331,7 +331,7 @@ tags:
 1. gard <guard, ward>: regard
 1. gen <birth,produce>: genuine(ingenuity) generous(degenerate) generosity indigenous 
 1. ger <to bear,carry>: exaggerate
-1. germ <seed>: germinate 
+1. germ <seed>: germinate germane
 1. gest/gister <carry,bring>: digest(digestive) congested(congestion)
 1. giant/gigant <giant>: gigantic
 1. gl <shining,bright>: glitter gleam glim(glimpse)
@@ -443,6 +443,7 @@ tags:
 1. liqu <wet>: liquor liquiate deliquesce prolix
 1. lit/lis <to dispute>: litigate litigable
 1. liter <letter>: literature
+1. livid <bluish color, black-and-blue>: lavender
 1. loc <place>: locus lieu allocate
 1. log/logu <speak>: logic dialog analogy catalogue
 1. long <>: prolonged
@@ -468,7 +469,7 @@ tags:
 1. mand: 命令 demand mandarin
 1. mani: 手 manipulate manifest
 1. mantle: 覆盖 dismantle
-1. manu: manufacture
+1. man(u): manufacture maneuver
 1. mar: 战争 maraud martial
 1. mari: 海 maritime
 1. mark: 记号 remark
@@ -486,7 +487,7 @@ tags:
 1. mens: 测量 dimension immense
 1. ment: 想法 comment mental mentor
 1. mer: 部分，分配 emeritus
-1. merc: 交易 commerce merchandising
+1. merc <market >: commerce merchandising
 1. merit: 功绩 demerit
 1. mery: 浸没 emerge submerge
 1. meta: 改变 metaphor metabl- metabolic metabolism
@@ -532,6 +533,7 @@ tags:
 1. nav: 船 navigation
 1. neath: 在..之下 beneath
 1. nect: 绑 connect
+1. ned <to bind, tie>: nexus 
 1. neg: 否定 negative neglect
 1. nerv: 体力，神经，勇气 nerve
 1. noc: 伤害 innocent
@@ -547,6 +549,7 @@ tags:
 
 ###### O
 1. ob: 逆 obsess(obsession) obstruct
+1. ob <because of>: obese
 1. obey: 服从 disobey
 1. ocul: 眼睛 binoculars
 1. od: 路 exodus
@@ -620,7 +623,7 @@ tags:
 1. plas: 模式，展开 plaster
 1. plat: 平 plateau
 1. plaud/plaus: 击，打，拍掌 applaud plausible
-1. ple/plen/plet/pli/ply: 填满 implement replenish complete complement deplete(depletion) accomplish
+1. ple/plen/plet/pli/ply <to fill>: implement replenish complete complement deplete(depletion) accomplish plenary
 1. plex/plic: 重叠 complex perplex complicate implication replicate
 1. plod: 击掌 explode
 1. plor: 哭，喊 explore implore deplore 
@@ -650,7 +653,7 @@ tags:
 1. prim/prin: 第一 prior prime primitive principle
 1. pris/pren: 握住 prison enterprise enterpreneur 
 1. priv: 私有 privacy deprive 
-1. pro <forward,forth>: process reciprocate prop
+1. pro <forward,forth>: process reciprocate prop provide(provision)
 1. proach: 接近 reproach
 1. prob: 检查 probe probation 
 1. profit: 利益 profitable
@@ -692,7 +695,7 @@ tags:
 1. rec: 向后 reciprocate
 1. reck: 注意 reckon
 1. rect: 直的 rectangular
-1. red: 反复 redundant
+1. red <again>: redundant redundancy
 1. reg: 直的，规则，统治 regent regular irregular regiment 
 1. regard: 关心 disregard
 1. relent: 变温和 relentless
@@ -804,7 +807,7 @@ tags:
 1. strophe: 转 catastrophe
 1. struct: 建立 instruct construct obstruct destruction
 1. suad: 甜的 persuade
-1. sub: 在下面 subtle substance(substantial) substrate subtract substation
+1. sub: 在下面 subtle substance(substantial) substrate subtract substation subpoena
 1. suc/sus: 在下面 sustain succeed succumb suspend susceptible   
 1. sue: 跟随 pursue ensue
 1. sui: 自己 suicidal
@@ -871,7 +874,7 @@ tags:
 1. tort: 卷缠 distort
 1. toun: 雷 astound
 1. tour: 走 detour
-1. tr: 踩踏 trip trap tread(treadmill) tramp
+1. tr: 踩踏 trip trap tread(treadmill) tramp(trampoline)
 1. tract: 拉 contract detract subtract distract trait tractable
 1. trans: 穿过 transient
 1. trans: 改变，交易 transplant transact
@@ -947,7 +950,7 @@ tags:
 1. vit/vid: 分开 evitable(inevitable)
 1. vit: 生命 vital vitality 
 1. viv: 生活 survive revive(revival)
-1. vok/voc: 喊 invoke evoke provoke convoke revoke(irrevocable) advocate vocation vouch 
+1. vok/voc: 喊 invoke evoke provoke convoke revoke(irrevocable) advocate(advocacy) vocation vouch 
 1. vol: 意念 benevolent(malevolent)
 1. volu/volv: 滚，卷 involve evolve(evolution) revolve
 1. vor: 吃 herbvorse
@@ -958,6 +961,7 @@ tags:
 ###### W
 1. war: 保卫 warrant
 1. ware: 看 beware
+1. wed <water>: redundant 
 1. whelm: 淹没 overwhelm
 1. wild: 荒野的 bewilder
 1. wind: 风 dwindle
@@ -1000,7 +1004,7 @@ tags:
 1. blind blink眨眼 blunt钝的 blonde金发女郎 blend混合 blunder愚蠢的错误
 1. boost增长 boast吹牛 roast boster铁板 bolster长枕/加强改善(belly腹部) blow吹风，殴打(bluff吓唬,直率的,断崖) blast爆炸，射击
 1. boulder巨石 brood孵 breed孕育，种类 brand品牌 bound跳，必然的 bump撞 bunch捆扎
-1. brass黄铜 gloss光亮 glossary术语表 toss扔
+1. brass黄铜 brash傲慢轻率的 gloss光亮 glossary术语表 toss扔
 1. brawl争吵斗殴 brown brass brace brake brack(bracket)
 1. brow眉毛，山脊 frown皱眉
 1. buck雄性动物 buckle搭扣
@@ -1044,7 +1048,7 @@ tags:
 1. fauna flora
 1. favour恩惠 flavour特色，调味 flour面粉
 1. fish flesh
-1. flame火焰 flap拍打 flip快速翻转 flick轻弹(flicker闪烁)
+1. flame火焰 flap拍打(flabby松弛) flip快速翻转 flick轻弹(flicker闪烁)
 1. fleet舰队，掠过 flee逃跑
 1. gallop奔驰 gallon
 1. glide slide
@@ -1075,6 +1079,7 @@ tags:
 1. mould浇筑，铸模 model模型 module模块
 1. mountain fountain mount demount remount
 1. mud泥土 bud萌芽
+1. naught naughty
 1. pamper娇惯 pepper
 1. perception(cognition)感知 precipitate沉淀
 1. pest plague
@@ -1095,14 +1100,16 @@ tags:
 1. rough粗糙的，艰难的 rouge胭脂 rogue流氓
 1. sack解雇，麻袋 lack snack snick snake 
 1. scare恐惧 scarce稀少，几乎不
-1. scent嗅出，香味 scene现场，场景
+1. scam (trick) scamp scamper
+1. scent嗅出，香味 scene现场，场景 serene沉静的
 1. scrap scrape skyscrape rape ripe
 1. scream尖叫 icecream
+1. soar高飞 
 1. shadow shallow浅
 1. sham骗局 shame羞耻
 1. shatter粉碎 scatter散落
 1. shrew悍妇 shrewd精明的
-1. slash劈 flesh肉 flash闪光 fresh
+1. slash劈 flesh肉 flash闪光 fresh slug子弹
 1. slat板条 slate石板，安排 splint夹板 splinter碎片
 1. sled滑板雪橇 sledge 雪橇
 1. slick灵活/华而不实 sleek光滑光亮
@@ -1136,6 +1143,7 @@ tags:
 1. troupe剧团，巡回演出 troop stoop俯身，驼背 loot掠夺，战利品
 1. truant逃学 tenant租客
 1. twinkle闪烁 wrinkle皱纹
+1. version venison
 1. vice恶习 versa反的
 1. victor victim
 1. wander wonder
@@ -1143,5 +1151,14 @@ tags:
 1. womb子宫，发源地 tomb坟墓
 1. wreak造成混乱
 
+### 其它
+1. baptize：immerse, dip in water 
+1. weep: bewail, mourn 
+1. toe
+1. urn
+1. nuance: slight difference, shade of color
+1. camouflage:to disguise
+1. mush 
+1. deadlock
 
 ![](/img/wc-tail.GIF)
