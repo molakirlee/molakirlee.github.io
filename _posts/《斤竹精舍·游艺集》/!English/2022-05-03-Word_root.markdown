@@ -48,7 +48,7 @@ tags:
 1. ambul: 行走 ambulate ambulance 
 1. amount: 数量 paramount
 1. amphi: 两 amphibious
-1. ampl: 大 amphlify
+1. ampl: 大 amplify
 1. an/ant(e) <front, forehead>: ancestor ancient(antic)
 1. an: 没有 anec anecdote
 1. ana: 分开 anatomy
@@ -73,7 +73,7 @@ tags:
 1. as: 接近 assemble assist
 1. as: 向 assault
 1. ass: 做 ambassador embassy
-1. assur: 保 ascurance
+1. assur <give confidence to>: assurance
 1. astro: 星 astronaut astrology disastrous
 1. au <bird>: augur inaugurate
 1. aud: 大胆的 audacious
@@ -94,19 +94,19 @@ tags:
 1. barb: 条，棒 barbecue
 1. barbar: 胡说 barbaric
 1. bark: 船 embark
-1. bat: 打 debat combat
+1. bat <to beat>: debate combat
 1. bat: 走 acrobat 
 1. bate: 减少 abate
 1. be: 使 bereave
 1. bed: 床 embed
 1. bel/bell: 战争，打斗 rebel revel bellicose duel 
-1. bene: 好 benifit benificial benevolent
+1. bene <well>: benefit beneficial benevolent
 1. bever: 喝 beverage
 1. bezzle: 吞没 embezzle
 1. bi: 生命 amphibious
 1. bid: 请求 bid bide abide abode
 1. blemish: 污点 unblemished
-1. bol: 扩张，扔 bold bollix bole bollard bale boulder metabl- metabolic metabolism
+1. bol <to blow, swell>: bold bollix(bollocks) bole bollard bale boulder metabl- metabolic metabolism
 1. born: 出生 inborn
 1. boss: 突出 emboss
 1. bound: 界限 abound
