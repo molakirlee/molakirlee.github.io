@@ -1289,6 +1289,9 @@ var quotes = [
 '非凡的的智者总是用低调姿态隐藏实力，高明的布局者常常以迷惑的表象示人。',
 '把自身看作天地宇宙。',
 'Mama says,\'Stupid is as stupid does.\'-Forrest Gump,1994',
+'A goal without a plan is just a wish.-Antoine de Saint-Exupery 没有计划的目标只是一个愿望。一安托万德圣埃克苏佩里',
+'You had me at hello;it was love at first sight.-Friends 你一开口我就论陷了；那是爱情的初见。一《老友记》',
+'人生就像滚雪球，靠复利，即使有很多雪，很长的坡，你开始的雪球也是小的，你得一米一米滚。',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'

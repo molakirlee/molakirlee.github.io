@@ -88,7 +88,7 @@ tags:
 
 ###### 文生语音
 1. [VoiceChanger.im](https://voicechanger.im/)
-
+1. [Luvvoice](https://luvvoice.com/)
 
 ###### 聊天
 1. [Character.ai:与创建的角色聊天](https://beta.character.ai/)
