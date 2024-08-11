@@ -20,6 +20,9 @@ tags:
 ### 言论
 1. 王传福多年前关于造车的一句话给了我很大的勇气。他说很多企业因为不了解，会把技术想象到令人畏惧的高度，这种畏惧正是对手给后来者营造了一种产业恐吓。他们不断地告诉你做不成，投入很大，研发很难，直到你放弃。其实你解决不了的不是因为你没有能力，而是你缺乏勇气。 -- [雷军](https://finance.sina.com.cn/tech/roll/2024-07-23/doc-incfcpey8084281.shtml)
 1. 心理学家做过一个实验，让实验者长期处于半饥饿状态。结果，这些实验者的心理发生了永久变化。实验结束后，很多人喜欢上了烹饪书和餐馆菜单，会认真比较报纸上的水果和蔬菜价格，甚至开始重新考虑自己的职业，改为从事农业或餐饮。心理学家说，这证明了人被自己缺乏的东西所吸引。 -- [A utopian strand of economic thought is making a surprising comeback](https://www.vox.com/the-highlight/24065976/economists-post-scarcity-abundance-industrial-revolution-socialism-capitalism)
+1. AI 的危险在于，它让你跳过思考，让机器填补思想的空白。我们需要 AI 使我们增加思考，而不是减少思考。我们每外包一个想法，就会错失一次成长的机会。 -- [TURNING THE TABLES ON AI](https://ia.net/topics/turning-the-tables-on-ai)
+1. 费马大定理是一个极困难的数学猜想，自从1637年提出后，直到1993年才解决。这个定理没有任何实际应用，只是用来提醒人们数学是多么深奥。 -- [The Fermat's Last Theorem Project](https://leanprover-community.github.io/blog/posts/FLT-announcement/)
+1. 简单性是一种优点，但糟糕的是，复杂的东西卖得更好。 -- [Simplicity is An Advantage but Sadly Complexity Sells Better](https://eugeneyan.com/writing/simplicity/)
 
 
 ### 观点

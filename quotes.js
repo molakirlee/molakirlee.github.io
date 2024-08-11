@@ -1293,6 +1293,8 @@ var quotes = [
 'You had me at hello;it was love at first sight.-Friends 你一开口我就论陷了；那是爱情的初见。一《老友记》',
 '人生就像滚雪球，靠复利，即使有很多雪，很长的坡，你开始的雪球也是小的，你得一米一米滚。',
 'In the end,we only regret the chances we didn\'t take.Lewis Carroll最终，我们只会后梅没有抓住的机会。一刘易斯卡罗尔',
+'Everything has beauty,but not everyone sees it. -- Confucius 万物皆有美，只是并非所有人都能看到。 -- 孔子',
+'Do what you can,with what you have,where you are. -- Theodore Roosevelt 尽力而为，随遇而安。 -- 西奥多罗斯福',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
