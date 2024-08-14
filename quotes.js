@@ -1295,6 +1295,7 @@ var quotes = [
 'In the end,we only regret the chances we didn\'t take.Lewis Carroll最终，我们只会后梅没有抓住的机会。一刘易斯卡罗尔',
 'Everything has beauty,but not everyone sees it. -- Confucius 万物皆有美，只是并非所有人都能看到。 -- 孔子',
 'Do what you can,with what you have,where you are. -- Theodore Roosevelt 尽力而为，随遇而安。 -- 西奥多罗斯福',
+'Success is not the key to happiness.Happiness is the key to success. -- Albert Schweitzer成功不是幸福的钥匙。幸福是成功的钥匙。 -- 阿尔伯特·施韦泽',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
