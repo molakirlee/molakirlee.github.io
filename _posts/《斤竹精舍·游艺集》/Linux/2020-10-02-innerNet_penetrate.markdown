@@ -14,6 +14,8 @@ tags:
 
 ---
 
+### Frpc-Desktop
+1. [Frpc-Desktop](https://github.com/luckjiawei/frpc-desktop)FRP跨平台桌面客户端，可视化配置，轻松实现内网穿透！支持所有frp版本 / 开机自启 / 可视化配置 / 免费开源
 
 ### ngrok
 参见[如何远程登录家里的Ubuntu电脑(命令行模式)？](https://www.zhihu.com/question/27771692);

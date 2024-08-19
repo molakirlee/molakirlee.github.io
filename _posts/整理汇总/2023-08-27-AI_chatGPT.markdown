@@ -61,9 +61,6 @@ tags:
 1. [AI Hub](https://www.aihub.cn/)
 1. [FinChat：上市公司数据分析](https://finchat.io/)
 
-###### 文生视频
-1. [luna AI video](https://lunaai.video/)
-
 
 ###### 文生图
 1. [sdxlturbo](https://sdxlturbo.ai/)
@@ -89,6 +86,12 @@ tags:
 ###### 文生语音
 1. [VoiceChanger.im](https://voicechanger.im/)
 1. [Luvvoice](https://luvvoice.com/)
+
+###### 文生视频
+1. [luna AI video](https://lunaai.video/)
+
+###### 视频
+1. [实时换脸和视频深伪Deep Live Cam](https://deeplive.cam/zh)
 
 ###### 聊天
 1. [Character.ai:与创建的角色聊天](https://beta.character.ai/)

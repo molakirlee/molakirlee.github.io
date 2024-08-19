@@ -25,6 +25,7 @@ tags:
 1. 简单性是一种优点，但糟糕的是，复杂的东西卖得更好。 -- [Simplicity is An Advantage but Sadly Complexity Sells Better](https://eugeneyan.com/writing/simplicity/)
 1. The real world is muddy and messy and full of things that we do not yet understand. It is much easier for a scientist to sit in an air-conditioned building and run computer models, than to put on winter clothes and measure what is really happening outside in the swamps and the clouds. That is why the climate model experts end up believing their own models. -- [FREEMAN DYSON( Professor of physics at the Institute for Advanced Study, in Princeton)](https://www.edge.org/conversation/freeman_dyson-heretical-thoughts-about-science-and-society)
 1. Science is organized unpredictability. The best scientists like to arrange things in an experiment to be as unpredictable as possible, and then they do the experiment to see what will happen. You might say that if something is predictable then it is not science.  -- [FREEMAN DYSON( Professor of physics at the Institute for Advanced Study, in Princeton)](https://www.edge.org/conversation/freeman_dyson-heretical-thoughts-about-science-and-society)
+1. Netflix 公司考核员工的方式，叫做留任者测试。公司要求主管问自己："如果某员工想离职，我会努力留住他吗？"，或者"如果今天重新做选择，我还会雇佣这个员工吗？"如果答案是否定的，该员工就需要离职。 -- [Netflix wants managers to ask themselves whether they would rehire their current employees—and fire them if the answer is no](https://fortune.com/2024/06/25/netflix-managers-keeper-test-rehire-or-fire-staff/)
 
 ### 观点
 ###### [The Surprising Power of The Long Game](https://fs.blog/long-game/)
