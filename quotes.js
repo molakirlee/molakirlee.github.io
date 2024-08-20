@@ -1309,6 +1309,8 @@ var quotes = [
 '好的女人不会老，只会越来越优雅。 -- 蔡澜',
 'Change the world by being yourself. -- Amy Poehler  做自己，改变世界。 -- 艾米波勒',
 'Difficult roads often lead to beautiful destinations. 艰难的道路常常通向美丽的目的地',
+'逆顺死生，物自为名。名刑(形)已定，物自为正。故唯执(道)者能上明於天之反，而中达君臣之半，当密察於万物之所终始，而弗为主。故能至素至精，(浩)弥无刑(形)，然后可以为天下正。 -- 《黄帝四经》',
+'The best revenge is massive success. -- Frank Sinatra   最好的报复是巨大的成功。 -- 弗兰克·辛纳特拉',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
