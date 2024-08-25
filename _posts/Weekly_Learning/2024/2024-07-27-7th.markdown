@@ -25,15 +25,16 @@ tags:
 1. 简单性是一种优点，但糟糕的是，复杂的东西卖得更好。 -- [Simplicity is An Advantage but Sadly Complexity Sells Better](https://eugeneyan.com/writing/simplicity/)
 1. The real world is muddy and messy and full of things that we do not yet understand. It is much easier for a scientist to sit in an air-conditioned building and run computer models, than to put on winter clothes and measure what is really happening outside in the swamps and the clouds. That is why the climate model experts end up believing their own models. -- [FREEMAN DYSON( Professor of physics at the Institute for Advanced Study, in Princeton)](https://www.edge.org/conversation/freeman_dyson-heretical-thoughts-about-science-and-society)
 1. Science is organized unpredictability. The best scientists like to arrange things in an experiment to be as unpredictable as possible, and then they do the experiment to see what will happen. You might say that if something is predictable then it is not science.  -- [FREEMAN DYSON( Professor of physics at the Institute for Advanced Study, in Princeton)](https://www.edge.org/conversation/freeman_dyson-heretical-thoughts-about-science-and-society)
-1. Netflix 公司考核员工的方式，叫做留任者测试。公司要求主管问自己："如果某员工想离职，我会努力留住他吗？"，或者"如果今天重新做选择，我还会雇佣这个员工吗？"如果答案是否定的，该员工就需要离职。 -- [Netflix wants managers to ask themselves whether they would rehire their current employees—and fire them if the answer is no](https://fortune.com/2024/06/25/netflix-managers-keeper-test-rehire-or-fire-staff/)
+1. Netflix 公司考核员工的方式，叫做留任者测试。公司要求主管问自己："如果某员工想离职，我2会努力留住他吗？"，或者"如果今天重新做选择，我还会雇佣这个员工吗？"如果答案是否定的，该员工就需要离职。 -- [Netflix wants managers to ask themselves whether they would rehire their current employees—and fire them if the answer is no](https://fortune.com/2024/06/25/netflix-managers-keeper-test-rehire-or-fire-staff/)
 1. There is one story about a fish. He swims up to this older fish and says, "I'm trying to find this thing they call the ocean."有一个一条鱼的故事。他游到一条年长的鱼面前，说：“我在寻找他们说的海洋。”"The ocean?" says the older fish. "That's what you're in right now."“海洋？” 年长的鱼说，“你就在海洋里呀。”"This?" says the young fish." This is water. What I want is the ocean."“这里？”年轻的鱼说，“这是水，我要找的是海洋。” -- 《心灵奇旅》
 1. I am going to live every minute of it. -- 《心灵奇旅》
 1. Free yourself. -- 《心灵奇旅》
+1. Sometimes we are like this young fish, trying to find the ocean, but we are already in the ocean. Sometimes, we are trying to find the purpose of life, but the purpose of life is life itself.有时候，我们就像这条年轻的鱼，努力寻找海洋，殊不知，我们已经身处海洋之中。有时候，我们努力寻找生活的目标，殊不知，生活的目标就是生活本身。 -- 《心灵奇旅》
+1. 千万不要小看文化产品的吸金能力，泡泡玛特公司2024年上半年的利润超过10亿人民币。谁能想到一家卖玩偶的公司，能够这么赚钱，相比之下，电动汽车的明星公司蔚来和理想，一个季度就亏损几亿元到几十亿。我知道不能这么比，我只是想说，相比辛辛苦苦造汽车，文化产品是更容易的赚钱方式。何况游戏比玩偶的成本更低，玩偶还有制造和运输成本，游戏一旦开发完成，下载购买的成本接近零。发展制造业很困难，需要解决土地、原料、能源、道路、劳动力等等许多问题，哪一个都不容易。产品做出来以后，还要跟竞争对手拼价格，搞不好只能廉价甩卖。游戏就完全不一样，不存在原料问题，需要的是创意 + 软件技术，只要把人才训练出来，再配一些电脑设备，随便找个写字楼，就能源源不断地生产出来。游戏的销售也更简单。制造业的销售，需要物流和仓储，而游戏只需要上传到游戏商店，就能让全世界的玩家买到。  -- Frank谈“黑神话悟空”
+1. 慢就是稳，稳就是快。（Slow is smooth, smooth is fast.） -- [海豹突击队](https://www.navyseal.com/slow-is-smooth-smooth-is-fast/),
+1. 文生图模型 Midjourney 有一个花招，总是返回多个图像，要求用户选择最满意的一个。这显然是一种偏好模型的训练，所以他们现在就有可数百万张选票，知道哪些图像参数更符合用户的提示词。 -- [HackNews](https://news.ycombinator.com/item?id=41263069)
+1. 2011年，我去参观埃及博物馆。那是我最喜欢的地方之一，那么多的数千年历史的文物。我来到法老木乃伊的展厅，那里只有我一个参观者。我闲逛了一阵子，突然意识到我和几个曾经统治世界的人，同在一间屋子里面。 -- [HackNews](https://news.ycombinator.com/item?id=40495990)
 
-
-Sometimes we are like this young fish, trying to find the ocean, but we are already in the ocean. Sometimes, we are trying to find the purpose of life, but the purpose of life is life itself.
-
-有时候，我们就像这条年轻的鱼，努力寻找海洋，殊不知，我们已经身处海洋之中。有时候，我们努力寻找生活的目标，殊不知，生活的目标就是生活本身。
 
 ### 观点
 ###### [The Surprising Power of The Long Game](https://fs.blog/long-game/)

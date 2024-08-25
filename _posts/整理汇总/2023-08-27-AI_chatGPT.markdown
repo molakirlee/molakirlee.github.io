@@ -33,6 +33,7 @@ tags:
 1. [Chatgot](https://start.chatgot.io/login)
 1. [Meta AI](https://www.meta.ai/)
 
+1. [AIChatru](https://aichatru.ru/en)
 1. [FreedomGPT](https://freedomgpt.com)
 1. [GPTsHunter](https://www.gptshunter.com/)
 1. [AwesomeGPTs](https://awesomegpts.pro/)

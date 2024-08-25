@@ -185,6 +185,7 @@ tags:
 1. [ICON图标](https://iconbuddy.app/)
 
 ###### 图片处理
+1. [AI抠图：小宾抠图](https://github.com/pangxiaobin/image-matting)
 1. [pixlr: 在线图像编辑](https://pixlr.com/cn/x/)
 1. [clipdrop:扩图、生图、换背景等](https://clipdrop.co/)
 1. [matlab处理图片](https://blogs.mathworks.com/steve/2012/11/13/image-effects-part-1/)
