@@ -34,6 +34,12 @@ tags:
 1. 慢就是稳，稳就是快。（Slow is smooth, smooth is fast.） -- [海豹突击队](https://www.navyseal.com/slow-is-smooth-smooth-is-fast/),
 1. 文生图模型 Midjourney 有一个花招，总是返回多个图像，要求用户选择最满意的一个。这显然是一种偏好模型的训练，所以他们现在就有可数百万张选票，知道哪些图像参数更符合用户的提示词。 -- [HackNews](https://news.ycombinator.com/item?id=41263069)
 1. 2011年，我去参观埃及博物馆。那是我最喜欢的地方之一，那么多的数千年历史的文物。我来到法老木乃伊的展厅，那里只有我一个参观者。我闲逛了一阵子，突然意识到我和几个曾经统治世界的人，同在一间屋子里面。 -- [HackNews](https://news.ycombinator.com/item?id=40495990)
+1. 对形势的分析与把握，远比盲目的行动更加重要。这就好比一个农夫，尽管身强力健，拥有充足的农具，但由于不懂得把握时令物候，所以无论怎样辛勤劳作，所获都会十分有限。孟子所说的“乘势”与“待时”，狭义上可以理解为借势与等待合适的机会，广义上则包含了更丰富的内容。“势”可以是知识储备、社交魅力、口碑影响、人力资源、自身建设，“时”则是机遇、关键点、客观条件，等等。 -- 《高手控局：中国历史中的殿堂级处世智慧》
+1. When it’s windy, beach umbrellas are dangerous. Most people don’t know this and have no idea how to secure an umbrella. Avoid being downwind if you can. -- [Obvious travel advice](https://dynomight.net/travel/)
+1. Time seems to speed up as you get older. And you wonder—is it biological, or is it because life had more novelty when you were a child? Travel partly answers this question—with more novelty, time slows way down again. -- [Obvious travel advice](https://dynomight.net/travel/)
+1. You can’t beat jet lag—you can only really adjust an hour or two per day. I prioritize being functional so when possible I just live on weird hours for a few days after changing time zones. It’s interesting to get up and take a walk at 4:30 AM. -- [Obvious travel advice](https://dynomight.net/travel/)
+1. Don’t confuse scarcity with value. A really good afternoon in the park (a really good one) is maybe about as good as it gets. Travel reveals the value of stability, roots, routine, community, relationships, and cooking at home. -- [Obvious travel advice](https://dynomight.net/travel/)
+1. After seeing each other for a few months, many new couples take a short trip, which often ends in an apocalyptic, relationship-destroying fight. My theory is that’s the trip working as designed—couples do these trips out of an instinctual desire to stress-test their relationships. -- [Obvious travel advice](https://dynomight.net/travel/)
 
 
 ### 观点
