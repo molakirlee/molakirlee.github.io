@@ -24,6 +24,7 @@
 1. [QUARTZ: Make business better](https://qz.com/)
 1. [Farnam Street: A Collection of Signal in a World Full of Noise](https://fs.blog/newsletter/)
 1. [Fast Company: innovation in technology, leadership, world changing ideas, creativity, and design](https://www.fastcompany.com/technology)
+1. [今日三句半:热点科技新闻总结](https://www.threenhalf.com/)
 
 ###### 科技教育/视频
 1. [蔻享学术](https://www.koushare.com/)
