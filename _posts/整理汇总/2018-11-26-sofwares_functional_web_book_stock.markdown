@@ -82,6 +82,10 @@ tags:
 
 
 ### 办公
+
+###### PPT
+1. [PPT自动生成AI PPT Maker Online Free](https://aipptmaker.ai/en)
+
 ###### PDF
 1. [PDF处理](https://pdfreal.com/)
 1. [PDF压缩:pdfshrinker](https://github.com/ocdi/PdfShrinker/releases/tag/v0.2):1)路径不要有中文名；2)ebook这个档压缩效果明显，而且画质损失也比较小
