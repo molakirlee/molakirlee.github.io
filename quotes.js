@@ -1408,6 +1408,11 @@ var quotes = [
 'Freedom is never given;it is won. 自由从未被赋予：它是赢得的。',
 'Happiness is not something ready-made.It comes from your own actions. 幸福不是现成的东西，它来自你自己的行动。',
 'Cherish the moments with family,for they are fleeting. 珍借与家人在一起的时光，因为它们稍纵即逝。',
+'The only way to have a friend is to be one.拥有朋友的唯一方式就是成为朋友。',
+'Every moment is a fresh beginning每一刻都是新的开始。',
+'If you want to live a happy life,tie it to a goal.如果你想过上幸福的生活，把它与目标联系起来。',
+'We are what we repeatedly do.我们就是我们反复做的事情。',
+'每个人都依靠自己的知识和认识，却又被之所束缚，还将这些称之为现实。但知识和认识是非常暧昧的东西，那个现实也许只不过是镜花水月，人们都是活在自我意识之中. -- 《火影忍者》',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
