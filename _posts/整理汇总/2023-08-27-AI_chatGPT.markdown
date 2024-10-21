@@ -22,6 +22,7 @@ tags:
 1. [Askaitools](https://askaitools.ai/)
 
 ###### chatGPT
+1. [免费在线体验ChatGPT 4o和Claude 3.5 Sonnet](https://chat100.ai/zh-CN)
 1. [gpt4o.so](https://gpt4o.so/zh-CN/app)
 1. [perplexity](https://www.perplexity.ai/)
 1. [ChatGPT OpenAI](https://chat.openai.com/auth/login)

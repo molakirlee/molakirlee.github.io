@@ -1413,6 +1413,10 @@ var quotes = [
 'If you want to live a happy life,tie it to a goal.如果你想过上幸福的生活，把它与目标联系起来。',
 'We are what we repeatedly do.我们就是我们反复做的事情。',
 '每个人都依靠自己的知识和认识，却又被之所束缚，还将这些称之为现实。但知识和认识是非常暧昧的东西，那个现实也许只不过是镜花水月，人们都是活在自我意识之中. -- 《火影忍者》',
+'A person who never made a mistake never tried anything new.从未犯错的人从未尝试过任何新事物。',
+'In every hardship lies opportunity.每个因准中都蕴藏着机会。',
+'Success is the sum of small efforts,repeated day in and day out成功是日复一日重复的微小努力的总和。',
+'Life is either a daring adventure or nothing at all.生活要么是一场大胆的冒险，要么室无意义。',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'

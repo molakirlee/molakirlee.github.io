@@ -15,6 +15,14 @@ tags:
 
 ---
 
+
+###### Ansys 网格自动优化
+1. Model - Solution的某一结果（如Equavalent Stress）下添加Convergence并设置对应的Allowable Change（如1.%）
+1. 然后在Solution Information的Max Refinement Loops里设置网格细化的次数。
+1. Solve
+1. 可参考[教程：简支梁 1 by DrDalyO](https://www.bilibili.com/video/BV16s411J7ju/?vd_source=42d15d5f7bb7814555b23126c5a774fb)
+
+
 ### Linux提交用命令
 ```
 #PBS -l nodes=2:ppn=4
