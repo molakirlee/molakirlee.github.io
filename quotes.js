@@ -1441,6 +1441,10 @@ var quotes = [
 '机会总是留给有准备的人.当单位里出现了重要任务或者领导职位空缺时，你就可以大展拳脚了.用实力说话，用业绩结果服人，领导也不得不对你刮目相看.',
 'Success is not in what you have,but who you are.成功不在于你拥有什么，而在于你是谁。',
 'If you can dream it,you can do it.只要有梦想，就一定能实现。',
+'永远不要试图做一个好人，而是要做一个有实力的人。当你不好意思拒绝别人的时候，想想别人为什么好意思为难你。',
+'按设定好的形象出门，状态会更好。',
+'Use the losses and failures of the past as a reason for action,not inaction.过去的损失和失败经验，应是你采取行动，而非不采取行动的理由。',
+'Life is short,and it is here to be lived.生命是短暂的，是用来生活的。',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
