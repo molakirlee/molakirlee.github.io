@@ -1445,6 +1445,7 @@ var quotes = [
 '按设定好的形象出门，状态会更好。',
 'Use the losses and failures of the past as a reason for action,not inaction.过去的损失和失败经验，应是你采取行动，而非不采取行动的理由。',
 'Life is short,and it is here to be lived.生命是短暂的，是用来生活的。',
+'Don\'t count the days,make the days count.不要数日子，让日子有意义。',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙'
