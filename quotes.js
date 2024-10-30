@@ -1444,6 +1444,7 @@ var quotes = [
 '永远不要试图做一个好人，而是要做一个有实力的人。当你不好意思拒绝别人的时候，想想别人为什么好意思为难你。',
 '按设定好的形象出门，状态会更好。',
 'Use the losses and failures of the past as a reason for action,not inaction.过去的损失和失败经验，应是你采取行动，而非不采取行动的理由。',
+'Idealism increases in direct proportion to one\'s distance from the problem.一个人离问题成远就理想主义。',
 'Life is short,and it is here to be lived.生命是短暂的，是用来生活的。',
 'Don\'t count the days,make the days count.不要数日子，让日子有意义。',
 '日拱一卒，功不唐娟。',

@@ -20,7 +20,7 @@ tags:
 ### 言论
 1. 简单的东西很难卖出去，因为简单的东西看起来很容易，谁愿意为容易买单呢？商人们早已明白这个秘密，容易的东西往往被包装成复杂的东西，让用户觉得它很特别，从而为这种特别性付出高价。 -- [Merchants of complexity](https://world.hey.com/dhh/merchants-of-complexity-4851301b)
 1. 创业者的工作重点始终是优化业务，而不是优化代码库，除非代码库就是你的业务。 -- [Building a SaaS product with HTMX](https://www.chatterpulseai.com/blog/building-a-saas-product-with-htmx/)
-
+1. knowing your tools is just as important as knowing your code. git bisect turned what could have been hours of manual debugging into one command. -- [Debugging Till Dawn: How Git Bisect Saved My Demo](https://www.mikebuss.com/posts/debugging-till-dawn)
 
 ### 观点
 ###### 内容行业的问题(Frank)
