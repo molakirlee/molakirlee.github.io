@@ -152,7 +152,7 @@ tags:
 1. cent: 唱歌 incentive
 1. centr: 中心 eccentric
 1. cerebr: 脑 cerebral
-1. cern/cert/cret/crimin: 分开，搞清 discerning secern concern ascertain certify concert excrete(excreta) discriminate 
+1. cern/cert/cret/crimin <distinguish, separate, sift>: discerning secern concern ascertain certify concert excrete(excreta) discriminate 
 1. cervic: 颈 cervical
 1. chant: 唱歌，念咒 enchant disenchant
 1. char: 烧焦 charcoal
@@ -219,6 +219,7 @@ tags:
 1. damn/demn: 伤害，诅咒 damn condemn damage indemnify
 1. de(i): 神，神的 divine(divination) deity
 1. de <down, off, away, from among, down from>: (引申为彻底离开，完全向下；表完全->表加强，表离开->没有，相反) deviance demolition defend deficiency detergent debate interdepend decrepit  
+1. dek <to take, accept>:dainty condign dogma
 1. deal: 交易 dealer
 1. dear: 珍贵的 dearth
 1. deavor: 债务，责任 endeavor
@@ -280,7 +281,7 @@ tags:
 1. ether: 苍穹，天空 ethereal
 1. ethic: 道德，伦理 ethical
 1. euver: 工作 manoeuvre
-1. ex: 出，向外 exaggerate extinguish exile exterior anecdote
+1. ex <out of, from,upwards, completely, deprive of, without>:exaggerate extinguish exile exterior anecdote
 1. extro: 外 extrovert
 
 ###### F
@@ -337,7 +338,8 @@ tags:
 1. gl <shining,bright>: glitter gleam glim(glimpse)
 1. glaci <ice>: glacier glacial 
 1. glob <sphere>: global glebe
-1. gn/gno <know>: cognition diagnose ignorance
+1. glow <to glow, shine as if red-hot,>: aglow afterglow gloss
+1. gn/gno <know>: cognition diagnose ignorance notorious
 1. gorg/gurg <throat>:  gorge engorge gorgeous regurgitate
 1. gran/grain <seed>:  grain(graner grange) granite grenade engrain
 1. grap <hook>: grape grapnel grapple
@@ -357,6 +359,7 @@ tags:
 1. habit <dwell>: habit habitat(habitable) inhabit(inhabitant)
 1. hal(it) <breathe>: hale inhale exhale
 1. hall <>: hallowed
+1. haul:pull or draw forcibly
 1. hap <chance>: haphazard
 1. har <army>: harness
 1. haste <>: hasty
@@ -369,6 +372,7 @@ tags:
 1. herb <grass>: herbivore(carnivore)
 1. herd <>: herdsman
 1. here/ere <to take>: heretic(heresy)
+1. heuristic <to find>
 1. hibit <hold>: exhibit inhibit prohibit(prohibitive) adhibit
 1. hier <sacred,holy>: hierarch(ierarchy) hieratic
 1. hilar <glad>: hilarity exhilarate
@@ -473,11 +477,13 @@ tags:
 1. mar: 战争 maraud martial
 1. mari: 海 maritime
 1. mark: 记号 remark
+1. marble
 1. mass: 揉捏，引申为团块 mass massage magma massacre
 1. mat: 垫 mattress
 1. mate: 伙伴 inmate
 1. mater: 母亲 maternal 
 1. mea: 经过 permeate
+1. mel <bad>: dismal 
 1. mechan: 机械 mechanic
 1. med: 治疗 remedy
 1. medi: 中间 medieval mediocre mediterranean medium
@@ -519,7 +525,7 @@ tags:
 1. morph: 形状 amorphous 
 1. mort/mori: 死亡 mortal immortal mortality mortify mortgage moribund 
 1. mot: 移动 motive motion
-1. mud: 泥 muddle
+1. mud <moist, soft earth>: muddle muddy
 1. mun(i): 服务，公共的 community municipal remunerate immune
 1. mund: 世界 mundane
 1. muni: 服务 municipal
@@ -536,6 +542,7 @@ tags:
 1. ned <to bind, tie>: nexus 
 1. neg: 否定 negative neglect
 1. nerv: 体力，神经，勇气 nerve
+1. nek <death>: innocent nectar
 1. noc: 伤害 innocent
 1. noct: 夜 nocturnal
 1. nom: 法律 autonomy
@@ -599,8 +606,9 @@ tags:
 1. pen: 刑事的，惩罚 penalty penalize
 1. pend: 悬挂 depend interdepend indispensable suspend compendium 
 1. pens: 悬挂沉重（引申为支付，偿还） pension expense dispense dispenser compensate poise
-1. per: 贯穿，始终 permanent persist perpetuate pervasive(permeate) perplex perceive(perception) persuade 
-1. per: 冒险 imperil
+1. per <to lead, pass over>:permanent persist perpetuate pervasive(permeate) perplex perceive(perception) persuade 
+1. per <to try, risk>: imperil
+1. per <forward>:prophet 
 1. peri: 周围 periphery
 1. pert: 带 repertoire
 1. pest: 瘟疫 pesticide
@@ -696,7 +704,7 @@ tags:
 1. reck: 注意 reckon
 1. rect: 直的 rectangular
 1. red <again>: redundant redundancy
-1. reg: 直的，规则，统治 regent regular irregular regiment 
+1. reg <to move in a straight line>: regent regular irregular regiment rack arrogant
 1. regard: 关心 disregard
 1. relent: 变温和 relentless
 1. rend: 给 render rendition
@@ -744,14 +752,14 @@ tags:
 1. sect/seg <cut,divide>: bisect(dissect resect) section segment
 1. sed/sid/sess <sit>: assess obsess(obsession) supersede sedentary subside(subsidiary subsidy) reside(residential) insidious
 1. sel/sul/sult <summon>: counsel consul(consult consultant)
-1. sem: 符号，意义 semantic
+1. sem <sign, mark, token; omen, portent; constellation; grave>: semantic
 1. sembl: 一样 assemble resemble
 1. semin: 种子 disseminate (dissemination)
 1. sen: 老 senate senior seignior
 1. sens(e): 感觉 sensate(sensation sensory) sensible consensus
 1. sent: 感觉 sentient sentiment consent resent
 1. sept: 腐烂的 antiseptic
-1. sequ/secut: 跟随 subsequent prosecute
+1. sequ/secut <follow>: subsequent prosecute
 1. sert: 放置，安排 assert(assertive) insert dissert
 1. serv: 保持 observe preserve conserve(conservation)
 1. serv: 服务 subserve deserve disserve sergeant
@@ -842,10 +850,11 @@ tags:
 1. tempest: intense windstorm
 1. ten: 维持，持有 tenable tenant
 1. tend: 趋势 pretend
-1. tend: 伸展 tendency pretension intense tender
-1. tent: 伸展 intent extent pretentious
+1. tend <strech>:tendency pretension intense tender
+1. tent <strech>:intent extent pretentious contention
 1. ter: 地 deteriorate 
 1. ter: 吓唬 deter
+1. tere <to rub, turn, cross over, pass through, overcome>: contour attorn 
 1. terg: 擦 detergent
 1. termin: 边界 terminal terminology
 1. terr: 地 terrace terrain territory terrestrial
@@ -913,7 +922,7 @@ tags:
 1. vac: 空的 vacation evacuate(evacuation)
 1. vacc: 牛 vaccine
 1. vag: 走，漫游 vague extravagance 
-1. val/vail: 价值，力量 avail devalue invalid prevail(prevalent prevalence) equivalent
+1. val/vail <to be strong>: avail devalue invalid prevail(prevalent prevalence) equivalent
 1. van/advan: 前面  van advance advantage
 1. var: 改变 variety
 1. vas: 走 invasion(invasive) pervasive
@@ -930,7 +939,7 @@ tags:
 1. ver: 真实: verify verdict 
 1. verm: 蠕虫 verm(vermin) vermicelli
 1. verb: 言语 verbal
-1. vert/vers/verg: 转 invert divert(diversion diverse versatile) diverge converse controversy(controversial) extrovert(introvert)
+1. vert/vers/verg: 转 invert divert(diversion diverse versatile) diverge converse controversy(controversial) extrovert(introvert) perverse
 1. veter: 老 veterinary vet
 1. vi/via/voy/vey: 路  viatic viable deviance previous trivial invoice convey(convoy) envoy voyage
 1. vic: 看 device
@@ -960,10 +969,12 @@ tags:
 
 ###### W
 1. war: 保卫 warrant
+1. wal <to be strong>: prevail 
 1. ware: 看 beware
 1. wed <water>: redundant 
 1. whelm: 淹没 overwhelm
 1. wild: 荒野的 bewilder
+1. will: wil(l)ful
 1. wind: 风 dwindle
 1. wing: 翅膀 swing
 1. wise: 方向 clockwise
@@ -1039,6 +1050,7 @@ tags:
 1. disserve危害 dissever使分离
 1. drain drown
 1. drill钻，练习 thrill兴奋 trial审判
+1. escallop scallop
 1. ensue接着发生 ensure
 1. equity公正 inequity不公正 iniquity极不公正,邪恶
 1. explore考察  exploit开拓
@@ -1081,6 +1093,7 @@ tags:
 1. mud泥土 bud萌芽
 1. naught naughty
 1. pamper娇惯 pepper
+1. pasty pastry
 1. perception(cognition)感知 precipitate沉淀
 1. pest plague
 1. pin大头针 pine松树 spine脊柱
@@ -1135,6 +1148,7 @@ tags:
 1. sub-stant-ial sub-stitu-ent sus-tain
 1. swap交换 swamp沼泽，淹没
 1. swivel转动 swing摇摆
+1. squander splurge 挥霍，浪费
 1. tease戏弄 taunt mock嘲笑
 1. thresh脱谷 thread线，缝
 1. throat throttle
@@ -1143,6 +1157,7 @@ tags:
 1. troupe剧团，巡回演出 troop stoop俯身，驼背 loot掠夺，战利品
 1. truant逃学 tenant租客
 1. twinkle闪烁 wrinkle皱纹
+1. tortelloni tortilla
 1. version venison
 1. vice恶习 versa反的
 1. victor victim
@@ -1160,5 +1175,6 @@ tags:
 1. camouflage:to disguise
 1. mush 
 1. deadlock
+1. tedious weariness, disgust
 
 ![](/img/wc-tail.GIF)
