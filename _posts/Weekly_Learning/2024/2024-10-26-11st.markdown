@@ -36,8 +36,17 @@ tags:
 1. 世界上最可怕的事，是你把别人当朋友，别人没把你当人。 -- 刘震云
 1. 赚钱分3种：1）把一份时间卖出去1次，比如工资；2）把一份时间卖出去多次，比如出书；3）买卖他人的时间，比如当老板。
 1. 只做4件事：赚钱、学习、运动、阅读。
+1. 创业公司的最大风险不是失败，而是一种不敢尝试的文化。 -- [The Case for Failure-Tolerant Leaders: Why we need them now](https://praachi.work/blog/failure-tolerant-leaders)
 
 ### 观点
+###### [《禁欲主义》/《Linux Asceticism》](https://www.rugu.dev/en/blog/linux-asceticism/)
+1. 大多数哲学的目的，都是强化你的身心，让你学会，对于那些自己无法控制的事情要漠不关心.Strengthening your body and mind to make yourself indifferent to and indifferent from the things that are outside your control. That is to say, turn yourself into someone who can handle hardships with as few possessions as possible. 
+1. If you’re going to fight in the rain, train in the storm. -- Unknown
+1. At first, it will probably feel uncomfortable and overwhelming. You’ll face many problems that you’ll need to solve. But you’ll also come to realize and understand better that many of the features you take for granted in an OS with a preconfigured desktop environment are actually separate components that need to exist on your system for you to have that functionality.
+1. There will be times that you might need to understand what a network interface is, what a block device is, what mounting is, how keyboard mappings are handled differently on the virtual console or in a desktop environment/window manager, and so on. It will force you to learn more and more and you’ll also begin to appreciate the underlying elements that are often hidden away by the layers we rely on. This effect will be amplified especially if you like to tinker and try to make things happen as you want them to be.
+1. In the end, you’ll gain a deeper understanding of what happens under the hood. Your comfort zone will broaden as you develop the mindset of solving problems. I know that this kind of reasoning is not as forceful as the pragmatic or ideological reasons for some people, but it still is a good bonus that further motivated me to learn more and more about Linux.
+
+
 ###### 内容行业的问题(Frank)
 内容行业的商业模式是：免费内容用于建立受众，然后再通过广告或收费内容获利。
 
