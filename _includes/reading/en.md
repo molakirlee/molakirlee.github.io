@@ -25,6 +25,7 @@
 
 ###### Life
 1. [Freemagazines](https://freemagazines.top/)
-
+1. [English News In Level ](https://englishnewsinlevels.com/news/level-3)
+1. [Yanko Design](https://www.yankodesign.com/)
 
 ![](/img/qrcode_wechat.jpg)

@@ -72,7 +72,8 @@ tags:
 1. [IP-Adapter-FaceID:以克隆照片人物的脸部，然后通过文生图，将克隆的脸用于生成的图片](https://ipadapterfaceid.com/)
 1. [Stable Diffusion 3 免费在线](https://stablediffusion3.net/zh-CN)
 1. [logo生成Logo Galleria](https://logogalleria.com/zh-CN/app)
-
+1. [Bylo AI](https://bylo.ai/app)
+1. [Slea Ai:logo生成](https://slea.ai/zh-CN/app)
 
 ###### 图生文
 1. [生成caption](https://felix.link/apps/captions)

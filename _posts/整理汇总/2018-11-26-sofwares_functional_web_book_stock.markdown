@@ -142,6 +142,7 @@ tags:
 
 ###### 会议软件
 1. [brie.fi](https://brie.fi/ng)：分享连接即可浏览器视频
+1. [Screensharing](https://screensharing.net/)：浏览器分享屏幕软件
 
 ###### 文本内容检索
 1. [DocFetcher](https://www.zhihu.com/question/20237918)。
