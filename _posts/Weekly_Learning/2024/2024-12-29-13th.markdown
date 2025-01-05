@@ -18,7 +18,14 @@ tags:
 
 
 ### 言论
-1. 曹操是个实用主义者，放走关羽和杀沮授，都是优先考虑现实问题，考虑对自己事业的正/负面影响。同样的，你对别人的价值是什么？与人交往要体现自己的价值。
+1. 曹操是个实用主义者，放走关羽和杀沮授，都是优先考虑现实问题，考虑对自己事业的正/负面影响。同样的，反过来，你对别人的价值是什么？与人交往要体现自己的价值。
+1. 曹操缴获军营中人与袁绍的书信后，烧毁书信而非论罪责罚，因为他知道自己需要利用/使用这些“骑墙派”。面对骑墙派不是吐槽或处理他们，而是让自己足够强来吸引和使用他们。
+1. 日本人"缺乏自由意志"，规则怎么说就怎么做，不会自主行事，就是活着的 NPC。这种现象不仅存在于日本，正在向全世界蔓延，世界各地越来越多的人正在成为 NPC。他们要么无法自主的生活，要么无法选择自己的行为，而是根据规则和指令来行事，就像被程序控制一样。科技公司推动和加剧了这种趋势，互联网使得人们越来越分心，把时间都花在网上肤浅的娱乐，不再集中注意力于自己的生活，把生活都交给程序，无法形成自主的意识和行为。以上就是曼吉奥内的观点，我认为是很真实的观察。一方面，人工智能使得机器人越来越像人类，另一方面，人类的自主性在消退，越来越像机器人。现实与游戏、人类与机器人，越来越难以区分了。 -- Frank
+1. 强大的工程师不在于速度快或产出高，而在于能够完成其他工程师无法完成的任务。弱小的工程师几乎任何任务都完成不了。如果你和一个弱小的工程师一起工作，你可以帮他，但一定要保护好你的时间，防止他把你的时间都消耗光。 -- [What can strong engineers do that weak engineers can't?](https://www.seangoedecke.com/weak-engineers/)
+1. 智能汽车只是新技术的一个载体，必要时，智能化、自动化的产品可以短时间内衍化成任何形式。
+1. AI浪潮下，中国至少有2方面的机遇，分别是制造端和市场端：1）充足的（不开源的）制造业测试产业AI；2）庞大的市场爆发出超级应用。
+1. 帝国主义的附属有3种形式：殖民地、仆从国、供应国。殖民地类似奴仆，仆从国类似小弟，供应国则是披着国家外衣的功能实体（如以供应石油/矿石为功能的国家、以供应劳动力为功能的国家）
+
 
 ### 观点
 ###### [梁振锐：编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
@@ -51,6 +58,23 @@ tags:
 ###### 工作5步法
 ![](/img/in-post/2024/2024-12-29-13th_SI/5steps_work.jpg)
 
+###### [Deepseek: The Quiet Giant Leading China’s AI Race](https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas)
+1. 任何 AI 公司（短期内）都没有碾压对手的技术优势，因为有 OpenAI 指路，又都基于公开论文和代码，大厂和创业公司都会做出自己的大语言模型。
+1. 在颠覆性的技术面前，闭源形成的护城河是短暂的。即使 OpenAI 闭源，也无法阻止被别人赶超。我们把价值沉淀在团队上，我们的同事在这个过程中得到成长，积累很多know-how，形成可以创新的组织和文化，就是我们的护城河。
+1. 我们不会闭源。我们认为先有一个强大的技术生态更重要。
+1. 当前阶段是技术创新的爆发期，而不是应用的爆发期。大模型应用门槛会越来越低，创业公司在未来20年任何时候下场，也都有机会。
+1. 过去很多年，很多的中国公司习惯了别人做技术创新，拿过来做应用变现，自己等着摩尔定律从天而降，躺在家里18个月就会出来更好的硬件和软件。我们的出发点，就不是趁机赚一笔，而是走到技术的前沿，去推动整个生态发展。中国也要逐步成为贡献者，而不是一直搭便车。
+1. 大部分中国公司习惯 follow，而不是创新。中国创新缺的不是资本，而是缺乏信心以及不知道怎么组织高密度的人才。我们没有海外回来的人，都是本土的。前50名顶尖人才可能不在中国，但也许我们能自己打造这样的人。
+1. 我们每个人对于卡和人的调动是不设上限的。如果有想法，每个人随时可以调用训练集群的卡无需审批。同时因为不存在层级和跨部门，也可以灵活调用所有人，只要对方也有兴趣。
+1. 我们在做最难的事。对顶级人才吸引最大的，肯定是去解决世界上最难的问题。其实，顶尖人才在中国是被低估的。因为整个社会层面的硬核创新太少了，使得他们没有机会被识别出来。我们在做最难的事，对他们就是有吸引力的。
+1. 中国产业结构的调整，会更依赖硬核技术的创新。很多人发现过去赚快钱很可能来自时代运气，现在赚不到了，就会更愿意俯身去做真正的创新。
+1. 我是八十年代在广东一个五线城市长大的。我的父亲是小学老师，九十年代，广东赚钱机会很多，当时有不少家长觉得读书没用。但现在回去看，观念都变了。因为钱不好赚了，连开出租车的机会可能都没了。一代人的时间就变了。以后硬核创新会越来越多，因为整个社会群体需要被事实教育。当这个社会让硬核创新的人功成名就，群体性想法就会改变。我们只是还需要一堆事实和一个过程。
+
+
+###### [AI isn’t about unleashing our imaginations, it’s about outsourcing them. The real purpose is profit](https://www.theguardian.com/technology/2024/nov/16/ai-isnt-about-unleashing-our-imaginations-its-about-outsourcing-them-the-real-purpose-is-profit)
+1. Perhaps a better place to begin a defence of human creativity might be in the process of creation itself. Because when we make something, the end product isn’t the only thing that matters. In fact it may not even be the thing that matters most. There is also value in the act of making, in the craft and care of it. This value doesn’t inhere in the things we make, but in the creative labour of making them. The interplay between our minds and our bodies and the thing we are making is what brings something new – some understanding or presence – into the world. But the act of making changes us as well. That can be joyous, and at other times it can be frustrating or even painful. Nonetheless it enriches us in ways that simply prompting a machine to generate something for us never will.
+1. What’s happening here isn’t about unleashing our imaginations, it’s about outsourcing them. Generative AI strips out part of what makes us human and hands it over to a company so they can sell us a product that claims to do the same thing. In other words the real purpose of these systems isn’t liberation, but profit. Forget the glib marketing slogans about increasing productivity or unleashing our potential. These systems aren’t designed to benefit us as individuals or a society. They’re designed to maximise the ability of tech corporations to extract value by strip-mining the industries they disrupt.
+1. Because it isn’t enough to fret about what is being lost, or to fight a rearguard action against these technologies. We have to begin to articulate positive arguments for the value of what we do, and of creativity more broadly, and to think about what form that might take in a world where AI is a pervasive reality.
 
 ### 有趣
 
