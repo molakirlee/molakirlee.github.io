@@ -1591,6 +1591,8 @@ var quotes = [
 'Do something today that your future self will thank you for.做些未来的你会感激的事情。',
 'Your vibe attracts your tribe.你的气场吸引你的圈子。',
 'The best time for new beginnings is now.新的开始的最佳时机就是现在。',
+'保护好自己才是最大的英雄主义。当你变得更强大时，讨厌的人甚至连背影都会消失，不要奢望改变对方，你唯一能改变的是你自己，默默蓄力，不断提升，走向更高的圈层。',
+'手里有刀，心里有佛.',
 '万物一剑，专注道心。',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
