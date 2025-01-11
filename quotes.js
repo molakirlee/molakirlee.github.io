@@ -1596,6 +1596,7 @@ var quotes = [
 'Your life does not get better by chance,it gets better by change.你的生活不会因偶然变好，而是因改变变好。',
 '手里有刀，心里有佛.',
 '最终你会成为你本该成为的那个人. -- 段永平',
+'You can\'t change the past,but you can change the ending. 你无法改变过去，但你可以改变结局。',
 '万物一剑，专注道心。',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
