@@ -1,0 +1,56 @@
+---
+layout:     post
+title:      "2025-每周补脑3rd"
+subtitle:   ""
+date:       2025-01-19 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2025
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 巴菲特的选人标准就看三个"i":integrity（正直）‘intelligence（智慧）、initiative（主动）。"正直"和"智慧"的人到处都是，但如果不主动，不是自己想去做些什么，就什么也不会发生。 -- [Warren Buffett: Integrity Is the Most Important Attribute to Hire For. Ask 7 Simple Questions to Find It ](https://www.inc.com/marcel-schwantes/warren-buffett-hiring-top-talent-characteristics.html)
+1. 人类一种可能的未来是，人工智能精英坐拥惊人的财富，与世隔绝，然后拿出最少量的施舍，来保证广大的失业人员不闹事。 -- 李开复《AI·未来》
+1. 如果你仔细想想，最好的书实际上是一个极其漫长的咒语，它让你在余生中变成另一个人。 -- [Jonathan Edward Durham](https://bsky.app/profile/thisone0verhere.bsky.social/post/3ld4fibye4s2s)
+1. 未来已来，只是尚未流行。为未来做准备，就是在为现在做准备，做一个未来世界的幸存者，就是做一个今日世界的幸存者。 -- Frank
+1. 人的智力高低，未来不会像现在这样重要，AI 可以弥补人的智力。提出正确问题的能力，在未来比找到答案的能力更重要。-- [Sam Altman](https://finance.sina.cn/7x24/2025-01-15/detail-inefaiqy4871246.d.html)
+1. 爱因斯坦一定承受了沉重的心理负担。到处都是白痴。 -- [大卫·林奇](https://news.ycombinator.com/item?id=42729726)
+1. 我从未想到会被公司解雇，因为我的表现总是高于公司的期望。后来我明白了。在裁员期间，你是谁、你做什么似乎并不重要，在大多数情况下，裁员的决定是由那些不认识你的人做出的。对公司来说，我只是 Excel 表格中的一行。 -- [Once You're Laid Off, You'll Never Be the Same Again](https://mertbulan.com/2025/01/26/once-you-are-laid-off-you-will-never-be-the-same-again/)
+1. 我们越忙碌，就越能敏锐地感受到自己在生活，对生活也就越有想法。 -- [The Fascinating Security Model of Dark Web Marketplaces](https://boehs.org/node/dark-web-security)
+1. 你是当下角色要求你成为的人 You are what the role requires you to be. -- 《富兰克林》
+1. 就坦白直接但不要说任何收不回的话 Be honest and plain,but don't say anything cannot take back later. -- 《富兰克林》
+1. 谨慎之人就连自己的么幻想也须有所节制. A prudent man should temper even his fantasies. --《富兰克林》
+1. 我必须研究政治和战争，儿子们也许才有学数学和哲学、地理学、自然史、军舰建造、航海术、商业和农业的自由，他们的孩子们才有研究绘画、诗歌、音乐、建筑、雕塑、织艺和陶瓷的权利. -- 约翰亚当斯
+
+### 观点
+###### [Frank: 工作也有利息](https://www.linkedin.com/pulse/time-value-mike-speiser/)
+工作有利息，意味着你未来的工作时间会变少，多出来的时间，就可以去做别的事情，创造更多的价值。
+
+这提示我们：
+1. 不要轻易更换工作领域，否则以前积累的利息就作废了。只有在同一个工作领域，才可能产生长期积累，以前的工作为以后打基础，最终产生巨大的利息。
+2. 在职业生涯的早期，积累效果最好，最容易产生复利。开始积累越晚，产生复利就越少。
+3. 有些劳动没有积累效果，不会产生利息，比如重复性的机械劳动（快递、咖啡店员、门卫......），你明年还是要重复做这些事情。
+4. 最好的人生策略就是，找到你深感兴趣、可以长期做下去的领域，在上面投入大量的工作时间（包括质量和数量），然后随着年龄增长，享受以前工作的复利。
+
+###### [AI is Creating a Generation of Illiterate Programmers](https://nmn.gl/blog/ai-illiterate-programmers)
+我长期使用 AI，靠它帮助编程，已经不能在没有 AI 帮助的情况下解决问题了。我不再阅读文档。既然 AI 可以立即解释一切，为什么还要费心阅读呢？我的调试技能日益生疏。我甚至不再阅读报错消息，只是把它们复制并粘贴到 AI，让 AI 解读。我已经成为了一个人肉剪贴板，仅仅是代码和 AI 之间的中介。以前，每条报错都会让我学到一些东西。现在呢？AI 提供了解决方案，我却什么也没学到。实时答案带来的多巴胺刺激，取代了真正理解的满足感。另一个受到影响的地方是深度理解。以前，我花费数小时来理解某个解决方案为何有效，现在，我只是照着 AI 建议实施。如果这些建议不起作用，我会改进提示的上下文，再次询问 AI。这种循环使得我对 AI 的依赖性不断增加。我的情绪也受到影响。以前，解决新问题是编程乐趣的一部分。现在，如果 AI 不能在五分钟内给出解决方案，我就会感到沮丧。我该怎么办？我不想采取任何激进的措施，比如完全放弃 AI，这是不现实的。我打算每周实行一天"无 AI 日"。我的感觉是，AI 不会让我们成为10倍效率的程序员，只会让我们对它的依赖程度增加10倍。每当我们让 AI 解决我们自己可以解决的问题时，我们就是用短期生产力换取长期理解，我们以牺牲明天的能力为代价来完成今天的效率。我并不是建议放弃 AI，只是建议大家不要放弃尝试独立解决问题。我们正在创造 AI 一代程序员，他们可以向 AI 提出正确的问题，但不理解 AI 给出的答案。每次 AI 出现故障，他们就会显得无助。到目前为止，AI 还不足以完全取代程序员，但随着 AI 的进步，这种情况只会变得更糟。
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)

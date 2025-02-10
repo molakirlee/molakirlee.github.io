@@ -46,6 +46,7 @@ $$
 
 1. 靠近自己的是**Var**；
 2. Maxwell **先横再竖** 时$\partial$前有**负号**；
+3. 角标在箭头上时$\partial$前有**负号**；
 ![](/img/in-post/2018/2018-11-08-equqtions/maxwell.JPG)
 
 #### 数学

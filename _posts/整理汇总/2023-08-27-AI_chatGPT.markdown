@@ -68,6 +68,7 @@ tags:
 
 ###### 文生图
 1. [sdxlturbo](https://sdxlturbo.ai/)
+1. [Raphael](https://raphael.app/zh)
 1. [Meta公司推出的文生图工具](https://imagine.meta.com/)
 1. [Drawing Prompt](https://drawing-prompt.com/en)
 1. [IP-Adapter-FaceID:以克隆照片人物的脸部，然后通过文生图，将克隆的脸用于生成的图片](https://ipadapterfaceid.com/)
