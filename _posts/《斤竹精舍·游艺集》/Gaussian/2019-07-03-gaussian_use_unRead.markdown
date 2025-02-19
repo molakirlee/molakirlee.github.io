@@ -25,7 +25,7 @@ tags:
 1. [Gaussian 常见报错及解决方法；新手求助报错时的注意事项](http://bbs.keinsci.com/thread-4829-1-1.html)
 1. [Gaussian error messages](https://docs.computecanada.ca/wiki/Gaussian_error_messages)
 1. [计算化学中的一些常见不良写法和用词](http://sobereva.com/298)
-
+1. [辨析计算化学中的任务类型和理论方法](http://sobereva.com/680)
 
 ###### gaussian任务批量执行
 1. [使用Gaussian时的几个实用脚本和命令](http://sobereva.com/258)
