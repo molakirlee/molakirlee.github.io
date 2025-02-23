@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "ML CFD"
+subtitle:   ""
+date:       2025-02-21 23:50:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Machine_Learning 
+    - CFD
+    - 2025
+
+
+---
+
+
+1. [Machine learning in computational fluid dynamics](https://github.com/AndreWeiner/ml-cfd-lecture?tab=readme-ov-file)及其中译版[ML4CFD 计算流体动力学中的机器学习](https://bohrium.dp.tech/notebooks/5814588202)
+1. [利用AI求解RANS方程-以2D机翼翼型优化为例](https://bohrium.dp.tech/notebooks/1441046453)
+1. []()
+
+
+
+![](/img/wc-tail.GIF)

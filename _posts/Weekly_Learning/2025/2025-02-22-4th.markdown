@@ -1,0 +1,65 @@
+---
+layout:     post
+title:      "2025-每周补脑4th"
+subtitle:   ""
+date:       2025-02-22 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2025
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 在商业领域，最先做到的人有优势。但是，在研究和学术领域，成功往往不属于最先理解的人，而属于理解得最好的人，真正的优势来自于深刻、基础性的见解。 -- [My Time at MIT](https://muratbuffalo.blogspot.com/2025/02/my-time-at-mit.html
+1. 以谦逊和好奇的态度对待工作时，你会学到更多，参与得更充分。初学者的心态是一种财富。保持真实的自我有助于你找到自己真正的使命。 -- [My Time at MIT](https://muratbuffalo.blogspot.com/2025/02/my-time-at-mit.html
+1. I was young, naive, and plagued by impostor syndrome. I held back instead of exploring more, engaging more deeply, and seeking out more challenges.  I allowed myself to be carried along by the current, rather than actively charting my own course. Youth is wasted on the young.Why pretend to be smart and play it safe? True understanding is rare and hard-won, so why claim it before you are sure of it? Isn't it more advantageous to embrace your stupidity/ignorance and be underestimated? -- [My Time at MIT](https://muratbuffalo.blogspot.com/2025/02/my-time-at-mit.html
+1. 先行者开辟了道路，后来者用更少的计算资源迅速缩小差距，这就存在了先发劣势。 -- [Hacker News](https://news.ycombinator.com/item?id=43112313)
+1. （对于普通用户）网络带宽可能到头了，目前的 5G 网速足以满足绝大多数人的需求。这有点像民航飞机，过去50年，大型喷气式民航飞机的飞行速度，基本没有变化，一直是每小时900公里左右。并不是造不出更快的飞机，而是这个速度是最佳平衡点，旅客可以接受，飞行成本也不会过高。通信网络可能也到了这个阶段。5G 够用了，升级到 6G 不是那么迫切，也许很长一段时间都不会发生。一方面，市场需求不大，另一方面，即使升级到 6G，设备和流量的价格也会非常高昂，消费者很可能没有意愿买单。这意味着，过去几十年来，一直轰轰烈烈、巨额投资的通信设备市场，将要放缓。电信公司的网络建设投资，将会大幅减少。一旦通信公司不再能通过网络升级获得新客户，就必须采用其他手段，来发展业务：（1）流量降价；（2）提高网络的覆盖范围，减少信号差的地区；（3）提升客户服务。当民航的飞行速度不再提高后，就出现了廉价航空公司。可以预期，未来也会出现廉价的通信商，出售非常便宜的流量。 -- Frank
+1. 2025年，AI 大模型的进展是什么？答案肯定是研究模式。早期一问一答的对话，已经进化到了思考和推理。遇到需要深入思考的问题，AI 会先思考框架、拆解步骤，再查找大量文献资料，分析整合出最后的结果，思考步骤还是很全面的。 -- Frank
+1. 女儿教会我和老婆最多的便是重新认识成长——这个我们自己亲身经历的事情，因为时间的冲刷而忘却，现在通过养育下一代重新习得，这何尝不是一种“成长”。我想人生大概如此吧，充满矛盾，不断获得，又不断失去，有优雅也有许多挣扎。就像是一场即兴表演，哪有什么主题可言呢？走着走着，就到了。 -- [《走着走着，就到了》雨帆](https://yufan.me/posts/steady-grow-up)
+1. 任抛星汉归园圃，留取乾坤盛酒囊。 -- [胡涂](https://hutusi.com/articles/three-poems-qi-lv)
+1. “真正重要的那种自由，意味着专注、自觉、自律、不懈努力，以及真诚地关怀他人，并且每天都以无数琐碎微小而乏味的方式，一次又一次地为他人牺牲奉献。” 这些才是自由，才是人生真正所应追求的东西。“和这种自由相对的，则是没有自觉、默认设置、永无止境的激烈竞争，始终处于一种持续不断的拥有和失去的痛苦之中。” -- [《胡涂：心猿意马 2024年总结》](https://hutusi.com/articles/restless-mind-2024-review)
+1. Don’t think, try the experiment’ -- [John Hunter给Edward Jenner的建议](https://bjgplife.com/three-sides-to-edward-jenner-gp-scientist-and-writer/)
+1. 荷兰较英国而言的衰败，除了极端的商业，还选错了支柱产业。英国的纺织业具有较大的需求量和稳定的棉花供应，渔业则大不相同。
+1. 珍妮纺织机的发明虽然一定程度上让一部分劳动力失业，但却带来了许多相关产业的发展。1）与纺织业相关的上下游产业，比如加工、设计、销售等；2）带动了相关设备的发明制造；3）相关的设备应用在其它的领域后又像一颗种子一样引发了更多产业和创新。现在的人工智能亦然，本质都是新质生产力。
+1. 我们生活在黑暗森林中，一步步明亮视野。
+1. 博物学家Wren从研究马的眼睛过程中获得启发而进一步改进了望远镜。
+1. 早期的科学家也是好的画家，他们把自己观察到的内容精准的绘制下来。
+1. 英国皇家学会源于人们从对经典理论的信仰转向实验验证，每次会上大家必须演示、复现实验。
+1. 早期科学家出于兴趣做科研，现在科研人则出于谋生，出发点的本质差异导致了在科研过程中的抉择不同，不免受到利益的影响。
+1. 哈雷极尽“各种方式”终于说服了与胡克有矛盾的牛顿推导万有引力定律，万有引力定律也助力哈雷发现了哈雷彗星。虽然日后牛顿凭其成就“消磨”了胡克。
+1. 年轻的法拉第在装订商门下作学徒，这使他能够接触到科学著作，从此他为科学而痴迷。
+1. Why then the world’s mine oyster, Which I with sword will open.（‘The world is your oyster’ saying is often said to young people about to embark on adult life. It simply means that everything is open to one, and if one is lucky they could encounter something special.） -- [from Shakespeare](https://nosweatshakespeare.com/quotes/famous/the-worlds-your-oyster/)
+1. What's the go o' that.(How does that work?) -- Maxwell的口头禅
+1. 麦克斯韦擅长物理和数学，不仅发现了光的三原色，还用法拉第的实验结果推导出了麦克斯韦方程。他的重要性很大一方面在于创造了新的科学语言/研究方式，用数学符号解释新的观点，提出用于实践的新理论。
+1. He(Brunel) wasn't just an engineering poineer.He was brave and audicious. He was a compulsive risk-taker,never accepted current thinking, always wanted to find a better way.
+1. As a student,he(Thomson/Kelvin) set himself a punishing schedule.He would get up at five and start reading.At 8.15,he'd go to lectures,read again and then exercise until four in the afternoon,when he'd go to chapel.He'd stay there till seven and then read again until 8.15.finally going to bed at nine.Now,if he really stuck to that schedule,the man was more of a machine.
+1. "I couldn't quite follow everything you've written,Whittle,"but I couldn't find anything wrong with it." -- 惠特尔(喷气飞机发明者)的导师
+1. For me,the essence of what scientists do is not maths or experiments, abstract thought or even applying for research funding, but asking questions.Newton wanted to know why things fell to the ground.Darwin,why animals were different in different places. -- Richard Dawking对话霍金前的自白《The Genius Of Britain》
+1. 弗莱明只是发现了青霉素，英国牛津大学病理学家弗洛里（澳大利亚）与生物化学家钱恩实现对青霉素的批量生产。
+1. Watson最初接到的任务是发明能够发射高能致死电磁波的装置（听闻德国已实现），但通过计算能量发现原理上不可行，却发现了具有反射功能，因而发明了雷达。
+
+### 观点
+###### [Yak Shaving](https://antfu.me/posts/about-yak-shaving-zh)
+1. Yak Shaving 的字面意思是为剪牦牛毛，而引申出来的意思是，当你在进行一个工作时，发现另一个工作还没有完成，你便先去解决那个工作，在进行那个工作时，你又发现另一个工作… 如此往复，让你偏离了原本本该完成的工作，最终却也什么都没有完成。
+1. 开始尝试解决一个问题的最基本条件就是寻找现有的解决方案，如果这个问题已经被很好的解决了，也都满足你的需求，直接用就好了。重复造轮子也许是个不错的学习方式，但是我觉得，既然轮子已经有了，总得有人思考思考如何造辆车对吧。当你发现这个问题并没有什么解决方案，或者是现有的方案你的觉得不太行，刚好你又有个不错的点子，那么恭喜你，你找到了一只不错的 Yak。
+1. 利用 Yak Shaving 最重要的一点莫过于点到为止 – 不要抱有太大的期待，如果想法被验证了可行，做到够用即可；如果想法不可行，也不必气馁，丢掉便是了，也许哪天想明白了也可以再捡回来。不必画多么宏大的蓝图和计划，也不必设什么多少 Stars 多少用户的目标 – 你是做给自己用的，能解决自己的问题就好。重要的是，不要在一个想法上花费过多的时间，及时回去做你本该做的事情。
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)

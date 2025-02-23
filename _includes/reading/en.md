@@ -1,8 +1,9 @@
 
 <br>
 
-**If something stands between you and your success, move it. Never be denied.**  
-**——Dwayne ‘The Rock’ Johnson**
+**Nullius in verba**  
+(Take nobody's word for it)  
+-- Royal Society 
 
 ### SCIENCE SCOPE
 1. [Nature](https://www.nature.com/)

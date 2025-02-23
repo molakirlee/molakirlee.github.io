@@ -1,6 +1,7 @@
 
 ### Search
 1. [Perplexity](https://www.perplexity.ai/)
+1. [秘塔AI搜索](https://metaso.cn/)
 
 ### Dictionary
 1. [趣词](https://www.quword.com/)
