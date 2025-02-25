@@ -1633,6 +1633,7 @@ var quotes = [
 'If something stands between you and your success, move it. Never be denied. -- Dwayne ‘The Rock’ Johnson',
 'If a person is surrounded by garbage,there are only two possibilities:either this person is a garbage collector or this person is garbage.如果一个人周围都是垃圾，那么只有两个可能，要么这个人是捡垃圾的，要么这个人就是垃圾马云.',
 '“少爷，学武不吃亏，学武不上当。” -- 剑九黄',
+'Happiness is homemade.幸福是自己创造的。',
 '万物一剑，专注道心。',
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',

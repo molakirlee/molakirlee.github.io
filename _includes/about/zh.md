@@ -35,6 +35,7 @@ Hey，我是**神探玺洛克**。
 1. [Dan Moore: Letters To A New Developer](https://letterstoanewdeveloper.com/)
 
 1. [科学网: 何毓琦](https://blog.sciencenet.cn/home.php?mod=space&uid=1565)
+1. [Matt Strassler: theoretical physicist](https://profmattstrassler.com/)
 
 1. [Jerkwin](http://jerkwin.github.io/)
 1. [CASEA的奇思妙想](https://www.casea1998.cn/)

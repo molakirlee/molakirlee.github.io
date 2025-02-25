@@ -1,5 +1,8 @@
 
 <br>
+**What's the go o' that.(How does that work?) **  
+-- Maxwell
+
 
 **Nullius in verba**  
 (Take nobody's word for it)  
@@ -21,6 +24,9 @@
 1. [Gizmodo](https://gizmodo.com/)
 1. [Medium: Explore new perspectives](https://medium.com/)
 1. [Core of the machine](https://www.jiqizhixin.com/industry)
+
+###### Popularization of Science 
+1. [Harvard Science Book Talks and Research Lectures](https://www.youtube.com/@harvardsciencebooktalksand4527/playlists)
 
 ###### Society
 1. [Buzzing](https://www.buzzing.cc/)

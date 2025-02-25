@@ -15,7 +15,8 @@ tags:
 ---
 
 ### 科学
-
+1. The mass of an object is a measure of its energy-content. -- [E = m c-Squared: The Simple Dimensions of a Discovery](https://profmattstrassler.com/2022/06/23/e-m-c-squared-the-simple-dimensions-of-a-discovery/)
+1. You and I are small, so we think light runs like a rabbit. But the universe is vast, and from its perspective, light creeps like a turtle. The point of this quote is to remind us that we’re not the center of the universe. We are not annointed creatures relative to whom all cosmic facts should be measured. There’s nothing unique or special about the Earth or its size, mass or temperature — nothing materially unique about animals, about mammals more specifically, or about us. The way the cosmos works is not influenced by the objects of our ordinary lives. So our own perspectives are not privileged, and we should be aware that there are other perspectives, ones from which light’s speed (in empty space) is slow and/or from which the energy stored in a human is tiny. -- [Why is the Speed of Light So Fast?](https://profmattstrassler.com/2024/10/01/why-is-the-speed-of-light-so-fast-part-1/)
 
 ### 言论
 1. 在商业领域，最先做到的人有优势。但是，在研究和学术领域，成功往往不属于最先理解的人，而属于理解得最好的人，真正的优势来自于深刻、基础性的见解。 -- [My Time at MIT](https://muratbuffalo.blogspot.com/2025/02/my-time-at-mit.html
@@ -30,7 +31,6 @@ tags:
 1. Don’t think, try the experiment’ -- [John Hunter给Edward Jenner的建议](https://bjgplife.com/three-sides-to-edward-jenner-gp-scientist-and-writer/)
 1. 荷兰较英国而言的衰败，除了极端的商业，还选错了支柱产业。英国的纺织业具有较大的需求量和稳定的棉花供应，渔业则大不相同。
 1. 珍妮纺织机的发明虽然一定程度上让一部分劳动力失业，但却带来了许多相关产业的发展。1）与纺织业相关的上下游产业，比如加工、设计、销售等；2）带动了相关设备的发明制造；3）相关的设备应用在其它的领域后又像一颗种子一样引发了更多产业和创新。现在的人工智能亦然，本质都是新质生产力。
-1. 我们生活在黑暗森林中，一步步明亮视野。
 1. 博物学家Wren从研究马的眼睛过程中获得启发而进一步改进了望远镜。
 1. 早期的科学家也是好的画家，他们把自己观察到的内容精准的绘制下来。
 1. 英国皇家学会源于人们从对经典理论的信仰转向实验验证，每次会上大家必须演示、复现实验。
@@ -38,7 +38,6 @@ tags:
 1. 哈雷极尽“各种方式”终于说服了与胡克有矛盾的牛顿推导万有引力定律，万有引力定律也助力哈雷发现了哈雷彗星。虽然日后牛顿凭其成就“消磨”了胡克。
 1. 年轻的法拉第在装订商门下作学徒，这使他能够接触到科学著作，从此他为科学而痴迷。
 1. Why then the world’s mine oyster, Which I with sword will open.（‘The world is your oyster’ saying is often said to young people about to embark on adult life. It simply means that everything is open to one, and if one is lucky they could encounter something special.） -- [from Shakespeare](https://nosweatshakespeare.com/quotes/famous/the-worlds-your-oyster/)
-1. What's the go o' that.(How does that work?) -- Maxwell的口头禅
 1. 麦克斯韦擅长物理和数学，不仅发现了光的三原色，还用法拉第的实验结果推导出了麦克斯韦方程。他的重要性很大一方面在于创造了新的科学语言/研究方式，用数学符号解释新的观点，提出用于实践的新理论。
 1. He(Brunel) wasn't just an engineering poineer.He was brave and audicious. He was a compulsive risk-taker,never accepted current thinking, always wanted to find a better way.
 1. As a student,he(Thomson/Kelvin) set himself a punishing schedule.He would get up at five and start reading.At 8.15,he'd go to lectures,read again and then exercise until four in the afternoon,when he'd go to chapel.He'd stay there till seven and then read again until 8.15.finally going to bed at nine.Now,if he really stuck to that schedule,the man was more of a machine.
@@ -46,12 +45,28 @@ tags:
 1. For me,the essence of what scientists do is not maths or experiments, abstract thought or even applying for research funding, but asking questions.Newton wanted to know why things fell to the ground.Darwin,why animals were different in different places. -- Richard Dawking对话霍金前的自白《The Genius Of Britain》
 1. 弗莱明只是发现了青霉素，英国牛津大学病理学家弗洛里（澳大利亚）与生物化学家钱恩实现对青霉素的批量生产。
 1. Watson最初接到的任务是发明能够发射高能致死电磁波的装置（听闻德国已实现），但通过计算能量发现原理上不可行，却发现了具有反射功能，因而发明了雷达。
+1. 与其它许多科学家的经历类似，Davis是一名书籍装订商的儿子。所以接触书籍是他进入科研/工程领域的重要因素；另外则多是工匠家的孩子或匠人，从技术实际问题步入科研或工程。
+1. 我们的核心技术岗位，基本以应届和毕业一两年的人为主。我们选人的标准一直都是热爱和好奇心。招人时确保价值观一致，然后通过企业文化来确保步调一致。 -- [梁文峰接受《暗涌》专访](https://mp.weixin.qq.com/s/UhEgCIwRxCwucnFUDbWO2g)
+1. 管住你的嘴，多干点活，在自己领域本本分分地上升，往往是大佬所看重的。如果你的能量、心性、成绩地盘到了对应的位置，再怎么争取也没用。
 
 ### 观点
+###### 黑暗森林
+1. 我们生活在黑暗森林中，如同“知见障”。随着对环境的认知，一步步明亮视野，视野更大的人相较之下更有优势。
+1. 于生存而言。知识领域与物质领域是一样的，只是看到是没用的（看到没做到=看到没吃到），在黑暗森林中拓宽视野后，要利用好你视野中的工具创造价值或开发能使你占据优势的工具（有形的/无形的），否则当别人也开化后，你提前开拓视野的优势便消失了，从起初明眼人打瞎子的优势变成了睁眼人对撕。
+1. 不要嫌弃别人愚昧，同时也无需自怨自艾不自信，人们只是处于视野可见范围不同的阶段而已。接受这个客观事实并使其向于自己有力的情况发展才是当下要做的。
+1. 与牛顿、爱因斯坦相比，大多数自以为自己是科学家的科研人员在做的与他们所不屑的经验性研究其实并无本质区别。当看到有人嘲笑一线工人只知道死记规律的时候，就能理解牛顿为什么会那么傲慢；有些人不是谦虚，只是没有像牛顿那样傲慢的资本。每个人的知识的拓展像探索黑暗森林一样，时代认知的发展亦然，站在爱因斯坦的节点看牛顿，像拿着多少代人提炼的知识看小作坊仰仗经验的操作师傅，一定程度上是两个时间节点上认知的差异，一定程度上也是两个群体的差异。所谓五十步笑百步，遍地皆是。更何况爱因斯坦也不都对，也不一直对。
+
+
 ###### [Yak Shaving](https://antfu.me/posts/about-yak-shaving-zh)
 1. Yak Shaving 的字面意思是为剪牦牛毛，而引申出来的意思是，当你在进行一个工作时，发现另一个工作还没有完成，你便先去解决那个工作，在进行那个工作时，你又发现另一个工作… 如此往复，让你偏离了原本本该完成的工作，最终却也什么都没有完成。
 1. 开始尝试解决一个问题的最基本条件就是寻找现有的解决方案，如果这个问题已经被很好的解决了，也都满足你的需求，直接用就好了。重复造轮子也许是个不错的学习方式，但是我觉得，既然轮子已经有了，总得有人思考思考如何造辆车对吧。当你发现这个问题并没有什么解决方案，或者是现有的方案你的觉得不太行，刚好你又有个不错的点子，那么恭喜你，你找到了一只不错的 Yak。
 1. 利用 Yak Shaving 最重要的一点莫过于点到为止 – 不要抱有太大的期待，如果想法被验证了可行，做到够用即可；如果想法不可行，也不必气馁，丢掉便是了，也许哪天想明白了也可以再捡回来。不必画多么宏大的蓝图和计划，也不必设什么多少 Stars 多少用户的目标 – 你是做给自己用的，能解决自己的问题就好。重要的是，不要在一个想法上花费过多的时间，及时回去做你本该做的事情。
+
+###### [开尔文，一个说自己失败的成功科学家](https://swarma.org/?p=26041)
+1924年7月1日，英国皇家学会在伦敦举行了开尔文100周年诞辰纪念会。英国电机学会会长、国家物理实验室董事长格莱茲布鲁克（Sir Richard Glazebrook）致词，说“大家可以想想，没有开尔文的话，这个世界就没有‘厘米-克-秒’单位系统、热力学第二定律的现代科学描述、交流电原理、有线电报、镜式检流计、开尔文罗盘、海洋水深探测仪等等。”当然，致辞简短，他只提及了开尔文的几项贡献，而今天教科书里能找到的还由许多：绝对零度、汤姆森效应、开尔文-焦耳效应、开尔文电桥、热电效应、磁阻效应、动能概念，虹吸记录仪、开尔文-沃格特（Voigt）模型、潮汐预测机、开尔文滴水起电机、开尔文波、开尔文变换、开尔文函数、开尔文-亥姆霍兹（Helmholtz）不稳定性、开尔文-亥姆霍兹机制、开尔文环流定理、开尔文-斯托克斯定理、开尔文方程等等。
+
+像许多敢于质疑和勇于创新的科学家一样，开尔文对新理论和新技术的认知过程也出现过差错。1895年，伦琴（Wilhelm Röntgen）宣布发现了X-射线。但开尔文高度怀疑，甚至认为那是个恶作剧。1896年1月17日，伦琴给他寄去一份回忆录、论文和X光照片。开尔文毕竟是个科学家，他给伦琴回了信：“不用说当我阅读到你的信息时有多么的惊讶和高兴。我只能说：衷心祝贺你的伟大发现。”同年5月，他还给自己的手做了X光照片检查。开尔文对实用航空的可能性一直持有否定态度。1896年，他拒绝了加入航空科学学会的邀请，说：“对于热气球以外的航空，我还没有像最小‘微粒’那么大的一丁点信心，或者去期待我们听说的试验会有什么好的结果。”在1902年的一次报社访谈中，他说：“热气球和飞机将永远不会在实用层面上成功。”1907年开尔文去世，自然不知道他当年说的“永远”并不永远。开尔文是个虔诚的基督教徒，他认为宗教信仰是对他科学研究的动力和支持。从这一观念出发，他在耳顺之年后花了不少时间和精力去研究地球的年龄并与地质学家和生物学家长期争论。他认為引力收缩是天体的唯一能源，假如没有其他热源的话，地球从初始液态演化到今天这种状态的时间不会超过一亿年。然而，他去世后出现的放射性碳测年法彻底推翻了他的估算。1898年，开尔文通过计算预测地球上只剩下四百多年的氧气供应了，颇为悲观。当然，那个时代人们尚未清楚光合作用和氧循环机理，后人不必去责怪他。1896年，在格拉斯哥大学庆贺他从教50周年的座谈会上，开尔文致辞说：“如果要用一个词来代表我55年来坚持不懈地为科学发展所做出最艰难的努力，这个词就是‘失败’。今天我对电磁力或以太、对电与未知物之间的关系，以及对化学亲和性的了解，并不比我50年前第一次担任教授时尝试向我的自然科学专业学生传授的知识更多……伤感的部分原因是失败带来的。但是，在追求科学的过程中我们本来就需要付出努力。这会使科学家乐在其中而免于陷入完全的悲哀，甚至会令他在日常工作中感到颇为愉快。”
+
 
 ### 有趣
 
