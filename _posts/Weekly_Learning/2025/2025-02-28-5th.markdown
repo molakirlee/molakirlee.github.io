@@ -1,0 +1,38 @@
+---
+layout:     post
+title:      "2025-每周补脑5th"
+subtitle:   ""
+date:       2025-02-28 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2025
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 博客的目标读者，其实不是互联网人群，而是未来的你，你的文章会让你看到自己思想的演变。写博客有点像街头摄影。你手拿相机，漫步在城市中。你看到一个场景----一个充满光、影、人性的瞬间，就拍下了它。没人关心你拍到了什么。但这不是你摄影的原因，你摄影是因为你看到了一些东西。写博客也一样。你写博客是因为你在思考，因为你在观察，因为你希望把它放在某个地方。 -- [Andy's Blog](https://andysblog.uk/)
+1. 一般来说，系统设计是决定软件工程师Offer级别的，而相反，对于Coding/编程能力，各个级别是要求差不多的，甚至可以说，高一点的级别对于编码能力会稍微的低一些。级别高的软件工程师需要有更强的设计能力，更需要掌握大方向（Big Picture）. -- [小赖子](https://justyy.com/archives/68019)
+1.  "We don't always need to tackle the deepest and most challenging mysteries of the universe; sometimes we can just relax and use the power of physics to explain everyday life—it's really funny!""我们并不总是需要解决宇宙最深奥和最具挑战性的奥秘；有时我们只需放松，利用物理学的力量来解释日常生活——这真的很有趣！" -- [Anxo Biasi,A physicist and his cat 'reveal' the equation of cat motion](https://phys.org/news/2024-10-physicist-cat-reveal-equation-motion.html)
+
+### 观点
+
+
+
+### 有趣
+1. [游戏：3D的谷歌在线做陶器](https://artsandculture.google.com/experiment/3d-pottery/nwHg1D0riJ1ltA)
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)

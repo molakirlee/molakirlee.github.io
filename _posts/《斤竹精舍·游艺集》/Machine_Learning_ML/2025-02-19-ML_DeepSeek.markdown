@@ -14,6 +14,8 @@ tags:
 
 
 ---
+### 本地部署deepseek模型
+1. [本地部署deepseek模型保姆级教程](https://blog.lovefc.cn/archives/start.html)
 
 ### 什么是大模型--[DeepSeek究竟创新了什么？](https://mp.weixin.qq.com/s/UhEgCIwRxCwucnFUDbWO2g)
 1. 在人工智能领域，大模型是指基于深度学习框架构建的、拥有海量参数并在大规模数据上进行预训练的深度学习模型。具有参数规模庞大、泛化能力强大、多模态处理能力等特点。

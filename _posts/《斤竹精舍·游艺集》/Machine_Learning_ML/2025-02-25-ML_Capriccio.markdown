@@ -21,7 +21,8 @@ tags:
 1. 单纯的数据训练得到的是玄学家，局部数据训练得到的是相对可靠的经验师傅，带有思考的训练可能得到科学家。
 1. 人们日常发现的所谓规律本质上与算卦没区别，只是前者模型相对简单可靠而后者追求更大范围的泛化。
 1. 机器学习模型的内在变量层次是不确定的，可能是基于宏观观测量，也可能是基于微观量，这增加了训练的复杂性和难度，但也为产生更好的机理模型提供了可能。
-
+1. Although the current trend appears to be to explore the use of ML-based schemes for optimization and control, a more appealing use of AI can be to design, deploy and maintain MPC, RTO and other applications. The premise for using more complex ML algorithms is often stated as the strong nonlinearity in the process. In an industry which is designed and operated on “first principles”, it makes little sense to adopt a complete black box approach to modeling, control and optimization. Instead, AI and ML can be used for higher level complex tasks which are often impacted by a skills shortage in industry. For example, in future an MPC application be designed and deployed much faster by an MPC engineer working with a Generative AI assistant which has been trained on previous domain knowledge. The deployed application could then be maintained better by using a meta-RL approach which will look at a higher-level learning objective instead of trying to reinvent the control paradigm itself. -- [Machine learning & conventional approaches to process control & optimization: Industrial applications & perspectives](https://www.sciencedirect.com/science/article/pii/S0098135424002072)
+1. 机器学习能否得到全局最优解（靠的是足够多的数据量），设计阶段是否事何使用机器学习是个问题。因为机器学习需要有充足的训练数据，但如果已经有充足的实验数据，设计雏形就已经出来了，机器学习变成了马后炮，所以机器学习更适合后期控制优化。如果想用于设计阶段，则模型要有思考的能力，可考虑训练一个专家模型。构建一个能思考的专家模型对于实际工业应用和多专家耦合的大模型都具有重要意义。
 
 
 ![](/img/wc-tail.GIF)
