@@ -15,7 +15,7 @@ tags:
 
 ---
 
-###### 实例：[乙烯氧化反应器系统设计](https://molakirlee.github.io/_posts/《斤竹精舍·游艺集》/!Engineering/Ethylene_Oxide_Reactor_System/Ethylene_Oxide_Reactor_System.html)
+###### 实例：[乙烯氧化反应器系统设计](https://molakirlee.github.io/attachment/Ethylene_Oxide_Reactor_System/Ethylene_Oxide_Reactor_System.html)
 
 ###### 压力
 1. 聚酯缩聚冷凝器热阱/真空液封罐：破真空时液封，冷凝器液体通过泵回流喷淋，喷淋塔内为负压，如果没有热阱，泵需要抵消喷淋塔的负压，功率大。
