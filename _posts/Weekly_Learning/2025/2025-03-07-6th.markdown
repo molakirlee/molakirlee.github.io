@@ -1,0 +1,50 @@
+---
+layout:     post
+title:      "2025-每周补脑6th"
+subtitle:   ""
+date:       2025-03-07 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2025
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 如果你需要影响高管，而他们的经历可能与你的现实生活脱节，请通过故事、视频和数据帮助他们看到现实。请记住，他们确实生活在另一个世界。这并不一定会使他们变得邪恶，只是脱节了。我不想发生"脱节"，但必须承认这种情况确实会随着时间的推移而发生。 -- [亚马逊前副总裁Ethan Evans](https://x.com/EthanEvansVP/status/1895845734177452369)
+1. 在开始一个项目时，一定程度的天真是必不可少的。如果我知道这条路有多难，我可能永远不会开始。但由于我完全不了解未来的挑战，所以我只是一头扎进去，一路摸索。 -- [《猫猫的奇幻漂流》导演Gints Zilbalodis](https://www.blender.org/user-stories/making-flow-an-interview-with-director-gints-zilbalodis/)
+1. 你编写的每一行代码都可能是一个潜在的 bug。除非你绝对需要这行代码，缺了它程序就会受影响，否则就不要写。不要编写你用不到的抽象层。如果优化会增加任何复杂性，就坚决不要优化。 -- [Every Line Is a Potential Bug](https://www.teamten.com/lawrence/writings/every_line_is_a_potential_bug.html)
+1. 与 AI 交谈不像在与一个人交谈，而像在与人类的集体思维交谈。AI 不应该让你减少思考，而应该帮助你增加思考，AI 是你的杠杆，可以让你拓展自己。 -- [Alex Komoroske](https://docs.google.com/document/u/0/d/1GrEFrdF_IzRVXbGH1lG0aQMlvsB71XihPPqQN-ONTuo/mobilebasic)
+1. 10个人开会，可以没有主持人。100个人开会，必须有主持人。1000个人开会，需要一个组委会。扩大10倍，需要将知识/资源推向极限，但是扩大100倍，需要跳出现有的维度，重新安排一切。 -- [Your Next Two Zeroes](https://taylor.town/next-two-zeroes)
+1. 与上一条同理，技术和知识亦然，复杂之后变成系统，你需要一个中枢。 -- Xilock
+1. Every two zeroes, your best-kept secrets-to-success become your stinkiest instincts. To move forward, forsake your favorite skills/tools/methods/talents. Exceed yourself; become a novice again, again and again. -- [Your Next Two Zeroes](https://taylor.town/next-two-zeroes)
+1. 训练、培养你的积木化急能，同时注重系统技能的培养，在风口来临时能够及时拼装应对。 -- 读完Frank谈论技术风口
+
+
+### 观点
+###### Frank谈论技术风口
+1. 每隔一段时间，媒体就会大肆炒作一种新技术，宣扬它将对人类产生巨大影响，全社会都在关注，人人都在谈论。1998-2001 年：互联网 WWW;1999-2006 年：Java;2004-2007 年：Web 2.0;2007-2010：云计算;2010-2015：社交媒体;2012-2015：物联网;2013-2015：大数据;2017-2021：区块链;2021 年至今：人工智能.
+1. 上面列表的每一种新技术，确实都是大的突破，改变了技术方向，没有一个是虚的。如果再加上智能手机、短视频、加密货币，可能就把最近三十年大的技术"风口"都包括了。
+1. 一种新技术能够带来大规模、长时间的炒作，有一个前提条件，那就是它有真东西，确实能对社会经济带来非常有感的变化。
+1. 每一次技术炒作，不仅是音浪，更是机会，会带来空前的关注、疯狂涌入的资金、以及切切实实的需求。炒作规模越大、程度越厉害，带来的机会和资金也就越大。每一次大规模的技术炒作，都会诞生一些快速增长的指标公司，创造巨大的财富效应。如果你正好身在其中，事业和财富都会随之起飞。
+1. 让我们现实一点，一个工程师最有技术生产力、创造力、事业起飞的时间窗口，就只有那么几年。如果个人事业要快速起来、为未来铺好道路，光有技术还不够，还必须赶上至少一个大的技术风口，用外部的资金和需求放大个人努力。否则，单靠自己的成果积累，就太慢了，很难快速到达更高的层次，很可能辛辛苦苦干了二十年，还是在做一些基础的事情。如果出现技术升级，使得你的技能过时了，后面的路就难了。技术风口其实是实现个人阶层飞跃、人生翻转的最可行的路径。所以，每一轮大的技术风口并不完全是一哄而上的炒作，里面包含了一些真正的机会，值得关注和跟上。这也是为什么周刊每一次都对新技术倍加关注、积极评价的原因。当然，赶上技术风口的前提，还是要有真才实学，能做出实打实的产品。否则，真遇到风口，你也无法脱颖而出，拿到技术炒作的红利。
+
+
+
+### 有趣
+1. [游戏：3D的谷歌在线做陶器](https://artsandculture.google.com/experiment/3d-pottery/nwHg1D0riJ1ltA)
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)
