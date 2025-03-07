@@ -100,7 +100,7 @@ Many companies produce ethylene oxide (EO), an important commodity chemical. A s
 
 Figure 1: Worldwide Ethylene Oxide Uses
 
-![](molakirlee.github.io/attachment/Ethylene_Oxide_Reactor_System/images/image1.gif)
+![](/attachment/Ethylene_Oxide_Reactor_System/images/image1.gif)
 
 The Gulf Coast area is an ideal location for a new ethylene oxide plant. This is an area of continuous growth for the chemical and petrochemical industries. Since there are many chemical industries producing necessary chemical feedstock for ethylene oxide production, choosing this location for the future plant will allow for easy availability and transport of feed. The current available pipelines in the south allow for easy accessibility of chemicals. This area is also ideal for the ethylene oxide sales and distribution. Many companies in this area use ethylene oxide to produce other chemicals. Since the plant will be available for the surrounding companies, the outlook projection for the ethylene oxide business is high. If shipment of the product is necessary, the many waterways in the area allow for easy transportation to domestic and international businesses.
 
@@ -116,11 +116,11 @@ Lefort was the first to synthesize ethylene oxide through the direct oxidation o
 
 Ethylene Oxide Synthesis
 
-![](molakirlee.github.io/attachment/Ethylene_Oxide_Reactor_System/images/image2.gif)
+![](/attachment/Ethylene_Oxide_Reactor_System/images/image2.gif)
 
 Ethylene Combustion
 
-![](molakirlee.github.io/attachment/Ethylene_Oxide_Reactor_System/images/image3.gif)
+![](/attachment/Ethylene_Oxide_Reactor_System/images/image3.gif)
 
 The reactions above govern the direct vapor-phase oxidation of ethylene to ethylene oxide over a silver catalyst. The main byproducts of the reactions are carbon dioxide and water. Two other side reactions also occur in the reactor, which are the isomerization of acetaldehyde and production of formaldehyde. This initial proposal does not account for the amounts of these two products, typically less than 0.1% acetaldehyde and even less formaldehyde in the total amount of reaction products (12). This design process uses the direct oxidation process to synthesize ethylene oxide.
 
@@ -158,9 +158,9 @@ In jEO’s design, the absorption system and CO2 Removal section is included wit
 
 The simplified and detailed design can be seen in the Figures 2 and 3 on the following pages. Additionally, the detailed process information can be found in the Appendix. It contains all stream data and information for a typical reactor.
 
-![](molakirlee.github.io/attachment/Ethylene_Oxide_Reactor_System/images/image8.gif)
+![](/attachment/Ethylene_Oxide_Reactor_System/images/image8.gif)
 
-**![](molakirlee.github.io/attachment/Ethylene_Oxide_Reactor_System/images/image9.gif)**
+**![](/attachment/Ethylene_Oxide_Reactor_System/images/image9.gif)**
 
 * * *
 
@@ -355,7 +355,7 @@ Table 12 lists the various costs of purchasing, installing, and operating the pl
 
 Table 12: Total Cost Analysis
 
-![](molakirlee.github.io/attachment/Ethylene_Oxide_Reactor_System/images/image4.gif)
+![](/attachment/Ethylene_Oxide_Reactor_System/images/image4.gif)
 
 Table 13 lists the annual cash flows of the proposed design process. The projected construction period is 2 years, with a discount factor of 15%. With an operating life of 15 years and an operating year of 8000 hours, the necessary labor is calculated (14). The cash flow accounts for the 1% inflation rate of the price of ethylene oxide versus the 3% inflation rate of the reactants (6). As expected, the discounted cash flow value decreases steadily each year (see Figure 4). In addition to the expense of the reactants, the other costs of manufacturing, such as labor, operation overhead, utilities, and maintenance, are also subtracted from the annual sales revenue to arrive at the annual cash flow value. There is a profit of almost $48 million in the third year (see Table 13). This profit continues to grow to over $350 million in the last operating year. The final cumulative discounted cash flow continues to grow beyond $350 million in the last year (see Figure 5).
 
@@ -363,15 +363,15 @@ Table 13 lists the annual cash flows of the proposed design process. The project
 
 Table 13: Annual Cash Flows
 
-![](molakirlee.github.io/attachment/Ethylene_Oxide_Reactor_System/images/image5.gif)
+![](/attachment/Ethylene_Oxide_Reactor_System/images/image5.gif)
 
 Figure 4
 
-![](molakirlee.github.io/attachment/Ethylene_Oxide_Reactor_System/images/image6.gif)
+![](/attachment/Ethylene_Oxide_Reactor_System/images/image6.gif)
 
 Figure 5
 
-![](molakirlee.github.io/attachment/Ethylene_Oxide_Reactor_System/images/image7.gif)
+![](/attachment/Ethylene_Oxide_Reactor_System/images/image7.gif)
 
 * * *
 
