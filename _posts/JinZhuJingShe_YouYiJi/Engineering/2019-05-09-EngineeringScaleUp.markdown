@@ -9,14 +9,13 @@ header-mask: 0.3
 catalog:    true
 tags:
     - 《斤竹精舍·游艺集》
-    - Experiment
+    - Engineering
     - 2019
 
 
 ---
 
-###### 实例：[乙烯氧化反应器系统设计](https://molakirlee.github.io/A_posts/JinZhuJingShe_YouYiJi/Engineering/Ethylene_Oxide_Reactor_System/Ethylene_Oxide_Reactor_System.html)
-
+###### 实例：[乙烯氧化反应器系统设计](https://molakirlee.github.io/attachment/Engineering//Ethylene_Oxide_Reactor_System/Ethylene_Oxide_Reactor_System.html)
 
 ###### 压力
 1. 聚酯缩聚冷凝器热阱/真空液封罐：破真空时液封，冷凝器液体通过泵回流喷淋，喷淋塔内为负压，如果没有热阱，泵需要抵消喷淋塔的负压，功率大。
