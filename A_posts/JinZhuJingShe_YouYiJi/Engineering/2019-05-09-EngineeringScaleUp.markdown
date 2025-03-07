@@ -15,7 +15,7 @@ tags:
 
 ---
 
-###### 实例：[乙烯氧化反应器系统设计](https://molakirlee.github.io/!Engineering/Ethylene_Oxide_Reactor_System/Ethylene_Oxide_Reactor_System.html)
+###### 实例：[乙烯氧化反应器系统设计](https://molakirlee.github.io/A_posts/JinZhuJingShe_YouYiJi/Engineering/Ethylene_Oxide_Reactor_System/Ethylene_Oxide_Reactor_System.html)
 
 
 ###### 压力
