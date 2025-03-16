@@ -1,0 +1,34 @@
+---
+layout:     post
+title:      "ML Process System Engineering (PSE)"
+subtitle:   ""
+date:       2025-03-15 23:50:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Machine_Learning 
+    - PSE
+    - 2025
+
+
+---
+
+### History
+1. Amundson: Differential Algebraic Equation (DAE)
+1. Sargent: Optimization (MLP, MINLP)
+1. Westeberg, Stephanopoulos, and others (Artifical Intelligence)
+
+### Challange and oppotunities
+1. hybrid AI model: First principle Data driven model
+1. Causal model 
+1. Discovery Engines: Domain-specific ontologies, languages, compilers
+1. How to combine symbolic AI with numeric AI
+
+
+参考资料:[Venkat Venkatasubramanian:Artificial Intelligence in Chemical Engineering: Past, Present, and Future](https://www.youtube.com/watch?v=H3xX4fz35Zc)
+
+
+![](/img/wc-tail.GIF)

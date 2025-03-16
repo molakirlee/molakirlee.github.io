@@ -21,6 +21,10 @@ tags:
 ###### AI工具集
 1. [Askaitools](https://askaitools.ai/)
 
+###### API
+1. [QwQ 32B: xilock](https://qwq.aigpu.cn/#api)
+1. [翻译：TransBridge](https://github.com/fruitbars/transbridge?tab=readme-ov-file)
+
 ###### chatGPT
 1. [DeepSeek](https://www.deepseek.com/)
 1. [Duckduckgo](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1)

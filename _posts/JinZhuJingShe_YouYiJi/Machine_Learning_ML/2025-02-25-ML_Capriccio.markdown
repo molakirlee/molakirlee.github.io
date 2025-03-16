@@ -24,5 +24,9 @@ tags:
 1. Although the current trend appears to be to explore the use of ML-based schemes for optimization and control, a more appealing use of AI can be to design, deploy and maintain MPC, RTO and other applications. The premise for using more complex ML algorithms is often stated as the strong nonlinearity in the process. In an industry which is designed and operated on “first principles”, it makes little sense to adopt a complete black box approach to modeling, control and optimization. Instead, AI and ML can be used for higher level complex tasks which are often impacted by a skills shortage in industry. For example, in future an MPC application be designed and deployed much faster by an MPC engineer working with a Generative AI assistant which has been trained on previous domain knowledge. The deployed application could then be maintained better by using a meta-RL approach which will look at a higher-level learning objective instead of trying to reinvent the control paradigm itself. -- [Machine learning & conventional approaches to process control & optimization: Industrial applications & perspectives](https://www.sciencedirect.com/science/article/pii/S0098135424002072)
 1. 机器学习能否得到全局最优解（靠的是足够多的数据量），设计阶段是否事何使用机器学习是个问题。因为机器学习需要有充足的训练数据，但如果已经有充足的实验数据，设计雏形就已经出来了，机器学习变成了马后炮，所以机器学习更适合后期控制优化。如果想用于设计阶段，则模型要有思考的能力，可考虑训练一个专家模型。构建一个能思考的专家模型对于实际工业应用和多专家耦合的大模型都具有重要意义。
 1. 人类也在不断学习，所谓站在巨人的肩膀上，那又为什么要求机器把所有的规则都从0开始自己学习探索呢？可以向其传输一些规则，让其像现在的人类一样在一定的基础上学习和发现。当然也不要放弃让机器从0学习的路线，或许会发现另一套规律。
+1. AI只是学的快且不会累，但并非一开始就会，这与蒸汽机一样只是提高生产力。其思考力才是最大差异。
+1. AI只是学习能力、执行能力强，本质上有些像你身边的天才，与人类的关系本质上就是教会徒弟，但会不会饿死师傅？
+1. 专业知识领域的人员不要去跟做计算机的人抢饭碗，以避之短与人之长争，要利用好你的专业知识，将AI驯化到你的领域。
+
 
 ![](/img/wc-tail.GIF)

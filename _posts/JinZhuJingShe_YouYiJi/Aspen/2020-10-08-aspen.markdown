@@ -15,32 +15,38 @@ tags:
 
 ---
 
+### 经验
 
-### 前言
+###### 资料
+1. [Thermodynamics University Modules](https://esupport.aspentech.com/s_article?id=141651)
+1. [aspentechsupport:EOS](site:aspentechsupport.blob.core.windows.net AND EOS)
+
+###### 前言
 1. Aspen puls很大程度上是为稳态过程计算而非动态过程计算所设计的。
 1. 绝热节流膨胀（Joule-Thomson定律，Adiabatic flash）。
-1. 模拟前在Setup里设置标题、温度、压力的单位，这是好习惯。
-1. 一致性检验只可以对PTxy数据进行，TPz、PTx不行。
-1. 高压状态下的汽液平衡数据不做一致性检验，因为一致性检验需要假设汽相为理想气体。
-1. 思考为什么无限稀释活度系数随温度上升而降低。
-1. Le Chatelier and Braun原理。
-1. 固相在component里的type为solid而非默认的conventional。
 
-### 注意
-1. 利用自定义表格可直接在窗口修改参数，不用进入具体流股或设备。
-1. 流股中可设置固体的粒径分布、聚合物的组分属性。
+###### 模拟前的习惯
+1. 模拟前在Setup里设置标题、温度、压力的单位，这是好习惯。
+1. help里有troubleshooting
+1. File-Option-flowsheet里可以定义显示流股的哪些信息
 1. simulation的setup里可以修改input mode(稳态或动态)、stream class（适用于固体）、valid phase（汽-液或汽-液-液）
 1. 利用break/joint/insert打断、连接流股
-1. File-Option-flowsheet里可以定义显示流股的哪些信息
+1. 利用自定义表格可直接在窗口修改参数，不用进入具体流股或设备。
 1. 数据库p40
-1. compound里的SFE Assistant可用来设置固体-流体平衡的化学反应
-1. help里有troubleshooting
-1. 注意游离水的处理方法（Free-water method）
-1. 默认条件下，板式塔和填料塔的计算结果不会对塔的分离效果产生影响，这些计算都是额外的。
-1. 能用状态方程尽可能用状态方程
-1. 先采用序贯模块法（SM）得到初始解，再用联立方程法（EO）得到精确解
+
+
+###### 灵敏度分析
 1. sensitivity分析时不要用fraction，直接用流量flow
 
+
+###### EO联立方程法
+1. 先采用序贯模块法（SM）得到初始解，再用联立方程法（EO）得到精确解
+
+
+###### 爆炸如何模拟？
+以考察超压的温度为例：
+1. 动态；
+2. 恒定压力、体积流率下找对应温度即为限制点。
 
 ### 问题
 1. ssplit的使用？cyclone?
@@ -50,6 +56,20 @@ tags:
 1. ASW?
 1. 自定义单元操作模型？？？
 1. 通过自动化与其他应用程序集成
+1. polyNRTL的HL用的是Method 2不是4？
+1. 气相溶于溶剂中后焓按照液相计算还是按照气相？
+1. 思考为什么无限稀释活度系数随温度上升而降低。（温度升高时，分子热运动加剧，溶质与溶剂间的局部有序结构（如瞬时偶极作用）被破坏，分子排列更随机，溶液偏离理想行为的程度减小。）
+1. Le Chatelier and Braun原理：Any inhomogeneity (fluctuation) that develops in a system should induce a process that tends to eradicate this inhomogeneity.
+
+### Error解决
+###### FLASH RESULTS ARE WITHIN TOLERANCE, BUT MAY BE UNSATISFACTORY BECAUSE EXTRAPOLATED EOS VAPOR VOLUME ROOT WAS USED FOR PROPERTY CALCULATIONS.
+
+In Aspen Plus, this appears while a block is being executed; look for the most recent Block: line in the Control Panel output to determine which one. A line of the message which follows the above may indicate where in the block the error occurred, such as "problem occurred while flashing outlet stream". The error may also appear in report pass calculations, in which case the first line will indicate what was being calculated.
+
+1. Cause：In determining the phases for flash calculations using an equation of state, the Aspen Physical Property System calculates properties for the system in both vapor and liquid phases by solving an equation. In some cases, the equation has no solution (root) for a particular phase, and a pseudo-root is calculated based on pressure and the derivative of pressure with respect to volume. This pseudo-root represents an estimate of the properties for the phase which could not be solved. The fugacities of the phases are determined from these roots and the pseudo-root if applicable, and from these, K-values are computed, which are used to determine the phases. It is possible that the K-values indicate the presence of a phase which did not have a real root in the equation of state. When this happens, the error is issued to indicate that the results might not be valid. One of the causes for the lack of a root is when the system is beyond the critical point, where there are not separate vapor and liquid phases but only a single fluid phase. This leads to only one root, which the model assigns to a particular phase, resulting in the other phase getting a pseudo-root.
+
+1. Solution：Check parameters for the components and property models used in the system, especially any parameters which you entered or estimated, or for which there is no value and default values are being used. Also consider using a different property model better suited for the system in question. If the system is beyond the critical point over the entire range of calculations performed in some block or analysis, consider setting its Valid Phases to a single phase. The message indicates which phase is being extrapolated (vapor in the example); choose the other phase. If you have reviewed the results and you are comfortable with the calculated properties despite the use of a pseudo-root, you can reduce the severity of this message or disable it completely by setting the Flash extrapolated root error level on the Setup | Calculation Options | Flash Convergence sheet. But be aware that this applies to all flash calculations in the model.
+
 
 
 
