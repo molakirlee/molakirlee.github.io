@@ -5,6 +5,13 @@ var quotes = [
 '解决问题上，实现借力与自学的平衡。 -- Xilock',
 '避免自相关 Auto correlation. -- Xilock',
 '人的优越性在于使用工具，利用好工具而又不被工具控制。 -- Xilock',
+'万物一剑，专注道心。',
+'日拱一卒，功不唐娟。',
+'心念一闪，震动十方',
+'才情高超,清越脱俗. -- 谪仙',
+'The key to success is to focus on goals,not obstacles.成功的关键是专注于目标，而非障碍。',
+'It\'s not what happens to you,but how you react to it that matters.重要的不是发生在你身上的事，而是你如何反应。',
+'Do what you can with all you have,wherever you are.在你能做的地方，尽你所能。',
 '生存还是毁灭,这是一个值得思考的问题. -- 《哈姆雷特》',
 '善良人在追求中纵然迷惘,却终将意识到有一条正途. -- 《浮士德》',
 '认识自己的无知是认识世界的最可靠的方法. -- 《随笔集》',
@@ -1663,10 +1670,7 @@ var quotes = [
 '有备则制人，无备则制于人。 -- 《盐铁论·险固》',
 '茂林之下无丰草，大块之间无美苗。 -- 《盐铁论·通有》',
 'Care and diligence bring luck.谨值和勘奋，带来好运气。',
-'万物一剑，专注道心。',
-'日拱一卒，功不唐娟。',
-'心念一闪，震动十方',
-'才情高超,清越脱俗. -- 谪仙'
+'True success inspires others to act.真正的成功激励他人行动。'
 ]
 
 var randomNumber1 = Math.floor(Math.random()*(quotes.length));//用Math.random产生0-1的随机数,乘以quotes的个数以获取quotes的随机序号;用Math.floor来取整后返回给变量randomNumber1
