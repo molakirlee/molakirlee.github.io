@@ -9,6 +9,7 @@ var quotes = [
 '日拱一卒，功不唐娟。',
 '心念一闪，震动十方',
 '才情高超,清越脱俗. -- 谪仙',
+'着眼大局，勇敢下手，人生只活一次，为什么不尽兴呢？不要给自己遗憾的机会。生命更重要的是过程，于你而言是体验，于外界/他人而言是制造信息，离开之后，你留下的信息于你有何意义？只是可能继续对之前的环境产生影响罢了。',
 'The key to success is to focus on goals,not obstacles.成功的关键是专注于目标，而非障碍。',
 'It\'s not what happens to you,but how you react to it that matters.重要的不是发生在你身上的事，而是你如何反应。',
 'Do what you can with all you have,wherever you are.在你能做的地方，尽你所能。',
@@ -1670,7 +1671,8 @@ var quotes = [
 '有备则制人，无备则制于人。 -- 《盐铁论·险固》',
 '茂林之下无丰草，大块之间无美苗。 -- 《盐铁论·通有》',
 'Care and diligence bring luck.谨值和勘奋，带来好运气。',
-'True success inspires others to act.真正的成功激励他人行动。'
+'True success inspires others to act.真正的成功激励他人行动。',
+'Don\'t limit your challenges.Challenge your limits.不要限制你的挑战，挑战你的极限。'
 ]
 
 var randomNumber1 = Math.floor(Math.random()*(quotes.length));//用Math.random产生0-1的随机数,乘以quotes的个数以获取quotes的随机序号;用Math.floor来取整后返回给变量randomNumber1
