@@ -117,6 +117,7 @@ tags:
 1. [MobaXterm:Enhanced terminal](https://mobaxterm.mobatek.net/)
 1. [Office Tool 官方网站 - 管理、下载、安装 Office](https://otp.landian.vip/zh-cn/)
 1. [捕风记录仪:根据OCR文本、或对画面的描述进行搜索，摘要浏览活动](https://github.com/yuka-friends/Windrecorder)
+1. [rust-stakeholder:摸鱼用屏幕伪输出](https://github.com/giacomo-b/rust-stakeholder)
 
 
 ### CS
@@ -141,6 +142,7 @@ tags:
 1. [ToDesk](https://www.todesk.com/download.html)
 
 ###### 会议软件
+1. [EchoShare:在线媒体共享应用，可同时传输屏幕画面、摄像头视频流、麦克风音频流以及系统音频](https://github.com/echoshare/echoshare?tab=readme-ov-file)
 1. [brie.fi](https://brie.fi/ng)：分享连接即可浏览器视频
 1. [Screensharing](https://screensharing.net/)：浏览器分享屏幕软件
 

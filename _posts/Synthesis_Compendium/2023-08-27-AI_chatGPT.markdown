@@ -113,6 +113,7 @@ tags:
 
 
 ### 软件开发
+1. [We0:Create AI-powered applications including Vue, React, Next.js, Python, Java, and WeChat Mini Programs](https://we0.ai/en)
 1. [DevOpsGPT: AI开发软件](https://github.com/kuafuai/DevOpsGPT?tab=readme-ov-file)
 1. [Cloudflare Workers AI:搭建AI聊天、AI翻译、AI绘画平台](https://github.com/Jazee6/cloudflare-ai-web?tab=readme-ov-file)
 
