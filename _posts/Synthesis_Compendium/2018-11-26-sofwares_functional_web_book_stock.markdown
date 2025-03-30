@@ -54,6 +54,7 @@ tags:
 1. [蔻享直播](https://www.koushare.com/lives/liveHome)
 
 ###### 论文
+1. [PDF翻译：DeepPDF](https://deeppdf.ai/pdf-translator)
 1. [pubsure:Optimize Your Research Manuscript Before Journal Submission To Avoid Desk Rejection](https://pubsure.researcher.life/)
 1. [QuillBot：英文润色](https://quillbot.com/)
 1. [Deepl：翻译](https://www.deepl.com/translator)

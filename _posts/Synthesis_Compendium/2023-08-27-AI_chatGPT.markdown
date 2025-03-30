@@ -100,6 +100,7 @@ tags:
 
 ###### 文生视频
 1. [luna AI video](https://lunaai.video/)
+1. [AI数字人：AigcPanel](https://github.com/modstart-lib/aigcpanel)
 
 ###### 视频
 1. [实时换脸和视频深伪Deep Live Cam](https://deeplive.cam/zh)
