@@ -41,9 +41,12 @@ tags:
 1. 旁观的时候每个人都是智者。
 1. 一个人心中毫无所爱的时候，可以满足于虚荣，但一旦有了爱情，虚荣就变得庸俗不堪。 -- 《茶花女》
 1. 大家都愿意盲从，好像世界上最安全的事就是让自己消失在“多数”之中。
-1. 
-1. 
-
+1. 野马结局:非洲草原上的野马，经常被吸血蝙蝠攻击，进而死去。 可是，动物学家研究，吸血蝙蝠吸的血量极少，不足以使野马死去。 野马的死因是它的暴怒和狂奔，即野马是被“气死的”
+1. 海格立斯效应:通俗来讲“以其人之道还治其人之身”，“你跟我过不去，我也让你不痛快”。它这是指一对一的人际互动。这是一种人际间或群体间存在的怨怨相报、致使仇恨越来越深的社会心理效应。海格立斯效应会使人陷入无休无止的烦恼之中，错过人生中许多美丽的风景，再没有真正的快乐，再没有新的进步。
+1. 如果不磨练自己的心境，被人说一两句话就吃不好睡不好，那你的人生只有被控制的份。过度敏感是弱者的表现。
+1. You don’t know what you’ve got until it’s gone. You often need the absense of something to fully understand and evaluate it. Our natural state is to take things for granted. The practice of fasting, intentionally doing without something on a regular basis makes a lot of sense to me. I’m not religious, but I do find the idea of being forced to avoid technology for a day each week, or otherwise going without some simple luxury on some regular basis, compelling. -- [Learning From Loss](https://andrewchilds.com/posts/learning-from-loss)
+1. Net Promoter Score. NPS, asks “how likely are you to recommend us to a friend or colleague”. Despite its limitations, NPS is the dominant survey prompt. But there’s nothing like losing something that clarifies the value someone is getting from something (or someone), until they are gone. -- [Learning From Loss](https://andrewchilds.com/posts/learning-from-loss)
+1. This is the thing where models “think” about a problem before answering. It’s a spinoff of the “Think step by step” trick from a few years ago, only now it’s baked into the models. It’s very effective, at least for certain classes of problems (generally code and math problems). -- [What’s new in the world of LLMs, for NICAR 2025](https://simonwillison.net/2025/Mar/8/nicar-llms/)
 
 
 ### 观点
@@ -62,7 +65,14 @@ tags:
 所以，如果你想重新发明轮子，一定要想清楚两点。第一，你有足够时间吗，尤其是涉及其他人的情况下。第二，重新发明的范围（或者说，你不打算重新发明什么），以免不必要地偏离主题。
 
 
+###### 找到自己的“那口饭”
+找自己的命中之事，作自己有稀缺价值的事最能挣钱。若你实力到位，自然有人愿意替你说话。在没摸清自己核心竞争力前，什么都尝试着做一做，包括融入同事圈子等，当你持续深耕专业找到自己的支点，有的事就可以不做了，可以靠超强的业务能力获得尊重和晋升，也可以通过整合资源、左右逢源的能力向上爬。重点在于：你必须成为“吃这口饭”的人。人深入了解自己后会非常懂得什么人会顺自己的运，什么人会逆自己的运，什么样的事滋养自己，什么样的事消耗自己，整个人会变得果决很多、淡定很多，能量很集中，气血很足。欲望强又很焦躁容易变得很疲惫，有运气也把握不住。人如果没有找到自己all in的方向，一定要放松一点，紧张兮兮病急乱投医的时候事业运、财运、桃花运、贵人运均无，选对了方向的人也很努力，但大多数事红光满面。
+
+
+
 ### 有趣
+
+1. [Building a (T1D) Smartwatch from Scratch](https://andrewchilds.com/posts/building-a-t1d-smartwatch-from-scratch)：作者给其儿子DIY了一个血糖监测智能手表
 
 
 

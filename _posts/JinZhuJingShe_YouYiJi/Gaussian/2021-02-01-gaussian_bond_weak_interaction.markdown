@@ -113,6 +113,13 @@ tags:
 1. M06-2X-D3(0)/def-TZVP，即`M062X/TZVP EmpiricalDispersion=GD3`，但其实B3LYP-D3(BJ)够了
 1. 对于氢键、卤键等静电主导的强度不很弱的作用，用了带弥散的3-Zeta级别的基组后，不做BSSE校正算出来的相互作用能也不错。
 
+
+###### pi-pi相互作用
+1. [谈谈pi-pi相互作用](http://sobereva.com/737)
+1. [Pi-stacking](https://en.wikipedia.org/wiki/Pi-stacking#:~:text=Likewise%2C%20pi%2Dteeing%20interactions%20in,partially%20negatively%20charged%20carbon%20atoms.)
+1. [Do Special Noncovalent π–π Stacking Interactions Really Exist?](https://onlinelibrary.wiley.com/doi/10.1002/anie.200705157)
+
+
 ###### 其它弱相互作用资料
 1. [谈谈“计算时是否需要加DFT-D3色散校正？”](http://sobereva.com/413)  
 1. [DFT-D色散校正的使用](http://sobereva.com/210)  
