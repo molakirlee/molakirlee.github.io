@@ -47,6 +47,10 @@ Hey，我是**神探玺洛克**。
 1. [陈皓的博客 CoolShell](https://coolshell.cn/)
 1. [Another Dayu](https://anotherdayu.com/)
 
+1. [编程随想](https://program-think.blogspot.com/)
+
+
+
 导航：
 1. [逍遥导航](https://nav.6rv.cn/#term-3)
 1. [TBOX导航](https://www.tboxn.com/#term-13)
