@@ -26,6 +26,7 @@ tags:
 1. [翻译：TransBridge](https://github.com/fruitbars/transbridge?tab=readme-ov-file)
 
 ###### chatGPT
+1. [AI模型聚合网站：qwq32](https://qwq32.com/)
 1. [DeepSeek](https://www.deepseek.com/)
 1. [Duckduckgo](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1)
 1. [免费在线体验ChatGPT 4o和Claude 3.5 Sonnet](https://chat100.ai/zh-CN)

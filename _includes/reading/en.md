@@ -36,4 +36,19 @@
 1. [English News In Level ](https://englishnewsinlevels.com/news/level-3)
 1. [Yanko Design](https://www.yankodesign.com/)
 
+### English
+1. [CNN International](https://edition.cnn.com/)
+1. [CNN 10](https://edition.cnn.com/cnn10)
+1. [TIME](https://time.com/)
+1. [CBC](https://www.cbc.ca/)
+1. [英国卫报](https://www.theguardian.com/uk)
+1. [MagazineLib](https://magazinelib.com/)
+1. [Noahpinion](https://noahpinion.substack.com/)
+1. [The independent](https://www.independent.co.uk/extras/indybest/gadgets-tech)
+1. [英文纪录片](https://ihavenotv.com/)
+
+1. [Vox: Understand the problems we face, potential solutions, and what you we do](https://www.vox.com/)
+
+1. [Lex Fridman Podcast](https://lexfridman.com/podcast/)
+
 ![](/img/qrcode_wechat.jpg)

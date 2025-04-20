@@ -45,6 +45,7 @@ tags:
 1. 能用状态方程尽可能用状态方程
 1. compound里的SFE Assistant可用来设置固体-流体平衡的化学反应
 1. 流股中可设置固体的粒径分布、聚合物的组分属性。
+1. 对于Pure Component Temperature Dependent Properties而言，“If  parameters are available for more than one equation, the Aspen Physical Property System uses the parameters that were entered or retrieved first from the databanks. ”即：同一参数可通过多种方法计算时，以手输入的和retrieved的优先，比如如果你NIST里save了计算密度的数据（DNLEXSAT，NIST TDE expansion，504），` THRSWT/2`即便设置成105也会用NIST的数据计算。可参见《Aspen Physical Property System - Physical Property Methods and Models》
 
 ###### 物性估算
 1. [物性估算在 ASPEN PLUS软件中的应用](https://molakirlee.github.io/attachment/aspen/aspen_property_estimation.PDF)

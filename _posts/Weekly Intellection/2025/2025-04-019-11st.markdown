@@ -1,0 +1,51 @@
+---
+layout:     post
+title:      "2025-每周补脑11st"
+subtitle:   ""
+date:       2025-04-19 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2025
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 黑客的学习方法是，开始玩某件东西，然后转头去读文档，继续玩这件东西，再次阅读文档，接着玩下去，再次阅读文档......不断重复，直到搞懂。 -- [黑客手册](https://web.archive.org/web/20160304012343/http://rdog.googlecode.com/hg/doc/hacker.txt)
+1. 我的编程风格是"面向痛苦的编程"。什么问题让我痛苦，我就去解决它，最痛苦的，最先解决，不痛苦的，就不去碰它。这种编程可以确保你始终在做重要的事情，从而极大地降低了风险。 -- [Suffering-oriented programming](http://nathanmarz.com/blog/suffering-oriented-programming.html)
+1. 当无数双熬红的眼睛在深夜盯着跳动的K线图时，真正的资本正在晨光中研读产业白皮书，这不是财富分配的游戏，而是认知维度的碾压。上市公司平均每份年报十几万字，而普通散货平均阅读时间不超过15分钟。 -- 《大时代》
+1. 真正应该抄底的从来就不是股票，俄日是那点可怜的知识。 -- 《大时代》
+1. 玩的不是股票，而是人性，比如贪婪。 -- 《大时代》
+1. 高手实在冲突中间力新的关系，因为冲突说明在牌桌上。开始享受冲突并从中提取养分成长，打磨自己，提升能力，立足根基。
+1. 能通便是法，能伴则是侣，能立方为地，能克方为财。 -- 《城中之城》
+1. 权力是什么？权力就是人事和财务，抓住了这两样东西，你就控制住了局面。有人的地方就有斗争，走到哪里都躲不开，如果学不会处理人际关系，就会永远受制于人。别人可能在某些方面不如你，但有些时候你又需要他，所以要和光同尘。 -- 《大江大河》
+1. 当人们缺失某种东西或能力时，常常会去诋毁它，甚至自欺欺人，一边垂涎一边唾弃，比如钱。所以何为大自由，何为小自由？
+
+
+### 观点
+###### [如何轻松掌握任何技能 全才方法](https://www.bilibili.com/video/BV14aRoYSENC/?spm_id_from=333.1007.tianma.1-2-2.click&vd_source=42d15d5f7bb7814555b23126c5a774fb)
+
+
+### 有趣
+###### 小智：智能机器人DIY
+1. [智能助手开源项目：小智（Xiaozhi-ESP32），轻松打造个人 AI 助理](https://zhuanlan.zhihu.com/p/17299115609)
+1. [小智 AI 聊天机器人 （XiaoZhi AI Chatbot）](https://github.com/78/xiaozhi-esp32)
+1. [py-xiaozhi：使用 Python 实现的小智语音客户端，旨在通过代码学习和在没有硬件条件下体验 AI 小智的语音功能](https://github.com/huangjunsen0406/py-xiaozhi?tab=readme-ov-file)
+
+
+
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)

@@ -18,13 +18,10 @@ tags:
 
 
 ### 言论
-1. 想赢最重要的是信心和胆识，放弃就一定是输。人总有一死，为什么不可以这样呢？ -- 《仙剑奇侠传三》
-1. 我们对恶的认识深度关系到善的高度。 -- 《罪与罚》
-1. 当你看过人性的复杂，就不会轻言善恶。 -- 《巴黎圣母院》
-1. 国库空虚要靠我用的人去攒银子，边关打仗要靠我用的人去抵御，与皇上过不去的人要靠我用的人去处理。 -- 严嵩对严世蕃说《大明王朝1566》
 1. 如果你正在开发一款希望长久使用的产品，那么前端框架就是你最不需要做的技术决策。你争论哪一个框架好的时间，都是在浪费精力。无论你选择什么框架，5年后都会过时，即使那时你选择的框架还存在，也会变得完全不同，这就是前端社区的运作方式。 -- [The Frontend Treadmill](https://polotek.net/posts/the-frontend-treadmill/)
 1. 在2025年开发 Web 应用，有点像组装宜家家具。你必须拼凑和配置许多单独的服务：前端、后端、cdn、https、数据库、身份验证、付款......你的工作不是写代码，而是配置、管道、编排、工作流、最佳实践. -- [AI专家Andrej Karpathy](https://x.com/karpathy/status/1905051558783418370)
 1. 愤怒是一种具有破坏性的情绪，会让人产生报复的欲望，这不利于你的根本利益。更理性的方法是，不要先想到报复，而要想想你与对方有没有共同利益，寻求合作和谅解。 -- [Beyond anger](https://aeon.co/essays/there-s-no-emotion-we-ought-to-think-harder-about-than-anger)
+1. 国库空虚要靠我用的人去攒银子，边关打仗要靠我用的人去抵御，与皇上过不去的人要靠我用的人去处理。 -- 严嵩对严世蕃说《大明王朝1566》
 1. 创业就是分享100%梦想的事情。 -- 雷军
 1. 可以有雄心但不可有野心。 -- 倪海夏
 1. 判别君子小人，君子言简刚中，小人谗言易入于耳，邪言轻出于口。刘邦听信谗言残害忠臣，本质上因为他是一个小人。 -- 倪海夏
@@ -48,6 +45,7 @@ tags:
 1. Net Promoter Score. NPS, asks “how likely are you to recommend us to a friend or colleague”. Despite its limitations, NPS is the dominant survey prompt. But there’s nothing like losing something that clarifies the value someone is getting from something (or someone), until they are gone. -- [Learning From Loss](https://andrewchilds.com/posts/learning-from-loss)
 1. This is the thing where models “think” about a problem before answering. It’s a spinoff of the “Think step by step” trick from a few years ago, only now it’s baked into the models. It’s very effective, at least for certain classes of problems (generally code and math problems). -- [What’s new in the world of LLMs, for NICAR 2025](https://simonwillison.net/2025/Mar/8/nicar-llms/)
 1. 刘擎为毕英杰的学术能力感到惊讶，因为本科生通常没有接受过严格的学术训练，而毕英杰现在做的事已经证明了他对哲学的掌握程度和强大的研读的能力。他的学习方法就是去找博士刚毕业不久在大学当助教的人来给他当私教，给他开书单。原来钱就是这么用的啊！在知道这个 up 主的学习方法之后，我在一周之内花了几千块钱找了个刚毕业没有多久在陆家嘴的金融民工来给我每周上金融私教课。这对我也是突破，因为程序员品位的惯性，我几乎所有的知识的获取都是通过自学而来。但自己又确实对于金融工具的没什么理解，不知道如何将教材里的金融概念融合到市场中。此外毕英杰这位 up 主对我的帮助还有：我在进行俯卧撑挑战时，看着他的哲学视频，感觉锻炼也能坚持下去了。 -- [库洛洛没有书](https://m.okjike.com/originalPosts/67c14efa0aee35056a66655b?s=eyJ1IjoiNWVlMGE0MTVlOWZiMjMwMDE3YjMzNWEwIiwiZCI6MX0%3D)
+1. 俱生法:“有为法”不孤起，必为周围联系所制约；“生”亦须因缘条件与其相应，故必与多法同时“俱生”。
 
 
 ### 观点
@@ -73,7 +71,7 @@ tags:
 
 ### 有趣
 
-1. [Building a (T1D) Smartwatch from Scratch](https://andrewchilds.com/posts/building-a-t1d-smartwatch-from-scratch)：作者给其儿子DIY了一个血糖监测智能手表
+1. [Building a (T1D) Smartwatch from Scratch](https://andrewchilds.com/posts/building-a-t1d-smartwatch-from-scratch)：Andrew给其儿子DIY了一个血糖监测智能手表。此外，Andrew的网站名字也很有意思："One Pixel to the Left",询问了一下他其中的含义，是这么解释的：The title of the website is a reference to the general practice of iterating, craftsmanship, precision, and fine-tuning (e.g. "moving some element one pixel over") in the field of web development.
 
 
 

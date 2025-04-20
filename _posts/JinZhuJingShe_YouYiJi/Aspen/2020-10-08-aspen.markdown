@@ -20,6 +20,7 @@ tags:
 ###### 资料
 1. [Thermodynamics University Modules](https://esupport.aspentech.com/s_article?id=141651)
 1. [aspentechsupport:EOS](site:aspentechsupport.blob.core.windows.net AND EOS)
+1. [收集的一些Aspen help文件](https://github.com/molakirlee/Aspen_help_Documents)
 
 ###### 前言
 1. Aspen puls很大程度上是为稳态过程计算而非动态过程计算所设计的。
@@ -49,6 +50,7 @@ tags:
 2. 恒定压力、体积流率下找对应温度即为限制点。
 
 ### 问题
+1. dstwu如何查看relative volatilities
 1. ssplit的使用？cyclone?
 1. CIChng使用？Analyzer使用？
 1. hierarchy使用
@@ -70,7 +72,9 @@ In Aspen Plus, this appears while a block is being executed; look for the most r
 
 1. Solution：Check parameters for the components and property models used in the system, especially any parameters which you entered or estimated, or for which there is no value and default values are being used. Also consider using a different property model better suited for the system in question. If the system is beyond the critical point over the entire range of calculations performed in some block or analysis, consider setting its Valid Phases to a single phase. The message indicates which phase is being extrapolated (vapor in the example); choose the other phase. If you have reviewed the results and you are comfortable with the calculated properties despite the use of a pseudo-root, you can reduce the severity of this message or disable it completely by setting the Flash extrapolated root error level on the Setup | Calculation Options | Flash Convergence sheet. But be aware that this applies to all flash calculations in the model.
 
-
+### Warning
+###### Dstwu："WARNING NET CONDENSER DUTY IS NEGATIVE. INFEASIBLE SPECS"
+1. dstwu自己的result里会有这样一个warning，左下角check status里没有；相同的进料条件下，radfrac在几乎相同分离效果下也没warning.经检查发现是版本问题，v12和v12.1存在，同一程序放到v14中没有该问题。
 
 
 ![](/img/wc-tail.GIF)

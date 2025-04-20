@@ -18,6 +18,14 @@ tags:
 ### 教程
 1. 入门case[A GAMS Tutorial by Richard E. Rosenthal](https://www.gams.com/latest/docs/UG_Tutorial.html)
 1. 算例数据库[The GAMS Model Library](https://www.gams.com/latest/gamslib_ml/libhtml/index.html#gamslib)
+1. [教程及算例: Handbook of Test Problems in Local and Global Optimization](http://titan.princeton.edu/TestProblems/)
+1. [OONLP:a Scatter Search Multistart Approach for Solving Constrained Non- Linear Global Optimization Problems](https://www.gams.com/archives/presentations/present_lasdon.pdf?search=cstr)
+
+1. [GAMS(V49) Documentation Center(右上角可切换不同version)](https://www.gams.com/49/docs/index.html)
+
+1. [User's Guide:This documentation guides GAMS users through several topics in the GAMS system.](https://www.gams.com/47/docs/UG_MAIN.html#UG_Tutorial_Examples)
+1. [GAMS -- A User's Guide Tutorial by Richard E. Rosenthal](https://www.un.org/en/development/desa/policy/mdg_workshops/training_material/gams_users_guide.pdf)
+1. []()
 
 ### 注意事项
 1. The model cannot be referenced before it is declared to exist
@@ -28,6 +36,9 @@ tags:
 
 1. The creation of GAMS entities involves two steps: a declaration and an assignment or definition
 1. The names given to the entities of the model must start with a letter and can be followed by up to nine more letters or digits.
+
+1. 求解不出来时，可以考虑先将部分关键变量'.fx'住，方便分析。
+
 
 ###### Sets
 1. 变量名称不能有空格，可以用hyphens或者单/双引号
@@ -51,6 +62,41 @@ tags:
 1. Equation has a broad meaning in GAMS. It encompasses both equality and inequality relationships, and a GAMS equation with a single name can refer to one or several of these relationships.
 1. The '=' symbol is used only in direct assignments, and the '=e=' symbol is used only in equation definitions. 
 1. 
+
+######  求解器推荐
+1. BARON
+1. SCIP
+1. 这两个可适用于MINLP、NLP等问题，其它的都不如这两个好；哪个快不一定，取决于具体问题.
+
+###### 读写
+1. [Data Exchange with Microsoft Excel](https://www.gams.com/48/docs/UG_DataExchange_Excel.html)
+
+
+```GAMS
+Set i 'canning plants', j 'markets';
+
+Parameter d(i<,j<)  'distance in thousands of miles'
+          a(i)      'capacity of plant i in cases'
+          b(j)      'demand at market j in cases';
+
+$onEmbeddedCode Connect:
+- ExcelReader:
+    file: input.xlsx
+    symbols:
+      - name: d
+        range: distance!A1
+      - name: a
+        range: capacity!A1
+        columnDimension: 0
+      - name: b
+        range: demand!A1
+        rowDimension: 0
+- GAMSWriter:
+    symbols: all
+$offEmbeddedCode
+```
+
+在V49中可以对`- GAMSWriter:`使用`symbols: all`，在V47中则不识别，需使用`- name : d`的形式，具体可参见对应版本的help.
 
 
 

@@ -48,19 +48,6 @@
 ###### 引擎
 1. [全球学者智库](http://www.globalauthorid.com/)
 
-
-### English
-1. [CNN International](https://edition.cnn.com/)
-1. [CNN 10](https://edition.cnn.com/cnn10)
-1. [TIME](https://time.com/)
-1. [CBC](https://www.cbc.ca/)
-1. [MagazineLib](https://magazinelib.com/)
-1. [Noahpinion](https://noahpinion.substack.com/)
-1. [The independent](https://www.independent.co.uk/extras/indybest/gadgets-tech)
-1. [英文纪录片](https://ihavenotv.com/)
-
-1. [Vox: Understand the problems we face, potential solutions, and what you we do](https://www.vox.com/)
-
 ### CC
 1. [野生架构师](https://www.getrevue.co/profile/lcomplete)
 1. [人人都是产品经理](https://www.woshipm.com/)
