@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "python 最小二乘法求解方程组"
+title:      "python 方程组求解 优化"
 subtitle:   ""
 date:       2024-06-21 12:29:00
 author:     "XiLock"
@@ -14,15 +14,57 @@ tags:
 
 
 ---
+[python SciPy官方文件: Optimization and root finding](https://docs.scipy.org/doc/scipy/reference/optimize.html)
 
-### 方程组形式
+### python scipy拟合优化常见方法
+
+###### 局部优化
+1. optimize.minimize:函数最小值
+
+###### 全局优化
+1. differential_evolution
+1. optimize.basinhopping：
+
+###### 最小二乘及拟合
+1. least_squares：非线性最小二乘法
+1. curve_fit：拟合
+
+###### 求根
+1. root
+
+
+###### Legacy functions
+1. The functions below are not recommended for use in new scripts; all of these methods are accessible via a newer, more consistent interfaces.详见官方文件。
+1. fsolve：非线性方程求解
+1. leastsq:
+
+
+
+
+### fsolve: 非线性方程组求解
+1. 局部最优，初值x0怼结果影响很大
+
+
+1. [fsolve求解非线性方程组介绍、实例及其与最小二乘法对比](https://hg95.github.io/numpy-pandas-scipy/Chapter3/%E6%8B%9F%E5%90%88%E4%B8%8E%E4%BC%98%E5%8C%96optimize/%E6%B1%82%E8%A7%A3%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84fsolve.html)
+
+### optimize.minimize：函数最小值
+1.  [optimize.minimize介绍及实例](https://hg95.github.io/numpy-pandas-scipy/Chapter3/%E6%8B%9F%E5%90%88%E4%B8%8E%E4%BC%98%E5%8C%96optimize/%E5%87%BD%E6%95%B0%E6%9C%80%E5%B0%8F%E5%80%BCoptimize.minimize.html)
+
+### optimize.basinhoppin：全局寻优
+1. [全局最优点basinhopping介绍及其实例](https://hg95.github.io/numpy-pandas-scipy/Chapter3/%E6%8B%9F%E5%90%88%E4%B8%8E%E4%BC%98%E5%8C%96optimize/%E5%85%A8%E5%B1%80%E6%9C%80%E4%BC%98%E7%82%B9basinhopping.html)
+
+### 最小二乘法
+
+##### 最小二乘法求解方程组
+
+###### 方程组形式
 1. A*x=b
 1. A写入excel文件的sheet1，第一行为变量名
 1. b写入excel文件的sheet2，第一行为因变量名
 1. x的初值x0写入excel文件的sheet3，第一行为说明
 
 
-### 代码
+###### 代码
 dataAnalysis_v5.py原代码见下，将dataTest_Table3.xlsx作为第一参数传给dataAnalysis_v5.py即可（若将dataAnalysis_v5.py转换成exe文件则可直接将excel文件拖到exe文件上执行）。
 
 ```
@@ -105,7 +147,7 @@ if __name__ == "__main__":
 ```
 
 
-### 附件
+###### 附件
 1. [dataAnalysis_v5.py](https://molakirlee.github.io/attachment/python/2024-06-21-matrix_least_square/dataAnalysis_v5.py)
 1. [dataTest_Table3](https://molakirlee.github.io/attachment/python/2024-06-21-matrix_least_square/dataTest_Table3.xlsx)
 1. [dataTest_Table4](https://molakirlee.github.io/attachment/python/2024-06-21-matrix_least_square/dataTest_Table4.xlsx)
