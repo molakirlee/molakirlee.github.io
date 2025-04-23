@@ -1,0 +1,109 @@
+---
+layout:     post
+title:      "python ODE 微分方程求解"
+subtitle:   ""
+date:       2025-04-11 22:29:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Python
+    - 2025
+
+
+---
+### [python SciPy官方文件：Integration and ODEs](https://docs.scipy.org/doc/scipy/reference/integrate.html)
+
+### odeint结果受积分点个数影响
+1. odeint函数借助数值积分算法对常微分方程（ODE）进行求解。它会自动选取合适的步长来保证积分的精度（采用自适应步长的数值积分算法，它会依据微分方程的特性自行选择合适的积分步长，以保证积分精度），并且尽可能高效地进行计算。当你给odeint提供自变量t的一系列值时，这些值主要用于指定你想要得到解的时间点，而不是用来控制积分过程中的步长。但当函数非线性较强时，积分点个数可能会影响结果
+1. 函数的非线性特性：如果常微分方程的右侧函数是非线性的，那么解的行为可能会非常复杂。即使是微小的数值误差，在非线性函数的作用下也可能会被放大。当t作为第 2 个点和第 3 个点时，由于之前的数值误差在非线性函数中的传播和放大，可能会导致相同t值处的结果不同。
+1. 数值积分算法的特性：odeint内部使用的 LSODA 算法是一种变步长的数值积分算法。在积分过程中，算法会根据当前的误差估计自动调整步长，以保证解的精度。当t作为第 2 个点和第 3 个点时，算法所处的积分阶段不同，之前积累的误差和步长选择也会不同。这可能导致在相同的t值处，由于算法从不同的路径和步长逼近该点，从而产生不同的结果。
+1. 积分算法的误差累积：要是微分方程较为复杂，或者积分区间较大，积分算法在内部的误差可能会出现累积。当t的数据点较少时，odeint可能会采用较大的步长进行积分，这就可能会使误差累积得更多，进而影响到最终结果。
+1. 初始条件的影响：在数值积分中，初始条件对于后续的解有着重要的影响。如果在求解过程中，初始条件的微小变化可能会导致后续解的累积误差。例如，在高阶常微分方程转化为一阶方程组时，初始条件的设置可能会影响到算法在不同时间点的计算路径。当t作为第 2 个点和第 3 个点时，由于初始条件的累积效应，可能会导致结果不同。
+1. 初始条件和边界条件的敏感性：某些微分方程对初始条件或者边界条件十分敏感，在这种情况下，积分步长的微小变化都可能会对结果产生显著影响。
+
+示例代码（y2或者y3时非线性更强更明显）：
+```
+import numpy as np
+from scipy.integrate import odeint
+import matplotlib.pyplot as plt
+
+# 定义一个非线性 ODE
+def model(Y, t):
+    y, z = Y  # y 和 z 是变量
+    return [y * z , z * y * 2 -1]  # 返回 y 和 z 的导数
+
+# 初始条件
+y0 = [1, 1]
+
+num_points = range(2, 10)
+
+t_final = 2
+result = []
+
+for i in num_points:
+    t = np.linspace(0, t_final, i)
+    y = odeint(model, y0, t)
+    result.append((t,y))
+    print(f"t = {t_final} 作为第 {i} 个点的y结果: {y[-1][0]}")
+    print(f"t = {t_final} 作为第 {i} 个点的z结果: {y[-1][1]}")
+
+plt.figure(figsize=(10, 5))
+for i, (t, y) in enumerate(result):
+    plt.plot(t, y[:, 0], label=f'y num_points={num_points[i]}')
+    # plt.plot(t, y[:, 1], label=f'z num_points={num_points[i]}', linestyle='--')
+plt.xlabel('Time')
+plt.ylabel('Values')
+plt.title('ODE Solution with Different Number of Points')
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+```
+import numpy as np
+from scipy.integrate import odeint
+import matplotlib.pyplot as plt
+
+# 定义一个简单的常微分方程 dy/dt = -y
+def model(y, t):
+    dydt = -y
+    return dydt
+
+# 初始条件
+y0 = 1
+
+# 定义t取2个点
+t_two_points = np.linspace(0, 5, 2)
+# 定义t取100个点
+t_hundred_points = np.linspace(0, 5, 100)
+
+# 求解ODE
+y_two_points = odeint(model, y0, t_two_points)
+y_hundred_points = odeint(model, y0, t_hundred_points)
+
+# 选择多个相同的t值进行比较
+common_ts = np.linspace(0, 5, 10)
+for common_t in common_ts:
+    index_two = np.argmin(np.abs(t_two_points - common_t))
+    index_hundred = np.argmin(np.abs(t_hundred_points - common_t))
+    print(f"t = {common_t:.2f} 时，t取2个点的结果: {y_two_points[index_two][0]:.6f}")
+    print(f"t = {common_t:.2f} 时，t取100个点的结果: {y_hundred_points[index_hundred][0]:.6f}")
+
+# 绘图
+plt.plot(t_two_points, y_two_points, 'ro-', label='2 points')
+plt.plot(t_hundred_points, y_hundred_points, 'b-', label='100 points')
+plt.xlabel('Time')
+plt.ylabel('y(t)')
+plt.title('Comparison of ODE Solutions with Different Number of Points')
+plt.legend()
+plt.grid(True)
+plt.show()
+```
+
+
+
+
+![](/img/wc-tail.GIF)
