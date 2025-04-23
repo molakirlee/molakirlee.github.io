@@ -1828,7 +1828,7 @@ var quotes = [
 'Life is short;smile while you still have teeth.人生苦短,趁牙齿未落微笑.',
 'Forward ever,backward never.永远向前,绝不后退.',
 'Every effort,no matter how small,builds a better future.每一分努力,不论多小,都构建更美好未来.',
-'Youth means limitless possibilities.年轻就有无限的可能.,
+'Youth means limitless possibilities.年轻就有无限的可能.',
 'You get in life what you have the courage to ask for.勇敢去争取想要的生活,你终能得偿所愿.-- 欧普拉·温芙苗',
 '东风来了借东风,清风来了立清风.',
 '君子处事,乐天安命,随时善处,处险以悦,危生于惧,不惧不危.',
