@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "python ODE 微分方程求解"
+title:      "python ODE 常微分方程求解"
 subtitle:   ""
 date:       2025-04-11 22:29:00
 author:     "XiLock"
@@ -14,6 +14,16 @@ tags:
 
 
 ---
+### 前言
+1. 微分方程按自变量个数分为：只有一个自变量的常微分方程（Ordinary Differential Equations）和包含两个或两个以上独立变量的偏微分方程（Partial Differential Equations）。
+1. 微分方程按阶数分为：一阶、二阶、高阶，微分方程的阶数取决于方程中最高次导数的阶数。
+1. 微分方程还可以分为：（非）齐次，常（变）系数，（非）线性，初值问题/边界问题…
+1. 数学建模中的微分方程问题，通常还是这些专业课程中相对简单的模型，专业课程的教材在介绍一个模型时，往往都做了非常详细的讲解。只要搞清楚问题的类型、选择好数学模型，建模和求解并不是很难，而且在撰写论文时对问题背景、使用范围、假设条件、求解过程有大量现成的内容可以复制参考。
+1. 老师说，一看这就是××问题，显然就可以用××模型。
+1. 微分方程模型是数学建模中最容易的题型：模型找教材，建模找例题，求解有例程，讨论有套路，论文够档次。
+
+1. 可参考[《Python小白的数学建模课-09.微分方程模型》](https://blog.csdn.net/youcans/article/details/117702996)、[《什么是龙格库塔？常微分方程的数值解法》](https://zhuanlan.zhihu.com/p/452525470)
+
 ### [python SciPy官方文件：Integration and ODEs](https://docs.scipy.org/doc/scipy/reference/integrate.html)
 
 ### odeint结果受积分点个数影响
@@ -33,7 +43,7 @@ import matplotlib.pyplot as plt
 # 定义一个非线性 ODE
 def model(Y, t):
     y, z = Y  # y 和 z 是变量
-    return [y * z , z * y * 2 -1]  # 返回 y 和 z 的导数
+    return [y * z , z * y * 2 - 1]  # 返回 y 和 z 的导数
 
 # 初始条件
 y0 = [1, 1]
@@ -67,9 +77,9 @@ import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 
-# 定义一个简单的常微分方程 dy/dt = -y
+# 定义一个简单的常微分方程 dy/dt = -y**2
 def model(y, t):
-    dydt = -y
+    dydt = -y**2
     return dydt
 
 # 初始条件
@@ -85,7 +95,7 @@ y_two_points = odeint(model, y0, t_two_points)
 y_hundred_points = odeint(model, y0, t_hundred_points)
 
 # 选择多个相同的t值进行比较
-common_ts = np.linspace(0, 5, 10)
+common_ts = np.linspace(0, 5, 3)
 for common_t in common_ts:
     index_two = np.argmin(np.abs(t_two_points - common_t))
     index_hundred = np.argmin(np.abs(t_hundred_points - common_t))

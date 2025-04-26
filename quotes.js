@@ -1839,6 +1839,12 @@ var quotes = [
 '凡事留三分,万物有边界.',
 'Every act of honesty plants seeds for trust to eventually grow.每个真诚行为都为信任播下种子.',
 'Taking small risks today always leads to big rewards tomorrow.今天的小风险常带来明天的大回报.',
+'夫事以密成，语以泄败。未必其身泄之也，而语及所匿之事，如此者身危。 -- 《韩非子·说难》',
+'人不能自私到以为别人不自私。',
+'你的分量决定了和对方对话时的姿态.',
+'Books indeed open doors to worlds beyond our wildest dreams.书籍确实开启了超越想象的世界之门。',
+'Hope and love truly make every challenge a little easier.希望与爱让每个桃战变得更容易。',
+'Kindness transforms the world,one compassionate act at a time.Love transforms moments into magic that lingers in our memories.善良改变世界，每一次充满同情的行动都至关重要。爱将平凡时刻变为奇迹，长存于我们的记忆中。',
 '慕贤容众,毁方瓦合,圭角不露',
 'Don\'t limit your challenges.Challenge your limits.不要限制你的挑战,挑战你的极限.'
 ]
