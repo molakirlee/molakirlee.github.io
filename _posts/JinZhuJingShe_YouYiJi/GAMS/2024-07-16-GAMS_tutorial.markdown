@@ -98,6 +98,7 @@ $offEmbeddedCode
 
 在V49中可以对`- GAMSWriter:`使用`symbols: all`，在V47中则不识别，需使用`- name : d`的形式，具体可参见对应版本的help.
 
-
+### 其它
+1. 同一求解器，比如baron，GAMS不同版本会有更新，可能导致求解结果不同，亲测V43和V47在求解聚合反应动力学时转化率接近但分子量天差地别.
 
 ![](/img/wc-tail.GIF)

@@ -1845,6 +1845,13 @@ var quotes = [
 'Books indeed open doors to worlds beyond our wildest dreams.书籍确实开启了超越想象的世界之门。',
 'Hope and love truly make every challenge a little easier.希望与爱让每个桃战变得更容易。',
 'Kindness transforms the world,one compassionate act at a time.Love transforms moments into magic that lingers in our memories.善良改变世界，每一次充满同情的行动都至关重要。爱将平凡时刻变为奇迹，长存于我们的记忆中。',
+'Plan something big by starting with small steps.从小处着手，规划大事。',
+'Do your thing and don\'t care if they like it.做你的事，别在意别人是香喜欢。',
+'Here comes the sun.And I say,it\'s all right.阳光来了，我说，一切都好。',
+'Your dreams truly matter;pursue them with relentless passion every day.你的梦想至关重要，每天都要以不热情追求。',
+'Simplicity clears clutter and illuminates the path to inner peace.简单驱散纷扰，照亮通往内心平静的道路。',
+'Courage is the spark that ignites extraordinary achievements in life.勇气是点然非凡成就的火花。',
+'Your smile can warm a heart and light up a dark room.你的笑容能温暖一颗心，照亮黑暗的房间。',
 '慕贤容众,毁方瓦合,圭角不露',
 'Don\'t limit your challenges.Challenge your limits.不要限制你的挑战,挑战你的极限.'
 ]
