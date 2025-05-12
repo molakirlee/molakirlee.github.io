@@ -163,6 +163,8 @@ tags:
 1. 图片数据读取：getdata graph digitizer 破解版。教程参见:[Getdata Dragh Digitizer完整详解版教程](https://wenku.baidu.com/view/616d1fbc02d276a200292e9e.html)
 1. [Google产品替代品degoogle](https://degoogle.jmoore.dev/)
 1. [超级简历](https://www.wondercv.com/)
+1. [网页转app:PakePLus](https://pakeplus.com/guide/)
+
 
 ### 书库
 1. [开源书籍](https://love2.io/)

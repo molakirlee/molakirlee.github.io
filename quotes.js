@@ -1852,6 +1852,8 @@ var quotes = [
 'Simplicity clears clutter and illuminates the path to inner peace.简单驱散纷扰，照亮通往内心平静的道路。',
 'Courage is the spark that ignites extraordinary achievements in life.勇气是点然非凡成就的火花。',
 'Your smile can warm a heart and light up a dark room.你的笑容能温暖一颗心，照亮黑暗的房间。',
+'Creating light for others naturally lights our own way.为他人创造光明自然照亮我们之路。',
+'A dead end is just a good place to turn around.死胡同只是一个很好的转弯之处。',
 '慕贤容众,毁方瓦合,圭角不露',
 'Don\'t limit your challenges.Challenge your limits.不要限制你的挑战,挑战你的极限.'
 ]
