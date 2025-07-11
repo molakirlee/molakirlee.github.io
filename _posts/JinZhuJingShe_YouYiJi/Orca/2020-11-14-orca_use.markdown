@@ -20,28 +20,66 @@ tags:
 1. [Dr.Martin Brehm课题组的资料](https://brehm-research.de/orcamd.php)
 
 ### 安装
+1. [量子化学程序ORCA的安装方法](http://sobereva.com/451)
 
 ### 方法/基组
 1. opt和freq：B3LYP-D3(BJ)/6-31G**
 1. 单点：wB97M-V/def2-QZVP或PWPB95-D3(BJ)/def2-QZVP；对应高斯M06-2X/def2-TZVP
+1. M06-2X做几何优化方面比B3LYP-D3(BJ)优势并不明显，而耗时明显更高，对积分格点要求也高，还更难收敛。虽然M06-2X用于算主族体系的能量很不错，但是和ωB97M-V比又明显逊色，在速度上也没优势，故M06-2X在当前的ORCA中没多大用武之地。
+1. pople基组对于较好精度的计算没有一个是划算的，而对于便宜的级别，这套基组又没有标配的给RI用的辅助基组，因此Pople系列基组在ORCA中几乎是摆设。DFT相关的计算笔者配的都是def2系列，这非常适合DFT，而对于后HF类型计算用的都是Dunning相关一致性基组，但实际上改用档次相当的def2系列基组也完全可
+1. BLYP-D3(BJ)/def2-TZVP的耗时比B97-3c稍高，但精度未必比B97-3c好。特别是从ORCA 5.0开始支持了r2SCAN-3c后(B97-3c的后继者,耗时比之高了百分之几十，但精度全面提升了不少。因此如果不是特别穷的话，建议总是用r2SCAN-3c代替B97-3c)，RI-BLYP-D3(BJ)/def2-TZVP这个组合其实就没什么任何使用价值了。
+1. B97-3c是Grimme提出来的一个又便宜又快的组合式方法，用的是纯泛函，基组是方法直接内定的，还带了DFT-D3、SRB校正项。对于主族和过渡金属体系都适用。在ORCA里的耗时仅略高于RI-BLYP/def2-SVP一点点，但结果肯定整体更好。使用B97-3c时不需要写与RI相关的关键词和指定辅助基组，因为默认就会用RIJ和恰当的辅助基组加速计算。
+1. 对于一百多个原子的情况，Sob老师最推荐的是Grimme在2018年提出的B97-3c方法，而不再推荐BLYP-gCP-D3。B97-3c在ORCA中已经支持，它是修改版B97纯泛函与mTZVP基组、D3校正、SRB校正的组合。SRB (short-range basis)用于校正纯泛函高估键长的问题。mTZVP是def-TZVP的修改版，减少了氢的极化而增加了氧的极化，对Ar之后用的是def2-TZVP。B97-3c没有gCP校正项，因为此项的效果在参数化过程中已直接等效体现进去了。B97-3c的耗时高于前面提到的HF-3c，而精度好得多。不过由于纯泛函在ORCA中可以充分利用RIJ加速，因此对于大体系其实比HF-3c耗时高得很有限。
+
+###### 过渡金属配合物
+1. 含过渡金属及其配体的大体系，建议用B97-3c做opt freq，这是过渡金属配合物在ORCA里做opt freq性价比最高的选择之一(B97-3c适合过渡金属)
+1. BLYP不建议用于算过渡金属配合物。这主要是算主族的，就算一个级别计算得没大问题，审稿人看见不理想的使用，也很可能会吐槽，非要用纯泛函算过渡金属配合物的话，TPSS、r2SCAN都可以考虑
+1. 单点wB97M-V很合适
+1. “BLYP D3 GCP(DFT/TZ) def2-TZVP def2-TZVP/J”做过渡金属及其配合物的焓变opt freq，除非焓变真的很接近0，否则吸热和放热的颠倒一般倒不至于.(实际比较茂金属催化剂烷基化用BLYP套装27.86kJ/mol，用B97-3c套装27.69kJ/mol，但这是不完全对的，还要考虑Zr-Cl-Al桥)
+
 
 ###### [大体系计算](http://sobereva.com/214)
 Lu老师对大体系的计算过程推荐了8个级别，第1项是用MOPAC2012来做计算，2~6项用ORCA来做计算，列出的就是在ORCA中实际要写的关键词。对于7、8，用什么程序来做都可以，ORCA的CCSD(T)计算效率是很高的。
 
-1. >500个原子：PM6-D3H4结合MOZYME
-1. >300个原子：BLYP D3 GCP(DFT/SVP) def2-SVP def2-SVP/J    写keyword可以这么写：BLYP def2-SVP D3 gCP(DFT/SVP),在这里BLYP-D3(BJ)搭配def2-SVP基组,Grimme's gCP方法用于BSSE，RI-J自动调用来加速计算.
-1. >150个原子：BLYP D3 GCP(DFT/TZ) def2-TZVP def2-TZVP/J
-1. >60个原子：BLYP D3 def2-QZVPP(-g,-f) def2-QZVPP/J
-1. >40个原子：RI-PWPB95 D3 RIJCOSX def2-QZVPP(-g,-f) def2-QZVPP/J def2-QZVPP/C grid4 tightSCF（/J可改用/JK以减小密度拟合的误差）
+1. \>500个原子：PM6-D3H4结合MOZYME
+1. \>300个原子：BLYP D3 GCP(DFT/SVP) def2-SVP def2-SVP/J    写keyword可以这么写：BLYP def2-SVP D3 gCP(DFT/SVP),在这里BLYP-D3(BJ)搭配def2-SVP基组,Grimme's gCP方法用于BSSE，RI-J自动调用来加速计算.
+1. \>150个原子：BLYP D3 GCP(DFT/TZ) def2-TZVP def2-TZVP/J
+1. \>60个原子：BLYP D3 def2-QZVPP(-g,-f) def2-QZVPP/J
+1. \>40个原子：RI-PWPB95 D3 RIJCOSX def2-QZVPP(-g,-f) def2-QZVPP/J def2-QZVPP/C grid4 tightSCF（/J可改用/JK以减小密度拟合的误差）
 1. 二、三十个原子：RI-PWPB95 D3 RIJK def2-QZVPP def2-QZVPP/JK def2-QZVPP/C grid4 tightSCF
 1. 十几个原子：CCSD(T)/jul-cc-pVTZ或may-cc-pVQZ
-1. <10个原子：CCSD(T)/CBS （aug-cc-pVTZ->QZ外推。想更精确再加上counterpoise校正，耗时将增加近2倍）
+1. \<10个原子：CCSD(T)/CBS （aug-cc-pVTZ->QZ外推。想更精确再加上counterpoise校正，耗时将增加近2倍）
 
 用上面这些计算方法计算相应尺度的体系，在目前主流的Intel 4核CPU的机子上，一般都是可以在几个小时内计算完毕的。这些计算方法的弱相互作用计算误差和对应的体系的尺寸是正相关的。体系越大，可以忍受的绝对误差当然也就越大。无论是上面所列的哪个计算级别，对相应尺度的体系来说弱相互作用精度都是足以令人满意的。
 
 如果计算能力较好，所用计算级别可以提高一两个档；反之，如果打算计算大批量体系（比如用于分子筛选的目的），或者用于初步估算结果，或者用于几何优化等，那么就可以把计算水准降低两、三个档。
 
 另外，Lu老师特别推荐使用PM7或PM6-DH+对几十个或更多原子数目的体系进行优化，虽然几十个原子的体系用DFT也照样能优化得动，但由于在半经验下优化速度极快，几乎不费时间就能得到较好的初始构型，再接着用DFT来优化可以让收敛快得多。
+
+1. 结合DFT-D3校正后密度泛函方法对弱相互作用计算精度整体来说是：双杂化泛函>杂化泛函>GGA泛函，计算耗时也是这个顺序。之所以上面推荐的方法中直接从双杂化泛函(PWPB95)直接切换到GGA泛函(BLYP)，而没有经过普通杂化泛函的过渡，是因为双杂化泛函的计算量不比杂化泛函多多少，额外多出的微扰部分的计算耗时往往还少于杂化泛函在SCF迭代过程上的耗时。所以如果用得起杂化泛函的话还不如干脆就用双杂化泛函来得到更好的精度。而GGA泛函不需要计算HF交换部分，靠RI-J技术可以让GGA泛函的计算速度比杂化泛函（哪怕已经用了RI-JK或RIJCOSX来加速）高好几倍甚至甚至一个数量级，所以杂化/双杂化泛函难以对付的大体系可以靠GGA泛函轻松地对付。虽然杂化泛函众所周知对于一般问题诸如热力学量的计算比起GGA泛函强得多，但是对于弱相互作用的计算，结合DFT-D3后它们的性能差异其实很小，例如B3LYP-D3只是比BLYP-D3在定量上略有点儿优势而已，更不会有什么定性差异。所以从实际角度来看杂化泛函+D3的性价比不高，故没有纳入推荐。
+
+
+###### 续算
+
+轨道文件读取
+```
+! MORead
+%moinp "jobname2.gbw" 
+```
+
+结构文件读取
+```
+!
+* xyzfile 0 1 file.xyz
+```
+其中，file.xyz is an xyz file in XMol format with coordinates in Ångström and a 2-line header that contains the number of atoms and a description line.
+
+1. [Restarting calculations](https://sites.google.com/site/orcainputlibrary/restarting-calculations)
+1. [Geometry input](https://sites.google.com/site/orcainputlibrary/geometry-input)
+
+
+###### ORCA gbw转换wfn
+ORCA的输入文件里加上aim关键词，计算完成后就会在当前目录下产生与输入文件同名的wfn文件。或者在普通计算完成后，通过`orca_2aim FFFFF`命令把FFFFF.gbw转化为FFFFF.wfn。注意，ORCA产生wfn文件的功能可能有一定问题，文件格式不规矩，Windows版产生的和Linux版有一定差异，不同版本产生的还可能有差异。撰文时Multiwfn最新的版本可以支持ORCA 4.0的Windows和Linux版产生的wfn文件，但对于老版本产生的则可能不能正常载入，也不保证能支持未来ORCA版本产生的wfn文件。
 
 
 ### 参考阅读

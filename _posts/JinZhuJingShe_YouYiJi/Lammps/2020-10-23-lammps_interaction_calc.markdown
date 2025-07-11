@@ -68,10 +68,6 @@ done
 1. 然而！！！单个KB分子的vdw势能竟然都一样而且跟总的一样？？Why？？
 
 
-
-
-
-
 ###### 参考资料
 1. [compute pair command](https://lammps.sandia.gov/doc/compute_pair.html)
 
@@ -86,9 +82,14 @@ compute  vdwlint DRUG group/group NANOTUBE
 thermo_style custom step temp c_vdwlin
 ```
 
+注：
+1. 若unit为real，则计算所得的能量单位为kcal/mol，其中的mol是指每mol体系，将该数值除以阿伏伽德罗常数就是体系内的对应能量值kcal(若计算体系内300个甲醇和1000个水的相互作用能，则为其对应数值),可参考2篇讨论贴：[Enthalpy units](https://matsci.org/t/enthalpy-units/46486)、[Conversion of units in lammps](https://matsci.org/t/conversion-of-units-in-lammps/48308)(gromacs好像也一样)
+1. 使用rerun的方法单独计算能量(类似gmx)：One possibility is to save a set of configurations from an actual MD simulation where all the forces are duly computed as prescribed in the force field and then you can use this set of configurations as input to a rerun (rerun command — LAMMPS documentation). This would allow you to turn off whatever itneractions you want to turn off using the neigh_modify exclude command. Then you can output the global values of energy concerning the interactions you want as well as possibly local data to build a plot.参考[Computing interaction energy between water drop and surface](https://matsci.org/t/computing-interaction-energy-between-water-drop-and-surface/57078/4)
+
 ###### 参考资料
 1. [Re: [lammps-users] evdwl](https://lammps.sandia.gov/threads/msg14241.html)
 1. [compute group/group command](https://lammps.sandia.gov/doc/compute_group_group.html)
+1. [lammps commands reference: compute group/group command](https://docs.lammps.org/compute_group_group.html)
 1. [thermo_style command](https://lammps.sandia.gov/doc/thermo_style.html)
 
 ![](/img/wc-tail.GIF)

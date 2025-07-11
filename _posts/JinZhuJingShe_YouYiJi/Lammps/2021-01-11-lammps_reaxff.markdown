@@ -21,7 +21,7 @@ tags:
 1. [用reaxff势给石墨建模](https://peachrl.github.io/2020/05/01/yong-reaxff-shi-gei-shi-mo-jian-mo/)
 1. [LAMMPS从研一到延毕：ReaxFF反应力场统计产物分子](https://zhuanlan.zhihu.com/p/259646293)
 1. [Simulation_ReaxFF自建力场](https://warmshawn.github.io/2019/02/21/Simulation_ReaxFF%E8%87%AA%E5%BB%BA%E5%8A%9B%E5%9C%BA/)
-1. []()
+1. [利用Lammps ReaxFF研究反应动力学一例:热解乙炔](http://bbs.keinsci.com/thread-38799-1-1.html)
 1. []()
 1. []()
 

@@ -13,6 +13,12 @@ tags:
     - 2021
 
 ---
+
+### deform法
+
+1. [lammps command reference: fix deform command](https://docs.lammps.org/fix_deform.html)
+
+
 ### code
 ```
 #模型初始化，模拟单位为metal，原子方式为atomic，3维模型

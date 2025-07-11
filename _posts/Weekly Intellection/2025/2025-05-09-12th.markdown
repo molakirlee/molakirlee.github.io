@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "2025-每周补脑11st"
+title:      "2025-每周补脑12th"
 subtitle:   ""
 date:       2025-04-19 22:36:00
 author:     "XiLock"
@@ -23,7 +23,7 @@ tags:
 1. 心甘情愿地接受限制，可以增强而不是抑制创造力。 -- [The creative power of constraints](https://arun.is/blog/creative-power-constraints/)
 1. AI 研究的最终目的是，它编写我们不理解的程序，来解决我们不知道如何解决的问题。 -- [美国著名计算机科学家，排版系统 LaTex 的创始人Leslie Lamport](https://thenewstack.io/tla-creator-leslie-lamport-programmers-need-abstractions/)
 1. Don’t do the problem that somebody tells you to do, that they think they want. Find out what they really need. -- [美国著名计算机科学家，排版系统 LaTex 的创始人Leslie Lamport](https://thenewstack.io/tla-creator-leslie-lamport-programmers-need-abstractions/)
-
+1. 以前的小团队是1名高级开发人员 + 5名初级开发人员，以后是1名高级开发人员 + AI 大模型。-- [Hacker News](https://news.ycombinator.com/item?id=43955519)
 
 ### 观点
 ###### [美国的著名作家约翰·巴洛的人生格言](https://www.mail-archive.com/silklist@lists.hserus.net/msg08034.html)

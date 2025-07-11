@@ -89,6 +89,8 @@ PONAV_A^3: 0 PONAV_Volume_fraction: 0 PONAV_cm^3/g: 0
 1. [Using Zeo++](http://www.zeoplusplus.org/examples.html)
 1. [Cases](http://www.zeoplusplus.org/examples.html)
 1. [Molecular Dynamics Simulations of Gas Selectivity in Amorphous Porous Molecular Solids](https://livrepository.liverpool.ac.uk/2006882/1/Jiang,%20Shan_Molecular%20Dynamics_Simulation%20paper_17_10_2013.pdf)
+1. [如何计算体系孔径分布、三维探针分布、连通性](https://www.fangzhenxiu.com/post/11091149/)
+
 
 ### porE
 

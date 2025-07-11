@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "Gaussian 核磁·NMR"
+subtitle:   ""
+date:       2025-06-15 20:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Gaussian
+    - 2025
+
+---
+
+B3LYP/6-31G*气相下优化，然后B3LYP/6-31G* scrf(SMD,solvent=chloroform)计算磁屏蔽值，再用标度法转化成氢和碳的化学位移，不仅很便宜，而且结果和实验相符相当理想，强烈推荐大家作为平时计算NMR的标准方法。
+
+
+1. [谈谈如何又好又快地计算NMR化学位移](http://sobereva.com/354)
+1. [gaussian计算出的核磁氢谱与实验差别很大](http://bbs.keinsci.com/thread-15291-1-1.html)
+1. [NMR图谱与耦合常数的计算](http://blog.molcalx.com.cn/2018/08/20/gaussian-tutorial-nmr.html)
+1. []()
+
+![](/img/wc-tail.GIF)

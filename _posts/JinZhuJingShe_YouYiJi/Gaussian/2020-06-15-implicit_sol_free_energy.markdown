@@ -56,6 +56,7 @@ cav
 1. [keinsci - 审稿意见求助，关于溶液中熵校正问题](http://bbs.keinsci.com/thread-20248-1-1.html)
 1. [keinsci - 溶剂溶解度能否比较？](http://bbs.keinsci.com/thread-11016-1-1.html)
 1. [keinsci - 高斯计算溶剂化自由能时自定义溶剂遇到的问题](http://bbs.keinsci.com/thread-3544-1-1.html)
+1. [求助-关于orca的溶剂化模型](http://bbs.keinsci.com/thread-13117-1-1.html)
 
 
 ### QM和MD计算溶剂化自由能的比较

@@ -28,17 +28,22 @@ tags:
 1. 将lammps目录下tool/msi2lmp/frc_files文件夹拷贝到临时目录；
 1. 将第一步生成的*.car和*.mdf文件（如benzene-class1.car和benzene-class1.mdf）和第二步得到的msi2lmp.exe拷贝到frc_files文件夹下；
 1. 由于/frc_files中已经存在各种所需的力场，所以不再需要拷贝cvff.frc；
-1. 然后在此文件夹下输入命令： `./msi2lmp.exe benzene-class1 -class I -frc cvff.frc -i –n`，生成的XXX.data就是需要的data文件。 
+1. 然后在此文件夹下输入命令： `./msi2lmp.exe benzene-class1 -class I -frc cvff.frc -i –n -p 2`，生成的XXX.data就是需要的data文件。 
 
 ### 说明
 1. 需要在src文件夹下执行make命令后才会生成msi2lmp.exe，否则无法找到。 
 1. 不能把*.car和*.mdf文件和第二步得到的msi2lmp.exe拷贝到自己建的单独文件夹中，虽然有人说可以这么做，但实测发现会报错“/frc_files/cvff.frc cannot”。 
 1. 第三步只生成*.data文件，并不像‘有些文档’所说的会生成两个文件。具体原因可能是版本不同？
-1. 命令中“I”是罗马字母1，不是字符“$|$”或1。 
+1. 命令中“I”是罗马字母1，不是字符“$\|$”或1。 
 1. 具体命令的含义参见/lammps-30Jul16/tools/msi2lmp/中的README。 
 1. 因为msi2lmp很久没更新了，有些力场参数之类的可能没有，调用时会报错：`unable to find …… data`（原因见参考资料）。如`msi2lmp Unable to find bond data for cp n`就是说找不到这两种原子的成键信息，但xilock检查生成的data文件后发现成键信息是有的，但成键参数都是0，所以添加上成键参数就行了（其他情况具体分析）。
 1. 如果是直接对晶胞进行处理，则需要先`make P1`来吧结构对称性去掉，否则会报错：“Msi2LMP is not equipped to handle symmetry operations”
 1. frc文件未必完成，调用前可根据情况进行补充，例如：https://lammps.sandia.gov/threads/msg46719.html。
+1. `-print` 一般2，0:任何信息都不输出除了错误，1:默认格式；2:推荐选择.
+1. `-ignore`一般要加上，里面一些错误其实是无所谓的，会报错，因此可以直接忽略。
+1. `-nocenter`一般用ms建模导出的文件不需要nocenter。
+6、`-shift ###`，shift 类似lammps read_data shift 比如体系x方向为 0 10，shift -100 0，体系x方向为-10，0。
+
 
 ### 附录
 msi2lmp的部分README内容
@@ -56,8 +61,8 @@ msi2lmp的部分README内容
          Default is to write output for the C++ version of LAMMPS
 
    -- -print (or -p)
-	 # is the print level  0 - silent except for error messages
-	                       1 - minimal (default)
+         # is the print level  0 - silent except for error messages
+                               1 - minimal (default)
                                2 - verbose (usual for developing and
                                    checking new data files for consistency)
                                3 - even more verbose (additional debug info)

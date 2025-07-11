@@ -14,7 +14,19 @@ tags:
 
 ---
 
-###
+### Win版
+1. 
+1. 打开[官网链接](https://rpm.lammps.org/windows/)，根据自己的需求选择相应的可执行文件，比如，是否支持 MPI 并行、是否需要调用 Python 等。这里选择 LAMMPS-64bit-Python-2Aug2023-MSMPI.exe 并行版以满足上述两种需求 (因为文件名字中含 Python 和 MSMPI) 。另外，还需要安装 msmpisetup.exe 来支持 MPI 并行 ([下载链接](https://www.microsoft.com/en-us/download/details.aspx?id=100593))。需要注意的是，在同一台电脑上已经不允许安装不同版本的 LAMMPS，安装时建议安装最新版。
+1. 首先双击下载好的 msmpisetup.exe，正常安装即可.
+1. 安装完成以后，就可以使用 LAMMPS 了。LAMMPS 软件需要在控制台程序中执行，比如 cmd 和 Windows Powershell。打开控制台程序以后，可切换至 in 文件所在的目录，通命令运行 LAMMPS.
+1. 串行方式: `lmp -in **.lammps` (其中 **.lammps 表示 in 文件)
+1. 多线程并行方式: `lmp -pk omp 4 -sf omp -in **.lammps` (其中**.lammps 表示 in 文件)
+1. MPI 并行方式 (注意必须下载支持 MPI 的可执行文件): `mpiexec -np # lmp -in **.lammps` (其中 # 表示核数，**.lammps 表示 in 文件)
+1. 其它注意事项见官方链接[LAMMPS Windows Installer Repository](https://packages.lammps.org/windows.html)
+
+参考资料：[LAMMPS 软件的安装与运行](https://zhuanlan.zhihu.com/p/657435571)
+
+### Linix版
 
 ###### gcc
 如果没有gcc和gfortran的话安装一下 
