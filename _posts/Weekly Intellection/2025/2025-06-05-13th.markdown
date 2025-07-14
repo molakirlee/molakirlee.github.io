@@ -33,6 +33,7 @@ tags:
 1. 社会的危机，不是人变得孤独，而是人变得隐形、没有用处、可有可无。 -- [The unseen](https://aeon.co/essays/our-crisis-is-not-loneliness-but-human-beings-becoming-invisible)
 1. Today, quite suddenly, billions of people have access to AI systems that provide augmentations, and inflict amputations, far more substantial than anything McLuhan could have imagined. This is the main thing I worry about currently as far as AI is concerned. I follow conversations among professional educators who all report the same phenomenon, which is that their students use ChatGPT for everything, and in consequence learn nothing. We may end up with at least one generation of people who are like the Eloi in H.G. Wells’s The Time Machine, in that they are mental weaklings utterly dependent on technologies that they don’t understand and that they could never rebuild from scratch were they to break down. -- [Neal Stephenson, Remarks on AI from NZ](https://simonwillison.net/2025/May/18/neal-stephenson/#atom-everything)
 1. 我记得，大概12岁的时候，读过一篇文章，应该是在《科学美国人》杂志。那篇文章给出了地球上所有物种的运动效率，从 A 点到 B 点，同样的距离，它们消耗了多少能量。结果，秃鹫位居榜首，运动效率最高，超越了其他所有生物。人类排在榜单的最后三分之一，对于"万物之王"，这个成绩实在不值一提。但是，作者很有想象力，测试了人类骑自行车的效率，结果远远超过了秃鹫，荣登榜首。这给我留下了深刻的印象。我们人类是工具制造者。我们可以制造工具，将自己的能力放大到惊人的程度。对我来说，计算机就是思维的自行车。它能让我们超越自身的能力。我认为，我们才刚刚处于计算机的早期阶段----非常早期的阶段----我们只走了很短的一段路，计算机仍在发展中，但我们已经看到了巨大的变化。我认为现在与未来一百年即将发生的事情相比，根本不算什么。 -- [斯蒂夫·乔布斯1980年的访谈](https://allaboutstevejobs.com/videos/misc/future_of_pc_1990)
+1. 政因时以兴，机随物而动，故圣王究穷通之源，审始终之理，适时之宜，期于济世。 -- 《晋书·纪瞻传》
 
 
 ### 观点

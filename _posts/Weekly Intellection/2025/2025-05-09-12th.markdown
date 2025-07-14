@@ -25,6 +25,7 @@ tags:
 1. Don’t do the problem that somebody tells you to do, that they think they want. Find out what they really need. -- [美国著名计算机科学家，排版系统 LaTex 的创始人Leslie Lamport](https://thenewstack.io/tla-creator-leslie-lamport-programmers-need-abstractions/)
 1. 以前的小团队是1名高级开发人员 + 5名初级开发人员，以后是1名高级开发人员 + AI 大模型。-- [Hacker News](https://news.ycombinator.com/item?id=43955519)
 
+
 ### 观点
 ###### [美国的著名作家约翰·巴洛的人生格言](https://www.mail-archive.com/silklist@lists.hserus.net/msg08034.html)
 1. 拓展你对可能性的感知。所有事情都是可能的。
@@ -41,6 +42,6 @@ tags:
 
 
 ### 杂谈
-
+1. 萧鼎写作之细腻，在《诛仙》可见一斑，如“第二卷 第十七章 风雨”中的一段描写：“张小凡连忙应了一声，便要起身，不料身子才站起半截，忽地脚下一软，竟又摔了下去，只觉得两只脚麻木酸疼不已，想是跪了一个晚上所致。田不易走在前头，身子一停，看去似乎是犹豫了一下，但还是没有回头，仍是径直向前走去。张小凡咬着牙，用手在双腿上连连敲打按摩。好在他平日也不是娇生惯养的人，当初在大竹峰砍竹时锻练出来的身体此刻便有了回应，过不多时，居然气血稍畅，可以走路了。”这段描写让人想起施耐庵《水浒传》中卖酒后调平扁担的场景。
 
 ![](/img/wc-tail.GIF)
