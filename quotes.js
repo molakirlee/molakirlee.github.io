@@ -1895,7 +1895,8 @@ var quotes = [
 '风雨项搏肥荒土，乱世国灭出雄才。 -- 《诛仙》',
 '蝼蚁尚能奋勇明志，何况我辈修心持正。 -- 《诛仙》',
 '生尚有希望，死则为背情怯懦之人。 -- 《诛仙》',
-'Don\'t cry because it's over,smile because it happened不要因结束而哭泣，因它曾发生而微笑。',
+'Don\'t cry because it\'s over,smile because it happened不要因结束而哭泣，因它曾发生而微笑。',
+'把心放开，切不可把心束缚住，心纳世界，心张世界。',
 '慕贤容众,毁方瓦合,圭角不露',
 'Don\'t limit your challenges.Challenge your limits.不要限制你的挑战,挑战你的极限.'
 ]
