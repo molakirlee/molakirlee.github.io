@@ -14,6 +14,9 @@ tags:
 
 ---
 
+聚合物的可参见[《LAMMPS公开课-聚合物建模和模拟-提取码: qv8y》](https://pan.baidu.com/s/1MTFz6AcLbPPVycZTkDuxwg?pwd=qv8y )
+
+
 ### 使用说明
 ###### 指定力场 
 1. MS中对建好的*.cif模型文件指定力场。Modulus => Discover => Setup => Select => cvff（新版本在forcite模块中指定为cvff力场，注意不要执行run，直接关闭。）；
@@ -28,7 +31,7 @@ tags:
 1. 将lammps目录下tool/msi2lmp/frc_files文件夹拷贝到临时目录；
 1. 将第一步生成的*.car和*.mdf文件（如benzene-class1.car和benzene-class1.mdf）和第二步得到的msi2lmp.exe拷贝到frc_files文件夹下；
 1. 由于/frc_files中已经存在各种所需的力场，所以不再需要拷贝cvff.frc；
-1. 然后在此文件夹下输入命令： `./msi2lmp.exe benzene-class1 -class I -frc cvff.frc -i –n -p 2`，生成的XXX.data就是需要的data文件。 
+1. 然后在此文件夹下输入命令： `./msi2lmp.exe benzene-class1 -class I -frc cvff.frc -i -p 2`，生成的XXX.data就是需要的data文件。 
 
 ### 说明
 1. 需要在src文件夹下执行make命令后才会生成msi2lmp.exe，否则无法找到。 
@@ -38,10 +41,10 @@ tags:
 1. 具体命令的含义参见/lammps-30Jul16/tools/msi2lmp/中的README。 
 1. 因为msi2lmp很久没更新了，有些力场参数之类的可能没有，调用时会报错：`unable to find …… data`（原因见参考资料）。如`msi2lmp Unable to find bond data for cp n`就是说找不到这两种原子的成键信息，但xilock检查生成的data文件后发现成键信息是有的，但成键参数都是0，所以添加上成键参数就行了（其他情况具体分析）。
 1. 如果是直接对晶胞进行处理，则需要先`make P1`来吧结构对称性去掉，否则会报错：“Msi2LMP is not equipped to handle symmetry operations”
-1. frc文件未必完成，调用前可根据情况进行补充，例如：https://lammps.sandia.gov/threads/msg46719.html。
-1. `-print` 一般2，0:任何信息都不输出除了错误，1:默认格式；2:推荐选择.
-1. `-ignore`一般要加上，里面一些错误其实是无所谓的，会报错，因此可以直接忽略。
-1. `-nocenter`一般用ms建模导出的文件不需要nocenter。
+1. frc文件未必完整，调用前可根据情况进行补充，例如：https://lammps.sandia.gov/threads/msg46719.html。
+1. `-print`或`-p` 一般2，0:任何信息都不输出除了错误，1:默认格式；2:推荐选择.
+1. `-ignore`或`-i`一般要加上，里面一些错误其实是无所谓的，会报错，因此可以直接忽略。
+1. `-nocenter`或`-n`一般用ms建模导出的文件不需要nocenter。
 6、`-shift ###`，shift 类似lammps read_data shift 比如体系x方向为 0 10，shift -100 0，体系x方向为-10，0。
 
 

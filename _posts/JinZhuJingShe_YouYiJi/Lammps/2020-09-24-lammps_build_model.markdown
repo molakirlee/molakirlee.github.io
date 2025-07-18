@@ -33,7 +33,8 @@ Example可参见：http://www.moltemplate.org/visual_examples.html
 1. 编写system.lt文件。其中包括了导入lipid.lt与water.lt的信息以及对全系统的处理，如：分别导入多少个lipid分子、多少个water分子，lipid分子中原子与water分子中原子的非键相互作用参数等。
 1. 用moltemplate来基于system.xyz和system.lt生成`moltemplate.sh -xyz system.xyz system.lt`。
 
-
+### msi2lmp
+见[《LAMMPS MS生成lmp输入文件 msi2lmp》](https://molakirlee.github.io/2020/12/06/lammps_msi2lmp/)
 
 ### MS填充水分子
 1. 设置 SWNT_water.xsd为活性文件，采用 工具栏中Atom volumes and Surfaces创建一个Connolly surface。
@@ -52,7 +53,7 @@ Example可参见：http://www.moltemplate.org/visual_examples.html
 1. [个人总结导出data的方法](http://www.isimuly.cn/forum.php?mod=viewthread&tid=438&extra=page%3D6)
 1. [msi2lmp的使用方法和晶体结构转化详解](http://dxli75.blog.163.com/blog/static/1067682892010419795847/)
 1. [LAMMPS data文件创建工具--moltemplate](https://zhuanlan.zhihu.com/p/99872512)
-1. 
+1. [lammps和gromacs聚合物建模的方法](http://bbs.keinsci.com/thread-18520-1-1.html)
 
 
 ![](/img/wc-tail.GIF)

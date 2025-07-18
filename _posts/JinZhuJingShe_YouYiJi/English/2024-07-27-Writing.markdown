@@ -8,7 +8,8 @@ header-img: "img/in-post/2018/2018-11-08-equqtions/bg.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - 整理汇总
+    - 《斤竹精舍·游艺集》
+    - English
     - 2024
 
 

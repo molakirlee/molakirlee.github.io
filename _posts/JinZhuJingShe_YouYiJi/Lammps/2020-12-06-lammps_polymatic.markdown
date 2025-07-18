@@ -14,6 +14,8 @@ tags:
 
 ---
 
+模拟聚合物单体交联的perl脚本, 基于LAMPPS的实现, 没法直接用于GROMACS，Jerkwin老师的[《分子模拟周刊：第 18 期》](https://jerkwin.github.io/2020/05/09/%E5%88%86%E5%AD%90%E6%A8%A1%E6%8B%9F%E5%91%A8%E5%88%8A-%E7%AC%AC_18_%E6%9C%9F/)有介绍
+
 ### Polymatic 的安装
 polymatic基于perl语言，因为Linux自带perl语言，所以直接从网站上下载下来就能用。需要注意的是要加上`Polymatic.pm`的路径，通过polym.pl等文件里的`use lib`指令：
 

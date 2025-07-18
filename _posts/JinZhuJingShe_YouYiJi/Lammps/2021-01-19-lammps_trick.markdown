@@ -18,7 +18,7 @@ tags:
 1. [60分钟 实现LAMMPS素人逆袭：金属材料拉伸](https://www.bilibili.com/video/BV1YK4y1k7dX/?spm_id_from=333.337.search-card.all.click&vd_source=42d15d5f7bb7814555b23126c5a774fb)
 1. [聚合物的LAMMPS分子动力学教学：建模+软势+退火+MSD扩散系数+压缩拉伸力学性能+链取向分析(Materials Studio、CharmmGUI建模)](https://www.bilibili.com/video/BV1zC4y1U7MU/?spm_id_from=333.337.search-card.all.click&vd_source=42d15d5f7bb7814555b23126c5a774fb)
 1. [LAMMPS+VMD+Python：聚合物“交联”+石墨稀表面接枝，拉伸力学性能、聚合物链取向](https://www.bilibili.com/video/BV1uPpMeXE5t?spm_id_from=333.788.videopod.sections&vd_source=42d15d5f7bb7814555b23126c5a774fb)
-1. [LAMMPS建模与MD分析教学 | 高熵合金、多晶、石墨烯、聚合物、复合材料建模，分子动力学MD轨迹分析](https://www.bilibili.com/video/BV1Xg4y1G7RL?spm_id_from=333.788.videopod.sections&vd_source=42d15d5f7bb7814555b23126c5a774fb)
+1. [LAMMPS建模与MD分析教学 高熵合金、多晶、石墨烯、聚合物、复合材料建模，分子动力学MD轨迹分析](https://www.bilibili.com/video/BV1Xg4y1G7RL?spm_id_from=333.788.videopod.sections&vd_source=42d15d5f7bb7814555b23126c5a774fb)
 
 ###### 统一输出文件名
 ```
