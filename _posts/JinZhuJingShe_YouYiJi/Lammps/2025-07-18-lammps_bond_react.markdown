@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "LAMMPS 建模"
+title:      "LAMMPS 交联fix bond/react"
 subtitle:   ""
 date:       2025-07-18 21:52:00
 author:     "XiLock"

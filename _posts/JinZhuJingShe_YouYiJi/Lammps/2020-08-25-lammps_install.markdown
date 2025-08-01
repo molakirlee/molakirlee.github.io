@@ -15,7 +15,7 @@ tags:
 ---
 
 ### Win版
-1. 
+###### CPU版
 1. 打开[官网链接](https://rpm.lammps.org/windows/)，根据自己的需求选择相应的可执行文件，比如，是否支持 MPI 并行、是否需要调用 Python 等。这里选择 LAMMPS-64bit-Python-2Aug2023-MSMPI.exe 并行版以满足上述两种需求 (因为文件名字中含 Python 和 MSMPI) 。另外，还需要安装 msmpisetup.exe 来支持 MPI 并行 ([下载链接](https://www.microsoft.com/en-us/download/details.aspx?id=100593))。需要注意的是，在同一台电脑上已经不允许安装不同版本的 LAMMPS，安装时建议安装最新版。
 1. 首先双击下载好的 msmpisetup.exe，正常安装即可.
 1. 安装完成以后，就可以使用 LAMMPS 了。LAMMPS 软件需要在控制台程序中执行，比如 cmd 和 Windows Powershell。打开控制台程序以后，可切换至 in 文件所在的目录，通命令运行 LAMMPS.
@@ -25,6 +25,112 @@ tags:
 1. 其它注意事项见官方链接[LAMMPS Windows Installer Repository](https://packages.lammps.org/windows.html)
 
 参考资料：[LAMMPS 软件的安装与运行](https://zhuanlan.zhihu.com/p/657435571)
+
+###### GPU版本
+1. 按照CPU版本安装
+1. 安装GPU驱动和CUDA，具体过程见参考资料，完成后`nvidia-smi`检查是否安装成功
+1. 可用以下指令运行：`mpiexec -n 1 lmp -in in.filename -sf gpu -pk gpu 1 platform 1`，其中`platform n（0或1）`是用于有核显的情况下指定使用哪个显卡加速
+
+
+参考资料:
+1. [Lammps安装，GPU加速，Python调用Lammps](https://www.bilibili.com/opus/937373043267731478)
+1. [Windows环境下LAMMPS使用GPU加速运算](https://zhuanlan.zhihu.com/p/139922210)
+1. [笔记：Lammps windows安装以及GPU加速](https://blog.csdn.net/FXJgogogo/article/details/148238219)
+
+
+### Win-WSL2版
+1. [《记一次Lammps上GPU加速的折腾，和CPU核数越多越慢的奇特表现》](http://bbs.keinsci.com/thread-18771-1-1.html)一文有以下结论：1） WSL2已经非常好用。笔记本没必要刷Linux桌面了。2） LAMMPS就是单进程搭单卡，计算90%扔GPU上的架构。（具体来讲和对势、键势、接邻列表算法等有关）。
+1. [《Gaussian 16在虚拟机和WSL中的相对效率 - 计算化学公社》](http://bbs.keinsci.com/thread-16405-1-1.html)提到"WSL效率确实不错，(相比ubuntu)只损失了10%多点的性能"
+
+
+###### WLS2安装
+1. 在Windows搜索栏中搜索控制面板，程序→启用或关闭Windows功能→勾选"开启Hyper-v"、"虚拟机平台"、"适用于Linux的Windows子系统"这3项（Hyper-v是用来提高性能的，家庭版window可能没这个选项，可参考[《Windows11家庭版上安装Hyper-V并导入虚拟机的方法》](https://blog.csdn.net/breaksoftware/article/details/135754808)）
+1. 在微软应用商店中搜索Ubuntu，选择需要安装的发行版本（以Ubuntu 22.04.2为例），下载完成后即可在开始菜单中找到，点击运行，开始安装。随后根据提示设置用户名和密码。
+1. 在PowerShell（在Win搜索栏中搜索打开）中输入wsl -l -v 即可查看WSL的运行状态和版本，如果version是2则说明是WLS2，否则就是WLS，参照资料进一步改为WLS2。
+1. 亲测win 12np时44min/；win 6/12np+1gpu时21-22min(1个GPU时，6/12个CPU线程影响不大)； WSL2 1gpu时21min/ WSL2 6/12np+1gpu时10min，2np+1gpu时14min，*4np+1gpu时8min*。可见GPU加速时并非线程越多越好
+
+###### CUDA及CUDA-toolkit安装
+1. NV官网给出了WSL 2的CUDA安装方式，根据网页下方的安装指引即可，`nvidia-smi`可看到显卡等信息，确定安装完成
+1. `sudo apt-get -y install nvidia-cuda-toolkit`,安装完成后`nvcc --version`有对应信息确定安装成功。
+
+
+###### 环境安装
+```
+sudo apt install build-essential #报404错误就换源，具体操作自行必应搜索
+apt install cmake
+apt install gfortran
+apt update
+apt upgrade
+```
+
+换源步骤：
+1. 步骤1：备份原始源文件。在更改之前，建议备份系统默认的 sources.list 文件：`sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup`
+1. 步骤2：编辑源文件,使用文本编辑器打开 sources.list 文件：`sudo vim /etc/apt/sources.list`或者：`sudo gedit /etc/apt/sources.list`清空文件内容或注释掉原有的源地址，然后根据你的 Ubuntu 版本添加以下内容：
+
+```
+# 阿里云镜像
+deb https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+
+# 清华大学镜像
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+```
+
+1. 步骤3：更新软件源.保存并关闭文件后，运行以下命令更新软件包列表：`sudo apt update`和`sudo apt upgrade`
+
+
+###### MPI安装
+1. ……
+1. ……
+1. 用`which mpirun`查看安装位置，`mpirun --version`查看版本，确认安装成功
+
+###### LAMMPS安装
+1. 下载LAMMPS最新稳定版的源码压缩包:`wget https://download.lammps.org/tars/lammps-stable.tar.gz`
+1. 解压缩`tar -xzvf lammps-stable.tar.gz`
+1. `cd lammps-2Aug2023/ #不同版本的发布时间不同，当前最新稳定版为2023年8月2日发布的版本`
+1. `mkdir build`
+1. `cd build`
+1. `cmake -C ../cmake/presets/basic.cmake -D PKG_OPENMP=yes -D PKG_GPU=on -D GPU_API=cuda -D GPU_ARCH=sm_80 ../cmake`，其中GPU_ARCH为GPU架构型号，可通过`nvidia-smi -q | grep Architecture`，显示`Architecture: 75`,然后查询对应数字；`/basic.cmake` 中有如MOLECULE , MANYBODY等包，但`CLASS2`等需要额外添加。
+1. `make -j 4`，如果不添加数字则默认最大，会因为内存不够而失败
+1. `make install`
+1. `vim .bashrc`并添加 `export PATH=/home/skywalker/lammps-2Aug2023/build:$PATH`后`source .bashrc`
+
+
+GPU_ARCH的参数参考:
+```
+sm_30 for Kepler (supported since CUDA 5 and until CUDA 10.x)
+sm_35 or sm_37 for Kepler (supported since CUDA 5 and until CUDA 11.x)
+sm_50 or sm_52 for Maxwell (supported since CUDA 6)
+sm_60 or sm_61 for Pascal (supported since CUDA 8)
+sm_70 for Volta (supported since CUDA 9)
+sm_75 for Turing (supported since CUDA 10)
+sm_80 or sm_86 for Ampere (supported since CUDA 11, sm_86 since CUDA 11.1)
+sm_89 for Lovelace (supported since CUDA 11.8)
+sm_90 for Hopper (supported since CUDA 12.0)
+```
+
+###### 提交指令
+`mpirun -np 12 lmp -in case_nvt.in -sf gpu -pk gpu 1 platform 1`
+1. Use the -sf gpu command-line switch, which will automatically append “gpu” to styles that support it. 参见["LAMMPS command - GPU package"](https://docs.lammps.org/Speed_gpu.html)
+1. Use the -pk gpu Ng command-line switch to set Ng = # of GPUs/node to use.
+1. platform 1 规定了在哪个显卡上加速
+
+
+
+###### 其它问题
+1. 如果win系统有更新，则可能出现`Cuda driver error 999 in call at file '/home/xilock/Desktop/lammps-29Aug2024/lib/gpu/geryon/nvd_memory.h' in line 502`等错误，重启更新后问题解决.
+
+参考资料：
+1. [在Windows上高效使用LAMMPS](https://leo-lyy.github.io/docs/WSL_LAMMPS_GPU.html)
+1. [Win10+WSL2+Ubuntu22.04安装Lammps+GPU+Python](https://blog.csdn.net/apathiccccc/article/details/131538775)
+1. [WSL2下gpu版lammps编译详细版](http://bbs.keinsci.com/thread-27603-1-1.html)
+1. []()
+
 
 ### Linix版
 
@@ -117,7 +223,7 @@ make yes-all
 make no-lib
 sudo make mpi -j4
 ```
-`make ps`是显示安装包的状态；`make yes-all`是安装所有包；`make-no-lib`是不安装有外链的包；
+`make ps`是显示安装包的状态；`make yes-all`是安装所有包；`make no-lib`是不安装有外链的包；
 
 如果显示如下则证明安装成功，如果报错了，请仔细检查上面的步骤，如果有必要，请在/lammps/lammps-22Aug18/src中执行`make clean-all`（或`make clean-openmpi`？），清理一下，然后再来一次。
 ```

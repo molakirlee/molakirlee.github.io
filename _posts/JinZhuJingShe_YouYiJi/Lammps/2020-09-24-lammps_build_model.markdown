@@ -14,6 +14,10 @@ tags:
 
 ---
 
+![三种常用的模型构建策略路线图](https://www.cailiaoren.com/_file/210211/163351_4841.png)
+
+
+
 ### 用VMD转换data文件
 参见博文《VMD在LAMMPS中的应用》
 
@@ -33,6 +37,14 @@ Example可参见：http://www.moltemplate.org/visual_examples.html
 1. 编写system.lt文件。其中包括了导入lipid.lt与water.lt的信息以及对全系统的处理，如：分别导入多少个lipid分子、多少个water分子，lipid分子中原子与water分子中原子的非键相互作用参数等。
 1. 用moltemplate来基于system.xyz和system.lt生成`moltemplate.sh -xyz system.xyz system.lt`。
 
+### [pysimm：Python Simulation Interface for Molecular Modeling](https://pysimm.org/)
+基于python的lammps建模和模拟工具，主要适用于Dreiding和GAFF2力场（需要USER-MISC ，但是[这个package已经不复存在了(https://matsci.org/t/user-misc/64008)），v1.1也支持charrm力场了，看repository里也有pcff力场。建模靠一个个添加原子或.mol格式文件，聚合物里面只有PE等少数单体的，如果自己特异性的话需要单独编写然后放到monomers文件夹里。
+
+1. [PySIMM tutorial paper:describes best practices of work with PySIMM and particularly discusses the construction of polymer chains with specific tacticity](https://github.com/AlleksD/pysimm_lcms_guide)
+1. [建模及计算实例](https://github.com/polysimtools/pysimm/tree/stable/Examples)
+1. []()
+
+
 ### msi2lmp
 见[《LAMMPS MS生成lmp输入文件 msi2lmp》](https://molakirlee.github.io/2020/12/06/lammps_msi2lmp/)
 
@@ -48,12 +60,11 @@ Example可参见：http://www.moltemplate.org/visual_examples.html
 
 参考资料：[将分子填充到现有的结构中](https://www.bilibili.com/opus/721190975565725729)
 
-
 ### 参考：
 1. [个人总结导出data的方法](http://www.isimuly.cn/forum.php?mod=viewthread&tid=438&extra=page%3D6)
 1. [msi2lmp的使用方法和晶体结构转化详解](http://dxli75.blog.163.com/blog/static/1067682892010419795847/)
 1. [LAMMPS data文件创建工具--moltemplate](https://zhuanlan.zhihu.com/p/99872512)
 1. [lammps和gromacs聚合物建模的方法](http://bbs.keinsci.com/thread-18520-1-1.html)
-
+1. [Lammps data文件建模格式转换进阶：II](https://www.cailiaoren.com/m_zl_detail.php?dbid=113)
 
 ![](/img/wc-tail.GIF)

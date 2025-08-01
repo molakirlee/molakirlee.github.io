@@ -29,7 +29,11 @@ boundary     p p s
 ```
 
 ###### kspace
-对于非周期性体系，长程COU的计算也需要modify，不能仅仅指定`kspace_style`。对于`p p f`的体系而言，kspace部分应做如下修改：  
+1. wall只能用在非周期边界上，但pppm除一种情况外只能用于全周期性条件，The only exception is if the slab option is set with kspace_modify,，参见：[kspace_style command](https://docs.lammps.org/kspace_style.html)
+1. 对于非周期性体系，长程COU的计算也需要modify，不能仅仅指定`kspace_style`。对于`p p f`的体系而言，kspace部分应做如下修改：  
+1. *建模时在壁面方向不能有跨周期的原子，比如Fe等基底*
+1. npt不能采用该方法，因为npt必须是周期性的（`Cannot use fix npt on a non-periodic z dimension`）
+
 ```
 boundary        p p f
 pair_style      lj/charmmfsw/coul/long 11 12
@@ -50,6 +54,31 @@ Bound the simulation domain on one or more of its faces with a flat wall that in
 fix wall1 all wall/lj126 zlo EDGE 0.1 1.0 2.5
 fix wall2 all wall/lj126 zhi EDGE 0.1 1.0 2.5
 ```
+
+
+### 非平面wall
+下面代码设置墙按正弦曲线运动，实现震动效果：
+
+```
+units       lj
+atom_style  atomic
+boundary    f f f
+region      box block 0 30 0 30 0 30 units box
+create_box 1 box
+region      top block INF INF INF INF 10 INF units box
+create_atoms 1 random 150 8989 top
+mass 1 1
+velocity    all create 1 9898
+variable wiggle equal swiggle(10,8.0,8.0)
+fix zwalls1 all wall/reflect zlo v_wiggle
+dump  1 all atom 100 dump.xyz
+fix  1 all nve
+run 10000
+```
+
+效果为：
+![](https://vdn3.vzuu.com/SD/98c958a8-ffd2-11eb-9364-a6582d929f33.mp4?auth_key=1753477994-0-0-aee4832cecebb8d596a09abe3304ba74&bu=078babd7&c=avc.0.0&disable_local_cache=1&expiration=1753477994&f=mp4&pu=078babd7&v=tx)
+
 
 ### 通过压缩壁面控制体系密度
 ###### soft势
@@ -85,6 +114,6 @@ pair_coeff     * * 0.112 4.01
 ### 参考资料
 1. [moltemplate导出模型密度控制2.0](https://blog.csdn.net/qyb19970829/article/details/105189427)
 2. [Liquid/Solid Surface-02](https://blog.csdn.net/qyb19970829/article/details/107012939)
-3. 
+3. [fix wall/reflect命令实现“振动墙”效果](https://zhuanlan.zhihu.com/p/400972463)
 
 ![](/img/wc-tail.GIF)

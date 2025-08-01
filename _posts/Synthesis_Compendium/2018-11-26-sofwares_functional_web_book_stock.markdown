@@ -90,6 +90,8 @@ tags:
 ###### PDF
 1. [PDF处理](https://pdfreal.com/)
 1. [PDF压缩:pdfshrinker](https://github.com/ocdi/PdfShrinker/releases/tag/v0.2):1)路径不要有中文名；2)ebook这个档压缩效果明显，而且画质损失也比较小
+1. [Belin Doc一键完成高质量文档翻译](https://belindoc.com/zh)
+
 
 ###### 办公套件
 1. [Tinywow工具箱](https://tinywow.com/)
