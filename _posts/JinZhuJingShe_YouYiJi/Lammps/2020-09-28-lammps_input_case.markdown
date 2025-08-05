@@ -131,6 +131,7 @@ write_restart final.restart
 
 ### Case
 1. [run.in.case](https://molakirlee.github.io/attachment/lammps/run.in.case)
+1. [run.in.case](https://molakirlee.github.io/attachment/lammps/in_Files.rar)
 
 
 ![](/img/wc-tail.GIF)
