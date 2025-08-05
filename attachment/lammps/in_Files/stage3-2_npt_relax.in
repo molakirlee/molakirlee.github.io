@@ -1,0 +1,126 @@
+variable I_Dir     string "npt_final"
+variable O_Dir     string "relax"
+variable inname    string "polymer_add2_stage_NPTfinal"
+variable OF_prefix string "polymer_add2"
+variable suffix    string ""
+variable Nstage    string "_relax"
+
+variable OF_basename string ${OF_prefix}${suffix}_stage${Nstage}
+shell mkdir ${O_Dir}
+log ${O_Dir}/${OF_basename}.log
+
+
+
+################## Initialization ##################
+units			real
+boundary		p p p 
+dimension		3 
+
+atom_style		full
+bond_style		class2
+angle_style		class2
+dihedral_style	class2
+improper_style	class2
+
+pair_style		lj/class2/coul/long 12.0
+kspace_style pppm 1.0e-4
+
+
+# ===== Set Perioic only for XY ========
+#boundary		p p f 
+#pair_style		lj/class2/coul/long 12.0
+#kspace_style pppm 1.0e-4
+#kspace_modify slab 3.0
+
+
+################## Model ##################
+read_data            ${I_Dir}/${inname}.data
+#read_restart		${O_Dir}/${OF_basename}.restart.700000
+
+# ========== 原子组设置 ==========
+#group Fe type 1
+#group mobile subtract all Fe
+
+
+# ========== WALL ==========
+##variable Z_top equal zhi+1
+#fix				zwalls all  wall/reflect zlo EDGE zhi EDGE
+#fix				zwalls mobile  wall/reflect zlo EDGE zhi EDGE
+##fix				zwalls mobile  wall/reflect zlo EDGE zhi ${Z_top}
+
+
+
+################## NPT模拟 ##################
+# ========= 设置温度 =========
+variable TI equal 300.0
+variable TF equal 300.0
+variable P equal 1.0
+
+# ========= 创建速度分布 =========
+#reset_atom_ids # 如果data文件中原子ID不从1开始的话生成速率时会报错
+#velocity mobile create $T 12345 dist gaussian
+velocity all    create ${TI} 12345 dist gaussian
+
+# ========== 冻结Fe原子 ==========
+#fix freeze Fe setforce 0.0 0.0 0.0
+#velocity Fe set 0.0 0.0 0.0
+
+# ========= 设置积分器和控/压控 =========
+#fix nvt mobile nvt temp $T $T 100.0 
+#fix nvt all nvt temp $T $T 100.0 
+fix npt all npt temp ${TI} ${TF} 100.0 x $P $P 1000.0 y $P $P 1000.0 drag 2.0
+
+# ========= 输出设置 =========
+variable Num_step   equal 3000
+variable ts         equal 1
+variable Num_step_e equal ${Num_step}*5
+variable Num_ther   equal ${Num_step}/100
+variable Num_dump   equal ${Num_step}/20
+variable Num_temp   equal ${Num_step}/5
+variable Num_defm   equal 50
+
+# ------ Thermo ------
+thermo                 ${Num_ther}
+thermo_style    custom step temp pxx pyy pzz ebond eangle edihed eimp epair ecoul evdwl pe ke etotal lx ly lz vol density
+
+
+# ========= 运行NPT模拟 =========
+timestep ${ts}
+
+# --------- 1. Compress ---------
+dump dump_trj all custom  ${Num_dump} ${O_Dir}/${OF_basename}.lammpstrj id mol element xu yu zu                    
+dump_modify dump_trj element Fe C C H C C N O H CP O H C C OC O O Ca Cl OW HW
+dump_modify dump_trj sort id
+
+restart         ${Num_temp} ${O_Dir}/${OF_basename}.restart
+#fix df all    deform ${Num_defm} z erate -1e-4 units box remap x
+fix df all    deform ${Num_defm}  z final 0.0 25 units box remap x
+run ${Num_step}
+write_data            ${O_Dir}/${OF_basename}_1.data
+
+unfix df
+unfix  npt
+reset_timestep 0
+
+# --------- 2. Equilibrium ---------
+fix npt all npt temp ${TI} ${TF} 100.0 x $P $P 1000.0 y $P $P 1000.0 drag 2.0
+run ${Num_step_e}
+write_data            ${O_Dir}/${OF_basename}_2.data
+
+unfix  npt
+reset_timestep 0
+
+# --------- 3. Relax ---------
+#fix df all    deform ${Num_defm} z erate 1e-4 units box remap x
+fix df all    deform ${Num_defm}  z final 0.0 33.8426264 units box remap x
+fix npt all npt temp ${TI} ${TF} 100.0 x $P $P 1000.0 y $P $P 1000.0 drag 2.0
+run ${Num_step}
+write_data            ${O_Dir}/${OF_basename}_3.data
+
+
+ 
+ 
+################## 删除多余的restart文件 ##################
+shell cd ${O_Dir}
+shell bash ../clean_restart_files.sh
+shell cd ..

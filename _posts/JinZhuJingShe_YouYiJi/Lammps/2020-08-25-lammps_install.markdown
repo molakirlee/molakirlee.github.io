@@ -95,7 +95,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted
 1. `cd lammps-2Aug2023/ #不同版本的发布时间不同，当前最新稳定版为2023年8月2日发布的版本`
 1. `mkdir build`
 1. `cd build`
-1. `cmake -C ../cmake/presets/basic.cmake -D PKG_OPENMP=yes -D PKG_GPU=on -D GPU_API=cuda -D GPU_ARCH=sm_80 ../cmake`，其中GPU_ARCH为GPU架构型号，可通过`nvidia-smi -q | grep Architecture`，显示`Architecture: 75`,然后查询对应数字；`/basic.cmake` 中有如MOLECULE , MANYBODY等包，但`CLASS2`等需要额外添加。
+1. `cmake -C ../cmake/presets/basic.cmake -D PKG_OPENMP=yes -D PKG_GPU=on -D GPU_API=cuda -D GPU_ARCH=sm_80 ../cmake`，其中GPU_ARCH为GPU架构型号，可通过`nvidia-smi -q | grep Architecture`，显示`Architecture: 75`,或显示Ampere然后查询对应数字是80/86；`/basic.cmake` 中有如MOLECULE , MANYBODY等包，但`CLASS2` `REACTION`等需要额外添加（以后用的时候发现缺啥了就回来加上以后重新cmake）。
 1. `make -j 4`，如果不添加数字则默认最大，会因为内存不够而失败
 1. `make install`
 1. `vim .bashrc`并添加 `export PATH=/home/skywalker/lammps-2Aug2023/build:$PATH`后`source .bashrc`

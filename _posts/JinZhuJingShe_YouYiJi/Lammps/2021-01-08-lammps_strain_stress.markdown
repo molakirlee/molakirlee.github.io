@@ -79,21 +79,24 @@ fix  1 boundary setforce 0.0 0.0 0.0
 
 #------------6 应力应变计算设置--------------------------------
 # 应力
+# 
+# 计算的是每个原子的xx和yy应力张量（compute stress/atom command creates a per-atom array with six columns）
 compute    1 all stress/atom NULL
+# 对所有原子的c_1[1]（xx 方向正应力）和c_1[2]（yy 方向正应力）分别进行求和
 compute    2 all reduce sum c_1[1] c_1[2]
-variable   CorVol equal ly*lx*3.35
-#variable   sigmaxx equal c_2[1]/(v_CorVol*10000)
+variable   CorVol equal ly*lx*3.35 # 体积等于长X宽X高,因为是二维一层原子，所以高为单层原子的晶格长度（单层石墨烯的厚度为0.335nm）
+#variable   sigmaxx equal c_2[1]/(v_CorVol*10000)  # 在units metal下，除以10000将应力单位转换为GPa
 variable   sigmayy equal c_2[2]/(v_CorVol*10000)
 #variable px equal -pxx/10000
 variable py equal -pyy/10000
 #应变
 #variable l_x equal lx
 #variable lx0 equal ${l_x}
-#variable strainx equal (lx-v_lx0)/v_lx0
+#variable strainx equal (lx-v_lx0)/v_lx0  # 此处用v_lx0和使用${lx0}效果一样，前者是引用，后者是赋值
 
 #variable l_y equal ly
 #variable ly0 equal ${l_y}
-#variable strainy equal (ly-v_ly0)/v_ly0
+#variable strainy equal (ly-v_ly0)/v_ly0   
 compute 3 upper displace/atom
 compute 4 upper reduce ave c_3[4]
 variable strain equal c_4/110
@@ -149,5 +152,6 @@ run  10000
 1. [LAMMPS做拉伸与剪切](https://lammps.org.cn/zh/column/nemd/deform.html#%E6%8B%89%E4%BC%B8%E4%B8%8E%E5%8E%8B%E7%BC%A9)
 1. [lammps案例分享：聚乙烯拉伸过程分子动力学模拟](https://zhuanlan.zhihu.com/p/339879645)
 1. [lammps案例：SiC拉伸下的裂纹扩展](https://zhuanlan.zhihu.com/p/338870131)
+1. [Mississippi State University：LAMMPS Nanowire Deformation](https://www.cavs.msstate.edu/icme/code/lammps/tutorials/lammps/nanowire.php)
 
 ![](/img/wc-tail.GIF)
