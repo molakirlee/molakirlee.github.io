@@ -451,6 +451,8 @@ git config --global --unset https.proxy
 ### 更新20250307
 链接到html文件的时候，发现放在`_posts`里的文件上传成功后加载显示404，去掉下划线就好了（即句首下划线会影响网址的链接），所以把`_posts`、`_includes`和`_layouts`都去掉了下划线，结果直接乱码了，后来才意识到下划线不是自己加的而是框架默认的。
 
+### 更新20250806
+将所有的文章的attachment都移动到Blog_Attachment_A这个repository里了，方便单独管理，重新连接的时候一直要tocken，折腾半天发现用git bash登录的一次就好了，节省时间就不一篇篇修改链接了，等回头用到哪篇再修改吧。
 
 
 

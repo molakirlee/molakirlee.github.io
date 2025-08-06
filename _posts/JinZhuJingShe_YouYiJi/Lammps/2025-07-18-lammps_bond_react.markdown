@@ -55,7 +55,7 @@ lmp -in run.bond
 
 
 ### xilock示例
-1. [示例文件](https://github.com/molakirlee/Blog_Attachment_A/blob/main/lammps/AutoMapper_xilockCase.rar)
+1. [示例文件](https://github.com/molakirlee/Blog_Attachment_A/blob/main/lammps/AutoMapper_xilockCase_reverse.rar)
 1. 在MS中将成键分子的结构画出来，然后将该分子在同一个文件中复制后改成断键的结构，一同导出成data文件。
 1. 在ovito中只保留断键前、断键后的分子结构，分别导出成bonded.data和unbond_r1.data。
 1. bonded.data、unbond_r1.data和system.in.settings文件放到automapper.py所在文件夹下，system.in.settings必须给二元交互的而非每个原子/成键/键角类型，如果没有可以先用示例中的，最后run之前在data文件中修改过来即可。
