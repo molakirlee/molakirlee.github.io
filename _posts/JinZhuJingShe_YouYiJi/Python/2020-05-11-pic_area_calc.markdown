@@ -26,7 +26,7 @@ tags:
 Xilock在case中采用了两种方法：
 1. 灰度阈值+中值滤波+轮廓描绘
 1. 大津法(OSTU)+轮廓描绘
-具体参见：[利用灰度法计算覆盖面积](https://molakirlee.github.io/attachment/python/case1_single_color_peak.rar)  
+具体参见：[利用灰度法计算覆盖面积](https://github.com/molakirlee/Blog_Attachment_A/blob/main/python/case1_single_color_peak.rar)  
 
 参考资料：
 1. [python + openCV 实现图像轮廓识别和面积计算](https://blog.csdn.net/whymeYan/article/details/78856964)

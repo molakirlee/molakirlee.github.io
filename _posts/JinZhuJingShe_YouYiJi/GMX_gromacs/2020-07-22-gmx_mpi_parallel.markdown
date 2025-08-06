@@ -171,7 +171,7 @@ mpirun -np 16 gmx_mpi mdrun -ntomp 4 -npme 4
 
 
 ### 相关下载：  
-1. [gmxmpi_xilock.bsh](http://molakirlee.github.io/attachment/gmx/gmxmpi_xilock.bsh)
+1. [gmxmpi_xilock.bsh](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/gmxmpi_xilock.bsh)
 
 
 ![](/img/wc-tail.GIF)

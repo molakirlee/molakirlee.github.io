@@ -149,7 +149,7 @@ explained below.
 
 
 ##### 其它资料
-[浙江大学集群使用教程](https://molakirlee.github.io/attachment/cluster_ZheJiangUniversity.ppt)
+[浙江大学集群使用教程](https://github.com/molakirlee/Blog_Attachment_A/blob/main/cluster_ZheJiangUniversity.ppt)
 
 
 ![](/img/wc-tail.GIF)

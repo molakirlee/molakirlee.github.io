@@ -20,7 +20,7 @@ tags:
 [LabVIEW 学习札记](ftp://ftp.ni.com/pub/branches/china/LabVIEWLearningII.pdf)
 
 推荐书籍：《Labview2018虚拟仪器程序设计第2版》毛琼、王敏等编著  
-![](/attachment/Labview/book1.jpg)
+![](https://github.com/molakirlee/Blog_Attachment_A/blob/main/Labview/book1.jpg)
 
 
 ![](/img/wc-tail.GIF)

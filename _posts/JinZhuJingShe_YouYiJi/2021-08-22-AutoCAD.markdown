@@ -16,7 +16,7 @@ tags:
 
 
 ### 问题
-1. [cad闪退的解决办法](https://molakirlee.github.io/attachment/cad/cad_crash.pdf)
+1. [cad闪退的解决办法](https://github.com/molakirlee/Blog_Attachment_A/blob/main/cad/cad_crash.pdf)
 
 
 ![](/img/wc-tail.GIF)

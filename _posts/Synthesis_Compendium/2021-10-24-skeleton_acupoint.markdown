@@ -15,10 +15,10 @@ tags:
 ---
 
 ### 人体骨骼
-1. [人体骨骼](https://molakirlee.github.io/attachment/!collect/skeleton.html)
+1. [人体骨骼](https://github.com/molakirlee/Blog_Attachment_A/blob/main/!collect/skeleton.html)
 
 ### 人体经络
-1. [人体经络](https://molakirlee.github.io/attachment/!collect/acupoint.html)
+1. [人体经络](https://github.com/molakirlee/Blog_Attachment_A/blob/main/!collect/acupoint.html)
 1. [人体经络2](https://www.163.com/dy/article/F77SITLE05382VS5.html)
 
 

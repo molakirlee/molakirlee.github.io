@@ -31,10 +31,10 @@ As discussed in Methods, unavoidable changes in the optical path occur when the 
 
 ### Data Analysis
 Matlab code modified by XiLock: `sg`, `dg`, `uu` to analyze. 
-[下载链接](https://molakirlee.github.io/attachment/sfa/matlab_code_Xilock.rar)
+[下载链接](https://github.com/molakirlee/Blog_Attachment_A/blob/main/sfa/matlab_code_Xilock.rar)
 
 Excel Model:  
-[SFA_Data_Analysis_Model_12_20_50_sample](https://molakirlee.github.io/attachment/sfa/SFA_Data_Analysis_Model_sample_12_20_50.zip)  
+[SFA_Data_Analysis_Model_12_20_50_sample](https://github.com/molakirlee/Blog_Attachment_A/blob/main/sfa/SFA_Data_Analysis_Model_sample_12_20_50.zip)  
 
 ### Server of Jing's Lab
 This is the shared network path: \\155.69.43.195\JingGroupSite   

@@ -363,10 +363,10 @@ df_hbdZ.to_csv(sys.argv[4])
 
 
 ### 相关下载：
-1. [氢键计算: get_hbonds.py](http://molakirlee.github.io/attachment/gmx/hbond/get_hbonds.py)
-1. [氢键histogram: get_hbond_cnt.py](http://molakirlee.github.io/attachment/gmx/hbond/get_hbond_cnt.py)
-1. [多链分离: sep.py](http://molakirlee.github.io/attachment/gmx/hbond/sep.py)
-1. [氢键沿z轴分布: get_hbonds_density_in_z.py](http://molakirlee.github.io/attachment/gmx/hbond/get_hbonds_density_in_z.py)
+1. [氢键计算: get_hbonds.py](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/hbond/get_hbonds.py)
+1. [氢键histogram: get_hbond_cnt.py](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/hbond/get_hbond_cnt.py)
+1. [多链分离: sep.py](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/hbond/sep.py)
+1. [氢键沿z轴分布: get_hbonds_density_in_z.py](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/hbond/get_hbonds_density_in_z.py)
 1. [Sob:计算不同z位置水能形成氢键数的VMD Tcl脚本](http://sobereva.com/54)
 
 ![](/img/wc-tail.GIF)

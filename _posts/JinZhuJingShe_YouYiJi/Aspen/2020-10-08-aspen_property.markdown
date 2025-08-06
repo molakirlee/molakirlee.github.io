@@ -16,8 +16,8 @@ tags:
 ---
 
 ###### Aspen Help文件
-1. Aspen help文件：[Aspen 8.4 Property Methods](https://molakirlee.github.io/attachment/aspen/Aspen_8p4_PropertyMethods.pdf)
-1. Aspen help文件：[Aspen 8.4 Property Methods](https://molakirlee.github.io/attachment/aspen/AspenPhysPropMethodsV12-Ref.pdf)
+1. Aspen help文件：[Aspen 8.4 Property Methods](https://github.com/molakirlee/Blog_Attachment_A/blob/main/aspen/Aspen_8p4_PropertyMethods.pdf)
+1. Aspen help文件：[Aspen 8.4 Property Methods](https://github.com/molakirlee/Blog_Attachment_A/blob/main/aspen/AspenPhysPropMethodsV12-Ref.pdf)
 
 
 ###### 物性方法选择
@@ -48,7 +48,7 @@ tags:
 1. 对于Pure Component Temperature Dependent Properties而言，“If  parameters are available for more than one equation, the Aspen Physical Property System uses the parameters that were entered or retrieved first from the databanks. ”即：同一参数可通过多种方法计算时，以手输入的和retrieved的优先，比如如果你NIST里save了计算密度的数据（DNLEXSAT，NIST TDE expansion，504），` THRSWT/2`即便设置成105也会用NIST的数据计算。可参见《Aspen Physical Property System - Physical Property Methods and Models》
 
 ###### 物性估算
-1. [物性估算在 ASPEN PLUS软件中的应用](https://molakirlee.github.io/attachment/aspen/aspen_property_estimation.PDF)
+1. [物性估算在 ASPEN PLUS软件中的应用](https://github.com/molakirlee/Blog_Attachment_A/blob/main/aspen/aspen_property_estimation.PDF)
 1. [Aspen入门篇4—物性方法选择及物性估算](https://www.jianshu.com/p/04ad791aa339)
 
 ###### 二元相互作用参数估算 

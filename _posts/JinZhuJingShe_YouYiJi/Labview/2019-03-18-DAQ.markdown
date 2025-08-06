@@ -41,8 +41,8 @@ Visit http://www.ni.com/support, our award-winning Web Support Site, for a range
 如果不希望信号采集之初为非零值，则可扣除最初的非零值，但这只是表象，参见后面信号输出时的清零和重置问题。  
 ![信号采集时扣除初值](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/clear_initial_data.png)  
 
-[电压信号采集-实例-XiLock](https://molakirlee.github.io/attachment/Labview/Voltage_Input_Super.vi)  
-[电压信号采集-扣除非零初值实例-XiLock](https://molakirlee.github.io/attachment/Labview/Voltage_Input-Clear_initial_data.vi)  
+[电压信号采集-实例-XiLock](https://github.com/molakirlee/Blog_Attachment_A/blob/main/Labview/Voltage_Input_Super.vi)  
+[电压信号采集-扣除非零初值实例-XiLock](https://github.com/molakirlee/Blog_Attachment_A/blob/main/Labview/Voltage_Input-Clear_initial_data.vi)  
 注：  
 1. 一个板卡同类型任务只能一个；  
 1. 所有插在compactDAQ机箱上的模块都共享一个背板上的时钟clock，即使各模块设定了不同的采样频率，所有模块实际上仍是用一个最快的采样频率，所以可以通过“条件输出”的方式控制输出频率，如i为10的倍数时才输出，详见上面的例子。  
@@ -61,12 +61,12 @@ Labview输出信号时，在输出完信号停止之后**不会自动清零或�
 要注意的是，突然终止程序(Abort)不能起到清零/重置的效果，只有点击Stop才有效果。下图同时给出两种解决方案的具体程序：  
 ![停止信号输出时清零/重置信号](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/reset_output_signal_after_stop.png)  
 
-详见：[带信号清零的电压信号输出-实例-XiLock](https://molakirlee.github.io/attachment/Labview/Voltage_Continuous_Output-Clear_data_when_stop.vi)  
+详见：[带信号清零的电压信号输出-实例-XiLock](https://github.com/molakirlee/Blog_Attachment_A/blob/main/Labview/Voltage_Continuous_Output-Clear_data_when_stop.vi)  
 
 若需要多通道同时输出信号则可参考下图：  
 ![多通道信号输出](/img/in-post/《斤竹精舍-游艺集》/2019-02-08-DAQ/muti_channel_output.jpg)  
 
-程序则可参见[多通道电压信号输出-实例-XiLock](https://molakirlee.github.io/attachment/Labview/Multi_channel_Voltage_Continuous_Output.vi)  
+程序则可参见[多通道电压信号输出-实例-XiLock](https://github.com/molakirlee/Blog_Attachment_A/blob/main/Labview/Multi_channel_Voltage_Continuous_Output.vi)  
 
 注：  
 1. Sample at least 10 times signal frequency.  

@@ -183,7 +183,7 @@ prepend-path PATH            $root/bin
 
 
 ## 入门级使用教程
-1. [A simple guide to Gromacs 5](https://molakirlee.github.io/attachment/gmx/gromacs_tutorial_v5.pdf)  
+1. [A simple guide to Gromacs 5](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/gromacs_tutorial_v5.pdf)  
 1. [Molecular Dynamics Simulations in GROMACS Project report](http://folk.ntnu.no/preisig/HAP_Specials/AdvancedSimulation_files/2017/project%20reports/MolecularDynamics/Jan%20Schulze%20-%20MD_Report_final.pdf)  
 
 ## 其他
@@ -196,7 +196,7 @@ RIGHT: export DSSP=/opt/bin/dssp
 也可以在[这里](https://swift.cmbi.umcn.nl/gv/dssp/)下载dssp，但没弄明白怎么安装。  
 
 对于linux版的gromacs,'gmx do_dssp'假定dssp可执行程序的路径为/usr/local/bin/dssp. 如果不是, 那么需要设置环境变量DSSP, 并将其指向dssp可执行程序的路径, 例如setenv DSSP /opt/dssp/bin/dssp. 如果使用bash, 可使用export DSSP='/opt/dssp/bin/dssp', 也可以直接将该变量加到bash的配置文件中。
-对于win版的gromacs，调用[dssp](https://molakirlee.github.io/attachment/gmx/dssp-2.0.4-win32.exe)时需要新建一个名为DSSP的系统环境变量，值设置为E:\dssp-2.0.4.exe，指向dssp文件。
+对于win版的gromacs，调用[dssp](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/dssp-2.0.4-win32.exe)时需要新建一个名为DSSP的系统环境变量，值设置为E:\dssp-2.0.4.exe，指向dssp文件。
 
 ### Q&A
 ###### cmake阶段The C compiler identification is GNU 4.4.7/unknown

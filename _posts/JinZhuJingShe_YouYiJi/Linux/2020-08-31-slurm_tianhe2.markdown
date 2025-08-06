@@ -107,8 +107,8 @@ mpirun -np 2 gmx_mpi mdrun -v -deffnm $1 -ntomp 12
 that were requested by the application），如果申请多了则会变成一个任务跑多次。如上例，申请2个任务，每个任务分配24个核，后面mpirun时则是调用2个任务，每个分配12个openmpi。
 
 ###### Attachments
-1. [job_gmx2019.slurm](https://molakirlee.github.io/attachment/linux/job_gmx2019.slurm)
-1. [job_vasp.slurm](https://molakirlee.github.io/attachment/linux/job_vasp.slurm)
+1. [job_gmx2019.slurm](https://github.com/molakirlee/Blog_Attachment_A/blob/main/linux/job_gmx2019.slurm)
+1. [job_vasp.slurm](https://github.com/molakirlee/Blog_Attachment_A/blob/main/linux/job_vasp.slurm)
 
 ### 参考资料
 1. [单个节点上提交多个作业](https://blog.chembiosim.com/task-manage-in-Tianhe2/)

@@ -21,7 +21,7 @@ tags:
 
 ###### gromacs2lammps：
 1. [From GROMACS to LAMMPS: GRO2LAM](https://link.springer.com/article/10.1007/s00894-019-4011-x)
-1. [From GROMACS to LAMMPS: GRO2LAM - PDF ](http://molakirlee.github.io/attachment/gmx/JMM2019_Article_FromGROMACSToLAMMPSGRO2LAM.pdf)
+1. [From GROMACS to LAMMPS: GRO2LAM - PDF ](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/JMM2019_Article_FromGROMACSToLAMMPSGRO2LAM.pdf)
 1. [From GROMACS to LAMMPS: GRO2LAM - GitHub ](https://github.com/hernanchavezthielemann/GRO2LAM)
 
 ###### Desmond<=>Gromacs<=>Lammps 

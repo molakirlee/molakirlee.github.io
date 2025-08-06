@@ -148,9 +148,9 @@ if __name__ == "__main__":
 
 
 ###### 附件
-1. [dataAnalysis_v5.py](https://molakirlee.github.io/attachment/python/2024-06-21-matrix_least_square/dataAnalysis_v5.py)
-1. [dataTest_Table3](https://molakirlee.github.io/attachment/python/2024-06-21-matrix_least_square/dataTest_Table3.xlsx)
-1. [dataTest_Table4](https://molakirlee.github.io/attachment/python/2024-06-21-matrix_least_square/dataTest_Table4.xlsx)
+1. [dataAnalysis_v5.py](https://github.com/molakirlee/Blog_Attachment_A/blob/main/python/2024-06-21-matrix_least_square/dataAnalysis_v5.py)
+1. [dataTest_Table3](https://github.com/molakirlee/Blog_Attachment_A/blob/main/python/2024-06-21-matrix_least_square/dataTest_Table3.xlsx)
+1. [dataTest_Table4](https://github.com/molakirlee/Blog_Attachment_A/blob/main/python/2024-06-21-matrix_least_square/dataTest_Table4.xlsx)
 1. []()
 
 

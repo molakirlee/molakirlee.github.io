@@ -101,7 +101,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted
 1. `vim .bashrc`并添加 `export PATH=/home/skywalker/lammps-2Aug2023/build:$PATH`后`source .bashrc`
 
 
-GPU_ARCH的参数参考:
+GPU_ARCH的参数参考:[Packages with extra build options](https://docs.lammps.org/Build_extras.html)
 ```
 sm_30 for Kepler (supported since CUDA 5 and until CUDA 10.x)
 sm_35 or sm_37 for Kepler (supported since CUDA 5 and until CUDA 11.x)

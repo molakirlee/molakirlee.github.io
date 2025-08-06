@@ -86,7 +86,7 @@ lig=BEC							# 配体索引组
 将trj、tpr、ndx等变量指向相应文件，将com、pro、lig指向ndx文件中相应的索引组。
 
 其他参数主要是力场类型、极性参数、非极性参数、网格无关性，这些参数一般无需更改太多。  
-此处链接为不同网格情况下PB的差异：[链接](https://molakirlee.github.io/attachment/gmx/gmxmmpbsa_test.xlsx)
+此处链接为不同网格情况下PB的差异：[链接](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/gmxmmpbsa_test.xlsx)
 总体而言，df小于0.2,fadd=20,cfac=2时PB变化已经较小。对于测试结果，Jerwin老师说：
 1. df=0.11太小了, 不太具有实用性, 因为我们测试的这个蛋白只有200个残基, 比较小, 还可以用比较小的df, 对大的蛋白不可能使用很小的df，除非使用并行的apbs, 这样对蛋白大小没限制；
 1. 小体系可以本机算, 大体系只能用集群算；

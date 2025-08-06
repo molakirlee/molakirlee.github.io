@@ -59,6 +59,6 @@ done
 ```
 
 ### 脚本链接
-参见[链接](https://molakirlee.github.io/attachment/gmx/Calculate_Diffusion_Ceofficient_of_Cacium_ions.sh)
+参见[链接](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/Calculate_Diffusion_Ceofficient_of_Cacium_ions.sh)
 
 ![](/img/wc-tail.GIF)

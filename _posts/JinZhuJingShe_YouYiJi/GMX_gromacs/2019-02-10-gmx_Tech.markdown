@@ -58,7 +58,7 @@ gmx pdb2gmx -f 5miz.pdb -ignh -o insulin.gro -p insulin.top -glu -ss -merge all 
 #### 盐桥计算
 用gromacs的盐桥计算基本算不动，所以Xilock用VMD进行盐桥计算，因为载入的gro文件识别不了链，所以会提示不unique（即便之间index文件里面有分类），转换成pdb文件并标注链后则能区分是相同链还是不同链之间形成盐桥（链标识只能是一个字符单位）。  
 生成的文件包括所有存在过盐桥的位置以及距离随时间的关系，为dat文件，也可以额外生成一个汇总的Log文件，但log文件里只有位点没有距离随时间的关系。  
-若想得到每一时刻可能存在的盐桥数量则可以用这个[matlab脚本](https://molakirlee.github.io/attachment/gmx/Matlab_cal_salt_bridge.m)，将该脚本与所有的dat文件放在同一文件夹下运行，则脚本会自动筛选出属于同一条链的盐桥并将其距离随时间的关系拼合到同一个xls文件中。  
+若想得到每一时刻可能存在的盐桥数量则可以用这个[matlab脚本](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/Matlab_cal_salt_bridge.m)，将该脚本与所有的dat文件放在同一文件夹下运行，则脚本会自动筛选出属于同一条链的盐桥并将其距离随时间的关系拼合到同一个xls文件中。  
 
 #### 提取轨迹中某一帧  
 ```

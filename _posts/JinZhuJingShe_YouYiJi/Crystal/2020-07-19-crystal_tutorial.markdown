@@ -89,7 +89,7 @@ The present version of J-ICE can deal with CRYSTAL17 (as well as previous versio
 ## 参考资料：
 ###### tutorial
 1. [Introductory Tutorials](http://tutorials.crystalsolutions.eu/tutorial.html?td=barebone&tf=basic_tutorials)
-1. [Manual](https://molakirlee.github.io/attachment/crystal/crystal14.pdf)
+1. [Manual](https://github.com/molakirlee/Blog_Attachment_A/blob/main/crystal/crystal14.pdf)
 ###### geometry input
 1. [CRYSTAL geometry input](http://tutorials.crystalsolutions.eu/tutorial.html?td=geometry&tf=geom_tut)
 1. [结构输入输出算例 List of CRYSTAL geometry input examples](http://tutorials.crystalsolutions.eu/tutorial.html?td=geometry&tf=list) 

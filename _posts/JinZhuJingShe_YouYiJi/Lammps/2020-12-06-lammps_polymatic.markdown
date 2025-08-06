@@ -39,7 +39,7 @@ use lib '/THFS/home/huse_fx/Desktop/polymatic_v1.1';
 把XML目录拷贝到家目录下的perl5/lib/perl5下就行了？（实测是拷到提示的路径，比如将XML拷贝到上面`use lib`指向的路径里）。
 
 
-1. [perl5.rar](https://molakirlee.github.io/attachment/lammps/perl5.rar)
+1. [perl5.rar](https://github.com/molakirlee/Blog_Attachment_A/blob/main/lammps/perl5.rar)
 
 ### 参考资料
 1. [http://www2.matse.psu.edu/colinagroup/research/polymatic.shtml](http://www2.matse.psu.edu/colinagroup/research/polymatic.shtml)

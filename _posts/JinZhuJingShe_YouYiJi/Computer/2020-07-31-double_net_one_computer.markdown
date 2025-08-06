@@ -30,11 +30,11 @@ tags:
 1. 用 `route print` 来检查配置完的路由器表。
 
 使用实验室路由器连接外网配置：  
-![](/attachment/computer/dinet_lab_route.png)  
+![](https://github.com/molakirlee/Blog_Attachment_A/blob/main/computer/dinet_lab_route.png)  
 1. 第一行，192.168.1.101为实验室路由器给PC分配的ip地址，当接收到一个数据包的目的网段不在路由记录中（需要走缺省路由时），该数据包通过 192.168.1.101这个接口发送到192.168.1.1这个地址，192.168.1.1是路由器的网关，也就是下一个路由器（学校的路由器）的一个接口，这样这个数据包就可以交付给下一个路由器处理。
 
 使用tju连接外网配置：  
-![](/attachment/computer/dinet_tju.png)
+![](https://github.com/molakirlee/Blog_Attachment_A/blob/main/computer/dinet_tju.png)
 1. 第二行，11.168.1.100为内网路由器（连服务器的内网路由器）给PC分配的ip地址，当接收到在11.0.0.0网段的数据包时，该数据包通过11.168.1.100这个接口发送到11.11.11.109，11.11.11.109为内网路由器的网关，也是跟服务器连接的接口。
 
 ### 因路由器表变动而无法联网
@@ -53,7 +53,7 @@ goto start
 
 
 ### 路由器连接
-![](/attachment/computer/dinet_router_link.png)  
+![](https://github.com/molakirlee/Blog_Attachment_A/blob/main/computer/dinet_router_link.png)  
 1. Cluster Router所控nodes的ip范围为11.11.11.1-9；
 1. Router B不接WAN口且关闭DHCP，只利用其交换机功能；
 1. 利用Router B的交换机功能对外网端口进行1分多，各端口均等效；
@@ -70,10 +70,10 @@ goto start
 1. LAN到WAN称为网关网络。“网关是充当两个网络之间的“网关”的硬件设备。它可能是路由器，防火墙，服务器或其他使流量能够流入和流出网络的设备。而网关则保护其中的节点。网络，它本身也是一个节点。”
 
 将路由器WAN端与墙上网线连接，然后将路由器LAN端与服务器及PC连接后，配置路由器LAN口ip（WAN口ip在接强之后会自动获取ip），之后路由器会自动将WAN口ip与LAN口ip匹配；    
-![](/attachment/computer/dinet_router1.png)
+![](https://github.com/molakirlee/Blog_Attachment_A/blob/main/computer/dinet_router1.png)
 
 对局域网进行ip分配，然后设置转发规则，将路由器的ip和端口与PC的ip和端口映射。路由器的端口是固定的（即服务端，如上图的11.11.11.109），所以路由器端只需要指定端口（随便指定，图中2000-2007只是为了好看，指定3000-3007也无妨）；PC端则需要指定ip地址和端口，ip地址用ipconfig查看即可，端口22是ssh/sftp的默认端口，5900则是vnc viewer的默认端口。  
-![](/attachment/computer/dinet_router2.png)
+![](https://github.com/molakirlee/Blog_Attachment_A/blob/main/computer/dinet_router2.png)
 
 
 

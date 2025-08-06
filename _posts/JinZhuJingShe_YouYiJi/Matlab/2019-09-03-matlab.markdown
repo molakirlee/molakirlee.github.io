@@ -19,18 +19,18 @@ tags:
 参考：[matlab实现遗传算法](http://wenku.baidu.com/link?url=jXQJclTtA9zI-ooxqSbWYrdE4aQiOCtYqNuisHDmbaD2ZO_hz27Juy4YWXH6IQAKsmRZbnZbWCWBcGc1MRXeeIn6uc4_4vyV55lscshdZGu)  
 
 ### 甲醇-水气液平衡
-[甲醇-水气液平衡](https://molakirlee.github.io/attachment/matlab/methanl-water_V-L-balance.m)  
+[甲醇-水气液平衡](https://github.com/molakirlee/Blog_Attachment_A/blob/main/matlab/methanl-water_V-L-balance.m)  
 
 
 ### 很多带参数变量排序
-[测试](https://molakirlee.github.io/attachment/matlab/rank/Rank.m)
-[实战](https://molakirlee.github.io/attachment/matlab/rank/Rank2.m)
+[测试](https://github.com/molakirlee/Blog_Attachment_A/blob/main/matlab/rank/Rank.m)
+[实战](https://github.com/molakirlee/Blog_Attachment_A/blob/main/matlab/rank/Rank2.m)
 
 ### 动力学拟合
 Duan Yuhao版及Zong Shuyi版，可参见attachment。
 
 ### T-Test检验
-[实例](https://molakirlee.github.io/attachment/matlab/TTest.m)
+[实例](https://github.com/molakirlee/Blog_Attachment_A/blob/main/matlab/TTest.m)
 
 
 ![](/img/wc-tail.GIF)
