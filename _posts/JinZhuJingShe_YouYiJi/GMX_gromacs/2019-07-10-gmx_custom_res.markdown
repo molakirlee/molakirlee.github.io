@@ -32,16 +32,17 @@ aminoacids.c.tdb和aminoacids.n.tdb是对端基的处理，在amber力场中均�
 1. top/amber99sb-ildn_m.ff/xxx.hdb  
 1. top/amber99sb-ildn_m.ff/xxx.rtp  
 
-xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoacids.rtp而将其独立出来。  
+1. xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoacids.rtp而将其独立出来。  
+1. 如果不编写residuetypes.dat文件，则会提示“The residues in the chain DCF1--DA53 do not have a consistent type. The first residue has type 'Other', while residue DA3 is of type 'DNA'. Either there is a mistake in your chain, or it includes nonstandard residue names that have not yet been added to the residuetypes.dat file in the GROMACS library directory. If there are other molecules such as ligands, they should not have the same chain ID as the adjacent protein chain since it's a separate molecule.”
 
 ### 步骤
 ###### 生成top文件
-1. 片段结构的获取：若为端基残基，则用另一中性氨基酸配成酰胺键后用H将外加氨基酸的C端加氢（或N端减氢），实现中性化封端。若为中间氨基酸，则两端用其它氨基酸分别配成酰胺键后用H将外加氨基酸C端加氢（或N端减氢），实现中性化封端。
+1. 片段结构的获取：若为端基残基，则用另一中性氨基酸配成酰胺键后用H将外加氨基酸的C端加氢（或N端减氢），实现中性化封端。若为中间氨基酸，则两端用其它氨基酸分别配成酰胺键后用H将外加氨基酸C端加氢（或N端减氢），实现中性化封端。（若为DNA则需注意磷酸带1个负电，否则电子数和自旋不匹配）
 1. 生成mol2文件，现发现VMD生成的mol2文件不能用，gaussian view生成的可以。
 1. 利用acpype生成含有自定义残基的片段结构的拓扑文件，生成的同时确定好带电情况，因为两端均做中性化，所以带电量为自定义残基带电量。检查生成的gro文件结构合理性。acpype要用sf版，sf版中二面角默认类型为9或4，可通过-z改变；github版中为3或1。（见参考3）
 ###### xxx.rtp文件的生成
 1. 拓扑文件中只保留下列部分的内容后另存为rtp格式: [ atoms ], [ bonds ], [ angles ], [ dihedrals ] ; propers, [ dihedrals ] ; impropers。  
-1. 调整电荷。如果采用AM1-BCC电荷, 简单的处理方法是将相邻残基的净电荷加到相应的连接原子上。RESP电荷看参考资料。  
+1. 调整电荷。如果采用AM1-BCC电荷, 简单的处理方法是将相邻残基的净电荷加到相应的连接原子上。RESP电荷可采用约束拟合，看参考资料如[RESP拟合静电势电荷的原理以及在Multiwfn中的计算](http://sobereva.com/441)。  
 1. acpype生成的拓扑文件的原子类型均为小写，将其改为大写，其中**C3**改写为**CT**，**HN**改写为**H**。
 1. 效仿自带库中的氨基酸修改原子名称，可参考[氨基酸在PDB文件中的原子命名规则](http://blog.sciencenet.cn/blog-3387981-1118283.html)  
 1. rtp文件主要内容如下，其中XXX为自定义残基名，处理方式见参考资料，文件内容样式可参考力场自带的aminoacids.rtp但内容比其要多。
@@ -79,18 +80,22 @@ xxx为自定义残基的名字，为了不污染原有的aminoacids.hdb和aminoa
 1. Warning:"Residue 1 named MET of a molecule in the input file was mapped to an entry in the topology database, but the atom H used in an interaction of type angle in that entry is not found in the input file. Perhaps your atom and/or residue naming needs to be fixed."是个废话警告，参见：[链接1](https://mailman-1.sys.kth.se/pipermail/gromacs.org_gmx-users/2017-June/113727.html)或[链接2](https://www.mail-archive.com/gromacs.org_gmx-users@maillist.sys.kth.se/msg34572.html)。此情况出现，可能因为有多个同种H虽在[atom]里做了区分但在后面的[bond][angle]等里未区分，将其区别表示后即可解决，不解决也可能得到正确结果，因为参数一样。
 1. WARNING: "Duplicate line found in or between hackblock and rtp entries." 说明rtp有问题，比如没有设定键长和力常数。参考[链接](https://www.mail-archive.com/gromacs.org_gmx-users@maillist.sys.kth.se/msg20274.html)
 
+### 小工具
+1. 残基原子取代修饰工具[DIYtool_residue_modification](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/DIYtool_residue_modification)
+1. itp文件转rtp文件工具[DIYtool_top2rtp](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/DIYtool_top2rtp)
+1. []()
 
 
 ### 附录
 自己写过的几个自定义残基：  
-[中性的C端LEU:clec.rtp](https://github.com/molakirlee/Blog_Attachment_A/blob/main//gmx/custom_residues/clec.rtp)
-[中性的C端LEU:clec.hdb](https://github.com/molakirlee/Blog_Attachment_A/blob/main//gmx/custom_residues/clec.hdb)  
-[中性的N端VAL:nvan.rtp](https://github.com/molakirlee/Blog_Attachment_A/blob/main//gmx/custom_residues/nvan.rtp)
-[中性的N端VAL:nvan.hdb](https://github.com/molakirlee/Blog_Attachment_A/blob/main//gmx/custom_residues/nvan.hdb)  
+[中性的C端LEU:clec.rtp](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/custom_residues/clec.rtp)
+[中性的C端LEU:clec.hdb](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/custom_residues/clec.hdb)  
+[中性的N端VAL:nvan.rtp](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/custom_residues/nvan.rtp)
+[中性的N端VAL:nvan.hdb](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/custom_residues/nvan.hdb)  
 
-[中性的C端LYN:clyn.rtp](https://github.com/molakirlee/Blog_Attachment_A/blob/main//gmx/custom_residues/clyn.rtp)
-[中性的C端LYN:clyn.hdb](https://github.com/molakirlee/Blog_Attachment_A/blob/main//gmx/custom_residues/clyn.hdb)  
-[中性的N端PHE:nphn.rtp](https://github.com/molakirlee/Blog_Attachment_A/blob/main//gmx/custom_residues/nphn.rtp)
-[中性的N端PHE:nphn.hdb](https://github.com/molakirlee/Blog_Attachment_A/blob/main//gmx/custom_residues/nphn.hdb)  
+[中性的C端LYN:clyn.rtp](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/custom_residues/clyn.rtp)
+[中性的C端LYN:clyn.hdb](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/custom_residues/clyn.hdb)  
+[中性的N端PHE:nphn.rtp](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/custom_residues/nphn.rtp)
+[中性的N端PHE:nphn.hdb](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/custom_residues/nphn.hdb)  
 
 ![](/img/wc-tail.GIF)

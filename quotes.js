@@ -1921,6 +1921,11 @@ var quotes = [
 'The secret of success is constancy to purpose.成功的秘诀在于思于目标。',
 'Strength knows conflict;weakness is born vanquished.强者才懂斗争，弱者生来被征服。',
 'There is no garden without weeds.没有不长杂草的花园。',
+'A lazy youth,a lousy age.少壮不努力，老大徒伤悲。',
+'To be human is to hold sovereignty over one\'s fate.为人之本，在于对命运的掌控。',
+'You are unique;nothing can replace you.你举世无双，无人可以替代。',
+'So many men,so many minds.人心各不同。',
+'Sense comes with age.老马识途。',
 '慕贤容众,毁方瓦合,圭角不露',
 'Don\'t limit your challenges.Challenge your limits.不要限制你的挑战,挑战你的极限.'
 ]

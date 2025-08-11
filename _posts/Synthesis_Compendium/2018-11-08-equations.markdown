@@ -50,6 +50,8 @@ $$
 ![](/img/in-post/2018/2018-11-08-equqtions/maxwell.JPG)
 
 #### 数学
+1. [黄博士网：AI数学手册计算器](https://drhuang.com/chinese/science/mathematics/software/)
+
 ###### 泰勒定理
 设n是一个正整数，如果定义在一个包含a的区间上的函数f在a处n+1次可导，那么对于这个区间上任意x都有：
 
