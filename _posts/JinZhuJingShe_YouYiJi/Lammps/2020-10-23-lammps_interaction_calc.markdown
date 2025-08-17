@@ -14,6 +14,10 @@ tags:
 
 ---
 
+### 解决方案
+1. rerun已经做好的模拟，新的in文件里加上compute group/group。这个rerun把电荷删掉得到的就是LJ，把LJ参数设为0得到的就是静电，参见[《关于计算两个group之间的静电势能和范德华能》](http://bbs.keinsci.com/thread-45993-1-1.html)。
+
+
 ### `compute ID group_ID pair lj/cut evdwl`
 The scalar value will be in energy units.
 ###### 代码示例

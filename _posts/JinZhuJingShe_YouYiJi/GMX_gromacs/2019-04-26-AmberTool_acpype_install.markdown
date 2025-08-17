@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "gmx AmberTool安装及使用教程"
+title:      "gmx AmberTool及acpype安装及使用教程"
 subtitle:   ""
 date:       2019-04-26 20:38:00
 author:     "XiLock"
@@ -77,8 +77,12 @@ acpype.py -i xxx.mol2 <-n -1> <-d>
 
  `-n` 用于调整电荷量， `-d` 则可以显示处理细节。
  
+ambertool18之后的版本和acpype搭配时可能会报错(如[利用./acpype.py -i Lig.mol2 -d 报错信息如下，说找不到amber/bin/mopac.sh](http://bbs.keinsci.com/thread-24022-1-1.html))，提示找不到mopac.sh，参考[《gmx_MMPBSA的安装以及acpype找不到mopac解决办法》](https://blog.csdn.net/li1guangjun/article/details/129118490)将acpype.py中3185行把mopac替换成sqm即可
+ 
  注意：  
 1. VMD导出的mol2可能不行，因为mol2文件里有成键信息，有时候小分子成键信息不正确则调用acpype会出错，故而使用前务必用gview检查结构。
+
+
 
 ### 参考资料
 1. [Centos7 安装amber16](https://www.cnblogs.com/wq242424/p/8857296.html)

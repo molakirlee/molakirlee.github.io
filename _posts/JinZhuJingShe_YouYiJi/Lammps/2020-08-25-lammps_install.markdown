@@ -95,11 +95,151 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted
 1. `cd lammps-2Aug2023/ #不同版本的发布时间不同，当前最新稳定版为2023年8月2日发布的版本`
 1. `mkdir build`
 1. `cd build`
-1. `cmake -C ../cmake/presets/basic.cmake -D PKG_OPENMP=yes -D PKG_GPU=on -D GPU_API=cuda -D GPU_ARCH=sm_80 ../cmake`，其中GPU_ARCH为GPU架构型号，可通过`nvidia-smi -q | grep Architecture`，显示`Architecture: 75`,或显示Ampere然后查询对应数字是80/86；`/basic.cmake` 中有如MOLECULE , MANYBODY等包，但`CLASS2` `REACTION`等需要额外添加（以后用的时候发现缺啥了就回来加上以后重新cmake）。
+1. `cmake -C ../cmake/presets/basic.cmake -D PKG_OPENMP=yes -D PKG_GPU=on -D GPU_API=cuda -D GPU_ARCH=sm_86 -D FFT_SINGLE=yes ../cmake`，其中GPU_ARCH为GPU架构型号，可通过`nvidia-smi -q | grep Architecture`，显示`Architecture: 75`,或显示Ampere然后查询对应数字是80/86；`/basic.cmake` 中有如MOLECULE , MANYBODY等包，但`CLASS2` `REACTION`等需要额外添加（以后用的时候发现缺啥了就回来加上以后重新cmake；`-DFFT_SINGLE=yes`是指定单精度版，因为手册的[Optional build settings](https://docs.lammps.org/Build_settings.html)中说Performing 3d FFTs in parallel can be time-consuming due to data access and required communication.This cost can be reduced by performing single-precision FFTs instead of double precision.而且Note that Fourier transform and related PPPM operations are somewhat less sensitive to floating point truncation errors, and thus the resulting error is generally less than the difference in precision.**所以多核运行时可以优先考虑单精度，单核时可以考虑双精度**）。
 1. `make -j 4`，如果不添加数字则默认最大，会因为内存不够而失败
 1. `make install`
 1. `vim .bashrc`并添加 `export PATH=/home/skywalker/lammps-2Aug2023/build:$PATH`后`source .bashrc`
 
+
+1. ReaxFF的GPU加速需要使用kokkos包，安装可参考[WSL2下Kokkos版加速的Lammps的cmake编译](http://bbs.keinsci.com/thread-36559-1-1.html)和[在linux mint21.3上安装含kokkos以及deepmd的lammps & 4090的reaxff测试](http://bbs.keinsci.com/thread-46630-1-1.html)
+1. Kokkos(22Jul2025只支持双精度,Currently, there are no precision options with the KOKKOS package. All compilation and computation is performed in double precision)对GPU和多核CPU加速较好，但有3中情况不使用：1）小规模体系（万原子以下），因为启动 Kokkos 的开销可能抵消加速收益。2）不支持某些复杂的多体势或特定 fix/compute（具体参见[官方文档](https://docs.lammps.org/Speed_kokkos.html)）。3）硬件仅限单核 CPU 或没有 GPU。
+
+
+有些情况下报错让指定cuda的bin2c位置(如Could not find bin2c, use -DBIN2C=/path/to/bin2c to help cmake finding it)和mpicxx的位置(如 Imported target "MPI::MPI_CXX" includes non-existent path)，可参照下面指令（**注意:1）"\"后不能有任何字符；2）往命令行中复制时不能超过30行**）
+```
+cmake -C ../cmake/presets/basic.cmake \
+      -D PKG_OPENMP=yes \
+      -D PKG_GPU=on \
+      -D GPU_API=cuda \
+      -D GPU_ARCH=sm_86 \
+      -D FFT_SINGLE=yes \
+      -D BIN2C=/usr/local/cuda-12.3/bin/bin2c \
+      -D MPI_CXX_COMPILER=/home/xilock/Desktop/mpich412/bin/mpicxx \
+      -D MPI_C_COMPILER=/home/xilock/Desktop/mpich412/bin/mpicc \
+      -D MPI_HOME=/home/xilock/Desktop/mpich412 \
+      ../cmake
+```
+
+
+
+GPU双精度版的cmake:
+```
+cmake -C ../cmake/presets/basic.cmake \
+      -D PKG_OPENMP=yes \
+      -D PKG_GPU=on \
+      -D GPU_API=cuda \
+      -D GPU_ARCH=sm_86 \
+      -D GPU_PREC=double \
+      -D BIN2C=/usr/local/cuda-12.3/bin/bin2c \
+      -D MPI_CXX_COMPILER=/home/xilock/Desktop/mpich412/bin/mpicxx \
+      -D MPI_C_COMPILER=/home/xilock/Desktop/mpich412/bin/mpicc \
+      -D MPI_HOME=/home/xilock/Desktop/mpich412 \
+      ../cmake
+```
+
+
+###### 关于Kokkos
+1. 可惜kokkos基本可以视为仅支持双精度，游戏卡跑不了，动力学里应该只有reax不支持单精度GPU。（参见[《WSL2下Kokkos版加速的Lammps的cmake编译》](http://bbs.keinsci.com/thread-36559-1-1.html)）
+1. lammps的GPU加速功能对GPU的双精度浮点性能需求高，较不适合用来测试双精度浮点性能孱弱的游戏GPU。但RTX 4090的双精度浮点性能已超过1 TFLOPS（3090只有0.56），有一定测试价值，参见[《性能翻倍？RTX4090科学计算之经典MD模拟全面测试》](http://bbs.keinsci.com/thread-33296-1-1.html)。
+1. 对于LAMMPS，LJ 2.5和EAM两个任务中RTX 4090性能较RTC 3090Ti实现“翻倍”，Tersoff任务离“翻倍”还有较大距离。而对比NVIDIA公布的测试结果，RTX 4090运行LAMMPS的性能（具体数据见SI）仍明显不如A100，甚至不如V100，这显然是因为RTX 4090无FP64执行单元，双精度浮点性能太弱（出处同上）。
+1. 原则上来说，在同为双精度情况下，kokkos包比GPU包要更快([doc-7.4.3. KOKKOS package](https://docs.lammps.org/Speed_kokkos.html)原文为:When running large number of atoms per GPU, KOKKOS is typically faster than the GPU package when compiled for double precision. The benefit of using single or mixed precision with the GPU package depends significantly on the hardware in use and the simulated system and pair style.)但是，kokkos目前仅支持双精度计算，然而RTX系列（rtx30、rtx40系列）双精度计算能力非常弱，因此使用这些卡，支持混合精度的GPU包加速效果将要明显优于kokkos包，参见[lammps gpu版编译（kokkos+cuda）](https://zhuanlan.zhihu.com/p/603892794).
+1. 因为游戏卡对双精度计算支持不好，在12th Gen Intel(R)Core(TM)i9-12900H / NVIDIA GeForce RTX 3060 Laptop GPU上，xikock实测了对于[nvidia测试包](https://github.com/molakirlee/Blog_Attachment_A/blob/main/lammps/LAMMPS_benchmark_GPU)中的EAM实例而言(其它硬件参见[主流分子动力学程序在AMD、NVIDIA和Intel的消费级GPU上的性能基准测试](http://bbs.keinsci.com/thread-39266-1-1.html))，同为双精度GPU计算时，用gpu包耗时2:33，用kokkos耗时1:51；相较之下混合精度GPU包耗时只有0:56，所以能用GPU包尽可能用GPU包。（LJ-2.5测试包: kokkos 02:36，双精度GPU包 05:35，混合精度GPU包02:36）。
+1. kokkos加速适合EAM、reaxff、Tersoff、LJ的普通力场，但在处理pppm时，1)对于小体系，同为双精度且在CPU上计算PPPM时，GPU包效率高于kokkos包，这是因为kokkos包依赖通用Kokkos抽象层，无法针对PPPM进行深度硬件优化，增加抽象层开销，降低实际计算效率（GPU包使用专用GPU内核优化PPPM计算，对于电荷映射Kernel rho和力插值Force interp进行了深度优化，只有纯 FFT部分在CPU上；kokkos包全在cpu上且未优化）；2）关于PPPM放在GPU用cuFFT计算还是放在CPU用KISS FFT计算，小体系无法充分利用GPU的大规模并行能力，GPU加速在小规模FFT上的启动和数据传输开销可能超过计算收益，所以**小体系PPPM适合在CPU上计算而非在GPU上计算**。具体而言，如果体系太小(如原子数小于几万)，kokkos处理class2的pppm加速效果极差(如对3400原子体系，grid 10x10x10，甚至不如双精度GPU包，双精度GPU包03:34(8threads 03:14)，kokkos包05:46(8 thread 05:37；PPPM强制用KISS FFT放到CPU上时03:47)；当原子数达到27000，grid 20x20x20时kokkos效率反超双精度GPU包)，因此：**能用混合精度GPU包则混合精度GPU优先，reaxff等必须用kokkos再考虑用kokkos，如果显卡双精度计算可以(rtx 30xx 40xx等游戏显卡就算了)可以考虑测试下kokkos（因为kokkos到2024Aug版仍只支持双精度不支持混合精度）**。
+1. kokkos包使用时，`newton on`会将时间从modify的耗时转到comm(对称力只计算1次，而由内部同步处理),且降低了Neigh，且总耗时会降低，因此推荐指令为`lmp -k on g 1 -sf kk -pk kokkos cuda/aware on neigh half comm device binsize 2.8 newton on -var x 8 -var y 4 -var z 8 -in in.* > run.log 2>&1`
+1. Kokkos breakdown 是在CPU层面统计“某个阶段CPU花了多少时间（包括等待 GPU）”。GPU 包 breakdown 是在CPU+GPU两层分别统计：CPU干了什么，GPU花了多少时间，GPU与CPU通信耗了多少。
+1. 从耗时分布上看，kokkos包的neigh和commm耗时高， 但这只是表象，基于上一条，我们可知在Kokkos模式里，邻居列表构建（Neighbor build）、拷贝（Neighbor copy）、部分数据同步都放在Kokkos调度的kernel 里执行，计时是CPU perspective：CPU调用了Kokkos kernel，然后阻塞等待GPU完成，这段等待时间也计入Neigh。
+1. GPU包输出时会把CPU和GPU的工作区分开：GPU部分：Force calc、Neighbor build、Data Transfer 等等。CPU部分：Cast/Pack、Driver、Neighbor (host)。CPU等待GPU的时间记录在CPU Idle。
+1. 我们比较时应该将kokkos的neigh、comm、modify之和与GPU包的Neighbor build、Neighbor copy、CPU Neighbor、CPU Cast/Pack、CPU Driver、CPU Idle等加起来，且发现后者加起来数值更大，这是因为CPU等待时间CPU Idle还包括了其它部分的等待时间。
+
+
+
+| 功能模块              | Kokkos 包耗时 (s)     | GPU 包耗时 (s)                                                                                                            | 说明 / 对应关系                   |
+| ----------------- | ------------------ | ------------------------------------------------------------------------------- | --------------------------- |
+| Pair (力计算)       | 23.988                               | 98.070 (Force calc)                                                                                                       | GPU 上力计算主要部分                |
+| Neigh (邻居)        | 36.606                               | 15.992 (Neighbor build) + 0.110 (Neighbor copy) + 1.783 (CPU Neighbor) + CPU等待时间(部分CPU Idle) ≈ 17.885+部分CPU Idle | 邻居列表构建和拷贝，Kokkos 包含部分数据同步   |
+| Comm (通信)         | 37.69          (MPI + ghost buffer + CPU-GPU)  | 5.721(纯MPI) + 8.829 (Data Transfer)+ 0.025 (Device Overhead)+ CPU等待时间(部分CPU Idle)                                  | MPI 通信                      |
+| Modify (积分/管理)  | 0.010043                             | 9.783 (CPU Cast/Pack) + 0.020 (CPU Driver) + CPU等待时间(部分CPU Idle) ≈ 9.8+部分CPU Idle                                | 数据打包、积分、CPU 等待 GPU          |
+| Output (输出)       | 0.0054348                            | 0.086                                                                                                                     | 文件输出                        |
+| Other (杂项)        | 0.6829                               | 4.545 (Other)                                                                                    | GPU 内核调度、初始化等               |
+
+
+| **模块**        | **Kokkos (s)** | **GPU (s)** | **Kokkos 细分说明**                                             | **GPU 细分说明**                                                                                                              |
+| ------------- | -------------- | ----------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Pair              | 23.988         | 126.38              | GPU内核力计算（pair styles的compute内核，主要是force evaluation）  | 包含 GPU Force calc (98.07) + Neighbor build (15.99) + Data Transfer (8.83) + Neighbor copy (0.11) + Device Overhead (0.03) + 主机同步 (\~3.35) |
+| Neigh             | 36.606         | 0.744               | 邻居列表构建、ghost拷贝，含CPU辅助和部分数据传输                   | MPI breakdown 中很小；Device Info 把 CPU Neighbor ≈1.78 单独列出（口径差异）                                            |
+| Comm              | 37.69          | 5.721               | MPI通信时间(发/收ghost原子坐标和力数据和一些小的MPI内部开销)       | MPI 通信时间                                                                                                             |
+| Modify            | 0.010043       | 9.592               | Fix/Compute、时间积分 (Verlet)、数据pack/unpack                    | CPU Cast/Pack ≈9.78 + CPU Driver ≈0.02                                                                                 |
+| Output            | 0.0054348      | 0.086               | 文件/日志输出                                                      | 文件/日志输出                                                                                                            |
+| Other             | 0.6829         | 4.545               | 杂项（初始化、内核管理、device overhead）                          | 杂项（初始化、内核管理、device overhead）                                                                                |
+| **合计 (loop)**  | **98.98**     | **147.069**        | 与 Loop time 完全一致                                              | 与 Loop time 完全一致                                                                                                    |
+| CPU Idle          | (摊分在各项)   | (66.60,摊分在各项)  | 已经摊分，不再单独列出                                             | 单独显示在 Device Info，用于性能分析，**不能与 MPI breakdown 相加**                                                      |
+
+
+
+注意：
+1. GPU包的Device Info中的Force calc，虽然名字是Force calc，但实际上包含了：1)每步力计算内的数据加载/原子信息访问;2)内存访问、线程同步;3)一些额外的neighbor lookup逻辑(尤其EAM核心中访问表格、embedding能)。Kokkos包只统计纯kernel的力计算，Neighbor build、ghost处理、数据移动、同步等耗时统计在Neigh/Comm/Modify中。
+1. 基于上一条，造成kokkos包和GPU包计量差别的一个重要因素应该就是ghost原子(特别是邻居)的处理，kokkos包将其计入neigh/comm/modify，GPU包将其计入pair。所以并不是kokkos的邻居相关neigh/comm/modify高，而是GPU包将其计入了pair。
+1. ghost原子不止是多MPI时存在，邻居列表也存在 ghost原子。
+1. Comm (MPI Communication)指的是不同MPI rank/不同节点之间的数据交换（Comm包含ghost原子处理，不仅是MPI消息即使只有1个 MPI rank，LAMMPS 仍然要维护ghost原子（边界 buffer 区域），以确保邻居列表正确。）。Data Transfer (GPU-CPU memory copy)指的是 同一 MPI rank 内，CPU 主存和 GPU 显存之间的数据传输。
+1. 
+
+
+Kokkos版cmake(带reaxff)：
+```
+cmake -C ../cmake/presets/basic.cmake -C ../cmake/presets/kokkos-cuda.cmake \
+      -D PKG_OPENMP=yes \
+      -D PKG_REAXFF=on \
+      -D PKG_GPU=on \
+      -D GPU_API=cuda \
+      -D GPU_ARCH=sm_86 \
+      -D BIN2C=/usr/local/cuda-12.3/bin/bin2c \
+      -D MPI_CXX_COMPILER=/home/xilock/Desktop/mpich412/bin/mpicxx \
+      -D MPI_C_COMPILER=/home/xilock/Desktop/mpich412/bin/mpicc \
+      -D MPI_HOME=/home/xilock/Desktop/mpich412 \
+      ../cmake
+```
+
+
+测试时为了控制FFT都为KISS的话可在cmake时添加如下指令：
+```
+      -D FFT=KISS \
+      -D FFT_KOKKOS=KISS \
+```
+
+给kokkos开openMP可在cmake时加如下指令，但多线程对GPU加速没有显著影响
+```
+      -D Kokkos_ENABLE_OPENMP=ON \
+```
+
+
+参考[WSL2下Kokkos版加速的Lammps的cmake编译](http://bbs.keinsci.com/thread-36559-1-1.html)有一个多包版(不在`/basic.cmake`中指定而是当场指定所有)
+```
+cmake -C ../cmake/presets/basic.cmake \
+      -C ../cmake/presets/kokkos-cuda.cmake \
+ -D BUILD_MPI=yes \
+ -D PKG_ASPHERE=on        -D PKG_BOCS=on           -D PKG_BODY=on        -D PKG_BROWNIAN=on \
+ -D PKG_CG-SDK=on         -D PKG_CLASS2=on         -D PKG_COLLOID=on     -D PKG_CORESHELL=on \
+ -D PKG_DIELECTRIC=on     -D PKG_DIFFRACTION=on    -D PKG_DIPOLE=on      -D PKG_DPD-BASIC=on \
+ -D PKG_DPD-MESO=on       -D PKG_DPD-REACT=on      -D PKG_DPD-SMOOTH=on  -D PKG_DRUDE=on \
+ -D PKG_EFF=on            -D PKG_EXTRA-COMPUTE=on  -D PKG_EXTRAD-UMP=on  -D PKG_EXTRA-FIX=on \
+ -D PKG_EXTRA-MOLECULE=on -D PKG_EXTRA-PAIR=on     -D PKG_FEP=on         -D PKG_GRANULAR=on \
+ -D PKG_KSPACE=on         -D PKG_MANIFOLD=on       -D PKG_MANYBODY=on    -D PKG_MC=on \
+ -D PKG_MEAM=on           -D PKG_MGPT=on           -D PKG_MISC=on        -D PKG_ML-IAP=on \
+ -D PKG_ML-SNAP=on        -D PKG_MOFFF=on          -D PKG_MOLECULE=on    -D PKG_OPENMP=on \
+ -D PKG_OPT=on            -D PKG_ORIENT=on         -D PKG_PERI=on        -D PKG_PHONON=on \
+ -D PKG_PLUGIN=on         -D PKG_PTM=on            -D PKG_QEQ=on         -D PKG_QTB=on \
+ -D PKG_REACTION=on       -D PKG_REAXFF=on         -D PKG_REPLICA=on     -D PKG_RIGID=on \
+ -D PKG_SHOCK=on          -D PKG_SMTBQ=on          -D PKG_SPH=on         -D PKG_SPIN=on \
+ -D PKG_SRD=on            -D PKG_TALLY=on          -D PKG_UEF=on         -D PKG_YAFF=on \
+ -D PKG_GPU=on            -D GPU_API=cuda \
+ -D GPU_ARCH=sm_86 \
+ -DCMAKE_CUDA_COMPILER=/usr/local/cuda-12.3/bin/nvcc \
+ -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-12.3 \
+ -DMPI_CXX_COMPILER=/home/xilock/Desktop/mpich412/bin/mpicxx \
+ -DMPI_C_COMPILER=/home/xilock/Desktop/mpich412/bin/mpicc \
+ -DMPI_HOME=/home/xilock/Desktop/mpich412 \
+ ../cmake
+```
 
 GPU_ARCH的参数参考:[Packages with extra build options](https://docs.lammps.org/Build_extras.html)
 ```
@@ -124,12 +264,16 @@ sm_90 for Hopper (supported since CUDA 12.0)
 
 ###### 其它问题
 1. 如果win系统有更新，则可能出现`Cuda driver error 999 in call at file '/home/xilock/Desktop/lammps-29Aug2024/lib/gpu/geryon/nvd_memory.h' in line 502`等错误，重启更新后问题解决.
+1. `make -j 4`时如果提示`/home/xilock/Desktop/lammps-29Aug2024/lib/kokkos/bin/nvcc_wrapper: line 365: nvcc: command not found`则是因为捯饬cuda相关步骤时导致nvcc位置变化，可去nvcc_wrapper文件的366行查看所调用的指令是什么，然后对应修改（如26行的`nvcc_compiler=nvcc`修改为`nvcc_compiler="/usr/local/cuda-12.3/bin/nvcc"`）
 
 参考资料：
 1. [在Windows上高效使用LAMMPS](https://leo-lyy.github.io/docs/WSL_LAMMPS_GPU.html)
 1. [Win10+WSL2+Ubuntu22.04安装Lammps+GPU+Python](https://blog.csdn.net/apathiccccc/article/details/131538775)
 1. [WSL2下gpu版lammps编译详细版](http://bbs.keinsci.com/thread-27603-1-1.html)
-1. []()
+1. [从lib/gpu和src用make安装:lammps安装kokkos MPI实现GPU计算](https://blog.csdn.net/m0_55063425/article/details/136556312)
+1. [在linux mint21.3上安装含kokkos以及deepmd的lammps & 4090的reaxff测试](http://bbs.keinsci.com/thread-46630-1-1.html)
+1. [lammps gpu版编译（kokkos+cuda）](https://zhuanlan.zhihu.com/p/603892794)
+
 
 
 ### Linix版
@@ -246,6 +390,14 @@ export LD_LIBRARY_PATH=/root/Desktop/lammps_install/lammps-3Mar20/src:$LD_LIBRAR
 ###### 测试
 在lammps/example/文件夹里随便进入一个算例文件夹，`mpirun -np 4 lmp_mpi -in in.filename`
 
+
+### AMD平台暗黄
+1. [为某网友的AMD GPU平台编译和调优LAMMPS和GROMACS](http://bbs.keinsci.com/thread-40313-1-1.html)
+
+### 性能调优
+1.  [LAMMPS中密度不均一体系域分解问题，和性能调优的一点经验](http://bbs.keinsci.com/thread-39016-1-1.html)
+
+
 ### 问题
 
 ###### Fatal error in PMPI_Init_thread: Other MPI error, error stack
@@ -284,6 +436,10 @@ angle_charmm_omp.cpp(90): error: "restrict" has already been declared in the cur
 [mpiexec@node5] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:195): error waiting for event
 [mpiexec@node5] main (ui/mpich/mpiexec.c:336): process manager error waiting for completion
 ```
+
+
+### 并行效率
+1. 用单线程效率更高（For many problems on current generation CPUs, running the OPENMP package with a single thread/task is faster than running with multiple threads/task. This is because the MPI parallelization in LAMMPS is often more efficient than multi-threading as implemented in the OPENMP package. The parallel efficiency (in a threaded sense) also varies for different OPENMP styles.）参考[《LAMMPS的多线程和多进程并行》](https://zhuanlan.zhihu.com/p/8615490989)
 
 ### 参考资料
 ###### 安装(综合理解所有教程后，再进行安装！)
