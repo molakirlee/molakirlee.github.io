@@ -139,42 +139,28 @@ cmake -C ../cmake/presets/basic.cmake \
 
 
 ###### 关于Kokkos
-1. 可惜kokkos基本可以视为仅支持双精度，游戏卡跑不了，动力学里应该只有reax不支持单精度GPU。（参见[《WSL2下Kokkos版加速的Lammps的cmake编译》](http://bbs.keinsci.com/thread-36559-1-1.html)）
-1. lammps的GPU加速功能对GPU的双精度浮点性能需求高，较不适合用来测试双精度浮点性能孱弱的游戏GPU。但RTX 4090的双精度浮点性能已超过1 TFLOPS（3090只有0.56），有一定测试价值，参见[《性能翻倍？RTX4090科学计算之经典MD模拟全面测试》](http://bbs.keinsci.com/thread-33296-1-1.html)。
-1. 对于LAMMPS，LJ 2.5和EAM两个任务中RTX 4090性能较RTC 3090Ti实现“翻倍”，Tersoff任务离“翻倍”还有较大距离。而对比NVIDIA公布的测试结果，RTX 4090运行LAMMPS的性能（具体数据见SI）仍明显不如A100，甚至不如V100，这显然是因为RTX 4090无FP64执行单元，双精度浮点性能太弱（出处同上）。
-1. 原则上来说，在同为双精度情况下，kokkos包比GPU包要更快([doc-7.4.3. KOKKOS package](https://docs.lammps.org/Speed_kokkos.html)原文为:When running large number of atoms per GPU, KOKKOS is typically faster than the GPU package when compiled for double precision. The benefit of using single or mixed precision with the GPU package depends significantly on the hardware in use and the simulated system and pair style.)但是，kokkos目前仅支持双精度计算，然而RTX系列（rtx30、rtx40系列）双精度计算能力非常弱，因此使用这些卡，支持混合精度的GPU包加速效果将要明显优于kokkos包，参见[lammps gpu版编译（kokkos+cuda）](https://zhuanlan.zhihu.com/p/603892794).
-1. 因为游戏卡对双精度计算支持不好，在12th Gen Intel(R)Core(TM)i9-12900H / NVIDIA GeForce RTX 3060 Laptop GPU上，xikock实测了对于[nvidia测试包](https://github.com/molakirlee/Blog_Attachment_A/blob/main/lammps/LAMMPS_benchmark_GPU)中的EAM实例而言(其它硬件参见[主流分子动力学程序在AMD、NVIDIA和Intel的消费级GPU上的性能基准测试](http://bbs.keinsci.com/thread-39266-1-1.html))，同为双精度GPU计算时，用gpu包耗时2:33，用kokkos耗时1:51；相较之下混合精度GPU包耗时只有0:56，所以能用GPU包尽可能用GPU包。（LJ-2.5测试包: kokkos 02:36，双精度GPU包 05:35，混合精度GPU包02:36）。
-1. kokkos加速适合EAM、reaxff、Tersoff、LJ的普通力场，但在处理pppm时，1)对于小体系，同为双精度且在CPU上计算PPPM时，GPU包效率高于kokkos包，这是因为kokkos包依赖通用Kokkos抽象层，无法针对PPPM进行深度硬件优化，增加抽象层开销，降低实际计算效率（GPU包使用专用GPU内核优化PPPM计算，对于电荷映射Kernel rho和力插值Force interp进行了深度优化，只有纯 FFT部分在CPU上；kokkos包全在cpu上且未优化）；2）关于PPPM放在GPU用cuFFT计算还是放在CPU用KISS FFT计算，小体系无法充分利用GPU的大规模并行能力，GPU加速在小规模FFT上的启动和数据传输开销可能超过计算收益，所以**小体系PPPM适合在CPU上计算而非在GPU上计算**。具体而言，如果体系太小(如原子数小于几万)，kokkos处理class2的pppm加速效果极差(如对3400原子体系，grid 10x10x10，甚至不如双精度GPU包，双精度GPU包03:34(8threads 03:14)，kokkos包05:46(8 thread 05:37；PPPM强制用KISS FFT放到CPU上时03:47)；当原子数达到27000，grid 20x20x20时kokkos效率反超双精度GPU包)，因此：**能用混合精度GPU包则混合精度GPU优先，reaxff等必须用kokkos再考虑用kokkos，如果显卡双精度计算可以(rtx 30xx 40xx等游戏显卡就算了)可以考虑测试下kokkos（因为kokkos到2024Aug版仍只支持双精度不支持混合精度）**。
-1. kokkos包使用时，`newton on`会将时间从modify的耗时转到comm(对称力只计算1次，而由内部同步处理),且降低了Neigh，且总耗时会降低，因此推荐指令为`lmp -k on g 1 -sf kk -pk kokkos cuda/aware on neigh half comm device binsize 2.8 newton on -var x 8 -var y 4 -var z 8 -in in.* > run.log 2>&1`
-1. Kokkos breakdown 是在CPU层面统计“某个阶段CPU花了多少时间（包括等待 GPU）”。GPU 包 breakdown 是在CPU+GPU两层分别统计：CPU干了什么，GPU花了多少时间，GPU与CPU通信耗了多少。
-1. 从耗时分布上看，kokkos包的neigh和commm耗时高， 但这只是表象，基于上一条，我们可知在Kokkos模式里，邻居列表构建（Neighbor build）、拷贝（Neighbor copy）、部分数据同步都放在Kokkos调度的kernel 里执行，计时是CPU perspective：CPU调用了Kokkos kernel，然后阻塞等待GPU完成，这段等待时间也计入Neigh。
-1. GPU包输出时会把CPU和GPU的工作区分开：GPU部分：Force calc、Neighbor build、Data Transfer 等等。CPU部分：Cast/Pack、Driver、Neighbor (host)。CPU等待GPU的时间记录在CPU Idle。
-1. 我们比较时应该将kokkos的neigh、comm、modify之和与GPU包的Neighbor build、Neighbor copy、CPU Neighbor、CPU Cast/Pack、CPU Driver、CPU Idle等加起来，且发现后者加起来数值更大，这是因为CPU等待时间CPU Idle还包括了其它部分的等待时间。
+1. **结论：使用双精度不好的游戏卡时，如果不是reaxff这样必须用kokkos加速的情况，优先用混合精度的GPU包；必须用kokkos包时，3万原子以下考虑用KISS FFT将PPPM放在CPU上计算，大体系用默认的cuFFT将PPPM放在GPU上计算。**
+1. kokkos包使用时，`newton on`会将时间从modify的耗时转到comm(对称力只计算1次，而由内部同步处理),且降低了Neigh，且总耗时会降低，因此**推荐指令为`lmp -k on g 1 -sf kk -pk kokkos cuda/aware on neigh half comm device binsize 2.8 newton on -var x 8 -var y 4 -var z 8 -in in.* > run.log 2>&1`**。
+
+1. 原则上来说，在同为双精度情况下，kokkos包比GPU包要更快([doc-7.4.3. KOKKOS package](https://docs.lammps.org/Speed_kokkos.html)原文为:When running large number of atoms per GPU, KOKKOS is typically faster than the GPU package when compiled for double precision. The benefit of using single or mixed precision with the GPU package depends significantly on the hardware in use and the simulated system and pair style.)但是，kokkos目前仅支持双精度计算，然而RTX系列（rtx30、rtx40系列）双精度计算能力非常弱，因此使用这些卡，支持混合精度的GPU包加速效果将要明显优于kokkos包，参见[lammps gpu版编译（kokkos+cuda）](https://zhuanlan.zhihu.com/p/603892794).（Entropy.S.I测试过RT4090，lammps的GPU加速功能对GPU的双精度浮点性能需求高，较不适合用来测试双精度浮点性能孱弱的游戏GPU。但RTX 4090的双精度浮点性能已超过1 TFLOPS（3090只有0.56），有一定测试价值；对于LAMMPS，LJ 2.5和EAM两个任务中RTX 4090性能较RTC 3090Ti实现“翻倍”，Tersoff任务离“翻倍”还有较大距离。而对比NVIDIA公布的测试结果，RTX 4090运行LAMMPS的性能（具体数据见SI）仍明显不如A100，甚至不如V100，这显然是因为RTX 4090无FP64执行单元，双精度浮点性能太弱，参见[《性能翻倍？RTX4090科学计算之经典MD模拟全面测试》](http://bbs.keinsci.com/thread-33296-1-1.html)。）
+1. 因为游戏卡对双精度计算支持不好，在12th Gen Intel(R)Core(TM)i9-12900H / NVIDIA GeForce RTX 3060 Laptop GPU上，xikock实测了对于[nvidia测试包](https://github.com/molakirlee/Blog_Attachment_A/blob/main/lammps/LAMMPS_benchmark_GPU)中的EAM实例而言(其它硬件参见[主流分子动力学程序在AMD、NVIDIA和Intel的消费级GPU上的性能基准测试](http://bbs.keinsci.com/thread-39266-1-1.html))，同为双精度GPU计算时，用gpu包耗时2:33，用kokkos耗时1:51；相较之下混合精度GPU包耗时只有0:56，所以，**对于双精度性能不足的条件下，能用GPU包尽可能用GPU包**。（LJ-2.5测试包: kokkos 02:36，双精度GPU包 05:35，混合精度GPU包02:36）。虽然kokkos基本可以视为仅支持双精度，游戏卡跑不了，但动力学里应该只有reax不支持单精度GPU，参见[《WSL2下Kokkos版加速的Lammps的cmake编译》](http://bbs.keinsci.com/thread-36559-1-1.html)
+1. kokkos加速适合EAM、reaxff、Tersoff、LJ的普通力场，但在处理pppm时，1)对于小体系，同为双精度且均在CPU上计算PPPM时，GPU包效率高于kokkos包，这是因为kokkos包依赖通用Kokkos抽象层，无法针对PPPM进行深度硬件优化，增加抽象层开销，降低实际计算效率（GPU包使用专用GPU内核优化PPPM计算，对于电荷映射Kernel rho和力插值Force interp进行了深度优化，只有纯FFT部分在CPU上；kokkos包全在cpu上且未优化）；2）关于PPPM放在GPU用cuFFT计算还是放在CPU用KISS FFT计算，小体系无法充分利用GPU的大规模并行能力，GPU加速在小规模FFT上的启动和数据传输开销可能超过计算收益，所以**小体系PPPM适合在CPU上计算而非在GPU上计算**。具体而言，如果体系太小(如原子数小于几万)，kokkos处理class2的pppm加速效果极差(如对3400原子体系，grid 10x10x10，甚至不如双精度GPU包，双精度GPU包03:34(8threads 03:14)，kokkos包05:46(8 thread 05:37；PPPM强制用KISS FFT放到CPU上时03:47)；当原子数达到27000，grid 20x20x20时kokkos效率反超双精度GPU包且cuFFT最好，cuFFT 4:16,KISS FFT kokkos 4:40,双精度GPU包4:17)，因此：**能用混合精度GPU包则混合精度GPU优先，reaxff等必须用kokkos再考虑用kokkos，如果显卡双精度计算可以(rtx 30xx 40xx等游戏显卡就算了)可以考虑测试下kokkos（因为kokkos到2024Aug版仍只支持双精度不支持混合精度）**。
 
 
 
-| 功能模块              | Kokkos 包耗时 (s)     | GPU 包耗时 (s)                                                                                                            | 说明 / 对应关系                   |
-| ----------------- | ------------------ | ------------------------------------------------------------------------------- | --------------------------- |
-| Pair (力计算)       | 23.988                               | 98.070 (Force calc)                                                                                                       | GPU 上力计算主要部分                |
-| Neigh (邻居)        | 36.606                               | 15.992 (Neighbor build) + 0.110 (Neighbor copy) + 1.783 (CPU Neighbor) + CPU等待时间(部分CPU Idle) ≈ 17.885+部分CPU Idle | 邻居列表构建和拷贝，Kokkos 包含部分数据同步   |
-| Comm (通信)         | 37.69          (MPI + ghost buffer + CPU-GPU)  | 5.721(纯MPI) + 8.829 (Data Transfer)+ 0.025 (Device Overhead)+ CPU等待时间(部分CPU Idle)                                  | MPI 通信                      |
-| Modify (积分/管理)  | 0.010043                             | 9.783 (CPU Cast/Pack) + 0.020 (CPU Driver) + CPU等待时间(部分CPU Idle) ≈ 9.8+部分CPU Idle                                | 数据打包、积分、CPU 等待 GPU          |
-| Output (输出)       | 0.0054348                            | 0.086                                                                                                                     | 文件输出                        |
-| Other (杂项)        | 0.6829                               | 4.545 (Other)                                                                                    | GPU 内核调度、初始化等               |
-
+1. 对Kokkos包和GPU包而言，Task timing breakdown(或loop time)都只记录某个CPU task在wall-clock上消耗了多少时间，而不直接测GPU内核的时间，所以两者的 task breakdown 在“口径”上是可比的。GPU包还会额外输出细粒度拆分的Device Info。
+1. 以EAM case为例，从耗时分布上看，kokkos包的neigh和commm耗时高， 但这只是表象，两者归类方式不同，见下表：
 
 | **模块**        | **Kokkos (s)** | **GPU (s)** | **Kokkos 细分说明**                                             | **GPU 细分说明**                                                                                                              |
 | ------------- | -------------- | ----------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | Pair              | 23.988         | 126.38              | GPU内核力计算（pair styles的compute内核，主要是force evaluation）  | 包含 GPU Force calc (98.07) + Neighbor build (15.99) + Data Transfer (8.83) + Neighbor copy (0.11) + Device Overhead (0.03) + 主机同步 (\~3.35) |
-| Neigh             | 36.606         | 0.744               | 邻居列表构建、ghost拷贝，含CPU辅助和部分数据传输                   | MPI breakdown 中很小；Device Info 把 CPU Neighbor ≈1.78 单独列出（口径差异）                                            |
+| Neigh             | 36.606         | 0.744               | 邻居列表构建、ghost拷贝，含CPU辅助和部分数据传输                   | MPI breakdown中很小；Device Info把CPU Neighbor ≈1.78 单独列出（口径差异）                                            |
 | Comm              | 37.69          | 5.721               | MPI通信时间(发/收ghost原子坐标和力数据和一些小的MPI内部开销)       | MPI 通信时间                                                                                                             |
 | Modify            | 0.010043       | 9.592               | Fix/Compute、时间积分 (Verlet)、数据pack/unpack                    | CPU Cast/Pack ≈9.78 + CPU Driver ≈0.02                                                                                 |
 | Output            | 0.0054348      | 0.086               | 文件/日志输出                                                      | 文件/日志输出                                                                                                            |
 | Other             | 0.6829         | 4.545               | 杂项（初始化、内核管理、device overhead）                          | 杂项（初始化、内核管理、device overhead）                                                                                |
 | **合计 (loop)**  | **98.98**     | **147.069**        | 与 Loop time 完全一致                                              | 与 Loop time 完全一致                                                                                                    |
 | CPU Idle          | (摊分在各项)   | (66.60,摊分在各项)  | 已经摊分，不再单独列出                                             | 单独显示在 Device Info，用于性能分析，**不能与 MPI breakdown 相加**                                                      |
-
-
 
 注意：
 1. GPU包的Device Info中的Force calc，虽然名字是Force calc，但实际上包含了：1)每步力计算内的数据加载/原子信息访问;2)内存访问、线程同步;3)一些额外的neighbor lookup逻辑(尤其EAM核心中访问表格、embedding能)。Kokkos包只统计纯kernel的力计算，Neighbor build、ghost处理、数据移动、同步等耗时统计在Neigh/Comm/Modify中。
@@ -199,16 +185,15 @@ cmake -C ../cmake/presets/basic.cmake -C ../cmake/presets/kokkos-cuda.cmake \
       ../cmake
 ```
 
+给kokkos开openMP可在cmake时加如下指令，CPU耗时占大头时开多线程会有效果，但GPU耗时占大头时多线程对GPU加速没有显著影响
+```
+      -D Kokkos_ENABLE_OPENMP=ON \
+```
 
 测试时为了控制FFT都为KISS的话可在cmake时添加如下指令：
 ```
       -D FFT=KISS \
       -D FFT_KOKKOS=KISS \
-```
-
-给kokkos开openMP可在cmake时加如下指令，但多线程对GPU加速没有显著影响
-```
-      -D Kokkos_ENABLE_OPENMP=ON \
 ```
 
 
