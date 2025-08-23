@@ -24,6 +24,7 @@ tags:
 1. [AutoDock](http://autodock.scripps.edu)
 1. [UCSF DOCK](http://dock.compbio.ucsf.edu)
 1. [rDock](http://rdock.sourceforge.net)
+1. [hdock](http://hdock.phys.hust.edu.cn/)
 
 ###### protein channel
 1. [Caver Analyst](http://www.caver.cz)
