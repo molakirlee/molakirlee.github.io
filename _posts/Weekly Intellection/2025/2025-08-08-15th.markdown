@@ -21,6 +21,10 @@ tags:
 1. 2023年我回到美国，在耶鲁法学院待了一段日子。那里是精英法学院，是雄心勃勃、想要跻身美国政府高层的人的捷径。这段日子让我强烈感受到，美国是一个律师社会。律师在美国社会占主导地位，这促使美国沦为一个诉讼至上的否决制国家。无论你想做什么事，反对者都会试图通过律师来否决你。我相信，如果美国如此执着于一个主要为富人和权贵阶层服务的体系，它就不可能继续保持强国地位。我逐渐形成了这样的观点：中国是一个工程国家，它用大型工程（包括社会工程）来解决物质和社会问题，而美国则是一个律师社会，它用法律阻止几乎所有的事情，无论好坏。除此之外，美国人和中国人从根本上来说很相似：永不停歇，渴望走捷径，最终推动着世界上大多数重大变革。 -- Dan Wang《Breakneck: China's Quest to Engineer the Future》
 1. 我这辈子认识的聪明人，没有一个是不大量读书的，一个也没有。巴菲特的阅读量之大，会让你大吃一惊。我的孩子们甚至嘲笑我，是一本伸出几条腿的书。 -- [Charlie Munger(Rao Reading Algorithm)](https://raohacker.com/rao-reading-algorithm/)
 1. AI 不会减少你掌握新技能所需要付出的努力，只会让你产生不必学习就已经学会的错觉。 -- [AI Doesn't Lighten the Burden of Mastery](https://playtechnique.io/blog/ai-doesnt-lighten-the-burden-of-mastery.html)
+1. 函数的参数个数，可以看成空间的维度，2个参数就是二维空间，2500个参数就是2500维的空间。猫照片的函数就是在2500维空间里面，通过大量训练，找到一条分界线，从而算出任意一张照片落在线内的概率有多大。 -- [How Can AI ID a Cat? An Illustrated Guide](https://www.quantamagazine.org/how-can-ai-id-a-cat-an-illustrated-guide-20250430/)
+1. Consistent reliance on AI tools might undermine learning, memory, and creativity. Discomfort isn’t just a nuisance – it’s a training ground. Look for discomfort, seek it out, and encourage it.  -- [In the long run, LLMs make us dumber](https://desunit.com/blog/in-the-long-run-llms-make-us-dumber/)
+1. 大模型是压缩信息的一种方式，即使不精确、有幻觉和遗漏，也比什么都没有要好。大模型已经是一个可用的、公开的、有损的互联网压缩视图。 -- [Big LLMs weights are a piece of history](https://antirez.com/news/147)
+
 
 ### 观点
 ###### 君子可欺以其方（《孟子·万章上》）
