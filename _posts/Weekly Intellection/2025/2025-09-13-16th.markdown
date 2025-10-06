@@ -25,6 +25,8 @@ tags:
 1. Modern processors have advanced to the point where an entry-level, 6-core CPU is all that most users need, whether they're gaming, streaming, or dabbling in video editing. Even in 2025, the difference in gaming performance between a 6-core and 8-core CPU isn't worth paying the premium for the latter.  -- [It's happened — high-end CPUs are overkill in 2025](https://www.xda-developers.com/high-end-cpu-is-overkill-now/)
 1. If you're building a new PC in 2025, you should think thrice before splurging on a high-end CPU. Unless you know you need all that extra performance, the ROI just isn't there. It's much better to allocate most of your budget to the graphics card, which will net you the most performance gains. Whether you're building a PC for gaming, productivity, or AI computing, it might be more practical to avoid CPUs with over 8 cores.  -- [It's happened — high-end CPUs are overkill in 2025](https://www.xda-developers.com/high-end-cpu-is-overkill-now/)
 1. 微观粒子可分为费米子和玻色子，两者对立统一，又分别代表了对立与统一。Every elementary particle falls into one of two categories. Collectivist bosons account for the forces that move us while individualist fermions keep our atoms from collapsing.好比“易有三易”：变易、不易、简易。 变易指事物不断地变化发展，不易指变化背后稳定的规律和道理，简易则指事物本质上或核心的简单道理。 这三个概念共同构成了《易经》深刻的哲学思想，描述了宇宙的普遍规律。 -- [Matter vs. Force: Why There Are Exactly Two Types of Particles](https://www.quantamagazine.org/matter-vs-force-why-there-are-exactly-two-types-of-particles-20250623/)
+1. 交朋友，轻松付出 + 清晰边界。
+
 
 ### 观点
 ###### [The 70% problem: Hard truths about AI-assisted coding](https://addyo.substack.com/p/the-70-problem-hard-truths-about)
@@ -81,6 +83,21 @@ tags:
 1. Building this culture was like coding our organizational DNA—you need the right sequences at the start. The legendary stories from Anduril’s early days became the foundational code, continuously retold and refreshed with new chapters, embedding traits that transformed new engineers into problem-solvers capable of the impossible. 
 1. I thought then of my son, and the innumerable times he accompanied me, often at strange hours and with curious equipment in tow, to desert test sites, landing strips, and hotel rooftops. The best problems, I’ve always told him, are the ones everyone else avoids, until they become impossible to ignore. When he tells me he wants to build things like me when he grows up, I feel the weight of the work I did at Anduril, and what I still have left to do. 
 
+###### 职场语录
+1. 强势领导别硬刚
+1. 与人相处，顺应人性和利益
+1. 只夸不踩
+1. 任何时候都少提建议
+1. 说话不要让别人抓住把柄
+1. 不要别人问你什么你就答什么
+1. 不喜欢的人，就默默疏远，不必大张旗鼓，再不喜欢的人也要保留表面善意
+1. 凡事留一手，大事留证据
+1. 不知道该不该讲的，就不讲
+1. 勿露底牌
+1. 看不清时不入局
+1. 看清别人说话做事的目的
+1. 不说硬话，不做软事
+1. 人际交往的本质是利益交换
 
 ### 有趣
 
