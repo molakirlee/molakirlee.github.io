@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      "MultiWFN 大体系表面静电势分析"
+subtitle:   ""
+date:       2025-09-30 22:38:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - Multiwfn
+    - 2025
+
+---
+
+
+1. 大于1000原子的大体系：用原子电荷，具体参见[《基于原子电荷极快速绘制超大体系的分子表面静电势图》](http://sobereva.com/639)
+1. 低于1000原子的大体系[巨大体系的范德华表面静电势图的快速绘制方法](http://sobereva.com/481)是很早以前写的，如今已经没意义了！如今使用Multiwfn官网上的最新版本，结合该文提到的xtb产生的molden文件作为输入文件，直接用[《使用Multiwfn+VMD快速地绘制静电势着色的分子范德华表面图和分子间穿透图》](http://sobereva.com/443)介绍的ESPiso脚本绘制才是最好的做法。
+
+![](/img/wc-tail.GIF)

@@ -24,7 +24,7 @@ tags:
 1. 函数的参数个数，可以看成空间的维度，2个参数就是二维空间，2500个参数就是2500维的空间。猫照片的函数就是在2500维空间里面，通过大量训练，找到一条分界线，从而算出任意一张照片落在线内的概率有多大。 -- [How Can AI ID a Cat? An Illustrated Guide](https://www.quantamagazine.org/how-can-ai-id-a-cat-an-illustrated-guide-20250430/)
 1. Consistent reliance on AI tools might undermine learning, memory, and creativity. Discomfort isn’t just a nuisance – it’s a training ground. Look for discomfort, seek it out, and encourage it.  -- [In the long run, LLMs make us dumber](https://desunit.com/blog/in-the-long-run-llms-make-us-dumber/)
 1. 大模型是压缩信息的一种方式，即使不精确、有幻觉和遗漏，也比什么都没有要好。大模型已经是一个可用的、公开的、有损的互联网压缩视图。 -- [Big LLMs weights are a piece of history](https://antirez.com/news/147)
-
+1. Facebook 本质上是一家以"move fast"驱动的消费互联网公司，强调快速上线、快速推动公司业绩。这样的基因让研究人员觉得缺乏学术环境，也难以在同行中保持声望。同时，Facebook 的研究与产品部门割裂严重，研究成果很难直接落地产品，产品团队也不完全理解研究的价值。很多科学家因此感到，在 Facebook 做不出真正的创新与成绩，每日要为业务忙碌，最后就选择离开了。这说明大公司未必能用重金垄断人才，如果小公司真正在做革新性产品，有很大机会吸引到人才。 -- [臉書早期的員工Qin](https://www.facebook.com/InvestYourLifes/posts/pfbid02ZaxVs6ES9UaRcUYddE2P1YSqAfVFYQe59AoZdfHUy8Uy3BZk7dt3rf3d3zH8hP7fl)
 
 ### 观点
 ###### 君子可欺以其方（《孟子·万章上》）

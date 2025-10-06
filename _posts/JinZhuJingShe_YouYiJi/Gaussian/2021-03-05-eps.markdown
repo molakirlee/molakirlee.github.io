@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gaussian 结合MultiWFN来ESP绘制"
+title:      "Gaussian 结合MultiWFN实现静电势ESP绘制"
 subtitle:   ""
 date:       2021-03-05 12:38:00
 author:     "XiLock"

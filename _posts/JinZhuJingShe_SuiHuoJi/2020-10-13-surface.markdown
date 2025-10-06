@@ -47,6 +47,18 @@ As a matter of practical convenience, this Leading Opinion defines hydrophilic a
 ###### 纯液体表面张力
 参见课程:[第二节 纯液体的表面张力](http://courseware.eduwest.com/courseware/0129/content/0007/020001.htm)
 
+对纯液体而言，因为只有一种分子，所以只要温度和压力一定，其表面张力也就一定 。溶液则不然，溶液中有多种分子，而各种分子之间的力场强弱不同，若是力场较弱的分子富集于表面，表面张力必然降低 。即：此体系的表面积并没改变，其自由能仍会因表面成分的改变而下降（或上升）。因而对溶液而言，表面张力还受所加溶质和浓度的影响。参见[第二章 溶液表面 ](https://www.chem.pku.edu.cn/huangjb/docs/20200210115242977483.pdf)
+
+
+
+
+
+
+###### 表面张力与表面能的测量及分子模拟
+1. [LAMMPS 表面能及表面张力计算](https://molakirlee.github.io/2025/09/22/lammps_surface_Energy/)
+1. [gmx 界面张力](https://molakirlee.github.io/2024/06/02/gmx_surfaceTension/)
+
+
 ### 参考资料：
 1. [CSC Scientific Blog - Contact Angle and Surface Tension - A Fascinating Liaison](https://www.cscscientific.com/csc-scientific-blog/how-does-contact-angle-relate-to-surface-tension)
 1. [3.1 表面张力和表面能](https://wenku.baidu.com/view/594f822fcc7931b765ce1571.html)
