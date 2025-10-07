@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "gmx 分子间相互作用分析"
+title:      "gmx 应力应变分析"
 subtitle:   ""
 date:       2025-05-18 19:15:00
 author:     "XiLock"

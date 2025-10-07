@@ -83,6 +83,27 @@ tags:
 1. Building this culture was like coding our organizational DNA—you need the right sequences at the start. The legendary stories from Anduril’s early days became the foundational code, continuously retold and refreshed with new chapters, embedding traits that transformed new engineers into problem-solvers capable of the impossible. 
 1. I thought then of my son, and the innumerable times he accompanied me, often at strange hours and with curious equipment in tow, to desert test sites, landing strips, and hotel rooftops. The best problems, I’ve always told him, are the ones everyone else avoids, until they become impossible to ignore. When he tells me he wants to build things like me when he grows up, I feel the weight of the work I did at Anduril, and what I still have left to do. 
 
+###### [SLAM算法工程师每天都在干什么](https://zhuanlan.zhihu.com/p/399158875)
+无论AR,机器人，自动驾驶，或许是同一套模板。
+
+1. 研发人员会先跑通一个开源框架，我们耳熟能详的svo,vins,loam等，选其中之一进行算法移植，产品落地。
+2. 开源框架应用的过程中肯定会存在各种bug及环境适应性，针对环境及需求修复相关bug或者增加新的feature。
+3. bug和feature修复完毕，一个开源框架才算真正应用到产品，也就是我们说的，第一步跑通了代码。此时，应用但手机硬件cpu或者车载硬件工控机上，软件或测试人员会提出功耗及内存，性能的问题，比如功耗过大导致产品过热，内存过大导致运行卡顿，性能较慢导致启动时间过长等。
+4. slam研究人员针对功耗，性能，内存的问题进行相关优化，前端主要考虑cv匹配的加速，后端主要考虑求解器的重构，或者求解库的改写，或者自行实现一个求解器。
+5. 待以上步骤完成后，可以实现一个简单的产品demo，要求不高的话就可以拿这个给三方提供解决方案了。当然，出售之前需要测试各种环境的适配性，对不适配的环境也要重新进行改写，直到达到标准的稳定运行程度。
+6. 后期产品迭代及预研下一代产品，slam研究员会考虑不同框架的结合，拿出各自的优点进行组合，比如orb和vins，svo和orb的结合，结合的目的当然是创造更好的用户体验。
+7. slam算法工程师也会打破开源框架的约束，从头开始实习一个新的框架，一步一步往新框架里面添加idea及feature，或者发个论文，写个专利都可。
+每个公司的运行模式及人员安排不同，或许更有差异：
+
+有的公司slam算法直接对接三方需求，有的算法与三方中间隔着一层本公司的软件集成
+
+各有各的考虑：
+
+算法直接对外，解决问题的效率自然提升。
+算法对接集成，集成对接三方，主要考虑内部算法的隐私性。
+毕竟，一个公司，活着，主要靠算法挣钱，尤其是初创企业。
+
+
 ###### 职场语录
 1. 强势领导别硬刚
 1. 与人相处，顺应人性和利益

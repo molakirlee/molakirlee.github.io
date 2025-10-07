@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "gmx 自由能形貌图FEL绘制"
+subtitle:   ""
+date:       2025-10-07 22:15:00
+author:     "XiLock"
+header-img: ""
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2025
+
+---
+
+1. [自由能形貌图的绘制 模拟轨迹的PCA处理 GROMACS](https://zhuanlan.zhihu.com/p/421494858)
+1. [浅谈PCA与g_covar+g_anaeig+ddtdp+sigmaplot做自由能面图的方法](http://sobereva.com/73)
+1. []()
+
+
+![](/img/wc-tail.GIF)
