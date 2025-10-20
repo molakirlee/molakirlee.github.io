@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "CFD 搅拌"
+subtitle:   ""
+date:       2025-10-15 22:57:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - CFD
+    - 2025
+
+
+---
+
+
+1. [Ansys搅拌混合设备解决方案](https://zhuanlan.zhihu.com/p/674097153)
+1. [搅拌桨传质及剪切力 研究分享](https://www.cobetter.com.cn/news/technical/stirring-paddle-mass-transfer-and-shear-force-research-sharing-1.html)
+1. [基于CFD模拟的反应釜搅拌结构优化](https://xuebao.sit.edu.cn/article/doi/10.3969/j.issn.2096-3424.2022.04.016)
+
+1. [搅拌桨传质及剪切力 研究分享（上）](https://www.cobetter.com.cn/news/technical/stirring-paddle-mass-transfer-and-shear-force-research-sharing-1.html)
+1. []()
+
+![](/img/wc-tail.GIF)
