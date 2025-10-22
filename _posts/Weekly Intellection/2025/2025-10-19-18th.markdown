@@ -1,0 +1,68 @@
+---
+layout:     post
+title:      "2025-每周补脑18th"
+subtitle:   ""
+date:       2025-10-19 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2025
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 最初的计算机科学是数学，电子工程和软件设计的交叉学科，计算机科学的学生需要兼备这三者的专业知识。 -- [一本读了八年还没读完的书](https://ramsayleung.github.io/zh/post/2025/structure_and_interpretation_of_computer_programs/)
+1. 直到今天，我也只读完前三章。有时我会问自己：这本书究竟给了我什么？它没有教我实用的编程技巧，也无关面试刷题。但是我好像又抓住了一些东西，尤如用手拢过一团烟雾，张开手，并未见留下什么，但是手上还残留着它的气味。如今，MIT 的课程已用 Python 替代 Scheme，但 SICP(《Structure and Interpretation of Computer Program》) 的价值从未褪色。SICP 不是一本教你「如何编程」的书，而是一把钥匙，是一座桥，连接着工程的实用与科学的纯粹。那些括号中的表达式，最终在我脑中化成了某种朦胧却持久的气味：一种对抽象本质的直觉. -- [一本读了八年还没读完的书](https://ramsayleung.github.io/zh/post/2025/structure_and_interpretation_of_computer_programs/)
+1. 自我学习编程以来，学过的编程语言没有10种也有半打了.我也从来不会把自己定义为某门语言的程序员，如Java程序员,C++程序员等等, 我只叫自己做Software Development Engineer. 语言从来只是工具，只要你持续学习，遇到新的场景，自然就会学习新的编程语言了.计算机的世界日新月异，可能几个月就会出个新框架，几年又会流行一门新语言，只有持续学习，才能持续保持自己的竞争力。 -- [编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
+1. 关于独立思考，我最喜欢的是一句话是HBO出品短剧《切尔诺贝利》里面， 科学家瓦列里·列加索夫希望克格勃释放调查真相同事乌拉娜·霍缪克的要求，说可以保证她是没问题的，克格勃头子回答的那句话:Trust, but verify.(相信，但要核实) -- [编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
+很多的程序员都是完美主义者，尤其是读过《重构》和《设计模式》的程序员，会倾向于把很多时间来优化代码，做重构。以前的我也会有类似的冲动，总会想时间去优化代码, 但是项目肝多了之后，有种强烈的感觉，还是先把MVP上线，及早让用户体验。如果没有用户使用，再好再漂亮的代码也没有任何意义了。所以经常看到社区有人问做副业的时候，应该用什么语言和框架，PHP/Python/Ruby 会不会太慢，我的观点一直都是，先做个原型跑起来，先找到第一个用户再说。当运行速度成为瓶颈时, 你的业务已经非常大，肯定有足够的钱可以招一打的程序员把你的项目换成Golang/Java了。对此，我很赞同坐我旁边大佬关于代码质量的说法：make it run, make it fast, make it beautiful.最近在做副业的尝试，有个深刻的体会，技术可能是商业里面最不重要的。从零把产品做出来，推广给用户，用户只会关注你的产品是否好用，能否解决他们的问题. -- [编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
+1. 即使我技术能力过硬，也需要被人见到才行，和同事领导相处关系好，才可以在做出成绩的时候，「花花轿子被众人抬」。所以我现在都是有事没事都和同事们聊天，既可以提升下熟悉度，也可以了解到许多部门八卦， 还可以从同事们抱怨中找到潜在优化点，践行自己「Work hard and be nice to people」的理念.这行做久了，会发现软件工程其实说到底，就是人的系统工程。 -- [编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
+1. 编程肝项目的专业能力固然重要，但是也要有营销自己的软实力，就像一位长者说的那样: 两手抓，两手都要硬.不知道是中国人讲究谦虚内敛的品质，还是程序员「木讷呆板」的刻板印象，导致大家都不怎么营销自己。有事没事和老板聊下天，增进下交流，经常露个脸，可能比肝十个项目还有用。 -- [编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
+1. 无论是编程，还是其他的技能，我感觉都是「马太效应」，你学得越多，你懂得越多，再学新的东西，你就会学得越快。 -- [编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
+1. 代码写多了才意识到，程序员的竞争力并不是写代码，也并不是哪门语言或者框架， 其核心竞争力是通过技术解决问题的能力，又何必再去拘泥于哪门具体的编程语言或技术呢。 -- [编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
+
+
+### 观点
+###### [“规范场论”—-这个与“量子理论”齐名的理论为何鲜为人知？](http://www.pptv1.com/?p=2064)
+杨振宁昨天逝世了，其人生抉择的是非我们不做评价，单纯了解一下他的科研工作。这篇文章介绍了杨振宁的杨-米尔斯理论，并把规范场解释的比较清楚，以下摘录一部分，具体可去看全文。
+
+爱因斯坦1915年发表广义相对论之后，便开始了他的“大一统之梦”。希望通过一个个简单美妙的公式来描述和预测宇宙中的每一件事情。这一“统”就是三十余年，到死方休，但无论这位旷世奇才从数学还是物理角度来入手，最后30余年的努力一无所获，这也是爱因斯坦为什么尊敬麦克斯韦的原因，因为麦克斯韦方程可算是电、磁、光三者“统一”场理论，他统一了电磁力。那现代物理意义上的“大一统理论”到底是什么？它简称GUT，又称为万物之理。由于微观粒子之间仅存在四种相互作用力，万有引力、电磁力（麦克斯韦完成）、强相互作用力、弱相互作用力，物理学家们一直相信，弱、电、强与引力四种作用应有相同的物理起源，它们在一定的条件下应能走到一起、相聚于同一个理论框架内。如果能统一说明这四种相互作用力的理论或模型就可称为“大一统理论”。那为什么说“规范场论”有可能实现爱因斯坦眼中的“大一统理论”。
+
+规范场论我们可以简单的用这个SU(3)XSU(2)XU(1)式子来表示：
+
+1. 电磁力对应U(1)群。早期数学大神赫尔曼·外尔给出了漂亮解释。
+2. 弱相互作用力对应SU(2)群。由杨-mills引入非交换规范场论解决。
+3. 强相互作用力对应SU(3)群。由当代大物理学家“夸克之父”盖尔曼完成。
+
+也就是说，除了引力，“规范场论”基本统一了三种力。当然，这与爱因斯坦眼中的“大一统理论”有很大的差距：虽然整个SU(3)XSU(2)XU(1)群涵盖了三种相互作用,但是这毕竟是三个不同的群，它们对应的规范场的耦合强度也不同。如果能够找一个单一的群，比如比较流行的SU(5)和SO(10)，它们含有子群SU(3)XSU(2)XU(1)，然后在低能标对称性自发破缺到SU(3)XSU(2)XU(1)，这就是大一统。而且，引力也没有统一，这又涉及到更前沿的“超弦理论”的问题，随着希格斯粒子的发现，“超弦理论”更加困难重重，最有可能成为“大一统理论”的仍然是“规范场论”。当然可能有人会问，“大一统理论”就是物理学家为了追求数学上的美感瞎折腾，为什么一定要追求“大一统理论”呢？除了物理学家迷恋“美就是真”外，我们看看历史，当麦克斯韦统将电学与磁学统一电磁学后，人类学会了发电，它对于人类进步是巨大推动，更别说统一了物理所有现象的大一统理论，那可能是整个文明的指数升级。
+
+###### [“云雨伞”](https://ramsayleung.github.io/zh/post/2023/%E4%BB%8E%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98%E7%A6%BB%E7%BA%BF_%E6%88%91%E5%B8%A6%E8%B5%B0%E4%BA%86%E4%BB%80%E4%B9%88/)
+“云雨伞”这个概念来自内部的一份PPT，讲述的是如何更好地向别人提出建议，内容大概是：屋外乌云密布，儿子要出门，妈妈对儿子说，马上要下雨，淋雨容易生病，把伞带上吧。
+
+“云雨伞”的步骤就是：
+1. 指出现状：乌云密布，马上要下雨
+1. 导致的问题与影响：淋雨容易生病
+1. 提出措施和建议：把伞带上。
+
+###### [比尔盖茨自述：Celebrate 50 years of Microsoft with the company's original source code](https://www.gatesnotes.com/meet-bill/source-code/reader/microsoft-original-source-code)
+1. The story of how Microsoft came to be begins with, of all things,a magazine.The January 1975 issue of Popular Electronics featured an Altair 8800 on the cover.The Altair 8800,created by a small electronics company called MITS,was a groundbreaking personal computer kit that promised to bring computing power to hobbyists.When Paul and I saw that cover,we knew two things:the PC revolution was imminent,and we wanted to get in on the ground floor.
+1. Paul and I decided to divide and conquer.We didn't have the Intel 8080 chip that the Altair computer ran on,so Paul got to work writing a program that would simulate one on Harvard's PDP-10 mainframe. This allowed us to test our software without needing an actual Altair.Meanwhile,I focused on writing the main code for the program while another friend,Monte Davidoff,worked on a portion called the math package.We coded day and night for the two months to create the software we had said already existed
+1. Memory is expensive back then. To meet that constraint,I used various techniques to optimize memory usage,like compact data structures and efficient algorithms.It was a fun challenge,and although Paul and I were stressed about getting Altair BASIC to MITS as quickly as possible,I had a blast figuring out how to make everything fit.
+
+### 有趣
+1. [关于破解加拿大航空飞机网络限制的一件小事](https://ramsayleung.github.io/zh/post/2025/%E5%85%B3%E4%BA%8E%E7%A0%B4%E8%A7%A3%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%88%AA%E7%A9%BA%E9%A3%9E%E6%9C%BA%E7%BD%91%E7%BB%9C%E9%99%90%E5%88%B6%E7%9A%84%E4%B8%80%E4%BB%B6%E5%B0%8F%E4%BA%8B/)
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)

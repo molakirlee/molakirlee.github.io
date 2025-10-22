@@ -13,7 +13,8 @@ tags:
     - 2024
 
 ---
-
+Q:How exactly do companies use the Gams program and what problems do they use it to solve?
+A:For example, they can use it to optimize their energy flow or to optimize their trading strategy etc. You can find a lot of use cases for optimization. Please check here: https://gams.com/stories/ to see some of the case studies that we published.
 
 ### 教程
 1. 入门case[A GAMS Tutorial by Richard E. Rosenthal](https://www.gams.com/latest/docs/UG_Tutorial.html)
