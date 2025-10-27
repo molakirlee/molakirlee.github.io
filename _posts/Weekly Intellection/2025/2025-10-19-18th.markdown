@@ -27,7 +27,9 @@ tags:
 1. 编程肝项目的专业能力固然重要，但是也要有营销自己的软实力，就像一位长者说的那样: 两手抓，两手都要硬.不知道是中国人讲究谦虚内敛的品质，还是程序员「木讷呆板」的刻板印象，导致大家都不怎么营销自己。有事没事和老板聊下天，增进下交流，经常露个脸，可能比肝十个项目还有用。 -- [编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
 1. 无论是编程，还是其他的技能，我感觉都是「马太效应」，你学得越多，你懂得越多，再学新的东西，你就会学得越快。 -- [编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
 1. 代码写多了才意识到，程序员的竞争力并不是写代码，也并不是哪门语言或者框架， 其核心竞争力是通过技术解决问题的能力，又何必再去拘泥于哪门具体的编程语言或技术呢。 -- [编程十年的感悟](https://ramsayleung.github.io/zh/post/2024/%E7%BC%96%E7%A8%8B%E5%8D%81%E5%B9%B4%E7%9A%84%E6%84%9F%E6%82%9F/)
-
+1. 工程师不仅需要具备技术技能，还要具备软技能，也就是人际交往的技能。如果你不理解人类社会的复杂性，就无法理解公司或团队的工作方式，最终影响到自己的产出和扩大影响力. -- 《被低估的软技能》
+1. 如果你隐去下雨的前提，只说打伞的行为，人们会嘲笑打伞的人。
+1. 鸡蛋从里面打破是生命，从外面打破是食物。
 
 ### 观点
 ###### [“规范场论”—-这个与“量子理论”齐名的理论为何鲜为人知？](http://www.pptv1.com/?p=2064)
@@ -55,6 +57,12 @@ tags:
 1. The story of how Microsoft came to be begins with, of all things,a magazine.The January 1975 issue of Popular Electronics featured an Altair 8800 on the cover.The Altair 8800,created by a small electronics company called MITS,was a groundbreaking personal computer kit that promised to bring computing power to hobbyists.When Paul and I saw that cover,we knew two things:the PC revolution was imminent,and we wanted to get in on the ground floor.
 1. Paul and I decided to divide and conquer.We didn't have the Intel 8080 chip that the Altair computer ran on,so Paul got to work writing a program that would simulate one on Harvard's PDP-10 mainframe. This allowed us to test our software without needing an actual Altair.Meanwhile,I focused on writing the main code for the program while another friend,Monte Davidoff,worked on a portion called the math package.We coded day and night for the two months to create the software we had said already existed
 1. Memory is expensive back then. To meet that constraint,I used various techniques to optimize memory usage,like compact data structures and efficient algorithms.It was a fun challenge,and although Paul and I were stressed about getting Altair BASIC to MITS as quickly as possible,I had a blast figuring out how to make everything fit.
+
+###### 大禹治水与领导力
+1. 权力的核心从来不是研究你怎么控制别人，而是你能为别人带来什么？承担什么？
+1. 在治水过程中，大禹协调沿河的各个部族，于是就建立了最早的上下级服从机制，所有部族必须听大禹的命令；参与治水的人要脱产，其吃喝只能靠别人，于是就产生了最早的税收；治水过程中肯定会遇到不服管的部族，于是就建立了最早的常备军；要治水肯定得勘察地形，所以进行国土普查合行政区划分；治水过程中会有不少人偷奸耍滑，于是就有了最早的司法体系；大水退了之后要搞灾后重建，于是就有了最早的土地所有制井田制。所以治水完成后，大禹接替舜已毫无悬念，一旦领导者的地位在事实上被架空，也千万不要指望纸面上的程序能帮到你什么。
+1. 合格管理者的标准是什么？即：对内能不能带来增量，对外能不能抵御风险。
+
 
 ### 有趣
 1. [关于破解加拿大航空飞机网络限制的一件小事](https://ramsayleung.github.io/zh/post/2025/%E5%85%B3%E4%BA%8E%E7%A0%B4%E8%A7%A3%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%88%AA%E7%A9%BA%E9%A3%9E%E6%9C%BA%E7%BD%91%E7%BB%9C%E9%99%90%E5%88%B6%E7%9A%84%E4%B8%80%E4%BB%B6%E5%B0%8F%E4%BA%8B/)
