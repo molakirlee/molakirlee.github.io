@@ -30,6 +30,9 @@ tags:
 1. 工程师不仅需要具备技术技能，还要具备软技能，也就是人际交往的技能。如果你不理解人类社会的复杂性，就无法理解公司或团队的工作方式，最终影响到自己的产出和扩大影响力. -- 《被低估的软技能》
 1. 如果你隐去下雨的前提，只说打伞的行为，人们会嘲笑打伞的人。
 1. 鸡蛋从里面打破是生命，从外面打破是食物。
+1. To really understand a concept, you have to "invent" it yourself in some capacity. Understanding doesn't come from passive content consumption. It is always self-built. It is an active, high-agency, self-directed process of creating and debugging your own mental models.要真正理解一个概念，你必须在某种程度上自己"发明"这个概念。理解并非源于被动的内容消费，而是源于一个主动的、自我导向的创建和调试过程。 -- [François Chollet，《Python 深度学习的作者》](https://x.com/fchollet/status/1983279755823853724)
+1. 人可以怒，而不可以苦闷。怒可以构成壮美，苦闷却是一无所成，只是自我的崩溃。 -- 康德，德国哲学家
+
 
 ### 观点
 ###### [“规范场论”—-这个与“量子理论”齐名的理论为何鲜为人知？](http://www.pptv1.com/?p=2064)
