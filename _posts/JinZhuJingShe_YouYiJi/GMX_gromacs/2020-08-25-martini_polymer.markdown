@@ -17,8 +17,6 @@ tags:
 
 **感谢李老师的指导，本文内容摘录整理自参考资料，以便用时翻阅**  
 
-
-
 ### 供参考用mdp文件：
 1. [From martini官网](http://cgmartini.nl/images/parameters/exampleMDP/)
 1. [From Supernova](https://github.com/supernovaZhangJiaXing/Excalibur/tree/master/MARTINI%E7%B2%97%E7%B2%92%E5%8C%96%E5%8A%9B%E5%9C%BA%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B)
@@ -86,6 +84,15 @@ O5 C1 C2 C3
 1. [charmm-gui](http://www.charmm-gui.org/?doc=input/polymer)
 
 
+##### [PolyPly](https://cgmartini.nl/docs/downloads/force-field-parameters/martini3/polymers.html)
+1. Martini3力场建议的参考.
+1. Martini 3 polymer topologies can be obtained using [PolyPly](https://github.com/marrink-lab/polyply_1.0). A helpful tutorial on how to use PolyPly to generate polymer topologies can be found [here](https://github.com/marrink-lab/polyply_1.0/wiki/Tutorial:-Martini-Polymers).Grünewald F., et. al.. Polyply; a python suite for facilitating simulations of macromolecules and nanomaterials. Nature Communications, 2022.(doi: 10.1038/s41467-021-27627-4)
+
+
+##### [GPOLY(未测试)](https://github.com/jabl/cgpoly)
+
+##### [PolySMart：粗粒化聚合物交联反应(未测试)](https://github.com/HMakkiMD/PolySMart?tab=readme-ov-file)
+1. 原文见[《PolySMart: a general coarse-grained molecular dynamics polymerization scheme》](https://doi-org.manchester.idm.oclc.org/10.1039/D3MH00088E)
 
 ### 参考资料：
 1. [Martini实例教程：新分子的参数化](https://jerkwin.github.io/2016/10/10/Martini%E5%AE%9E%E4%BE%8B%E6%95%99%E7%A8%8BMol/)

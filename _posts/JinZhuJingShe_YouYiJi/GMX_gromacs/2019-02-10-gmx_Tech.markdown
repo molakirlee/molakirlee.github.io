@@ -16,13 +16,20 @@ tags:
 
 ### 备注
 ###### 关于限制
-一般能量极小化的时候用-DFLEXIBLE使用柔性水，第一次动力学模拟时用-DPOSRES让蛋白质位置限制住，等水已经弛豫了，再去掉蛋白质的限制做动力学。只要动力学用2fs步长，都应当用constraint=hbonds
+一般能量极小化的时候用-DFLEXIBLE使用柔性水，第一次动力学模拟时(预平衡)用-DPOSRES让蛋白质位置限制住，等水已经弛豫了，再去掉蛋白质的限制做动力学。只要动力学用2fs步长，都应当用constraint=hbonds
 
 ###### 关于
 
 
+
 ### 技巧
-#### 续算
+
+###### 加速
+1. MTS加速：Gromacs 2021以后的版本开启mts可以大幅提高速度，结合联合原子力场完全OK。最近实测某膜蛋白体系，蛋白约5200(联合)原子，膜25600(联合)原子，加上水跟抗衡离子总共约230000(联合)原子，折算成下全原子比你的体系略小，用Gromos54a8-v1力场，2fs步长，一块2060s跑NPT10ns仅用3小时多，一天能跑73ns，而不开mts一天38ns。如果是3080Ti之类的高端型号显卡在可接受的时间内完成你的体系是绝对OK的，提升幅度甚巨，分析结果也没啥区别，而且我这个体系由于蛋白形状的原因(太高了)导致水占比极高，削弱了联合原子力场省时间的优势，如果是比低矮较矮，多跨膜结构的蛋白会更有优势。参见[膜蛋白大体系如何长时间模拟](http://bbs.keinsci.com/thread-22532-1-1.html)
+1. 新版本逐代完善加速：同样的硬件越新的版本速度越快，而且不是一点点。另一方面主要是gpu可以计算的任务类型越来越多。4.6版本开始，可以算短程非键作用，2018版开始可以算PME部分，2019开始，可以把成键项也放GPU上，不过这个提升不大。2020开始，约束和更新坐标，缓冲区也可以放gpu上，就是export GMX_FORCE_UPDATE_DEFAULT_GPU=true，然后mdrun的时候-update gpu，这个大幅减少cpu/gpu交互，提升不小。所以用gpu加速要用新的版本，最好是2020以后的版本，目前的2021.4还算比较稳定，bug也修差不多了。参见[分子动力学选择Amber or Gromacs ](http://bbs.keinsci.com/thread-27044-2-1.html)
+1. []()
+
+###### 续算
 一、意外中断的任务md1  
 ```
 gmx mdrun -v -deffnm md1 -cpi md1.cpt
@@ -39,12 +46,16 @@ gmx convert-tpr -s md1.tpr -extend 10000 -o md1.tpr
 gmx mdrun -v -deffnm md1 -cpi md1.cpt
 ```
 
-#### Gromacs中pH值设定  
-It is not possible to define pH in an MD system as there are no hydronium ions floating around (you can't plausibly model that) and protons can't be exchanged in classical MD, anyway.  
+###### Gromacs中pH值设定  
+1. It is not possible to define pH in an MD system as there are no hydronium ions floating around (you can't plausibly model that) and protons can't be exchanged in classical MD, anyway.  
  You set a dominant protonation state representative of a given pH using options in pdb2gmx to alter the protonation state of titratable residues based on their individual pKa values.  
 参考：[How to set the pH in Gromacs?](https://www.researchgate.net/post/How_to_set_the_pH_in_Gromacs)
 
-#### pdb2gmx中的-chainsep和-merge的区别  
+1. H+的浓度太低。一般都是通过在模拟前设定质子化态来体现pH，至多是通过Amber的constant PH来描述，此时需要结合隐式溶剂模型。一般蛋白质所处的pH环境下H+的浓度是非常低的，首先没法期望这么去表现H+能体现出什么实际效果.而且就算放了H+（具体来说应当是水合氢离子），它本身所能表现出的效果也并不完整，原因如前所示。所以没有人这么干。 -- [请问粗粒化可以模拟氨基酸的质子化过程吗](http://bbs.keinsci.com/forum.php?mod=viewthread&tid=12280&extra=page%3D3%26filter%3Dtypeid%26typeid%3D32%26orderby%3Dlastpost)
+
+1. [GROMACS恒pH模拟](https://jerkwin.github.io/2019/11/18/GROMACS%E6%81%92pH%E6%A8%A1%E6%8B%9F/)： 当前的几种显示溶剂法都不可靠，迄今为止提出的所有其他恒pH MD方法实际上都使用了隐式溶剂.，所有这些方法都依赖于某种简化的静电方法(Poisson-Boltzmann模型, 广义Born模型等)来执行质子化状态计算。恒pH方法是最近才出现的, 并且仍处于开发和/或测试阶段. 希望它们在不久的将来会成为标准方法. 也许有一天你可以在GROMACS的.mdp文件中指定pH = 7.0, 然后在MD运行过程中就可以看到质子化状态的变化! 在此之前, 最好的解决方案可能是上面提到的: 使用标准pKa计算获得初始质子化状态的良好估计, 最后再通过MD快照进行检查。
+
+###### pdb2gmx中的-chainsep和-merge的区别  
 在处理二硫键时，若两个S原子分别在两条链上，则需要将两条链进行合并，否则二硫键不会成键。（因为gromacs不能处理成/断键，所以若想保证成键必须是一个分子）  
 在pdb2gmx时，若想合并两/多条链则可以用-chainsep或-merge，但两者不同。  
 1. 使用-chainsep合并两条链时两条链之间会形成肽键，所以有时会出现原子类型OTX（C端O）不识别的情况，若参照“aminoacids.arn”将OTX改成OC1则可运行，但合成出来的两条链分别脱O（因为C端已经去质子化，所以不是OH而是O）、H（N端），以肽键相连。  
@@ -55,22 +66,22 @@ It is not possible to define pH in an MD system as there are no hydronium ions f
 gmx pdb2gmx -f 5miz.pdb -ignh -o insulin.gro -p insulin.top -glu -ss -merge all -ter
 ```
 
-#### 盐桥计算
+###### 盐桥计算
 用gromacs的盐桥计算基本算不动，所以Xilock用VMD进行盐桥计算，因为载入的gro文件识别不了链，所以会提示不unique（即便之间index文件里面有分类），转换成pdb文件并标注链后则能区分是相同链还是不同链之间形成盐桥（链标识只能是一个字符单位）。  
 生成的文件包括所有存在过盐桥的位置以及距离随时间的关系，为dat文件，也可以额外生成一个汇总的Log文件，但log文件里只有位点没有距离随时间的关系。  
 若想得到每一时刻可能存在的盐桥数量则可以用这个[matlab脚本](https://github.com/molakirlee/Blog_Attachment_A/blob/main/gmx/Matlab_cal_salt_bridge.m)，将该脚本与所有的dat文件放在同一文件夹下运行，则脚本会自动筛选出属于同一条链的盐桥并将其距离随时间的关系拼合到同一个xls文件中。  
 
-#### 提取轨迹中某一帧  
+###### 提取轨迹中某一帧  
 ```
 gmx trjconv -f md.trr -s md.tpr -o 3000ps.gro -dump 3000
 ```
 就可以提取最接近3000ps的那一帧  
 
-#### 质心间距计算
+###### 质心间距计算
 1. `gmx distance -s md.tpr -f md.xtc -selrpos mol_cog -seltype mol_cog -n -oxyz d1 -select "cog of group "PEEK" plus com of group "Lipids""`
 1. 如果用VMD，可参考[gromacs如何提取数据做距离随时间变化的函数图？](http://bbs.keinsci.com/thread-6343-1-1.html)
 
-#### 统计某种离子一定范围内的分子个数
+###### 统计某种离子一定范围内的分子个数
 1. [[VMD] 统计某种离子一定范围内的水分子个数](http://bbs.keinsci.com/thread-1136-1-1.html)
 
 

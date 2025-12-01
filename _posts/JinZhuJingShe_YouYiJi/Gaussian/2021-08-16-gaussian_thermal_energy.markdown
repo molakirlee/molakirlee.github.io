@@ -85,4 +85,8 @@ Sob老师开发了一个计算热力学数据的小软件，做完opt、freq、�
 1. [谈谈该从Gaussian输出文件中的什么地方读电子能量](http://sobereva.com/488)
 
 
+### Q&A
+1. 溶液中的平动熵还真不能忽略，gaussian采用理想气体，所以需要校正.参见：[审稿意见求助，关于溶液中计算熵校正问题](http://bbs.keinsci.com/thread-11044-1-1.html)
+
+
 ![](/img/wc-tail.GIF)

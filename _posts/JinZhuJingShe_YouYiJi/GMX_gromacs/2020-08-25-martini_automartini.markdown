@@ -15,10 +15,12 @@ tags:
 
 ---
 
+**20251120更新：cg_param比auto-martini更好用一些，可作为其平替，两者更适合小分子，强行用两者处理蛋白如同sobtop处理蛋白。**
+
 **感谢李老师和吴伟学长的指导，搞得几次，实在是太痛苦了**  
 
 
-使用auto-martini生成小分子/非标准残基拓扑
+使用auto-martini生成**小分子/非标准残基**拓扑
 
 ### 安装
 注意auto-martini不兼容python 3.x，要在python 2.7下安装编译。

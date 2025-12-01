@@ -21,5 +21,7 @@ tags:
 1. [Material studio 中如何构建方形晶胞](https://blog.csdn.net/qq_43689832/article/details/120332473)
 1. [孪晶及铁表面聚乙烯蜡建模](https://www.bilibili.com/opus/708946964408958976)
 
+1. 分子填充(如水分子填充，分区域填充)，参见：Tutorials > Amorphous Cell tutorials > Packing molecules into existing structures
+
 
 ![](/img/wc-tail.GIF)
