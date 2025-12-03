@@ -22,9 +22,15 @@ tags:
 ### Q&A 问题及解决
 
 ###### Failed to connect via rendezvous server: Please try later
+
+1. 20251127更：xilock在用win系统控制连接校园网的电脑时，被控端为win系统时可以正常被控制，为ubuntu系统时提示"Failed to connect via rendezvous server: Please try later"，关闭Wayland后短暂连接成功一次，但没多久突然断，之后再也连接不上。后来测试发现问题出在ubuntu端，且ubuntu端可以正常ping到rs-ny.rustdesk.com，但`telnet rs-ny.rustdesk.com 21116`就提示`Trying 209.250.254.15...telnet: Unable to connect to remote host: Connection refused`，也就是ubuntu的链接请求被rustdesk的服务器拒绝了，因此xilock用zerotier组网+ip直连解决了该问题。
+1. 20251202更：接上一条，xilock从zerotier上无意中注意到ubuntu端的physical ip是ipv4，而几个win系统的都是ipv4，尝试将ubuntu的ipv4调为优先之后rustdesk默认模式连接正常了，（猜测Ubuntu 系统默认是 IPv6 优先，如果本地网络设置为 IPv6 优先，而目标服务器仅支持 IPv4 或其 IPv6 配置存在问题，就可能导致连接异常。当尝试连接目标服务器时，系统会优先尝试通过 IPv6 进行连接，若目标服务器无法响应 IPv6 连接请求，就会出现连接失败的情况，即便 IPv4 可以正常连接目标服务器，也可能因为优先级问题而未被优先使用），然而改ipv4正常一会之后又连不上了，检查zerotier发现又跳回了ipv6，但即便再跳回ipv4也不能使用rustdesk默认模式连接了。WHY？？？
+
+
+1. 20251202更：北京时间晚上23:00-第二天凌晨1:00的这段时间里rustdesk的网络不稳定？还是ubuntu端的BUCT内网对IP直连有限制？还是zerotier的服务器有限制？待核实
+
 1.  [官网FAQ: Failed to connect via rendezvous server: Please try later](https://github.com/rustdesk/rustdesk/wiki/FAQ#failed-to-connect-via-rendezvous-server-please-try-later)
 1. [Connection Error - Failed to connect via rendezvous server: Please try later #5817](https://github.com/rustdesk/rustdesk/discussions/5817)
-1. xilock在用win系统控制连接校园网的电脑时，被控端为win系统时可以正常被控制，为ubuntu系统时提示"Failed to connect via rendezvous server: Please try later"，关闭Wayland后短暂连接成功一次，但没多久突然断
 
 ###### connection error:os error 10054
 1. [connection error:os error 10054](https://github.com/rustdesk/rustdesk/issues/1113#issuecomment-1200250142): the direct connection was established, but it is later forcely closed somehow (maybe security software). I manually modifed code to use relay connection, it is ok.

@@ -124,7 +124,7 @@ nohup gmx_mpi mdrun -v -deffnm md &
 1. [Martini实例教程：新分子的参数化](https://jerkwin.github.io/2016/10/10/Martini%E5%AE%9E%E4%BE%8B%E6%95%99%E7%A8%8BMol/)
 1. [github库：cgmartini/martinize.py](https://github.com/cgmartini/martinize.py)
 1. [github库链接](https://github.com/molakirlee/martinize.py)
-
+1. [示范教程：Training school from eCOST: Coarse-Grained Tutorial](https://github.com/DanielCondeTorres/Coarse-Grain-Tutorial)
 
 供参考用mdp文件：
 1. [From martini官网](http://cgmartini.nl/images/parameters/exampleMDP/)

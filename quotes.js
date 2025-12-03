@@ -2032,6 +2032,7 @@ var quotes = [
 'Remember to be kind to yourself today.记得在今天对自己好一点。',
 'Each day is a new page in the story of autumn.每一天都是秋天故事里崭新的一页。',
 'Let us be thankful for the simple joys.让我们为生活中简单的快乐而感恩。',
+'汝果欲学诗，工夫在诗外. -- 陆游《示子遹》',
 '机不可失，时不再来.抓住每一次机会，做好迎接每一次机会的准备.',
 '大争之事，不争之人必有祸端.',
 '慕贤容众,毁方瓦合,圭角不露',
