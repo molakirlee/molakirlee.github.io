@@ -14,6 +14,9 @@ tags:
 
 ---
 
+相关文章
+1. [蛋白结构预测+小分子对接](https://molakirlee.github.io/2023/10/28/ModelBuild_Dock/)
+1. [Rosetta dock](https://molakirlee.github.io/2023/08/31/rosetta_dock/)
 
 ### Win系统下安装
 操作环境： 
@@ -66,9 +69,13 @@ DNA和RNA做ligand时要重新处理原子名称，在载入前将原子名中�
 1. Analyze->Conformations->Play，一个个的查看刚才对接的结果；
 1. 导出对接结果并转换成PDB格式的数据时，点击像“&”符号的按钮，然后再点击“Write Complex”按钮生成pdbqt文件，(命名时注意不要忘了后缀名)。打开Open Babel软件，找到刚才生成的pdbqt文件，以及写好输出的pdb文件名，然后点击CONVERT按钮。
 
-### 参考
+参考资料：
 1. [Win系统下的操作](http://blog.sciencenet.cn/blog-3196388-1090023.html)
 1. [Linux系统下的操作](https://zhuanlan.zhihu.com/p/87466460)
 1. [分子对接简明教程](https://cloud.tencent.com/developer/article/1035877)
+
+
+### Q&A
+1. [分子对接教程 | (7) AutoDock对接中易错问题](https://cloud.tencent.com/developer/inventory/15332/article/1793670)
 
 ![](/img/wc-tail.GIF)

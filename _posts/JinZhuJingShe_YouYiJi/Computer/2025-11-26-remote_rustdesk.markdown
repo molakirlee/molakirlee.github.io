@@ -14,6 +14,10 @@ tags:
 
 ---
 
+
+###### 使用指令
+1. 命令行启动服务器端：`rustdesk --service`
+
 ###### 日志文件查看
 1. [官方：日志文件位置](https://github.com/rustdesk/rustdesk/wiki/FAQ#access-logs)
 1. [Config files and logs文件位置](https://kb.unixservertech.com/software/rust/client): **Linux**: The configuration files appear to be located in the ` ~/.config/rustdesk` directory of the current user, while the log files are located in `~/.local/share/logs/RustDesk/`. Note that the commands to update the configuration must be run as the root user, with the result that they only modify the contects of `/root/.config/rustdesk`. It is possible to manually edit these files (RustDesk.toml and RustDesk2.toml), but always make a backup because the structure is not well documented, as far as I can tell so far. Copying the config files from one machine to another reportedly works well. I think you only need to copy RustDesk2.toml. **Microsoft Windows**: The config files for Windows are located in `C:\Users\username\AppData\Roaming\RustDesk\config\` and the log files are in `C:\Users\username\AppData\Roaming\RustDesk\log\` 
@@ -27,7 +31,7 @@ tags:
 1. 20251202更：接上一条，xilock从zerotier上无意中注意到ubuntu端的physical ip是ipv4，而几个win系统的都是ipv4，尝试将ubuntu的ipv4调为优先之后rustdesk默认模式连接正常了，（猜测Ubuntu 系统默认是 IPv6 优先，如果本地网络设置为 IPv6 优先，而目标服务器仅支持 IPv4 或其 IPv6 配置存在问题，就可能导致连接异常。当尝试连接目标服务器时，系统会优先尝试通过 IPv6 进行连接，若目标服务器无法响应 IPv6 连接请求，就会出现连接失败的情况，即便 IPv4 可以正常连接目标服务器，也可能因为优先级问题而未被优先使用），然而改ipv4正常一会之后又连不上了，检查zerotier发现又跳回了ipv6，但即便再跳回ipv4也不能使用rustdesk默认模式连接了。WHY？？？
 
 
-1. 20251202更：北京时间晚上23:00-第二天凌晨1:00的这段时间里rustdesk的网络不稳定？还是ubuntu端的BUCT内网对IP直连有限制？还是zerotier的服务器有限制？待核实
+1. 20251202更：北京时间晚上23:00-第二天凌晨1:00的这段时间里zerotier的网络不稳定？还是ubuntu端的BUCT内网限制？待核实
 
 1.  [官网FAQ: Failed to connect via rendezvous server: Please try later](https://github.com/rustdesk/rustdesk/wiki/FAQ#failed-to-connect-via-rendezvous-server-please-try-later)
 1. [Connection Error - Failed to connect via rendezvous server: Please try later #5817](https://github.com/rustdesk/rustdesk/discussions/5817)

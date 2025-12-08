@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "centos7 安装vnc远程服务"
+title:      "vnc远程服务安装 ubuntu·centos7"
 subtitle:   ""
 date:       2020-10-03 20:07:00
 author:     "XiLock"
@@ -15,7 +15,85 @@ tags:
 ---
 
 ### 安装
-见参考资料。
+###### centos7 见参考资料
+
+###### Ubuntu
+
+```
+# 1. 停止并禁用自带GNOME VNC（避免端口冲突）
+systemctl --user stop gnome-remote-desktop.service
+systemctl --user disable gnome-remote-desktop.service
+
+# 2. 安装TigerVNC（支持多会话）
+sudo apt-get install xserver-xorg-core
+sudo apt-get install tigervnc-standalone-server tigervnc-xorg-extension tigervnc-viewer
+sudo apt-get install gsfonts-x11 xfonts-base xfonts-75dpi xfonts-100dpi
+
+# 3. 设置VNC密码（与之前的密码可一致）
+vncpasswd
+
+# 4. 终止所有端口的VNC服务（必须先停，否则配置不生效）
+vncserver -kill :*
+
+# 5. 编辑xstartup配置（若文件不存在会自动创建）
+vim ~/.vnc/xstartup
+```
+
+添加内容如下：
+```
+#!/bin/sh
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+
+# vncconfig -iconic &
+
+dbus-launch --exit-with-session gnome-session 
+#dbus-launch --exit-with-session startxfce4 &
+```
+
+```
+# 6. 给配置文件设置权限
+sudo chmod a+x ~/.vnc/xstartup
+```
+
+运行VNC服务器端可采用以下指令，VNC投射到哪一个DISPLAY可自行指定，通常显示器端因为先进入可视化桌面所以为0，但如果vnc设为默认启动则可能vnc端口为0而显示器端桌面为1（如果选了被占用的端口则会报错exit或者A VNC/X11 server is already running as :1 on machine之类的）.
+```
+# 7. 启动TigerVNC服务（:0对应5900端口，支持本地+远程同时连接）
+vncserver :0 -localhost no -geometry 1920x1080 -depth 24
+
+# 8. 查看在运行的VNC
+vncserver -list
+
+```
+
+如果提示`Session startup via /.vnc/xstartup cleanly exited too early (< 3 seconds)!`，是因为在 exec 命令后加了 &：`exec /usr/bin/xterm ... &`，导致xterm 进程被放入后台运行。机制：VNC 服务器启动后，会立即检查子进程是否存活。由于 xterm 在后台启动，VNC 可能无法及时捕获其 PID 或者认为主进程已结束，导致它在 3 秒内判定超时并强制关闭整个 VNC 服务。具体报错如下：
+```
+=================== tail /home/hongchang/.vnc/node01:5902.log ===================
+=================================================================================
+
+Session startup via '/home/hongchang/.vnc/xstartup' cleanly exited too early (< 3 seconds)!
+
+Maybe try something simple first, e.g.,
+	tigervncserver -xstartup /usr/bin/xterm
+The X session cleanly exited!
+Killing Xtigervnc process ID 2146503... success!
+hongchang@node01:~/Desktop$ tail -20 ~/.vnc/node01:5902.log
+ ComparingUpdateTracker: (1:-nan ratio)
+xterm: Xt error: Can't open display: :2
+```
+
+
+1. 查看当前DISPLAY的都有哪几个可用：`ps -ef | grep Xorg`
+
+**几处问题待解决**：
+1. 如果是在图形界面运行`vncserver :0 -localhost no -geometry 1920x1080 -depth 24`指令，则vnc端有桌面、鼠标、图标，如果是通过ssh输入则有桌面、鼠标，没有图标。初步猜测可能是因为SSH启动时缺乏图形界面相关的环境（就像SSH不能直接运行带桌面窗口的程序）
+1. 执行`vncserver :0 -localhost no -geometry 1920x1080 -depth 24`指令的终端再输入指令时会很卡，即便vnc被kill掉也是.起初以为是`~/.vnc/xstartup`中指令末端有`&`导致但去掉后只能保证启动vnc时输入指令不卡而kill掉vnc后又会变卡，WHY？？难道kill掉后还会有新的什么指令残留？
+
+参考资料：
+1. [ubuntu系统构建VNC虚拟远程桌面](https://blog.csdn.net/u011119817/article/details/120323429)
 
 ### vnc的启动/关闭/重启
 ```

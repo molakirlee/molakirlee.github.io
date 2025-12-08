@@ -457,5 +457,7 @@ git config --global --unset https.proxy
 ### 更新20251203
 申请"x10host"的域名，以及用cloudflare解析，可参考[免费域名x10hosting 可托管cloudflare 内附双向解析教程](https://idcflare.com/t/topic/5419)和[不看后悔！X10永久免费域名申请、托管到cloudflare、域名解析全套流程手把手教学！别再犹豫，赶快行动！](https://www.youtube.com/watch?v=aDyoRYCNP9A)，*注意如果要用cloudfalre里的子域名的话(如内网穿透一文)，需要把子域名也添加到映射规则中*，如`app.xd.x10.mx中app`为子域名的话，除了映射`xd.x10.mx`到cloudflare的两个DNS外还需添加2个`app`到两个DNS的映射.
 
+记录一个更新申请域名的帖子:[免费域名中转站 低价域名](https://idcflare.com/t/topic/5394)
+
 
 
