@@ -27,6 +27,7 @@ tags:
 conda install -c conda-forge pyomo
 conda install -c conda-forge ipopt=3.11.1
 conda install -c conda-forge glpk
+conda install conda-forge::scip
 ```
 
 1. [Pyomo Installation](https://pyomo.readthedocs.io/en/6.8.0/installation.html)

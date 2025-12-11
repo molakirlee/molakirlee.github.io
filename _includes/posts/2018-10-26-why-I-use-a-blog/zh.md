@@ -1,4 +1,7 @@
- “Here We Go. ”
+
+
+
+** “Here We Go. ”**
 
 
 ### 前言
@@ -458,6 +461,12 @@ git config --global --unset https.proxy
 申请"x10host"的域名，以及用cloudflare解析，可参考[免费域名x10hosting 可托管cloudflare 内附双向解析教程](https://idcflare.com/t/topic/5419)和[不看后悔！X10永久免费域名申请、托管到cloudflare、域名解析全套流程手把手教学！别再犹豫，赶快行动！](https://www.youtube.com/watch?v=aDyoRYCNP9A)，*注意如果要用cloudfalre里的子域名的话(如内网穿透一文)，需要把子域名也添加到映射规则中*，如`app.xd.x10.mx中app`为子域名的话，除了映射`xd.x10.mx`到cloudflare的两个DNS外还需添加2个`app`到两个DNS的映射.
 
 记录一个更新申请域名的帖子:[免费域名中转站 低价域名](https://idcflare.com/t/topic/5394)
+
+### 更新20251211
+记录2个便于科研的工具搭建方式，主要包括<1>clawncloud云服务器容器注册[(链接)](https://us-east-1.run.claw.cloud/signin)<2>部署安装3x-ui面板<3>配置Inbounds<4>配置v2tayN（配置时有3点要**注意**：网址为80端口对应地址，端口为443，打开TLS），建议配合[Grok4白X V2ray、Clash百万订阅节点 定时邮箱推送](https://am.809098.xyz/grok/)使用
+1. 阿水视频：[永久免费4核8G 日本新加坡xx速度飞起 ClawCloud Run免费容器搭建xx教程](https://www.youtube.com/watch?v=U3xdIIeG0GI)
+1. [永久免费容器clawcloud 搭建3x-ui面板免费节点](https://am.809098.xyz/clawcloud/)
+
 
 
 

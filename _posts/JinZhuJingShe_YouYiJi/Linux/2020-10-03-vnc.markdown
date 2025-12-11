@@ -89,7 +89,7 @@ xterm: Xt error: Can't open display: :2
 1. 查看当前DISPLAY的都有哪几个可用：`ps -ef | grep Xorg`
 
 **几处问题待解决**：
-1. 如果是在图形界面运行`vncserver :0 -localhost no -geometry 1920x1080 -depth 24`指令，则vnc端有桌面、鼠标、图标，如果是通过ssh输入则有桌面、鼠标，没有图标。初步猜测可能是因为SSH启动时缺乏图形界面相关的环境（就像SSH不能直接运行带桌面窗口的程序）
+1. 如果是在图形界面运行`vncserver :0 -localhost no -geometry 1920x1080 -depth 24`指令，则vnc端有桌面、鼠标、图标，如果是通过ssh输入则有桌面、鼠标，没有图标。初步猜测可能是因为SSH启动时缺乏图形界面相关的环境（就像SSH不能直接运行带桌面窗口的程序），因为注意到在图形界面端输入指令时屏幕会像开机一样刷新一下。可能需要在SSH的控制端安装与桌面显示相关的补丁？？
 1. 执行`vncserver :0 -localhost no -geometry 1920x1080 -depth 24`指令的终端再输入指令时会很卡，即便vnc被kill掉也是.起初以为是`~/.vnc/xstartup`中指令末端有`&`导致但去掉后只能保证启动vnc时输入指令不卡而kill掉vnc后又会变卡，WHY？？难道kill掉后还会有新的什么指令残留？
 
 参考资料：
