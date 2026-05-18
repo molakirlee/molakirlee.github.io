@@ -464,9 +464,38 @@ git config --global --unset https.proxy
 
 ### 更新20251211
 记录2个便于科研的工具搭建方式，主要包括<1>clawncloud云服务器容器注册[(链接)](https://us-east-1.run.claw.cloud/signin)<2>部署安装3x-ui面板<3>配置Inbounds<4>配置v2tayN（配置时有3点要**注意**：网址为80端口对应地址，端口为443，打开TLS），建议配合[Grok4白X V2ray、Clash百万订阅节点 定时邮箱推送](https://am.809098.xyz/grok/)使用
+
 1. 阿水视频：[永久免费4核8G 日本新加坡xx速度飞起 ClawCloud Run免费容器搭建xx教程](https://www.youtube.com/watch?v=U3xdIIeG0GI)
 1. [永久免费容器clawcloud 搭建3x-ui面板免费节点](https://am.809098.xyz/clawcloud/)
 上面两个是采用拉取镜像部署，如果是自己上传部署可参考[利用claw run免费部署xx应急用](https://forum.naixi.net/forum.php?mod=viewthread&tid=3755)
 
+在一些win系统可能会提示`[Error] [4198201337] transport/internet/websocket: failed to dial to rlsjvmovquor.us-west-1.clawcloudrun.com:443 > tls: failed to verify certificate: x509: certificate signed by unknown authority`，说明需缺少证书。
 
+**首要排查步骤：**
+1. **确认当前 Windows 电脑的系统时间和时区是正确的，时间偏差过大会导致证书验证失败**（xilock电脑设置为英国时区时，在大陆会有证书问题，clash for window也不能download订阅，重新调整时区后正常）。
+1. 检查是否有杀毒软件或防火墙拦截了证书验证流程，可临时关闭防护软件测试。
+
+临时救急可先在v2ray中跳过证书验证，但为了安全还是安装根证书：
+
+方案 1：手动安装根证书（推荐，安全可靠）：
+1. 在能正常访问的那台 Windows 电脑上导出根证书：打开 Chrome 浏览器，访问 https://rlsjvmovquor.us-west-1.clawcloudrun.com:443
+1. 点击地址栏左侧的锁形图标 → 证书 → 详细信息 → 复制到文件
+1. 按照向导选择格式（建议 Base64 编码的 X.509 (.CER)），保存为 .cer 文件。
+1. 右键点击导出的 .cer 文件 → 安装证书
+1.选择 当前用户 或 本地计算机（推荐本地计算机，所有用户生效）
+1. 选择 将所有证书放入下列存储 → 浏览 → 选择 受信任的根证书颁发机构
+1. 完成导入，重启 v2rayN 服务。
+
+方案 2：更新 Windows 系统根证书库：
+1. 以管理员身份运行 cmd，执行以下命令更新根证书：
+```cmd
+certutil -generateSSTFromWU roots.sst
+certutil -addstore root roots.sst
+```
+1. 重启电脑，再尝试启动 v2rayN 服务。
+
+
+其它科学上网方案可参考：
+1. [SNI浏览谷歌教程](https://blog.amclubss.com/sni/)：仅限google等少量网站
+1. [一个命令完成免费serv00云服务器部署](https://am.809098.xyz/am-nodejs-proxy-serv00/)
 

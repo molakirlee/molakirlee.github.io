@@ -1,0 +1,74 @@
+---
+layout:     post
+title:      "2026-每周补脑5th"
+subtitle:   ""
+date:       2026-03-29 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2026
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 大模型不是魔法，更不是具有自主智能的"硅基智能体"，而是基于统计规律的语言模型，它的一切行为都基于数学计算。 -- Frank
+1. 写作的目的不在于写完，而在于增进你自己的理解，进而增进周围人的理解。让 AI 为你写作，就像花钱请人为你健身一样。 -- [Don't Let AI Write For You](https://alexhwoods.com/dont-let-ai-write-for-you/)
+1. John Ousterhout’s A Philosophy of Software Design: The greatest limitation in writing software is our ability to understand the systems we are creating. -- [Your job isn't programming](https://codeandcake.dev/posts/2025-12-12-your-job-isnt-programming)
+1. 程序员的工作不是编程，而是通过抽象，来管理软件的复杂性。如果你做到了这一点，那么编程就很容易了。 -- [Your job isn't programming](https://codeandcake.dev/posts/2025-12-12-your-job-isnt-programming)
+1. 人物因为缺陷和犯错才生动。在缺陷和犯错里挣扎，尝试，被打败再站起来。读者和观众看到她们在泪水和汗水里跌跌撞撞地应对属于自己的命运，才是主题的意义。人物立住了，不需要去提纲挈领，你就知道你的人物是不是你主题的表达，适不适合出现在某个情节某个场合，甚至会不会走向既定的结局。 -- [易难：抛不开的现实主义和放不下的理想主义](https://www.chinawriter.com.cn/n1/2025/0113/c404024-40400775.html)
+1. 一项民意调查发现，美国年轻人对于婚姻、子女、信仰的重视程度，远不及他们的父母，对于传统的价值观----爱国主义、宗教、社区和家庭也很冷淡。年轻人把市场和金钱当作道德准则。在他们眼里，市场决定了事物的价值、事件的意义、谁是正确的、谁是赢家、谁举足轻重。 -- [We Haven’t Seen the Worst of What Gambling and Prediction Markets Will Do to America](https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what)
+1. 对我来说，未来城市实际上是像阿姆斯特丹那样的地方，到处都是舒适的街道和自行车道，而不是像迪拜那样的地方，有16车道的高速公路，以及一群被压迫的劳工阶级在俗气的豪华购物中心里工作。 -- [Hacker News](https://news.ycombinator.com/item?id=47643388)
+1. 高校都要求博士生发表论文，至于你写什么、怎么写的、内容与研究方向有没有关系，系里其实都不在意。系里需要论文，因为论文能证明经费的合理性，而经费又能证明系的存在价值。学生只不过是达成这个目标的生产资料。 -- [The machines are fine. I'm worried about us.](https://ergosphere.blog/posts/the-machines-are-fine/)
+
+
+
+### 观点
+###### [Don't Become the Machine](https://blog.armeet.ca/becoming-the-machine/)
+我最近看到一句话："只有奴隶才通过生产力来量化自身的存在价值。"
+
+是啊，生产力越高，奴隶越有价值。
+
+这让我想到，如今的社交媒体上充斥着大量的奋斗文化，许多人展示自己是多么努力在提高个人生产力。
+
+在我看来，这就是将自己跟机器做比较。大家认定，如果能像机器一样，接收指令并高效地完成某个目标，自己就越有价值，就能取得人生成功。
+
+社交媒体上，这种"奋斗文化"有很多表现形式：（1）你还不够努力。（2）你得早上五点起床。（3）你得第一个到，最后一个走。
+
+这种文化的背后，就是要求人变成机器。
+
+机器确实很高效，但有一个问题：它是刚性的，以既定的模式和线性速度运转，无法自动适应环境变化，也无法学习游戏规则。
+
+你不是机器，你是人。**你的特点应该是灵活应变，快速适应。你不要追求极致的努力，而是要找到最有价值的解决方案。你要专注于真正重要的因素：速度、效率或质量，不要迷恋枯燥乏味的工作。**
+
+###### [The Unsustainability of Moore’s Law](https://bzolang.blog/p/the-unsustainability-of-moores-law)
+摩尔定律指的是，大约每两年，芯片上的晶体管数量就会翻一番。
+
+但是，它还有一个伴生效应，很少人提到。那就是，大约每五年，芯片工厂的建造成本就会翻一番，而能承担这种成本的芯片公司数量则会减半。
+
+二十五年前，大约有40家公司，可以建造芯片工厂，每个工厂的建造成本约为20亿至40亿美元。如今，只剩下两家或三家芯片公司（数量取决于你对英特尔的乐观程度），可以建造最先进的芯片工厂，建造成本飙升到几百亿美元。
+
+如果按照这种趋势再过10年，芯片工厂的建设成本继续翻倍飙升，也许只有一家公司或根本没有公司，能够负担这样的成本。
+
+目前，芯片的制造工艺已经逼近1纳米，再往下发展，技术壁垒和资金壁垒将同时接近极限。
+
+我预计，摩尔定律很快就会失效，未来增长主要在于算力，而不是单块芯片的计算能力。
+
+未来的芯片将会像二手车，行驶速度都差不多，只是新旧差异。我甚至觉得，2035年生产的芯片和2065年生产的芯片之间，将几乎没有什么实质性区别。
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)

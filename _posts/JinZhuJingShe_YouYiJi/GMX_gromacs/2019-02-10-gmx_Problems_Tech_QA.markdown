@@ -81,4 +81,14 @@ Note 2 [file topol.top, line 45]:
 ```
 这是因为约束强的时候化学键的振动频率高，如果低于步长的5倍之类的，那么在跑MD的过程中就会出现重原子只在原位置振动的现象，跟冻住了一样。解决方法就是增大步长或者减小成键约束。
 
+###### energy分析压力时统计平均与人工平均不一致
+1. 使用`gmx energy -f xxx.edr`分析压力时，直接显示的压力平均值和xvg中压力平均后的数值不一致，这是因为直接显示的平均值是基于nstcalcenergy平均，而xvg中的数值为基于nstenergy输出。
+1. 压力波动大非常正常，别在意这个。要统计平均压力应当统计已经达到平衡的部分。
+
+参考资料：
+1. [The output average of gmx energy differs from the average of the data stored in .xvg](https://gromacs.bioexcel.eu/t/the-output-average-of-gmx-energy-differs-from-the-average-of-the-data-stored-in-xvg/13140)
+1. [[GROMACS] 关于NPT压力是否平衡的困惑](http://bbs.keinsci.com/thread-22826-1-1.html)
+
+
+
 ![](/img/wc-tail.GIF)

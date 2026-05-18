@@ -1,0 +1,97 @@
+---
+layout:     post
+title:      "2026-每周补脑3rd"
+subtitle:   ""
+date:       2026-02-17 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2026
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 马斯克一生中只喜欢做那些"从0到1"、最前沿的、从没人成功过的事情。 做跟别人一样的产品，争夺市场份额，完全不是他的风格。电动汽车已经是一种成熟商品了，主要技术问题都解决了，完全没有进入门槛，大家开始比拼成本了。你觉得，马斯克还会有兴趣吗？我告诉你吧，对于击败中国车企，成为世界最大、最先进的电动车厂商，人家根本没有这个兴趣。他也压根不需要赚更多的钱了，已经是世界首富了。反倒是，做出无所不能的机器人，组建自动驾驶车队，或者从事其他更酷的、无人见过的业务，更符合马斯克的风格。我认为，这值得学习。中国企业不仅要追求做大做强，也可以追求做一些前无古人的事情，不仅要做 number one，还要做 only one。 -- Frank点评马斯克停产 Model S 和 Model X 两种车型只留下低价的 Model 3 和 Model Y，生产线空出来，用来生产机器人和无人驾驶出租车. -- Frank
+1. 迪拜是中东地区最繁荣的城市。但是，在1950年的时候，它还是一个海边的沙漠小村庄，除了出产珍珠，没有任何特殊之处。迪拜在红海一个突出的岬角上（上图箭头处），并不靠近主要航线，周围还有其他港口，那些地方也产珍珠，谁会特意来迪拜呢？幸运的是，1966年，迪拜发现了石油，获取了巨额财富。但是，单单有石油，并不会变成繁荣的大城市。这时，迪拜的酋长做出了几个重要决定：（1）免税，不对其他国家的商人征税；（2）发展贸易，给予商人各种便利，方便他们做生意；（3）加强基础设施，石油赚到的钱都投在道路、机场、电力、通信、港口；（4）信仰自由，任何信仰的人都可以来迪拜，不会强迫你遵守伊斯兰教。正是这些措施，使得迪拜高速发展。后来，迪拜的石油枯竭了，但是贸易已经稳固确立了，城市开始多元化发展：金融、旅游、房地产......迪拜的故事告诉我们，自然资源不会带来繁荣，但是一个低税收、宽容、安全、低管制的环境会带来繁荣。 -- Frank
+1. 根据亚马逊老板贝佐斯的定义，小团队就是可以用两张大披萨喂饱的团队，也就是5到8人。AI 出现以后，小团队将变得只用一张大披萨就可以喂饱，只需要2到3人（含产品经理和设计师）。 -- [The rise of one-pizza engineering teams](https://www.jampa.dev/p/the-rise-of-one-pizza-engineering)
+1. 创业公司可以分成两种：O(n) 与 O(n^2)，其中的 n 表示时间。O(n) 公司随着时间大致呈线性增长，而 O(n^2) 公司会呈超线性的加速增长。 -- [O(n) vs. O(n^2) Startups](https://rohan.ga/blog/startup_types/)
+1. When a whale dies in the open ocean, its carcass sinks to the abyssal floor and becomes an ecosystem. 一鲸落，万物生。一个大项目终止后，并不会真的死亡，而是化作许多小项目，四处生长。-- [Whale Fall](https://nesbitt.io/2026/02/21/whale-fall.html)
+1. Sometimes inspiration comes from the most unexpected places. In 1973, Edwin J. Saltzman, an aerospace engineer at NASA’s Dryden Flight Research Center (now the Neil A. Armstrong Flight Research Center) was bicycling to work when he noticed how the aerodynamic wakes of passing semi trucks would first push him and his bike toward the shoulder and then suck him back toward the road. What would have been a scary moment for most cyclists was a **Eureka moment** for Saltzman. -- [How a NASA Engineer Discovered a World of Semi Truck Aerodynamics by Accident](https://www.thedrive.com/news/how-a-nasa-engineer-discovered-a-world-of-semi-truck-aerodynamics-by-accident)
+1. 美国企业有一个方面做得很好，那就是他们不会把时间和精力浪费在自己不擅长的事情上，而是对自己擅长的领域加倍投入。他们只关注收益最大化，不关注成本最小化。 -- [An Interview with Ben Thompson by John Collison on the Cheeky Pint Podcast](https://stratechery.com/2026/an-interview-with-ben-thompson-by-john-collison-on-the-cheeky-pint-podcast/)
+1. Creativity requires the courage to let go of certainties. 创造力需要你有勇气去放弃确定性。 -- [Erich Fromm](https://newsletter.squishy.computer/p/folding-context)
+1. GitHub Star 曾经是一个很好的指标，直到人们逐渐意识到它确实是一个很好的指标。 -- [Hacker News](https://news.ycombinator.com/item?id=47220006)
+1. 有了 AI，工程师一个迭代可以做七个功能，晋升毫无难度。-- [Cognitive Debt: When Velocity Exceeds Comprehension](https://www.rockoder.com/beyondthecode/cognitive-debt-when-velocity-exceeds-comprehension/)
+1. 吃掉大象只有一种方法：一口一口地吃。 -- [One Bite at a Time](https://www.huddleupgroup.com/post/one-bite-at-a-time)
+
+### 观点
+###### Frank: 测试是新的护城河
+Next.js 是 Vercel 公司的产品，背后有一个大型开发团队，每年都是巨额投入，已经整整做了10年。虽然是开源软件，但是企业版、云服务、插件、皮肤都要收费，去年的年收入达到2亿美元。
+
+这种看似难以逾越的护城河，在 AI 面前不堪一击。一个工程师用了一个星期，就复刻了大团队十年的工作成果，现有的网页应用不改一行代码，放上去就能跑，原版的每个功能都支持。
+
+你知道花了多少钱？Token 费用仅仅为 1100 美元！
+
+这叫 Vercel 怎么再向 Next.js 的开发投钱，客户又怎么愿意再为某个功能付出高昂的使用费。
+
+推而广之，所有的商业软件都受到了重创。代码的护城河不存在了，只要投入一小笔金钱，AI 就能复刻出大型软件。
+
+那么，为了保护自己，软件公司下一步肯定要防止 AI 复刻。
+
+怎么防呢？关键就是测试用例。
+
+Cloudflare 工程师这一次能够复刻成功，主要原因是 Next.js 有完备的文档、庞大的社区文章、以及完整的测试用例。AI 模拟的每一个 API，只要能够通过原有的接口测试，就能确认百分百兼容。
+
+如果拿不到测试用例，谁知道代码行为是否一致，谁敢放到生产环境运行。
+
+可以想象，为了防止复刻，大型软件项目一定会保护自己的测试用例。测试才是新的护城河。
+
+世界最流行的数据库 SQLite，本身代码15.6万行，但是测试用例9205万行，足足大了590倍！
+
+其中，最核心的测试套件 TH3 是闭源的，不公开，主要测试航空、医疗等关键行业的极端情况和边缘案例，属于核心技术资产。正是这些保密用例，才让 SQLite 难以复刻。
+
+###### [资本家的本质·My boss fired me over WhatsApp while he was on vacation in Honolulu](https://ginoz.bearblog.dev/my-boss-fired-me-over-whatsapp-while-he-was-on-vacation-in-honolulu/)
+我在一家私营公司工作，老板就是创始人。
+
+前一段时间，我把待办事项清单都清空了，无事可做。我就去问项目经理还有什么项目。整整两个星期，他都没有给我派活。
+
+这是很奇怪的状况，我从没遇见过，突然就无事可干，而且已经持续了半个月。肯定哪里出问题了。
+
+于是，我直接在 Slack 上给老板发消息，询问我这个月的任务。
+
+几个小时过去了，没有回复。两天过去了，依然没有回复。
+
+今天早上，我就改在 WhatsApp 上给他的私人账号发了条同样的消息。
+
+他回复了，说他正在夏威夷度假，没看到 Slack。
+
+然后，他写了一条长长的回复，告诉我被解雇了。
+
+他说，我的部门是全公司成本最高的，而且上个月，公司第一次出现亏损，他现在不得不借钱来偿还房贷，削减成本是公司生存下去的唯一途径。
+
+我震惊了，他一边在夏威夷度假，一边说这些话。
+
+我本来很同情他，他努力挣扎着偿还房贷，还要拼尽全力维持公司运营，真的活得非常辛苦。要不是想到他还在度假，我简直要为自己向他索要工资而感到愧疚，我甚至乐意免费为他工作，以避免公司的亏损。
+
+读到他的这些解雇我的理由后，我觉得很可笑，我居然给他写信，要他给我委派任务。
+
+我后来才意识到，自己是在 WhatsApp 上被解雇的，而且只通过一条文字消息。我为他工作了四年，他解雇我的时候甚至连安排一次视频通话、面对面告诉我的勇气都没有。
+
+我看清了，我的工作就是让他能还清房贷，为他的幸福和财富做贡献。而他不需要有同情心，也不需要有直视我眼睛来解雇我的勇气。
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+![](/img/wc-tail.GIF)
