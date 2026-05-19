@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 # Do not engage
 
 You are explicitly forbidden from reading, analyzing, modifying, or
