@@ -2082,6 +2082,7 @@ var quotes = [
 'Bright windows and clean desks-that is simple joy.窗明几净，便是清欢。',
 'In the silence,grow your own roots.在寂静中，长出自己的根。',
 'Winter has its light,and dreams dwell within the heart.冬日有光，心中有梦。',
+'Scientists do not join hands every Sunday and sing "Yes gravity is real! I know gravity is real! I will have faith! I believe in my heart that what goes up, up, up must come down, down, down. Amen!" If they did, we would think they were pretty insecure about the concept. -- Dan Barker',
 'Let\'s seek joy in the simple,quiet moments.让我们在简单宁静的时刻中寻找快乐。',
 'Don\'t limit your challenges.Challenge your limits.不要限制你的挑战,挑战你的极限.'
 ]

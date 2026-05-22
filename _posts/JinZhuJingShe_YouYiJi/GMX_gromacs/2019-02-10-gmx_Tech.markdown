@@ -84,5 +84,26 @@ gmx trjconv -f md.trr -s md.tpr -o 3000ps.gro -dump 3000
 ###### 统计某种离子一定范围内的分子个数
 1. [[VMD] 统计某种离子一定范围内的水分子个数](http://bbs.keinsci.com/thread-1136-1-1.html)
 
+###### 气液界面模拟
+1. 上下是真空的，所以用的nvt
+1. 模拟一个足够大的立方体盒子，装满气体的饱和溶液，NPT+NVT平衡好
+1. 在Z方向拉长盒子至少四倍，空间里装上气体分子，NVT平衡至少100 ns
+1. 注意PME 方法改成 EW3DC， 而且拉长盒子时把slab放在中心
+
+
+1. 通常NVT，恰当设置控压时NPT亦可，参见[[GROMACS] 求助：模拟气液界面系综的选择](http://bbs.keinsci.com/thread-57253-1-1.html)
+1. [[GROMACS] 有关气液界面模拟](http://bbs.keinsci.com/thread-6409-1-1.html)
+1. [[GROMACS] 气液界面的表面张力过大](http://bbs.keinsci.com/thread-45609-1-1.html)
+1. [[GROMACS] 求助：气液界面模拟，有关出现过多LINCS WARNING报错问题的请教](http://bbs.keinsci.com/thread-30639-1-1.html)
+1. [[GROMACS] 求助：请问gromacs模拟气液界面是不能进行控压的吗？](http://bbs.keinsci.com/thread-35455-1-1.html)
+
+
+###### rdf计算的一点小问题
+1. sob: 对蛋白质做一般的以各个原子为中心再取平均的rdf并没有什么实际意义，一平均就稀里糊涂搅合在一起了，什么也说明不了。很多文章做rdf都是瞎做，实际上对大分子往往rdf一点意义都没有。可以使用`-surf`，参见[距蛋白质表面水分子的径向分布函数rdf计算问题](http://bbs.keinsci.com/thread-25148-1-1.html)、[利用gmx rdf得到的径向分布函数函数没有第一溶剂层的峰](http://ccc.keinsci.com/thread-46857-1-1.html)
+1. 消除分子内峰的步骤：1）MD跑完之后，重新调整top/itp文件，将[moleculetype]里nrexl的值设成较大的值。（该值要超过分子内目标原子之间的最大连接键的数量，如分子的原子组成为i-j-k-l-m-n，要避免出现i-n原子之间的内峰，nrexl的值要大于5）；2）用gmx grompp重新获得 filename.tpr 文件；3）用gmx rdf计算径向分布函数，如：`gmx rdf -f  filename.gro -s filename.tpr -excl -n index.ndx -o output.xvg -ref xxx -sel xxx`，参见[求助gromacs计算rdf时如何消除分子内峰？](http://bbs.keinsci.com/thread-16584-1-1.html)、[rdf数据分析请教](http://bbs.keinsci.com/thread-29112-1-1.html)
+1. 径向分布函数是每个球层位置的被统计的组的原子的数密度与平均数密度的比值，在距离煤很远的地方，水的分布情况和水的体相一样，因此除以平均密度，结果应当为1。不满足这个情况时，根据体系实际情况具体情况具体分析。也许是在计算时rdf没有考虑PBC？这样的话远处区域已经超过了盒子，rdf肯定为0。参见[使用VMD计算径向分布函数，最终稳定的数值的意义是什么](http://bbs.keinsci.com/thread-9616-1-1.html)
+1. 搞清楚rdf的定义就知道对于碳纳米管CNT周围水分布明显不是用rdf讨论问题的场合。这种体系应当自己写VMD tcl脚本，统计相对于CNT的轴线不同半径的壳层内水和有机分子的数目.参见[径向分布函数计算出的数值很大是否有问题](http://bbs.keinsci.com/thread-45023-1-1.html)
+
+
 
 ![](/img/wc-tail.GIF)
