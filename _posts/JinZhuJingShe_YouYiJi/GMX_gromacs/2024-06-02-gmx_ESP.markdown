@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      "gmx 分子表面静电势ESP"
+subtitle:   ""
+date:       2024-06-02 16:10:00
+author:     "XiLock"
+header-img: "img/post-background/bamboo3.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 《斤竹精舍·游艺集》
+    - GMX学习记录
+    - 2024
+
+
+---
+
+
+1. 首先获取电荷分布，参见[将GROMACS的原子电荷信息读入VMD的方法](http://sobereva.com/365)
+1. 构建“元素-坐标-电荷”文件xxx.chg，用Multiwfn计算表面静电势分布，参见[基于原子电荷极快速绘制超大体系的分子表面静电势图](http://sobereva.com/639)
+1. 绘图参见[使用Multiwfn+VMD快速地绘制静电势着色的分子范德华表面图和分子间穿透图](http://sobereva.com/443)
+
+
+
+
+![](/img/wc-tail.GIF)

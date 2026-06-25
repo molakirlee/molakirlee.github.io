@@ -45,5 +45,11 @@ use lib '/THFS/home/huse_fx/Desktop/polymatic_v1.1';
 1. [http://www2.matse.psu.edu/colinagroup/research/polymatic.shtml](http://www2.matse.psu.edu/colinagroup/research/polymatic.shtml)
 1. [https://nanohub.org/resources/17278/](https://nanohub.org/resources/17278/)
 
+1. [Polymatic: a generalized simulated polymerization algorithm for amorphous polymers](https://www.semanticscholar.org/paper/Polymatic%3A-a-generalized-simulated-polymerization-Abbott-Hart/0fac6c7dc7e0ee55e911ad69df49696af4bb3cdc)
+
+### 其他
+
+1. polymatic已经很久不更新了，你可以尝试用她们新开发的pysimm，在这里面她们用Python重写了polymatic。参见[polymatic建交联聚酰胺，使用perl脚本显示调用不了polymatic.pm模块](http://bbs.keinsci.com/thread-18951-1-1.html)
+
 
 ![](/img/wc-tail.GIF)

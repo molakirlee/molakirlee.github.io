@@ -14,6 +14,9 @@ tags:
 
 ---
 
+###### 资料
+1. [LAMMPS 中文站](https://lammpscnv2.vercel.app/)
+
 ###### 视频资料
 1. [60分钟 实现LAMMPS素人逆袭：金属材料拉伸](https://www.bilibili.com/video/BV1YK4y1k7dX/?spm_id_from=333.337.search-card.all.click&vd_source=42d15d5f7bb7814555b23126c5a774fb)
 1. [聚合物的LAMMPS分子动力学教学：建模+软势+退火+MSD扩散系数+压缩拉伸力学性能+链取向分析(Materials Studio、CharmmGUI建模)](https://www.bilibili.com/video/BV1zC4y1U7MU/?spm_id_from=333.337.search-card.all.click&vd_source=42d15d5f7bb7814555b23126c5a774fb)

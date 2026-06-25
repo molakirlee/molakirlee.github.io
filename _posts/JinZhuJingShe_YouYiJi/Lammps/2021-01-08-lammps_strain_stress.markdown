@@ -17,7 +17,7 @@ tags:
 ### deform法
 
 1. [lammps command reference: fix deform command](https://docs.lammps.org/fix_deform.html)
-
+1. [LAMMPS分子动力学模拟教程：拉伸过程应用](https://blog.csdn.net/weixin_42466857/article/details/148153356)
 
 ### code
 ```

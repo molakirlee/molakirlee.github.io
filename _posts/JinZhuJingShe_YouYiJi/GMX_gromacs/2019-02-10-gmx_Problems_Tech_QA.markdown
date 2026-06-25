@@ -89,6 +89,12 @@ Note 2 [file topol.top, line 45]:
 1. [The output average of gmx energy differs from the average of the data stored in .xvg](https://gromacs.bioexcel.eu/t/the-output-average-of-gmx-energy-differs-from-the-average-of-the-data-stored-in-xvg/13140)
 1. [[GROMACS] 关于NPT压力是否平衡的困惑](http://bbs.keinsci.com/thread-22826-1-1.html)
 
+###### Fatal error: atom N not found in buiding block 1DC while combining tdb and rtp
+
+jalemkul给出的解决方案：You have to interactively select the appropriate terminal patches (5TER and 3TER), otherwise the first ones in the list (NTER and CTER, for proteins) get applied and pdb2gmx chokes on the missing atoms (which rightly shouldn’t be there). 参见[Help on how to solve “atom N not found in building block 1ADE while combining tdb and rtp”](https://gromacs.bioexcel.eu/t/help-on-how-to-solve-atom-n-not-found-in-building-block-1ade-while-combining-tdb-and-rtp/2298)
+
+
+
 
 
 ![](/img/wc-tail.GIF)

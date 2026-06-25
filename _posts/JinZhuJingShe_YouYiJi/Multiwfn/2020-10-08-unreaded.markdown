@@ -19,7 +19,8 @@ tags:
 1. [pi-pi堆积：J. Chem. Soc., Dalton Trans., 2000, 3885–3896](https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.200705157)
 1. [静电势与平均局部离子化能相关资料合集](http://bbs.keinsci.com/thread-219-1-1.html)
 1. [使用Multiwfn的定量分子表面分析功能预测反应位点、分析分子间相互作用](http://sobereva.com/159)
-1. []()
+
+1. [Multiwfn支持的弱相互作用的分析方法概览](http://sobereva.com/252)
 
 
 
