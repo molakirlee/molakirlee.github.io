@@ -74,7 +74,8 @@ o  Enable hooks?
 1. [《OpenClaw 入门到精通》](https://yeasy.gitbook.io/openclaw_guide)
 
 ### 介绍
-1. [智能体OpenClaw（小龙虾）应用实践](molakirlee.github.io/_posts/JinZhuJingShe_YouYiJi/openClaw/智能体OpenClaw应用实践.pdf)
+1. [智能体OpenClaw（小龙虾）应用实践](https://github.com/molakirlee/molakirlee.github.io/blob/main/_posts/JinZhuJingShe_YouYiJi/openClaw/智能体OpenClaw应用实践.pdf)
+
 
 
 ![](/img/wc-tail.GIF)
