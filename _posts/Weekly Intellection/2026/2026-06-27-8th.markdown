@@ -1,0 +1,65 @@
+---
+layout:     post
+title:      "2026-每周补脑8th"
+subtitle:   ""
+date:       2026-06-27 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2026
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 在我看来，赚到10亿美元确实很困难，但并非不可能，而且机会比大家想象的大。6500家公司，假定共有2万个创始人，其中30个人赚到10亿美元，机会并不是那么小。他们赚到10亿美元的途径，都是创办一家成功的公司。 -- Paul Graham
+1. 你可能会说，每月93%的增长率是不现实的。那么，改成每月15%的增长率，五年以后，你会增长多少倍？我们计算 1.15 的 60 次方（因为五年是60个月）， 1.15^60 的答案大约 4384。这意味着五年后，你的公司的收入将是现在的4384倍。如果公司目前的月收入是一万美元，以这样的增长率，五年后的月收入将达到约4400万美元，一年就是5.26亿美元。届时，如果你像大多数创始人一样持有公司股份，你将成为10亿美元富翁。事实上，15%的月增长率，相当于年增长率不到5.5倍。很多创业公司都能达到或超过这个增长速度。总之，如果你二十岁出头创办了一家公司，保持着高增长率，那么到三十岁时成为10亿美元富翁是绝对可能的。 -- Paul Graham
+1. 保持高增长率的关键是，你必须创造出足够优秀的产品，让人们口口相传，这样才会有源源不断的顾客。这也是我总是先询问创始人增长率的另一个原因。增长率能反映出他们是否做出了正确的产品。 -- Paul Graham
+1. 创业的关键在于深入了解特定用户群体，从而精准地打造他们真正想要的产品。用户真正想要的是什么？你能为他们做些什么，从而显著改善他们的生活？这就是创业的同理心，也是我们在创始人身上寻找和培养的品质。 -- Paul Graham
+1. 通过创业赚到10亿美元，归根结底有两个决定因素：增长率和增长持续时间。增长率在于打造用户喜爱并乐于分享的产品；增长持续时间则在于进入一个庞大的市场。如果你的创业公司能够以指数级速度增长并占领一个庞大的市场，那么它的价值就会飙升，而作为股东的你自然而然就会变得富有，很可能赚到10亿美元。 -- Paul Graham
+1. 基本上，免费网站只有两种盈利途径：一是广告，二是出售用户个人或产生的数据。 -- [Downdetector and Speedtest sold to Accenture for $1.2 billion](https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture)
+1. 20世纪初，一些公司开始设想建立一个 GPU 操作的 C++ 通用框架，但因为各方利益不一致，难以在项目委员会达成共识，最终没有成功。最终，Nvidia 公司的 CUDA 框架取代了它，变成 GPU 操作的标准方法，Nvidia 也因此成了 AI 硬件的霸主。 -- [What about OpenCL and CUDA C++ alternatives? (Democratizing AI Compute, Part 5)](https://www.modular.com/blog/democratizing-ai-compute-part-5-what-about-cuda-c-alternatives)
+1. 以造福他人的方式来提升自己。这才是我们所追求的。Take the time you save and invest it in yourself in ways that benefit others. That’s what we’re looking for. -- [Hey, N00b, We Didn't Hire You to Complete Tasks](https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete)
+1. We hired a bunch of people like you. Some of y’all (we’ll call them A’s) will be amazing game-changers, making everyone around them wildly more productive. Many of you (B’s) will be solid performers. Some of you (the C’s) won’t be here in a year.We seniors have our regular work to do, but we also have to figure out which category you fit into. We support the superior performers as much as we possibly can. We support the solid performers enough to help them mature. Brutal as it seems, we’d like to expend as little effort as possible on people who aren’t going to make it.It’s your job to get in the category you want to be in and send us the signals that tell us that’s where you belong. -- [Hey, N00b, We Didn't Hire You to Complete Tasks](https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete)
+1. We (the seniors) are focused on the future: we know there’s going to be far more work here than we could possibly accomplish. We are paying your salary now as the option premium on the engineer you are going to become. If we play this game right, we’ll have a kick-ass next generation of engineers. If not, we’ll have to be doing the same engineering jobs ten years from now, and we really don’t want to be doing that. -- [Hey, N00b, We Didn't Hire You to Complete Tasks](https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete)
+1. A’s is not how many tasks they close, but how much they learn from each task. Remember, your productivity sucks by our standards. We expect that. It’s the first derivative of your productivity that we’re looking for. -- [Hey, N00b, We Didn't Hire You to Complete Tasks](https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete)
+1. 我发现自己陷入了许多大公司工程师的困境。我的职称和薪酬只比初级工程师略高一些，但是我每天干的工作内容属于"高级"或"资深"工程师级别。我每次晋升都失败，我感觉自己一直在解决超出自身职级两级的问题，得到的唯一回报却是上级分配更多的工作。 -- [How I Left YouTube](https://zhach.news/how-i-left-youtube/)
+
+
+### 观点
+###### [Hey, N00b, We Didn't Hire You to Complete Tasks](https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete)
+
+What distinguishes A’s is not how many tasks they close, but how much they learn from each task. Remember, your productivity sucks by our standards. We expect that. It’s the first derivative of your productivity that we’re looking for. Here are some signals that you’re an A:
+
+1. You make a convincing case that the task needn’t be done at all.
+1. You mine data and discover the 10% of the task that creates 90% of the benefit.
+1. You implement the task several ways.
+1. You uncover a better design and submit a string of diffs not only implementing the task but simplifying other parts of the code too. Bonus points for doing this before you implement (make the hard change easy then make the easy change).
+1. You submit a string of diffs instead of one big one. Bonus points if you push the diffs daily.
+1. You write an internal tool that simplifies similar tasks. (You lose points if there are no similar tasks.)
+1. You submit useful diffs in areas that having nothing to do with your team, but not at the cost of finishing your official tasks.
+1. You write up what you learned in an interesting, useful and persuasive way.
+1. You are an insightful and responsive reviewer.
+1. You include solid unit tests. (I wish this was a B signal, but baby steps...)
+
+Isn’t it nice that the “kick ass” list is so much longer than the “don’t mess up” list? You have many ways to shine.
+
+All the A signals share one trait—they take longer than just doing the work necessary to close the task. This isn’t permission to spend forever on shiny side-bars. Always get the task done in a reasonable amount of time, just not the absolute minimum time.
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+
+![](/img/wc-tail.GIF)
