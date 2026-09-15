@@ -1,0 +1,57 @@
+---
+layout:     post
+title:      "2026-每周补脑8th"
+subtitle:   ""
+date:       2026-06-27 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2026
+
+
+---
+
+### 科学
+
+
+### 言论
+1. AI 是一个完全的黑箱，这意味着所谓的"AI 工程"或"提示工程"完全是骗局，任何声称能够以某种巧妙的方式操控黑箱的说法都是虚假的。你无法探究 AI 的运行逻辑，它只是一种机器实现的"相信我，兄弟"。 -- [User Submission: AI is a Bad Tool](https://bytecode.news/posts/2026/07/user-submission-ai-is-a-bad-tool)
+1. AI 的真正风险不在于使人懒惰，而在于让"懒惰"看起来像"高效"。花十分钟读一篇摘要，把它发到社交媒体上，你感觉自己很高效，但实际上什么都没记住。 -- [Hacker News](https://news.ycombinator.com/item?id=47555081)
+1. 有人为了争夺某些原本简单明了的概念的命名权，发明了一堆新词。这样一来，在向外行解释时，根本无法清晰地传达概念，但通过这些晦涩难懂的词语，这些人就可以树立权威。 -- [AI Hot Takes From A Platform Engineer / SRE](https://alienchow.dev/post/ai_takeaways_mar_2026/)
+1. 人类程序员的职责从来都不是为编写代码而编写代码，而是在面对模糊性、各种限制和变化时降低代码的风险。以前如此，不写代码的 AI 时代更是如此。 -- [Write-Only Code](https://www.heavybit.com/library/article/write-only-code)
+1. 有一种说法，人的注意力是一种宝贵资源。你只要拥有别人的注意力，就拥有了受众，拥有了流量，从而拥有了市场。每个人的注意力（也就是时间）是有限的，属于不可再生资源，所有公司都在争夺。另一方面，注意力跟你的生产力有关。当你保持专注的时候，就是你生产力最高的时候。保持专注越久，越容易做出成果。当你专心致志投入一件事的时候（英语叫做心流状态 flow），一定要珍惜，尽量不要分心，保持越久越好。毕竟你每次专注的时间平均只有47秒，而且一天中你能够进入专注状态、保持高效的次数，可能最多只有五六次。 -- Frank
+1. 编程的发展，就是一个不断抽象的过程，可以分成三个时代。第一个时代，从20世纪40年代末到70年代，是算法时代，诞生了高级语言和编译器，将机器的底层逻辑抽象化了。第二个时代，从20世纪70年代到21世纪初，诞生了现代编程语言，将编程抽象化为面向对象。第三个时代，大约从21世纪初一直到现在，是系统化时代，库、平台和 API 大发展，编程抽象化为面向各种组件和子系统的组合。现在的 AI 编程并没有开启一个新的时代，方法论没变，AI 只是让第三个时代加速了。 -- [How Do We Stop Vibe Coding?](https://alexklos.ca/blog/how-do-we-stop-vibe-coding)
+1. 你的首要原则是不要骗自己，因为你是最容易被自己骗的人。 -- [理查德·费曼1974年加州理工学院毕业典礼演讲](https://louwrentius.com/i-think-you-might-be-fooling-yourself-with-ai.html)
+1. 对于普通任务，使用功能最强大、价格最昂贵的 AI 模型，就好像开着兰博基尼去杂货店买牛奶。 -- [Corporate America Has Suddenly Decided to Stop Blowing Money on AI](https://www.wsj.com/business/china-us-ai-model-costs-53a12e96)
+1. 一些人试图将蒸馏描述为有害行为，但我认为，应当保护"可以从任何能够观察到的事物中学习"这一原则。 -- [扎克伯格呼吁美政府重新审视AI模型蒸馏政策](https://finance.sina.cn/7x24/2026-08-11/detail-inimxrnq5879406.d.html)
+1. 你不接受某种想法，但仍然愿意对其进行思考，这是受过良好教育的标志。 -- 亚里士多德 [Top 25 Aristotle Quotes on Virtue, Knowledge, and Happiness](https://www.campion.edu.au/blog/top-25-aristotle-quotes-on-virtue-knowledge-and-happiness/)
+
+
+### 观点
+###### [如何破坏一个组织](https://www.alephic.com/sabotage)
+1944年，第二次世界大战正在进行。中央情报局的前身----战略情报局（OSS）秘密编写了一本小册子《简单破坏实战手册》，散发给德国和占领区民众，指导他们暗中破坏纳粹德国。人们惊讶地发现，小册子的内容非常实用，完全没有过时，不仅可以破坏纳粹德国，也可以破坏任何一个组织。小册子列出了一些具体做法。
+
+1. 绝不要自己做决定，要提交给委员会，由委员会做决定。
+1. 对任何文件的具体措辞讨价还价。
+1. 一遇到重要的事情，就提议召开会议。
+1. 绝不通融，坚持一切严格按流程办事。
+1. 文件要尽量冗长。
+1. 增加办事程序和审批流程。
+
+只要坚持做到上面六点，就可以破坏一个组织，大到国家，小到团队。
+
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+
+![](/img/wc-tail.GIF)

@@ -31,6 +31,11 @@ tags:
 1. A’s is not how many tasks they close, but how much they learn from each task. Remember, your productivity sucks by our standards. We expect that. It’s the first derivative of your productivity that we’re looking for. -- [Hey, N00b, We Didn't Hire You to Complete Tasks](https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete)
 1. 我发现自己陷入了许多大公司工程师的困境。我的职称和薪酬只比初级工程师略高一些，但是我每天干的工作内容属于"高级"或"资深"工程师级别。我每次晋升都失败，我感觉自己一直在解决超出自身职级两级的问题，得到的唯一回报却是上级分配更多的工作。 -- [How I Left YouTube](https://zhach.news/how-i-left-youtube/)
 
+1. 从捡烟蒂的猴子变成经营庄园的农夫。 -- 查理·芒格
+1. 预期预测风雨，不如打造坚固的船。 -- 查理·芒格
+1. 当你坐上一艘漏水的船，时间是你的敌人；当你手里是运钞机，时间就是你的朋友。 -- 查理·芒格
+1. 投资平庸公司，你的收益有上限但风险是实实在在的，你唯一的赌注是价格向价值的回归；投资卓越的公司，时间就是你的盟友，别把你的聪明才智浪费在一家公司还能卖多少废铜烂铁上。 -- 查理·芒格
+1. 所有让你快速致富的方法背后，都脏这让你破产的陷阱。 -- 查理·芒格
 
 ### 观点
 ###### [Hey, N00b, We Didn't Hire You to Complete Tasks](https://newsletter.kentbeck.com/p/hey-n00b-we-didnt-hire-you-to-complete)
@@ -51,6 +56,23 @@ What distinguishes A’s is not how many tasks they close, but how much they lea
 Isn’t it nice that the “kick ass” list is so much longer than the “don’t mess up” list? You have many ways to shine.
 
 All the A signals share one trait—they take longer than just doing the work necessary to close the task. This isn’t permission to spend forever on shiny side-bars. Always get the task done in a reasonable amount of time, just not the absolute minimum time.
+
+###### 查理·芒格:不管经济好坏，这5个行业永远在赚钱
+
+1. 垄断胜过竞争：有护城河的生意、保险、公用事业
+2. 品牌即信任：
+3. 必须胜过性感：电力、铁路、保险、日用品
+4. 简单胜过复杂：
+5. 耐心胜过聪明
+
+1. 保险业: 保险业通过浮存金创造无成本投资杠杆，优质承保形成纪律性护城河。客户先交保费，理赔存在长期时间差，这笔资金可自由用于投资增值。例如，伯克希尔哈撒韦凭借保险业务获得超1600亿美元浮存金，GEICO保险公司坚持筛选优质客户，拒绝高风险保单，每笔业务均实现盈利。
+2. 品牌消费品: 品牌消费品通过品牌的信息优势与情感确定性，让消费者省略决策步骤，拥有绝对定价权。消费品购买的是品牌的情感价值与可靠性。例如，喜思糖果凭借情人节情感溢价，年涨价10%仍销量上涨；可口可乐占据"快乐"情感心智，100年品牌记忆壁垒无法用资金复制，比如段永平投资的贵州茅台和苹果，林园的片仔癀，云南白药
+3. 自然垄断基础设施: 自然垄断基础设施因初始投资规模大、受物理空间限制，形成天然壁垒。例如，BNSF铁路拥有3.3万公里美国西部铁路网，重建成本超1000亿美元且周期极长；铁路运输能耗仅为卡车的1/3，是节能的陆地运输方式，比如国内的沪深高铁，广深铁路，大秦铁路，港口码头
+4. 公用事业: 公用事业在监管保护下合法垄断，电力、天然气等需求刚性且永恒，利润率被限制在10%-15%区间，避免恶性竞争。例如，伯克希尔哈撒韦能源公司在监管保障下，22年间利润从1.22亿美元增长至40亿美元，国内比如长江电力，川投能源，北京控股，中国燃气，青岛港，中国移动等
+5. 会员制零售:会员制零售以极致自律（控制低毛利）换取用户终身信任，会员续费率极高。例如，Costco和沃尔玛坚守商品毛利率≤14%，会员年费纯利达40亿美元；会员续费率常年超90%。
+
+查理·芒格认为，保险业、品牌消费品、自然垄断基础设施、公用事业和会员制零售**这5个行业具备"百年资产"特质，能在任何经济周期中持续盈利，其核心在于拥有难以复制的护城河、稳定的现金流和抗周期能力
+
 
 ### 有趣
 

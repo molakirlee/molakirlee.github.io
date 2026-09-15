@@ -56,6 +56,6 @@ tags:
 
 ### 参考资料：
 1. [轻子](https://baike.baidu.com/item/%E8%BD%BB%E5%AD%90/125814)
-
+1. [Matter vs. Force: Why There Are Exactly Two Types of Particles](https://www.quantamagazine.org/matter-vs-force-why-there-are-exactly-two-types-of-particles-20250623/)
 
 ![](/img/wc-tail.GIF)

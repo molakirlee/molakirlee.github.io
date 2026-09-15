@@ -1,0 +1,63 @@
+---
+layout:     post
+title:      "2026-每周补脑8th"
+subtitle:   ""
+date:       2026-06-27 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2026
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 大多数争论都是与自我意识有关，而非理念。 -- [Why I Stopped Arguing With People](https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html)
+1. 缓慢思考，快速行动，这就是成功的秘诀。Think slow, act fast: That’s the secret of success. -- [How Big Things Get Done Quotes](https://www.goodreads.com/work/quotes/96704571-how-big-things-get-done-the-surprising-factors-that-determine-the-fate)
+1. 企业为员工的时间付费，所以他们愿意为能提高员工效率的工具买单；而消费者则大多只想消磨时间，所以他们不会为提高效率的软件买单。Dropbox 把自己限制在 C 端，才是无法增长的根本原因。C 端软件的主要商业模式，要么是帮助消费者更好地消磨时间，要么就是依附于消费者注意力的广告模式。当他用你的软件消磨时间，你就可以向广告主出售他的注意力，让他分出一部分时间看广告。 -- Frank
+1. AI 明显大大提高了我现在的工作效率，我可以同时高效地处理五件事。问题是，这种工作方式使得我整天都在切换上下文，能够真正进入心流状态的时间大大减少。不久前，程序员的工作还属于冥想类工作。现在变了，更像不停接到厨房出菜的餐厅服务员。 -- [Programmers need to start meditating now](https://jacob.gold/posts/programmers-need-to-start-meditating-now/)
+1. 随着你引入越来越多的工具，复杂性会指数式增长，但是你的智力和时间不会改变。复杂性是你最大的敌人。 -- [building a saas product with htmx](https://www.chatterpulseai.com/blog/building-a-saas-product-with-htmx/)
+
+
+### 观点
+###### [How can you tell if the company you’re interviewing with is rotten on the inside?](https://charity.wtf/p/how-can-you-tell-if-the-company-youre-interviewing-with-is-rotten-on-the-inside)
+你加入了一家新公司，过了两三周，还是没有找到感觉，总觉得哪里不对劲。
+
+有一些迹象，让你怀疑，自己选择进入这家公司，是否犯了一个错误：（1）同事们在公司里从不畅所欲言；（2）公司对于批评和负面反馈从不理会；（3）公司对待竞争对手，想尽办法打击。
+
+这时，你可以问自己八个问题。
+
+1. 工作时，你感到快乐吗？
+1. 你得到了很好的补偿吗？
+1. 你的时间在这个地方产生价值吗？
+1. 你还在每天学习新事物并提高技能吗？
+1. 公司是否仍处于增长轨道上？
+1. 你相信你的领导和团队吗？
+1. 你是否仍然有使命感？
+1. 你觉得自己的工作是否会让世界变得更美好？
+1. 如果答案都是否定的，我的建议是，不妨现在就离职吧。相信自己的直觉，没必要在这里耗费一年的生命再离职。
+
+如果你只在这家公司待了几周，早点离职就更好了，你的简历上可以完全省略这家公司。
+
+雇主都有一种感觉，觉得他们理所当然对雇员拥有所有权力，可以指手画脚。不，他们错了。公司雇用你，并不是帮了你一个忙，而是你帮了他们一个忙，把你的创造力、劳动、一天的三分之一时间给了他们。
+
+他们值得拥有这些吗？他们的成功会让世界变得更美好吗？如果没有，请停止用你的工作支持他们，并将你的力量给予值得拥有你的付出的其它公司。
+
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+
+![](/img/wc-tail.GIF)
