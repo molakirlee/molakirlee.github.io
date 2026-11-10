@@ -1,0 +1,97 @@
+---
+layout:     post
+title:      "2026-每周补脑13th"
+subtitle:   ""
+date:       2026-11-07 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2026
+
+
+---
+
+### 科学
+
+
+### 言论
+1. 有人问，AI 编写的代码，我根本不理解，公司却要我发布它，怎么办？我的回答是，不要让 AI 设计代码，而要让它实现你已经设计好的代码。 -- [Hacker News](https://news.ycombinator.com/item?id=50157475)
+1. 不要让 AI 代表你，原因很简单。因为 AI 的行为模式是循环尝试，会穷尽所有可能的方式，尝试完成你交给它的任务，而且这样一遍遍的尝试，对 AI 来说几乎不产生成本。但是，人类的社会系统是为人设计的，不是为 AI 这种行为模型设计的。如果大量的人授权 AI 代表自己行事，社会运作将瘫痪，因为人力无法处理 AI 发起的海量请求，最终只能让 AI 去对付 AI。到了那个时候，你再想找真人来帮你解决问题，就不可能了。  -- Frank
+1. Elon 證明了小而扁平、技術很強的團隊能很快做成很多事；扎克伯格內化了「失敗不重要，重要的是贏的時候贏多大」。他還拿拿破崙對照：行動前徹底深思，一旦確定，就全力投入。   -- [Alexandr Wang在Founders 節目說](https://www.threads.com/@tenten.co/post/De6SPPEE58e)
+1. It doesn’t get easier, you just get faster. -- [Greg LeMond](https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/) (Partly this is because I’m being a lot more ambitious with what I take on, but it’s also because all of the easy stuff is handled for me. If it’s easy, the agent will do it. Everything that’s left for me is difficult.)
+1. 职业是可靠的财富引擎，但关键在于将收入转化为资产而非消费，同时通过培养稀缺技能、跨职能价值和可验证的成果来持续提升收入能力。 -- [How to Build Wealth as a Career Person](https://asheradeniyi.com/2026/04/10/how-to-build-wealth-as-a-career-person/)
+1. 人生是滞后的，但好在我记性不差。 -- 小红书用户大格格
+
+### 观点
+###### [Most predictions I see are still way too conservative：编程已经面目全非](https://x.com/thorstenball/status/2101305394190557466)
+
+1. 代码审查（Code review）将消失。人工审查代码已经没意义了。因为人类跟不上 AI 生成代码的速度，无法在合理的时间内，发现 AI 代码中的 Bug。人类未来只能审查整个系统的组成或架构是否合理，而绝不会像现在这样，通过 PR 逐行审查代码。
+2. 单元测试可能会消失。AI 可以随时改变代码的整个实现，再去测试一个个代码单元，就没意义了。也许下次迭代，整栋楼就会重建，何必再去检查单块砖头。将来的项目可能只有接口测试、集成测试、系统测试，而不会保留单元测试。
+3. 软件开发的重点不再是写代码。代码将来由 AI 负责，程序员的工作重点将移到代码以外的其他环节：如何用软件解决业务问题、了解软件如何实现、如何发布软件、如何收集反馈等等。
+4. Bug 的性质也变了。大多数 Bug 不再是代码 Bug，而是需求提错了或表达不准确。
+5. 软件开源不再能提升质量。以前，代码开源的一个理由是"只要关注的人足够多，所有 Bug 都能被发现"。这句话依然成立，但是现在即使你不开源，AI 也能帮你发现 Bug。
+6. 敏捷编程会死亡。敏捷编程的各种方法（Agile、Scrum 等），都意义不大了，AI 的生成速度决定了项目的开发时间，你所要做的就是把工单直接推给 AI。
+7. 项目分工将改变。以前，项目组一般包括三种角色：项目经理（PM）、设计师（Designer）、工程人员（Engineer）。以后，这种三元架构将消失。有了 AI， 一个人可以兼任多个角色。
+8. "好代码"的概念将消失。以前，"好代码"的标准是便于人类阅读理解、方便重构、开发维护效率较高的代码。但是，你已经不读代码、不直接修改和维护大部分代码，"好代码"的存在前提就消失了。
+9. 代码风格规范和 linter 工具，也没意义了。AI 会在乎代码风格吗：每行不超过80个字符、有没有换行符、缩进是 tab 键还是空格键......？
+10. UI 将变得不重要。一方面，未来的很多 UI 是给 AI 使用的，而 AI 只需要 API，不需要精致的 UI。另一方面，如果代码的生成速度极快，那么用户界面（UI）将实时生成。许多 UI 之所以存在，是因为软件无法确定你想要什么。菜单、设置页、仪表盘、过滤器，都是为了帮助用户快速确定需求。用户通过语言明确了需求，AI 就可以实时为他生成定制的 UI。
+11. Token 为王。谁能够负担更多的 Token，谁的软件就更好。如果你没有足够的 Token，你就开发不出最优秀的软件。
+
+###### 重要好文：[How to Build Wealth as a Career Person](https://asheradeniyi.com/2026/04/10/how-to-build-wealth-as-a-career-person/)
+
+1. 职业的本质定位: 职业是财富引擎而非终点，提供收入、培训、人脉和信誉，但价值取决于产出是否被导向资产积累。高收入不等于财富，若收入增幅全部转化为生活方式升级，则无法实现财务独立。
+1. 学历与表现的接力: 学历能打开第一扇门（世界银行数据显示每多一年教育平均私人回报约9%），但入职后表现取代潜力。普通学历者若具备执行力、商业意识和可靠性，可超越停滞不前的优等生。
+1. 主动创造价值的职场态度: 优秀职场人不以职位描述为边界，遇到障碍时寻求解决方案而非解释困难，培养"所有权心态"。通过承担艰难任务积累"职业资本"——稀缺且高价值的技能。
+1. 重要性与不可替代性的区别: 真正的价值在于解决越来越重要的问题，而非成为信息瓶颈。应建立系统、转移知识、培养继任者，使每个岗位比自己接手时更强。
+1. 跨职能价值与证据意识: 高绩效者突破部门局限理解整体业务运作；同时将努力转化为可量化的成果记录（收入变化、成本降低、效率提升等），为晋升和谈判提供依据。
+1. 持续学习与战略流动: 学习速度须超过角色变化速度，但每份学历须回答明确的回报问题；职业流动应比较总机会成本而非仅看薪资，定期检验市场价值但避免情绪化决策。
+1. 收入转化为所有权的核心机制: 自动化储蓄投资、控制生活方式膨胀、消除高息债务、建立多元化资产。五种资本（技能、声誉、关系、知识、财务）相互强化，信任是连接桥梁。
+1. 五阶段实践系统: 进入优质学习环境→成为卓越执行者→提升收入能力→创造支出盈余→将盈余转化为资产，循环往复使薪资依赖逐步降低。
+
+1. So the career person has two related assignments. The first is to increase the value of their work. The second is to retain and invest a meaningful part of the value they receive.
+1. The career people who progress fastest rarely behave as though their job description is the outer limit of their contribution. They understand their responsibilities, but they also pay attention to what the organization is trying to achieve.This does not mean becoming the unpaid solution to every problem or allowing an organization to exploit you. Boundaries matter. It means developing an ownership mentality: understanding that your value is connected to outcomes, not merely to activity.
+1. Career capital is built when you do difficult work well, learn what the market values and accumulate proof that you can create results.The goal is not to become permanently overworked. The goal is to compress learning into your early years and emerge with judgment, relationships and a record of delivery.
+1. Your value should come from your capacity to solve increasingly important problems, not from keeping the organization dependent on you for one recurring task.
+1. High performers do not remain mentally imprisoned inside their departments. 
+1. Organizations reward people who can see the whole system because senior leadership is fundamentally cross-functional. The higher you rise, the less sufficient narrow expertise becomes. You must understand trade-offs between customers, people, capital, technology, risk and time.
+1. Build relationships before you need favours. Offer thoughtful help. Ask intelligent questions. Learn the language of other functions. When you solve a problem, understand who benefited and how the result affected the wider business.
+1. Your network inside an organization is not merely a social circle. It is an information and execution network. It helps you see opportunities earlier, coordinate faster and build a reputation beyond the person who signs your appraisal.
+1. Hard work matters, but undocumented work is easy to forget. Career people should develop the habit of translating effort into outcomes. Do not merely say that you supported a project. Record what changed because you were involved. Did revenue increase? Did costs decline? Did processing time improve? Did customer complaints fall? Did the company enter a new market, reduce risk, retain important employees or deliver a project ahead of schedule?
+1. Keep a private record of your work that contains no confidential company information but captures your responsibilities, decisions, measurable outcomes and lessons. Update it monthly rather than trying to reconstruct several years of contribution when you need a promotion or a new role.
+1. Continuous education is important, but every additional degree should answer a serious question: What capability, access or earning opportunity will this education create?
+1. Do not collect credentials merely because progress feels easier to measure in a classroom than in the market. Consider the tuition, time, lost income and alternative ways of acquiring the same capability. A master’s degree may be an excellent investment when it is required for advancement, provides valuable technical depth, changes geography or network, or creates entry into a new profession. In another situation, a certification, apprenticeship, project or six months of focused practice may produce a better return.
+1. Education should increase capacity, not merely decorate a résumé. Learning also extends beyond formal programmes. Read books. Study your industry. Follow changes in technology and regulation. Ask senior people how they make decisions. Volunteer for assignments that expose you to budgets, customers and strategy. Learn to write clearly, present persuasively, analyse data and manage people. Artificial intelligence will change many tasks, but people who can define problems, exercise judgment and use new tools responsibly will remain valuable. The qualification may expire in relevance; the capacity to learn does not.
+1. At the same time, do not remain indefinitely in a place where your contribution is consistently undervalued and the learning has stopped. Test your market value periodically. Build relationships outside your employer before you need another job. Understand what comparable roles pay, and negotiate using evidence rather than resentment.
+1. Never make the company your entire identity. Organizations change strategy. Managers leave. Markets contract. Roles are restructured. Your security comes partly from employment, but it also comes from portable competence, reputation, relationships and financial reserves.
+1. The principle is more important than any single product: own assets that can grow or produce income without requiring every future hour of your labour.
+1. For a career person, automation is powerful. Arrange for saving and investment to occur immediately after payday, before discretionary spending expands to consume the balance. If you receive a bonus, decide the investment allocation before the money arrives. When you earn a promotion, increase your investment contribution before upgrading your lifestyle.Your savings rate matters, particularly in the early years. Investment returns cannot compensate for the absence of capital. The first task is to create a gap between earnings and spending; the second is to put that gap to productive work.
+1. These forms of capital reinforce one another. Skill produces results. Results build reputation. Reputation attracts relationships and opportunities. Opportunities increase income. Disciplined ownership converts income into financial capital. Financial strength then gives you more freedom to choose meaningful work, negotiate well, survive transitions or start something later if that becomes your path.
+1. Trust may be the most important bridge between them. Keep your word. Do not manipulate figures. Give credit to colleagues. Protect confidential information. Admit mistakes early. A person with strong competence and weak character eventually places every other form of capital at risk.
+1. Do not chase returns you do not understand. Be cautious when a colleague presents a “guaranteed” opportunity that promises unusual profit with little or no risk. Career people are attractive targets for bad investments because they receive predictable income but may not have time to examine every proposition. Your diligence at work should extend to your money.If you eventually invest in a business or begin a side venture, treat it professionally. Check whether your employment contract permits it. Separate personal and business accounts. Understand the possibility of loss. Do not damage the primary engine that is currently financing your future.
+1. You can think of the process in five stages. First, enter well. Use your grades, projects, relationships and preparation to secure the best learning environment available to you. If your grades are not strong, build other credible evidence of ability.Second, become excellent. Learn quickly, take ownership, solve problems and produce measurable results. Become useful across functions without becoming a bottleneck.Third, increase your earning power. Acquire relevant education, negotiate intelligently and move when the total opportunity justifies it. Build rare, valuable and portable capabilities.Fourth, create a surplus. Control lifestyle inflation, eliminate high-interest debt and protect the difference between what you earn and what you spend.Fifth, convert the surplus into assets. Automate regular saving and investing, diversify appropriately, manage risk and allow time to compound your ownership.Repeat the cycle. As your competence grows, your income should have the opportunity to grow. As your income grows, your investment contribution should grow. As your assets grow, your dependence on the next salary should gradually decline. That is how a career becomes a wealth-building system.
+1. The most successful career people I know did not spend their early years waiting to be discovered. They made themselves useful; they learned. They delivered. They went above and beyond when it mattered, built relationships across the organization and developed the confidence of people who could entrust them with larger responsibilities.They became star players. But the final lesson is that a star player must still become an owner. You may not own the company where you work, although employee equity can sometimes provide that opportunity. You can still own your savings, investments, pension, property, intellectual assets and future choices.Do not despise the nine-to-five. A good job can give you access to people, problems and training that would be expensive to obtain alone. It can introduce you to industries, teach you discipline and provide the capital with which you build your future.Work diligently, but do not merely work for money. Make the money you have earned begin to work for you.Your grades may open the first door. Your grit may move you through the building. Your results may take you to the highest floors. But it is the discipline of turning income into ownership that allows the career you built to become wealth that lasts.
+
+
+Money is only one kind of capital. A durable career produces several:
+1. Skill capital: what you can do exceptionally well.
+1. Reputation capital: what credible people believe about your character and ability.
+1. Relationship capital: who trusts you and will take your call.
+1. Knowledge capital: what you understand about an industry, market or problem.
+1. Financial capital: what you own and can deploy.
+
+
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+
+![](/img/wc-tail.GIF)

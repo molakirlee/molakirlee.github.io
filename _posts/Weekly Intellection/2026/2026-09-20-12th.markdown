@@ -1,0 +1,52 @@
+---
+layout:     post
+title:      "2026-每周补脑12th"
+subtitle:   ""
+date:       2026-09-20 22:36:00
+author:     "XiLock"
+header-img: "img/in-post/2018/wl-bg.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 每周补脑
+    - 2026
+
+
+---
+
+### 科学
+
+
+### 言论
+1. AI 就是一个无所不能的自动翻译器，一旦问世，像 React Native 这种中间语言或者翻译层，就被判死刑了，此刻开始退出历史舞台成了必然的结局。 -- Frank点评Shopify放弃React Native
+1. 一位创始人，如果在2024年组建了合适的团队却打造了错误的产品，那么坚持到2027年，他的团队就会变成久经沙场的团队，很可能打造出正确的产品。失败带来的经验，就像根系中的养分被储存起来，等待下一个春天的到来，而不是白白浪费。 -- [The AI Wildfire Is Coming. It's Going to Be Very Painful and Incredibly Healthy.](https://ceodinner.substack.com/p/the-ai-wildfire-is-coming-its-going)
+1. 卫星会消耗行星的自转能量，从而加速行星的毁灭。 -- [Did Venus eat its own moon](https://www.space.com/astronomy/venus/did-venus-eat-its-own-moon)(围绕在你身边的你所使用或依赖的东西也在消耗你. -- xilock)
+1. 很多技术出错，并不是太大的问题。GPS 出错，我很快会发现地点不对；Netflix 推荐的电影不好看，我就不看了。但 AI 就不同了，它越先进，就越难知道它是否出错，因为我们会用 AI 去完成那些我们自己无法完成、也无法验证的任务。一旦 AI 出错，我们只能不停召唤更强大 的 AI，希望咒语能够奏效。欢迎来到魔法师时代。 -- [On Working with Wizards](https://www.oneusefulthing.org/p/on-working-with-wizards)
+1. 一个艺术家得了晚期癌症，即将死去。一位经常采访他的主持人问他：你现在对生死有什么新的理解吗？他回答：你知道吗，吃三明治是一件多享受的事情。我现在感觉生活更珍贵了，时刻提醒自己要珍惜每一份三明治，每一分钟，以及所有的一切。 -- [Enjoy Every Sandwich](https://bradmontague.substack.com/p/enjoy-every-sandwich)
+1. Deno 宣布被 Cloudflare 收购，未来一年将只发布错误修复和安全更新，然后就彻底结束。Deno 诞生时，各种豪言壮语，要改变 Node.js 不合理、不好用的种种弊端，比如臃肿难用的依赖、没有权限控制、不支持 TypeScript 等等。它通过各种创新，或多或少接近了这些目标，但最终还是黯然收场，令人叹息。创始人 Ryan Dahl 也坦陈，正是这个原因导致他要放弃 Deno。"我曾全身心投入到 Deno 中，付出了最多的心血。但我现在认为，它不再是我发挥最大作用的地方。Deno 中有一些不错的想法，它的工程设计也很精良，但它最终并没有解决什么重大问题。它已经被 Node.js 兼容性的引力所束缚，被迫完全按照 Node.js 的模式运行。为什么要重新实现 Node.js 呢？它现在就能用。仅仅提升性能、用户体验或安全性是不够的。" -- [Deno is joining Cloudflare](https://deno.com/blog/cloudflare)
+1. 我认为，人类的思考将会减少。思考将日益成为一种休闲活动，就像动物驯化后的狩猎、印刷术发明后的书法、工业化后的木作、机动化后的骑马一样。 -- [Thinking will become a hobby](https://www.spinellis.gr/blog/20261008/?li261008)
+
+
+
+### 观点
+###### [slop lasagna式代码](https://underreacted.leaflet.pub/3mdjygm2p5s2c)
+只要代码是千层面结构，那么单独一层很糟糕，并不影响全局。真正重要的是下面的事情。
+
+1. 数据如何在系统中流动，当前的数据从哪里输入，又输出了什么，以及你存储了哪些数据。
+2. 用户体验如何，有没有明显的漏洞、糟糕的性能、前后不一致的行为。
+3. 基本的抽象概念是否正确，有没有误用。
+
+只要上面三点 OK ，代码又是组件式的可抽换结构，那么程序就没有大的问题。这时，某个组件是否冗长、写得好不好、是否简洁合理，有没有小 Bug，其实无关大局。
+
+
+### 有趣
+
+
+### 荐书
+
+
+### 杂谈
+
+
+
+![](/img/wc-tail.GIF)
